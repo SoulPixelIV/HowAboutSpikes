@@ -65,8 +65,9 @@ y = y + global.verSpeed;
 key_left = keyboard_check(ord('A'));
 key_right = keyboard_check(ord('D'));
 key_jump = keyboard_check_pressed(vk_space);
+key_attack = keyboard_check_pressed(vk_shift);
 
-var move = key_right - key_left;
+var move = key_right - key_left;   
 
 global.horSpeed = move * global.movSpeed;
 
@@ -77,6 +78,23 @@ if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (globa
 {
     global.verSpeed = -global.jumpStrength;
     global.numberJumps = global.numberJumps - 1;
+}
+
+//###Combat###
+if (key_attack)
+{
+    if (sign(move) == 1)
+    {
+        instance_create(x + 32, y, hitbox_obj);
+    }
+    if (sign(move) == -1)
+    {
+        instance_create(x - 32, y, hitbox_obj);
+    }
+    else
+    {
+        instance_create(x + 32, y, hitbox_obj);
+    }
 }
 
 //###Collision Checking###
@@ -97,58 +115,6 @@ if (!place_free(x, y + global.verSpeed))
     global.verSpeed = 0;
     global.numberJumps = global.numberJumpsSave;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-x = x + global.horSpeed;
-y = y + global.verSpeed;
-global.horSpeed = 0;
-
-if keyboard_check(ord('A')) &amp;&amp; place_free(x - global.horSpeed, y)
-{
-    global.horSpeed = -global.movSpeed;
-}
-if keyboard_check(ord('D')) &amp;&amp; place_free(x + global.horSpeed, y)
-{
-    global.horSpeed = global.movSpeed;
-}
-//###Jumping###
-if place_free(x, y + global.verSpeed)
-{
-    global.verSpeed += global.gravityStrength;
-}
-else
-{
-    global.numberJumps = global.numberJumpsSave;
-    global.verSpeed = 0;
-}
-
-if global.numberJumps &gt; 0
-{
-    if keyboard_check_pressed(vk_space)
-    {
-        global.verSpeed = -global.jumpStrength;
-        global.numberJumps = global.numberJumps - 1;
-    }
-}
-//###Collision Checking###
-/*
-if !place_free(x, y - 2)
-{
-    global.verSpeed = 0;
-}
-
-
 </string>
           </argument>
         </arguments>

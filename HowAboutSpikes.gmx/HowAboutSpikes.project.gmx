@@ -12,6 +12,8 @@
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\finish_spr</sprite>
+    <sprite>sprites\hitbox_spr</sprite>
+    <sprite>sprites\enemy_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -28,6 +30,8 @@
     <object>objects\checkpoint_obj</object>
     <object>objects\globalSettings_obj</object>
     <object>objects\finish_obj</object>
+    <object>objects\hitbox_obj</object>
+    <object>objects\enemy_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
