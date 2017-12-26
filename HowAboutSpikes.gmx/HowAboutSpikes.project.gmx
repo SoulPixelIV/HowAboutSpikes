@@ -14,17 +14,31 @@
     <sprite>sprites\finish_spr</sprite>
     <sprite>sprites\hitbox_spr</sprite>
     <sprite>sprites\enemy_spr</sprite>
+    <sprite>sprites\ladder_spr</sprite>
+    <sprite>sprites\lever_spr</sprite>
+    <sprite>sprites\door_spr</sprite>
+    <sprite>sprites\key_spr</sprite>
+    <sprite>sprites\snow_spr</sprite>
+    <sprite>sprites\ice_spr</sprite>
+    <sprite>sprites\snowRC_spr</sprite>
+    <sprite>sprites\snowLC_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
+    <background>background\snowBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\snowfall_scr.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\ground_obj</object>
+    <object>objects\groundRC_obj</object>
+    <object>objects\groundLC_spr</object>
     <object>objects\ground2_obj</object>
     <object>objects\spike_obj</object>
     <object>objects\checkpoint_obj</object>
@@ -32,6 +46,18 @@
     <object>objects\finish_obj</object>
     <object>objects\hitbox_obj</object>
     <object>objects\enemy_obj</object>
+    <objects name="roomCollider">
+      <object>objects\roomColliderUp_obj</object>
+      <object>objects\roomColliderDown_obj</object>
+      <object>objects\roomColliderLeft_obj</object>
+      <object>objects\roomColliderRight_obj</object>
+    </objects>
+    <object>objects\ladder_obj</object>
+    <object>objects\lever_obj</object>
+    <object>objects\triggerBlock_obj</object>
+    <object>objects\door_obj</object>
+    <object>objects\key_obj</object>
+    <object>objects\snowfall_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

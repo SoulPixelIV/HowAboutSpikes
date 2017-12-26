@@ -25,11 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.movSpeed = 2.45;
-global.jumpStrength = 5.24;
+            <string>global.movSpeed = 3.45;
+global.jumpStrength = 6.24;
 global.numberJumps = 2;
 global.gravityStrength = 0.23;
+global.ladderSpeed = 3.25;
 
+global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
 global.horSpeed = 0;
 global.verSpeed = 0;
@@ -159,9 +161,52 @@ if (place_meeting(x, y, spike_obj))
     }
 }
 //###Finish Collision###
-if (place_meeting(x, y, finish_obj))
+if (place_meeting(x, y, roomColliderRight_obj))
 {
     room_goto_next();
+}
+if (place_meeting(x, y, roomColliderLeft_obj))
+{
+    room_goto_previous();
+}
+//###Ladder Collision###
+if (place_meeting(x, y, ladder_obj) &amp;&amp; keyboard_check(ord('W')))
+{
+    //###Collision Checking###
+    if (!place_free(x + global.horSpeed, y))
+    {
+        while (place_free(x + sign(global.horSpeed), y))
+        {
+            x = x + sign(global.horSpeed);
+        }
+        global.horSpeed = 0;
+    }
+    else
+    {
+        global.verSpeed = -global.ladderSpeed;
+    }
+    if (!place_free(x, y + global.verSpeed))
+    {
+        while (place_free(x, y + sign(global.verSpeed)))
+        {
+            y = y + sign(global.verSpeed);
+        }
+        global.verSpeed = 0;
+    }
+    else
+    {
+        global.verSpeed = -global.ladderSpeed;
+    }
+}
+//###Lever Collision###
+if (place_meeting(x, y, lever_obj))
+{
+    instance_destroy(triggerBlock_obj);
+}
+//###Key Collision###
+if (place_meeting(x, y, key_obj))
+{
+    global.holding = other.id;
 }
 </string>
           </argument>
