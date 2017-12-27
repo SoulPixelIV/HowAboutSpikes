@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.movSpeed = 3.45;
-global.jumpStrength = 6.24;
+            <string>global.movSpeed = 2.65;
+global.jumpStrength = 7.04;
 global.numberJumps = 2;
-global.gravityStrength = 0.23;
+global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
 
 global.holding = noone;
