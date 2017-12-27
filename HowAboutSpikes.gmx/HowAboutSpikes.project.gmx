@@ -22,10 +22,13 @@
     <sprite>sprites\ice_spr</sprite>
     <sprite>sprites\snowRC_spr</sprite>
     <sprite>sprites\snowLC_spr</sprite>
+    <sprite>sprites\wood_spr</sprite>
+    <sprite>sprites\wood2_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
     <background>background\snowBackground_bg</background>
+    <background>background\snowBackground2_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -40,6 +43,8 @@
     <object>objects\groundRC_obj</object>
     <object>objects\groundLC_spr</object>
     <object>objects\ground2_obj</object>
+    <object>objects\woodBlock_obj</object>
+    <object>objects\woodBlock2_obj</object>
     <object>objects\spike_obj</object>
     <object>objects\checkpoint_obj</object>
     <object>objects\globalSettings_obj</object>
@@ -58,6 +63,7 @@
     <object>objects\door_obj</object>
     <object>objects\key_obj</object>
     <object>objects\snowfall_obj</object>
+    <object>objects\specialBlock_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
