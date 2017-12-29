@@ -148,9 +148,10 @@ if (place_meeting(x, y, checkpoint_obj))
 //###Spike Collision###
 if (place_meeting(x, y, spike_obj))
 {
-    if (global.checkpointRoom == noone)
+    if (global.checkpointX == 0)
     {
-        room_restart();
+        x = spawn_obj.x;
+        y = spawn_obj.y - 8;
     }
     else
     {
@@ -196,6 +197,7 @@ if (place_meeting(x, y, ladder_obj) &amp;&amp; keyboard_check(ord('W')))
     else
     {
         global.verSpeed = -global.ladderSpeed;
+        global.numberJumps = global.numberJumpsSave;
     }
 }
 //###Lever Collision###
@@ -236,6 +238,8 @@ guiPosY = view_yview[0];
 draw_set_font(gui_fnt);
 draw_text(guiPosX + 8, guiPosY, "Jumps = " + string(global.numberJumps));
 draw_text(guiPosX + 8, guiPosY + 16, "VSpeed = " + string(global.verSpeed));
+draw_text(guiPosX + 8, guiPosY + 32, "FPS = " + string(fps_real));
+draw_text(guiPosX + 8, guiPosY + 48, "'R' to Restart Room!");
 </string>
           </argument>
         </arguments>

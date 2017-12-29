@@ -25,6 +25,7 @@
     <sprite>sprites\wood_spr</sprite>
     <sprite>sprites\wood2_spr</sprite>
     <sprite>sprites\coin_spr</sprite>
+    <sprite>sprites\dude_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -66,6 +67,8 @@
     <object>objects\snowfall_obj</object>
     <object>objects\specialBlock_obj</object>
     <object>objects\coin_obj</object>
+    <object>objects\dude_obj</object>
+    <object>objects\spawn_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
