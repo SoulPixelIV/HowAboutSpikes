@@ -25,11 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.movSpeed = 2.65;
+            <string>health = 2;
+global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
 global.numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
+global.state = 0;
 
 global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
@@ -38,6 +40,31 @@ global.verSpeed = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
+noDamage = false;
+nearEnemy = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>noDamage = false;
 </string>
           </argument>
         </arguments>
@@ -83,20 +110,50 @@ if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (globa
 }
 
 //###Combat###
-if (key_attack)
+if (global.verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128)
 {
-    if (sign(move) == 1)
+    nearEnemy = true;
+    if (key_attack)
     {
-        instance_create(x + 32, y, hitbox_obj);
+        global.state = 1;
     }
-    if (sign(move) == -1)
+}
+else
+{
+    nearEnemy = false;
+}
+
+switch (global.state)
+{
+case 1:
+    targetX = enemy_obj.x;
+    targetY = enemy_obj.y;
+    global.state = 2;
+    break;
+    
+case 2:
+    if (distance_to_point(targetX, targetY) &lt; 32)
     {
-        instance_create(x - 32, y, hitbox_obj);
+        global.state = 3;
     }
     else
     {
-        instance_create(x + 32, y, hitbox_obj);
+        move_towards_point(targetX, targetY, 7.4);
+        instance_create(x, y, hitbox_obj);
     }
+    break;
+
+case 3:
+    speed = 0;
+    global.verSpeed = 0;
+    global.horSpeed = 0;
+    global.state = 4;
+    break;
+    
+case 4:
+    global.verSpeed = -4;
+    global.state = 0;
+    break;
 }
 
 //###Collision Checking###
@@ -148,17 +205,29 @@ if (place_meeting(x, y, checkpoint_obj))
 //###Spike Collision###
 if (place_meeting(x, y, spike_obj))
 {
-    if (global.checkpointX == 0)
+    global.verSpeed = -7;
+    global.horSpeed = 5 * sign(global.horSpeed);
+    if (noDamage == false)
     {
-        x = spawn_obj.x;
-        y = spawn_obj.y - 8;
+        health = health - 1;
     }
-    else
+    noDamage = true;
+    alarm[0] = 15;
+    if (health &lt;= 0)
     {
-        x = global.checkpointX;
-        y = global.checkpointY;
-        global.verSpeed = 0;
-        global.horSpeed = 0;
+        if (global.checkpointX == 0)
+        {
+            x = spawn_obj.x;
+            y = spawn_obj.y - 8;
+        }
+        else
+        {
+            x = global.checkpointX;
+            y = global.checkpointY;
+            global.verSpeed = 0;
+            global.horSpeed = 0;
+        }
+        health = 2;
     }
 }
 //###Finish Collision###
@@ -236,10 +305,36 @@ if (place_meeting(x, y, key_obj))
 guiPosX = view_xview[0];
 guiPosY = view_yview[0];
 draw_set_font(gui_fnt);
+
+//###Health###
+if (health == 2)
+{
+    draw_sprite(heart_spr, 0, guiPosX + 256, guiPosY + 32);
+    draw_sprite(heart_spr, 0, guiPosX + 304, guiPosY + 32);
+}
+if (health == 1)
+{
+    draw_sprite(heart_spr, 0, guiPosX + 256, guiPosY + 32);
+    draw_sprite(heart_spr, 1, guiPosX + 304, guiPosY + 32);
+}
+if (health == 0)
+{
+    draw_sprite(heart_spr, 1, guiPosX + 256, guiPosY + 32);
+    draw_sprite(heart_spr, 1, guiPosX + 304, guiPosY + 32);
+}
+
+//###GUI###
 draw_text(guiPosX + 8, guiPosY, "Jumps = " + string(global.numberJumps));
 draw_text(guiPosX + 8, guiPosY + 16, "VSpeed = " + string(global.verSpeed));
 draw_text(guiPosX + 8, guiPosY + 32, "FPS = " + string(fps_real));
-draw_text(guiPosX + 8, guiPosY + 48, "'R' to Restart Room!");
+draw_text(guiPosX + 8, guiPosY + 48, "State = " + string(global.state));
+draw_text(guiPosX + 8, guiPosY + 64, "'R' to Restart Room!");
+
+//###Combat###
+if (nearEnemy == true)
+{
+    draw_text(player_obj.x - 16, player_obj.y - 30, "LShift!");
+}
 </string>
           </argument>
         </arguments>

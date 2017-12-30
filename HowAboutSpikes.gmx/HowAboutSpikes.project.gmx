@@ -26,11 +26,13 @@
     <sprite>sprites\wood2_spr</sprite>
     <sprite>sprites\coin_spr</sprite>
     <sprite>sprites\dude_spr</sprite>
+    <sprite>sprites\heart_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
     <background>background\snowBackground_bg</background>
     <background>background\snowBackground2_bg</background>
+    <background>background\purpleHazeBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -62,7 +64,7 @@
     <object>objects\ladder_obj</object>
     <object>objects\lever_obj</object>
     <object>objects\triggerBlock_obj</object>
-    <object>objects\door_obj</object>
+    <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
     <object>objects\snowfall_obj</object>
     <object>objects\specialBlock_obj</object>
@@ -71,7 +73,8 @@
     <object>objects\spawn_obj</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\tutorial</room>
+    <room>rooms\gardenValley</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
