@@ -28,6 +28,8 @@
     <sprite>sprites\dude_spr</sprite>
     <sprite>sprites\heart_spr</sprite>
     <sprite>sprites\house_spr</sprite>
+    <sprite>sprites\forestBlock_spr</sprite>
+    <sprite>sprites\forestBlock2_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -49,6 +51,8 @@
     <object>objects\groundRC_obj</object>
     <object>objects\groundLC_spr</object>
     <object>objects\ground2_obj</object>
+    <object>objects\forestBlock_obj</object>
+    <object>objects\forestBlock2_obj</object>
     <object>objects\woodBlock_obj</object>
     <object>objects\woodBlock2_obj</object>
     <object>objects\spike_obj</object>
