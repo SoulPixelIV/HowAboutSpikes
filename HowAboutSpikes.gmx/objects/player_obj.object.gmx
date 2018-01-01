@@ -202,8 +202,8 @@ if (place_meeting(x, y, checkpoint_obj))
     global.checkpointRoom = room;
     other.image_index = 1;
 }
-//###Spike Collision###
-if (place_meeting(x, y, spike_obj))
+//###Damage Collision###
+if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)))
 {
     global.verSpeed = -7;
     global.horSpeed = 5 * sign(global.horSpeed);
