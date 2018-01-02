@@ -7,33 +7,37 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\player_spr</sprite>
-    <sprite>sprites\ground_spr</sprite>
-    <sprite>sprites\ground2_spr</sprite>
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
-    <sprite>sprites\finish_spr</sprite>
-    <sprite>sprites\hitbox_spr</sprite>
-    <sprite>sprites\enemyOld_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
     <sprite>sprites\door_spr</sprite>
-    <sprite>sprites\key_spr</sprite>
-    <sprite>sprites\snow_spr</sprite>
-    <sprite>sprites\ice_spr</sprite>
-    <sprite>sprites\snowRC_spr</sprite>
-    <sprite>sprites\snowLC_spr</sprite>
-    <sprite>sprites\wood_spr</sprite>
-    <sprite>sprites\wood2_spr</sprite>
-    <sprite>sprites\coin_spr</sprite>
     <sprite>sprites\dude_spr</sprite>
     <sprite>sprites\heart_spr</sprite>
     <sprite>sprites\house_spr</sprite>
-    <sprite>sprites\forestBlock_spr</sprite>
-    <sprite>sprites\forestBlock2_spr</sprite>
-    <sprite>sprites\treeBlock_spr</sprite>
-    <sprite>sprites\treeBlock2_spr</sprite>
-    <sprite>sprites\leafBlock_spr</sprite>
     <sprite>sprites\enemy_spr</sprite>
+    <sprites name="Basic Colors">
+      <sprite>sprites\blue_spr</sprite>
+      <sprite>sprites\pink_spr</sprite>
+      <sprite>sprites\red_spr</sprite>
+    </sprites>
+    <sprites name="Basic Blocks">
+      <sprite>sprites\snowBlock_spr</sprite>
+      <sprite>sprites\snowBlock2_spr</sprite>
+      <sprite>sprites\snowBlockRC_spr</sprite>
+      <sprite>sprites\snowBlockLC_spr</sprite>
+      <sprite>sprites\woodBlock_spr</sprite>
+      <sprite>sprites\woodBlock2_spr</sprite>
+      <sprite>sprites\forestBlock_spr</sprite>
+      <sprite>sprites\forestBlock2_spr</sprite>
+      <sprite>sprites\treeBlock_spr</sprite>
+      <sprite>sprites\treeBlock2_spr</sprite>
+      <sprite>sprites\leafBlock_spr</sprite>
+    </sprites>
+    <sprites name="Collectibles">
+      <sprite>sprites\coin_spr</sprite>
+      <sprite>sprites\key_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -51,14 +55,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
-    <object>objects\ground_obj</object>
-    <object>objects\groundRC_obj</object>
-    <object>objects\groundLC_spr</object>
-    <object>objects\ground2_obj</object>
-    <object>objects\forestBlock_obj</object>
-    <object>objects\forestBlock2_obj</object>
-    <object>objects\woodBlock_obj</object>
-    <object>objects\woodBlock2_obj</object>
     <object>objects\spike_obj</object>
     <object>objects\checkpoint_obj</object>
     <object>objects\globalSettings_obj</object>
@@ -66,26 +62,36 @@
     <object>objects\hitbox_obj</object>
     <object>objects\hitboxEnemy_obj</object>
     <object>objects\enemy_obj</object>
-    <objects name="roomCollider">
-      <object>objects\colliderGV_UF1_obj</object>
-      <object>objects\roomColliderDown_obj</object>
-      <object>objects\roomColliderLeft_obj</object>
-      <object>objects\roomColliderRight_obj</object>
-    </objects>
     <object>objects\ladder_obj</object>
     <object>objects\lever_obj</object>
     <object>objects\triggerBlock_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
     <object>objects\snowfall_obj</object>
-    <object>objects\specialBlock_obj</object>
     <object>objects\coin_obj</object>
     <object>objects\dude_obj</object>
     <object>objects\spawn_obj</object>
     <object>objects\house_obj</object>
-    <object>objects\treeBlock_obj</object>
-    <object>objects\treeBlock2_obj</object>
-    <object>objects\leafBlock_obj</object>
+    <objects name="Basic Blocks">
+      <object>objects\snowBlock_obj</object>
+      <object>objects\snowBlock2_obj</object>
+      <object>objects\sniwBlockRC_obj</object>
+      <object>objects\snowBlockLC_obj</object>
+      <object>objects\forestBlock_obj</object>
+      <object>objects\forestBlock2_obj</object>
+      <object>objects\woodBlock_obj</object>
+      <object>objects\woodBlock2_obj</object>
+      <object>objects\leafBlock_obj</object>
+      <object>objects\treeBlock_obj</object>
+      <object>objects\treeBlock2_obj</object>
+      <object>objects\specialBlock_obj</object>
+    </objects>
+    <objects name="roomCollider">
+      <object>objects\colliderGV_UF1_obj</object>
+      <object>objects\roomColliderDown_obj</object>
+      <object>objects\roomColliderLeft_obj</object>
+      <object>objects\roomColliderRight_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\unknownForest1</room>
