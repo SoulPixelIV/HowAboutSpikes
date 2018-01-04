@@ -70,7 +70,6 @@
     <object>objects\snowfall_obj</object>
     <object>objects\coin_obj</object>
     <object>objects\dude_obj</object>
-    <object>objects\spawn_obj</object>
     <object>objects\house_obj</object>
     <objects name="Basic Blocks">
       <object>objects\snowBlock_obj</object>
@@ -91,12 +90,14 @@
       <object>objects\roomColliderDown_obj</object>
       <object>objects\roomColliderLeft_obj</object>
       <object>objects\roomColliderRight_obj</object>
+      <object>objects\spawn_obj</object>
+      <object>objects\spawn1_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\unknownForest1</room>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
+    <room>rooms\unknownForest1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

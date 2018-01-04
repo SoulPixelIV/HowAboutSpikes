@@ -27,7 +27,16 @@
             <kind>1</kind>
             <string>if (place_meeting(x, y, player_obj))
 {
-    room_goto(unknownForest1);
+    if (room == gardenValley)
+    {
+        room_goto(unknownForest1);
+        global.playerSpawnLocation = 1;
+    }
+    else
+    {
+        room_goto(gardenValley);
+        global.playerSpawnLocation = 1;
+    }
 }
 </string>
           </argument>
