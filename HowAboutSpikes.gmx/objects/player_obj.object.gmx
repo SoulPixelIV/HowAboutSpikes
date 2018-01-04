@@ -3,7 +3,7 @@
   <spriteName>player_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -205,7 +205,40 @@ if (place_meeting(x, y, checkpoint_obj))
 //###Damage Collision###
 if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)))
 {
-    //global.verSpeed = 7 * sign(global.verSpeed);
+    if (global.verSpeed &gt; 0)
+    {
+        global.verSpeed = -7;
+    }
+    else
+    {
+        global.verSpeed = 7;
+    }
+    //###Collision Checking###
+    if (!place_free(x + global.horSpeed, y))
+    {
+        while (place_free(x + sign(global.horSpeed), y))
+        {
+            x = x + sign(global.horSpeed);
+        }
+        global.horSpeed = 0;
+    }
+    else
+    {
+        global.verSpeed = -global.ladderSpeed;
+    }
+    if (!place_free(x, y + global.verSpeed))
+    {
+        while (place_free(x, y + sign(global.verSpeed)))
+        {
+            y = y + sign(global.verSpeed);
+        }
+        global.verSpeed = 0;
+    }
+    else
+    {
+        global.verSpeed = -global.ladderSpeed;
+        global.numberJumps = global.numberJumpsSave;
+    }
     global.horSpeed = 5 * sign(global.horSpeed);
     if (noDamage == false)
     {
@@ -314,26 +347,23 @@ draw_set_font(gui_fnt);
 //###Health###
 if (health == 2)
 {
-    draw_sprite(heart_spr, 0, guiPosX + 256, guiPosY + 32);
-    draw_sprite(heart_spr, 0, guiPosX + 304, guiPosY + 32);
+    draw_sprite(heart_spr, 0, guiPosX + 64, guiPosY + 64);
 }
 if (health == 1)
 {
-    draw_sprite(heart_spr, 0, guiPosX + 256, guiPosY + 32);
-    draw_sprite(heart_spr, 1, guiPosX + 304, guiPosY + 32);
+    draw_sprite(heart_spr, 1, guiPosX + 64, guiPosY + 64);
 }
 if (health == 0)
 {
-    draw_sprite(heart_spr, 1, guiPosX + 256, guiPosY + 32);
-    draw_sprite(heart_spr, 1, guiPosX + 304, guiPosY + 32);
+    draw_sprite(heart_spr, 2, guiPosX + 64, guiPosY + 64);
 }
 
 //###GUI###
-draw_text(guiPosX + 8, guiPosY, "Jumps = " + string(global.numberJumps));
-draw_text(guiPosX + 8, guiPosY + 16, "VSpeed = " + string(global.verSpeed));
-draw_text(guiPosX + 8, guiPosY + 32, "FPS = " + string(fps_real));
-draw_text(guiPosX + 8, guiPosY + 48, "State = " + string(global.state));
-draw_text(guiPosX + 8, guiPosY + 64, "playerSpawnLocation = " + string(global.playerSpawnLocation));
+draw_text(guiPosX + 8, guiPosY + 272, "Jumps = " + string(global.numberJumps));
+draw_text(guiPosX + 8, guiPosY + 288, "VSpeed = " + string(global.verSpeed));
+draw_text(guiPosX + 8, guiPosY + 304, "FPS = " + string(fps_real));
+draw_text(guiPosX + 8, guiPosY + 320, "State = " + string(global.state));
+draw_text(guiPosX + 8, guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
 //###Combat###
