@@ -33,6 +33,8 @@
       <sprite>sprites\treeBlock_spr</sprite>
       <sprite>sprites\treeBlock2_spr</sprite>
       <sprite>sprites\leafBlock_spr</sprite>
+      <sprite>sprites\quicksandBlock_spr</sprite>
+      <sprite>sprites\mysteryBlock_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\coin_spr</sprite>
@@ -56,7 +58,10 @@
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\spike_obj</object>
+    <object>objects\spikeMystery_obj</object>
+    <object>objects\forestBlockMystery_obj</object>
     <object>objects\checkpoint_obj</object>
+    <object>objects\checkpointMystery_obj</object>
     <object>objects\globalSettings_obj</object>
     <object>objects\finish_obj</object>
     <object>objects\hitbox_obj</object>
@@ -84,6 +89,7 @@
       <object>objects\treeBlock_obj</object>
       <object>objects\treeBlock2_obj</object>
       <object>objects\specialBlock_obj</object>
+      <object>objects\quicksandBlock_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -95,6 +101,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\unknownForest2</room>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
     <room>rooms\unknownForest1</room>

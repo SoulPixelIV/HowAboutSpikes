@@ -101,7 +101,10 @@ var move = key_right - key_left;
 global.horSpeed = move * global.movSpeed;
 
 //###Gravity###
-global.verSpeed = global.verSpeed + global.gravityStrength;
+if (global.verSpeed &lt; 14)
+{
+    global.verSpeed = global.verSpeed + global.gravityStrength;
+}
 
 if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
 {
@@ -195,7 +198,7 @@ if (!place_free(x, y + global.verSpeed))
           <argument>
             <kind>1</kind>
             <string>//###Checkpoint Collision###
-if (place_meeting(x, y, checkpoint_obj))
+if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
     global.checkpointX = other.x;
     global.checkpointY = other.y;
@@ -203,7 +206,7 @@ if (place_meeting(x, y, checkpoint_obj))
     other.image_index = 1;
 }
 //###Damage Collision###
-if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)))
+if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj))
 {
     if (global.verSpeed &gt; 0)
     {
@@ -316,6 +319,12 @@ if (place_meeting(x, y, key_obj))
 if (place_meeting(x, y, checkpoint_obj))
 {
     health = 2;
+}
+//###Quicksand Collision###
+if (place_meeting(x, y, quicksandBlock_obj))
+{
+    global.horSpeed = global.horSpeed / 2.5;
+    global.verSpeed = global.verSpeed / 1.15;
 }
 </string>
           </argument>

@@ -1860,6 +1860,7 @@
     <instance objName="specialBlock_obj" x="1664" y="320" name="inst_D904E49E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="specialBlock_obj" x="1664" y="288" name="inst_C1CBCCE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemy_obj" x="544" y="384" name="inst_D1D1A81F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="key_obj" x="224" y="1856" name="inst_98003B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
