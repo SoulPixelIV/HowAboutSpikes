@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>global.playerSpawnLocation = 0;
+
 </string>
           </argument>
         </arguments>
@@ -56,6 +57,11 @@
 if (global.playerSpawnLocation == 1)
 {
     instance_create(spawn1_obj.x, spawn1_obj.y, player_obj);
+    global.playerSpawnLocation = -1;
+}
+if (global.playerSpawnLocation == 2)
+{
+    instance_create(spawn2_obj.x, spawn2_obj.y, player_obj);
     global.playerSpawnLocation = -1;
 }
 </string>

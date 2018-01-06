@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>health = 2;
+movement = true;
 global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
 global.numberJumps = 2;
@@ -91,12 +92,13 @@ nearEnemy = false;
 x = x + global.horSpeed;
 y = y + global.verSpeed;
 
-key_left = keyboard_check(ord('A'));
-key_right = keyboard_check(ord('D'));
-key_jump = keyboard_check_pressed(vk_space);
-key_attack = keyboard_check_pressed(vk_shift);
-
-var move = key_right - key_left;   
+key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
+key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
+key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
+key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check(0, gp_shoulderr);
+gamepad_set_axis_deadzone(0, 0.55);
+var move = key_right - key_left;
 
 global.horSpeed = move * global.movSpeed;
 
@@ -110,6 +112,14 @@ if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (globa
 {
     global.verSpeed = -global.jumpStrength;
     global.numberJumps = global.numberJumps - 1;
+}
+
+if (key_jump_release)
+{
+    if (global.verSpeed &lt; 0)
+    {
+        global.verSpeed = global.verSpeed / 2;
+    }
 }
 
 //###Combat###
@@ -276,7 +286,8 @@ if (place_meeting(x, y, roomColliderLeft_obj))
     room_goto_previous();
 }
 //###Ladder Collision###
-if (place_meeting(x, y, ladder_obj) &amp;&amp; keyboard_check(ord('W')))
+key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
+if (place_meeting(x, y, ladder_obj) &amp;&amp; (key_jump))
 {
     //###Collision Checking###
     if (!place_free(x + global.horSpeed, y))
@@ -323,7 +334,7 @@ if (place_meeting(x, y, checkpoint_obj))
 //###Quicksand Collision###
 if (place_meeting(x, y, quicksandBlock_obj))
 {
-    global.horSpeed = global.horSpeed / 2.5;
+    global.horSpeed = global.horSpeed / 1.75;
     global.verSpeed = global.verSpeed / 1.15;
 }
 </string>
@@ -378,7 +389,7 @@ draw_text(guiPosX + 8, guiPosY + 336, "playerSpawnLocation = " + string(global.p
 //###Combat###
 if (nearEnemy == true)
 {
-    draw_text(player_obj.x - 16, player_obj.y - 30, "LShift!");
+    draw_text(player_obj.x - 19, player_obj.y - 30, "F");
 }
 </string>
           </argument>

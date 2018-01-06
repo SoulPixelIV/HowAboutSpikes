@@ -144,22 +144,6 @@
     <instance objName="woodBlock_obj" x="832" y="1024" name="inst_CA4B33AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="864" y="1024" name="inst_73524BF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="896" y="1024" name="inst_D27FE4E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="672" y="928" name="inst_BE6CADD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="704" y="928" name="inst_7A72C862" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="736" y="928" name="inst_D4A30891" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="768" y="928" name="inst_1FE86415" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="800" y="928" name="inst_99ED22E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="832" y="928" name="inst_2D07DB70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="864" y="928" name="inst_10E7D729" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="896" y="928" name="inst_FF9EE8D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="896" y="992" name="inst_D9479979" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="864" y="992" name="inst_3E213DEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="832" y="992" name="inst_18D86967" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="800" y="992" name="inst_0191E0DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="768" y="992" name="inst_5AAA0B2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="736" y="992" name="inst_A78552D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="704" y="992" name="inst_9E2F6F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="672" y="992" name="inst_02FB3759" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="864" y="896" name="inst_A1A1BB1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="800" y="817" name="inst_A2C36287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="608" y="896" name="inst_82746AFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -654,16 +638,9 @@
     <instance objName="forestBlock_obj" x="2080" y="832" name="inst_4AAACCC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2112" y="832" name="inst_1F26CAF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2144" y="832" name="inst_B6DC63A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="triggerBlock_obj" x="2112" y="800" name="inst_647FB560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="triggerBlock_obj" x="2112" y="768" name="inst_006D0AEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="triggerBlock_obj" x="2112" y="736" name="inst_1ABA4A21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="triggerBlock_obj" x="2112" y="704" name="inst_FE080F9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="triggerBlock_obj" x="2112" y="672" name="inst_E037371D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2112" y="640" name="inst_B9102CEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2144" y="640" name="inst_E30B5A34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2176" y="640" name="inst_CE487E08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2208" y="640" name="inst_C841561B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2240" y="640" name="inst_68E2A4B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2016" y="864" name="inst_2F49A6BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2016" y="896" name="inst_78A4F5DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2016" y="928" name="inst_45B284E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -709,7 +686,6 @@
     <instance objName="forestBlock_obj" x="2208" y="832" name="inst_19C00C67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2240" y="832" name="inst_A3B9A28A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2272" y="832" name="inst_9D7BF7B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2272" y="640" name="inst_B23A616C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="1888" y="416" name="inst_1351FC09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="1920" y="416" name="inst_927AF351" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="1952" y="416" name="inst_26434FFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1920,25 +1896,6 @@
     <instance objName="forestBlock2_obj" x="2656" y="1088" name="inst_5CDD0815" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2784" y="1088" name="inst_D6BB722A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2816" y="1088" name="inst_6DB57E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2304" y="640" name="inst_3DC95E18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2336" y="640" name="inst_C0B5C034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2368" y="640" name="inst_C7D57E70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2400" y="640" name="inst_2A59FF5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2432" y="640" name="inst_A31BE8BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2464" y="640" name="inst_004F65EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2496" y="640" name="inst_CD2FD0C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2528" y="640" name="inst_20F6DED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2560" y="640" name="inst_90B3B5EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2592" y="640" name="inst_A8E6C147" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2624" y="640" name="inst_998BCA79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2656" y="640" name="inst_FAD73537" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2688" y="640" name="inst_8F691FD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2720" y="640" name="inst_4D7B9B8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2752" y="640" name="inst_D486188B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2784" y="640" name="inst_625595D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2816" y="640" name="inst_8E7E931D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2848" y="640" name="inst_4C1E75CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock2_obj" x="2880" y="640" name="inst_218C4D7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="2944" y="800" name="inst_E3111BC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="2944" y="832" name="inst_A1CFA5B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="2976" y="800" name="inst_98B19921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2278,6 +2235,35 @@
     <instance objName="spike_obj" x="1792" y="800" name="inst_93A340B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spike_obj" x="1760" y="800" name="inst_EA1A58FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spike_obj" x="1728" y="800" name="inst_65B5752A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="colliderUF1_UF2" x="3219" y="1184" name="inst_DADBE890" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="spawn2_obj" x="3168" y="1184" name="inst_44284D34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2112" y="640" name="inst_61048D44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2144" y="640" name="inst_3035FF7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2176" y="640" name="inst_39D9FD86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2208" y="640" name="inst_66193B4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2240" y="640" name="inst_B91EEC68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2272" y="640" name="inst_0DFEDD5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2304" y="640" name="inst_9B01EF22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2336" y="640" name="inst_43AAAFFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2368" y="640" name="inst_86BB1631" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2400" y="640" name="inst_C7B79797" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2432" y="640" name="inst_CC51BB0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2464" y="640" name="inst_3DD25165" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2496" y="640" name="inst_3AF54BDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2528" y="640" name="inst_FB6AD255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2560" y="640" name="inst_76A3724A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2592" y="640" name="inst_EC80B4FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2624" y="640" name="inst_AF989F5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2656" y="640" name="inst_DA8E2C01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2688" y="640" name="inst_12AA6873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2720" y="640" name="inst_A81FBF4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2752" y="640" name="inst_29920739" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2784" y="640" name="inst_9DD79D16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2816" y="640" name="inst_C59C1DA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2848" y="640" name="inst_32151D3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlock_obj" x="2880" y="640" name="inst_FB7F4D2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="triggerBlock_obj" x="2112" y="768" name="inst_D7E56518" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="triggerBlock_obj" x="2112" y="800" name="inst_F567654B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
