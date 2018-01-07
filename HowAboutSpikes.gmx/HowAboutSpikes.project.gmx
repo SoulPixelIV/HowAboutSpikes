@@ -39,12 +39,12 @@
       <sprite>sprites\mysteryBlock_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
-      <sprite>sprites\coin_spr</sprite>
+      <sprite>sprites\powerup_spr</sprite>
       <sprite>sprites\key_spr</sprite>
     </sprites>
     <sprite>sprites\stoneWall_spr</sprite>
-    <sprite>sprites\spr_character</sprite>
-    <sprite>sprites\spr_character_new</sprite>
+    <sprite>sprites\darkSpirit_spr</sprite>
+    <sprite>sprites\darkSpiritIcon_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -52,6 +52,7 @@
     <background>background\snowBackground2_bg</background>
     <background>background\purpleHazeBackground_bg</background>
     <background>background\unknownForestBackground_bg</background>
+    <background>background\undergroundCityBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -72,7 +73,8 @@
     <object>objects\finish_obj</object>
     <object>objects\hitbox_obj</object>
     <object>objects\hitboxEnemy_obj</object>
-    <object>objects\enemy_obj</object>
+    <object>objects\enemyNormal_obj</object>
+    <object>objects\enemyMystery_obj</object>
     <object>objects\ladder_obj</object>
     <object>objects\lever_obj</object>
     <object>objects\triggerBlock_obj</object>
@@ -80,7 +82,7 @@
     <object>objects\key_obj</object>
     <object>objects\snowfall_obj</object>
     <object>objects\fog_obj</object>
-    <object>objects\coin_obj</object>
+    <object>objects\powerup_obj</object>
     <object>objects\dude_obj</object>
     <object>objects\house_obj</object>
     <objects name="Basic Blocks">
@@ -100,7 +102,7 @@
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
       <object>objects\colliderUF1_UF2</object>
-      <object>objects\roomColliderDown_obj</object>
+      <object>objects\colliderUF2_UF3</object>
       <object>objects\roomColliderLeft_obj</object>
       <object>objects\roomColliderRight_obj</object>
       <object>objects\spawn_obj</object>
@@ -109,12 +111,16 @@
     </objects>
     <object>objects\stoneWall_obj</object>
     <object>objects\obj_background</object>
+    <object>objects\enemy_obj</object>
+    <object>objects\darkSpirit_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
     <room>rooms\unknownForest1</room>
     <room>rooms\unknownForest2</room>
+    <room>rooms\unknownForest3</room>
+    <room>rooms\undergroundCity1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

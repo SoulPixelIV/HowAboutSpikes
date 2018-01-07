@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>health = 2;
+money = 0;
 movement = true;
 global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
@@ -66,6 +67,7 @@ nearEnemy = false;
           <argument>
             <kind>1</kind>
             <string>noDamage = false;
+gamepad_set_vibration(0, 0, 0);
 </string>
           </argument>
         </arguments>
@@ -96,7 +98,7 @@ key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
-key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check(0, gp_shoulderr);
+key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0, gp_shoulderr);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 
@@ -123,7 +125,7 @@ if (key_jump_release)
 }
 
 //###Combat###
-if (global.verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128)
+if ((global.verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
 {
     nearEnemy = true;
     if (key_attack)
@@ -139,8 +141,9 @@ else
 switch (global.state)
 {
 case 1:
-    targetX = enemy_obj.x;
-    targetY = enemy_obj.y;
+    targetInst = instance_nearest(x, y, enemy_obj);
+    targetX = targetInst.x;
+    targetY = targetInst.y;
     global.state = 2;
     break;
     
@@ -184,6 +187,11 @@ if (!place_free(x, y + global.verSpeed))
     {
         y = y + sign(global.verSpeed);
     }
+    if (global.verSpeed &gt;= 13)
+    {
+        gamepad_set_vibration(0, 0.4, 0.4);
+        alarm[0] = 10;
+    }
     global.verSpeed = 0;
     global.numberJumps = global.numberJumpsSave;
 }
@@ -218,6 +226,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 //###Damage Collision###
 if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj))
 {
+    gamepad_set_vibration(0, 0.3, 0.3);
     if (global.verSpeed &gt; 0)
     {
         global.verSpeed = -7;
@@ -258,7 +267,7 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
         health = health - 1;
     }
     noDamage = true;
-    alarm[0] = 15;
+    alarm[0] = 10;
     if (health &lt;= 0)
     {
         if (global.checkpointX == 0)
@@ -337,6 +346,11 @@ if (place_meeting(x, y, quicksandBlock_obj))
     global.horSpeed = global.horSpeed / 1.75;
     global.verSpeed = global.verSpeed / 1.15;
 }
+//###Money Collision###
+if (place_meeting(x, y, darkSpirit_obj))
+{
+    money = money + 1;
+}
 </string>
           </argument>
         </arguments>
@@ -367,16 +381,21 @@ draw_set_font(gui_fnt);
 //###Health###
 if (health == 2)
 {
-    draw_sprite(heart_spr, 0, guiPosX + 64, guiPosY + 64);
+    draw_sprite(heart_spr, 0, guiPosX + 36, guiPosY + 36);
 }
 if (health == 1)
 {
-    draw_sprite(heart_spr, 1, guiPosX + 64, guiPosY + 64);
+    draw_sprite(heart_spr, 1, guiPosX + 36, guiPosY + 36);
 }
 if (health == 0)
 {
-    draw_sprite(heart_spr, 2, guiPosX + 64, guiPosY + 64);
+    draw_sprite(heart_spr, 2, guiPosX + 36, guiPosY + 36);
 }
+
+//###Money###
+draw_sprite(darkSpiritIcon_spr, 0, guiPosX + 522, guiPosY + 324);
+
+draw_text(guiPosX + 552, guiPosY + 324, string(money));
 
 //###GUI###
 draw_text(guiPosX + 8, guiPosY + 272, "Jumps = " + string(global.numberJumps));
