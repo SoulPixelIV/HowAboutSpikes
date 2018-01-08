@@ -1807,6 +1807,8 @@
     <instance objName="darkSpirit_obj" x="1824" y="1280" name="inst_DBB9AC72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="512" y="928" name="inst_0BA5C15A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1760" y="384" name="inst_63E91270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyMystery_obj" x="576" y="1888" name="inst_725A6865" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyMystery_obj" x="832" y="1856" name="inst_F51A3616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

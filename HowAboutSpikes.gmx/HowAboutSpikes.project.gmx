@@ -36,6 +36,7 @@
       <sprite>sprites\leafBlock_spr</sprite>
       <sprite>sprites\quicksandBlock_spr</sprite>
       <sprite>sprites\mysteryBlock_spr</sprite>
+      <sprite>sprites\mysteryBlockEnemy_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\powerup_spr</sprite>
