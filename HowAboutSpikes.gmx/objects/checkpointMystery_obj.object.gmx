@@ -59,7 +59,7 @@ if (distance_to_object(player_obj) &lt; 72)
 {
     sprite_index = checkpoint_spr;
 }
-else
+if (distance_to_object(player_obj) &gt;= 72)
 {
     sprite_index = mysteryBlock_spr;
 }

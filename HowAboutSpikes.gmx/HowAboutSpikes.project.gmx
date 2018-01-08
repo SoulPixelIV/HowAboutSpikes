@@ -3,21 +3,20 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions>
-    <extension index="0">extensions\TrueLight2D</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\player_spr</sprite>
+    <sprite>sprites\playerWalk_spr</sprite>
+    <sprite>sprites\playerIdle_spr</sprite>
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
     <sprite>sprites\door_spr</sprite>
     <sprite>sprites\dude_spr</sprite>
-    <sprite>sprites\heart_spr</sprite>
     <sprite>sprites\house_spr</sprite>
     <sprite>sprites\enemy_spr</sprite>
+    <sprite>sprites\lamp_spr</sprite>
     <sprites name="Basic Colors">
       <sprite>sprites\blue_spr</sprite>
       <sprite>sprites\pink_spr</sprite>
@@ -44,7 +43,12 @@
     </sprites>
     <sprite>sprites\stoneWall_spr</sprite>
     <sprite>sprites\darkSpirit_spr</sprite>
-    <sprite>sprites\darkSpiritIcon_spr</sprite>
+    <sprites name="Icons">
+      <sprite>sprites\darkSpiritIcon_spr</sprite>
+      <sprite>sprites\heart_spr</sprite>
+      <sprite>sprites\spikeMysteryIcon_spr</sprite>
+      <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -53,6 +57,7 @@
     <background>background\purpleHazeBackground_bg</background>
     <background>background\unknownForestBackground_bg</background>
     <background>background\undergroundCityBackground_bg</background>
+    <background>background\castleBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -113,6 +118,7 @@
     <object>objects\obj_background</object>
     <object>objects\enemy_obj</object>
     <object>objects\darkSpirit_obj</object>
+    <object>objects\lamp_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
