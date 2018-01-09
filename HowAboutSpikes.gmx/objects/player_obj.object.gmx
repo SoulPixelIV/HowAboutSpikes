@@ -37,14 +37,38 @@ global.state = 0;
 
 global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
-global.horSpeed = 0;
-global.verSpeed = 0;
+horSpeed = 0;
+verSpeed = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
 noDamage = false;
 nearEnemy = false;
 lastDir = 0;
+landing = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>landing = false;
 </string>
           </argument>
         </arguments>
@@ -92,8 +116,8 @@ gamepad_set_vibration(0, 0, 0);
           <argument>
             <kind>1</kind>
             <string>//###Movement###
-x = x + global.horSpeed;
-y = y + global.verSpeed;
+x = x + horSpeed;
+y = y + verSpeed;
 
 key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
@@ -103,7 +127,7 @@ key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0,
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 
-global.horSpeed = move * global.movSpeed;
+horSpeed = move * global.movSpeed;
 
 //###Animation###
 if (key_right)
@@ -119,7 +143,7 @@ if (key_left)
     image_xscale = -1;
 }
 
-if (global.horSpeed == 0)
+if (horSpeed == 0)
 {
     if (lastDir == 0)
     {
@@ -132,29 +156,55 @@ if (global.horSpeed == 0)
         image_xscale = -1;
     }
 }
+
+if (verSpeed &gt; 0)
+{
+    sprite_index = playerFalling_spr;
+    if (lastDir == 0)
+    {
+        image_xscale = 1;
+    }
+    else
+    {
+        image_xscale = -1;
+    }
+}
+
+if (landing == true)
+{
+    sprite_index = playerLanding_spr;
+    if (lastDir == 0)
+    {
+        image_xscale = 1;
+    }
+    else
+    {
+        image_xscale = -1;
+    }
+}
     
 //###Gravity###
-if (global.verSpeed &lt; 14)
+if (verSpeed &lt; 14)
 {
-    global.verSpeed = global.verSpeed + global.gravityStrength;
+    verSpeed = verSpeed + global.gravityStrength;
 }
 
 if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
 {
-    global.verSpeed = -global.jumpStrength;
+    verSpeed = -global.jumpStrength;
     global.numberJumps = global.numberJumps - 1;
 }
 
 if (key_jump_release)
 {
-    if (global.verSpeed &lt; 0)
+    if (verSpeed &lt; 0)
     {
-        global.verSpeed = global.verSpeed / 2;
+        verSpeed = verSpeed / 2;
     }
 }
 
 //###Combat###
-if ((global.verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
+if ((verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
 {
     nearEnemy = true;
     if (key_attack)
@@ -190,38 +240,43 @@ case 2:
 
 case 3:
     speed = 0;
-    global.verSpeed = 0;
-    global.horSpeed = 0;
+    verSpeed = 0;
+    horSpeed = 0;
     global.state = 4;
     break;
     
 case 4:
-    global.verSpeed = -4;
+    verSpeed = -4;
     global.state = 0;
     break;
 }
 
 //###Collision Checking###
-if (!place_free(x + global.horSpeed, y))
+if (!place_free(x + horSpeed, y))
 {
-    while (place_free(x + sign(global.horSpeed), y))
+    while (place_free(x + sign(horSpeed), y))
     {
-        x = x + sign(global.horSpeed);
+        x = x + sign(horSpeed);
     }
-    global.horSpeed = 0;
+    horSpeed = 0;
 }
-if (!place_free(x, y + global.verSpeed))
+if (!place_free(x, y + verSpeed))
 {
-    while (place_free(x, y + sign(global.verSpeed)))
+    while (place_free(x, y + sign(verSpeed)))
     {
-        y = y + sign(global.verSpeed);
+        y = y + sign(verSpeed);
     }
-    if (global.verSpeed &gt;= 13)
+    if (verSpeed &gt;= 13)
     {
         gamepad_set_vibration(0, 0.4, 0.4);
         alarm[0] = 10;
     }
-    global.verSpeed = 0;
+    if (verSpeed &gt;= 2)
+    {
+        landing = true;
+        alarm[1] = 10;
+    }
+    verSpeed = 0;
     global.numberJumps = global.numberJumpsSave;
 }
 </string>
@@ -256,41 +311,41 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj))
 {
     gamepad_set_vibration(0, 0.3, 0.3);
-    if (global.verSpeed &gt; 0)
+    if (verSpeed &gt; 0)
     {
-        global.verSpeed = -7;
+        verSpeed = -7;
     }
     else
     {
-        global.verSpeed = 7;
+        verSpeed = 7;
     }
     //###Collision Checking###
-    if (!place_free(x + global.horSpeed, y))
+    if (!place_free(x + horSpeed, y))
     {
-        while (place_free(x + sign(global.horSpeed), y))
+        while (place_free(x + sign(horSpeed), y))
         {
-            x = x + sign(global.horSpeed);
+            x = x + sign(horSpeed);
         }
-        global.horSpeed = 0;
+        horSpeed = 0;
     }
     else
     {
-        global.verSpeed = -global.ladderSpeed;
+        verSpeed = -global.ladderSpeed;
     }
-    if (!place_free(x, y + global.verSpeed))
+    if (!place_free(x, y + verSpeed))
     {
-        while (place_free(x, y + sign(global.verSpeed)))
+        while (place_free(x, y + sign(verSpeed)))
         {
-            y = y + sign(global.verSpeed);
+            y = y + sign(verSpeed);
         }
-        global.verSpeed = 0;
+        verSpeed = 0;
     }
     else
     {
-        global.verSpeed = -global.ladderSpeed;
+        verSpeed = -global.ladderSpeed;
         global.numberJumps = global.numberJumpsSave;
     }
-    global.horSpeed = 5 * sign(global.horSpeed);
+    horSpeed = 5 * sign(horSpeed);
     if (noDamage == false)
     {
         health = health - 1;
@@ -308,8 +363,8 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
         {
             x = global.checkpointX;
             y = global.checkpointY;
-            global.verSpeed = 0;
-            global.horSpeed = 0;
+            verSpeed = 0;
+            horSpeed = 0;
         }
         health = 2;
     }
@@ -328,29 +383,29 @@ key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
 if (place_meeting(x, y, ladder_obj) &amp;&amp; (key_jump))
 {
     //###Collision Checking###
-    if (!place_free(x + global.horSpeed, y))
+    if (!place_free(x + horSpeed, y))
     {
-        while (place_free(x + sign(global.horSpeed), y))
+        while (place_free(x + sign(horSpeed), y))
         {
-            x = x + sign(global.horSpeed);
+            x = x + sign(horSpeed);
         }
-        global.horSpeed = 0;
+        horSpeed = 0;
     }
     else
     {
-        global.verSpeed = -global.ladderSpeed;
+        verSpeed = -global.ladderSpeed;
     }
-    if (!place_free(x, y + global.verSpeed))
+    if (!place_free(x, y + verSpeed))
     {
-        while (place_free(x, y + sign(global.verSpeed)))
+        while (place_free(x, y + sign(verSpeed)))
         {
-            y = y + sign(global.verSpeed);
+            y = y + sign(verSpeed);
         }
-        global.verSpeed = 0;
+        verSpeed = 0;
     }
     else
     {
-        global.verSpeed = -global.ladderSpeed;
+        verSpeed = -global.ladderSpeed;
         global.numberJumps = global.numberJumpsSave;
     }
 }
@@ -372,8 +427,8 @@ if (place_meeting(x, y, checkpoint_obj))
 //###Quicksand Collision###
 if (place_meeting(x, y, quicksandBlock_obj))
 {
-    global.horSpeed = global.horSpeed / 1.75;
-    global.verSpeed = global.verSpeed / 1.15;
+    horSpeed = horSpeed / 1.75;
+    verSpeed = verSpeed / 1.15;
 }
 //###Money Collision###
 if (place_meeting(x, y, darkSpirit_obj))
@@ -428,7 +483,7 @@ draw_text(guiPosX + 552, guiPosY + 324, string(money));
 
 //###GUI###
 draw_text(guiPosX + 8, guiPosY + 272, "Jumps = " + string(global.numberJumps));
-draw_text(guiPosX + 8, guiPosY + 288, "VSpeed = " + string(global.verSpeed));
+draw_text(guiPosX + 8, guiPosY + 288, "VSpeed = " + string(verSpeed));
 draw_text(guiPosX + 8, guiPosY + 304, "FPS = " + string(fps_real));
 draw_text(guiPosX + 8, guiPosY + 320, "State = " + string(global.state));
 draw_text(guiPosX + 8, guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
