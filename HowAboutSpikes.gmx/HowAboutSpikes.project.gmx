@@ -39,6 +39,7 @@
       <sprite>sprites\quicksandBlock_spr</sprite>
       <sprite>sprites\mysteryBlock_spr</sprite>
       <sprite>sprites\mysteryBlockEnemy_spr</sprite>
+      <sprite>sprites\glassBlock_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\powerup_spr</sprite>
@@ -52,6 +53,8 @@
       <sprite>sprites\spikeMysteryIcon_spr</sprite>
       <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
     </sprites>
+    <sprite>sprites\turret_spr</sprite>
+    <sprite>sprites\bullet_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -106,12 +109,13 @@
       <object>objects\treeBlock2_obj</object>
       <object>objects\specialBlock_obj</object>
       <object>objects\quicksandBlock_obj</object>
+      <object>objects\glassBlock_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
-      <object>objects\colliderUF1_UF2</object>
-      <object>objects\colliderUF2_UF3</object>
-      <object>objects\roomColliderLeft_obj</object>
+      <object>objects\colliderUF1_UF2_obj</object>
+      <object>objects\colliderUF2_UF3_obj</object>
+      <object>objects\colliderGV_UC1_obj</object>
       <object>objects\roomColliderRight_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -122,6 +126,8 @@
     <object>objects\enemy_obj</object>
     <object>objects\darkSpirit_obj</object>
     <object>objects\lamp_obj</object>
+    <object>objects\turret_obj</object>
+    <object>objects\bullet_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
