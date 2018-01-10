@@ -55,6 +55,7 @@
     </sprites>
     <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bullet_spr</sprite>
+    <sprite>sprites\saw_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -128,6 +129,7 @@
     <object>objects\lamp_obj</object>
     <object>objects\turret_obj</object>
     <object>objects\bullet_obj</object>
+    <object>objects\saw_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

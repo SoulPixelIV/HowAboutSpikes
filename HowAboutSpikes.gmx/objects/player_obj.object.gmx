@@ -28,6 +28,8 @@
             <string>health = 2;
 money = 0;
 movement = true;
+attackCooldown = 15;
+cooldown = false;
 global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
 global.numberJumps = 2;
@@ -46,6 +48,29 @@ noDamage = false;
 nearEnemy = false;
 lastDir = 0;
 landing = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cooldown = false;
 </string>
           </argument>
         </arguments>
@@ -204,6 +229,25 @@ if (key_jump_release)
 }
 
 //###Combat###
+if (key_attack)
+{
+    alarm[2] = attackCooldown;
+    if (cooldown == false)
+    {
+        if (lastDir == 0)
+        {
+            instance_create(x + 32, y, hitbox_obj);
+            cooldown = true
+        }
+        else
+        {
+            instance_create(x - 32, y, hitbox_obj);
+            cooldown = true
+        }
+    }
+}
+
+/*
 if ((verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
 {
     nearEnemy = true;
@@ -250,7 +294,7 @@ case 4:
     global.state = 0;
     break;
 }
-
+*/
 //###Collision Checking###
 if (!place_free(x + horSpeed, y))
 {
@@ -308,7 +352,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     other.image_index = 1;
 }
 //###Damage Collision###
-if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj))
+if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj))
 {
     gamepad_set_vibration(0, 0.3, 0.3);
     if (verSpeed &gt; 0)
