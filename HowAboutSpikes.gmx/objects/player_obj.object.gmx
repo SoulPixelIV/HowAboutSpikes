@@ -48,6 +48,7 @@ noDamage = false;
 nearEnemy = false;
 lastDir = 0;
 landing = false;
+onLadder = false;
 </string>
           </argument>
         </arguments>
@@ -211,7 +212,14 @@ if (landing == true)
 //###Gravity###
 if (verSpeed &lt; 14)
 {
-    verSpeed = verSpeed + global.gravityStrength;
+    if (onLadder == false)
+    {
+        verSpeed = verSpeed + global.gravityStrength;
+    }
+    else
+    {
+        verSpeed = 0.75;
+    }
 }
 
 if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
@@ -415,35 +423,46 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
 }
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
-if (place_meeting(x, y, ladder_obj) &amp;&amp; (key_jump))
+if (place_meeting(x, y, ladder_obj))
 {
-    //###Collision Checking###
-    if (!place_free(x + horSpeed, y))
+    if (key_jump)
     {
-        while (place_free(x + sign(horSpeed), y))
+        //###Collision Checking###
+        if (!place_free(x + horSpeed, y))
         {
-            x = x + sign(horSpeed);
+            while (place_free(x + sign(horSpeed), y))
+            {
+                x = x + sign(horSpeed);
+            }
+            horSpeed = 0;
         }
-        horSpeed = 0;
+        else
+        {
+            verSpeed = -global.ladderSpeed;
+        }
+        if (!place_free(x, y + verSpeed))
+        {
+            while (place_free(x, y + sign(verSpeed)))
+            {
+                y = y + sign(verSpeed);
+            }
+            verSpeed = 0;
+        }
+        else
+        {
+            verSpeed = -global.ladderSpeed;
+            global.numberJumps = global.numberJumpsSave;
+        }
     }
     else
     {
-        verSpeed = -global.ladderSpeed;
-    }
-    if (!place_free(x, y + verSpeed))
-    {
-        while (place_free(x, y + sign(verSpeed)))
-        {
-            y = y + sign(verSpeed);
-        }
-        verSpeed = 0;
-    }
-    else
-    {
-        verSpeed = -global.ladderSpeed;
-        global.numberJumps = global.numberJumpsSave;
+        onLadder = true;
     }
 }
+else
+{
+    onLadder = false;
+}   
 //###Lever Collision###
 if (place_meeting(x, y, lever_obj))
 {
