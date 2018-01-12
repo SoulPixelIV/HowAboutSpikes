@@ -832,7 +832,7 @@
     <instance objName="ladder_obj" x="1760" y="1056" name="inst_CA2A91B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1760" y="1024" name="inst_199C9E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="1824" y="1568" name="inst_1B3FF3F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="triggerBlock_obj" x="1696" y="1600" name="inst_39E6F394" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoor_obj" x="1696" y="1600" name="inst_39E6F394" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1728" name="inst_2DB49052" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1696" name="inst_E1150D7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1664" name="inst_387AD928" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1802,6 +1802,8 @@
     <instance objName="sniwBlockRC_obj" x="448" y="928" name="inst_92E3E3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowfall_obj" x="32" y="0" name="inst_E84FB515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="2912" y="1792" name="inst_FCB312BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="key_obj" x="288" y="1856" name="inst_A5CF148E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1696" y="1600" name="inst_F9B80DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

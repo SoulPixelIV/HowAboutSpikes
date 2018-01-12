@@ -3,7 +3,7 @@
   <spriteName>bullet_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,9 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movSpeed = 4.65;
+            <string>movSpeed = 2.75;
+invincible = true;
+alarm[0] = 10;
 
 move_towards_point(player_obj.x, player_obj.y, movSpeed);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>invincible = false;
+
+
 </string>
           </argument>
         </arguments>
@@ -54,9 +81,13 @@ move_towards_point(player_obj.x, player_obj.y, movSpeed);
 {
     instance_destroy();
 }
-if (place_meeting(x, y, glassBlock_obj))
+
+if (invincible == false)
 {
-    instance_destroy();
+    if (place_meeting(x, y, glassBlock_obj))
+    {
+        instance_destroy();
+    }
 }
 </string>
           </argument>

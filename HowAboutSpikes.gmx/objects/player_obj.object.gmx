@@ -49,6 +49,9 @@ nearEnemy = false;
 lastDir = 0;
 landing = false;
 onLadder = false;
+
+global.hitLever = false;
+global.restart = false;
 </string>
           </argument>
         </arguments>
@@ -218,7 +221,7 @@ if (verSpeed &lt; 14)
     }
     else
     {
-        verSpeed = 0.75;
+        verSpeed = 2.75;
     }
 }
 
@@ -329,7 +332,10 @@ if (!place_free(x, y + verSpeed))
         alarm[1] = 14;
     }
     verSpeed = 0;
-    global.numberJumps = global.numberJumpsSave;
+    if (!place_free(x, y + 1))
+    {
+        global.numberJumps = global.numberJumpsSave;
+    }
 }
 </string>
           </argument>
@@ -358,6 +364,11 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     global.checkpointY = other.y;
     global.checkpointRoom = room;
     other.image_index = 1;
+    global.restart = true;
+}
+else
+{
+    global.restart = false;
 }
 //###Damage Collision###
 if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj))
@@ -466,7 +477,7 @@ else
 //###Lever Collision###
 if (place_meeting(x, y, lever_obj))
 {
-    instance_destroy(triggerBlock_obj);
+    global.hitLever = true;
 }
 //###Key Collision###
 if (place_meeting(x, y, key_obj))

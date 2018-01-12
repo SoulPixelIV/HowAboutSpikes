@@ -56,6 +56,8 @@
     <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bullet_spr</sprite>
     <sprite>sprites\saw_spr</sprite>
+    <sprite>sprites\trapdoor_spr</sprite>
+    <sprite>sprites\breakingPlatform_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -89,7 +91,7 @@
     <object>objects\enemyMystery_obj</object>
     <object>objects\ladder_obj</object>
     <object>objects\lever_obj</object>
-    <object>objects\triggerBlock_obj</object>
+    <object>objects\trapdoor_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
     <object>objects\snowfall_obj</object>
@@ -130,6 +132,8 @@
     <object>objects\turret_obj</object>
     <object>objects\bullet_obj</object>
     <object>objects\saw_obj</object>
+    <object>objects\breakingPlatform_obj</object>
+    <object>objects\breakingPlatformSpawner_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

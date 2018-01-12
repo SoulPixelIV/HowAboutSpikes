@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>showText = false;
+
+image_speed = 0;
 image_index = 0;
 </string>
           </argument>
@@ -49,10 +51,13 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.showText2 = false;
-if (distance_to_object(player_obj) &lt; 32)
+            <string>if (distance_to_object(player_obj) &lt; 32)
 {
-    global.showText2 = true;
+    showText = true;
+}
+else
+{
+    showText = false;
 }
 </string>
           </argument>
@@ -78,7 +83,7 @@ if (distance_to_object(player_obj) &lt; 32)
             <kind>1</kind>
             <string>draw_self();
 
-if (global.showText2 == true)
+if (showText == true)
 {
     draw_text(x - 64, y - 64, "Checkpoint!");
 }
