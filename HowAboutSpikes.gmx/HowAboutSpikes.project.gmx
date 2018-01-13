@@ -58,6 +58,7 @@
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
+    <sprite>sprites\gameover_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -75,6 +76,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
+    <font>fonts\gameover_fnt</font>
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>

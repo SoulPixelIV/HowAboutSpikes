@@ -30,6 +30,9 @@ money = 0;
 movement = true;
 attackCooldown = 15;
 cooldown = false;
+dead = false;
+deathCount = 0;
+deathCountVar = false
 global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
 global.numberJumps = 2;
@@ -153,6 +156,7 @@ key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
 key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0, gp_shoulderr);
+key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 
@@ -337,6 +341,42 @@ if (!place_free(x, y + verSpeed))
         global.numberJumps = global.numberJumpsSave;
     }
 }
+
+//###Death###
+if (health == 0)
+{
+    deathCountVar = true;
+}
+if (health &lt; 0)
+{
+    horSpeed = 0;
+    verSpeed = 0;
+    dead = true;
+    if (key_restart)
+    {
+        if (global.checkpointX == 0)
+            {
+                x = spawn_obj.x;
+                y = spawn_obj.y - 8;
+            }
+            else
+            {
+                x = global.checkpointX;
+                y = global.checkpointY;
+                verSpeed = 0;
+                horSpeed = 0;
+            }
+            health = 2;
+            dead = false;
+    }
+}
+
+if (deathCountVar == true)
+{
+    deathCount = deathCount + 1;
+    deathCountVar = false;
+    health = health - 1;
+}
 </string>
           </argument>
         </arguments>
@@ -415,6 +455,7 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
     }
     noDamage = true;
     alarm[0] = 10;
+    /*
     if (health &lt;= 0)
     {
         if (global.checkpointX == 0)
@@ -431,6 +472,7 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
         }
         health = 2;
     }
+    */
 }
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
@@ -547,6 +589,7 @@ draw_sprite(darkSpiritIcon_spr, 0, guiPosX + 522, guiPosY + 324);
 draw_text(guiPosX + 552, guiPosY + 324, string(money));
 
 //###GUI###
+draw_set_colour(c_white);
 draw_text(guiPosX + 8, guiPosY + 272, "Jumps = " + string(global.numberJumps));
 draw_text(guiPosX + 8, guiPosY + 288, "VSpeed = " + string(verSpeed));
 draw_text(guiPosX + 8, guiPosY + 304, "FPS = " + string(fps_real));
@@ -558,6 +601,16 @@ draw_text(guiPosX + 8, guiPosY + 336, "playerSpawnLocation = " + string(global.p
 if (nearEnemy == true)
 {
     draw_text(player_obj.x - 19, player_obj.y - 30, "F");
+}
+
+//###Game Over###
+if (dead == true)
+{
+    draw_set_font(gameover_fnt);
+    draw_set_colour(c_red);
+    draw_text(guiPosX + 148, guiPosY + 148, "Death Counter: " + string(deathCount));
+
+    draw_sprite(gameover_spr, 0, guiPosX + 582, guiPosY + 180);
 }
 </string>
           </argument>

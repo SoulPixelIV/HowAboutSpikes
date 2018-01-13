@@ -1804,6 +1804,7 @@
     <instance objName="snowBlockLC_obj" x="2912" y="1792" name="inst_FCB312BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="key_obj" x="288" y="1856" name="inst_A5CF148E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1600" name="inst_F9B80DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spike_obj" x="768" y="1856" name="inst_FA3EDE28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
