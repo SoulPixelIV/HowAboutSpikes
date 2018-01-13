@@ -58,7 +58,11 @@
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
+<<<<<<< HEAD
     <sprite>sprites\gameover_spr</sprite>
+=======
+    <sprite>sprites\tree_spr</sprite>
+>>>>>>> c1a6c25b4b56ef06efd5c7c5e74ede06b58412a0
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -136,6 +140,7 @@
     <object>objects\saw_obj</object>
     <object>objects\breakingPlatform_obj</object>
     <object>objects\breakingPlatformSpawner_obj</object>
+    <object>objects\tree_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
