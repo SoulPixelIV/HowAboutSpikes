@@ -1802,16 +1802,8 @@
     <instance objName="sniwBlockRC_obj" x="448" y="928" name="inst_92E3E3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowfall_obj" x="32" y="0" name="inst_E84FB515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="2912" y="1792" name="inst_FCB312BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="key_obj" x="288" y="1856" name="inst_A5CF148E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1600" name="inst_F9B80DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <instance objName="spike_obj" x="768" y="1856" name="inst_FA3EDE28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-=======
-    <instance objName="tree_obj" x="385" y="1872" name="inst_F78ED786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
->>>>>>> c1a6c25b4b56ef06efd5c7c5e74ede06b58412a0
-=======
->>>>>>> parent of 7de8c95... New Version
+    <instance objName="birdSpawner_obj" x="64" y="0" name="inst_9D1D45A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -58,14 +58,9 @@
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <sprite>sprites\gameover_spr</sprite>
-=======
-    <sprite>sprites\tree_spr</sprite>
->>>>>>> c1a6c25b4b56ef06efd5c7c5e74ede06b58412a0
-=======
->>>>>>> parent of 7de8c95... New Version
+    <sprite>sprites\bird_spr</sprite>
+    <sprite>sprites\bird_anim</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -83,6 +78,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
+    <font>fonts\gameover_fnt</font>
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
@@ -142,7 +138,8 @@
     <object>objects\saw_obj</object>
     <object>objects\breakingPlatform_obj</object>
     <object>objects\breakingPlatformSpawner_obj</object>
-    <object>objects\tree_obj</object>
+    <object>objects\bird_obj</object>
+    <object>objects\birdSpawner_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

@@ -1803,6 +1803,7 @@
     <instance objName="leafBlock_obj" x="224" y="320" name="inst_00B3C1F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="882" y="1350" name="inst_AC5C46A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_UC1_obj" x="846" y="1461" name="inst_292A9568" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="birdSpawner_obj" x="0" y="0" name="inst_02D0BEA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
