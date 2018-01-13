@@ -59,10 +59,13 @@
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprite>sprites\gameover_spr</sprite>
 =======
     <sprite>sprites\tree_spr</sprite>
 >>>>>>> c1a6c25b4b56ef06efd5c7c5e74ede06b58412a0
+=======
+>>>>>>> parent of 7de8c95... New Version
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -80,7 +83,6 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
-    <font>fonts\gameover_fnt</font>
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
