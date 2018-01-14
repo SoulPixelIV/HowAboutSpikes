@@ -16,6 +16,7 @@
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
+    <sprite>sprites\leverBlue_spr</sprite>
     <sprite>sprites\door_spr</sprite>
     <sprite>sprites\dude_spr</sprite>
     <sprite>sprites\house_spr</sprite>
@@ -61,6 +62,7 @@
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\trapdoorRed_spr</sprite>
+    <sprite>sprites\trapdoorBlue_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
@@ -101,6 +103,7 @@
     <object>objects\ladder_obj</object>
     <object>objects\ladderIron_obj</object>
     <object>objects\lever_obj</object>
+    <object>objects\leverBlue_obj</object>
     <object>objects\trapdoor_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
@@ -147,6 +150,7 @@
     <object>objects\bird_obj</object>
     <object>objects\birdSpawner_obj</object>
     <object>objects\trapdoorRed_obj</object>
+    <object>objects\trapdoorBlue_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
