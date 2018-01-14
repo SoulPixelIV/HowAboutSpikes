@@ -14,6 +14,7 @@
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
+    <sprite>sprites\ladderIron_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
     <sprite>sprites\door_spr</sprite>
     <sprite>sprites\dude_spr</sprite>
@@ -41,6 +42,7 @@
       <sprite>sprites\mysteryBlock_spr</sprite>
       <sprite>sprites\mysteryBlockEnemy_spr</sprite>
       <sprite>sprites\glassBlock_spr</sprite>
+      <sprite>sprites\glassBlockBroken_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\powerup_spr</sprite>
@@ -55,13 +57,15 @@
       <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
     </sprites>
     <sprite>sprites\turret_spr</sprite>
-    <sprite>sprites\bullet_spr</sprite>
+    <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
+    <sprite>sprites\trapdoorRed_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
     <sprite>sprites\bird_anim</sprite>
+    <sprite>sprites\bullet_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -95,6 +99,7 @@
     <object>objects\enemyNormal_obj</object>
     <object>objects\enemyMystery_obj</object>
     <object>objects\ladder_obj</object>
+    <object>objects\ladderIron_obj</object>
     <object>objects\lever_obj</object>
     <object>objects\trapdoor_obj</object>
     <object>objects\doorTutorial_obj</object>
@@ -137,10 +142,11 @@
     <object>objects\turret_obj</object>
     <object>objects\bullet_obj</object>
     <object>objects\saw_obj</object>
-    <object>objects\breakingPlatform_obj</object>
-    <object>objects\breakingPlatformSpawner_obj</object>
+    <object>objects\glassBlockBroken_obj</object>
+    <object>objects\glassBlockBrokenSpawner_obj</object>
     <object>objects\bird_obj</object>
     <object>objects\birdSpawner_obj</object>
+    <object>objects\trapdoorRed_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

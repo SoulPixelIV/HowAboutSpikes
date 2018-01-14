@@ -548,6 +548,13 @@ if (place_meeting(x, y, darkSpirit_obj))
 {
     money = money + 1;
 }
+//###GlassBlockBroken Collision###
+if (place_meeting(x, y, glassBlockBroken_obj))
+{
+    horSpeed = 5 * sign(horSpeed);
+}
+
+
 </string>
           </argument>
         </arguments>

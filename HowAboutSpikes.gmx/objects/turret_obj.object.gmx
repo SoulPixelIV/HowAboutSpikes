@@ -27,7 +27,11 @@
             <kind>1</kind>
             <string>shootSpeed = 120;
 shoot = false;
+pause = false;
 alarm[0] = shootSpeed;
+
+image_speed = 0;
+image_index = 0;
 </string>
           </argument>
         </arguments>
@@ -53,7 +57,9 @@ alarm[0] = shootSpeed;
             <string>if (shoot == true)
 {
     instance_create(x, y + 10, bullet_obj);
-}
+    image_index = 0;
+    image_speed = 0.4;  
+}  
 alarm[0] = shootSpeed;
 </string>
           </argument>
@@ -79,12 +85,18 @@ alarm[0] = shootSpeed;
             <kind>1</kind>
             <string>if (distance_to_object(player_obj) &lt; 270)
 {
-    image_angle = point_direction(x, y, player_obj.x, player_obj.y) - 90;
+    image_angle = point_direction(x, y, player_obj.x, player_obj.y) - 270;
     shoot = true;
 }
 else
 {
     shoot = false;
+}
+
+if (image_index &gt; 4)
+{
+    image_index = 0;
+    image_speed = 0;
 }
 </string>
           </argument>
