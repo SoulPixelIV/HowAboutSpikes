@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\playerWalk_spr</sprite>
     <sprite>sprites\playerIdle_spr</sprite>
+    <sprite>sprites\playerAttack_spr</sprite>
     <sprite>sprites\playerFalling_spr</sprite>
     <sprite>sprites\playerLanding_spr</sprite>
     <sprite>sprites\spike_spr</sprite>
