@@ -137,6 +137,7 @@
       <object>objects\colliderUF1_UF2_obj</object>
       <object>objects\colliderUF2_UF3_obj</object>
       <object>objects\colliderGV_UC1_obj</object>
+      <object>objects\colliderUC1_UC2_obj</object>
       <object>objects\roomColliderRight_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -164,6 +165,7 @@
     <room>rooms\unknownForest2</room>
     <room>rooms\unknownForest3</room>
     <room>rooms\undergroundCity1</room>
+    <room>rooms\undergroundCity2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
