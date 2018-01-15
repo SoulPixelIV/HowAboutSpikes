@@ -71,6 +71,11 @@
     <sprite>sprites\bird_anim</sprite>
     <sprite>sprites\bullet_spr</sprite>
     <sprite>sprites\part_spr</sprite>
+    <sprite>sprites\otherSaw_spr</sprite>
+    <sprite>sprites\vine_spr</sprite>
+    <sprite>sprites\aDog_spr</sprite>
+    <sprite>sprites\aDogIdle_spr</sprite>
+    <sprite>sprites\nest_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
