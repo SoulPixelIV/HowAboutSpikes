@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(x, y, glassBlockBroken_obj);
+            <string>if (!place_meeting(x, y, glassBlockBroken_obj))
+    {
+        instance_create(x, y, glassBlockBroken_obj);
+    }
 </string>
           </argument>
         </arguments>

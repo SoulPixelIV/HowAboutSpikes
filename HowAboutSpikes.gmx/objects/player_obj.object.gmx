@@ -418,7 +418,7 @@ else
     global.restart = false;
 }
 //###Damage Collision###
-if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj))
+if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj))
 {
     gamepad_set_vibration(0, 0.3, 0.3);
     if (verSpeed &gt; 0)
