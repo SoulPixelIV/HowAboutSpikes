@@ -803,7 +803,6 @@
     <instance objName="forestBlockMystery_obj" x="512" y="1120" name="inst_2FC5077B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="480" y="1120" name="inst_2918531A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="448" y="1120" name="inst_65AA7714" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="specialBlock_obj" x="192" y="992" name="inst_F17CF2F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="864" y="288" name="inst_8D04B45A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="864" y="320" name="inst_46608F32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="864" y="352" name="inst_6EFC51A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1430,6 +1429,13 @@
     <instance objName="forestBlockMystery_obj" x="896" y="1056" name="inst_AC6CFCD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="864" y="1056" name="inst_80A847E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="832" y="1056" name="inst_10BF2C60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mysteryBlockSpecial_obj" x="192" y="992" name="inst_C3311277" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="640" y="704" name="inst_3686D42E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="672" y="704" name="inst_03CD6803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="704" y="704" name="inst_513D166B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="1632" y="704" name="inst_0AF7B515" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="1664" y="704" name="inst_477B4B2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leverBlue_obj" x="256" y="928" name="inst_57943DED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

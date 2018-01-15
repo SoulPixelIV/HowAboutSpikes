@@ -65,7 +65,9 @@
     <sprite>sprites\trapdoorBlue_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
+    <sprite>sprites\birdOld_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
+    <sprite>sprites\birdOld_anim</sprite>
     <sprite>sprites\bird_anim</sprite>
     <sprite>sprites\bullet_spr</sprite>
     <sprite>sprites\part_spr</sprite>
@@ -86,6 +88,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
+    <font>fonts\message_fnt</font>
     <font>fonts\gameover_fnt</font>
   </fonts>
   <objects name="objects">
@@ -125,6 +128,7 @@
       <object>objects\treeBlock_obj</object>
       <object>objects\treeBlock2_obj</object>
       <object>objects\specialBlock_obj</object>
+      <object>objects\mysteryBlockSpecial_obj</object>
       <object>objects\quicksandBlock_obj</object>
       <object>objects\glassBlock_obj</object>
     </objects>

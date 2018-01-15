@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!place_meeting(x, y, glassBlockBroken_obj))
-    {
-        instance_create(x, y, glassBlockBroken_obj);
-    }
+            <string>if (place_empty(x, y))
+{
+    instance_create(x, y, glassBlockBroken_obj);
+}
 </string>
           </argument>
         </arguments>
@@ -53,9 +53,10 @@
             <kind>1</kind>
             <string>if (global.restart == true)
 {
-    if (!place_meeting(x, y, glassBlockBroken_obj))
+    if (place_empty(x, y))
     {
         instance_create(x, y, glassBlockBroken_obj);
+        global.restart = false;
     }
 }
 </string>
