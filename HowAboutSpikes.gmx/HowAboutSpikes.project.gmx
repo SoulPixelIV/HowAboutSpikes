@@ -76,8 +76,8 @@
     <sprite>sprites\aDog_spr</sprite>
     <sprite>sprites\aDogIdle_spr</sprite>
     <sprite>sprites\nest_spr</sprite>
-    <sprite>sprites\redFlower_spr</sprite>
-    <sprite>sprites\blueFlower_spr</sprite>
+    <sprite>sprites\redFlowerIdle_spr</sprite>
+    <sprite>sprites\blueFlowerIdle_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
