@@ -270,7 +270,6 @@ if (key_attack)
     }
 }
 
-/*
 if ((verSpeed &lt; 0) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
 {
     nearEnemy = true;
@@ -317,7 +316,7 @@ case 4:
     global.state = 0;
     break;
 }
-*/
+
 //###Collision Checking###
 if (!place_free(x + horSpeed, y))
 {
