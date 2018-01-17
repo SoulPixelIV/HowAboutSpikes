@@ -2267,7 +2267,7 @@
     <instance objName="checkpoint_obj" x="2668" y="1552" name="inst_B1704B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1536" y="1280" name="inst_A5D55190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="2656" y="1536" name="inst_D693C607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC1_UC2_obj" x="256" y="160" name="inst_455055D2" locked="0" code="" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC1_UC2_obj" x="2720" y="1536" name="inst_455055D2" locked="0" code="" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="96" y="992" name="inst_E7D33A6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="64" y="992" name="inst_E5897A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="64" y="1024" name="inst_4200BF7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

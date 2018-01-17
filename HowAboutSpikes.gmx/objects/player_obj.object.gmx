@@ -53,8 +53,6 @@ lastDir = 0;
 landing = false;
 onLadder = false;
 
-global.hitLever = false;
-global.hitLeverBlue = false;
 global.restart = false;
 </string>
           </argument>
@@ -569,6 +567,57 @@ if (place_meeting(x, y, glassBlockBroken_obj))
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//###Debug Stuff###
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != gardenValley)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(gardenValley);
+}
+if (keyboard_check_pressed(ord('2')) &amp;&amp; room != unknownForest1)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(unknownForest1);
+}
+if (keyboard_check_pressed(ord('3')) &amp;&amp; room != unknownForest2)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(unknownForest2);
+}
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForest3)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(unknownForest3);
+}
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != undergroundCity1)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(undergroundCity1);
+}
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != undergroundCity2)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(undergroundCity2);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -588,8 +637,8 @@ if (place_meeting(x, y, glassBlockBroken_obj))
           <argument>
             <kind>1</kind>
             <string>draw_self();
-guiPosX = view_xview[0];
-guiPosY = view_yview[0];
+global.guiPosX = view_xview[0];
+global.guiPosY = view_yview[0];
 draw_set_font(gui_fnt);
 
 //###Health###
