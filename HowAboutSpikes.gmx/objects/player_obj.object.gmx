@@ -167,12 +167,14 @@ horSpeed = move * global.movSpeed;
 if (key_right)
 {
     lastDir = 0;
+    image_speed = 0.1;
     sprite_index = playerWalk_spr;
     image_xscale = 1;
 }
 if (key_left)
 {
     lastDir = 1;
+    image_speed = 0.1;
     sprite_index = playerWalk_spr;
     image_xscale = -1;
 }
@@ -181,11 +183,13 @@ if (horSpeed == 0)
 {
     if (lastDir == 0)
     {
+        image_speed = 0.03;
         sprite_index = playerIdle_spr;
         image_xscale = 1;
     }
     else
     {
+        image_speed = 0.03;
         sprite_index = playerIdle_spr;
         image_xscale = -1;
     }
@@ -193,6 +197,7 @@ if (horSpeed == 0)
 
 if (verSpeed &gt; 0)
 {
+    image_speed = 0.2;
     sprite_index = playerFalling_spr;
     if (lastDir == 0)
     {
@@ -206,6 +211,7 @@ if (verSpeed &gt; 0)
 
 if (landing == true)
 {
+    image_speed = 0.1;
     sprite_index = playerLanding_spr;
     if (lastDir == 0)
     {
@@ -340,7 +346,7 @@ if (!place_free(x, y + verSpeed))
     if (verSpeed &gt;= 2)
     {
         landing = true;
-        alarm[1] = 14;
+        alarm[1] = 8;
     }
     verSpeed = 0;
     if (!place_free(x, y + 1))

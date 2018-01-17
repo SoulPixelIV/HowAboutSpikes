@@ -48,7 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y, player_obj))
+            <string>image_speed = 0.08;
+
+if (place_meeting(x, y, player_obj))
 {
     global.picked = true;
 }
