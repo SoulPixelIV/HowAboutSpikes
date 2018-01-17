@@ -2308,10 +2308,10 @@
     <instance objName="ladder_obj" x="2144" y="704" name="inst_DD442A56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="0" y="0" name="inst_64157D2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="3174" y="1201" name="inst_D36A34C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redFlower_obj" x="137" y="1003" name="inst_00EFA074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redFlower_obj" x="228" y="1002" name="inst_5820A7A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueFlower_obj" x="187" y="977" name="inst_DB27855F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueFlower_obj" x="281" y="1007" name="inst_9579792D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redFlower_obj" x="128" y="992" name="inst_00EFA074" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redFlower_obj" x="192" y="992" name="inst_5820A7A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="blueFlower_obj" x="160" y="992" name="inst_DB27855F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="blueFlower_obj" x="224" y="992" name="inst_9579792D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
