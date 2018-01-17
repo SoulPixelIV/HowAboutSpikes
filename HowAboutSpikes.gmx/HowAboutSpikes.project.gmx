@@ -6,19 +6,19 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\playerWalk_spr</sprite>
-    <sprite>sprites\playerIdle_spr</sprite>
-    <sprite>sprites\playerAttack_spr</sprite>
-    <sprite>sprites\playerFalling_spr</sprite>
-    <sprite>sprites\playerLanding_spr</sprite>
+    <sprites name="Player Sprites">
+      <sprite>sprites\playerWalk_spr</sprite>
+      <sprite>sprites\playerIdle_spr</sprite>
+      <sprite>sprites\playerFalling_spr</sprite>
+      <sprite>sprites\playerAttack_spr</sprite>
+      <sprite>sprites\playerLanding_spr</sprite>
+    </sprites>
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
     <sprite>sprites\leverBlue_spr</sprite>
-    <sprite>sprites\door_spr</sprite>
-    <sprite>sprites\dude_spr</sprite>
     <sprite>sprites\house_spr</sprite>
     <sprite>sprites\enemy_spr</sprite>
     <sprite>sprites\lamp_spr</sprite>
@@ -46,11 +46,10 @@
       <sprite>sprites\glassBlockBroken_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
+      <sprite>sprites\darkSpirit_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
       <sprite>sprites\key_spr</sprite>
     </sprites>
-    <sprite>sprites\stoneWall_spr</sprite>
-    <sprite>sprites\darkSpirit_spr</sprite>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
       <sprite>sprites\heart_spr</sprite>
@@ -59,25 +58,31 @@
     </sprites>
     <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bulletOld_spr</sprite>
-    <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\trapdoorRed_spr</sprite>
     <sprite>sprites\trapdoorBlue_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
-    <sprite>sprites\birdOld_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
-    <sprite>sprites\birdOld_anim</sprite>
     <sprite>sprites\bird_anim</sprite>
     <sprite>sprites\bullet_spr</sprite>
-    <sprite>sprites\part_spr</sprite>
-    <sprite>sprites\otherSaw_spr</sprite>
+    <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\vine_spr</sprite>
     <sprite>sprites\aDog_spr</sprite>
     <sprite>sprites\aDogIdle_spr</sprite>
     <sprite>sprites\nest_spr</sprite>
     <sprite>sprites\redFlowerIdle_spr</sprite>
     <sprite>sprites\blueFlowerIdle_spr</sprite>
+    <sprites name="Old Sprites">
+      <sprite>sprites\dude_spr</sprite>
+      <sprite>sprites\door_spr</sprite>
+      <sprite>sprites\stoneWall_spr</sprite>
+      <sprite>sprites\sawOld_spr</sprite>
+      <sprite>sprites\part_spr</sprite>
+      <sprite>sprites\birdOld_spr</sprite>
+      <sprite>sprites\birdOld_anim</sprite>
+    </sprites>
+    <sprite>sprites\spikeBig_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -105,10 +110,6 @@
     <object>objects\forestBlockMystery_obj</object>
     <object>objects\checkpoint_obj</object>
     <object>objects\checkpointMystery_obj</object>
-    <object>objects\globalSettings_obj</object>
-    <object>objects\finish_obj</object>
-    <object>objects\hitbox_obj</object>
-    <object>objects\hitboxEnemy_obj</object>
     <object>objects\enemyNormal_obj</object>
     <object>objects\enemyMystery_obj</object>
     <object>objects\ladder_obj</object>
@@ -118,8 +119,6 @@
     <object>objects\trapdoor_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
-    <object>objects\snowfall_obj</object>
-    <object>objects\fog_obj</object>
     <object>objects\powerup_obj</object>
     <object>objects\dude_obj</object>
     <object>objects\house_obj</object>
@@ -151,7 +150,6 @@
       <object>objects\spawn2_obj</object>
     </objects>
     <object>objects\stoneWall_obj</object>
-    <object>objects\obj_background</object>
     <object>objects\enemy_obj</object>
     <object>objects\darkSpirit_obj</object>
     <object>objects\lamp_obj</object>
@@ -166,6 +164,16 @@
     <object>objects\trapdoorBlue_obj</object>
     <object>objects\redFlower_obj</object>
     <object>objects\blueFlower_obj</object>
+    <objects name="Special Objects">
+      <object>objects\globalSettings_obj</object>
+      <object>objects\hitbox_obj</object>
+      <object>objects\hitboxEnemy_obj</object>
+      <object>objects\finish_obj</object>
+      <object>objects\snowfall_obj</object>
+      <object>objects\fog_obj</object>
+    </objects>
+    <object>objects\batBoss_obj</object>
+    <object>objects\spikeBig_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
@@ -173,6 +181,7 @@
     <room>rooms\unknownForest1</room>
     <room>rooms\unknownForest2</room>
     <room>rooms\unknownForest3</room>
+    <room>rooms\unknownForestBoss</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
   </rooms>
