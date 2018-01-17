@@ -164,6 +164,8 @@
     <object>objects\birdSpawner_obj</object>
     <object>objects\trapdoorRed_obj</object>
     <object>objects\trapdoorBlue_obj</object>
+    <object>objects\redFlower_obj</object>
+    <object>objects\blueFlower_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
