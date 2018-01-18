@@ -1828,6 +1828,15 @@
     <instance objName="blueFlower_obj" x="320" y="864" name="inst_3E31735B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="trapdoor_obj" x="1696" y="1600" name="inst_E9026B18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="1824" y="1568" name="inst_2D4CA419" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2880" y="1824" name="inst_77DA683A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="3136" y="1184" name="inst_F59F5394" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="3008" y="1184" name="inst_50C99D2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2368" y="1120" name="inst_B90AF910" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="896" y="992" name="inst_A350AFDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="544" y="992" name="inst_73B93A0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1344" y="448" name="inst_C88A16E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="960" y="448" name="inst_568A801D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="832" y="448" name="inst_DB31C1BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

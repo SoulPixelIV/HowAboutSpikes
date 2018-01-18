@@ -2225,12 +2225,6 @@
     <instance objName="ladder_obj" x="1152" y="544" name="inst_88F5D077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1152" y="576" name="inst_F0D523A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1088" y="544" name="inst_D2AE7FAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="3104" y="992" name="inst_F672B1F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="3072" y="992" name="inst_3C259AA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="3040" y="992" name="inst_AA0229AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="3008" y="992" name="inst_EEB047E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="2976" y="992" name="inst_FB744FED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoor_obj" x="2944" y="992" name="inst_F8301DCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treeBlock2_obj" x="1248" y="640" name="inst_64744346" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="2112" y="672" name="inst_DD86415A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="2112" y="704" name="inst_D6EDC623" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2312,6 +2306,31 @@
     <instance objName="redFlower_obj" x="192" y="992" name="inst_5820A7A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="160" y="992" name="inst_DB27855F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="224" y="992" name="inst_9579792D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1312" y="640" name="inst_BAA74E45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1344" y="640" name="inst_175755A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1280" y="672" name="inst_A528D1A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1152" y="672" name="inst_2575055F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1184" y="704" name="inst_ADE36F4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1024" y="672" name="inst_4BAEB5DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="864" y="608" name="inst_1AA8BF8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="832" y="608" name="inst_8F90641D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="800" y="608" name="inst_0E25A68B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="384" y="608" name="inst_5A8B3F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="416" y="608" name="inst_1E503B76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="128" y="608" name="inst_94F53D96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="288" y="256" name="inst_527BB30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="256" y="256" name="inst_870A082F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="224" y="256" name="inst_57F066F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="448" y="384" name="inst_C2F9B4C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="608" y="384" name="inst_0CA4AE80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="576" y="384" name="inst_3FE36CDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="896" y="416" name="inst_09189CA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="928" y="416" name="inst_EA244703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1312" y="448" name="inst_93406A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1280" y="448" name="inst_D797D15C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2080" y="192" name="inst_F37FAE30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2112" y="224" name="inst_CC929486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2144" y="192" name="inst_440DE934" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

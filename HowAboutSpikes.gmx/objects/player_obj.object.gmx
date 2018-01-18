@@ -583,7 +583,20 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Debug Stuff###
+            <string>//###Easy Mode###
+if (keyboard_check_pressed(ord('0')))
+{
+    if (global.mode == 0)
+    {
+        global.mode = 1;
+    }
+    else
+    {
+        global.mode = 0;
+    }
+}
+
+//###Debug Stuff###
 if (keyboard_check_pressed(ord('1')) &amp;&amp; room != gardenValley)
 {
     global.playerSpawnLocation = 0;
@@ -644,29 +657,29 @@ draw_set_font(gui_fnt);
 //###Health###
 if (health == 2)
 {
-    draw_sprite(heart_spr, 0, guiPosX + 36, guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
 }
 if (health == 1)
 {
-    draw_sprite(heart_spr, 1, guiPosX + 36, guiPosY + 36);
+    draw_sprite(heart_spr, 1, global.guiPosX + 36, global.guiPosY + 36);
 }
 if (health == 0)
 {
-    draw_sprite(heart_spr, 2, guiPosX + 36, guiPosY + 36);
+    draw_sprite(heart_spr, 2, global.guiPosX + 36, global.guiPosY + 36);
 }
 
 //###Money###
-draw_sprite(darkSpiritIcon_spr, 0, guiPosX + 522, guiPosY + 324);
+draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 522, global.guiPosY + 324);
 
-draw_text(guiPosX + 552, guiPosY + 324, string(money));
+draw_text(global.guiPosX + 552, global.guiPosY + 324, string(money));
 
 //###GUI###
 draw_set_colour(c_white);
-draw_text(guiPosX + 8, guiPosY + 272, "Jumps = " + string(global.numberJumps));
-draw_text(guiPosX + 8, guiPosY + 288, "VSpeed = " + string(verSpeed));
-draw_text(guiPosX + 8, guiPosY + 304, "FPS = " + string(fps_real));
-draw_text(guiPosX + 8, guiPosY + 320, "State = " + string(global.state));
-draw_text(guiPosX + 8, guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
+draw_text(global.guiPosX + 8, global.guiPosY + 272, "Gamemode = " + string(global.mode));
+draw_text(global.guiPosX + 8, global.guiPosY + 288, "VSpeed = " + string(verSpeed));
+draw_text(global.guiPosX + 8, global.guiPosY + 304, "FPS = " + string(fps_real));
+draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
+draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
 //###Combat###
@@ -680,9 +693,9 @@ if (dead == true)
 {
     draw_set_font(gameover_fnt);
     draw_set_colour(c_red);
-    draw_text(guiPosX + 148, guiPosY + 148, "Death Counter: " + string(global.deathCount));
+    draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));
 
-    draw_sprite(gameover_spr, 0, guiPosX + 582, guiPosY + 180);
+    draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
 }
 
 //###World Text###
@@ -690,7 +703,7 @@ if (room == gardenValley &amp;&amp; global.spawned == true)
 {
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
-    draw_text(guiPosX + 90, guiPosY + 70, "Now Entering: Garden Valley");
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Garden Valley");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {
@@ -706,7 +719,7 @@ if (room == unknownForest1 &amp;&amp; global.spawned == true)
 {
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
-    draw_text(guiPosX + 90, guiPosY + 70, "Now Entering: Unknown Forest");
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Unknown Forest");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {
@@ -722,7 +735,7 @@ if (room == undergroundCity1 &amp;&amp; global.spawned == true)
 {
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
-    draw_text(guiPosX + 90, guiPosY + 70, "Now Entering: Underground City");
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Underground City");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {

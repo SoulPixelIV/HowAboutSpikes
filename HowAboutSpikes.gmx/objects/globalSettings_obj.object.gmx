@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.playerSpawnLocation = 0;
+            <string>global.mode = 0;
+
+global.playerSpawnLocation = 0;
 global.deathCount = 0;
 global.spawned = false;
 
@@ -54,7 +56,8 @@ global.hitLeverBlue = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.playerSpawnLocation == 0)
+            <string>//###Spawn###
+if (global.playerSpawnLocation == 0)
 {
     if (!instance_exists(player_obj))
     {
@@ -77,6 +80,16 @@ if (global.playerSpawnLocation == 2)
         instance_create(spawn2_obj.x, spawn2_obj.y, player_obj);
     }
     global.playerSpawnLocation = -1;
+}
+
+//###Easy Mode###
+if (global.mode == 0)
+{
+    instance_deactivate_object(easyModeBlock_obj);
+}
+else
+{
+    instance_activate_object(easyModeBlock_obj);
 }
 </string>
           </argument>

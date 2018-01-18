@@ -1744,17 +1744,6 @@
     <instance objName="forestBlock2_obj" x="2560" y="992" name="inst_284A4B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1920" y="1056" name="inst_C6B62B69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spike_obj" x="1760" y="1216" name="inst_EF8FB39C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="2432" y="928" name="inst_DA80A247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="1952" y="960" name="inst_A60289C1" locked="0" code="" scaleX="1" scaleY="0.625" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="1440" y="896" name="inst_892BDE71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="928" y="960" name="inst_00F89E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="416" y="960" name="inst_C664D6A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="224" y="1120" name="inst_05227B6A" locked="0" code="" scaleX="1.125" scaleY="1.19000005722046" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="768" y="1280" name="inst_98C0850D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="1280" y="1344" name="inst_76C2EE6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="1760" y="1376" name="inst_B53EECE3" locked="0" code="" scaleX="1.03125" scaleY="1.0625" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="2272" y="1408" name="inst_A4883440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneWall_obj" x="2752" y="1376" name="inst_154662BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1664" y="992" name="inst_F38AF727" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1696" y="992" name="inst_18081804" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1728" y="992" name="inst_D55C066C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1841,6 +1830,14 @@
     <instance objName="birdSpawner_obj" x="0" y="0" name="inst_007679C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="1007" y="593" name="inst_C162957E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="2612" y="1231" name="inst_72297EF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1504" y="480" name="inst_69AE9E1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2336" y="672" name="inst_3E666183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2080" y="1024" name="inst_B44E379F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1920" y="1024" name="inst_B65D630A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="448" y="1344" name="inst_0A44ED40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="416" y="1344" name="inst_3865F270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="1408" y="1216" name="inst_EFFD91C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="2144" y="1408" name="inst_DABF1BFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
