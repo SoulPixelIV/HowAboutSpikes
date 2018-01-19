@@ -106,8 +106,8 @@ if (flying == false)
 if (flying == true)
 {
     sprite_index = bird_anim;
-    image_speed = 0.05;
-    if (image_index &gt; 1)
+    image_speed = 0.1;
+    if (image_index &gt; image_number)
     {
         image_index = 0;
     }
