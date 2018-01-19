@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>enemy_obj</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,7 +25,59 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bossHealth = 1000;
+            <string>bossHealth = 100;
+invincible = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>invincible = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
+{
+    bossHealth = bossHealth - global.damage / 20;
+    invincible = true;
+    alarm[0] = 10;
+}
 </string>
           </argument>
         </arguments>
@@ -48,7 +100,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//draw_healthbar(global.guiPosX + 32, global.guiPosY + 32, global.guiPosX + 608, global.guiPosY + 64, bossHealth, c_black, c_green, c_green, 1, true, true);
+            <string>draw_self();
+draw_healthbar(global.guiPosX + 32, global.guiPosY + 16, global.guiPosX + 608, global.guiPosY + 32, bossHealth, c_black, c_green, c_green, 0, true, true);
 </string>
           </argument>
         </arguments>

@@ -198,7 +198,7 @@ if (distance_to_object(player_obj) &gt; 120)
 
 if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
 {
-    enemyHealth = enemyHealth - 20;
+    enemyHealth = enemyHealth - global.damage;
     invincible = true;
     alarm[0] = 10;
 }

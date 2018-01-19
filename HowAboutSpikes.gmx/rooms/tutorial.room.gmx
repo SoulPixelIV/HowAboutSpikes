@@ -1837,6 +1837,8 @@
     <instance objName="easyModeBlock_obj" x="1344" y="448" name="inst_C88A16E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="960" y="448" name="inst_568A801D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="832" y="448" name="inst_DB31C1BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="576" y="1888" name="inst_91771A57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="480" y="1952" name="inst_152C38BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
