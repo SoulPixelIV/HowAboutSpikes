@@ -1801,7 +1801,6 @@
     <instance objName="snowBlockLC_obj" x="2912" y="1792" name="inst_FCB312BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1696" y="1600" name="inst_F9B80DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="32" y="0" name="inst_9D1D45A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="key_obj" x="256" y="1856" name="inst_5B842ED9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redFlower_obj" x="416" y="1888" name="inst_F5BA6F20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redFlower_obj" x="480" y="1952" name="inst_6B683DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redFlower_obj" x="576" y="1888" name="inst_473F33C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1837,8 +1836,8 @@
     <instance objName="easyModeBlock_obj" x="1344" y="448" name="inst_C88A16E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="960" y="448" name="inst_568A801D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="832" y="448" name="inst_DB31C1BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="576" y="1888" name="inst_91771A57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="480" y="1952" name="inst_152C38BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="1216" y="1824" name="inst_0F42FED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="3392" y="1152" name="inst_6BEF1D29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -19,12 +19,15 @@
     <sprite>sprites\ladderIron_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
     <sprite>sprites\leverBlue_spr</sprite>
+    <sprite>sprites\leverRed_spr</sprite>
     <sprite>sprites\house_spr</sprite>
     <sprite>sprites\enemy_spr</sprite>
+    <sprite>sprites\enemy2_spr</sprite>
     <sprite>sprites\lamp_spr</sprite>
     <sprites name="Basic Colors">
       <sprite>sprites\blue_spr</sprite>
       <sprite>sprites\pink_spr</sprite>
+      <sprite>sprites\pinkSmall_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>
     <sprites name="Basic Blocks">
@@ -112,13 +115,8 @@
     <object>objects\forestBlockMystery_obj</object>
     <object>objects\checkpoint_obj</object>
     <object>objects\checkpointMystery_obj</object>
-    <object>objects\enemyNormal_obj</object>
-    <object>objects\enemyMystery_obj</object>
     <object>objects\ladder_obj</object>
     <object>objects\ladderIron_obj</object>
-    <object>objects\lever_obj</object>
-    <object>objects\leverBlue_obj</object>
-    <object>objects\trapdoor_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
     <object>objects\powerup_obj</object>
@@ -146,12 +144,11 @@
       <object>objects\colliderUF2_UF3_obj</object>
       <object>objects\colliderGV_UC1_obj</object>
       <object>objects\colliderUC1_UC2_obj</object>
-      <object>objects\roomColliderRight_obj</object>
+      <object>objects\colliderUC2_UC3_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
     </objects>
-    <object>objects\enemy_obj</object>
     <object>objects\darkSpirit_obj</object>
     <object>objects\lamp_obj</object>
     <object>objects\turret_obj</object>
@@ -160,14 +157,13 @@
     <object>objects\glassBlockBroken_obj</object>
     <object>objects\bird_obj</object>
     <object>objects\birdSpawner_obj</object>
-    <object>objects\trapdoorRed_obj</object>
-    <object>objects\trapdoorBlue_obj</object>
     <object>objects\redFlower_obj</object>
     <object>objects\blueFlower_obj</object>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
       <object>objects\hitbox_obj</object>
       <object>objects\hitboxEnemy_obj</object>
+      <object>objects\hitboxEnemyBig_obj</object>
       <object>objects\finish_obj</object>
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
@@ -175,6 +171,20 @@
     <object>objects\batBoss_obj</object>
     <object>objects\spikeBig_obj</object>
     <object>objects\easyModeBlock_obj</object>
+    <objects name="Enemies">
+      <object>objects\enemyNormal_obj</object>
+      <object>objects\enemyNormal2_obj</object>
+      <object>objects\enemyMystery_obj</object>
+      <object>objects\enemy_obj</object>
+    </objects>
+    <objects name="Shortcuts">
+      <object>objects\lever_obj</object>
+      <object>objects\leverBlue_obj</object>
+      <object>objects\leverRed_obj</object>
+      <object>objects\trapdoor_obj</object>
+      <object>objects\trapdoorBlue_obj</object>
+      <object>objects\trapdoorRed_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
@@ -185,6 +195,7 @@
     <room>rooms\unknownForestBoss</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
+    <room>rooms\undergroundCity3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

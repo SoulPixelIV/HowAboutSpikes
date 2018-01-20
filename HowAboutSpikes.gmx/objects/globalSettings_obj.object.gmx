@@ -33,6 +33,7 @@ global.spawned = false;
 
 global.hitLever = false;
 global.hitLeverBlue = false;
+global.hitLeverRed = false;
 
 </string>
           </argument>

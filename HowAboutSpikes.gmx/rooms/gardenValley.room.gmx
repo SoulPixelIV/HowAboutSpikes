@@ -1777,7 +1777,7 @@
     <instance objName="dude_obj" x="2816" y="992" name="inst_2A00B843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dude_obj" x="2752" y="992" name="inst_C61673D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dude_obj" x="1600" y="928" name="inst_261C19C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_UF1_obj" x="3232" y="800" name="inst_18C843EA" locked="0" code="" scaleX="0.5" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_UF1_obj" x="3221" y="981" name="inst_18C843EA" locked="0" code="" scaleX="-0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="3136" y="992" name="inst_A181E293" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="1184" y="928" name="inst_630F71AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="288" y="640" name="inst_9CD7628F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1798,7 +1798,7 @@
     <instance objName="leafBlock_obj" x="448" y="352" name="inst_FC7330C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="224" y="320" name="inst_00B3C1F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="882" y="1350" name="inst_AC5C46A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_UC1_obj" x="846" y="1461" name="inst_292A9568" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_UC1_obj" x="855" y="1476" name="inst_292A9568" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="0" y="0" name="inst_02D0BEA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treeBlock2_obj" x="224" y="352" name="inst_77F6DD67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="224" y="288" name="inst_8E2B0F5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
