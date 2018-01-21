@@ -88,6 +88,7 @@
     <sprite>sprites\spikeBig_spr</sprite>
     <sprite>sprites\easyModeBlock_spr</sprite>
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
+    <sprite>sprites\batIdle_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -185,6 +186,7 @@
       <object>objects\trapdoorBlue_obj</object>
       <object>objects\trapdoorRed_obj</object>
     </objects>
+    <object>objects\bat_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
