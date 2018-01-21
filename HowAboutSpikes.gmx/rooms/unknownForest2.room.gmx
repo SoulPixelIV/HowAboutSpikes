@@ -53,8 +53,6 @@
   <instances>
     <instance objName="leafBlock_obj" x="0" y="128" name="inst_C877846D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="0" y="224" name="inst_8ABE8761" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leafBlock_obj" x="-32" y="160" name="inst_9AB50703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leafBlock_obj" x="-32" y="192" name="inst_0841EA18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="32" y="224" name="inst_84B26AD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="64" y="224" name="inst_5A042C03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="96" y="224" name="inst_E4509F27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1747,7 +1745,7 @@
     <instance objName="forestBlock2_obj" x="1664" y="992" name="inst_F38AF727" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1696" y="992" name="inst_18081804" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="1728" y="992" name="inst_D55C066C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUF1_UF2_obj" x="-52" y="177" name="inst_061C16BD" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUF1_UF2_obj" x="-19" y="176" name="inst_061C16BD" locked="0" code="" scaleX="0.25" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="64" y="160" name="inst_EB4B8BC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="1280" y="544" name="inst_C1D5988E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="1248" y="544" name="inst_03294511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
