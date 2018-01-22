@@ -6,7 +6,7 @@ Small game that'll make us rich. /s
 ## Pussy Mode
 Press 0 to enable the Pussy Mode. I'm personally against this since it's pretty easy anyways, but meh.
 
-## Known Bugs
+## Known Bugs (biggest secton in the doc)
 - Edge clipping
 - ~~Hitbox clipping~~ (R.I.P. Wallclimb)
 - Clip under spikes
@@ -16,6 +16,8 @@ Press 0 to enable the Pussy Mode. I'm personally against this since it's pretty 
 - Checkpoint text triggers when you jump over them
 - Some checkpoints don't heal
 - Some checkpoints don't restore the breaking blocks
+- Checkpoint font changes on entering a world
+- ~~Teleport system spawns a second player~~
 
 ## License
 None at the moment.
