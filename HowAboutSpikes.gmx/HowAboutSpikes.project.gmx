@@ -4,11 +4,15 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\jump_snd</sound>
+    <sound>sound\land_snd</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites">
       <sprite>sprites\playerWalk_spr</sprite>
       <sprite>sprites\playerIdle_spr</sprite>
+      <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
       <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerLanding_spr</sprite>
@@ -90,6 +94,7 @@
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
     <sprite>sprites\batIdle_spr</sprite>
     <sprite>sprites\laser_spr</sprite>
+    <sprite>sprites\enemySpirit_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -112,6 +117,7 @@
   </fonts>
   <objects name="objects">
     <object>objects\player_obj</object>
+    <object>objects\playerDeath_obj</object>
     <object>objects\spike_obj</object>
     <object>objects\spikeMystery_obj</object>
     <object>objects\forestBlockMystery_obj</object>
@@ -175,6 +181,7 @@
     <object>objects\easyModeBlock_obj</object>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
+      <object>objects\enemySpirit_obj</object>
       <object>objects\enemyNormal2_obj</object>
       <object>objects\enemyMystery_obj</object>
       <object>objects\enemy_obj</object>
