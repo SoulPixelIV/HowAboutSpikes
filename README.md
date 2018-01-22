@@ -18,6 +18,7 @@ Press 0 to enable the Pussy Mode. I'm personally against this since it's pretty 
 - Some checkpoints don't restore the breaking blocks
 - Checkpoint font changes on entering a world
 - ~~Teleport system spawns a second player~~
+- Boss healthbar jiggles
 
 ## License
 None at the moment.
