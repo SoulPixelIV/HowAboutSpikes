@@ -6,6 +6,17 @@ Small game that'll make us rich. /s
 ## Pussy Mode
 Press 0 to enable the Pussy Mode. I'm personally against this since it's pretty easy anyways, but meh.
 
+## Known Bugs
+- Edge clipping
+- ~~Hitbox clipping~~ (R.I.P. Wallclimb)
+- Clip under spikes
+- ~~Get stuck in the wall while attacking~~
+- Attacking while dying = Flying through the map
+- Enemys peace out
+- Checkpoint text triggers when you jump over them
+- Some checkpoints don't heal
+- Some checkpoints don't restore the breaking blocks
+
 ## License
 None at the moment.
 
