@@ -89,6 +89,7 @@
     <sprite>sprites\easyModeBlock_spr</sprite>
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
     <sprite>sprites\batIdle_spr</sprite>
+    <sprite>sprites\laser_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -169,8 +170,8 @@
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
     </objects>
-    <object>objects\batBoss_obj</object>
     <object>objects\spikeBig_obj</object>
+    <object>objects\spikeBigFalling_obj</object>
     <object>objects\easyModeBlock_obj</object>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -186,7 +187,13 @@
       <object>objects\trapdoorBlue_obj</object>
       <object>objects\trapdoorRed_obj</object>
     </objects>
-    <object>objects\bat_obj</object>
+    <objects name="Bosses">
+      <objects name="Bat">
+        <object>objects\batBossSprite_obj</object>
+        <object>objects\batBoss_obj</object>
+      </objects>
+    </objects>
+    <object>objects\laser_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

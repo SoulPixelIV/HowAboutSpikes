@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>bossHealth = 100;
+movTimer = 350;
 invincible = false;
+dir = 0;
 </string>
           </argument>
         </arguments>
@@ -78,6 +80,28 @@ invincible = false;
     invincible = true;
     alarm[0] = 10;
 }
+movTimer = movTimer - 1;
+if (movTimer &lt;= 0)
+{
+    if (dir == 0)
+    {
+        dir = 1;
+    }
+    else
+    {
+        dir = 0;
+    }
+    movTimer = 350;
+}
+
+if (dir == 0)
+{
+    y += 0.3;
+}
+else
+{
+    y -= 0.3;
+}
 </string>
           </argument>
         </arguments>
@@ -100,8 +124,7 @@ invincible = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
-draw_healthbar(global.guiPosX + 32, global.guiPosY + 16, global.guiPosX + 608, global.guiPosY + 32, bossHealth, c_black, c_green, c_green, 0, true, true);
+            <string>draw_healthbar(global.guiPosX + 32, global.guiPosY + 16, global.guiPosX + 608, global.guiPosY + 32, bossHealth, c_black, c_green, c_green, 0, true, true);
 </string>
           </argument>
         </arguments>
