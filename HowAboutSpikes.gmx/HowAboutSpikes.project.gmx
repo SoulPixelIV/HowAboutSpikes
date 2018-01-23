@@ -18,6 +18,9 @@
       <sprite>sprites\playerLanding_spr</sprite>
     </sprites>
     <sprite>sprites\spike_spr</sprite>
+    <sprite>sprites\spikeDown_spr</sprite>
+    <sprite>sprites\spikeLeft_spr</sprite>
+    <sprite>sprites\spikeRight_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
@@ -118,7 +121,10 @@
   <objects name="objects">
     <object>objects\player_obj</object>
     <object>objects\playerDeath_obj</object>
-    <object>objects\spike_obj</object>
+    <object>objects\spikeUp_obj</object>
+    <object>objects\spikeDown_obj</object>
+    <object>objects\spikeLeft_obj</object>
+    <object>objects\spikeRight_obj</object>
     <object>objects\spikeMystery_obj</object>
     <object>objects\forestBlockMystery_obj</object>
     <object>objects\checkpoint_obj</object>

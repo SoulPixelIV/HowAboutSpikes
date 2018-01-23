@@ -446,7 +446,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     }
 }
 //###Damage Collision###
-if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || (place_meeting(x, y, hitboxEnemyBig_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj) || place_meeting(x, y, spikeBigFalling_obj) || place_meeting(x, y, enemySpirit_obj))
+if ((place_meeting(x, y, spikeUp_obj)) || (place_meeting(x, y, hitboxEnemy_obj)) || (place_meeting(x, y, hitboxEnemyBig_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj) || place_meeting(x, y, spikeBigFalling_obj) || place_meeting(x, y, enemySpirit_obj))
 {
     gamepad_set_vibration(0, 0.3, 0.3);
     if (verSpeed &gt; 0)
@@ -490,24 +490,6 @@ if (place_meeting(x, y, spike_obj) || (place_meeting(x, y, hitboxEnemy_obj)) || 
     }
     noDamage = true;
     alarm[0] = 10;
-    /*
-    if (health &lt;= 0)
-    {
-        if (global.checkpointX == 0)
-        {
-            x = spawn_obj.x;
-            y = spawn_obj.y - 8;
-        }
-        else
-        {
-            x = global.checkpointX;
-            y = global.checkpointY;
-            verSpeed = 0;
-            horSpeed = 0;
-        }
-        health = 2;
-    }
-    */
 }
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
