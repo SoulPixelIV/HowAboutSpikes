@@ -59,6 +59,11 @@ else
 {
     showText = false;
 }
+
+if (place_meeting(x, y, player_obj))
+{
+    image_index = 1;
+}
 </string>
           </argument>
         </arguments>

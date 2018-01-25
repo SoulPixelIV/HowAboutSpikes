@@ -94,7 +94,7 @@ if (spawnTimer &lt;= 0)
     instance_create(x, y, enemyBat_obj);
     spawnTimer = 800;
 }
-if (bossHealth &lt;= 50)
+if (bossHealth &lt;= 30)
 {
     global.batPhase = 1;
 }
@@ -125,7 +125,14 @@ if (movTimer &lt;= 0)
     {
         dir = 0;
     }
-    movTimer = 350;
+    if (global.batPhase == 0)
+    {
+        movTimer = 350;
+    }
+    else
+    {
+        movTimer = 200;
+    }
 }
 
 if (dir == 0)
@@ -181,6 +188,38 @@ else
         x = startPosX;
         y = startPosY;
     }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (bossHealth &lt;= 0)
+{
+    with (batBossSprite_obj)
+    {
+        instance_destroy();
+    }
+    with (lockedBlockBat_obj)
+    {
+        instance_destroy();
+    }
+    instance_destroy();
 }
 </string>
           </argument>

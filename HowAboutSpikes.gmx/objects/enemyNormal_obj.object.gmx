@@ -30,7 +30,7 @@ knockback = 5;
 enemyHealth = 100;
 horSpeed = 0;
 verSpeed = 0;
-gravityStrength = 3;
+gravityStrength = 1.2;
 invincible = false;
 
 image_speed = 0;

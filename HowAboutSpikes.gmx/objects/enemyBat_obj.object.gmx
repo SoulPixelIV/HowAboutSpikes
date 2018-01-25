@@ -61,6 +61,10 @@ if (enemyHealth &lt;= 0)
 {
     instance_destroy();
 }
+if (place_meeting(x, y, player_obj))
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
