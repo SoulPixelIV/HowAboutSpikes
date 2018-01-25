@@ -27,8 +27,14 @@
             <kind>1</kind>
             <string>bossHealth = 100;
 movTimer = 350;
+shootTimer = 200;
+spawnTimer = 800;
 invincible = false;
+shoot = false;
+global.batPhase = 0;
 dir = 0;
+startPosX = x;
+startPosY = y;
 </string>
           </argument>
         </arguments>
@@ -76,11 +82,39 @@ dir = 0;
             <kind>1</kind>
             <string>if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
 {
-    bossHealth = bossHealth - global.damage / 20;
+    bossHealth = bossHealth - global.damage / 5;
     invincible = true;
     alarm[0] = 10;
 }
 movTimer = movTimer - 1;
+shootTimer = shootTimer - 1;
+spawnTimer = spawnTimer - 1;
+if (spawnTimer &lt;= 0)
+{
+    instance_create(x, y, enemyBat_obj);
+    spawnTimer = 800;
+}
+if (bossHealth &lt;= 50)
+{
+    global.batPhase = 1;
+}
+if (shootTimer &lt; 0)
+{
+    shoot = true;
+    if (global.batPhase == 0)
+    {
+        shootTimer = 200;
+    }
+    else
+    {
+        shootTimer = 120;
+    }
+}
+if (shoot == true)
+{
+    instance_create(x, y, orbRed_obj);
+    shoot = false;
+}
 if (movTimer &lt;= 0)
 {
     if (dir == 0)
@@ -96,11 +130,57 @@ if (movTimer &lt;= 0)
 
 if (dir == 0)
 {
-    y += 0.3;
+    if (global.batPhase == 0)
+    {
+        x += 0.5;
+    }
+    else
+    {
+        x += 2.2;
+    }
 }
 else
 {
-    y -= 0.3;
+    if (global.batPhase == 0)
+    {
+        x -= 0.5;
+    }
+    else
+    {
+        x -= 2.2;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>player_obj</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
+{
+    with(batBoss_obj)
+    {
+        bossHealth = 100;
+        global.batPhase = 0;
+        movTimer = 350;
+        dir = 0;
+        x = startPosX;
+        y = startPosY;
+    }
 }
 </string>
           </argument>
@@ -124,7 +204,52 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_healthbar(global.guiPosX + 32, global.guiPosY + 16, global.guiPosX + 608, global.guiPosY + 32, bossHealth, c_black, c_green, c_green, 0, true, true);
+            <string>draw_healthbar(global.guiPosX + 32, global.guiPosY + 668, global.guiPosX + 608, global.guiPosY + 344, bossHealth, c_black, c_green, c_green, 0, true, true);
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.batPhase == 1)
+{
+    with (batBossSprite_obj)
+    {
+        image_blend = make_colour_hsv(255, 255, 255);
+    }
+}
+else
+{
+    if (shootTimer &lt;= 50)
+    {
+        with (batBossSprite_obj)
+        {
+            image_blend = make_colour_hsv(60, 60, 60);
+        }
+    }    
+    else
+    {
+        with (batBossSprite_obj)
+        {
+            image_blend = make_colour_hsv(0, 0, 0);
+        }
+    }
+}
 </string>
           </argument>
         </arguments>

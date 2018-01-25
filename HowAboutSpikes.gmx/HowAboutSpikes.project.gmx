@@ -96,8 +96,8 @@
     <sprite>sprites\easyModeBlock_spr</sprite>
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
     <sprite>sprites\batIdle_spr</sprite>
-    <sprite>sprites\laser_spr</sprite>
     <sprite>sprites\enemySpirit_spr</sprite>
+    <sprite>sprites\orbRed_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -187,6 +187,7 @@
     <object>objects\easyModeBlock_obj</object>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
+      <object>objects\enemyBat_obj</object>
       <object>objects\enemySpirit_obj</object>
       <object>objects\enemyNormal2_obj</object>
       <object>objects\enemyMystery_obj</object>
@@ -206,7 +207,7 @@
         <object>objects\batBoss_obj</object>
       </objects>
     </objects>
-    <object>objects\laser_obj</object>
+    <object>objects\orbRed_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
