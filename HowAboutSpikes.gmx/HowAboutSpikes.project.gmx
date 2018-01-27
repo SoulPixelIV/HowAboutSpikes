@@ -18,6 +18,7 @@
       <sprite>sprites\playerLanding_spr</sprite>
     </sprites>
     <sprite>sprites\spike_spr</sprite>
+    <sprite>sprites\lava_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
@@ -51,6 +52,10 @@
       <sprite>sprites\mysteryBlockEnemy_spr</sprite>
       <sprite>sprites\glassBlock_spr</sprite>
       <sprite>sprites\glassBlockBroken_spr</sprite>
+      <sprite>sprites\lavaBlock_spr</sprite>
+      <sprite>sprites\lavaBlockRC_spr</sprite>
+      <sprite>sprites\lavaBlockLC_spr</sprite>
+      <sprite>sprites\lavaBlock2_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -107,6 +112,7 @@
     <background>background\unknownForestBackground_bg</background>
     <background>background\undergroundCityBackground_bg</background>
     <background>background\castleBackground_bg</background>
+    <background>background\lavaBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -122,6 +128,7 @@
     <object>objects\player_obj</object>
     <object>objects\playerDeath_obj</object>
     <object>objects\spikeUp_obj</object>
+    <object>objects\lava_obj</object>
     <object>objects\spikeMystery_obj</object>
     <object>objects\forestBlockMystery_obj</object>
     <object>objects\checkpoint_obj</object>
@@ -157,6 +164,10 @@
       <object>objects\snowBlock2_obj</object>
       <object>objects\sniwBlockRC_obj</object>
       <object>objects\snowBlockLC_obj</object>
+      <object>objects\lavaBlock_obj</object>
+      <object>objects\lavaBlock2_obj</object>
+      <object>objects\lavaBlockRC_obj</object>
+      <object>objects\lavaBlockLC_obj</object>
       <object>objects\forestBlock_obj</object>
       <object>objects\forestBlock2_obj</object>
       <object>objects\woodBlock_obj</object>
@@ -222,6 +233,7 @@
     <room>rooms\unknownForest2</room>
     <room>rooms\unknownForest3</room>
     <room>rooms\unknownForestBoss</room>
+    <room>rooms\lavaWorld1</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>
