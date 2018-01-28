@@ -1752,7 +1752,7 @@
     <instance objName="snowBlock_obj" x="1760" y="992" name="inst_306428F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1792" y="992" name="inst_3C61E957" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="house_obj" x="1864" y="848" name="inst_CDC1C407" locked="0" code="" scaleX="8.09375" scaleY="8" colour="4294967295" rotation="0"/>
-    <instance objName="house_obj" x="2035" y="849" name="inst_08B2A8DC" locked="0" code="" scaleX="7.0625" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="house_obj" x="2048" y="864" name="inst_08B2A8DC" locked="0" code="" scaleX="7.0625" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="house_obj" x="2624" y="864" name="inst_ECC2B946" locked="0" code="" scaleX="12.46875" scaleY="9.5625" colour="4294967295" rotation="0"/>
     <instance objName="dude_obj" x="2144" y="960" name="inst_DCB3C106" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dude_obj" x="3008" y="1024" name="inst_2A00B843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1815,6 +1815,18 @@
     <instance objName="snowBlock2_obj" x="1376" y="1056" name="inst_FAEE0B4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1344" y="1120" name="inst_E3756133" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="928" y="1312" name="inst_0D02A3E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightControlNormal_obj" x="32" y="0" name="inst_3E694F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1024" y="960" name="inst_4E32F4F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1152" y="960" name="inst_B6DB4553" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1440" y="928" name="inst_93503C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1760" y="960" name="inst_5046C4FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="2176" y="960" name="inst_8AF2439E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="2464" y="992" name="inst_D5E49349" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="2848" y="992" name="inst_F5895524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="3104" y="1024" name="inst_5F88DB78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="704" y="992" name="inst_3F698F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="512" y="928" name="inst_2F0633E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="160" y="384" name="inst_B1EBB557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

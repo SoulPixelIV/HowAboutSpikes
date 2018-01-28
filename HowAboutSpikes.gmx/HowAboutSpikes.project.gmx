@@ -20,6 +20,7 @@
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\lava_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
+    <sprite>sprites\latern_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
     <sprite>sprites\lever_spr</sprite>
@@ -67,6 +68,8 @@
       <sprite>sprites\heart_spr</sprite>
       <sprite>sprites\spikeMysteryIcon_spr</sprite>
       <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
+      <sprite>sprites\lightIcon_spr</sprite>
+      <sprite>sprites\lightFlickeringIcon_spr</sprite>
     </sprites>
     <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bulletOld_spr</sprite>
@@ -103,6 +106,7 @@
     <sprite>sprites\lockedBlock_spr</sprite>
     <sprite>sprites\tutorialSign1_spr</sprite>
     <sprite>sprites\tutorialSign2_spr</sprite>
+    <sprite>sprites\light_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -141,7 +145,6 @@
     <object>objects\dude_obj</object>
     <object>objects\house_obj</object>
     <object>objects\darkSpirit_obj</object>
-    <object>objects\lamp_obj</object>
     <object>objects\turret_obj</object>
     <object>objects\bullet_obj</object>
     <object>objects\saw_obj</object>
@@ -198,6 +201,8 @@
     <objects name="Decoration">
       <object>objects\blueFlower_obj</object>
       <object>objects\redFlower_obj</object>
+      <object>objects\latern_obj</object>
+      <object>objects\lamp_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -225,6 +230,10 @@
     <object>objects\orbRed_obj</object>
     <object>objects\tutorialSign1_obj</object>
     <object>objects\tutorialSign2_obj</object>
+    <object>objects\light_obj</object>
+    <object>objects\lightFlickering_obj</object>
+    <object>objects\lightControlNormal_obj</object>
+    <object>objects\lightControlHeavy_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
