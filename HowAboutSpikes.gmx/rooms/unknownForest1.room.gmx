@@ -2407,6 +2407,7 @@
     <instance objName="lamp_obj" x="2048" y="704" name="inst_CDA2B422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="3072" y="928" name="inst_5C35A723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="2240" y="832" name="inst_8B0BEA7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="quicksandBlock_obj" x="960" y="640" name="inst_2F5B43E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

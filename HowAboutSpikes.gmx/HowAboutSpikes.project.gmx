@@ -107,6 +107,8 @@
     <sprite>sprites\tutorialSign1_spr</sprite>
     <sprite>sprites\tutorialSign2_spr</sprite>
     <sprite>sprites\light_spr</sprite>
+    <sprite>sprites\demon_spr</sprite>
+    <sprite>sprites\demonSpawner_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -193,6 +195,7 @@
       <object>objects\colliderUC2_UC3_obj</object>
       <object>objects\colliderUC3_UC2_SC_obj</object>
       <object>objects\colliderUC2_UC1_SC_obj</object>
+      <object>objects\colliderUC3_DK1_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -234,6 +237,8 @@
     <object>objects\lightFlickering_obj</object>
     <object>objects\lightControlNormal_obj</object>
     <object>objects\lightControlHeavy_obj</object>
+    <object>objects\demon_obj</object>
+    <object>objects\demonSpawner_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>
@@ -242,7 +247,7 @@
     <room>rooms\unknownForest2</room>
     <room>rooms\unknownForest3</room>
     <room>rooms\unknownForestBoss</room>
-    <room>rooms\lavaWorld1</room>
+    <room>rooms\demonsKeep1</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>

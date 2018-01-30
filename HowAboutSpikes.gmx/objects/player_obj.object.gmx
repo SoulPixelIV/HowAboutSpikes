@@ -456,7 +456,7 @@ if (place_meeting(x, y, lava_obj))
     alarm[0] = 10;
 }
     
-if ((place_meeting(x, y, spikeUp_obj)) || (place_meeting(x, y, hitboxEnemy_obj)) || (place_meeting(x, y, hitboxEnemyBig_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj) || place_meeting(x, y, spikeBigFalling_obj) || place_meeting(x, y, enemySpirit_obj) || place_meeting(x, y, orbRed_obj) || place_meeting(x, y, enemyBat_obj))
+if ((place_meeting(x, y, spikeUp_obj)) || (place_meeting(x, y, hitboxEnemy_obj)) || (place_meeting(x, y, hitboxEnemyBig_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj) || place_meeting(x, y, spikeBigFalling_obj) || place_meeting(x, y, enemySpirit_obj) || place_meeting(x, y, orbRed_obj) || place_meeting(x, y, enemyBat_obj) || place_meeting(x, y, demon_obj))
 {
     gamepad_set_vibration(0, 0.3, 0.3);
     if (verSpeed &gt; 0)
@@ -658,10 +658,10 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != undergroundCity3)
     global.playerSpawnLocation = 0;
     room_goto(undergroundCity3);
 }
-if (keyboard_check_pressed(ord('9')) &amp;&amp; room != lavaWorld1)
+if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(lavaWorld1);
+    room_goto(demonsKeep1);
 }
 </string>
           </argument>
