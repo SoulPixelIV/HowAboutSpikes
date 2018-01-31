@@ -220,7 +220,6 @@
     <instance objName="spikeUp_obj" x="1536" y="640" name="inst_73882476" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1568" y="640" name="inst_43A5EF99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1600" y="640" name="inst_ECA471CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1729" y="648" name="inst_6E49CA12" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1920" y="608" name="inst_6C96A547" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="1888" y="640" name="inst_2C56995C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="1920" y="640" name="inst_657E349B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -249,8 +248,6 @@
     <instance objName="forestBlock_obj" x="2720" y="544" name="inst_5283BC1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2720" y="512" name="inst_4AE52C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock_obj" x="2720" y="480" name="inst_625C55DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2212" y="680" name="inst_0CF33406" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2367" y="680" name="inst_4DAB8182" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="896" y="672" name="inst_84CEC1E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="928" y="672" name="inst_9B0DF6AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="960" y="672" name="inst_14C77E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -339,7 +336,6 @@
     <instance objName="quicksandBlock_obj" x="2432" y="992" name="inst_7FF7CE64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2400" y="992" name="inst_EB7E0F9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2368" y="992" name="inst_A98FC1EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="quicksandBlock_obj" x="2336" y="992" name="inst_9C1423D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2304" y="992" name="inst_AA9BF357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2272" y="992" name="inst_6BACFEC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2240" y="992" name="inst_1F2F9708" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -351,7 +347,6 @@
     <instance objName="quicksandBlock_obj" x="2080" y="1024" name="inst_08F04DB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2048" y="992" name="inst_EC30B8DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="2016" y="992" name="inst_6E2455F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2329" y="1000" name="inst_892E68A2" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="2080" y="1024" name="inst_AE1A3075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="1984" y="992" name="inst_7B5DB646" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="1952" y="992" name="inst_C221A870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1915,6 +1910,11 @@
     <instance objName="lamp_obj" x="320" y="1184" name="inst_A98B4A66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="736" y="1408" name="inst_2E9D5D2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="2112" y="1408" name="inst_C1F76710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeHalf_obj" x="1728" y="640" name="inst_819A5C99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeHalf_obj" x="2208" y="672" name="inst_F9E44AF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeHalf_obj" x="2368" y="672" name="inst_C9FF61BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeHalf_obj" x="2336" y="992" name="inst_C4A3C7F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="quicksandBlock_obj" x="2336" y="992" name="inst_56412580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

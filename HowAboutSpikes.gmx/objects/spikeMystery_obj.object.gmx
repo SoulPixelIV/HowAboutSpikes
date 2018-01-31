@@ -34,6 +34,11 @@ if (distance_to_object(player_obj) &gt;= 72)
 {
     sprite_index = mysteryBlock_spr;
 }
+
+if (place_meeting(x, y, player_obj))
+{
+    global.hit = true;
+}
 </string>
           </argument>
         </arguments>

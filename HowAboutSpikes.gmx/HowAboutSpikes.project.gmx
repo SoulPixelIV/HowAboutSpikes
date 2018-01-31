@@ -18,6 +18,7 @@
       <sprite>sprites\playerLanding_spr</sprite>
     </sprites>
     <sprite>sprites\spike_spr</sprite>
+    <sprite>sprites\spikeHalf_spr</sprite>
     <sprite>sprites\lava_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\latern_spr</sprite>
@@ -135,30 +136,10 @@
     <font>fonts\gameover_fnt</font>
   </fonts>
   <objects name="objects">
-    <object>objects\player_obj</object>
-    <object>objects\playerDeath_obj</object>
-    <object>objects\spikeUp_obj</object>
-    <object>objects\lava_obj</object>
-    <object>objects\spikeMystery_obj</object>
-    <object>objects\forestBlockMystery_obj</object>
-    <object>objects\checkpoint_obj</object>
-    <object>objects\checkpointMystery_obj</object>
-    <object>objects\ladder_obj</object>
-    <object>objects\ladderIron_obj</object>
-    <object>objects\doorTutorial_obj</object>
-    <object>objects\key_obj</object>
-    <object>objects\petBirdPA_obj</object>
-    <object>objects\dude_obj</object>
-    <object>objects\house_obj</object>
-    <object>objects\darkSpirit_obj</object>
-    <object>objects\turret_obj</object>
-    <object>objects\bullet_obj</object>
-    <object>objects\saw_obj</object>
-    <object>objects\bird_obj</object>
-    <object>objects\birdSpawner_obj</object>
-    <object>objects\spikeBig_obj</object>
-    <object>objects\spikeBigFalling_obj</object>
-    <object>objects\easyModeBlock_obj</object>
+    <objects name="Player">
+      <object>objects\player_obj</object>
+      <object>objects\playerDeath_obj</object>
+    </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
       <object>objects\hitbox_obj</object>
@@ -168,7 +149,7 @@
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
     </objects>
-    <objects name="Basic Blocks">
+    <objects name="Blocks">
       <object>objects\snowBlock_obj</object>
       <object>objects\snowBlock2_obj</object>
       <object>objects\sniwBlockRC_obj</object>
@@ -186,9 +167,15 @@
       <object>objects\treeBlock2_obj</object>
       <object>objects\specialBlock_obj</object>
       <object>objects\mysteryBlockSpecial_obj</object>
+      <object>objects\checkpointMystery_obj</object>
+      <object>objects\forestBlockMystery_obj</object>
       <object>objects\quicksandBlock_obj</object>
       <object>objects\glassBlock_obj</object>
       <object>objects\glassBlockBroken_obj</object>
+      <object>objects\ladder_obj</object>
+      <object>objects\ladderIron_obj</object>
+      <object>objects\checkpoint_obj</object>
+      <object>objects\easyModeBlock_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -211,6 +198,17 @@
       <object>objects\redFlower_obj</object>
       <object>objects\latern_obj</object>
       <object>objects\lamp_obj</object>
+      <objects name="Tutorial">
+        <object>objects\tutorialSign1_obj</object>
+        <object>objects\tutorialSign2_obj</object>
+      </objects>
+      <objects name="Bird">
+        <object>objects\bird_obj</object>
+        <object>objects\birdSpawner_obj</object>
+      </objects>
+      <object>objects\dude_obj</object>
+      <object>objects\house_obj</object>
+      <object>objects\doorTutorial_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -235,19 +233,41 @@
         <object>objects\lockedBlockBat_obj</object>
       </objects>
     </objects>
-    <object>objects\orbRed_obj</object>
-    <object>objects\tutorialSign1_obj</object>
-    <object>objects\tutorialSign2_obj</object>
-    <object>objects\light_obj</object>
-    <object>objects\lightFlickering_obj</object>
-    <object>objects\lightControlNormal_obj</object>
-    <object>objects\lightControlHeavy_obj</object>
-    <object>objects\demon_obj</object>
-    <object>objects\demonSpawner_obj</object>
-    <object>objects\petBird_obj</object>
     <objects name="Npcs">
       <object>objects\npcLola_obj</object>
       <object>objects\monitor_obj</object>
+    </objects>
+    <objects name="Hazards">
+      <object>objects\spikeUp_obj</object>
+      <object>objects\spikeHalf_obj</object>
+      <object>objects\lava_obj</object>
+      <object>objects\spikeMystery_obj</object>
+      <objects name="Turret">
+        <object>objects\turret_obj</object>
+        <object>objects\bullet_obj</object>
+      </objects>
+      <object>objects\saw_obj</object>
+      <objects name="SpikeFalling">
+        <object>objects\spikeBig_obj</object>
+        <object>objects\spikeBigFalling_obj</object>
+      </objects>
+      <objects name="Demon">
+        <object>objects\demon_obj</object>
+        <object>objects\demonSpawner_obj</object>
+      </objects>
+      <object>objects\orbRed_obj</object>
+    </objects>
+    <objects name="Lighting">
+      <object>objects\lightFlickering_obj</object>
+      <object>objects\light_obj</object>
+      <object>objects\lightControlNormal_obj</object>
+      <object>objects\lightControlHeavy_obj</object>
+    </objects>
+    <objects name="Collectibles">
+      <object>objects\key_obj</object>
+      <object>objects\darkSpirit_obj</object>
+      <object>objects\petBirdPA_obj</object>
+      <object>objects\petBird_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

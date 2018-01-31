@@ -25,36 +25,40 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health = 2;
+            <string>///Vars
+
+global.movSpeed = 2.65;
+global.jumpStrength = 7.04;
+global.numberJumps = 2;
+global.gravityStrength = 0.46;
+global.ladderSpeed = 3.25;
+health = 2;
 money = 0;
-movement = true;
 attackCooldown = 15;
+
+horSpeed = 0;
+verSpeed = 0;
+movement = true;
 cooldown = false;
 dead = false;
 deathCountVar = false;
 textTimer = 100;
 grounded = false;
 landSound = false;
-global.movSpeed = 2.65;
-global.jumpStrength = 7.04;
-global.numberJumps = 2;
-global.gravityStrength = 0.46;
-global.ladderSpeed = 3.25;
-global.state = 0;
-global.damage = 20;
-
-global.holding = noone;
-global.numberJumpsSave = global.numberJumps;
-horSpeed = 0;
-verSpeed = 0;
-global.checkpointX = 0;
-global.checkpointY = 0;
-global.checkpointRoom = 0;
 noDamage = false;
 nearEnemy = false;
 lastDir = 0;
 landing = false;
 onLadder = false;
+
+global.hit = false;
+global.state = 0;
+global.damage = 20;
+global.holding = noone;
+global.numberJumpsSave = global.numberJumps;
+global.checkpointX = 0;
+global.checkpointY = 0;
+global.checkpointRoom = 0;
 global.restart = false;
 </string>
           </argument>
@@ -148,7 +152,9 @@ gamepad_set_vibration(0, 0, 0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Movement###
+            <string>///Movement etc.
+
+//###Movement###
 x = x + horSpeed;
 y = y + verSpeed;
 
@@ -160,7 +166,6 @@ key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0,
 key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
-
 horSpeed = move * global.movSpeed;
 
 //###Animation###
@@ -439,9 +444,11 @@ if (deathCountVar == true)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Checkpoint Collision###
+            <string>///Collision
+//###Checkpoint Collision###
 if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
+    health = 2;
     global.checkpointX = other.x;
     global.checkpointY = other.y;
     global.checkpointRoom = room;
@@ -462,7 +469,7 @@ if (place_meeting(x, y, lava_obj))
     alarm[0] = 10;
 }
     
-if ((place_meeting(x, y, spikeUp_obj)) || (place_meeting(x, y, hitboxEnemy_obj)) || (place_meeting(x, y, hitboxEnemyBig_obj)) || place_meeting(x, y, spikeMystery_obj) || place_meeting(x, y, bullet_obj) || place_meeting(x, y, saw_obj) || place_meeting(x, y, spikeBigFalling_obj) || place_meeting(x, y, enemySpirit_obj) || place_meeting(x, y, orbRed_obj) || place_meeting(x, y, enemyBat_obj) || place_meeting(x, y, demon_obj))
+if (global.hit == true)
 {
     gamepad_set_vibration(0, 0.3, 0.3);
     if (verSpeed &gt; 0)
@@ -506,6 +513,7 @@ if ((place_meeting(x, y, spikeUp_obj)) || (place_meeting(x, y, hitboxEnemy_obj))
     }
     noDamage = true;
     alarm[0] = 10;
+    global.hit = false;
 }
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
@@ -567,11 +575,6 @@ if (place_meeting(x, y, key_obj))
 {
     global.holding = other.id;
 }
-//###Checkpoint Collision###
-if (place_meeting(x, y, checkpoint_obj))
-{
-    health = 2;
-}
 //###Quicksand Collision###
 if (place_meeting(x, y, quicksandBlock_obj))
 {
@@ -610,7 +613,8 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Easy Mode###
+            <string>///Debug
+//###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
     if (global.mode == 0)

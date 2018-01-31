@@ -50,6 +50,11 @@
             <kind>1</kind>
             <string>image_angle += 25;
 
+if (place_meeting(x, y, player_obj))
+{
+    global.hit = true;
+}
+
 if (!place_free(x, y))
 {
     if (dir == 0)
