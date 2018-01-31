@@ -57,6 +57,7 @@
       <sprite>sprites\lavaBlockRC_spr</sprite>
       <sprite>sprites\lavaBlockLC_spr</sprite>
       <sprite>sprites\lavaBlock2_spr</sprite>
+      <sprite>sprites\castleBlock_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -80,6 +81,7 @@
     <sprite>sprites\gameover_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
     <sprite>sprites\bird_anim</sprite>
+    <sprite>sprites\petBird_anim</sprite>
     <sprite>sprites\bullet_spr</sprite>
     <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\vine_spr</sprite>
@@ -109,6 +111,8 @@
     <sprite>sprites\light_spr</sprite>
     <sprite>sprites\demon_spr</sprite>
     <sprite>sprites\demonSpawner_spr</sprite>
+    <sprite>sprites\monitor_spr</sprite>
+    <sprite>sprites\npcLola_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -143,7 +147,7 @@
     <object>objects\ladderIron_obj</object>
     <object>objects\doorTutorial_obj</object>
     <object>objects\key_obj</object>
-    <object>objects\powerup_obj</object>
+    <object>objects\petBirdPA_obj</object>
     <object>objects\dude_obj</object>
     <object>objects\house_obj</object>
     <object>objects\darkSpirit_obj</object>
@@ -173,6 +177,7 @@
       <object>objects\lavaBlock2_obj</object>
       <object>objects\lavaBlockRC_obj</object>
       <object>objects\lavaBlockLC_obj</object>
+      <object>objects\castleBlock_obj</object>
       <object>objects\forestBlock_obj</object>
       <object>objects\forestBlock2_obj</object>
       <object>objects\woodBlock_obj</object>
@@ -239,6 +244,11 @@
     <object>objects\lightControlHeavy_obj</object>
     <object>objects\demon_obj</object>
     <object>objects\demonSpawner_obj</object>
+    <object>objects\petBird_obj</object>
+    <objects name="Npcs">
+      <object>objects\npcLola_obj</object>
+      <object>objects\monitor_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\tutorial</room>

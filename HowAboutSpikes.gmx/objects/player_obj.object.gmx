@@ -245,7 +245,10 @@ if (verSpeed &lt; 14)
 
 if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
 {
-    audio_play_sound(jump_snd, 1, false);
+    if (!audio_is_playing(jump_snd))
+    {
+        audio_play_sound(jump_snd, 1, false);
+    }
     verSpeed = -global.jumpStrength;
     global.numberJumps = global.numberJumps - 1;
 }
@@ -307,7 +310,7 @@ case 2:
     else
     {
         move_towards_point(targetX, targetY, 7.4);
-        if (!place_free(x + 16, y + 20) || !place_free(x -16, y-20))
+        if (!place_free(x + 20, y + 20) || !place_free(x -20, y-20))
         {
             global.state = 3;
         }
@@ -336,8 +339,11 @@ if (landing == true)
 {
     if (landSound == true)
     {
-        audio_play_sound(land_snd, 1, false);
-        landSound = false;
+        if (!audio_is_playing(land_snd))
+        {
+            audio_play_sound(land_snd, 1, false);
+            landSound = false;
+        }
     }
 }
 if (!place_free(x + horSpeed, y))
@@ -772,6 +778,22 @@ if (room == undergroundCity1 &amp;&amp; global.spawned == true)
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
     draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Underground City");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
+if (room == demonsKeep1 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {

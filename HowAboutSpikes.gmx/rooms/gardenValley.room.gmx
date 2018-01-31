@@ -1754,9 +1754,7 @@
     <instance objName="house_obj" x="1864" y="848" name="inst_CDC1C407" locked="0" code="" scaleX="8.09375" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="house_obj" x="2048" y="864" name="inst_08B2A8DC" locked="0" code="" scaleX="7.0625" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="house_obj" x="2624" y="864" name="inst_ECC2B946" locked="0" code="" scaleX="12.46875" scaleY="9.5625" colour="4294967295" rotation="0"/>
-    <instance objName="dude_obj" x="2144" y="960" name="inst_DCB3C106" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dude_obj" x="3008" y="1024" name="inst_2A00B843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="dude_obj" x="2560" y="992" name="inst_C61673D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_UF1_obj" x="3221" y="981" name="inst_18C843EA" locked="0" code="" scaleX="-0.25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="3136" y="992" name="inst_A181E293" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="1184" y="928" name="inst_630F71AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1827,6 +1825,9 @@
     <instance objName="latern_obj" x="704" y="992" name="inst_3F698F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="512" y="928" name="inst_2F0633E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="160" y="384" name="inst_B1EBB557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="monitor_obj" x="2144" y="960" name="inst_D60E740C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="2143" y="945" name="inst_D4B34875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcLola_obj" x="2528" y="992" name="inst_D3ADC7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

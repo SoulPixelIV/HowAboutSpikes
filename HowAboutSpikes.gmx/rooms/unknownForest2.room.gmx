@@ -182,7 +182,6 @@
     <instance objName="spikeUp_obj" x="64" y="640" name="inst_8840186C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="0" y="640" name="inst_CE5D5BCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="32" y="640" name="inst_FC010D14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="powerup_obj" x="160" y="576" name="inst_72286821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="64" y="160" name="inst_9C588B6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="quicksandBlock_obj" x="256" y="672" name="inst_61B2B787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treeBlock2_obj" x="256" y="640" name="inst_B3092C70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
