@@ -12,6 +12,7 @@
     <sprites name="Player Sprites">
       <sprite>sprites\playerWalk_spr</sprite>
       <sprite>sprites\playerIdle_spr</sprite>
+      <sprite>sprites\playerIdle2_spr</sprite>
       <sprite>sprites\playerInvincible_spr</sprite>
       <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
