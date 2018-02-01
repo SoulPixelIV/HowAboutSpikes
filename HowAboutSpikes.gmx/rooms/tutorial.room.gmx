@@ -1858,7 +1858,6 @@
     <instance objName="lightFlickering_obj" x="1326" y="1455" name="inst_65F3A281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="2601" y="1531" name="inst_A9430C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="2947" y="1673" name="inst_F220297A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="petBirdPA_obj" x="544" y="1856" name="inst_6B2928A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -86,6 +86,12 @@ startPosY = y;
     invincible = true;
     alarm[0] = 10;
 }
+if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
+{
+    bossHealth = bossHealth - global.damage / 3;
+    invincible = true;
+    alarm[0] = 10;
+}
 movTimer = movTimer - 1;
 shootTimer = shootTimer - 1;
 spawnTimer = spawnTimer - 1;

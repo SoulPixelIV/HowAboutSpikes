@@ -50,6 +50,8 @@ nearEnemy = false;
 lastDir = 0;
 landing = false;
 onLadder = false;
+invTimer = 90;
+throw = false;
 
 global.hit = false;
 global.state = 0;
@@ -128,8 +130,7 @@ global.restart = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>noDamage = false;
-gamepad_set_vibration(0, 0, 0);
+            <string>gamepad_set_vibration(0, 0, 0);
 </string>
           </argument>
         </arguments>
@@ -163,10 +164,55 @@ key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
 key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0, gp_shoulderr);
+key_throw = keyboard_check(vk_shift) || gamepad_button_check(0, gp_face3);
 key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 horSpeed = move * global.movSpeed;
+
+//###Scythe Throw###
+if (key_throw)
+{
+    if (lastDir == 0)
+    {
+        if (throw == false)
+        {
+            instance_create(x, y, scythe_obj);
+            throw = true;
+            with (scythe_obj)
+            {
+                hspeed = 6.2;
+            }
+        }
+    }
+    else
+    {
+        if (throw == false)
+        {
+            instance_create(x, y, scythe_obj);
+            throw = true;
+            with (scythe_obj)
+            {
+                hspeed = -6.2;
+            }
+        }
+    }
+}
+else
+{
+    if (instance_exists(scythe_obj))
+    {
+        with (scythe_obj)
+        {
+            instance_destroy();
+        }
+    }
+    if (grounded == true)
+    {
+        throw = false;
+    }
+}
+
 
 //###Animation###
 if (key_right)
@@ -218,6 +264,27 @@ if (landing == true)
 {
     image_speed = 0.1;
     sprite_index = playerLanding_spr;
+    if (lastDir == 0)
+    {
+        image_xscale = 1;
+    }
+    else
+    {
+        image_xscale = -1;
+    }
+}
+
+if (noDamage == true)
+{
+    sprite_index = playerInvincible_spr;
+    if (invTimer &gt;= 30)
+    {
+        image_speed = 0.5;
+    }
+    else
+    {
+        image_speed = 0.2;
+    }
     if (lastDir == 0)
     {
         image_xscale = 1;
@@ -315,7 +382,7 @@ case 2:
     else
     {
         move_towards_point(targetX, targetY, 7.4);
-        if (!place_free(x + 20, y + 20) || !place_free(x -20, y-20))
+        if (!place_free(x + 64, y + 64) || !place_free(x -64, y-64))
         {
             global.state = 3;
         }
@@ -445,6 +512,23 @@ if (deathCountVar == true)
           <argument>
             <kind>1</kind>
             <string>///Collision
+
+//###Scythe Collision###
+if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
+{
+    if (!audio_is_playing(jump_snd))
+    {
+        audio_play_sound(jump_snd, 1, false);
+    }
+    verSpeed = -global.jumpStrength * 1.2;
+    global.numberJumps = global.numberJumps - 1;
+    with (scythe_obj)
+    {
+        instance_destroy();
+    }
+}
+
+
 //###Checkpoint Collision###
 if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
@@ -476,10 +560,11 @@ if (global.hit == true)
     {
         verSpeed = -7;
     }
-    else
+    if (verSpeed &lt; 0)
     {
         verSpeed = 7;
     }
+
     //###Collision Checking###
     if (!place_free(x + horSpeed, y))
     {
@@ -506,14 +591,27 @@ if (global.hit == true)
         verSpeed = -global.ladderSpeed;
         global.numberJumps = global.numberJumpsSave;
     }
-    horSpeed = 5 * sign(horSpeed);
+
+    //horSpeed = 5 * sign(horSpeed);
     if (noDamage == false)
     {
         health = health - 1;
     }
-    noDamage = true;
     alarm[0] = 10;
+    noDamage = true;
     global.hit = false;
+}
+
+if (noDamage == true)
+{
+    invTimer = invTimer - 1;
+}
+
+if (invTimer &lt;= 0)
+{
+    noDamage = false;
+    gamepad_set_vibration(0, 0, 0);
+    invTimer = 90;
 }
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);

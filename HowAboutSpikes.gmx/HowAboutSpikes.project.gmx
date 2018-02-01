@@ -12,10 +12,12 @@
     <sprites name="Player Sprites">
       <sprite>sprites\playerWalk_spr</sprite>
       <sprite>sprites\playerIdle_spr</sprite>
+      <sprite>sprites\playerInvincible_spr</sprite>
       <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
       <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerLanding_spr</sprite>
+      <sprite>sprites\scythe_spr</sprite>
     </sprites>
     <sprite>sprites\spike_spr</sprite>
     <sprite>sprites\spikeHalf_spr</sprite>
@@ -72,6 +74,7 @@
       <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
       <sprite>sprites\lightIcon_spr</sprite>
       <sprite>sprites\lightFlickeringIcon_spr</sprite>
+      <sprite>sprites\cursor_spr</sprite>
     </sprites>
     <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bulletOld_spr</sprite>
@@ -134,11 +137,13 @@
     <font>fonts\gui_fnt</font>
     <font>fonts\message_fnt</font>
     <font>fonts\gameover_fnt</font>
+    <font>fonts\mainmenu_fnt</font>
   </fonts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\player_obj</object>
       <object>objects\playerDeath_obj</object>
+      <object>objects\scythe_obj</object>
     </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
@@ -148,6 +153,8 @@
       <object>objects\finish_obj</object>
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
+      <object>objects\mainmenu_obj</object>
+      <object>objects\cursor_obj</object>
     </objects>
     <objects name="Blocks">
       <object>objects\snowBlock_obj</object>
@@ -271,6 +278,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\mainmenu</room>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
     <room>rooms\unknownForest1</room>
