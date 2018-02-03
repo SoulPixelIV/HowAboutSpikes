@@ -54,6 +54,7 @@ image_index = 0;
     image_index = 1;
     object_set_solid(self, false);
     global.hitLeverRed = false;
+    instance_destroy();
 }
 </string>
           </argument>

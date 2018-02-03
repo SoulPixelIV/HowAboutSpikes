@@ -190,7 +190,7 @@ key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
 key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0, gp_shoulderr);
-key_throw = keyboard_check(vk_shift) || gamepad_button_check(0, gp_face3);
+key_throw = keyboard_check(vk_shift) || gamepad_button_check(0, gp_shoulderl);
 key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
@@ -551,7 +551,6 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     {
         audio_play_sound(jump_snd, 1, false);
     }
-    verSpeed = -global.jumpStrength * 1.2;
     
     //###Collision Checking###
     if (!place_free(x + horSpeed, y))
@@ -564,7 +563,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     }
     else
     {
-        verSpeed = -global.ladderSpeed;
+        verSpeed = -global.jumpStrength * 1.2;
     }
     if (!place_free(x, y + verSpeed))
     {
@@ -576,10 +575,9 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     }
     else
     {
-        verSpeed = -global.ladderSpeed;
+        verSpeed = -global.jumpStrength * 1.2;
         global.numberJumps = global.numberJumpsSave;
     }
-    
     global.numberJumps = global.numberJumps - 1;
     with (scythe_obj)
     {
