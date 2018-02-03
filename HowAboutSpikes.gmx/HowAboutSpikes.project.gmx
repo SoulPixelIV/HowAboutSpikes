@@ -10,19 +10,23 @@
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites">
-      <sprite>sprites\playerWalk_spr</sprite>
       <sprite>sprites\playerIdle_spr</sprite>
-      <sprite>sprites\playerIdle2_spr</sprite>
       <sprite>sprites\playerInvincible_spr</sprite>
-      <sprite>sprites\playerDeath_spr</sprite>
+      <sprite>sprites\playerWalk_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
-      <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerLanding_spr</sprite>
+      <sprite>sprites\playerAttack_spr</sprite>
+      <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\scythe_spr</sprite>
+      <sprites name="Player Sprites OLD">
+        <sprite>sprites\playerFallingOLD_spr</sprite>
+        <sprite>sprites\playerIdleOld_spr</sprite>
+        <sprite>sprites\playerWalkOld_spr</sprite>
+        <sprite>sprites\playerAttackOLD_spr</sprite>
+        <sprite>sprites\playerLandingOLD_spr</sprite>
+        <sprite>sprites\playerInvincibleOLD_spr</sprite>
+      </sprites>
     </sprites>
-    <sprite>sprites\spike_spr</sprite>
-    <sprite>sprites\spikeHalf_spr</sprite>
-    <sprite>sprites\lava_spr</sprite>
     <sprite>sprites\checkpoint_spr</sprite>
     <sprite>sprites\latern_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
@@ -31,8 +35,6 @@
     <sprite>sprites\leverBlue_spr</sprite>
     <sprite>sprites\leverRed_spr</sprite>
     <sprite>sprites\house_spr</sprite>
-    <sprite>sprites\enemy_spr</sprite>
-    <sprite>sprites\enemy2_spr</sprite>
     <sprite>sprites\lamp_spr</sprite>
     <sprites name="Basic Colors">
       <sprite>sprites\blue_spr</sprite>
@@ -77,7 +79,6 @@
       <sprite>sprites\lightFlickeringIcon_spr</sprite>
       <sprite>sprites\cursor_spr</sprite>
     </sprites>
-    <sprite>sprites\turret_spr</sprite>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
     <sprite>sprites\trapdoorRed_spr</sprite>
@@ -87,8 +88,6 @@
     <sprite>sprites\bird_spr</sprite>
     <sprite>sprites\bird_anim</sprite>
     <sprite>sprites\petBird_anim</sprite>
-    <sprite>sprites\bullet_spr</sprite>
-    <sprite>sprites\saw_spr</sprite>
     <sprite>sprites\vine_spr</sprite>
     <sprite>sprites\aDog_spr</sprite>
     <sprite>sprites\aDogIdle_spr</sprite>
@@ -107,17 +106,37 @@
     <sprite>sprites\spikeBig_spr</sprite>
     <sprite>sprites\easyModeBlock_spr</sprite>
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
-    <sprite>sprites\batIdle_spr</sprite>
-    <sprite>sprites\enemySpirit_spr</sprite>
-    <sprite>sprites\orbRed_spr</sprite>
     <sprite>sprites\lockedBlock_spr</sprite>
-    <sprite>sprites\tutorialSign1_spr</sprite>
-    <sprite>sprites\tutorialSign2_spr</sprite>
     <sprite>sprites\light_spr</sprite>
-    <sprite>sprites\demon_spr</sprite>
-    <sprite>sprites\demonSpawner_spr</sprite>
     <sprite>sprites\monitor_spr</sprite>
     <sprite>sprites\npcLola_spr</sprite>
+    <sprites name="Hazards">
+      <sprite>sprites\spike_spr</sprite>
+      <sprite>sprites\spikeHalf_spr</sprite>
+      <sprite>sprites\lava_spr</sprite>
+      <sprites name="Turret">
+        <sprite>sprites\turret_spr</sprite>
+        <sprite>sprites\bullet_spr</sprite>
+      </sprites>
+      <sprite>sprites\saw_spr</sprite>
+      <sprite>sprites\orbRed_spr</sprite>
+    </sprites>
+    <sprites name="Enemies">
+      <sprite>sprites\enemy_spr</sprite>
+      <sprite>sprites\enemy2_spr</sprite>
+      <sprites name="Demon">
+        <sprite>sprites\demonSpawner_spr</sprite>
+        <sprite>sprites\demon_spr</sprite>
+      </sprites>
+      <sprite>sprites\batIdle_spr</sprite>
+      <sprite>sprites\enemySpirit_spr</sprite>
+    </sprites>
+    <sprites name="Tutorial">
+      <sprite>sprites\tutorialSign1_spr</sprite>
+      <sprite>sprites\tutorialSign2_spr</sprite>
+      <sprite>sprites\tutorialSign3_spr</sprite>
+      <sprite>sprites\tutorialSign4_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -209,6 +228,8 @@
       <objects name="Tutorial">
         <object>objects\tutorialSign1_obj</object>
         <object>objects\tutorialSign2_obj</object>
+        <object>objects\tutorialSign3_obj</object>
+        <object>objects\tutorialSign4_obj</object>
       </objects>
       <objects name="Bird">
         <object>objects\bird_obj</object>
