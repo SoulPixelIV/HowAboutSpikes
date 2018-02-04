@@ -28,7 +28,6 @@
             <string>bossHealth = 100;
 movTimer = 350;
 shootTimer = 200;
-spawnTimer = 800;
 invincible = false;
 shoot = false;
 global.batPhase = 0;
@@ -82,24 +81,18 @@ startPosY = y;
             <kind>1</kind>
             <string>if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
 {
-    bossHealth = bossHealth - global.damage / 5;
+    bossHealth = bossHealth - global.damage / 6;
     invincible = true;
     alarm[0] = 10;
 }
 if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
 {
-    bossHealth = bossHealth - global.damage / 3;
+    bossHealth = bossHealth - global.damage / 4;
     invincible = true;
     alarm[0] = 10;
 }
 movTimer = movTimer - 1;
 shootTimer = shootTimer - 1;
-spawnTimer = spawnTimer - 1;
-if (spawnTimer &lt;= 0)
-{
-    instance_create(x, y, enemyBat_obj);
-    spawnTimer = 800;
-}
 if (bossHealth &lt;= 30)
 {
     global.batPhase = 1;
@@ -226,6 +219,10 @@ else
         instance_destroy();
     }
     instance_destroy();
+    with (enemyBatSpawner_obj)
+    {
+        instance_destroy();
+    }
 }
 </string>
           </argument>

@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer = 20;
+            <string>timer = 15;
 instance_activate_object(self);
 </string>
           </argument>
@@ -49,16 +49,19 @@ instance_activate_object(self);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y - 1, player_obj))
+            <string>if (place_meeting(x, y - 12, player_obj))
 {
     timer = timer - 1;
+}
+else
+{
+    timer = 15;
 }
 
 
 if (timer &lt;= 0)
 {
     instance_deactivate_object(self);
-    timer = 20;
 }
 </string>
           </argument>

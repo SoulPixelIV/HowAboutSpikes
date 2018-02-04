@@ -241,6 +241,7 @@
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
+      <object>objects\enemyBatSpawner_obj</object>
       <object>objects\enemyBat_obj</object>
       <object>objects\enemySpirit_obj</object>
       <object>objects\enemyNormal2_obj</object>

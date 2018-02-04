@@ -38,6 +38,7 @@ attackCooldown = 7;
 
 horSpeed = 0;
 verSpeed = 0;
+cameraSpeed = 0.06;
 movement = true;
 cooldown = false;
 dead = false;
@@ -429,7 +430,10 @@ case 3:
     break;
     
 case 4:
-    global.numberJumps = global.numberJumps + 1;
+    if (global.numberJumps &lt; 1)
+    {
+        global.numberJumps = global.numberJumps + 1;
+    }
     verSpeed = -4;
     global.state = 0;
     break;
@@ -576,7 +580,6 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     else
     {
         verSpeed = -global.jumpStrength * 1.2;
-        global.numberJumps = global.numberJumpsSave;
     }
     global.numberJumps = global.numberJumps - 1;
     with (scythe_obj)
@@ -593,7 +596,9 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     global.checkpointX = other.x;
     global.checkpointY = other.y;
     global.checkpointRoom = room;
+    instance_activate_object(glassBlockBroken_obj);
     other.image_index = 1;
+    noDamage = false;
     if (global.restart == false)
     {
         global.restart = true;
@@ -868,19 +873,20 @@ else
 
 if (y &lt;= (room_height - 180) &amp;&amp; y &gt;= 180)
 {
-    view_yview[0] += ((y - (360/2) - view_yview[0])) * 0.06;
+    view_yview[0] += ((y - (360/2) - view_yview[0])) * cameraSpeed;
 }
 else
 {
     if (y &gt;= (room_height - 180))
     {
-        view_yview[0] = room_height - 360;
+        view_yview[0] += (((room_height - 180) - (360/2) - view_yview[0])) * cameraSpeed;
     }
     if (y &lt;= 180)
     {
-        view_yview[0] = 0;
+        view_yview[0] += ((180 - (360/2) - view_yview[0])) * cameraSpeed;
     }
 }
+ 
 
 
 </string>
