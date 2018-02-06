@@ -955,9 +955,6 @@
     <instance objName="ladderIron_obj" x="3552" y="1152" name="inst_5C602BD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3552" y="1120" name="inst_77D3E5C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3552" y="1088" name="inst_A0EB5D01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock2_obj" x="3744" y="1344" name="inst_CDC0A499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock2_obj" x="3744" y="1376" name="inst_CBBFC343" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock2_obj" x="3744" y="1408" name="inst_1D551ADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3552" y="1312" name="inst_B9F4C24D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3552" y="1344" name="inst_BC1387A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3648" y="1216" name="inst_A0BCFB2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1093,13 +1090,20 @@
     <instance objName="saw_obj" x="3648" y="1024" name="inst_47E110DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3648" y="1120" name="inst_F8BADA44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3648" y="1152" name="inst_0D6F1152" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="saw_obj" x="3648" y="1344" name="inst_43EB4D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="saw_obj" x="3616" y="1344" name="inst_43EB4D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3648" y="1440" name="inst_E095D6BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="3712" y="480" name="inst_342A7C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="3712" y="512" name="inst_B359F06D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeHalf_obj" x="1504" y="1056" name="inst_22F8E54D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3552" y="1024" name="inst_CAAC9243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="3552" y="1280" name="inst_3989A00A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="3660" y="1356" name="inst_5A113748" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="3680" y="1408" name="inst_F4ED4472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderDK1_DK2_obj" x="3724" y="1375" name="inst_FE30445E" locked="0" code="" scaleX="0.25" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lavaBlock2_obj" x="3616" y="1216" name="inst_38C191FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="3616" y="1184" name="inst_27054069" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lavaBlock2_obj" x="3616" y="1472" name="inst_657A4A18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lavaBlock2_obj" x="3648" y="1472" name="inst_6FAADD65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

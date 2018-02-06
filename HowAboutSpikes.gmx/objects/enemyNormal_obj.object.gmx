@@ -33,9 +33,7 @@ verSpeed = 0;
 gravityStrength = 1.2;
 invincible = false;
 
-image_speed = 0;
-image_index = 0;
-alarm[1] = 8;
+image_speed = 0.03;
 </string>
           </argument>
         </arguments>
@@ -59,79 +57,6 @@ alarm[1] = 8;
           <argument>
             <kind>1</kind>
             <string>horSpeed = 0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="3">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>image_index = 0;
-alarm[1] = 40;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>image_index = 2;
-instance_create(x, y, hitboxEnemy_obj);
-alarm[3] = 30;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="1">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>image_index = 1;
-alarm[2] = 30;
 </string>
           </argument>
         </arguments>
@@ -191,6 +116,11 @@ else
     alarm[4] = 100;
 }
 
+if (place_meeting(x, y, player_obj))
+{
+    global.hit = true;
+}
+
 if (distance_to_object(player_obj) &gt;= 120)
 {
     horSpeed = 0;
@@ -208,41 +138,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
     invincible = true;
     alarm[0] = 10;
 }
-/*
-    if (speed &gt; 0)
-    {
-        if (!place_free(x + horSpeed, y))
-        {
-            while (place_free(x + sign(horSpeed), y))
-            {
-                x = x + sign(horSpeed);
-            }
-            horSpeed = 0;
-        }
-        else
-        {
-            speed = -knockback;
-            alarm[0] = 10;
-        }
-    }
-    else
-    {     
-        if (!place_free(x, y + verSpeed))
-        {   
-            while (place_free(x, y + sign(verSpeed)))
-            {
-                y = y + sign(verSpeed);
-            }
-            verSpeed = 0;
-        }
-        else
-        {
-            speed = knockback;
-            alarm[0] = 10;
-        }
-    }
-}
-*/
+
 //###Gravity###
 verSpeed = verSpeed + gravityStrength;
 

@@ -25,8 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
-image_index = 0;
+            <string>sprite_index = trapdoorRed_spr;
 </string>
           </argument>
         </arguments>
@@ -51,10 +50,8 @@ image_index = 0;
             <kind>1</kind>
             <string>if (global.hitLeverRed == true)
 {
-    image_index = 1;
-    object_set_solid(self, false);
+    sprite_index = trapdoorRedOpen_spr;
     global.hitLeverRed = false;
-    instance_destroy();
 }
 </string>
           </argument>

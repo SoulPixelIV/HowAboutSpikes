@@ -54,6 +54,7 @@ onLadder = false;
 invTimer = 90;
 throw = false;
 animPause = false;
+fullJump = false;
 
 global.hit = false;
 global.state = 0;
@@ -202,7 +203,7 @@ if (key_throw)
 {
     if (lastDir == 0)
     {
-        if (throw == false)
+        if (!throw)
         {
             instance_create(x, y, scythe_obj);
             throw = true;
@@ -214,7 +215,7 @@ if (key_throw)
     }
     else
     {
-        if (throw == false)
+        if (!throw)
         {
             instance_create(x, y, scythe_obj);
             throw = true;
@@ -352,7 +353,7 @@ if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (globa
     global.numberJumps = global.numberJumps - 1;
 }
 
-if (key_jump_release)
+if (key_jump_release &amp;&amp; fullJump == false)
 {
     if (verSpeed &lt; 0)
     {
@@ -460,6 +461,7 @@ if (!place_free(x + horSpeed, y))
         x = x + sign(horSpeed);
     }
     horSpeed = 0;
+    fullJump = false;
     //grounded = true;
 } 
 if (!place_free(x, y + verSpeed))
@@ -469,6 +471,7 @@ if (!place_free(x, y + verSpeed))
         y = y + sign(verSpeed);
     }
     grounded = true;
+    fullJump = false;
     if (verSpeed &gt;= 13)
     {
         gamepad_set_vibration(0, 0.4, 0.4);
@@ -567,7 +570,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     }
     else
     {
-        verSpeed = -global.jumpStrength * 1.2;
+        verSpeed = -9;
     }
     if (!place_free(x, y + verSpeed))
     {
@@ -579,8 +582,9 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     }
     else
     {
-        verSpeed = -global.jumpStrength * 1.2;
+        verSpeed = -9;
     }
+    fullJump = true;
     global.numberJumps = global.numberJumps - 1;
     with (scythe_obj)
     {
@@ -788,10 +792,10 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != demonsKeep2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(gardenValley);
+    room_goto(demonsKeep2);
 }
 if (keyboard_check_pressed(ord('2')) &amp;&amp; room != unknownForest1)
 {

@@ -81,8 +81,11 @@
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
+    <sprite>sprites\trapdoorOpen_spr</sprite>
     <sprite>sprites\trapdoorRed_spr</sprite>
+    <sprite>sprites\trapdoorRedOpen_spr</sprite>
     <sprite>sprites\trapdoorBlue_spr</sprite>
+    <sprite>sprites\trapdoorBlueOpen_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
@@ -215,6 +218,8 @@
       <object>objects\colliderUC3_UC2_SC_obj</object>
       <object>objects\colliderUC2_UC1_SC_obj</object>
       <object>objects\colliderUC3_DK1_obj</object>
+      <object>objects\colliderDK1_DK2_obj</object>
+      <object>objects\colliderDK2_DK3_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -309,6 +314,8 @@
     <room>rooms\unknownForest3</room>
     <room>rooms\unknownForestBoss</room>
     <room>rooms\demonsKeep1</room>
+    <room>rooms\demonsKeep2</room>
+    <room>rooms\demonsKeep3</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>

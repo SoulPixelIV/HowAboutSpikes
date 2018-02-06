@@ -192,7 +192,7 @@ else
     alarm[4] = 100;
 }
 
-if (distance_to_object(player_obj) &gt;= 120)
+if (distance_to_object(player_obj) &gt;= 240)
 {
     horSpeed = 0;
 }

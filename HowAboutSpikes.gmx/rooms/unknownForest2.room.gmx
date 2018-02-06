@@ -1917,6 +1917,8 @@
     <instance objName="forestBlock2_obj" x="2432" y="1344" name="inst_3C4C54AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2432" y="1376" name="inst_1F221B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="2432" y="1408" name="inst_1FA6B7E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="416" y="640" name="inst_99BD43A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="1568" y="960" name="inst_37937F80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

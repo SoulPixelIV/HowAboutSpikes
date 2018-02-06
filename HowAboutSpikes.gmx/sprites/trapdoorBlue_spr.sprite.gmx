@@ -21,6 +21,5 @@
   <height>32</height>
   <frames>
     <frame index="0">images\trapdoorBlue_spr_0.png</frame>
-    <frame index="1">images\trapdoorBlue_spr_1.png</frame>
   </frames>
 </sprite>
