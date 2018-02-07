@@ -1,7 +1,7 @@
 # HowAboutSpikes
 
 ## About
-Small game that'll make us rich hopefully. /s
+Small game that'll make us rich hopefully maybe. /s
 
 ## Pussy Mode
 Press nothing to enable the Pussy Mode since you won't need it since this is easy as pie if you playd it for a while. Actually most people have problems with the difficulty and at the moment it spiked heavily. It's fine though, it's fine.
