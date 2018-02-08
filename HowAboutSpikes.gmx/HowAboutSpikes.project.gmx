@@ -113,6 +113,7 @@
     <sprite>sprites\light_spr</sprite>
     <sprite>sprites\monitor_spr</sprite>
     <sprite>sprites\npcLola_spr</sprite>
+    <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
       <sprite>sprites\spike_spr</sprite>
       <sprite>sprites\spikeHalf_spr</sprite>
@@ -140,6 +141,7 @@
       <sprite>sprites\tutorialSign3_spr</sprite>
       <sprite>sprites\tutorialSign4_spr</sprite>
     </sprites>
+    <sprite>sprites\rope_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -167,6 +169,7 @@
       <object>objects\player_obj</object>
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>
+      <object>objects\camera_obj</object>
     </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
@@ -177,6 +180,7 @@
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
       <object>objects\mainmenu_obj</object>
+      <object>objects\titlemenu_obj</object>
       <object>objects\cursor_obj</object>
     </objects>
     <objects name="Blocks">
@@ -192,6 +196,7 @@
       <object>objects\forestBlock_obj</object>
       <object>objects\forestBlock2_obj</object>
       <object>objects\woodBlock_obj</object>
+      <object>objects\woodBlock2_obj</object>
       <object>objects\leafBlock_obj</object>
       <object>objects\treeBlock_obj</object>
       <object>objects\treeBlock2_obj</object>
@@ -243,6 +248,7 @@
       <object>objects\dude_obj</object>
       <object>objects\house_obj</object>
       <object>objects\doorTutorial_obj</object>
+      <object>objects\rope_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -306,6 +312,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\titlemenu</room>
     <room>rooms\mainmenu</room>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>

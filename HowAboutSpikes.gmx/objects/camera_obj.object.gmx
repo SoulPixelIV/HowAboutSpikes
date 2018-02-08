@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,17 +25,60 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.mode = 0;
-global.money = 0;
+            <string>///Set Camera View
+if (instance_exists(player_obj))
+{
+    view_xview[0] = player_obj.x - (cameraWidth/2);
+    view_yview[0] = player_obj.y - (cameraHeight/2);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>surfaceTransition = surface_create(room_width, room_height);
+surfaceScale = 1/8;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Vars
+cameraSpeed = 0.06;
+cameraWidth = 640;
+cameraHeight = 360;
 
-global.playerSpawnLocation = 0;
-global.deathCount = 0;
-global.spawned = false;
-
-global.hitLever = false;
-global.hitLeverBlue = false;
-global.hitLeverRed = false;
-
+global.transition = false;
 </string>
           </argument>
         </arguments>
@@ -58,88 +101,68 @@ global.hitLeverRed = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Spawn###
-if (global.playerSpawnLocation == 0)
-{
-    if (!instance_exists(player_obj))
-    {
-        if (global.pickedPet == true)
-        {
-            instance_create(spawn_obj.x, spawn_obj.y, petBird_obj);
-        }
-        instance_create(spawn_obj.x, spawn_obj.y, player_obj);
-    }
-    global.playerSpawnLocation = -1;
-}
-if (global.playerSpawnLocation == 1)
-{
-    if (!instance_exists(player_obj))
-    {
-        if (global.pickedPet == true)
-        {
-            instance_create(spawn1_obj.x, spawn1_obj.y, petBird_obj);
-        }
-        instance_create(spawn1_obj.x, spawn1_obj.y, player_obj);
-    }
-    global.playerSpawnLocation = -1;
-}
-if (global.playerSpawnLocation == 2)
-{
-    if (!instance_exists(player_obj))
-    {
-        if (global.pickedPet == true)
-        {
-            instance_create(spawn2_obj.x, spawn2_obj.y, petBird_obj);
-        }
-        instance_create(spawn2_obj.x, spawn2_obj.y, player_obj);
-    }
-    global.playerSpawnLocation = -1;
-}
-if (global.playerSpawnLocation == 3)
-{
-    if (!instance_exists(player_obj))
-    {
-        if (global.pickedPet == true)
-        {
-            instance_create(spawn3_obj.x, spawn3_obj.y, petBird_obj);
-        }
-        instance_create(spawn3_obj.x, spawn3_obj.y, player_obj);
-    }
-    global.playerSpawnLocation = -1;
-}
+            <string>///Camera View Follow System
 
-//###Easy Mode###
-if (global.mode == 0)
+//Camera Transition
+if (global.spawned == true)
 {
-    instance_deactivate_object(easyModeBlock_obj);
+    if (global.transition == false)
+    {
+        view_wview[0] = 0;
+        view_hview[0] = 0;
+        global.transition = true;
+    }
+    if (view_wview[0] &lt; cameraWidth)
+    {
+        view_wview[0] = view_wview[0] + 8;
+    }
+    if (view_hview[0] &lt; cameraHeight)
+    {
+        view_hview[0] = view_hview[0] + 4.7;
+    }
 }
 else
 {
-    instance_activate_object(easyModeBlock_obj);
+    global.transition = false;
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.spawned = true;
+
+//Camera Follow
+if (instance_exists(player_obj))
+{
+    //Set Camera X Borders
+    if (player_obj.x &gt;= 320 &amp;&amp; player_obj.x &lt;= room_width - 320)
+    {
+        view_xview[0] = player_obj.x - (cameraWidth/2);
+    }
+    else
+    {
+        if (player_obj.x &lt;= 320)
+        {
+            view_xview[0] = 0;
+        }
+        if (player_obj.x &gt;= room_width - 320)
+        {
+            view_xview[0] = room_width - 640;
+        }
+    }
+    
+    //Set Camera Y Borders
+    if (player_obj.y &lt;= (room_height - 180) &amp;&amp; player_obj.y &gt;= 180)
+    {
+        view_yview[0] += ((player_obj.y - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
+    }
+    else
+    {
+        if (player_obj.y &gt;= (room_height - 180))
+        {
+            view_yview[0] += (((room_height - 180) - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
+        }
+        if (player_obj.y &lt;= 180)
+        {
+            view_yview[0] += ((180 - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
+        }
+    }
+}
 </string>
           </argument>
         </arguments>

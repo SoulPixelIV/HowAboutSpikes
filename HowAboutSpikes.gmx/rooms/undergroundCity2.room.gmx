@@ -676,6 +676,7 @@
     <instance objName="ladderIron_obj" x="1184" y="32" name="inst_C1BDE0D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1152" y="0" name="inst_F7629036" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1152" y="32" name="inst_23B8BBAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="camera_obj" x="0" y="0" name="inst_FCA52735" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

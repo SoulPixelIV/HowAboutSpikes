@@ -36,6 +36,7 @@ if (place_meeting(x, y, player_obj))
             instance_destroy();
         }
         room_goto(unknownForestBoss);
+        global.transition = false;
         global.playerSpawnLocation = 0;
     }
     else
@@ -45,6 +46,7 @@ if (place_meeting(x, y, player_obj))
             instance_destroy();
         }
         room_goto(unknownForest3);
+        global.transition = false;
         global.playerSpawnLocation = 1;
     }
 }

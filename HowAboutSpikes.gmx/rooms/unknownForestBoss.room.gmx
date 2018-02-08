@@ -315,6 +315,7 @@
     <instance objName="enemyBatSpawner_obj" x="-288" y="32" name="inst_38E14ECE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBatSpawner_obj" x="1248" y="416" name="inst_DB783CE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBatSpawner_obj" x="864" y="-448" name="inst_F0D78BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="camera_obj" x="32" y="0" name="inst_0667B098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

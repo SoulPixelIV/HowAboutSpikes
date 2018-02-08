@@ -35,10 +35,10 @@ global.ladderSpeed = 3.25;
 health = 2;
 money = 0;
 attackCooldown = 7;
+pauseMenu = false;
 
 horSpeed = 0;
 verSpeed = 0;
-cameraSpeed = 0.06;
 movement = true;
 cooldown = false;
 dead = false;
@@ -65,30 +65,6 @@ global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
 global.restart = false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Camera View
-
-view_xview[0] = x - (640/2);
-view_yview[0] = y - (360/2);
 </string>
           </argument>
         </arguments>
@@ -191,9 +167,10 @@ key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
-key_attack = keyboard_check_pressed(ord('F')) || gamepad_button_check_pressed(0, gp_shoulderr);
-key_throw = keyboard_check(vk_shift) || gamepad_button_check(0, gp_shoulderl);
+key_attack = keyboard_check_pressed(ord('Q')) || gamepad_button_check_pressed(0, gp_shoulderr);
+key_throw = keyboard_check(ord('E')) || gamepad_button_check(0, gp_shoulderl);
 key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 horSpeed = move * global.movSpeed;
@@ -529,6 +506,19 @@ if (deathCountVar == true)
     deathCountVar = false;
     health = health - 1;
 }
+
+//###Pause Menu###
+if (key_pause)
+{
+    if (pauseMenu == false)
+    {
+        pauseMenu = true;
+    }
+    else
+    {
+        pauseMenu = false;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -748,7 +738,7 @@ if (place_meeting(x, y, quicksandBlock_obj))
 //###Money Collision###
 if (place_meeting(x, y, darkSpirit_obj))
 {
-    money = money + 1;
+    global.money = global.money + 1;
 }
 //###GlassBlockBroken Collision###
 if (place_meeting(x, y, glassBlockBroken_obj))
@@ -797,10 +787,10 @@ if (keyboard_check_pressed(ord('1')) &amp;&amp; room != demonsKeep2)
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep2);
 }
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != unknownForest1)
+if (keyboard_check_pressed(ord('2')) &amp;&amp; room != demonsKeep3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(unknownForest1);
+    room_goto(demonsKeep3);
 }
 if (keyboard_check_pressed(ord('3')) &amp;&amp; room != unknownForest2)
 {
@@ -837,62 +827,6 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Camera View
-
-if (x &gt;= 320 &amp;&amp; x &lt;= room_width - 320)
-{
-    view_xview[0] = x - (640/2);
-}
-else
-{
-    if (x &lt;= 320)
-    {
-        view_xview[0] = 0;
-    }
-    if (x &gt;= room_width - 320)
-    {
-        view_xview[0] = room_width - 640;
-    }
-}
-
-if (y &lt;= (room_height - 180) &amp;&amp; y &gt;= 180)
-{
-    view_yview[0] += ((y - (360/2) - view_yview[0])) * cameraSpeed;
-}
-else
-{
-    if (y &gt;= (room_height - 180))
-    {
-        view_yview[0] += (((room_height - 180) - (360/2) - view_yview[0])) * cameraSpeed;
-    }
-    if (y &lt;= 180)
-    {
-        view_yview[0] += ((180 - (360/2) - view_yview[0])) * cameraSpeed;
-    }
-}
- 
-
-
 </string>
           </argument>
         </arguments>
@@ -937,21 +871,23 @@ if (health == 0)
 //###Money###
 draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 522, global.guiPosY + 324);
 
-draw_text(global.guiPosX + 552, global.guiPosY + 324, string(money));
+draw_text(global.guiPosX + 552, global.guiPosY + 324, string(global.money));
 
 //###GUI###
+/*
 draw_set_colour(c_white);
 draw_text(global.guiPosX + 8, global.guiPosY + 272, "Gamemode = " + string(global.mode));
 draw_text(global.guiPosX + 8, global.guiPosY + 288, "VSpeed = " + string(verSpeed));
 draw_text(global.guiPosX + 8, global.guiPosY + 304, "FPS = " + string(fps_real));
 draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
 draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
+*/
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
 //###Combat###
 if (nearEnemy == true)
 {
-    draw_text(player_obj.x - 19, player_obj.y - 30, "F");
+    draw_text(player_obj.x - 19, player_obj.y - 30, "'Q'/RB");
 }
 
 //###Game Over###
@@ -1029,6 +965,28 @@ else
 {
     draw_set_alpha(1);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Pause Menu
+
 </string>
           </argument>
         </arguments>
