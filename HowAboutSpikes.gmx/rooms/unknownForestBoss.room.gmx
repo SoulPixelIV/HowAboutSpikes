@@ -302,7 +302,6 @@
     <instance objName="ladder_obj" x="32" y="384" name="inst_CC4788FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="416" name="inst_FC190330" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="800" y="640" name="inst_8972306B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lockedBlockBat_obj" x="832" y="608" name="inst_EB0A7136" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lockedBlockBat_obj" x="864" y="608" name="inst_F04BEB92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightControlNormal_obj" x="0" y="0" name="inst_5694F12D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="128" y="512" name="inst_9709DA11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -316,6 +315,8 @@
     <instance objName="enemyBatSpawner_obj" x="1248" y="416" name="inst_DB783CE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBatSpawner_obj" x="864" y="-448" name="inst_F0D78BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="32" y="0" name="inst_0667B098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="794" y="509" name="inst_C978D248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUFB_DK3_obj" x="832" y="736" name="inst_957B0F8E" locked="0" code="" scaleX="1.5" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

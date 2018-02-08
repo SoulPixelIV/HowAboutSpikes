@@ -42,7 +42,7 @@
       <sprite>sprites\pinkSmall_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>
-    <sprites name="Basic Blocks">
+    <sprites name="Blocks">
       <sprite>sprites\snowBlock_spr</sprite>
       <sprite>sprites\snowBlock2_spr</sprite>
       <sprite>sprites\snowBlockRC_spr</sprite>
@@ -64,6 +64,8 @@
       <sprite>sprites\lavaBlockLC_spr</sprite>
       <sprite>sprites\lavaBlock2_spr</sprite>
       <sprite>sprites\castleBlock_spr</sprite>
+      <sprite>sprites\explosiveBlock_spr</sprite>
+      <sprite>sprites\destroyCooldown_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -207,10 +209,12 @@
       <object>objects\quicksandBlock_obj</object>
       <object>objects\glassBlock_obj</object>
       <object>objects\glassBlockBroken_obj</object>
+      <object>objects\explosiveBlock_obj</object>
       <object>objects\ladder_obj</object>
       <object>objects\ladderIron_obj</object>
       <object>objects\checkpoint_obj</object>
       <object>objects\easyModeBlock_obj</object>
+      <object>objects\destroyCooldown_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -225,6 +229,7 @@
       <object>objects\colliderUC3_DK1_obj</object>
       <object>objects\colliderDK1_DK2_obj</object>
       <object>objects\colliderDK2_DK3_obj</object>
+      <object>objects\colliderUFB_DK3_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
