@@ -223,14 +223,14 @@ else
 if (key_right &amp;&amp; animPause == false)
 {
     lastDir = 0;
-    image_speed = 0.1;
+    image_speed = 0.15;
     sprite_index = playerWalk_spr;
     image_xscale = 1;
 }
 if (key_left &amp;&amp; animPause == false)
 {
     lastDir = 1;
-    image_speed = 0.1;
+    image_speed = 0.15;
     sprite_index = playerWalk_spr;
     image_xscale = -1;
 }
@@ -884,6 +884,7 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 */
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
+draw_set_colour(c_white);
 //###Combat###
 if (nearEnemy == true)
 {
