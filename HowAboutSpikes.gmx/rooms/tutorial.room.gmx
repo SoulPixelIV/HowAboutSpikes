@@ -1955,6 +1955,7 @@
     <instance objName="snowBlock2_obj" x="320" y="2016" name="inst_C8058E27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="224" y="2016" name="inst_0A8E5853" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="96" y="0" name="inst_CAD434E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="vignetteShaderBlue_obj" x="128" y="0" name="inst_9DCAA926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
