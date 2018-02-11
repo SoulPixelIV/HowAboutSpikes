@@ -144,7 +144,10 @@
       <sprite>sprites\tutorialSign4_spr</sprite>
     </sprites>
     <sprite>sprites\rope_spr</sprite>
-    <sprite>sprites\lensflare_spr</sprite>
+    <sprite>sprites\lensflareStillBlue_spr</sprite>
+    <sprite>sprites\lensflareStillYellow_spr</sprite>
+    <sprite>sprites\lensflareFollowYellow_spr</sprite>
+    <sprite>sprites\lensflareFollowBlue_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -321,8 +324,11 @@
     <objects name="Shaders">
       <object>objects\vignetteShaderBlue_obj</object>
       <object>objects\vignetteShaderRed_obj</object>
+      <object>objects\lensflareStillBlue_obj</object>
+      <object>objects\lensflareStillYellow_obj</object>
+      <object>objects\lensflareFollowYellow_obj</object>
+      <object>objects\lensflareFollowBlue_obj</object>
     </objects>
-    <object>objects\lensflare_obj</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\titlemenu</room>
