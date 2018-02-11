@@ -39,6 +39,7 @@
     <sprites name="Basic Colors">
       <sprite>sprites\blue_spr</sprite>
       <sprite>sprites\pink_spr</sprite>
+      <sprite>sprites\hitboxSkeleton_spr</sprite>
       <sprite>sprites\pinkSmall_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>

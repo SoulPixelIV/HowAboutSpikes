@@ -79,19 +79,7 @@ startPosY = y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
-{
-    bossHealth = bossHealth - global.damage / 6;
-    invincible = true;
-    alarm[0] = 10;
-}
-if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
-{
-    bossHealth = bossHealth - global.damage / 4;
-    invincible = true;
-    alarm[0] = 10;
-}
-movTimer = movTimer - 1;
+            <string>movTimer = movTimer - 1;
 shootTimer = shootTimer - 1;
 if (bossHealth &lt;= 30)
 {
@@ -222,6 +210,35 @@ else
     with (enemyBatSpawner_obj)
     {
         instance_destroy();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>batBossSprite_obj</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (place_meeting(x, y, scythe_obj))
+{
+    with (batBoss_obj)
+    {
+        bossHealth = bossHealth - global.damage / 3;
+        invincible = true;
+        alarm[0] = 10;
     }
 }
 </string>

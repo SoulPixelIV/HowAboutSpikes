@@ -25,12 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movSpeed = 1.25;
+            <string>startPosX = x;
+startPosY = y;
+movSpeed = 0.75;;
 knockback = 5;
 enemyHealth = 100;
 horSpeed = 0;
 verSpeed = 0;
-gravityStrength = 1.2;
+gravityStrength = 0.6;
 invincible = false;
 
 image_speed = 0.03;
@@ -163,7 +165,7 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (enemyHealth &lt;= 0)
 {
-    instance_destroy();
+    instance_deactivate_object(self);
 }
 </string>
           </argument>
@@ -190,6 +192,8 @@ if (enemyHealth &lt;= 0)
     with(enemyNormal_obj)
     {
         enemyHealth = 100;
+        x = startPosX;
+        y = startPosY;
     }
 }
 

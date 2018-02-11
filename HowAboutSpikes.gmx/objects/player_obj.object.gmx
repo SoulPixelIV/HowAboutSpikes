@@ -367,7 +367,7 @@ if ((grounded == false) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
     nearEnemy = true;
     if (key_attack)
     {
-        global.state = 1;
+        //global.state = 1;
     }
 }
 else
@@ -591,6 +591,9 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     global.checkpointY = other.y;
     global.checkpointRoom = room;
     instance_activate_object(glassBlockBroken_obj);
+    instance_activate_object(enemyNormal_obj);
+    instance_activate_object(enemyNormal2_obj);
+    instance_activate_object(enemyMystery_obj);
     other.image_index = 1;
     noDamage = false;
     if (global.restart == false)
@@ -886,11 +889,12 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 
 draw_set_colour(c_white);
 //###Combat###
+/*
 if (nearEnemy == true)
 {
     draw_text(player_obj.x - 19, player_obj.y - 30, "'Q'/RB");
 }
-
+*/
 //###Game Over###
 if (dead == true)
 {

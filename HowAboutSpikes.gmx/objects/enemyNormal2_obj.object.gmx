@@ -25,12 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movSpeed = 2.25;
+            <string>startPosX = x;
+startPosY = y;
+movSpeed = 1.75;
 knockback = 5;
 enemyHealth = 100;
 horSpeed = 0;
 verSpeed = 0;
-gravityStrength = 3;
+gravityStrength = 2;
 invincible = false;
 
 image_speed = 0;
@@ -181,7 +183,7 @@ invincible = false;
             <string>x = x + horSpeed;
 y = y + verSpeed;
 
-if (distance_to_object(player_obj) &lt;= 100 &amp;&amp; distance_to_object(player_obj) &gt;= 32)
+if (distance_to_object(player_obj) &lt;= 80 &amp;&amp; distance_to_object(player_obj) &gt;= 32)
 {
     horSpeed = movSpeed;
 }
@@ -191,7 +193,7 @@ else
     alarm[4] = 100;
 }
 
-if (distance_to_object(player_obj) &gt;= 120)
+if (distance_to_object(player_obj) &gt; 80)
 {
     horSpeed = 0;
 }
@@ -267,7 +269,7 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (enemyHealth &lt;= 0)
 {
-    instance_destroy();
+    instance_deactivate_object(self);
 }
 </string>
           </argument>
@@ -291,9 +293,11 @@ if (enemyHealth &lt;= 0)
             <kind>1</kind>
             <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
 {
-    with(enemyNormal_obj)
+    with(enemyNormal2_obj)
     {
         enemyHealth = 100;
+        x = startPosX;
+        y = startPosY;
     }
 }
 

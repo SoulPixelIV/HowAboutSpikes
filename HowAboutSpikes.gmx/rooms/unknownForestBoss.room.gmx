@@ -200,10 +200,7 @@
     <instance objName="spikeBig_obj" x="352" y="32" name="inst_87EEBEE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="288" y="32" name="inst_C0DA7E43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="320" y="32" name="inst_8EBEEB98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeBig_obj" x="96" y="32" name="inst_11B0E7C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="128" y="32" name="inst_BDBF9AD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeBig_obj" x="64" y="32" name="inst_6F144FD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeBig_obj" x="32" y="32" name="inst_E312A635" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="384" y="32" name="inst_9B76D217" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="256" y="32" name="inst_D4A35561" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeBig_obj" x="160" y="32" name="inst_85EE4C46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -318,6 +315,24 @@
     <instance objName="spawn1_obj" x="794" y="509" name="inst_C978D248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUFB_DK3_obj" x="832" y="736" name="inst_957B0F8E" locked="0" code="" scaleX="1.5" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_61E3A8E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lockedBlockBat_obj" x="832" y="608" name="inst_82DF5D39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="32" y="96" name="inst_2C5C17D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="32" y="32" name="inst_C3BCEB8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="32" y="64" name="inst_3935AAF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="64" y="32" name="inst_90B8BCA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="32" name="inst_F249EBD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="64" name="inst_35C0436A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="64" y="64" name="inst_B62069E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="64" y="96" name="inst_828A2416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="96" name="inst_FD2496AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="128" name="inst_7247A5C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="160" name="inst_F0B70C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="192" name="inst_BEC7BC55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="224" name="inst_6296AE65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="256" name="inst_5E29A016" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="288" name="inst_C1947D82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="320" name="inst_74BACF04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="96" y="352" name="inst_3C9696E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

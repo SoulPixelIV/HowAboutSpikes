@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movSpeed = 2.25;
+            <string>startPosX = x;
+startPosY = y;
+movSpeed = 2.25;
 knockback = 5;
 enemyHealth = 50;
 horSpeed = 0;
@@ -179,7 +181,7 @@ invincible = false;
             <string>x = x + horSpeed;
 y = y + verSpeed;
 
-if (distance_to_object(player_obj) &lt;= 100 &amp;&amp; distance_to_object(player_obj) &gt;= 32 &amp;&amp; exploding == false)
+if (distance_to_object(player_obj) &lt;= 80 &amp;&amp; distance_to_object(player_obj) &gt;= 32 &amp;&amp; exploding == false)
 {
     image_index = 1;
     horSpeed = movSpeed;
@@ -192,7 +194,7 @@ else
     alarm[4] = 100;
 }
 
-if (distance_to_object(player_obj) &gt;= 240)
+if (distance_to_object(player_obj) &gt; 80)
 {
     horSpeed = 0;
 }
@@ -234,7 +236,36 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (enemyHealth &lt;= 0)
 {
-    instance_destroy();
+    instance_deactivate_object(self);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>player_obj</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
+{
+    with(enemyMystery_obj)
+    {
+        enemyHealth = 50;
+        x = startPosX;
+        y = startPosY;
+    }
 }
 </string>
           </argument>
