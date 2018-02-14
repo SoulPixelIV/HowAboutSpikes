@@ -54,7 +54,6 @@
     <instance objName="forestBlock2_obj" x="0" y="256" name="inst_D29B3160" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="32" y="256" name="inst_56EF1BCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="0" y="128" name="inst_49B06C46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="forestBlock2_obj" x="32" y="128" name="inst_6BF40021" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="64" y="96" name="inst_21064046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="96" y="96" name="inst_E6FCBBFB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlock2_obj" x="96" y="64" name="inst_6A60314F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -358,8 +357,8 @@
     <instance objName="forestBlockMystery_obj" x="256" y="960" name="inst_47D63ED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="288" y="960" name="inst_02B2DF97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="320" y="960" name="inst_9C285F30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spawn_obj" x="32" y="192" name="inst_C1DEC9FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spawn1_obj" x="32" y="192" name="inst_AEEE4851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn_obj" x="27" y="168" name="inst_C1DEC9FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="15" y="170" name="inst_AEEE4851" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUF2_UF3_obj" x="-39" y="206" name="inst_98300554" locked="0" code="" scaleX="0.5" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="1344" y="992" name="inst_7EC0149F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="forestBlockMystery_obj" x="1376" y="992" name="inst_DBC7984B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1435,6 +1434,8 @@
     <instance objName="lamp_obj" x="448" y="1248" name="inst_AC84FD9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="32" y="0" name="inst_CBF74ABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_03AC1EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="64" y="224" name="inst_CF2EB29A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="forestBlock2_obj" x="64" y="256" name="inst_A450C372" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

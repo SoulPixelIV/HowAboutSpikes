@@ -44,10 +44,6 @@
       <sprite>sprites\red_spr</sprite>
     </sprites>
     <sprites name="Blocks">
-      <sprite>sprites\snowBlock_spr</sprite>
-      <sprite>sprites\snowBlock2_spr</sprite>
-      <sprite>sprites\snowBlockRC_spr</sprite>
-      <sprite>sprites\snowBlockLC_spr</sprite>
       <sprite>sprites\woodBlock_spr</sprite>
       <sprite>sprites\woodBlock2_spr</sprite>
       <sprite>sprites\forestBlock_spr</sprite>
@@ -67,6 +63,17 @@
       <sprite>sprites\castleBlock_spr</sprite>
       <sprite>sprites\explosiveBlock_spr</sprite>
       <sprite>sprites\destroyCooldown_spr</sprite>
+      <sprite>sprites\stoneBlock_spr</sprite>
+      <sprite>sprites\woodBlockNew_spr</sprite>
+      <sprite>sprites\woodBlockNewBG_spr</sprite>
+      <sprites name="Snow Blocks">
+        <sprite>sprites\snowBlock_spr</sprite>
+        <sprite>sprites\forestBlockNew_spr</sprite>
+        <sprite>sprites\forestBlock2New_spr</sprite>
+        <sprite>sprites\snowBlockRC_spr</sprite>
+        <sprite>sprites\snowBlockLC_spr</sprite>
+        <sprite>sprites\snowBlock2_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -130,6 +137,8 @@
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\enemy_spr</sprite>
+      <sprite>sprites\enemyFlyingCloud</sprite>
+      <sprite>sprites\flyingCloud_spr</sprite>
       <sprite>sprites\enemy2_spr</sprite>
       <sprites name="Demon">
         <sprite>sprites\demonSpawner_spr</sprite>
@@ -149,6 +158,7 @@
     <sprite>sprites\lensflareStillYellow_spr</sprite>
     <sprite>sprites\lensflareFollowYellow_spr</sprite>
     <sprite>sprites\lensflareFollowBlue_spr</sprite>
+    <sprite>sprites\dirtyLensEffect_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -191,10 +201,6 @@
       <object>objects\cursor_obj</object>
     </objects>
     <objects name="Blocks">
-      <object>objects\snowBlock_obj</object>
-      <object>objects\snowBlock2_obj</object>
-      <object>objects\sniwBlockRC_obj</object>
-      <object>objects\snowBlockLC_obj</object>
       <object>objects\lavaBlock_obj</object>
       <object>objects\lavaBlock2_obj</object>
       <object>objects\lavaBlockRC_obj</object>
@@ -220,6 +226,15 @@
       <object>objects\checkpoint_obj</object>
       <object>objects\easyModeBlock_obj</object>
       <object>objects\destroyCooldown_obj</object>
+      <object>objects\stoneBlock_obj</object>
+      <object>objects\woodBlockNew_obj</object>
+      <object>objects\woodBlockNewBG_obj</object>
+      <objects name="Snow Blocks">
+        <object>objects\snowBlock_obj</object>
+        <object>objects\snowBlock2_obj</object>
+        <object>objects\sniwBlockRC_obj</object>
+        <object>objects\snowBlockLC_obj</object>
+      </objects>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -270,6 +285,8 @@
       <object>objects\enemyNormal2_obj</object>
       <object>objects\enemyMystery_obj</object>
       <object>objects\enemy_obj</object>
+      <object>objects\enemyFlyingCloud_obj</object>
+      <object>objects\flyingCloud_obj</object>
     </objects>
     <objects name="Shortcuts">
       <object>objects\lever_obj</object>
@@ -329,6 +346,7 @@
       <object>objects\lensflareStillYellow_obj</object>
       <object>objects\lensflareFollowYellow_obj</object>
       <object>objects\lensflareFollowBlue_obj</object>
+      <object>objects\dirtyLensEffect_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
