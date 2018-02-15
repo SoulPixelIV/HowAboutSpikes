@@ -221,7 +221,7 @@
       <object>objects\specialBlock_obj</object>
       <object>objects\mysteryBlockSpecial_obj</object>
       <object>objects\checkpointMystery_obj</object>
-      <object>objects\forestBlockMystery_obj</object>
+      <object>objects\grassBlockMystery_obj</object>
       <object>objects\quicksandBlock_obj</object>
       <object>objects\glassBlock_obj</object>
       <object>objects\glassBlockBroken_obj</object>

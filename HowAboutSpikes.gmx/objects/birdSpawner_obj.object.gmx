@@ -68,7 +68,7 @@ birdNumber = irandom(12);
     }
     if (instance_exists(grassBlock_obj))
     {
-        blockID = instance_find(forestBlock_obj, irandom(instance_number(forestBlock_obj) - 1));
+        blockID = instance_find(grassBlock_obj, irandom(instance_number(grassBlock_obj) - 1));
         instance_create(blockID.x + random_range(-16,16), blockID.y - 19, bird_obj);
     }
     if (instance_exists(leafBlock_obj))

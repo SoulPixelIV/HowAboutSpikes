@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>buttonSelected = 0;
 userInput = false;
-leftKey = noone;
-rightKey = noone;
-jumpKey = noone;
-attackKey = noone;
-throwKey = noone;
+leftKey = 65;
+rightKey = 68;
+jumpKey = 32;
+attackKey = 75;
+throwKey = 74;
 instance_create(160, 160, cursor_obj);
 </string>
           </argument>
@@ -232,12 +232,12 @@ if (buttonSelected == 5)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "Move Left: " + string(leftKey));
-draw_text(16, 192, "Move Right" + string(rightKey));
-draw_text(16, 224, "Jump" + string(jumpKey));
-draw_text(16, 256, "Attack" + string(attackKey));
-draw_text(16, 288, "Throw" + string(throwKey));
-draw_text(16, 320, "Back");
+draw_text(16, 160, "Move Left: " + string(chr(leftKey)));
+draw_text(16, 192, "Move Right: " + string(chr(rightKey)));
+draw_text(16, 224, "Jump: " + string(chr(jumpKey)));
+draw_text(16, 256, "Attack: " + string(chr(attackKey)));
+draw_text(16, 288, "Throw: " + string(chr(throwKey)));
+draw_text(16, 320, "Back: ");
 
 if (userInput == true)
 {

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (distance_to_object(player_obj) &lt; 72)
 {
-    sprite_index = forestBlock2_spr;
+    sprite_index = grassBlock2_spr;
 }
 if (distance_to_object(player_obj) &gt;= 72)
 {
