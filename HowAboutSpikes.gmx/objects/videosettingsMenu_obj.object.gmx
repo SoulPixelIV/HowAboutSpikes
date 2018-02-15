@@ -54,6 +54,11 @@ key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) |
 key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
 
+if (key_back)
+{
+    room_goto(settingsMenu);
+}
+
 if (key_up)
 {
     if (buttonSelected &gt; -1)
@@ -62,16 +67,16 @@ if (key_up)
     }
     if (buttonSelected == -1)
     {
-        buttonSelected = 3;
+        buttonSelected = 1;
     }
 }
 if (key_down)
 {
-    if (buttonSelected &lt; 4)
+    if (buttonSelected &lt; 2)
     {
         buttonSelected = buttonSelected + 1;
     }
-    if (buttonSelected == 4)
+    if (buttonSelected == 2)
     {
         buttonSelected = 0;
     }
@@ -79,36 +84,30 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 276;
     cursor_obj.y = 183;
     if (key_enter)
     {
-        room_goto(tutorial);
+        if window_get_fullscreen()
+        {
+            window_set_fullscreen(false);
+        }
+        else
+        {
+            window_set_fullscreen(true);
+        }
     }
 }
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 276;
     cursor_obj.y = 215;
-}
-if (buttonSelected == 2)
-{
-    cursor_obj.x = 176;
-    cursor_obj.y = 247;
     if (key_enter)
     {
         room_goto(settingsMenu);
     }
 }
-if (buttonSelected == 3)
-{
-    cursor_obj.x = 176;
-    cursor_obj.y = 279;
-    if (key_enter)
-    {
-        game_end();
-    }
-}
+
 </string>
           </argument>
         </arguments>
@@ -133,10 +132,9 @@ if (buttonSelected == 3)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "New Game")
-draw_text(16, 192, "Continue")
-draw_text(16, 224, "Settings")
-draw_text(16, 256, "Quit")
+draw_text(16, 160, "Toggle Fullscreen");
+draw_text(16, 192, "Back");
+
 </string>
           </argument>
         </arguments>

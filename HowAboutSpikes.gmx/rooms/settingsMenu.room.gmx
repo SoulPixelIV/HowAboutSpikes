@@ -56,12 +56,12 @@
     <instance objName="lightFlickering_obj" x="221" y="243" name="inst_92C329D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="433" y="257" name="inst_8627EA7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="490" y="280" name="inst_2AD827C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="mainMenu_obj" x="32" y="0" name="inst_C6FEFC56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="434" y="256" name="inst_F92818A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="491" y="280" name="inst_8803E454" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="221" y="243" name="inst_71C10474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="16" y="270" name="inst_4F10979E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="vignetteShaderBlue_obj" x="64" y="0" name="inst_8F83E973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="vignetteShaderBlue_obj" x="32" y="0" name="inst_8F83E973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="settingmenu_obj" x="64" y="0" name="inst_8AEC54FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

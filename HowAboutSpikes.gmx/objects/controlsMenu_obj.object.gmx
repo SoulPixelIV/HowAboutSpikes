@@ -26,6 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>buttonSelected = 0;
+userInput = false;
+leftKey = noone;
+rightKey = noone;
+jumpKey = noone;
+attackKey = noone;
+throwKey = noone;
 instance_create(160, 160, cursor_obj);
 </string>
           </argument>
@@ -54,7 +60,12 @@ key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) |
 key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
 
-if (key_up)
+if (key_back &amp;&amp; userInput == false)
+{
+    room_goto(settingsMenu);
+}
+
+if (key_up &amp;&amp; userInput == false)
 {
     if (buttonSelected &gt; -1)
     {
@@ -62,53 +73,141 @@ if (key_up)
     }
     if (buttonSelected == -1)
     {
-        buttonSelected = 3;
+        buttonSelected = 5;
     }
 }
-if (key_down)
+if (key_down &amp;&amp; userInput == false)
 {
-    if (buttonSelected &lt; 4)
+    if (buttonSelected &lt; 6)
     {
         buttonSelected = buttonSelected + 1;
     }
-    if (buttonSelected == 4)
+    if (buttonSelected == 6)
     {
         buttonSelected = 0;
     }
 }
-
+//MOVE LEFT
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 216;
     cursor_obj.y = 183;
     if (key_enter)
     {
-        room_goto(tutorial);
+        userInput = true;
+    }
+    if (userInput == true)
+    {
+        if (!key_enter)
+        {
+            if (keyboard_check_pressed(vk_anykey))
+            {
+                keyboard_set_map(keyboard_lastkey, ord("A"));
+                leftKey = keyboard_lastkey;
+                userInput = false;
+            }
+        }
     }
 }
+//MOVE RIGHT
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 216;
     cursor_obj.y = 215;
+    if (key_enter)
+    {
+        userInput = true;
+    }
+    if (userInput == true)
+    {
+        if (!key_enter)
+        {
+            if (keyboard_check_pressed(vk_anykey))
+            {
+                keyboard_set_map(keyboard_lastkey, ord("D"));
+                rightKey = keyboard_lastkey;
+                userInput = false;
+            }
+        }
+    }
 }
+//JUMP
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 216;
     cursor_obj.y = 247;
+    if (key_enter)
+    {
+        userInput = true;
+    }
+    if (userInput == true)
+    {
+        if (!key_enter)
+        {
+            if (keyboard_check_pressed(vk_anykey))
+            {
+                keyboard_set_map(keyboard_lastkey, vk_space);
+                jumpKey = keyboard_lastkey;
+                userInput = false;
+            }
+        }
+    }
+}
+//ATTACK
+if (buttonSelected == 3)
+{
+    cursor_obj.x = 216;
+    cursor_obj.y = 279;
+    if (key_enter)
+    {
+        userInput = true;
+    }
+    if (userInput == true)
+    {
+        if (!key_enter)
+        {
+            if (keyboard_check_pressed(vk_anykey))
+            {
+                keyboard_set_map(keyboard_lastkey, ord("K"));
+                attackKey = keyboard_lastkey;
+                userInput = false;
+            }
+        }
+    }
+}
+//THROW
+if (buttonSelected == 4)
+{
+    cursor_obj.x = 216;
+    cursor_obj.y = 311;
+    if (key_enter)
+    {
+        userInput = true;
+    }
+    if (userInput == true)
+    {
+        if (!key_enter)
+        {
+            if (keyboard_check_pressed(vk_anykey))
+            {
+                keyboard_set_map(keyboard_lastkey, ord("J"));
+                throwKey = keyboard_lastkey;
+                userInput = false;
+            }
+        }
+    }
+}
+//BACK
+if (buttonSelected == 5)
+{
+    cursor_obj.x = 216;
+    cursor_obj.y = 343;
     if (key_enter)
     {
         room_goto(settingsMenu);
     }
 }
-if (buttonSelected == 3)
-{
-    cursor_obj.x = 176;
-    cursor_obj.y = 279;
-    if (key_enter)
-    {
-        game_end();
-    }
-}
+
 </string>
           </argument>
         </arguments>
@@ -133,10 +232,17 @@ if (buttonSelected == 3)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "New Game")
-draw_text(16, 192, "Continue")
-draw_text(16, 224, "Settings")
-draw_text(16, 256, "Quit")
+draw_text(16, 160, "Move Left: " + string(leftKey));
+draw_text(16, 192, "Move Right" + string(rightKey));
+draw_text(16, 224, "Jump" + string(jumpKey));
+draw_text(16, 256, "Attack" + string(attackKey));
+draw_text(16, 288, "Throw" + string(throwKey));
+draw_text(16, 320, "Back");
+
+if (userInput == true)
+{
+    draw_text(50, 50, "PRESS KEY!");
+}
 </string>
           </argument>
         </arguments>

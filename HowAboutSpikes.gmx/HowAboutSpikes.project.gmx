@@ -46,8 +46,6 @@
     <sprites name="Blocks">
       <sprite>sprites\woodBlock_spr</sprite>
       <sprite>sprites\woodBlock2_spr</sprite>
-      <sprite>sprites\forestBlock_spr</sprite>
-      <sprite>sprites\forestBlock2_spr</sprite>
       <sprite>sprites\treeBlock_spr</sprite>
       <sprite>sprites\treeBlock2_spr</sprite>
       <sprite>sprites\leafBlock_spr</sprite>
@@ -68,11 +66,15 @@
       <sprite>sprites\woodBlockNewBG_spr</sprite>
       <sprites name="Snow Blocks">
         <sprite>sprites\snowBlock_spr</sprite>
-        <sprite>sprites\forestBlockNew_spr</sprite>
-        <sprite>sprites\forestBlock2New_spr</sprite>
         <sprite>sprites\snowBlockRC_spr</sprite>
         <sprite>sprites\snowBlockLC_spr</sprite>
         <sprite>sprites\snowBlock2_spr</sprite>
+      </sprites>
+      <sprites name="Grass Blocks">
+        <sprite>sprites\grassBlock_spr</sprite>
+        <sprite>sprites\grassBlockRC_spr</sprite>
+        <sprite>sprites\grassBlockLC_spr</sprite>
+        <sprite>sprites\grassBlock2_spr</sprite>
       </sprites>
     </sprites>
     <sprites name="Collectibles">
@@ -196,9 +198,14 @@
       <object>objects\finish_obj</object>
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
-      <object>objects\mainmenu_obj</object>
-      <object>objects\titlemenu_obj</object>
       <object>objects\cursor_obj</object>
+      <objects name="Menu Objects">
+        <object>objects\titlemenu_obj</object>
+        <object>objects\mainMenu_obj</object>
+        <object>objects\settingmenu_obj</object>
+        <object>objects\videosettingsMenu_obj</object>
+        <object>objects\controlsMenu_obj</object>
+      </objects>
     </objects>
     <objects name="Blocks">
       <object>objects\lavaBlock_obj</object>
@@ -206,8 +213,6 @@
       <object>objects\lavaBlockRC_obj</object>
       <object>objects\lavaBlockLC_obj</object>
       <object>objects\castleBlock_obj</object>
-      <object>objects\forestBlock_obj</object>
-      <object>objects\forestBlock2_obj</object>
       <object>objects\woodBlock_obj</object>
       <object>objects\woodBlock2_obj</object>
       <object>objects\leafBlock_obj</object>
@@ -234,6 +239,12 @@
         <object>objects\snowBlock2_obj</object>
         <object>objects\sniwBlockRC_obj</object>
         <object>objects\snowBlockLC_obj</object>
+      </objects>
+      <objects name="Grass Blocks">
+        <object>objects\grassBlock_obj</object>
+        <object>objects\grassBlockRC_obj</object>
+        <object>objects\grassBlockLC_obj</object>
+        <object>objects\grassBlock2_obj</object>
       </objects>
     </objects>
     <objects name="roomCollider">
@@ -350,8 +361,14 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\titlemenu</room>
-    <room>rooms\mainmenu</room>
+    <rooms name="Menu Rooms">
+      <room>rooms\titleMenu</room>
+      <room>rooms\mainMenu</room>
+      <room>rooms\settingsMenu</room>
+      <room>rooms\videosettingsMenu</room>
+      <room>rooms\audiosettingsMenu</room>
+      <room>rooms\controlsMenu</room>
+    </rooms>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
     <room>rooms\unknownForest1</room>
