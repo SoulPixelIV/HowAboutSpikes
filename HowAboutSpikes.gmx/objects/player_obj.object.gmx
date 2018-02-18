@@ -55,6 +55,8 @@ invTimer = 90;
 throw = false;
 animPause = false;
 fullJump = false;
+dash = true;
+dashTimer = 7;
 
 global.hit = false;
 global.state = 0;
@@ -174,6 +176,26 @@ key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0,
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 horSpeed = move * global.movSpeed;
+
+if (keyboard_check_pressed(ord('J'))  &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false || gamepad_button_check_pressed(0, gp_shoulderl) &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
+{
+    dash = true;
+}
+if (dash == true)
+{
+    global.movSpeed = 3.95;
+    if (!instance_exists(dashEffect_obj))
+    {
+        instance_create(x, y, dashEffect_obj);
+    }
+    dashTimer = dashTimer - 1;
+}
+if (dashTimer &lt;= 0 || grounded == true || onLadder == true)
+{
+    dash = false;
+    global.movSpeed = 2.65;
+    dashTimer = 7;
+}
 
 //###Scythe Throw###
 if (key_throw)
@@ -732,6 +754,12 @@ if (place_meeting(x, y, leverRed_obj))
 if (place_meeting(x, y, key_obj))
 {
     global.holding = other.id;
+}
+//###Water Collision###
+if (place_meeting(x, y, water_obj))
+{
+    horSpeed = horSpeed / 1.75;
+    verSpeed = verSpeed / 1.02;
 }
 //###Quicksand Collision###
 if (place_meeting(x, y, quicksandBlock_obj))

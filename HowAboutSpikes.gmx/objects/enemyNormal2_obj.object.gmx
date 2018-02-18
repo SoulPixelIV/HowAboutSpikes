@@ -183,7 +183,7 @@ invincible = false;
             <string>x = x + horSpeed;
 y = y + verSpeed;
 
-if (distance_to_object(player_obj) &lt;= 80 &amp;&amp; distance_to_object(player_obj) &gt;= 32)
+if (distance_to_object(player_obj) &lt;= 100 &amp;&amp; distance_to_object(player_obj) &gt;= 32)
 {
     horSpeed = movSpeed;
 }
@@ -193,7 +193,7 @@ else
     alarm[4] = 100;
 }
 
-if (distance_to_object(player_obj) &gt; 80)
+if (distance_to_object(player_obj) &gt;= 120)
 {
     horSpeed = 0;
 }

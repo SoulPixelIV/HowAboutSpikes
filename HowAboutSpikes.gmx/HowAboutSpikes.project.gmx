@@ -18,6 +18,7 @@
       <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\scythe_spr</sprite>
+      <sprite>sprites\dashEffect_spr</sprite>
       <sprites name="Player Sprites OLD">
         <sprite>sprites\playerFallingOLD_spr</sprite>
         <sprite>sprites\playerIdleOld_spr</sprite>
@@ -76,6 +77,9 @@
         <sprite>sprites\grassBlockLC_spr</sprite>
         <sprite>sprites\grassBlock2_spr</sprite>
       </sprites>
+      <sprites name="Dark Blocks">
+        <sprite>sprites\darkBlock_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -86,10 +90,12 @@
       <sprite>sprites\darkSpiritIcon_spr</sprite>
       <sprite>sprites\heart_spr</sprite>
       <sprite>sprites\spikeMysteryIcon_spr</sprite>
+      <sprite>sprites\darkBlockFakeIcon_spr</sprite>
       <sprite>sprites\forestBlockMysteryIcon_spr</sprite>
       <sprite>sprites\lightIcon_spr</sprite>
       <sprite>sprites\lightFlickeringIcon_spr</sprite>
       <sprite>sprites\cursor_spr</sprite>
+      <sprite>sprites\waterIcon_spr</sprite>
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
@@ -156,11 +162,25 @@
       <sprite>sprites\tutorialSign4_spr</sprite>
     </sprites>
     <sprite>sprites\rope_spr</sprite>
-    <sprite>sprites\lensflareStillBlue_spr</sprite>
-    <sprite>sprites\lensflareStillYellow_spr</sprite>
-    <sprite>sprites\lensflareFollowYellow_spr</sprite>
-    <sprite>sprites\lensflareFollowBlue_spr</sprite>
-    <sprite>sprites\dirtyLensEffect_spr</sprite>
+    <sprites name="Shaders">
+      <sprite>sprites\lensflareStillBlue_spr</sprite>
+      <sprite>sprites\lensflareStillYellow_spr</sprite>
+      <sprite>sprites\lensflareFollowYellow_spr</sprite>
+      <sprite>sprites\lensflareFollowBlue_spr</sprite>
+      <sprite>sprites\dirtyLensEffect_spr</sprite>
+    </sprites>
+    <sprites name="Water">
+      <sprites name="Forest">
+        <sprite>sprites\waterStillForest_spr</sprite>
+        <sprite>sprites\waterStill2Forest_spr</sprite>
+      </sprites>
+      <sprites name="Snow">
+        <sprite>sprites\waterStill_spr</sprite>
+        <sprite>sprites\waterStill2_spr</sprite>
+        <sprite>sprites\waterEffect_spr</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\warpzone_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -189,6 +209,7 @@
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>
       <object>objects\camera_obj</object>
+      <object>objects\dashEffect_obj</object>
     </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
@@ -246,6 +267,14 @@
         <object>objects\grassBlockLC_obj</object>
         <object>objects\grassBlock2_obj</object>
       </objects>
+      <objects name="Dark Blocks">
+        <object>objects\darkBlock_obj</object>
+        <object>objects\darkBlockFake_obj</object>
+      </objects>
+      <objects name="Water Blocks">
+        <object>objects\water_obj</object>
+        <object>objects\waterEffect_obj</object>
+      </objects>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -263,6 +292,7 @@
       <object>objects\colliderUFB_DK3_obj</object>
       <object>objects\colliderDK3_DK2_obj</object>
       <object>objects\colliderDK2_DK1_obj</object>
+      <object>objects\colliderUC3_SG1_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -343,6 +373,7 @@
       <object>objects\light_obj</object>
       <object>objects\lightControlNormal_obj</object>
       <object>objects\lightControlHeavy_obj</object>
+      <object>objects\lightControlFull_obj</object>
     </objects>
     <objects name="Collectibles">
       <object>objects\key_obj</object>
@@ -381,6 +412,7 @@
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>
+    <room>rooms\sentinelGraves1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

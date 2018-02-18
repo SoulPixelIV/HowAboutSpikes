@@ -300,8 +300,6 @@
     <instance objName="ladderIron_obj" x="512" y="384" name="inst_F386467A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="256" y="96" name="inst_FFC2B65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="232" y="31" name="inst_8222B129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="480" y="-32" name="inst_BB8F23C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="512" y="-32" name="inst_DC9CDC88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leverRed_obj" x="192" y="544" name="inst_B7940520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUC3_UC2_SC_obj" x="96" y="-32" name="inst_BFCE6899" locked="0" code="" scaleX="1.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="89" y="35" name="inst_18D573E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -311,6 +309,9 @@
     <instance objName="colliderUC3_DK1_obj" x="916" y="431" name="inst_9ABAD92E" locked="0" code="" scaleX="0.125" scaleY="0.622047245502472" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="0" y="0" name="inst_77B98C53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderBlue_obj" x="32" y="0" name="inst_783792E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="864" y="448" name="inst_8C115BB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC3_SG1_obj" x="512" y="-32" name="inst_FDA3B399" locked="0" code="" scaleX="1.75" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="spawn3_obj" x="491" y="33" name="inst_32FB1FDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
