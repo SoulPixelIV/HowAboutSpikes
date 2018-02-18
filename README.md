@@ -3,8 +3,20 @@
 ## About
 Small game that'll make us rich hopefully maybe. /s
 
-## Pussy Mode
-Press nothing to enable the Pussy Mode since you won't need it since this is easy as pie if you playd it for a while. Actually most people have problems with the difficulty and at the moment it spiked heavily. It's fine though, it's fine.
+## Features etc. for the demo release
+- Add Warpzones
+- Rework Skeleton Enemy
+- Continue Sentinel Graves World
+- Add Shop and Items
+- Add big Collectibles
+- Add 2 "keys" and a closed door to sky world (first of all the main goal)
+- Add pause menu
+- Add more sound effects
+- Change water for forest levels
+- Add a Boss to Sentinel Graves
+- Properly place help blocks (add secrets)
+- Fix Tutorial signs (Add tutorial for dash)
+- Fix Hitboxes of different blocks and trapdoors
 
 ## Known Bugs (biggest secton in the doc)
 - Edge clipping (even worse now)

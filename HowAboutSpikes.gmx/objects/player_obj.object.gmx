@@ -973,6 +973,22 @@ else
 {
     draw_set_alpha(1);
 }
+if (room == unknownForest3 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Fading Mansion");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
 if (room == undergroundCity1 &amp;&amp; global.spawned == true)
 {
     draw_set_font(message_fnt);
@@ -994,6 +1010,54 @@ if (room == demonsKeep1 &amp;&amp; global.spawned == true)
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
     draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
+if (room == demonsKeep2 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Castle of Regret");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
+if (room == demonsKeep3 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
+if (room == sentinelGraves1 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Sentinel Graves");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {

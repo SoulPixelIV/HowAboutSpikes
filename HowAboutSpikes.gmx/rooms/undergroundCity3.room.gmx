@@ -312,6 +312,10 @@
     <instance objName="checkpoint_obj" x="864" y="448" name="inst_8C115BB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUC3_SG1_obj" x="512" y="-32" name="inst_FDA3B399" locked="0" code="" scaleX="1.75" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="491" y="33" name="inst_32FB1FDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="256" y="416" name="inst_91B5A860" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="warpzone_obj" x="192" y="416" name="inst_340D1BE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="288" y="256" name="inst_0FF60371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="288" y="224" name="inst_D270060F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

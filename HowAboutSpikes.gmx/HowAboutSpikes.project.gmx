@@ -380,6 +380,7 @@
       <object>objects\darkSpirit_obj</object>
       <object>objects\petBirdPA_obj</object>
       <object>objects\petBird_obj</object>
+      <object>objects\warpzone_obj</object>
     </objects>
     <objects name="Shaders">
       <object>objects\vignetteShaderBlue_obj</object>
