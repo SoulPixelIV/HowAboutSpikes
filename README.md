@@ -4,9 +4,9 @@
 Small game that'll make us rich hopefully maybe. /s
 
 ## Features etc. for the demo release
-- Add Warpzones
-- Rework Skeleton Enemy
-- Continue Sentinel Graves World
+~~- Add Warpzones~~
+~~- Rework Skeleton Enemy~~
+- Continue Sentinel Graves World (Being worked on!)
 - Add Shop and Items
 - Add big Collectibles
 - Add 2 "keys" and a closed door to sky world (first of all the main goal)
