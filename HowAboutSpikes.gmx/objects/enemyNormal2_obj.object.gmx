@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>startPosX = x;
 startPosY = y;
-movSpeed = 1.75;
+movSpeed = 0.75;
 knockback = 5;
 enemyHealth = 100;
 horSpeed = 0;

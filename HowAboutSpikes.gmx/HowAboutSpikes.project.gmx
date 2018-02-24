@@ -37,11 +37,10 @@
     <sprite>sprites\leverRed_spr</sprite>
     <sprite>sprites\house_spr</sprite>
     <sprite>sprites\lamp_spr</sprite>
-    <sprites name="Basic Colors">
+    <sprites name="Hitboxes">
       <sprite>sprites\blue_spr</sprite>
-      <sprite>sprites\pink_spr</sprite>
-      <sprite>sprites\hitboxSkeleton_spr</sprite>
-      <sprite>sprites\pinkSmall_spr</sprite>
+      <sprite>sprites\hitbox128_spr</sprite>
+      <sprite>sprites\hitbox64_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>
     <sprites name="Blocks">
@@ -293,10 +292,12 @@
       <object>objects\colliderDK3_DK2_obj</object>
       <object>objects\colliderDK2_DK1_obj</object>
       <object>objects\colliderUC3_SG1_obj</object>
+      <object>objects\colliderSG1_SG2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
       <object>objects\spawn3_obj</object>
+      <object>objects\spawn4_obj</object>
     </objects>
     <objects name="Decoration">
       <object>objects\blueFlower_obj</object>
@@ -414,6 +415,7 @@
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>
     <room>rooms\sentinelGraves1</room>
+    <room>rooms\sentinelGraves2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

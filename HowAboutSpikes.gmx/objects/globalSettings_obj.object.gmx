@@ -107,6 +107,18 @@ if (global.playerSpawnLocation == 3)
     }
     global.playerSpawnLocation = -1;
 }
+if (global.playerSpawnLocation == 4)
+{
+    if (!instance_exists(player_obj))
+    {
+        if (global.pickedPet == true)
+        {
+            instance_create(spawn4_obj.x, spawn4_obj.y, petBird_obj);
+        }
+        instance_create(spawn4_obj.x, spawn4_obj.y, player_obj);
+    }
+    global.playerSpawnLocation = -1;
+}
 
 //###Easy Mode###
 if (global.mode == 0)
