@@ -17,6 +17,7 @@ Small game that'll make us rich hopefully maybe. /s
 - Properly place help blocks (add secrets)
 - Fix Tutorial signs (Add tutorial for dash)
 - Fix Hitboxes of different blocks and trapdoors
+- Add Save & Load feature
 
 ## Known Bugs (biggest secton in the doc)
 - Edge clipping (even worse now)
