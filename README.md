@@ -4,8 +4,8 @@
 Small game that'll make us rich hopefully maybe. /s
 
 ## Features etc. for the demo release
-~~- Add Warpzones~~
-~~- Rework Skeleton Enemy~~
+- ~~Add Warpzones~~
+- ~~Rework Skeleton Enemy~~
 - Continue Sentinel Graves World (Being worked on!)
 - Add Shop and Items
 - Add big Collectibles
@@ -19,13 +19,13 @@ Small game that'll make us rich hopefully maybe. /s
 - Fix Hitboxes of different blocks and trapdoors
 - Add Save & Load feature
 
-## Known Bugs (biggest secton in the doc)
-- Edge clipping (even worse now)
-- ~~Hitbox clipping~~ (R.I.P. Wallclimb) crawl
-- Something scythe something wallclimb (yet to find ^-^)
-- Clip under spikes
+## Known Bugs
+- Edge clipping
+- ~~Hitbox clipping~~ (R.I.P. Wallclimb)
+- ~~Something scythe something wallclimb~~
+- ~~Clip under spikes~~
 - ~~Get stuck in the wall while attacking~~
-- Attacking while dying = Flying through the map (maybe works now, couldn't reproduce recently)
+- ~~Attacking while dying = Flying through the map~~
 - ~~Enemys peace out~~
 - ~~Some checkpoints don't heal~~
 - ~~Some checkpoints don't restore the breaking blocks~~
