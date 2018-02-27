@@ -617,6 +617,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     instance_activate_object(enemyNormal2_obj);
     instance_activate_object(enemyMystery_obj);
     instance_activate_object(enemyFlyingCloud_obj);
+    instance_activate_object(scytheReload_obj);
     other.image_index = 1;
     noDamage = false;
     if (global.restart == false)
@@ -820,15 +821,15 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != demonsKeep2)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != gardenValley)
 {
     global.playerSpawnLocation = 0;
-    room_goto(demonsKeep2);
+    room_goto(gardenValley);
 }
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != demonsKeep3)
+if (keyboard_check_pressed(ord('2')) &amp;&amp; room != deepPrison)
 {
     global.playerSpawnLocation = 0;
-    room_goto(demonsKeep3);
+    room_goto(deepPrison);
 }
 if (keyboard_check_pressed(ord('3')) &amp;&amp; room != unknownForest2)
 {
@@ -1091,6 +1092,39 @@ else
             <kind>1</kind>
             <string>///Pause Menu
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Shop Menu
+
+with (monitor_obj)
+{
+    if (drawShop == true)
+    {
+        with (player_obj)
+        {
+            draw_text(global.guiPosX + 200, global.guiPosY + 100, "SHOP: ");
+            draw_sprite(shopWindow_spr, 0, global.guiPosX + 640, global.guiPosY + 410);
+        }
+    }
+}
 </string>
           </argument>
         </arguments>

@@ -1643,7 +1643,6 @@
     <instance objName="spawn2_obj" x="2624" y="1184" name="inst_B78AED18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="0" y="0" name="inst_007679C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="1024" y="608" name="inst_C162957E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="2624" y="1248" name="inst_72297EF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="2336" y="672" name="inst_3E666183" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="2080" y="1024" name="inst_B44E379F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="896" y="512" name="inst_CF255C86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

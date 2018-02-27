@@ -95,6 +95,7 @@
       <sprite>sprites\lightFlickeringIcon_spr</sprite>
       <sprite>sprites\cursor_spr</sprite>
       <sprite>sprites\waterIcon_spr</sprite>
+      <sprite>sprites\shopWindow_spr</sprite>
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
@@ -293,6 +294,9 @@
       <object>objects\colliderDK2_DK1_obj</object>
       <object>objects\colliderUC3_SG1_obj</object>
       <object>objects\colliderSG1_SG2_obj</object>
+      <object>objects\colliderDK1_SG2_obj</object>
+      <object>objects\colliderSG2_SG3_obj</object>
+      <object>objects\colliderSG3_DP_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -382,6 +386,7 @@
       <object>objects\petBirdPA_obj</object>
       <object>objects\petBird_obj</object>
       <object>objects\warpzone_obj</object>
+      <object>objects\scytheReload_obj</object>
     </objects>
     <objects name="Shaders">
       <object>objects\vignetteShaderBlue_obj</object>
@@ -416,6 +421,8 @@
     <room>rooms\undergroundCity3</room>
     <room>rooms\sentinelGraves1</room>
     <room>rooms\sentinelGraves2</room>
+    <room>rooms\sentinelGraves3</room>
+    <room>rooms\deepPrison</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -1589,9 +1589,6 @@
     <instance objName="lavaBlock2_obj" x="3552" y="1440" name="inst_149EBA3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3520" y="1344" name="inst_B1F388B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="3520" y="1440" name="inst_170F87F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock_obj" x="32" y="-32" name="inst_7F8C2633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock_obj" x="64" y="-32" name="inst_2AEC82C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lavaBlock_obj" x="96" y="-32" name="inst_C4D008BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="576" y="640" name="inst_04656D8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="416" y="512" name="inst_F49775C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="64" y="480" name="inst_57A5A1AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1649,6 +1646,9 @@
     <instance objName="lavaBlock2_obj" x="64" y="704" name="inst_BF945155" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="32" y="672" name="inst_879D159A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="32" y="704" name="inst_FA4305D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn3_obj" x="57" y="60" name="inst_3BA8A26E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderDK1_SG2_obj" x="64" y="-32" name="inst_5E1CC0B9" locked="0" code="" scaleX="1.75" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="192" y="448" name="inst_ECFAEF61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

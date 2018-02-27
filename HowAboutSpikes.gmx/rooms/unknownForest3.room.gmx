@@ -490,7 +490,6 @@
     <instance objName="castleBlock_obj" x="160" y="64" name="inst_06F1F8E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="96" y="224" name="inst_E1A0993D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="96" y="256" name="inst_1ABAAEB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="64" y="224" name="inst_F4AA487B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="0" y="256" name="inst_92A5ABDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="32" y="256" name="inst_82561D68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="64" y="256" name="inst_2AC85235" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
