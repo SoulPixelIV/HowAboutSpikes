@@ -6,7 +6,8 @@ Small game that'll make us rich hopefully maybe. /s
 ## Features etc. for the demo release
 - ~~Add Warpzones~~
 - ~~Rework Skeleton Enemy~~
-- Continue Sentinel Graves World (Being worked on!)
+- ~~Continue Sentinel Graves World~~
+- Finishing the whole circle of the map (Last level being made!)
 - Add Shop and Items
 - Add big Collectibles
 - Add 2 "keys" and a closed door to sky world (first of all the main goal)
