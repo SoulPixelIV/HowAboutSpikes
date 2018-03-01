@@ -1070,6 +1070,22 @@ else
 {
     draw_set_alpha(1);
 }
+if (room == deepPrison &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Deep Prison");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
 </string>
           </argument>
         </arguments>

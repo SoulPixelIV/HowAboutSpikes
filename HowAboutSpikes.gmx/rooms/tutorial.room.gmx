@@ -1769,7 +1769,7 @@
     <instance objName="lightFlickering_obj" x="1326" y="1455" name="inst_65F3A281" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="2601" y="1531" name="inst_A9430C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="2947" y="1673" name="inst_F220297A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tutorialSign3_obj" x="1024" y="1856" name="inst_73EDCF80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorialSign3_obj" x="1152" y="1824" name="inst_73EDCF80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="3456" y="1632" name="inst_F9B18F89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3456" y="1664" name="inst_DF148D5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3456" y="1696" name="inst_B50A381A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1780,7 +1780,7 @@
     <instance objName="snowBlock2_obj" x="3488" y="1696" name="inst_AD237D8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3488" y="1728" name="inst_332C7CE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3488" y="1760" name="inst_B8B9759D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tutorialSign4_obj" x="3360" y="1728" name="inst_DCF30061" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorialSign4_obj" x="3360" y="1696" name="inst_DCF30061" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="2000" y="1620" name="inst_322849FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="2082" y="218" name="inst_A8FBAA88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="288" y="2016" name="inst_249E7FCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

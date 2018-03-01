@@ -508,6 +508,11 @@
     <instance objName="leverRed_obj" x="256" y="1280" name="inst_CD9C0752" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="425" y="35" name="inst_678E0962" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderSG2_SG3_obj" x="448" y="-32" name="inst_AC72D8D4" locked="0" code="" scaleX="2" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="576" y="1184" name="inst_EE255BEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="416" y="672" name="inst_7EB01609" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="864" y="640" name="inst_A0A24158" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="864" y="512" name="inst_EFED8392" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="easyModeBlock_obj" x="864" y="384" name="inst_CAE14DEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
