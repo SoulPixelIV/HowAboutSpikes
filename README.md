@@ -7,7 +7,9 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Add Warpzones~~
 - ~~Rework Skeleton Enemy~~
 - ~~Continue Sentinel Graves World~~
-- Finishing the whole circle of the map (Last level being made!)
+- ~~Finishing the whole circle of the map~~
+- ~~Properly place help blocks (add secrets)~~
+- ~~Fix Tutorial signs (Add tutorial for dash)~~
 - Add Shop and Items
 - Add big Collectibles
 - Add 2 "keys" and a closed door to sky world (first of all the main goal)
@@ -15,8 +17,6 @@ Small game that'll make us rich hopefully maybe. /s
 - Add more sound effects
 - Change water for forest levels
 - Add a Boss to Sentinel Graves
-- Properly place help blocks (add secrets)
-- Fix Tutorial signs (Add tutorial for dash)
 - Fix Hitboxes of different blocks and trapdoors
 - Add Save & Load feature
 
