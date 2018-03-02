@@ -11,8 +11,8 @@
   <sprites name="sprites">
     <sprites name="Player Sprites">
       <sprite>sprites\playerIdle_spr</sprite>
-      <sprite>sprites\playerInvincible_spr</sprite>
       <sprite>sprites\playerWalk_spr</sprite>
+      <sprite>sprites\playerInvincible_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
       <sprite>sprites\playerLanding_spr</sprite>
       <sprite>sprites\playerAttack_spr</sprite>
@@ -96,6 +96,8 @@
       <sprite>sprites\cursor_spr</sprite>
       <sprite>sprites\waterIcon_spr</sprite>
       <sprite>sprites\shopWindow_spr</sprite>
+      <sprite>sprites\shopIcon1_spr</sprite>
+      <sprite>sprites\shopIcon2_spr</sprite>
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\trapdoor_spr</sprite>
@@ -160,6 +162,7 @@
       <sprite>sprites\tutorialSign2_spr</sprite>
       <sprite>sprites\tutorialSign3_spr</sprite>
       <sprite>sprites\tutorialSign4_spr</sprite>
+      <sprite>sprites\tutorialSign5_spr</sprite>
     </sprites>
     <sprite>sprites\rope_spr</sprite>
     <sprites name="Shaders">
@@ -314,6 +317,7 @@
         <object>objects\tutorialSign2_obj</object>
         <object>objects\tutorialSign3_obj</object>
         <object>objects\tutorialSign4_obj</object>
+        <object>objects\tutorialSign5_obj</object>
       </objects>
       <objects name="Bird">
         <object>objects\bird_obj</object>
@@ -397,6 +401,10 @@
       <object>objects\lensflareFollowYellow_obj</object>
       <object>objects\lensflareFollowBlue_obj</object>
       <object>objects\dirtyLensEffect_obj</object>
+    </objects>
+    <objects name="Icons">
+      <object>objects\shopIcon1_obj</object>
+      <object>objects\shopIcon2_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

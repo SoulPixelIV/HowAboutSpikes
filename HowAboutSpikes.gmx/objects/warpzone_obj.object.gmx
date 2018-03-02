@@ -77,7 +77,7 @@ if (place_meeting(x, y, player_obj))
         }
         room_goto(unknownForest3);
         global.transition = false;
-        global.playerSpawnLocation = 4;
+        global.playerSpawnLocation = 2;
     }
 }
 

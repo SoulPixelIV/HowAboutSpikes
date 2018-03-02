@@ -20,9 +20,9 @@
   <width>37</width>
   <height>64</height>
   <frames>
-    <frame index="0">images\playerWalk_spr_0.png</frame>
-    <frame index="1">images\playerWalk_spr_1.png</frame>
-    <frame index="2">images\playerWalk_spr_2.png</frame>
-    <frame index="3">images\playerWalk_spr_3.png</frame>
+    <frame index="0">images\playerWalking_spr_0.png</frame>
+    <frame index="1">images\playerWalking_spr_1.png</frame>
+    <frame index="2">images\playerWalking_spr_2.png</frame>
+    <frame index="3">images\playerWalking_spr_3.png</frame>
   </frames>
 </sprite>

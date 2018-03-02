@@ -32,8 +32,7 @@ global.jumpStrength = 7.04;
 global.numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
-health = 2;
-money = 0;
+health = global.healthVar;
 attackCooldown = 7;
 pauseMenu = false;
 
@@ -608,7 +607,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
 //###Checkpoint Collision###
 if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
-    health = 2;
+    health = global.healthVar;
     global.checkpointX = other.x;
     global.checkpointY = other.y;
     global.checkpointRoom = room;
@@ -821,16 +820,18 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != undergroundCity3)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(undergroundCity3);
+}
+
+if (keyboard_check_pressed(ord('2')) &amp;&amp; room != gardenValley)
 {
     global.playerSpawnLocation = 0;
     room_goto(gardenValley);
 }
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != deepPrison)
-{
-    global.playerSpawnLocation = 0;
-    room_goto(deepPrison);
-}
+/*
 if (keyboard_check_pressed(ord('3')) &amp;&amp; room != unknownForest2)
 {
     global.playerSpawnLocation = 0;
@@ -866,6 +867,7 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
     global.playerSpawnLocation = 2;
     room_goto(demonsKeep1);
 }
+*/
 </string>
           </argument>
         </arguments>
@@ -894,6 +896,28 @@ global.guiPosY = view_yview[0];
 draw_set_font(gui_fnt);
 
 //###Health###
+if (health == 6)
+{
+    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 196, global.guiPosY + 36);
+}
+if (health == 5)
+{
+    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
+    draw_sprite(heart_spr, 1, global.guiPosX + 196, global.guiPosY + 36);
+}
+if (health == 4)
+{
+    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
+}
+if (health == 3)
+{
+    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
+    draw_sprite(heart_spr, 1, global.guiPosX + 116, global.guiPosY + 36);
+}
 if (health == 2)
 {
     draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
@@ -1108,39 +1132,6 @@ else
             <kind>1</kind>
             <string>///Pause Menu
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Shop Menu
-
-with (monitor_obj)
-{
-    if (drawShop == true)
-    {
-        with (player_obj)
-        {
-            draw_text(global.guiPosX + 200, global.guiPosY + 100, "SHOP: ");
-            draw_sprite(shopWindow_spr, 0, global.guiPosX + 640, global.guiPosY + 410);
-        }
-    }
-}
 </string>
           </argument>
         </arguments>
