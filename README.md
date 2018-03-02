@@ -10,7 +10,7 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Finishing the whole circle of the map~~
 - ~~Properly place help blocks (add secrets)~~
 - ~~Fix Tutorial signs (Add tutorial for dash)~~
-- Add Shop and Items
+- ~~Add Shop and Items~~
 - Add big Collectibles
 - Add 2 "keys" and a closed door to sky world (first of all the main goal)
 - Add pause menu
