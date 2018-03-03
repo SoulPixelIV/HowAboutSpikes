@@ -82,6 +82,7 @@
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
+      <sprite>sprites\darkSpiritBig_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
       <sprite>sprites\key_spr</sprite>
     </sprites>
@@ -388,6 +389,7 @@
     <objects name="Collectibles">
       <object>objects\key_obj</object>
       <object>objects\darkSpirit_obj</object>
+      <object>objects\darkSpiritBig_obj</object>
       <object>objects\petBirdPA_obj</object>
       <object>objects\petBird_obj</object>
       <object>objects\warpzone_obj</object>
@@ -432,6 +434,7 @@
     <room>rooms\sentinelGraves2</room>
     <room>rooms\sentinelGraves3</room>
     <room>rooms\deepPrison</room>
+    <room>rooms\overcastPeak</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

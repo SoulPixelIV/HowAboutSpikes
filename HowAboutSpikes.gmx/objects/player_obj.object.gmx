@@ -778,6 +778,10 @@ if (place_meeting(x, y, darkSpirit_obj))
 {
     global.money = global.money + 1;
 }
+if (place_meeting(x, y, darkSpiritBig_obj))
+{
+    global.money = global.money + 10;
+}
 //###GlassBlockBroken Collision###
 if (place_meeting(x, y, glassBlockBroken_obj))
 {

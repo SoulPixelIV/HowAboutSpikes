@@ -75,11 +75,11 @@ if (spawnTimer &lt;= 0)
 
 if (place_meeting(x, y, hitbox_obj))
 {
-    enemyHealth = enemyHealth - global.damage / 12;
+    enemyHealth = enemyHealth - global.damage / 8;
 }
 if (place_meeting(x, y, scythe_obj))
 {
-    enemyHealth = enemyHealth - global.damage / 10;
+    enemyHealth = enemyHealth - global.damage / 4;
 }
 
 //###Death###
