@@ -20,6 +20,21 @@ Small game that'll make us rich hopefully maybe. /s
 - Fix Hitboxes of different blocks and trapdoors
 - Add Save & Load feature
 
+## Features after second Playtest
+- More sprites for broken glass
+- Game Over screen fade to black
+- Add rails to saws
+- teleport so spawn
+- change tutorial signs
+- scythe should collect collectibles
+- make dash more useful
+- mystery checkpoint should light up
+- UF3 checkpoint
+- boss checkpoint more to the left
+- change world enter font
+- make orb spawn in different screens
+
+
 ## Known Bugs
 - Edge clipping
 - ~~Hitbox clipping~~ (R.I.P. Wallclimb)
