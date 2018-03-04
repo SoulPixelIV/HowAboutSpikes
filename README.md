@@ -12,24 +12,13 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Fix Tutorial signs (Add tutorial for dash)~~
 - ~~Add Shop and Items~~
 - ~~Add big Collectibles~~
-- Add 2 "keys" and a closed door to sky world (first of all the main goal)
+- ~~Add 2 "keys" and a closed door to sky world (first of all the main goal)~~
 - Add pause menu
 - Add more sound effects
 - Change water for forest levels
 - Add a Boss to Sentinel Graves
 - Fix Hitboxes of different blocks and trapdoors
 - Add Save & Load feature
-
-## First full playtest Buglist
-- Memory Leak in UF2?
-- Explosion sprite
-- fix lava
-- DP fix turret area + next area
-- fix bird spawn
-- checkpoints need a second lens flare
-- place shops more often
-- skeleton enemy bigger sword+hitbox
-- skeleton doesnt respawn
 
 ## Known Bugs
 - Edge clipping
