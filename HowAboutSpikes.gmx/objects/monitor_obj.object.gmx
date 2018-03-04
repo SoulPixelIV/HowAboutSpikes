@@ -154,7 +154,7 @@ if (key_left || key_right)
     }
 }
 
-if (cursorPos == 0 &amp;&amp; key_enter)
+if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 {
     if (global.money &gt; 24 &amp;&amp; bought1 == false)
     {
@@ -167,7 +167,7 @@ if (cursorPos == 0 &amp;&amp; key_enter)
         bought1 = true;
     }
 }
-if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false)
+if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; drawShop == true)
 {
     if (global.money &gt; 19)
     {

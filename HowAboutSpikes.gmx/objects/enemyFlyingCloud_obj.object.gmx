@@ -86,6 +86,7 @@ if (place_meeting(x, y, scythe_obj))
 if (enemyHealth &lt;= 0)
 {
     instance_deactivate_object(self);
+    enemyHealth = 100;
 }
 </string>
           </argument>

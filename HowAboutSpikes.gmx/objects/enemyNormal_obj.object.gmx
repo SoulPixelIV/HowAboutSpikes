@@ -166,6 +166,7 @@ if (!place_free(x, y + verSpeed))
 if (enemyHealth &lt;= 0)
 {
     instance_deactivate_object(self);
+    enemyHealth = 100;
 }
 </string>
           </argument>

@@ -627,11 +627,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 //###Damage Collision###
 if (place_meeting(x, y, lava_obj))
 {
-    if (noDamage == false)
-    {
-        health = health - 99;
-    }
-    noDamage = true;
+    health = health - 99;
     alarm[0] = 10;
 }
     
@@ -824,6 +820,7 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
+/*
 if (keyboard_check_pressed(ord('1')) &amp;&amp; room != undergroundCity3)
 {
     global.playerSpawnLocation = 0;
@@ -835,7 +832,6 @@ if (keyboard_check_pressed(ord('2')) &amp;&amp; room != gardenValley)
     global.playerSpawnLocation = 0;
     room_goto(gardenValley);
 }
-/*
 if (keyboard_check_pressed(ord('3')) &amp;&amp; room != unknownForest2)
 {
     global.playerSpawnLocation = 0;
@@ -868,7 +864,7 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != undergroundCity3)
 }
 if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
 {
-    global.playerSpawnLocation = 2;
+    global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
 */

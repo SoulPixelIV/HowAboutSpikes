@@ -39,7 +39,7 @@
     <sprite>sprites\lamp_spr</sprite>
     <sprites name="Hitboxes">
       <sprite>sprites\blue_spr</sprite>
-      <sprite>sprites\hitbox128_spr</sprite>
+      <sprite>sprites\hitbox96_spr</sprite>
       <sprite>sprites\hitbox64_spr</sprite>
       <sprite>sprites\red_spr</sprite>
     </sprites>
@@ -185,6 +185,9 @@
       </sprites>
     </sprites>
     <sprite>sprites\warpzone_spr</sprite>
+    <sprite>sprites\explosion_anim</sprite>
+    <sprite>sprites\redOrb_spr</sprite>
+    <sprite>sprites\blueOrb_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -302,6 +305,7 @@
       <object>objects\colliderSG2_SG3_obj</object>
       <object>objects\colliderSG3_DP_obj</object>
       <object>objects\colliderDP_UF1_obj</object>
+      <object>objects\colliderGV_OP</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -327,6 +331,7 @@
       <object>objects\dude_obj</object>
       <object>objects\house_obj</object>
       <object>objects\doorTutorial_obj</object>
+      <object>objects\OPDoor_obj</object>
       <object>objects\rope_obj</object>
     </objects>
     <objects name="Enemies">
@@ -388,6 +393,8 @@
     </objects>
     <objects name="Collectibles">
       <object>objects\key_obj</object>
+      <object>objects\redOrb_obj</object>
+      <object>objects\blueOrb_obj</object>
       <object>objects\darkSpirit_obj</object>
       <object>objects\darkSpiritBig_obj</object>
       <object>objects\petBirdPA_obj</object>

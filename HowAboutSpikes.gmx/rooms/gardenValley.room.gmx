@@ -1847,15 +1847,6 @@
     <instance objName="ladder_obj" x="2048" y="64" name="inst_CB2046CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="2048" y="32" name="inst_22783B40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="2048" y="0" name="inst_076385D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1984" y="-32" name="inst_9953D1E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2016" y="-32" name="inst_99291719" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2048" y="-32" name="inst_352B787F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2080" y="-32" name="inst_C76F5134" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2112" y="-32" name="inst_A0443EED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2144" y="-32" name="inst_FD003D29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2176" y="-32" name="inst_789B7ED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1952" y="-32" name="inst_D157A3D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1920" y="-32" name="inst_A0ACE84C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1696" y="800" name="inst_374561F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1728" y="768" name="inst_6D8AC51C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1760" y="768" name="inst_29A7F4C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2093,6 +2084,8 @@
     <instance objName="shopIcon2_obj" x="2208" y="864" name="inst_DB32C7C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorialSign5_obj" x="2016" y="928" name="inst_FC634B1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1280" y="960" name="inst_F0B8770E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn3_obj" x="2041" y="52" name="inst_A2CAB931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_OP" x="2073" y="-27" name="inst_CC9DA467" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

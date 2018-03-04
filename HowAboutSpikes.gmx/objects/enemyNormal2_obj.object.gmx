@@ -210,6 +210,15 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
     invincible = true;
     alarm[0] = 10;
 }
+
+if (horSpeed &gt; 0)
+{
+    image_xscale = 1;
+}
+else
+{
+    image_xscale = -1;
+}
 /*
     if (speed &gt; 0)
     {
@@ -270,6 +279,7 @@ if (!place_free(x, y + verSpeed))
 if (enemyHealth &lt;= 0)
 {
     instance_deactivate_object(self);
+    enemyHealth = 100;
 }
 </string>
           </argument>

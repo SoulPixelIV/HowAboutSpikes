@@ -57,7 +57,7 @@ else
 {
     sprite_index = waterStill_spr;
 }
-
+/*
 if (!place_free(x - 6, y))
 {
     if (!place_meeting(x - 6, y, waterEffect_obj))

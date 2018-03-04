@@ -29,15 +29,15 @@
 
 if (place_meeting(x, y, player_obj))
 {
-    if (room == undergroundCity3)
+    if (room == gardenValley)
     {
         with (playerInst)
         {
             instance_destroy();
         }
-        room_goto(undergroundCity2);
+        room_goto(overcastPeak);
         global.transition = false;
-        global.playerSpawnLocation = 2;
+        global.playerSpawnLocation = 0;
     }
     else
     {
@@ -45,9 +45,9 @@ if (place_meeting(x, y, player_obj))
         {
             instance_destroy();
         }
-        room_goto(undergroundCity3);
+        room_goto(gardenValley);
         global.transition = false;
-        global.playerSpawnLocation = 2;
+        global.playerSpawnLocation = 3;
     }
 }
 </string>
