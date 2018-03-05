@@ -1984,6 +1984,7 @@
     <instance objName="woodBlock_obj" x="2048" y="1568" name="inst_400BA64B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="2016" y="1568" name="inst_D59C7FD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1696" y="1568" name="inst_BEB4DF6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlockBroken_obj" x="512" y="1856" name="inst_4F96B030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -188,6 +188,7 @@
     <sprite>sprites\explosion_anim</sprite>
     <sprite>sprites\redOrb_spr</sprite>
     <sprite>sprites\blueOrb_spr</sprite>
+    <sprite>sprites\pipe_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -207,6 +208,7 @@
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
     <font>fonts\message_fnt</font>
+    <font>fonts\checkpoint_fnt</font>
     <font>fonts\gameover_fnt</font>
     <font>fonts\mainmenu_fnt</font>
   </fonts>
@@ -373,7 +375,6 @@
         <object>objects\turret_obj</object>
         <object>objects\bullet_obj</object>
       </objects>
-      <object>objects\saw_obj</object>
       <objects name="SpikeFalling">
         <object>objects\spikeBig_obj</object>
         <object>objects\spikeBigFalling_obj</object>
@@ -383,6 +384,10 @@
         <object>objects\demonSpawner_obj</object>
       </objects>
       <object>objects\orbRed_obj</object>
+      <objects name="Saw">
+        <object>objects\saw_obj</object>
+        <object>objects\pipe_obj</object>
+      </objects>
     </objects>
     <objects name="Lighting">
       <object>objects\lightFlickering_obj</object>

@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-11</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -138,6 +138,42 @@ if (instance_exists(player_obj))
         if (player_obj.y &lt;= 180)
         {
             view_yview[0] += ((180 - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
+        }
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//###Game Over###
+with (player_obj)
+{
+    if (dead == true)
+    {
+        with (camera_obj)
+        {
+            draw_set_font(gameover_fnt);
+            draw_set_colour(c_red);
+            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));  
+            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
         }
     }
 }

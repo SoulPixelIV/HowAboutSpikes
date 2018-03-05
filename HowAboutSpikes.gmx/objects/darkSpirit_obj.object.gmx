@@ -53,6 +53,10 @@ instance_create(x, y, light_obj);
 {
     instance_destroy();
 }
+if (place_meeting(x, y, scythe_obj))
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

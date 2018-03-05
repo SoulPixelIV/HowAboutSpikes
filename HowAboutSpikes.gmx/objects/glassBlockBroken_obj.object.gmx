@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer = 15;
+            <string>image_speed = 0;
+timer = 20;
 instance_activate_object(self);
 </string>
           </argument>
@@ -55,7 +56,20 @@ instance_activate_object(self);
 }
 else
 {
-    timer = 15;
+    timer = 20;
+}
+
+if (timer &gt; 15)
+{
+    image_index = 0;
+}
+if (timer &gt; 5 &amp;&amp; timer &lt; 15)
+{
+    image_index = 1;
+}
+if (timer &lt; 5)
+{
+    image_index = 2;
 }
 
 
