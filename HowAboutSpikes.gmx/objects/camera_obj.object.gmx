@@ -86,8 +86,8 @@ if (global.spawned == true)
 {
     if (global.transition == false)
     {
-        view_wview[0] = 0;
-        view_hview[0] = 0;
+        //view_wview[0] = 0;
+        //view_hview[0] = 0;
         global.transition = true;
     }
     if (view_wview[0] &lt; cameraWidth)

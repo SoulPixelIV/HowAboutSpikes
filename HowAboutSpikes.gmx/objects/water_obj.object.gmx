@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>currSprite = noone;
+            <string>target = noone;
+currSprite = noone;
 moving = false;
 </string>
           </argument>
@@ -91,6 +92,8 @@ if (!place_free(x, y + 6))
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -107,25 +110,35 @@ if (!place_free(x, y + 6))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
+            <string>///Draw Player Reflection
+
+draw_self();
+var Draw = 0;
+
 if (place_meeting(x, y, player_obj))
 {
-    moving = true;
-    currSprite = sprite_index
-}
-else
-{
-    moving = false;
+    Draw = 1;
 }
 
-if (moving == true &amp;&amp; currSprite == waterStill_spr)
+if (Draw == 1)
 {
-    sprite_index = waterMoving_spr;
-    image_speed = 0.05;
-}
-if (image_index == 3)
-{
-    sprite_index = currSprite;
+    with (player_obj)
+    {
+        if (lastDir == 0)
+        {
+            with (water_obj)
+            {
+                draw_sprite_ext(player_obj.sprite_index,player_obj.image_index,player_obj.x, player_obj.y + 20,1,-0.5,0,image_blend,.025);
+            }
+        }
+        else
+        {
+            with (water_obj)
+            {
+                draw_sprite_ext(player_obj.sprite_index,player_obj.image_index,player_obj.x, player_obj.y + 20,-1,-0.5,0,image_blend,.025);
+            }
+        }
+    }
 }
 </string>
           </argument>
