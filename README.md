@@ -13,10 +13,10 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Add Shop and Items~~
 - ~~Add big Collectibles~~
 - ~~Add 2 "keys" and a closed door to sky world (first of all the main goal)~~
+- ~~Add a better transition between levels~~
+- ~~Change water in general (reflections)~~
 - Add pause menu
 - Add more sound effects
-- Change water in general (reflections)
-- Add a better transition between levels
 - Add a Boss to Sentinel Graves
 - Fix hitboxes of trapdoors
 - Add Save & Load feature
