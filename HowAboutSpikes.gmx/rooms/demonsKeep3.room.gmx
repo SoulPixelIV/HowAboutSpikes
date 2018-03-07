@@ -1310,6 +1310,7 @@
     <instance objName="darkSpirit_obj" x="2400" y="864" name="inst_ADA2A2EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="2624" y="832" name="inst_C9830294" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redOrb_obj" x="2624" y="768" name="inst_8CC562EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleYellowSpawner_obj" x="96" y="0" name="inst_4627F9FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

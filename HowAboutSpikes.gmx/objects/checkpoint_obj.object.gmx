@@ -95,7 +95,7 @@ if (place_meeting(x, y, player_obj))
 if (showText == true)
 {
     draw_set_font(checkpoint_fnt);
-    draw_text(x - 50, y - 64, "Checkpoint!");
+    draw_text(x - 56, y - 64, "Checkpoint!");
 }
 </string>
           </argument>

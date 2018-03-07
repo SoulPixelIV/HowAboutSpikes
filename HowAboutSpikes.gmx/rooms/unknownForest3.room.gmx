@@ -1528,6 +1528,7 @@
     <instance objName="water_obj" x="1632" y="640" name="inst_CD952726" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="water_obj" x="1600" y="640" name="inst_1FEA217F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="water_obj" x="1568" y="640" name="inst_4DE03F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUF2_UF3_obj" x="-32" y="160" name="inst_30AA4F91" locked="0" code="" scaleX="0.5" scaleY="2.16666674613953" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

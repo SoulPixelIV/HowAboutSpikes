@@ -18,6 +18,7 @@
       <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\scythe_spr</sprite>
+      <sprite>sprites\scytheRotating_spr</sprite>
       <sprite>sprites\dashEffect_spr</sprite>
       <sprites name="Player Sprites OLD">
         <sprite>sprites\playerFallingOLD_spr</sprite>
@@ -189,6 +190,9 @@
     <sprite>sprites\redOrb_spr</sprite>
     <sprite>sprites\blueOrb_spr</sprite>
     <sprite>sprites\pipe_spr</sprite>
+    <sprites name="Particles">
+      <sprite>sprites\particleYellow_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -419,6 +423,10 @@
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>
       <object>objects\shopIcon2_obj</object>
+    </objects>
+    <objects name="Particles">
+      <object>objects\particleYellow_obj</object>
+      <object>objects\particleYellowSpawner_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

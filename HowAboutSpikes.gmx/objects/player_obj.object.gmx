@@ -184,8 +184,11 @@ animPause = false;
             <string>///Movement etc.
 
 //###Movement###
-x = x + horSpeed;
-y = y + verSpeed;
+if (movement == true)
+{
+    x = x + horSpeed;
+    y = y + verSpeed;
+}
 
 key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
@@ -226,7 +229,7 @@ if (key_throw)
     {
         if (!throw)
         {
-            instance_create(x, y, scythe_obj);
+            instance_create(x + 16, y, scythe_obj);
             throw = true;
             with (scythe_obj)
             {
@@ -238,7 +241,7 @@ if (key_throw)
     {
         if (!throw)
         {
-            instance_create(x, y, scythe_obj);
+            instance_create(x - 16, y, scythe_obj);
             throw = true;
             with (scythe_obj)
             {
@@ -264,126 +267,132 @@ else
 
 
 //###Animation###
-if (key_right &amp;&amp; animPause == false)
+if (movement == true)
 {
-    lastDir = 0;
-    image_speed = 0.15;
-    sprite_index = playerWalk_spr;
-    image_xscale = 1;
-}
-if (key_left &amp;&amp; animPause == false)
-{
-    lastDir = 1;
-    image_speed = 0.15;
-    sprite_index = playerWalk_spr;
-    image_xscale = -1;
-}
-
-if (horSpeed == 0 &amp;&amp; animPause == false)
-{
-    if (lastDir == 0)
+    if (key_right &amp;&amp; animPause == false)
     {
-        image_speed = 0.145;
-        sprite_index = playerIdle_spr;
+        lastDir = 0;
+        image_speed = 0.15;
+        sprite_index = playerWalk_spr;
         image_xscale = 1;
     }
-    else
+    if (key_left &amp;&amp; animPause == false)
     {
-        image_speed = 0.145;
-        sprite_index = playerIdle_spr;
+        lastDir = 1;
+        image_speed = 0.15;
+        sprite_index = playerWalk_spr;
         image_xscale = -1;
     }
-}
-
-if (verSpeed &gt; 0 &amp;&amp; animPause == false)
-{
-    image_speed = 0.2;
-    sprite_index = playerFalling_spr;
-    if (lastDir == 0)
+    
+    if (horSpeed == 0 &amp;&amp; animPause == false)
     {
-        image_xscale = 1;
+        if (lastDir == 0)
+        {
+            image_speed = 0.145;
+            sprite_index = playerIdle_spr;
+            image_xscale = 1;
+        }
+        else
+        {
+            image_speed = 0.145;
+            sprite_index = playerIdle_spr;
+            image_xscale = -1;
+        }
     }
-    else
-    {
-        image_xscale = -1;
-    }
-}
-
-if (landing == true &amp;&amp; animPause == false)
-{
-    image_speed = 0.1;
-    sprite_index = playerLanding_spr;
-    if (lastDir == 0)
-    {
-        image_xscale = 1;
-    }
-    else
-    {
-        image_xscale = -1;
-    }
-}
-
-if (noDamage == true)
-{
-    sprite_index = playerInvincible_spr;
-    if (invTimer &gt;= 30)
-    {
-        image_speed = 0.5;
-    }
-    else
+    
+    if (verSpeed &gt; 0 &amp;&amp; animPause == false)
     {
         image_speed = 0.2;
+        sprite_index = playerFalling_spr;
+        if (lastDir == 0)
+        {
+            image_xscale = 1;
+        }
+        else
+        {
+            image_xscale = -1;
+        }
     }
-    if (lastDir == 0)
+    
+    if (landing == true &amp;&amp; animPause == false)
     {
-        image_xscale = 1;
+        image_speed = 0.1;
+        sprite_index = playerLanding_spr;
+        if (lastDir == 0)
+        {
+            image_xscale = 1;
+        }
+        else
+        {
+            image_xscale = -1;
+        }
     }
-    else
+    
+    if (noDamage == true)
     {
-        image_xscale = -1;
+        sprite_index = playerInvincible_spr;
+        if (invTimer &gt;= 30)
+        {
+            image_speed = 0.5;
+        }
+        else
+        {
+            image_speed = 0.2;
+        }
+        if (lastDir == 0)
+        {
+            image_xscale = 1;
+        }
+        else
+        {
+            image_xscale = -1;
+        }
     }
 }
     
 //###Gravity###
-if (verSpeed &lt; 14)
+if (movement == true)
 {
-    if (onLadder == false)
+    if (verSpeed &lt; 14)
     {
-        verSpeed = verSpeed + global.gravityStrength;
-    }
-    else
-    {
-        if (place_meeting(x, y, ladder_obj))
+        if (onLadder == false)
         {
-            verSpeed = 2.75;
+            verSpeed = verSpeed + global.gravityStrength;
         }
         else
         {
-            verSpeed = 0;
+            if (place_meeting(x, y, ladder_obj))
+            {
+                verSpeed = 2.75;
+            }
+            else
+            {
+                verSpeed = 0;
+            }
+        }
+    }
+
+    if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
+    {
+        if (!audio_is_playing(jump_snd))
+        {
+            audio_play_sound(jump_snd, 1, false);
+        }
+        verSpeed = -global.jumpStrength;
+        global.numberJumps = global.numberJumps - 1;
+    }
+    
+    if (key_jump_release &amp;&amp; fullJump == false)
+    {
+        if (verSpeed &lt; 0)
+        {
+            verSpeed = verSpeed / 2;
         }
     }
 }
-
-if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
-{
-    if (!audio_is_playing(jump_snd))
-    {
-        audio_play_sound(jump_snd, 1, false);
-    }
-    verSpeed = -global.jumpStrength;
-    global.numberJumps = global.numberJumps - 1;
-}
-
-if (key_jump_release &amp;&amp; fullJump == false)
-{
-    if (verSpeed &lt; 0)
-    {
-        verSpeed = verSpeed / 2;
-    }
-}
-
+    
 //###Combat###
-if (key_attack)
+if (key_attack &amp;&amp; movement == true)
 {
     animPause = true;
     alarm[2] = attackCooldown;
@@ -1195,6 +1204,15 @@ else
             <kind>1</kind>
             <string>///Pause Menu
 
+if (pauseMenu == true)
+{
+    movement = false;
+    amount = 0.6;
+}
+else
+{
+    movement = true;
+}
 </string>
           </argument>
         </arguments>

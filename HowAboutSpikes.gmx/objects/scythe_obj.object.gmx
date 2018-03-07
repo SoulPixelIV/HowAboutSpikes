@@ -51,7 +51,13 @@
             <string>if (!place_free(x, y))
 {
     hspeed = 0;
+    sprite_index = scythe_spr;
     global.throwing = false;
+}
+else
+{
+    sprite_index = scytheRotating_spr;
+    image_speed = 0.4;
 }
 
 if (hspeed &gt; 0)
