@@ -15,7 +15,7 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Add 2 "keys" and a closed door to sky world (first of all the main goal)~~
 - ~~Add a better transition between levels~~
 - ~~Change water in general (reflections)~~
-- Add pause menu
+- ~~Add pause menu~~
 - Add more sound effects
 - Add a Boss to Sentinel Graves
 - Fix hitboxes of trapdoors
