@@ -21,6 +21,7 @@ A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
 - Add music to every stage
 - Fix hitboxes of trapdoors
 - Add Save & Load feature
+- Add run animation
 
 ## Known Bugs
 - Edge clipping
