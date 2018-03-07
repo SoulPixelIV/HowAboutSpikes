@@ -1,7 +1,8 @@
 # HowAboutSpikes
 
 ## About
-Small game that'll make us rich hopefully maybe. /s
+HowAboutSpikes is a 2d platformer about precise movement and many spikes. No seriously there are a lot of spikes.
+A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
 
 ## Features etc. for the demo release
 - ~~Add Warpzones~~
@@ -15,11 +16,12 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Add 2 "keys" and a closed door to sky world (first of all the main goal)~~
 - ~~Add a better transition between levels~~
 - ~~Change water in general (reflections)~~
-- Add pause menu
+- ~~Add pause menu~~
 - Add more sound effects
-- Add a Boss to Sentinel Graves
+- Add music to every stage
 - Fix hitboxes of trapdoors
 - Add Save & Load feature
+- Add run animation
 
 ## Known Bugs
 - Edge clipping
@@ -31,15 +33,8 @@ Small game that'll make us rich hopefully maybe. /s
 - ~~Enemys peace out~~
 - ~~Some checkpoints don't heal~~
 - ~~Some checkpoints don't restore the breaking blocks~~
-- Checkpoint font changes on entering a world
+- ~~Checkpoint font changes on entering a world~~
 - ~~Teleport system spawns a second player~~
+- ~~Checkpoint font triggers even jumping over them~~
 - Boss healthbar waves with the camera
 - Enemys sometimes run away and their AI is pretty stupid in general
-- Checkpoint font triggers even jumping over them
-
-## License
-None at the moment.
-
-You're allowed to use the code if you mention the author, this is property of SoulPixelIV, please don't do anything weird with this.
-
-Thanks.
