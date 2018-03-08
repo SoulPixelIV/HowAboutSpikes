@@ -1,0 +1,3 @@
+cooldown = false;
+animPause = false;
+

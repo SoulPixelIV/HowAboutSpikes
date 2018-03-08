@@ -1,0 +1,2 @@
+horSpeed = 0;
+
