@@ -17,10 +17,10 @@ A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
 - ~~Add a better transition between levels~~
 - ~~Change water in general (reflections)~~
 - ~~Add pause menu~~
+- ~~Fix hitboxes of trapdoors~~
+- ~~Add Save & Load feature~~
 - Add more sound effects
 - Add music to every stage
-- Fix hitboxes of trapdoors
-- Add Save & Load feature
 - Add run animation
 
 ## Known Bugs
