@@ -27,7 +27,6 @@ if (explodeTime <= 0)
     {
         instance_create(x, y, destroyCooldown_obj);
     }
-    sprite_index = explosion_anim;
     instance_create(x, y, hitboxEnemyBig_obj);
     instance_deactivate_object(self);
 }

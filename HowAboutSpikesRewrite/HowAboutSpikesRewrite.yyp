@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "3353a28e-9042-4d7b-8ae7-1787269b393d",
+            "Value": {
+                "id": "af8102b3-320e-489e-90aa-bb7a83ef7c32",
+                "resourcePath": "objects\\particleWhite_obj\\particleWhite_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "33681299-24a4-44e0-a927-8ac09ae3daee",
             "Value": {
                 "id": "36136523-6f84-42b6-b7a9-171c4180f633",
@@ -956,6 +964,14 @@
                 "id": "7a54cec2-8885-40d0-969f-31a994d599f2",
                 "resourcePath": "objects\\colliderUF3_UFB_obj\\colliderUF3_UFB_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a13b625-efcd-497f-8549-1f7938aa536c",
+            "Value": {
+                "id": "664364f7-973a-468d-9ba6-be1c6ad731f5",
+                "resourcePath": "sprites\\snowBackground2Blur_bg\\snowBackground2Blur_bg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2103,6 +2119,14 @@
             }
         },
         {
+            "Key": "9ceddc6b-a0d5-4782-8596-b2c3b23967c0",
+            "Value": {
+                "id": "da6fbf4e-4d2e-43c8-b6ae-94737ab02b81",
+                "resourcePath": "sprites\\particleWhite_spr\\particleWhite_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d1e0f1a-f858-4a01-bcd2-e71c0193bf19",
             "Value": {
                 "id": "c712a921-15e5-4355-9fe3-603ca13a6780",
@@ -2964,6 +2988,14 @@
                 "id": "c5462108-2094-43ee-b557-bbd174d27750",
                 "resourcePath": "sprites\\mysteryBlock_spr\\mysteryBlock_spr.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d5f5249e-445e-4a6d-93fe-d70f3dcb3214",
+            "Value": {
+                "id": "9fb35de8-8821-44e0-9386-146dea4caa7c",
+                "resourcePath": "objects\\particleWhiteSpawner_obj\\particleWhiteSpawner_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

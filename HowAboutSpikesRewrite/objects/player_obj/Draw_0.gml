@@ -40,9 +40,9 @@ if (health == 0)
 }
 
 //###Money###
-draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 522, global.guiPosY + 324);
+draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 586, global.guiPosY + 324);
 
-draw_text(global.guiPosX + 552, global.guiPosY + 324, string_hash_to_newline(string(global.money)));
+draw_text(global.guiPosX + 616, global.guiPosY + 324, string_hash_to_newline(string(global.money)));
 
 //###GUI###
 /*

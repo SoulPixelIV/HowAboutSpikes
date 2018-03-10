@@ -219,13 +219,13 @@ if (key_attack && movement == true)
     {
         if (lastDir == 0)
         {
-            instance_create(x + 32, y, hitbox_obj);
+            instance_create(x + 16, y, hitbox_obj);
             cooldown = true
             image_xscale = 1;
         }
         else
         {
-            instance_create(x - 32, y, hitbox_obj);
+            instance_create(x - 16, y, hitbox_obj);
             cooldown = true
             image_xscale = -1;
         }
