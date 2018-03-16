@@ -290,7 +290,7 @@
     <instance objName="grassBlock2_obj" x="864" y="64" name="inst_5B224EDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassBlock2_obj" x="864" y="96" name="inst_7BBF2C56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassBlock2_obj" x="864" y="128" name="inst_0928F237" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUF3_UFB_obj" x="-32" y="160" name="inst_C79A343E" locked="0" code="" scaleX="0.25" scaleY="1.25" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUF3_UFB_obj" x="-25" y="156" name="inst_C79A343E" locked="0" code="" scaleX="0.458333343267441" scaleY="1.3789473772049" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="224" name="inst_98E5D27E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="256" name="inst_C9509FF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="288" name="inst_A61DF992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -312,7 +312,7 @@
     <instance objName="enemyBatSpawner_obj" x="864" y="-448" name="inst_F0D78BE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="32" y="0" name="inst_0667B098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="794" y="509" name="inst_C978D248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUFB_DK3_obj" x="832" y="736" name="inst_957B0F8E" locked="0" code="" scaleX="1.5" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUFB_DK3_obj" x="858" y="745" name="inst_957B0F8E" locked="0" code="" scaleX="2.44210529327393" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_61E3A8E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lockedBlockBat_obj" x="832" y="608" name="inst_82DF5D39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassBlock2_obj" x="32" y="96" name="inst_2C5C17D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

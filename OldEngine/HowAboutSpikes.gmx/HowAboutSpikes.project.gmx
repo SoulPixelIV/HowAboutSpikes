@@ -5,8 +5,11 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\jump_snd</sound>
+    <sound>sound\attack_snd</sound>
     <sound>sound\land_snd</sound>
+    <sound>sound\turretAlarm_snd</sound>
+    <sound>sound\turretShot_snd</sound>
+    <sound>sound\hit_snd</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites">
@@ -138,6 +141,7 @@
     <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
       <sprite>sprites\spike_spr</sprite>
+      <sprite>sprites\spikeRed_spr</sprite>
       <sprite>sprites\spikeHalf_spr</sprite>
       <sprite>sprites\lava_spr</sprite>
       <sprites name="Turret">
@@ -172,6 +176,7 @@
       <sprite>sprites\lensflareStillYellow_spr</sprite>
       <sprite>sprites\lensflareFollowYellow_spr</sprite>
       <sprite>sprites\lensflareFollowBlue_spr</sprite>
+      <sprite>sprites\dirtyLensEffectMenu_spr</sprite>
       <sprite>sprites\dirtyLensEffect_spr</sprite>
     </sprites>
     <sprites name="Water">
@@ -192,6 +197,11 @@
     <sprite>sprites\pipe_spr</sprite>
     <sprites name="Particles">
       <sprite>sprites\particleYellow_spr</sprite>
+      <sprite>sprites\particleWhite_spr</sprite>
+    </sprites>
+    <sprites name="Decoration">
+      <sprite>sprites\train_spr</sprite>
+      <sprite>sprites\trainSign_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -203,11 +213,13 @@
     <background>background\undergroundCityBackground_bg</background>
     <background>background\castleBackground_bg</background>
     <background>background\lavaBackground_bg</background>
+    <background>background\skyBackground_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\snowfall_scr.gml</script>
     <script>scripts\fog_scr.gml</script>
+    <script>scripts\globalSettings.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
@@ -302,6 +314,8 @@
       <object>objects\colliderUC3_DK1_obj</object>
       <object>objects\colliderDK1_DK2_obj</object>
       <object>objects\colliderDK2_DK3_obj</object>
+      <object>objects\colliderDK3_US1_obj</object>
+      <object>objects\colliderUC3_US2_obj</object>
       <object>objects\colliderUFB_DK3_obj</object>
       <object>objects\colliderDK3_DK2_obj</object>
       <object>objects\colliderDK2_DK1_obj</object>
@@ -311,12 +325,14 @@
       <object>objects\colliderSG2_SG3_obj</object>
       <object>objects\colliderSG3_DP_obj</object>
       <object>objects\colliderDP_UF1_obj</object>
-      <object>objects\colliderGV_OP</object>
+      <object>objects\colliderGV_OP1_obj</object>
+      <object>objects\colliderUS1_US2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
       <object>objects\spawn3_obj</object>
       <object>objects\spawn4_obj</object>
+      <object>objects\spawn5_obj</object>
     </objects>
     <objects name="Decoration">
       <object>objects\blueFlower_obj</object>
@@ -339,6 +355,8 @@
       <object>objects\doorTutorial_obj</object>
       <object>objects\OPDoor_obj</object>
       <object>objects\rope_obj</object>
+      <object>objects\train_obj</object>
+      <object>objects\trainSign_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -372,6 +390,7 @@
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
+      <object>objects\spikeRed_obj</object>
       <object>objects\spikeHalf_obj</object>
       <object>objects\lava_obj</object>
       <object>objects\spikeMystery_obj</object>
@@ -418,7 +437,7 @@
       <object>objects\lensflareStillYellow_obj</object>
       <object>objects\lensflareFollowYellow_obj</object>
       <object>objects\lensflareFollowBlue_obj</object>
-      <object>objects\dirtyLensEffect_obj</object>
+      <object>objects\dirtyLensEffectMenu_obj</object>
     </objects>
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>
@@ -426,7 +445,9 @@
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
+      <object>objects\particleWhite_obj</object>
       <object>objects\particleYellowSpawner_obj</object>
+      <object>objects\particleWhiteSpawner_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -447,6 +468,8 @@
     <room>rooms\demonsKeep1</room>
     <room>rooms\demonsKeep2</room>
     <room>rooms\demonsKeep3</room>
+    <room>rooms\undergroundStation1</room>
+    <room>rooms\undergroundStation2</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>
@@ -454,7 +477,7 @@
     <room>rooms\sentinelGraves2</room>
     <room>rooms\sentinelGraves3</room>
     <room>rooms\deepPrison</room>
-    <room>rooms\overcastPeak</room>
+    <room>rooms\overcastPeak1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

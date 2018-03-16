@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>picked = false;
+            <string>global.pickedBlue = false;
 </string>
           </argument>
         </arguments>
@@ -52,10 +52,10 @@
 
 if (place_meeting(x, y, player_obj))
 {
-    picked = true;
+    global.pickedBlue = true;
 }
 
-if (picked == true)
+if (global.pickedBlue == true)
 {
     if (distance_to_object(player_obj) &gt; 20)
     {

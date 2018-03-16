@@ -307,6 +307,10 @@ if (key_throw)
         if (!throw)
         {
             instance_create(x + 16, y, scythe_obj);
+            if (!audio_is_playing(attack_snd))
+            {
+                audio_play_sound(attack_snd, 1, false);
+            }
             throw = true;
             with (scythe_obj)
             {
@@ -319,6 +323,10 @@ if (key_throw)
         if (!throw)
         {
             instance_create(x - 16, y, scythe_obj);
+            if (!audio_is_playing(attack_snd))
+            {
+                audio_play_sound(attack_snd, 1, false);
+            }
             throw = true;
             with (scythe_obj)
             {
@@ -451,10 +459,6 @@ if (movement == true)
 
     if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
     {
-        if (!audio_is_playing(jump_snd))
-        {
-            audio_play_sound(jump_snd, 1, false);
-        }
         verSpeed = -global.jumpStrength;
         global.numberJumps = global.numberJumps - 1;
     }
@@ -471,6 +475,10 @@ if (movement == true)
 //###Combat###
 if (key_attack &amp;&amp; movement == true)
 {
+    if (!audio_is_playing(attack_snd))
+    {
+        audio_play_sound(attack_snd, 1, false);
+    }
     animPause = true;
     alarm[2] = attackCooldown;
     image_speed = 0.4;
@@ -479,13 +487,13 @@ if (key_attack &amp;&amp; movement == true)
     {
         if (lastDir == 0)
         {
-            instance_create(x + 32, y, hitbox_obj);
+            instance_create(x + 16, y, hitbox_obj);
             cooldown = true
             image_xscale = 1;
         }
         else
         {
-            instance_create(x - 32, y, hitbox_obj);
+            instance_create(x - 16, y, hitbox_obj);
             cooldown = true
             image_xscale = -1;
         }
@@ -550,17 +558,16 @@ case 4:
 //###Collision Checking###
 grounded = false;
 
-if (landing == true)
+
+if (landSound == true)
 {
-    if (landSound == true)
+    if (!audio_is_playing(land_snd))
     {
-        if (!audio_is_playing(land_snd))
-        {
-            audio_play_sound(land_snd, 1, false);
-            landSound = false;
-        }
+        audio_play_sound(land_snd, 1, false);
+        landSound = false;
     }
 }
+
 if (!place_free(x + horSpeed, y))
 {
     while (place_free(x + sign(horSpeed), y))
@@ -576,6 +583,7 @@ if (!place_free(x, y + verSpeed))
     while (place_free(x, y + sign(verSpeed)))
     {
         y = y + sign(verSpeed);
+        landSound = true;
     }
     grounded = true;
     fullJump = false;
@@ -586,8 +594,6 @@ if (!place_free(x, y + verSpeed))
     }
     if (verSpeed &gt;= 2)
     {
-        landSound = true;
-        landing = true;
         alarm[1] = 8;
     }
     verSpeed = 0;
@@ -673,12 +679,7 @@ if (key_pause)
 
 //###Scythe Collision###
 if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
-{
-    if (!audio_is_playing(jump_snd))
-    {
-        audio_play_sound(jump_snd, 1, false);
-    }
-    
+{   
     //###Collision Checking###
     if (!place_free(x + horSpeed, y))
     {
@@ -734,7 +735,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     }
 }
 //###Damage Collision###
-if (place_meeting(x, y, lava_obj))
+if (place_meeting(x, y, lava_obj) || place_meeting(x, y, spikeRed_obj))
 {
     health = health - 99;
     alarm[0] = 10;
@@ -929,10 +930,10 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != undergroundCity3)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != undergroundStation1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(undergroundCity3);
+    room_goto(undergroundStation1);
 }
 
 if (keyboard_check_pressed(ord('2')) &amp;&amp; room != gardenValley)
@@ -970,11 +971,13 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != undergroundCity3)
     global.playerSpawnLocation = 0;
     room_goto(undergroundCity3);
 }
+/*
 if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
 {
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
+*/
 </string>
           </argument>
         </arguments>
@@ -1039,9 +1042,9 @@ if (health == 0)
 }
 
 //###Money###
-draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 522, global.guiPosY + 324);
+draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 586, global.guiPosY + 324);
 
-draw_text(global.guiPosX + 552, global.guiPosY + 324, string(global.money));
+draw_text(global.guiPosX + 616, global.guiPosY + 324, string(global.money));
 
 //###GUI###
 /*

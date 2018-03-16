@@ -45,14 +45,12 @@ draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 586, global.guiPosY + 324);
 draw_text(global.guiPosX + 616, global.guiPosY + 324, string_hash_to_newline(string(global.money)));
 
 //###GUI###
-/*
 draw_set_colour(c_white);
 draw_text(global.guiPosX + 8, global.guiPosY + 272, "Gamemode = " + string(global.mode));
 draw_text(global.guiPosX + 8, global.guiPosY + 288, "VSpeed = " + string(verSpeed));
 draw_text(global.guiPosX + 8, global.guiPosY + 304, "FPS = " + string(fps_real));
 draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
 draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
-*/
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
 draw_set_colour(c_white);

@@ -1661,7 +1661,7 @@
     <instance objName="snowBlock_obj" x="1824" y="992" name="inst_18E30243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1760" y="992" name="inst_306428F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1792" y="992" name="inst_3C61E957" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_UF1_obj" x="3219" y="992" name="inst_18C843EA" locked="0" code="" scaleX="-0.125" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_UF1_obj" x="3247" y="980" name="inst_18C843EA" locked="0" code="" scaleX="0.927083313465118" scaleY="2.59999990463257" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="3141" y="1014" name="inst_A181E293" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="1504" y="864" name="inst_630F71AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="1728" y="960" name="inst_56E92288" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1762,7 +1762,7 @@
     <instance objName="glassBlock_obj" x="1056" y="1376" name="inst_88BA8218" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="1056" y="1408" name="inst_313EF933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="1056" y="1440" name="inst_ECEECE03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_UC1_obj" x="992" y="1472" name="inst_98DA670D" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_UC1_obj" x="996" y="1486" name="inst_98DA670D" locked="0" code="" scaleX="2.45833325386047" scaleY="0.791666686534882" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="896" y="1280" name="inst_C9F77B1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="896" y="1120" name="inst_087CA945" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="896" y="1152" name="inst_10543255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2085,7 +2085,8 @@
     <instance objName="tutorialSign5_obj" x="2016" y="928" name="inst_FC634B1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1280" y="960" name="inst_F0B8770E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="2041" y="52" name="inst_A2CAB931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_OP" x="2073" y="-27" name="inst_CC9DA467" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_OP1_obj" x="2073" y="-27" name="inst_CC9DA467" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="particleWhiteSpawner_obj" x="128" y="0" name="inst_8175EEAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
