@@ -68,9 +68,6 @@
     <instance objName="glassBlock_obj" x="32" y="448" name="inst_D7B58B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="32" y="480" name="inst_2D809FC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="32" y="512" name="inst_1F49F590" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="32" y="544" name="inst_EFE4527A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="32" y="576" name="inst_CCE4B8F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="32" y="608" name="inst_14B746C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="160" y="0" name="inst_85601FEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="160" y="32" name="inst_E6E06287" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="160" y="64" name="inst_A9B0848F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -82,11 +79,6 @@
     <instance objName="glassBlock_obj" x="160" y="256" name="inst_263FACB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="160" y="288" name="inst_02D65BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="160" y="320" name="inst_CFA828AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="352" name="inst_2ED7F936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="384" name="inst_7A9810F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="416" name="inst_03CDA23B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="448" name="inst_7989E1BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="576" name="inst_39933F4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="96" y="0" name="inst_0E1AF759" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="96" y="32" name="inst_2DB4CC61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="96" y="64" name="inst_E4BD973E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -117,7 +109,7 @@
     <instance objName="glassBlock_obj" x="320" y="32" name="inst_EBA48435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="288" y="128" name="inst_13DCCF1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="128" name="inst_16980883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC2_UC3_obj" x="256" y="-32" name="inst_081C79C1" locked="0" code="" scaleX="1" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC2_UC3_obj" x="260" y="-32" name="inst_081C79C1" locked="0" code="" scaleX="1.5" scaleY="0.541666686534882" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="352" y="32" name="inst_F78EDC7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="384" y="32" name="inst_6022861A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="416" y="32" name="inst_C296F000" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -134,29 +126,20 @@
     <instance objName="glassBlock_obj" x="320" y="256" name="inst_AC5E46F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="288" name="inst_DC7CC821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="448" y="288" name="inst_BD19C27D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="64" y="448" name="inst_0422F502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="128" y="448" name="inst_88EBB1D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trapdoorRed_obj" x="96" y="448" name="inst_94BAF24E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="192" y="448" name="inst_A0714035" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="224" y="448" name="inst_47CC839A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="256" y="448" name="inst_E131083B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="64" y="320" name="inst_0422F502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="128" y="320" name="inst_88EBB1D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorRed_obj" x="96" y="320" name="inst_94BAF24E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="320" name="inst_5C6F2466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="352" name="inst_468C805A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="384" name="inst_F4DBDD05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="416" name="inst_7232BE4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="448" name="inst_838080B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="288" y="448" name="inst_D609CB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="192" y="576" name="inst_55591408" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="224" y="576" name="inst_5627ACC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="256" y="576" name="inst_EB883EAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="288" y="576" name="inst_749820C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="576" name="inst_8A2ED71C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="320" y="608" name="inst_D7E3ED49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="288" y="608" name="inst_843C47D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="256" y="608" name="inst_21E22149" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="224" y="608" name="inst_03E0FB09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="192" y="608" name="inst_93B6F77C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="608" name="inst_62DC22C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="448" y="320" name="inst_FE037C82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="448" y="352" name="inst_2AE2BBA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="448" y="384" name="inst_8079A87A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -205,13 +188,6 @@
     <instance objName="saw_obj" x="384" y="320" name="inst_B01B5442" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="saw_obj" x="384" y="128" name="inst_85906808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="352" y="160" name="inst_C731443C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="128" y="576" name="inst_2472F814" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="96" y="576" name="inst_D7CBF223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="64" y="576" name="inst_722ACEA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="64" y="608" name="inst_26ABCD83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="96" y="608" name="inst_FE05024F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="128" y="608" name="inst_82A482D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="glassBlock_obj" x="160" y="480" name="inst_7C8B4633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="544" y="544" name="inst_A8B6F823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="576" y="544" name="inst_C1CAC30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="608" y="544" name="inst_7084226B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -283,17 +259,16 @@
     <instance objName="ladderIron_obj" x="512" y="384" name="inst_F386467A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="256" y="96" name="inst_FFC2B65C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="232" y="31" name="inst_8222B129" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leverRed_obj" x="192" y="544" name="inst_B7940520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC3_UC2_SC_obj" x="96" y="-32" name="inst_BFCE6899" locked="0" code="" scaleX="1.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="leverRed_obj" x="128" y="384" name="inst_B7940520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC3_UC2_SC_obj" x="96" y="-32" name="inst_BFCE6899" locked="0" code="" scaleX="1.64210522174835" scaleY="0.541666686534882" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="89" y="35" name="inst_18D573E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="256" y="0" name="inst_15B9E4A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="256" y="32" name="inst_F0839529" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="835" y="395" name="inst_37B88AC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC3_DK1_obj" x="916" y="431" name="inst_9ABAD92E" locked="0" code="" scaleX="0.125" scaleY="0.622047245502472" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC3_DK1_obj" x="944" y="431" name="inst_9ABAD92E" locked="0" code="" scaleX="0.854166686534882" scaleY="1.51041662693024" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="0" y="0" name="inst_77B98C53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderBlue_obj" x="32" y="0" name="inst_783792E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="864" y="448" name="inst_8C115BB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC3_SG1_obj" x="512" y="-32" name="inst_FDA3B399" locked="0" code="" scaleX="1.75" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC3_SG1_obj" x="512" y="-32" name="inst_FDA3B399" locked="0" code="" scaleX="1.89473688602448" scaleY="0.541666686534882" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="491" y="33" name="inst_32FB1FDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="864" y="128" name="inst_91B5A860" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="warpzone_obj" x="608" y="64" name="inst_340D1BE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -379,6 +354,57 @@
     <instance objName="pipe_obj" x="384" y="128" name="inst_74800C3C" locked="0" code="" scaleX="0.5" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="pipe_obj" x="384" y="160" name="inst_208295E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pipe_obj" x="384" y="352" name="inst_FC52EAF9" locked="0" code="" scaleX="0.5" scaleY="0.625" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="224" y="544" name="inst_88402236" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="192" y="512" name="inst_36D785B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="288" y="416" name="inst_D89B7557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="256" y="384" name="inst_4BDA66D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="256" y="352" name="inst_F5BB649A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="288" y="352" name="inst_523237C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="288" y="384" name="inst_783719C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="192" y="320" name="inst_DF2D4191" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="160" y="480" name="inst_0D10225C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="160" y="512" name="inst_B00FFD89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="96" y="576" name="inst_41DCC5C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="96" y="608" name="inst_65641491" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="128" y="448" name="inst_FA23550A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="64" y="448" name="inst_06BEA4D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leverBlue_obj" x="128" y="512" name="inst_AB523E05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="160" y="448" name="inst_5EC3DFA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="96" y="448" name="inst_60C95B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="0" name="inst_3EDC9D2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="32" name="inst_6A822FAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="64" name="inst_17B3C9DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="96" name="inst_D19C54E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="128" name="inst_6386570F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="160" name="inst_1DC1D77B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="192" name="inst_1A977BAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="224" name="inst_F5AC0079" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="256" name="inst_B194DD31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="288" name="inst_62943EDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="320" name="inst_D74D3AC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="352" name="inst_EFD4102F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="384" name="inst_A8200C67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="416" name="inst_7AF428AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="448" name="inst_12D04468" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="480" name="inst_074C6561" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="glassBlock_obj" x="0" y="512" name="inst_DB560E86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="192" y="576" name="inst_5DAF4741" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="160" y="576" name="inst_1A19FD98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="160" y="608" name="inst_C71F4616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="192" y="608" name="inst_F8512F30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="32" y="576" name="inst_9963C4FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="0" y="576" name="inst_DF1480F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="0" y="608" name="inst_8642DFF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="32" y="608" name="inst_81D2E116" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="192" y="544" name="inst_B6B3889F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="160" y="544" name="inst_929EB23E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="128" y="544" name="inst_6CBE5AD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="0" y="544" name="inst_CF4DDAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="32" y="544" name="inst_C0072133" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="224" y="576" name="inst_FA6F1C2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="224" y="608" name="inst_AFC5A339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderUC3_US2_obj" x="105" y="641" name="inst_594C6544" locked="0" code="" scaleX="2.16666674613953" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
+    <instance objName="spawn5_obj" x="89" y="523" name="inst_C8FF96EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

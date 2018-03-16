@@ -28,6 +28,7 @@
             <string>shootSpeed = 120;
 shoot = false;
 pause = false;
+turretSound = true;
 alarm[0] = shootSpeed;
 
 image_speed = 0;
@@ -56,6 +57,7 @@ image_index = 0;
             <kind>1</kind>
             <string>if (shoot == true)
 {
+    audio_play_sound(turretShot_snd, 1, false);
     instance_create(x, y + 10, bullet_obj);
     image_index = 0;
     image_speed = 0.2;  
@@ -87,10 +89,16 @@ alarm[0] = shootSpeed;
 {
     image_angle = point_direction(x, y, player_obj.x, player_obj.y) - 270;
     shoot = true;
+    if (turretSound == true)
+    {
+        audio_play_sound(turretAlarm_snd, 1, false);
+        turretSound = false;
+    }
 }
 else
 {
     shoot = false;
+    turretSound = true;
 }
 
 if (image_index &gt; 5)

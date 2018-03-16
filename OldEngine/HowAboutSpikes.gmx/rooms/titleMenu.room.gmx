@@ -62,6 +62,8 @@
     <instance objName="lensflareStillYellow_obj" x="434" y="257" name="inst_69249A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="223" y="243" name="inst_58FE49D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lensflareStillYellow_obj" x="15" y="268" name="inst_1415D105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleWhiteSpawner_obj" x="96" y="0" name="inst_0F11EFE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="dirtyLensEffectMenu_obj" x="0" y="0" name="inst_0AB24F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

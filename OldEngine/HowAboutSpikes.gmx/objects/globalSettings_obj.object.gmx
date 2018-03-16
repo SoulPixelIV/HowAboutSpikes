@@ -37,6 +37,35 @@ global.hitLever = false;
 global.hitLeverBlue = false;
 global.hitLeverRed = false;
 
+global.pickedRed = false;
+global.pickedBlue = false;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Sound Volume
+/*
+sound_volume(turretAlarm_snd, 0);
+sound_volume(land_snd, 1.1);
+sound_volume(jump_snd, 1.1);
+*/
 </string>
           </argument>
         </arguments>
@@ -72,6 +101,20 @@ if (global.playerSpawnLocation == 0)
                 instance_create(spawn_obj.x, spawn_obj.y, petBird_obj);
             }
         }
+        if (!instance_exists(redOrb_obj))
+        {
+            if (global.pickedRed == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, redOrb_obj);
+            }
+        }
+        if (!instance_exists(blueOrb_obj))
+        {
+            if (global.pickedBlue == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, blueOrb_obj);
+            }
+        }
     }
     global.playerSpawnLocation = -1;
 }
@@ -86,6 +129,20 @@ if (global.playerSpawnLocation == 1)
             {
                 instance_create(spawn1_obj.x, spawn1_obj.y, petBird_obj);
             }
+        }
+    }
+    if (!instance_exists(redOrb_obj))
+    {
+        if (global.pickedRed == true)
+        {
+            instance_create(spawn1_obj.x, spawn1_obj.y, redOrb_obj);
+        }
+    }
+    if (!instance_exists(blueOrb_obj))
+    {
+        if (global.pickedBlue == true)
+        {
+            instance_create(spawn1_obj.x, spawn1_obj.y, blueOrb_obj);
         }
     }
     global.playerSpawnLocation = -1;
@@ -103,6 +160,20 @@ if (global.playerSpawnLocation == 2)
             }
         }
     }
+    if (!instance_exists(redOrb_obj))
+    {
+        if (global.pickedRed == true)
+        {
+            instance_create(spawn2_obj.x, spawn2_obj.y, redOrb_obj);
+        }
+    }
+    if (!instance_exists(blueOrb_obj))
+    {
+        if (global.pickedBlue == true)
+        {
+            instance_create(spawn2_obj.x, spawn2_obj.y, blueOrb_obj);
+        }
+    }
     global.playerSpawnLocation = -1;
 }
 if (global.playerSpawnLocation == 3)
@@ -118,6 +189,20 @@ if (global.playerSpawnLocation == 3)
             }
         }
     }
+    if (!instance_exists(redOrb_obj))
+    {
+        if (global.pickedRed == true)
+        {
+            instance_create(spawn3_obj.x, spawn3_obj.y, redOrb_obj);
+        }
+    }
+    if (!instance_exists(blueOrb_obj))
+    {
+        if (global.pickedBlue == true)
+        {
+            instance_create(spawn3_obj.x, spawn3_obj.y, blueOrb_obj);
+        }
+    }
     global.playerSpawnLocation = -1;
 }
 if (global.playerSpawnLocation == 4)
@@ -131,6 +216,49 @@ if (global.playerSpawnLocation == 4)
             {
                 instance_create(spawn4_obj.x, spawn4_obj.y, petBird_obj);
             }
+        }
+    }
+    if (!instance_exists(redOrb_obj))
+    {
+        if (global.pickedRed == true)
+        {
+            instance_create(spawn4_obj.x, spawn4_obj.y, redOrb_obj);
+        }
+    }
+    if (!instance_exists(blueOrb_obj))
+    {
+        if (global.pickedBlue == true)
+        {
+            instance_create(spawn4_obj.x, spawn4_obj.y, blueOrb_obj);
+        }
+    }
+    global.playerSpawnLocation = -1;
+}
+if (global.playerSpawnLocation == 5)
+{
+    if (!instance_exists(player_obj))
+    {
+        instance_create(spawn5_obj.x, spawn5_obj.y, player_obj);
+        if (!instance_exists(petBird_obj))
+        {
+            if (global.pickedPet == true)
+            {
+                instance_create(spawn5_obj.x, spawn5_obj.y, petBird_obj);
+            }
+        }
+    }
+    if (!instance_exists(redOrb_obj))
+    {
+        if (global.pickedRed == true)
+        {
+            instance_create(spawn5_obj.x, spawn5_obj.y, redOrb_obj);
+        }
+    }
+    if (!instance_exists(blueOrb_obj))
+    {
+        if (global.pickedBlue == true)
+        {
+            instance_create(spawn5_obj.x, spawn5_obj.y, blueOrb_obj);
         }
     }
     global.playerSpawnLocation = -1;

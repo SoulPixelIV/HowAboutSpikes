@@ -130,12 +130,20 @@ if (distance_to_object(player_obj) &gt;= 120)
 
 if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
 {
+    if (!audio_is_playing(hit_snd))
+    {
+        audio_play_sound(hit_snd, 1, false);
+    }
     enemyHealth = enemyHealth - global.damage;
     invincible = true;
     alarm[0] = 10;
 }
 if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
 {
+    if (!audio_is_playing(hit_snd))
+    {
+        audio_play_sound(hit_snd, 1, false);
+    }
     enemyHealth = enemyHealth - global.damage / 2;
     invincible = true;
     alarm[0] = 10;
