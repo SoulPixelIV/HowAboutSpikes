@@ -57,10 +57,8 @@
     <instance objName="colliderSG3_DP_obj" x="1132" y="1460" name="inst_FFB207A3" locked="0" code="" scaleX="3.64583325386047" scaleY="1.125" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1696" y="1408" name="inst_72302FF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1728" y="1408" name="inst_D84FF625" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1824" y="1184" name="inst_111A61EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1856" y="1184" name="inst_FCFCAE6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1760" y="1408" name="inst_E934E578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1792" y="1216" name="inst_BAC36A04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1792" y="1248" name="inst_A27B8A52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1792" y="1280" name="inst_499A33C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1792" y="1312" name="inst_2AE12EAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -84,7 +82,6 @@
     <instance objName="castleBlock_obj" x="1184" y="1312" name="inst_2F9445D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1184" y="1280" name="inst_C9EEAB07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1216" y="1280" name="inst_A7B96E3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1248" y="1280" name="inst_41550182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1248" y="1312" name="inst_7ACD5D99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1216" y="1312" name="inst_BD726E9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1216" y="1344" name="inst_72A16ECB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -166,7 +163,6 @@
     <instance objName="castleBlock_obj" x="640" y="1408" name="inst_52042932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="608" y="1408" name="inst_78423D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="576" y="1408" name="inst_DE9B68A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1056" y="1184" name="inst_55D88D74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="1152" name="inst_B563EBD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="1120" name="inst_5E21FC60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="1088" name="inst_6E6FFFE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -180,7 +176,6 @@
     <instance objName="castleBlock_obj" x="1504" y="800" name="inst_89888D24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1504" y="768" name="inst_85393808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1504" y="736" name="inst_874943C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1504" y="704" name="inst_EBC871A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1632" y="704" name="inst_713F10F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1632" y="736" name="inst_10B9DB5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1632" y="768" name="inst_EC21FBD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -190,9 +185,7 @@
     <instance objName="scytheReload_obj" x="1536" y="736" name="inst_6F2385E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1664" y="704" name="inst_6C8D353F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1664" y="736" name="inst_749C8F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1792" y="480" name="inst_AD4E86F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1824" y="480" name="inst_27E67026" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1856" y="480" name="inst_60051667" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1856" y="512" name="inst_5E8820CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1824" y="512" name="inst_C6539E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1920" y="960" name="inst_149D67CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -238,8 +231,6 @@
     <instance objName="lava_obj" x="1760" y="1376" name="inst_84EC9A57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1632" y="672" name="inst_51439850" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1664" y="672" name="inst_36FDFE06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1632" y="640" name="inst_94A877A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1664" y="640" name="inst_D5FD7934" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1792" y="512" name="inst_00649957" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1792" y="544" name="inst_2B7D4535" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="544" y="1408" name="inst_1A0CC782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -367,7 +358,6 @@
     <instance objName="castleBlock_obj" x="960" y="864" name="inst_BCE4BC46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="864" name="inst_8CEFA6B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="832" name="inst_7A6AB47D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="992" y="800" name="inst_22497FBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="736" y="960" name="inst_5540D8D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="832" y="960" name="inst_117ACA23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="736" y="1024" name="inst_62C0CE74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
@@ -383,14 +373,11 @@
     <instance objName="spikeUp_obj" x="608" y="768" name="inst_5BCDC409" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="896" name="inst_718CFCBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="928" name="inst_97D47BBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="928" y="864" name="inst_FCC287FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="960" name="inst_763E3859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="992" name="inst_079FF26A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="1024" name="inst_B3EDE9B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="928" y="1056" name="inst_0935F5DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1152" y="1280" name="inst_E20A7C9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1152" y="1312" name="inst_15E1B17F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1088" y="1280" name="inst_2EBAB19D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1088" y="1312" name="inst_20872F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1472" y="704" name="inst_9C956422" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1472" y="736" name="inst_37FB620D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -398,8 +385,6 @@
     <instance objName="ladder_obj" x="1472" y="800" name="inst_95EAAD54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1472" y="832" name="inst_CE44178B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1472" y="864" name="inst_0C4BFAB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1344" y="992" name="inst_D0FAB199" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1312" y="992" name="inst_C5692A92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1024" y="1024" name="inst_1D993E50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1024" y="992" name="inst_25CA95C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1024" y="960" name="inst_E4FB8446" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -544,9 +529,7 @@
     <instance objName="castleBlock_obj" x="32" y="-32" name="inst_9DCD299A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="0" y="-32" name="inst_0A1DA6C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1056" y="-32" name="inst_82CC70B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1088" y="608" name="inst_AC5CA44B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1088" y="640" name="inst_3C406A84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1024" y="608" name="inst_2594BE25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="992" y="608" name="inst_49618C63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="960" y="608" name="inst_F2838A2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="928" y="608" name="inst_DE992EA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -561,10 +544,8 @@
     <instance objName="castleBlock_obj" x="928" y="256" name="inst_14FEEB29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="896" y="256" name="inst_56CD51B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="896" y="224" name="inst_B2F2D371" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="928" y="192" name="inst_457B9492" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="928" y="224" name="inst_F07F3856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="896" y="192" name="inst_5E08C777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="864" y="192" name="inst_4C084812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="864" y="224" name="inst_B80970D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="896" y="352" name="inst_62668D61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="896" y="320" name="inst_BD5A3D39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -578,12 +559,6 @@
     <instance objName="ladder_obj" x="960" y="512" name="inst_47CA2D8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1088" y="384" name="inst_237C16A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="960" y="256" name="inst_C661929F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="960" y="224" name="inst_2007D6DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1088" y="352" name="inst_F02E815D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="960" y="480" name="inst_C6101539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1088" y="224" name="inst_B66F3D4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="960" y="352" name="inst_78E2921A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="1088" y="480" name="inst_4F2983B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="640" y="256" name="inst_AD101D3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="608" y="192" name="inst_97F61507" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="640" y="224" name="inst_EAFF547C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -594,7 +569,6 @@
     <instance objName="castleBlock_obj" x="544" y="320" name="inst_3C57AC36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="544" y="288" name="inst_FF179CCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheReload_obj" x="544" y="160" name="inst_9C307C54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="416" y="224" name="inst_3FD1BE22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="416" y="256" name="inst_0438995A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="416" y="288" name="inst_A9AE525B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="416" y="320" name="inst_7D63700B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -688,7 +662,6 @@
     <instance objName="ladder_obj" x="1120" y="1280" name="inst_C3F8E9FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1120" y="1312" name="inst_FFC01216" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="128" y="128" name="inst_81301CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="160" y="128" name="inst_1734B941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="864" y="1312" name="inst_E46A73B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="448" y="1248" name="inst_48ED3A55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="480" y="1248" name="inst_B8451995" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -701,6 +674,33 @@
     <instance objName="darkSpirit_obj" x="128" y="1184" name="inst_89570523" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="672" y="256" name="inst_90125F12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="160" y="96" name="inst_FD456C9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1248" y="1280" name="inst_59A08CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1664" y="640" name="inst_D8A5B5E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1856" y="480" name="inst_9CED642B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1344" y="992" name="inst_6F59EFCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1056" y="1184" name="inst_88FFC378" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1024" y="608" name="inst_515ADB17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="960" y="480" name="inst_C1792F63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="960" y="352" name="inst_84519E79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="960" y="224" name="inst_DEDA52F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="928" y="192" name="inst_4BC1C0E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="160" y="128" name="inst_077A7CD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1152" y="1280" name="inst_85B6AECC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockRC_obj" x="1088" y="1280" name="inst_74D21855" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1792" y="1216" name="inst_F179B34D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1824" y="1184" name="inst_79584C11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1792" y="480" name="inst_B5EB0A95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1504" y="704" name="inst_883DE302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1632" y="640" name="inst_41435FEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1312" y="992" name="inst_427870D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="928" y="864" name="inst_E96DFC5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="992" y="800" name="inst_2BADEC0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1088" y="608" name="inst_609BE0E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1088" y="480" name="inst_9FFC7899" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1088" y="352" name="inst_83626347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="1088" y="224" name="inst_D5063C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="864" y="192" name="inst_9BAD205F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlockLC_obj" x="416" y="224" name="inst_D9F82263" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

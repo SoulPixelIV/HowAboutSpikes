@@ -48,7 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawnTime = spawnTime - 1;
+            <string>if (instance_exists(batBoss_obj))
+{
+    spawnTime = spawnTime - 1;
+}
 
 if (spawnTime &lt;= 0)
 {

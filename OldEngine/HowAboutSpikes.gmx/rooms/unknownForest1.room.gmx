@@ -373,8 +373,6 @@
     <instance objName="spikeUp_obj" x="2272" y="128" name="inst_3F90BF7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="2304" y="128" name="inst_BD9A137E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="2336" y="128" name="inst_16956D28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="2368" y="160" name="inst_C93EA935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="2400" y="160" name="inst_EB58B532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="2432" y="160" name="inst_31DB93FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="2464" y="160" name="inst_017F4656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="ladder_obj" x="1920" y="192" name="inst_4C9445FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1978,7 +1976,6 @@
     <instance objName="spikeUp_obj" x="608" y="96" name="inst_6259AEA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="640" y="96" name="inst_FBDE901F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="736" y="128" name="inst_40EFB4D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="736" y="32" name="inst_B09196C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="704" y="32" name="inst_AA11EBA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="800" y="96" name="inst_2EE02D63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="832" y="96" name="inst_74BBA69E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2124,8 +2121,6 @@
     <instance objName="leafBlock_obj" x="2784" y="1024" name="inst_A5C2179E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="2752" y="1024" name="inst_BDA73842" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="2720" y="1024" name="inst_31D34577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="2048" y="800" name="inst_DA669E0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="1728" y="960" name="inst_C183139F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="128" y="256" name="inst_4E01DCA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1312" y="512" name="inst_AAE3B7A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treeBlock2_obj" x="1184" y="640" name="inst_B056E364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2204,8 +2199,8 @@
     <instance objName="easyModeBlock_obj" x="2080" y="192" name="inst_F37FAE30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="2112" y="224" name="inst_CC929486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="2144" y="192" name="inst_440DE934" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="2624" y="768" name="inst_65E2B073" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="2752" y="768" name="inst_41A35BE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="2720" y="768" name="inst_65E2B073" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal_obj" x="2816" y="768" name="inst_41A35BE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leverBlue_obj" x="64" y="576" name="inst_E04B6584" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="608" name="inst_841C9B59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="32" y="640" name="inst_B0FDC40C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2629,10 +2624,10 @@
     <instance objName="leafBlock_obj" x="1824" y="96" name="inst_5F99450F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="1935" y="1355" name="inst_7A1CB402" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderDP_UF1_obj" x="1929" y="1471" name="inst_324CB932" locked="0" code="" scaleX="3.25" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="2848" y="544" name="inst_8DA08A2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="2816" y="512" name="inst_0D814755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="2784" y="544" name="inst_DE73C890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="2816" y="576" name="inst_82513539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2912" y="448" name="inst_8DA08A2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2912" y="480" name="inst_0D814755" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2944" y="384" name="inst_DE73C890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2944" y="352" name="inst_82513539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleYellowSpawner_obj" x="128" y="0" name="inst_BE64D58E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightControlHeavy_obj" x="32" y="0" name="inst_B206FADC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="3168" y="1216" name="inst_23D7C9D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2664,6 +2659,96 @@
     <instance objName="leafBlock_obj" x="736" y="-96" name="inst_A4CF8C51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="736" y="-64" name="inst_DC8E8D7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="736" y="-32" name="inst_295F3E26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1440" name="inst_222A0C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1408" name="inst_CD0E0B72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1376" name="inst_67F7E533" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1344" name="inst_EE4DDA70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1312" name="inst_71653FC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1280" name="inst_055FFE66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1920" y="1248" name="inst_B5E3CF9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1280" y="960" name="inst_9E8AE6DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="768" y="640" name="inst_EA0A05A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2752" y="160" name="inst_542C4B1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2656" y="288" name="inst_EC0CDE27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2944" y="224" name="inst_76DDC0E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3104" y="416" name="inst_E8DFA768" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3008" y="480" name="inst_11406E62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2944" y="576" name="inst_71F2DA5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2816" y="800" name="inst_42032C46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2592" y="768" name="inst_1C4189FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2400" y="800" name="inst_876B8C17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2912" y="992" name="inst_4C0BDAD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3008" y="928" name="inst_0659FFC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2912" y="1184" name="inst_B4B28817" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3072" y="1152" name="inst_15C088A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3008" y="1408" name="inst_6F6C7A79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="3104" y="1408" name="inst_41C1B7E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-32" name="inst_62A965D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-64" name="inst_6787B45F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3136" y="-64" name="inst_965B23FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3136" y="-96" name="inst_6F4020B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3136" y="-128" name="inst_D24157B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3136" y="-160" name="inst_AB9E5C36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-160" name="inst_45F2F4A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-128" name="inst_5240C506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-96" name="inst_57E9CD6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-160" name="inst_28E6920D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-128" name="inst_E04883B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-96" name="inst_74ECB83F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-64" name="inst_F8C0926B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-32" name="inst_B6D9B7AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3200" y="-192" name="inst_C42752EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3168" y="-192" name="inst_D7B764D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leafBlock_obj" x="3136" y="-192" name="inst_7D58F083" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="1728" y="960" name="inst_A13CD3CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="1760" y="960" name="inst_B5D5825B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="2048" y="800" name="inst_A3776537" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="2080" y="800" name="inst_B26E16F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="2016" y="800" name="inst_63C990E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2880" y="544" name="inst_48078D78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2848" y="576" name="inst_1F312D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2880" y="576" name="inst_DECB2A86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2752" y="576" name="inst_1565C200" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2880" y="512" name="inst_1CDAB53A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="2848" y="544" name="inst_FEAC7E05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="1312" y="864" name="inst_37711B96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="1344" y="864" name="inst_A155FB0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="spikeFalling_obj" x="736" y="32" name="inst_208BF83B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="2368" y="160" name="inst_16F36505" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="2400" y="160" name="inst_5EB194E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1312" y="832" name="inst_65CBB14B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1760" y="960" name="inst_44D3DC79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2016" y="896" name="inst_07355BF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1952" y="992" name="inst_7835797C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1440" y="672" name="inst_70D06A70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1280" y="576" name="inst_8C4528B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="864" y="640" name="inst_B8D39EB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="416" y="480" name="inst_FC53200D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="288" y="448" name="inst_205DA450" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="192" y="576" name="inst_93931EE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="448" y="416" name="inst_39AE2F8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="576" y="416" name="inst_37920629" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="608" y="320" name="inst_2B7A5A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="800" y="288" name="inst_8D111A2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="768" y="448" name="inst_5D21A0A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="960" y="448" name="inst_247EFFEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1120" y="384" name="inst_09F69BC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1312" y="480" name="inst_CC3A55DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="512" y="128" name="inst_D47DA715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="800" y="160" name="inst_4C7D0929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1184" y="192" name="inst_1639F18F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1920" y="416" name="inst_1C258119" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2080" y="416" name="inst_E7366E0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2240" y="416" name="inst_477FD3C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2400" y="416" name="inst_1C67E72A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2272" y="192" name="inst_F20C3F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1920" y="224" name="inst_D8D2FA92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2368" y="608" name="inst_77907C66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2592" y="608" name="inst_D4F6CFBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2848" y="608" name="inst_ED8AD560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2912" y="512" name="inst_1999B622" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2880" y="320" name="inst_511D9573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2720" y="800" name="inst_A721B638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

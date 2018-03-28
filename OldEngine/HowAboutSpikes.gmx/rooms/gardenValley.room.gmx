@@ -2087,6 +2087,9 @@
     <instance objName="spawn3_obj" x="2041" y="52" name="inst_A2CAB931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_OP1_obj" x="2073" y="-27" name="inst_CC9DA467" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="128" y="0" name="inst_8175EEAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="768" y="1184" name="inst_CF4AB8D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="928" y="1312" name="inst_329040D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="928" y="1440" name="inst_F3881F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

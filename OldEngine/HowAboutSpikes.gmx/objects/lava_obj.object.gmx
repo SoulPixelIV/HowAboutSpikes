@@ -48,7 +48,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.03;
+            <string>image_speed = 0.05;
+
+if (place_meeting(x, y - 6, lava_obj))
+{
+    sprite_index = lava2_spr;
+}
+else
+if (place_meeting(x, y - 6, lavaBlock_obj))
+{
+    sprite_index = lava2_spr;
+}
+else
+if (place_meeting(x, y - 6, lavaBlock2_obj))
+{
+    sprite_index = lava2_spr;
+}
+else
+if (place_meeting(x, y - 6, lavaBlockRC_obj))
+{
+    sprite_index = lava2_spr;
+}
+else
+if (place_meeting(x, y - 6, lavaBlockLC_obj))
+{
+    sprite_index = lava2_spr;
+}
+else
+{
+    sprite_index = lava_spr;
+}
 </string>
           </argument>
         </arguments>

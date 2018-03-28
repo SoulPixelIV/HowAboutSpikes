@@ -48,7 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawnTimer = spawnTimer - 1;
+            <string>if (instance_exists(batBoss_obj))
+{
+    spawnTimer = spawnTimer - 1;
+}
 if (spawnTimer &lt;= 0)
 {
     instance_create(x, y, enemyBat_obj);

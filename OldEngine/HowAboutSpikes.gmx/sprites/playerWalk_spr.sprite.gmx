@@ -17,7 +17,7 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>37</width>
+  <width>32</width>
   <height>64</height>
   <frames>
     <frame index="0">images\playerWalk_spr_0.png</frame>

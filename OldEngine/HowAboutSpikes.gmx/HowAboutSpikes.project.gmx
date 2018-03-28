@@ -15,6 +15,7 @@
     <sprites name="Player Sprites">
       <sprite>sprites\playerIdle_spr</sprite>
       <sprite>sprites\playerWalk_spr</sprite>
+      <sprite>sprites\playerJump_spr</sprite>
       <sprite>sprites\playerInvincible_spr</sprite>
       <sprite>sprites\playerFalling_spr</sprite>
       <sprite>sprites\playerLanding_spr</sprite>
@@ -36,9 +37,6 @@
     <sprite>sprites\latern_spr</sprite>
     <sprite>sprites\ladder_spr</sprite>
     <sprite>sprites\ladderIron_spr</sprite>
-    <sprite>sprites\lever_spr</sprite>
-    <sprite>sprites\leverBlue_spr</sprite>
-    <sprite>sprites\leverRed_spr</sprite>
     <sprite>sprites\house_spr</sprite>
     <sprite>sprites\lamp_spr</sprite>
     <sprites name="Hitboxes">
@@ -62,7 +60,6 @@
       <sprite>sprites\lavaBlockRC_spr</sprite>
       <sprite>sprites\lavaBlockLC_spr</sprite>
       <sprite>sprites\lavaBlock2_spr</sprite>
-      <sprite>sprites\castleBlock_spr</sprite>
       <sprite>sprites\explosiveBlock_spr</sprite>
       <sprite>sprites\destroyCooldown_spr</sprite>
       <sprite>sprites\stoneBlock_spr</sprite>
@@ -83,6 +80,12 @@
       <sprites name="Dark Blocks">
         <sprite>sprites\darkBlock_spr</sprite>
       </sprites>
+      <sprites name="Castle Blocks">
+        <sprite>sprites\castleBlock_spr</sprite>
+        <sprite>sprites\castleBlockRC_spr</sprite>
+        <sprite>sprites\castleBlockLC_spr</sprite>
+      </sprites>
+      <sprite>sprites\boxWood_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -103,14 +106,9 @@
       <sprite>sprites\shopWindow_spr</sprite>
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
+      <sprite>sprites\spikeFallingIcon_spr</sprite>
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
-    <sprite>sprites\trapdoor_spr</sprite>
-    <sprite>sprites\trapdoorOpen_spr</sprite>
-    <sprite>sprites\trapdoorRed_spr</sprite>
-    <sprite>sprites\trapdoorRedOpen_spr</sprite>
-    <sprite>sprites\trapdoorBlue_spr</sprite>
-    <sprite>sprites\trapdoorBlueOpen_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
     <sprite>sprites\gameover_spr</sprite>
     <sprite>sprites\bird_spr</sprite>
@@ -141,9 +139,12 @@
     <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
       <sprite>sprites\spike_spr</sprite>
+      <sprite>sprites\spikeDown_spr</sprite>
       <sprite>sprites\spikeRed_spr</sprite>
       <sprite>sprites\spikeHalf_spr</sprite>
+      <sprite>sprites\lavaOld_spr</sprite>
       <sprite>sprites\lava_spr</sprite>
+      <sprite>sprites\lava2_spr</sprite>
       <sprites name="Turret">
         <sprite>sprites\turret_spr</sprite>
         <sprite>sprites\bullet_spr</sprite>
@@ -153,6 +154,7 @@
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\enemy_spr</sprite>
+      <sprite>sprites\slimeGreen_spr</sprite>
       <sprite>sprites\enemyFlyingCloud</sprite>
       <sprite>sprites\flyingCloud_spr</sprite>
       <sprite>sprites\enemy2_spr</sprite>
@@ -198,10 +200,28 @@
     <sprites name="Particles">
       <sprite>sprites\particleYellow_spr</sprite>
       <sprite>sprites\particleWhite_spr</sprite>
+      <sprite>sprites\woodBoxParticle_spr</sprite>
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\train_spr</sprite>
       <sprite>sprites\trainSign_spr</sprite>
+    </sprites>
+    <sprite>sprites\test</sprite>
+    <sprite>sprites\scytheLever_spr</sprite>
+    <sprite>sprites\scytheLeverBlock_spr</sprite>
+    <sprites name="NPCs">
+      <sprite>sprites\npcSoldier_spr</sprite>
+    </sprites>
+    <sprites name="Shortcuts">
+      <sprite>sprites\trapdoor_spr</sprite>
+      <sprite>sprites\trapdoorOpen_spr</sprite>
+      <sprite>sprites\trapdoorRed_spr</sprite>
+      <sprite>sprites\trapdoorRedOpen_spr</sprite>
+      <sprite>sprites\trapdoorBlue_spr</sprite>
+      <sprite>sprites\trapdoorBlueOpen_spr</sprite>
+      <sprite>sprites\lever_spr</sprite>
+      <sprite>sprites\leverBlue_spr</sprite>
+      <sprite>sprites\leverRed_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -258,13 +278,12 @@
       <object>objects\lavaBlock2_obj</object>
       <object>objects\lavaBlockRC_obj</object>
       <object>objects\lavaBlockLC_obj</object>
-      <object>objects\castleBlock_obj</object>
       <object>objects\woodBlock_obj</object>
       <object>objects\woodBlock2_obj</object>
       <object>objects\leafBlock_obj</object>
       <object>objects\treeBlock_obj</object>
       <object>objects\treeBlock2_obj</object>
-      <object>objects\specialBlock_obj</object>
+      <object>objects\snowBlockFalling_obj</object>
       <object>objects\mysteryBlockSpecial_obj</object>
       <object>objects\checkpointMystery_obj</object>
       <object>objects\grassBlockMystery_obj</object>
@@ -280,6 +299,9 @@
       <object>objects\stoneBlock_obj</object>
       <object>objects\woodBlockNew_obj</object>
       <object>objects\woodBlockNewBG_obj</object>
+      <object>objects\scytheLever_obj</object>
+      <object>objects\scytheLeverBlockSolid_obj</object>
+      <object>objects\scytheLeverBlockEmpty_obj</object>
       <objects name="Snow Blocks">
         <object>objects\snowBlock_obj</object>
         <object>objects\snowBlock2_obj</object>
@@ -300,6 +322,12 @@
         <object>objects\water_obj</object>
         <object>objects\waterEffect_obj</object>
       </objects>
+      <objects name="Castle Blocks">
+        <object>objects\castleBlock_obj</object>
+        <object>objects\castleBlockRC_obj</object>
+        <object>objects\castleBlockLC_obj</object>
+      </objects>
+      <object>objects\boxWood_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -360,6 +388,7 @@
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
+      <object>objects\slimeGreen_obj</object>
       <object>objects\enemyBatSpawner_obj</object>
       <object>objects\enemyBat_obj</object>
       <object>objects\enemySpirit_obj</object>
@@ -387,18 +416,18 @@
     <objects name="Npcs">
       <object>objects\npcLola_obj</object>
       <object>objects\monitor_obj</object>
+      <object>objects\npcSoldier_obj</object>
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
       <object>objects\spikeRed_obj</object>
       <object>objects\spikeHalf_obj</object>
-      <object>objects\lava_obj</object>
       <object>objects\spikeMystery_obj</object>
       <objects name="Turret">
         <object>objects\turret_obj</object>
         <object>objects\bullet_obj</object>
       </objects>
-      <objects name="SpikeFalling">
+      <objects name="SpikeFallingBoss">
         <object>objects\spikeBig_obj</object>
         <object>objects\spikeBigFalling_obj</object>
       </objects>
@@ -411,6 +440,10 @@
         <object>objects\saw_obj</object>
         <object>objects\pipe_obj</object>
       </objects>
+      <objects name="Lava">
+        <object>objects\lava_obj</object>
+      </objects>
+      <object>objects\spikeFalling_obj</object>
     </objects>
     <objects name="Lighting">
       <object>objects\lightFlickering_obj</object>
@@ -448,6 +481,7 @@
       <object>objects\particleWhite_obj</object>
       <object>objects\particleYellowSpawner_obj</object>
       <object>objects\particleWhiteSpawner_obj</object>
+      <object>objects\woodBoxParticle_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -478,6 +512,7 @@
     <room>rooms\sentinelGraves3</room>
     <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
+    <room>rooms\overcastPeek2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

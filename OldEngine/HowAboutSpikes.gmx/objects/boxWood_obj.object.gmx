@@ -30,6 +30,7 @@
 horSpeed = 0;
 verSpeed = 0;
 gravityStrength = 0.6;
+spawnPart = 4;
 </string>
           </argument>
         </arguments>
@@ -96,8 +97,14 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (boxHealth &lt;= 0)
 {
+    if (spawnPart &gt; 0)
+    {
+        instance_create(x, y, woodBoxParticle_obj);
+        spawnPart = spawnPart - 1;
+    }
     instance_deactivate_object(self);
     boxHealth = 100;
+    spawnPart = 4;
 }
 </string>
           </argument>

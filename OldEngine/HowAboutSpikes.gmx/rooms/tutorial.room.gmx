@@ -138,7 +138,6 @@
     <instance objName="snowBlock2_obj" x="864" y="1920" name="inst_7B66DD6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="1984" name="inst_8898F62D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="1952" name="inst_DD3B9955" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="1952" name="inst_04217237" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1504" y="1952" name="inst_9597041B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1536" y="1952" name="inst_688EB145" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1568" y="1952" name="inst_B02C31B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -147,9 +146,6 @@
     <instance objName="snowBlock2_obj" x="1664" y="1952" name="inst_ECC85307" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1696" y="1952" name="inst_8B85EC8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1728" y="1952" name="inst_83E07613" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1760" y="1952" name="inst_B086624A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="1952" name="inst_9D8935B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="1952" name="inst_A390CB2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="1952" name="inst_E5E8772F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="1952" name="inst_ACD38769" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1920" y="1952" name="inst_FBF0CB48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -170,9 +166,6 @@
     <instance objName="snowBlock2_obj" x="1920" y="1984" name="inst_D7B6B157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="1984" name="inst_BD3A4D16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="1984" name="inst_7E2F291B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="1984" name="inst_3EF95856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="1984" name="inst_BAC6341D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1760" y="1984" name="inst_0AEA8807" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1728" y="1984" name="inst_C7E3EE1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1696" y="1984" name="inst_E58CA204" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1664" y="1984" name="inst_51F269C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -181,11 +174,7 @@
     <instance objName="snowBlock2_obj" x="1568" y="1984" name="inst_B812CD48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1536" y="1984" name="inst_58EA3CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1504" y="1984" name="inst_EBB480F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="1984" name="inst_EC735685" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1312" y="1952" name="inst_372276F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1280" y="1952" name="inst_93836821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1280" y="1984" name="inst_B4D6C554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1312" y="1984" name="inst_00C1FADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1024" y="1920" name="inst_A89A7AA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1056" y="1920" name="inst_94B47B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1088" y="1920" name="inst_ECF5BB39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -216,8 +205,6 @@
     <instance objName="snowBlock2_obj" x="1696" y="1920" name="inst_53B756EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1728" y="1920" name="inst_9A75EFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1760" y="1920" name="inst_03627487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="1920" name="inst_A2524039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="1920" name="inst_75947BA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="1920" name="inst_11BA054C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="1920" name="inst_9CE6133D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1920" y="1920" name="inst_938921A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -241,8 +228,6 @@
     <instance objName="snowBlock2_obj" x="1920" y="1888" name="inst_F2DB56BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="1856" name="inst_855C6779" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="1856" name="inst_AFDCFF1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="1856" name="inst_CEE9643A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="1856" name="inst_4A888902" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1760" y="1856" name="inst_58AB5016" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1728" y="1856" name="inst_E07BA66D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1696" y="1856" name="inst_D493BE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -266,8 +251,6 @@
     <instance objName="snowBlock_obj" x="96" y="1952" name="inst_2E5D912E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="128" y="1952" name="inst_A6915C20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="160" y="1952" name="inst_BF0327DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="2176" y="1824" name="inst_6F29F7A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="2240" y="1824" name="inst_CBF9D698" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2272" y="1824" name="inst_7234A4D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2304" y="1824" name="inst_747504CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2336" y="1824" name="inst_73D6F089" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -286,8 +269,6 @@
     <instance objName="snowBlock_obj" x="3744" y="1760" name="inst_A36327B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="3776" y="1760" name="inst_8F74B787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="3808" y="1760" name="inst_021E60AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2176" y="1856" name="inst_D896B407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2176" y="1888" name="inst_176B8AA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2176" y="1920" name="inst_66552FBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2176" y="1952" name="inst_774496D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2176" y="1984" name="inst_43207D08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -307,9 +288,6 @@
     <instance objName="snowBlock2_obj" x="2336" y="1856" name="inst_5B59E7BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2304" y="1856" name="inst_796676A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2272" y="1856" name="inst_D8453902" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2240" y="1856" name="inst_B98D08CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2208" y="1856" name="inst_81390563" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2208" y="1888" name="inst_B7DD1A7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2208" y="1920" name="inst_3B0D652D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2208" y="1952" name="inst_D56965AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2240" y="1952" name="inst_0A081E93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -320,16 +298,13 @@
     <instance objName="snowBlock2_obj" x="2368" y="1920" name="inst_E6DCC560" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2304" y="1888" name="inst_7F0B9FEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2272" y="1888" name="inst_05248AB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2240" y="1888" name="inst_B0E8C67C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2240" y="1920" name="inst_DD969D3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2272" y="1920" name="inst_D093453B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2528" y="1824" name="inst_62EE79AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2528" y="1856" name="inst_4F6DA615" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2528" y="1888" name="inst_8FC00386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2496" y="1888" name="inst_55F02064" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2496" y="1920" name="inst_A49C3AAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2496" y="1952" name="inst_9DA1CD77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2528" y="1920" name="inst_AA0D8775" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2496" y="1984" name="inst_32A41E8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2464" y="1984" name="inst_416EE2F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2432" y="1984" name="inst_D3F85711" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -348,22 +323,9 @@
     <instance objName="snowBlock2_obj" x="2688" y="1824" name="inst_CB7A2A2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="1824" name="inst_F19A0AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2752" y="1824" name="inst_1CC6A8B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2752" y="1856" name="inst_848FD20E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2752" y="1888" name="inst_C63F5815" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2752" y="1920" name="inst_1ADD5ED3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2752" y="1952" name="inst_FE0A98EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2752" y="1984" name="inst_5EC4D099" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2720" y="1984" name="inst_0FAAE85F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2688" y="1984" name="inst_D0945599" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2688" y="1952" name="inst_A4A4BF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2720" y="1952" name="inst_7629D05A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2720" y="1920" name="inst_C521A509" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2688" y="1920" name="inst_4F0A020E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2688" y="1888" name="inst_692A918E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2720" y="1888" name="inst_09C38C65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="1856" name="inst_183AAE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2688" y="1856" name="inst_2DB98F73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2656" y="1856" name="inst_B5F9FAE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2912" y="1824" name="inst_66247D96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2944" y="1824" name="inst_DB16F351" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2976" y="1824" name="inst_958E48CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -680,7 +642,6 @@
     <instance objName="snowBlock_obj" x="224" y="896" name="inst_E035B619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="192" y="896" name="inst_4D52FAA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="160" y="896" name="inst_FB92BB69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="288" y="864" name="inst_C98AAEA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="256" y="864" name="inst_3C706D93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="128" y="896" name="inst_8EB6A82D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="96" y="896" name="inst_3C4DAD35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1094,9 +1055,6 @@
     <instance objName="snowBlock2_obj" x="1760" y="448" name="inst_6215A12E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1920" y="384" name="inst_45A640F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1952" y="384" name="inst_943679E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="2208" y="1792" name="inst_8EB5022C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2208" y="1824" name="inst_B21F4040" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2208" y="1760" name="inst_585794E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="2528" y="1760" name="inst_B35C066B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2528" y="1792" name="inst_D0D4FEF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2496" y="1792" name="inst_BF169F59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1127,7 +1085,6 @@
     <instance objName="spikeUp_obj" x="1248" y="448" name="inst_43E5233A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1216" y="448" name="inst_0F16CF96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1152" y="416" name="inst_634C6A3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1120" y="416" name="inst_078E09B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="896" y="416" name="inst_3BFAD607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1664" y="1696" name="inst_D123E27F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1664" y="1600" name="inst_BFADA7B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1223,8 +1180,6 @@
     <instance objName="snowBlock2_obj" x="1568" y="2112" name="inst_67C4547C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1536" y="2112" name="inst_07D68965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1504" y="2112" name="inst_25DE766A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="2112" name="inst_88475787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1280" y="2112" name="inst_4871DA64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="2112" name="inst_75942329" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="2112" name="inst_51EFF4C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1184" y="2112" name="inst_003E64E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1299,18 +1254,6 @@
     <instance objName="snowBlock2_obj" x="1184" y="2080" name="inst_CA0044FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="2080" name="inst_602122EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="2080" name="inst_33181A93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1280" y="2080" name="inst_4FF19F06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="2080" name="inst_18309902" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1504" y="2080" name="inst_AD3A5208" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1536" y="2080" name="inst_BE3EB645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1568" y="2080" name="inst_AA9D529D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1600" y="2080" name="inst_BB053577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1664" y="2080" name="inst_CC47CF1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1632" y="2080" name="inst_253EB663" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1632" y="2048" name="inst_3CADEFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1600" y="2048" name="inst_813F1925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1568" y="2048" name="inst_12D300A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1536" y="2048" name="inst_D98C961F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1152" y="2048" name="inst_946FB3AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1120" y="2048" name="inst_81E2DA14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1088" y="2048" name="inst_77CF5C1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1378,19 +1321,12 @@
     <instance objName="snowBlock2_obj" x="1184" y="2048" name="inst_5B75D29D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="2048" name="inst_11DA2D4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="2048" name="inst_B021FF4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1280" y="2048" name="inst_290E4F18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="2048" name="inst_77E95811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1504" y="2048" name="inst_8A4FC88F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1696" y="2016" name="inst_EAA55993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1664" y="2016" name="inst_1F7973F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1632" y="2016" name="inst_D7457825" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1600" y="2016" name="inst_CFD3C684" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1568" y="2016" name="inst_F0474992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1536" y="2016" name="inst_D58D8CD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1504" y="2016" name="inst_29615047" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1472" y="2016" name="inst_41989D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1312" y="2016" name="inst_36C67A2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1280" y="2016" name="inst_BFB5D785" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1248" y="2016" name="inst_ACB46144" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="2016" name="inst_9AA26110" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1184" y="2016" name="inst_FD08F0E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1429,7 +1365,6 @@
     <instance objName="snowBlock2_obj" x="2368" y="2144" name="inst_4F7EDDD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2400" y="2144" name="inst_7A63F024" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2432" y="2144" name="inst_2E60BD25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2464" y="2048" name="inst_081FE686" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2432" y="2048" name="inst_0C645B0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2400" y="2048" name="inst_2638E35D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2368" y="2048" name="inst_D1538A96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1486,21 +1421,7 @@
     <instance objName="snowBlock2_obj" x="1920" y="2048" name="inst_F7F81791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="2048" name="inst_4A5E7CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="2048" name="inst_FECF2600" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="2048" name="inst_021CE78A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="2048" name="inst_B0CDC6D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1824" y="2080" name="inst_2E0CE1E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="2080" name="inst_4FE31655" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1760" y="2080" name="inst_2778D750" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1728" y="2080" name="inst_40FBF189" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1696" y="2080" name="inst_D74A4C95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1664" y="2048" name="inst_F3FD6081" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1696" y="2048" name="inst_6EDC268B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1728" y="2048" name="inst_D4BA3F27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1760" y="2048" name="inst_AE8CAA10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1728" y="2016" name="inst_8EC62C48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1760" y="2016" name="inst_59A90F62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="2016" name="inst_0086E5D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="2016" name="inst_CEA5915F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1856" y="2016" name="inst_47AC272B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1888" y="2016" name="inst_E05A7BF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1920" y="2016" name="inst_0E790A8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1533,19 +1454,12 @@
     <instance objName="snowBlock2_obj" x="2400" y="2016" name="inst_1AE284F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2432" y="2016" name="inst_2F221CC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2464" y="2016" name="inst_1B2B9B3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2688" y="2016" name="inst_A59044B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2688" y="2048" name="inst_401E2147" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="2144" name="inst_6B8A8B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="2112" name="inst_5C05B81D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="2080" name="inst_596486C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="2048" name="inst_30923D50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2720" y="2016" name="inst_B3EBE4E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2944" y="1984" name="inst_90E45BCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2944" y="2016" name="inst_37381AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2944" y="2048" name="inst_73099150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="3008" y="2144" name="inst_86898040" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2976" y="2144" name="inst_F460DB6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2976" y="2112" name="inst_1D79881C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2976" y="2080" name="inst_65FEAB6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2976" y="2048" name="inst_645B767C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2976" y="2016" name="inst_D89DE1C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1654,49 +1568,20 @@
     <instance objName="snowBlock2_obj" x="3840" y="2080" name="inst_0487E3EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3840" y="2112" name="inst_7019A3F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="3840" y="2144" name="inst_39E8F4CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1440" y="2112" name="inst_B20453DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1408" y="2112" name="inst_CFB4D7E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1376" y="2112" name="inst_EC88A828" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1344" y="2112" name="inst_6095FE42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1312" y="2112" name="inst_155BD053" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1312" y="2144" name="inst_7B80627E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1344" y="2144" name="inst_53AD4C06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1376" y="2144" name="inst_3656F21D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1408" y="2144" name="inst_6C77A658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1440" y="2144" name="inst_DF76B062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1440" y="1952" name="inst_B196B9F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="1312" y="2048" name="inst_498B868D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="1440" y="1984" name="inst_A6A11DF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="spikeUp_obj" x="1440" y="2016" name="inst_DB7D100C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="spikeUp_obj" x="1440" y="2080" name="inst_7DB1CEDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="spikeUp_obj" x="1344" y="1984" name="inst_DDBAF78E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="spikeUp_obj" x="2464" y="2144" name="inst_A789716D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2496" y="2144" name="inst_3E939DF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2528" y="2144" name="inst_79AD1166" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2560" y="2144" name="inst_8CA743A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2592" y="2144" name="inst_FF9BE823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2624" y="2144" name="inst_972CD022" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2656" y="2144" name="inst_C7EF94DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2688" y="2144" name="inst_96EF8A3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2752" y="2144" name="inst_3CF13B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2784" y="2144" name="inst_D82D690F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2816" y="2144" name="inst_7782790C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2848" y="2144" name="inst_79008517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2880" y="2144" name="inst_11A94F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2912" y="2144" name="inst_236FF92F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="2944" y="2144" name="inst_6370112F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3040" y="2144" name="inst_6A9DF60E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3072" y="2144" name="inst_ECD0F816" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3104" y="2144" name="inst_5BF7A583" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3136" y="2144" name="inst_54944473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3168" y="2144" name="inst_FC03EA84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="3008" y="2112" name="inst_4A4CBB70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="3040" y="1824" name="inst_96EF8A3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="3072" y="1824" name="inst_3CF13B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="3104" y="1824" name="inst_D82D690F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="petBirdPA_obj" x="2720" y="352" name="inst_F427C898" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="352" y="1856" name="inst_769A3E62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1632" y="512" name="inst_BD39D91A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1600" y="480" name="inst_9F24493A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1632" y="480" name="inst_160A47C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="544" y="384" name="inst_D1D1A81F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="2784" y="1792" name="inst_3A3C1871" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1760" y="384" name="inst_63E91270" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="448" y="928" name="inst_92E3E3FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1704,8 +1589,8 @@
     <instance objName="ladder_obj" x="1728" y="1632" name="inst_F9B80DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="32" y="0" name="inst_9D1D45A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redFlower_obj" x="416" y="1888" name="inst_F5BA6F20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redFlower_obj" x="576" y="1888" name="inst_473F33C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueFlower_obj" x="608" y="1888" name="inst_DA68C29B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redFlower_obj" x="672" y="1856" name="inst_473F33C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="blueFlower_obj" x="640" y="1856" name="inst_DA68C29B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redFlower_obj" x="1024" y="1856" name="inst_9C97EE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="1536" y="1824" name="inst_9D77A61B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="2976" y="1760" name="inst_7E609743" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1724,15 +1609,13 @@
     <instance objName="blueFlower_obj" x="320" y="864" name="inst_3E31735B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="trapdoor_obj" x="1728" y="1600" name="inst_E9026B18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="1824" y="1568" name="inst_2D4CA419" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="1216" y="1824" name="inst_0F42FED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="3392" y="1152" name="inst_6BEF1D29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1760" y="1056" name="inst_A966BC41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1760" y="1088" name="inst_50FE928D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorialSign2_obj" x="416" y="1888" name="inst_37985FB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="tutorialSign1_obj" x="672" y="1856" name="inst_B989B2B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="tutorialSign1_obj" x="576" y="1888" name="inst_B989B2B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightControlNormal_obj" x="64" y="0" name="inst_EA22768A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightFlickering_obj" x="53" y="1596" name="inst_87E9077C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="latern_obj" x="576" y="1888" name="inst_84B27798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="640" y="1856" name="inst_84B27798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="352" y="1888" name="inst_9E6E0275" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="192" y="1920" name="inst_567C03B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="64" y="1920" name="inst_914FC2D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1788,12 +1671,9 @@
     <instance objName="snowBlock_obj" x="2016" y="1856" name="inst_B040FB22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1984" y="1856" name="inst_929C20FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1952" y="1856" name="inst_14DBCD5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="1824" y="1888" name="inst_5A23486D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="1792" y="1888" name="inst_F641ABC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1760" y="1888" name="inst_2898AAA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1728" y="1888" name="inst_09AF54CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1696" y="1888" name="inst_183409EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock_obj" x="1856" y="1888" name="inst_5C99F985" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2368" y="1888" name="inst_1B53BAA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="2400" y="1888" name="inst_26D7FA8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="3776" y="1792" name="inst_FD72AE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1901,10 +1781,6 @@
     <instance objName="snowBlock2_obj" x="1696" y="1888" name="inst_3A67B692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1728" y="1888" name="inst_FD612B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1760" y="1888" name="inst_259B6952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1792" y="1888" name="inst_4341CF41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1824" y="1888" name="inst_1C009B85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1856" y="1888" name="inst_86B83E64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1888" y="1888" name="inst_F518B709" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1664" y="1888" name="inst_3E0944F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2336" y="1888" name="inst_B2C3C479" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2368" y="1888" name="inst_0BFB3F18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1925,7 +1801,6 @@
     <instance objName="woodBlock_obj" x="1888" y="1824" name="inst_505A57AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1856" y="1824" name="inst_ACDCA883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1824" y="1824" name="inst_B2D75646" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodBlock_obj" x="1792" y="1824" name="inst_EB0E3A9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1760" y="1824" name="inst_79F52A91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1728" y="1824" name="inst_E79B0DD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlock_obj" x="1696" y="1824" name="inst_0399AE86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1943,7 +1818,6 @@
     <instance objName="sniwBlockRC_obj" x="3712" y="1824" name="inst_14F74098" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="3520" y="1824" name="inst_F9A6853E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="2432" y="1888" name="inst_EB0DF626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sniwBlockRC_obj" x="1888" y="1888" name="inst_40A0B505" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="1216" y="1984" name="inst_3F64F776" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="1088" y="2016" name="inst_E445DEE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sniwBlockRC_obj" x="736" y="1984" name="inst_0917CBDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1987,6 +1861,210 @@
     <instance objName="snowBlock_obj" x="448" y="1920" name="inst_3E687F17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="0" y="0" name="inst_08CF1406" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="160" y="0" name="inst_AEE1382A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="32" y="288" name="inst_3F2A3D21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1952" y="320" name="inst_92AE2812" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1952" y="1696" name="inst_D7F00376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1728" y="1632" name="inst_8E85C03C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1760" y="1696" name="inst_EA999407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcSoldier_obj" x="222" y="1903" name="inst_DA05A37E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="768" y="1760" name="inst_EEA9FE6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="800" y="1728" name="inst_09A1352D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1248" y="1824" name="inst_17FB17EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1248" y="1792" name="inst_537596A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1248" y="1760" name="inst_C23488A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1280" y="1792" name="inst_0BA315E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1280" y="1824" name="inst_0D041CB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="3387" y="1157" name="inst_A39D458E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="480" y="384" name="inst_D2D40BC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="544" y="384" name="inst_25E9DB55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="608" y="384" name="inst_5E749BD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1280" y="2112" name="inst_929F034A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1312" y="2112" name="inst_EE7CCC80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1344" y="2112" name="inst_64509B5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1376" y="2112" name="inst_D672AA17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1408" y="2112" name="inst_B7303EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1440" y="2112" name="inst_E911210C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1472" y="2112" name="inst_7690E9E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1472" y="1952" name="inst_FAF23579" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1472" y="1984" name="inst_9556DA65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="1472" y="2016" name="inst_4974FFDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="spikeUp_obj" x="1312" y="1952" name="inst_9224D801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="spikeUp_obj" x="1280" y="1984" name="inst_10C2B208" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="darkSpirit_obj" x="1632" y="2048" name="inst_61C13F51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1536" y="2080" name="inst_14B517B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1632" y="2080" name="inst_0B98F452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1600" y="2080" name="inst_4E5BA897" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1568" y="2048" name="inst_929ED883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1664" y="2080" name="inst_7DD9754B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1600" y="2048" name="inst_BEA2849B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1568" y="2080" name="inst_791B1125" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1504" y="2080" name="inst_75A20EFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1536" y="2048" name="inst_07DF1F88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1824" y="1856" name="inst_EF15C00D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1824" y="1888" name="inst_F4A6ABA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1824" y="1920" name="inst_5FDB7D58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1824" y="1952" name="inst_1835A72C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1888" y="1888" name="inst_33006351" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="1856" y="1888" name="inst_3101258C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trapdoorBlue_obj" x="1792" y="1824" name="inst_541DBDC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leverBlue_obj" x="1824" y="2016" name="inst_B9E7B4F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1824" name="inst_CB153C34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1856" name="inst_2374FBE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1888" name="inst_444E7B54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1920" name="inst_E37F9965" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1952" name="inst_A8EE48F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="1984" name="inst_E7479D4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="1792" y="2016" name="inst_BBBB2478" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodBlockNewBG_obj" x="1792" y="1824" name="inst_E229795E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlockFalling_obj" x="2240" y="1824" name="inst_2EECB123" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlockFalling_obj" x="2208" y="1824" name="inst_EE80A619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlockFalling_obj" x="2176" y="1824" name="inst_9A2C2B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="2176" y="1888" name="inst_3693BE83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="2208" y="1888" name="inst_E39CE0FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="2240" y="1888" name="inst_B84EAFB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2464" y="2144" name="inst_7426C160" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="2144" name="inst_3B83679D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="2144" name="inst_59A05C62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="2144" name="inst_8C133AD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2592" y="2144" name="inst_DC8DB710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2624" y="2144" name="inst_35334700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2656" y="2144" name="inst_88EFFEF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2688" y="2144" name="inst_23CFF9F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2688" y="2112" name="inst_032B907C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2656" y="2112" name="inst_08751A5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2624" y="2112" name="inst_63C612D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2592" y="2112" name="inst_3240EDA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="2112" name="inst_E5886661" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="2112" name="inst_D388E66E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="2112" name="inst_7BF85506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2464" y="2112" name="inst_812349F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2592" y="2080" name="inst_2AFE1A4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="2080" name="inst_C918234F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="2080" name="inst_31959806" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="2080" name="inst_6D1F1CED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2464" y="2080" name="inst_84272912" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2464" y="2048" name="inst_C9BAD4ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="2016" name="inst_DC9A3F54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="2016" name="inst_4A4258BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="2016" name="inst_DAB4BB08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="2048" name="inst_EC962F07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="2048" name="inst_43844423" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="2048" name="inst_86D76440" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2592" y="2048" name="inst_69A15658" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2624" y="2048" name="inst_C1016C51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2624" y="2080" name="inst_0F700526" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2656" y="2080" name="inst_E1A2309D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2656" y="2048" name="inst_856F7A43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2496" y="1920" name="inst_B6DAEFF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="1920" name="inst_A673CA56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="1952" name="inst_ABA241C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2528" y="1984" name="inst_02ADF950" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="1984" name="inst_A3879874" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2592" y="2016" name="inst_C1F80E60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2560" y="1952" name="inst_E975072B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="1920" name="inst_A12F9CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="1920" name="inst_641DBDD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="1952" name="inst_95F0D248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="1952" name="inst_34A3BA91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="1984" name="inst_1883A432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="1984" name="inst_791431DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2944" y="1984" name="inst_36AE212E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2944" y="2016" name="inst_6E38542C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="2016" name="inst_CE87BEBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="2016" name="inst_A71A3099" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2816" y="2048" name="inst_724288CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2784" y="2080" name="inst_14182470" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2688" y="2080" name="inst_B54552C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2784" y="2048" name="inst_8F62BF52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2752" y="2048" name="inst_0AA451BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2752" y="2080" name="inst_CF120CE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2752" y="2112" name="inst_8ABD397D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2752" y="2144" name="inst_790A3165" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2784" y="2144" name="inst_8D70C3D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2816" y="2144" name="inst_1669D01B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2848" y="2144" name="inst_346EF66B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="2144" name="inst_E49F55CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="2144" name="inst_B7ADBB17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2944" y="2144" name="inst_46A34715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2976" y="2144" name="inst_E2093FD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3008" y="2144" name="inst_72B3B271" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="2144" name="inst_A356665D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="2144" name="inst_C781BAB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="2144" name="inst_C3F81CAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="2144" name="inst_0DDBAC60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="1856" name="inst_5444F581" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="1856" name="inst_0582A9F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="1856" name="inst_3F82D60F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="1888" name="inst_EF5FB0E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="1888" name="inst_7B635548" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="1888" name="inst_DBFAFE8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="1888" name="inst_927FBB97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="1920" name="inst_E1955712" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="1952" name="inst_169F8681" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="1920" name="inst_BC9CFB0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="1920" name="inst_D7AD0660" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="1920" name="inst_83BA5068" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="1952" name="inst_C438E215" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="1952" name="inst_0DCE00F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="1952" name="inst_84F6016A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="1984" name="inst_BB4E2A66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="1984" name="inst_C2BB5247" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="2048" name="inst_D971410D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="2048" name="inst_C7C11718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="2048" name="inst_000E7225" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="2048" name="inst_8B9DB2F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3168" y="2144" name="inst_3DFC52B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3168" y="2112" name="inst_6E3506A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3168" y="2080" name="inst_8898DAF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3168" y="2048" name="inst_952F329A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3168" y="2016" name="inst_B9EA5D6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="2016" name="inst_0B175A5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="1984" name="inst_D81C2A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="1984" name="inst_F3433EDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="2016" name="inst_E9BC683A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="2016" name="inst_A5C35FB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="2016" name="inst_FE4D9961" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3008" y="2016" name="inst_4FCA197A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3008" y="2048" name="inst_9058EA3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3008" y="2112" name="inst_4A6B5E7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="2112" name="inst_31CDC06E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="2112" name="inst_61CCB25C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="2080" name="inst_33F89D39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3136" y="2112" name="inst_4AA9382F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="2112" name="inst_ACD10775" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3104" y="2080" name="inst_A2EEC0D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3072" y="2080" name="inst_A3AD7122" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3040" y="2080" name="inst_2AB27D8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="3008" y="2080" name="inst_505E22F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2976" y="2112" name="inst_4AA8480F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2944" y="2112" name="inst_90850094" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="2112" name="inst_AFF13964" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="2112" name="inst_3B72CF74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2848" y="2112" name="inst_925AEBBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2784" y="2112" name="inst_693D1B14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2816" y="2112" name="inst_01997A17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2816" y="2080" name="inst_46D1096F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2848" y="2080" name="inst_C2F9F039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="2080" name="inst_EC3956F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2944" y="2080" name="inst_BF77834A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="2080" name="inst_C49E784D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2912" y="2048" name="inst_16DA2AC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2880" y="2048" name="inst_BE5AA506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2848" y="2048" name="inst_1A43B0F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlock2_obj" x="2848" y="2016" name="inst_EE38BFA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2752" y="1760" name="inst_0898C920" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="2656" y="1856" name="inst_E6341692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="2656" y="1888" name="inst_DB21F7C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="3808" y="1664" name="inst_9A45A407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="3776" y="1632" name="inst_4743214C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="3776" y="1696" name="inst_494ADA7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="3104" y="1184" name="inst_F7E6E7B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="3136" y="1152" name="inst_BF78AC22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2880" y="1152" name="inst_60E9B159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="2848" y="1184" name="inst_87B5A61A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1920" y="1568" name="inst_5A4CAA01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1920" y="1536" name="inst_FB5E9023" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="boxWood_obj" x="1952" y="1568" name="inst_E60F47DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

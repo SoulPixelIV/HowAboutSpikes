@@ -62,10 +62,18 @@ if (place_meeting(x, y, player_obj))
 
 if (place_meeting(x, y, hitbox_obj))
 {
+    if (!audio_is_playing(hit_snd))
+    {
+        audio_play_sound(hit_snd, 1, false);
+    }
     instance_destroy();
 }
 if (place_meeting(x, y, scythe_obj))
 {
+    if (!audio_is_playing(hit_snd))
+    {
+        audio_play_sound(hit_snd, 1, false);
+    }
     instance_destroy();
 }
 </string>
