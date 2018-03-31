@@ -319,7 +319,6 @@
     <instance objName="snowBlock2_obj" x="2496" y="1824" name="inst_CDDD633C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2496" y="1856" name="inst_CB7AC127" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2464" y="1856" name="inst_A77B5328" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="2656" y="1824" name="inst_6A284D98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2688" y="1824" name="inst_CB7A2A2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="1824" name="inst_F19A0AD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2752" y="1824" name="inst_1CC6A8B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -834,7 +833,6 @@
     <instance objName="snowBlockLC_obj" x="1440" y="1856" name="inst_8566D142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="1568" y="1824" name="inst_BE1FFEA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="2432" y="1792" name="inst_ED88465D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlockLC_obj" x="2656" y="1792" name="inst_6FAF752B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="3136" y="1792" name="inst_C358D712" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="3328" y="1760" name="inst_1CD02700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlockLC_obj" x="3168" y="1184" name="inst_5FD5C464" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2065,6 +2063,7 @@
     <instance objName="boxWood_obj" x="1920" y="1568" name="inst_5A4CAA01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="boxWood_obj" x="1920" y="1536" name="inst_FB5E9023" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="boxWood_obj" x="1952" y="1568" name="inst_E60F47DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="snowBlockLC_obj" x="2656" y="1824" name="inst_63DBAD5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -440,6 +440,7 @@
     <instance objName="lamp_obj" x="640" y="320" name="inst_72D7D29C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="576" y="320" name="inst_DC9F62DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="96" y="0" name="inst_D4CDA1D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globalSettings_obj" x="128" y="0" name="inst_E9FCE5AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

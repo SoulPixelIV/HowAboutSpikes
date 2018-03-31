@@ -250,6 +250,7 @@
     <instance objName="stoneBlock_obj" x="1568" y="96" name="inst_2436D4AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1600" y="128" name="inst_4AE10BAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1600" y="96" name="inst_6F975AE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globalSettings_obj" x="128" y="0" name="inst_E4F08CEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

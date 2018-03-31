@@ -120,6 +120,9 @@ ini_open("save1.has");
 var currRoom = room;
 
 ini_write_real("Save1", "current room", currRoom);
+ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
+ini_write_real("Save1", "redOrb", global.pickedRed);
+ini_write_real("Save1", "blueOrb", global.pickedBlue);
 ini_write_real("Save1", "money", global.money);
 ini_write_real("Save1", "health", global.healthVar);
 ini_write_real("Save1", "gamemode", global.mode);
@@ -147,7 +150,7 @@ ini_close();
           <argument>
             <kind>1</kind>
             <string>///Load Game
-
+/*
 playerInst = player_obj;
 
 if (global.continued == true)
@@ -166,6 +169,7 @@ if (global.continued == true)
         ini_close();
     }
 }
+*/
 </string>
           </argument>
         </arguments>
@@ -856,6 +860,7 @@ else
     onLadder = false;
 }   
 //###Lever Collision###
+/*
 if (place_meeting(x, y, lever_obj))
 {
     global.hitLever = true;
@@ -868,6 +873,7 @@ if (place_meeting(x, y, leverRed_obj))
 {
     global.hitLeverRed = true;
 }
+*/
 //###Key Collision###
 if (place_meeting(x, y, key_obj))
 {

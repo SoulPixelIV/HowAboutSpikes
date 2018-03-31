@@ -2433,6 +2433,7 @@
     <instance objName="slimeGreen_obj" x="2880" y="224" name="inst_50D71EC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="slimeGreen_obj" x="2336" y="1024" name="inst_75A9D265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="slimeGreen_obj" x="2432" y="1024" name="inst_F597869C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globalSettings_obj" x="128" y="0" name="inst_866DD3A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

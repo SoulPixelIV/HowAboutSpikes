@@ -1729,9 +1729,7 @@
     <instance objName="latern_obj" x="704" y="992" name="inst_3F698F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="512" y="928" name="inst_2F0633E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="160" y="384" name="inst_B1EBB557" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="monitor_obj" x="2144" y="960" name="inst_D60E740C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightFlickering_obj" x="2143" y="945" name="inst_D4B34875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="npcLola_obj" x="2528" y="992" name="inst_D3ADC7D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="monitor_obj" x="2142" y="944" name="inst_D60E740C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="305" y="596" name="inst_60D90D40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="325" y="595" name="inst_70EE6017" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="788" y="1224" name="inst_AEE1EE36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2090,6 +2088,7 @@
     <instance objName="lamp_obj" x="768" y="1184" name="inst_CF4AB8D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="928" y="1312" name="inst_329040D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="928" y="1440" name="inst_F3881F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globalSettings_obj" x="160" y="0" name="inst_90299A93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

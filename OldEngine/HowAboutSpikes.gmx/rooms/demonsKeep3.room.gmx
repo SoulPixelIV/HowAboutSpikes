@@ -1356,6 +1356,7 @@
     <instance objName="woodBlockNewBG_obj" x="2688" y="1120" name="inst_48D15135" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlockNewBG_obj" x="2688" y="1152" name="inst_1F6FD208" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlockNewBG_obj" x="2688" y="1184" name="inst_AA907243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="globalSettings_obj" x="128" y="0" name="inst_1E1D281E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

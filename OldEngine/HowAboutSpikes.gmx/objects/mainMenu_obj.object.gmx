@@ -92,7 +92,7 @@ if (buttonSelected == 1)
 {
     cursor_obj.x = 176;
     cursor_obj.y = 215;
-    /*
+
     global.continued = true;
     if (key_enter)
     {
@@ -100,15 +100,18 @@ if (buttonSelected == 1)
         {
             ini_open("save1.has");
             global.loadedRoom = ini_read_real("Save1", "current room", 1);
+            global.playerSpawnLocation = ini_read_real("Save1", "current spawnLocation", 0);
+            global.pickedRed = ini_read_real("Save1", "redOrb", true);
+            global.pickedBlue = ini_read_real("Save1", "blueOrb", true);
             global.mode = ini_read_real("Save1", "gamemode", 0);
             global.deathCount = ini_read_real("Save1", "death count", 0);
             global.healthVar = ini_read_real("Save1", "health", 2);
             global.money = ini_read_real("Save1", "money", 0);
-            room_goto(tutorial);
+            room_goto(global.loadedRoom);
             ini_close();
         }
     }
-    */
+
 }
 if (buttonSelected == 2)
 {

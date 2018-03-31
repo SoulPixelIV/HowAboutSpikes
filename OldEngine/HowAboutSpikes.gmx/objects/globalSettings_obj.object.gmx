@@ -4,73 +4,10 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>global.mode = 0;
-global.money = 0;
-global.healthVar = 2
-
-global.playerSpawnLocation = 0;
-global.deathCount = 0;
-global.spawned = false;
-
-global.hitLever = false;
-global.hitLeverBlue = false;
-global.hitLeverRed = false;
-
-global.pickedRed = false;
-global.pickedBlue = false;
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Sound Volume
-/*
-sound_volume(turretAlarm_snd, 0);
-sound_volume(land_snd, 1.1);
-sound_volume(jump_snd, 1.1);
-*/
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -91,6 +28,7 @@ sound_volume(jump_snd, 1.1);
             <string>//###Spawn###
 if (global.playerSpawnLocation == 0)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn_obj.x, spawn_obj.y, player_obj);
@@ -120,6 +58,7 @@ if (global.playerSpawnLocation == 0)
 }
 if (global.playerSpawnLocation == 1)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn1_obj.x, spawn1_obj.y, player_obj);
@@ -149,6 +88,7 @@ if (global.playerSpawnLocation == 1)
 }
 if (global.playerSpawnLocation == 2)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn2_obj.x, spawn2_obj.y, player_obj);
@@ -178,6 +118,7 @@ if (global.playerSpawnLocation == 2)
 }
 if (global.playerSpawnLocation == 3)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn3_obj.x, spawn3_obj.y, player_obj);
@@ -207,6 +148,7 @@ if (global.playerSpawnLocation == 3)
 }
 if (global.playerSpawnLocation == 4)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn4_obj.x, spawn4_obj.y, player_obj);
@@ -236,6 +178,7 @@ if (global.playerSpawnLocation == 4)
 }
 if (global.playerSpawnLocation == 5)
 {
+    global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
     {
         instance_create(spawn5_obj.x, spawn5_obj.y, player_obj);

@@ -5,11 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\attack_snd</sound>
-    <sound>sound\land_snd</sound>
-    <sound>sound\turretAlarm_snd</sound>
-    <sound>sound\turretShot_snd</sound>
-    <sound>sound\hit_snd</sound>
+    <sounds name="Sounds">
+      <sound>sound\land_snd</sound>
+      <sound>sound\attack_snd</sound>
+      <sound>sound\turretAlarm_snd</sound>
+      <sound>sound\turretShot_snd</sound>
+      <sound>sound\hit_snd</sound>
+    </sounds>
+    <sounds name="Music">
+      <sound>sound\sound5</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Player Sprites">
@@ -107,6 +112,7 @@
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\spikeFallingIcon_spr</sprite>
+      <sprite>sprites\aIcon_spr</sprite>
     </sprites>
     <sprite>sprites\bulletOld_spr</sprite>
     <sprite>sprites\breakingPlatform_spr</sprite>
@@ -134,7 +140,6 @@
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
     <sprite>sprites\lockedBlock_spr</sprite>
     <sprite>sprites\light_spr</sprite>
-    <sprite>sprites\monitor_spr</sprite>
     <sprite>sprites\npcLola_spr</sprite>
     <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
@@ -211,6 +216,9 @@
     <sprite>sprites\scytheLeverBlock_spr</sprite>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
+      <sprite>sprites\npcOldLady_spr</sprite>
+      <sprite>sprites\npcShopkeeper_spr</sprite>
+      <sprite>sprites\monitor_spr</sprite>
     </sprites>
     <sprites name="Shortcuts">
       <sprite>sprites\trapdoor_spr</sprite>
@@ -417,6 +425,7 @@
       <object>objects\npcLola_obj</object>
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
+      <object>objects\npcOldLady_obj</object>
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
