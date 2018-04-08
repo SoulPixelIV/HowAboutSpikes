@@ -2434,6 +2434,8 @@
     <instance objName="slimeGreen_obj" x="2336" y="1024" name="inst_75A9D265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="slimeGreen_obj" x="2432" y="1024" name="inst_F597869C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_866DD3A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleBlueSpawner_obj" x="160" y="0" name="inst_DFC8A82D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_7203EC66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

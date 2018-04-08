@@ -934,7 +934,6 @@ if (place_meeting(x, y, glassBlockBroken_obj))
           <argument>
             <kind>1</kind>
             <string>///Debug
-/*
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
@@ -949,10 +948,10 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != demonsKeep3)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != overcastPeek2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(demonsKeep3);
+    room_goto(overcastPeek2);
 }
 
 if (keyboard_check_pressed(ord('2')) &amp;&amp; room != gardenValley)
@@ -990,13 +989,13 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != undergroundCity3)
     global.playerSpawnLocation = 0;
     room_goto(undergroundCity3);
 }
-/*
+
 if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
 {
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
-*/
+
 </string>
           </argument>
         </arguments>
@@ -1028,24 +1027,24 @@ draw_set_font(gui_fnt);
 if (health == 6)
 {
     draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 196, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 144, global.guiPosY + 36);
 }
 if (health == 5)
 {
     draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
-    draw_sprite(heart_spr, 1, global.guiPosX + 196, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
+    draw_sprite(heart_spr, 1, global.guiPosX + 144, global.guiPosY + 36);
 }
 if (health == 4)
 {
     draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 116, global.guiPosY + 36);
+    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
 }
 if (health == 3)
 {
     draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 1, global.guiPosX + 116, global.guiPosY + 36);
+    draw_sprite(heart_spr, 1, global.guiPosX + 90, global.guiPosY + 36);
 }
 if (health == 2)
 {
@@ -1061,7 +1060,7 @@ if (health == 0)
 }
 
 //###Money###
-draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 72);
+draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
 
 draw_text(global.guiPosX + 55, global.guiPosY + 72, string(global.money));
 

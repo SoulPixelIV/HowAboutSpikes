@@ -55,6 +55,37 @@
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
 draw_text(16, 160, "Press Start")
+
+if (file_exists("save1.has"))
+{
+    ini_open("save1.has");
+    global.loadedRoom = ini_read_real("Save1", "current room", 1);
+    if (global.loadedRoom == 6 || global.loadedRoom == 7)
+    {
+        background_index = snowBackground2_bg;
+    }
+    if (global.loadedRoom == 8 || global.loadedRoom == 9 || global.loadedRoom == 10 || global.loadedRoom == 11)
+    {
+        background_index = purpleHazeBackground_bg;
+    }
+    if (global.loadedRoom == 12 || global.loadedRoom == 13 || global.loadedRoom == 14)
+    {
+        background_index = lavaBackground_bg;
+    }
+    if (global.loadedRoom == 15 || global.loadedRoom == 16 || global.loadedRoom == 17)
+    {
+        background_index = undergroundCityBackground_bg;
+    }
+    if (global.loadedRoom == 18 || global.loadedRoom == 19 || global.loadedRoom == 20 || global.loadedRoom == 21)
+    {
+        background_index = noone;
+    }
+    if (global.loadedRoom == 21 || global.loadedRoom == 22)
+    {
+        background_index = skyBackground_bg;
+    }
+    ini_close();
+}
 </string>
           </argument>
         </arguments>

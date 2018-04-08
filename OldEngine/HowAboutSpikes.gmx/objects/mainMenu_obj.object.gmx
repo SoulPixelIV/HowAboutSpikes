@@ -83,15 +83,6 @@ if (buttonSelected == 0)
 {
     cursor_obj.x = 176;
     cursor_obj.y = 183;
-    if (key_enter)
-    {
-        room_goto(tutorial);
-    }
-}
-if (buttonSelected == 1)
-{
-    cursor_obj.x = 176;
-    cursor_obj.y = 215;
 
     global.continued = true;
     if (key_enter)
@@ -110,8 +101,16 @@ if (buttonSelected == 1)
             room_goto(global.loadedRoom);
             ini_close();
         }
+    }    
+}
+if (buttonSelected == 1)
+{
+    cursor_obj.x = 176;
+    cursor_obj.y = 215;
+    if (key_enter)
+    {
+        room_goto(tutorial);
     }
-
 }
 if (buttonSelected == 2)
 {
@@ -155,10 +154,60 @@ if (buttonSelected == 3)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "New Game")
-draw_text(16, 192, "Continue")
+draw_text(16, 160, "Continue")
+draw_text(16, 192, "New Game")
 draw_text(16, 224, "Settings")
 draw_text(16, 256, "Quit")
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (file_exists("save1.has"))
+{
+    ini_open("save1.has");
+    global.loadedRoom = ini_read_real("Save1", "current room", 1);
+    if (global.loadedRoom == 6 || global.loadedRoom == 7)
+    {
+        background_index = snowBackground2_bg;
+    }
+    if (global.loadedRoom == 8 || global.loadedRoom == 9 || global.loadedRoom == 10 || global.loadedRoom == 11)
+    {
+        background_index = purpleHazeBackground_bg;
+    }
+    if (global.loadedRoom == 12 || global.loadedRoom == 13 || global.loadedRoom == 14)
+    {
+        background_index = lavaBackground_bg;
+    }
+    if (global.loadedRoom == 15 || global.loadedRoom == 16 || global.loadedRoom == 17)
+    {
+        background_index = undergroundCityBackground_bg;
+    }
+    if (global.loadedRoom == 18 || global.loadedRoom == 19 || global.loadedRoom == 20 || global.loadedRoom == 21)
+    {
+        background_index = noone;
+    }
+    if (global.loadedRoom == 21 || global.loadedRoom == 22)
+    {
+        background_index = skyBackground_bg;
+    }
+    ini_close();
+}
 </string>
           </argument>
         </arguments>

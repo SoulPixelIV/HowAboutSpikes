@@ -28,10 +28,6 @@
             <string>image_speed = 0;
 image_index = 1;
 
-if (global.leverBlock == false)
-{
-    instance_change(scytheLeverBlockSolid_obj, true);
-}
 </string>
           </argument>
         </arguments>

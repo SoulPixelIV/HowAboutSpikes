@@ -406,6 +406,8 @@
     <instance objName="colliderUC3_US2_obj" x="105" y="641" name="inst_594C6544" locked="0" code="" scaleX="2.16666674613953" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
     <instance objName="spawn5_obj" x="89" y="523" name="inst_C8FF96EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="64" y="0" name="inst_80A17AE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleBlueSpawner_obj" x="96" y="0" name="inst_CE310E86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleRedSpawner_obj" x="128" y="0" name="inst_FBFFA2E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

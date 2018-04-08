@@ -429,7 +429,6 @@
     <instance objName="ladder_obj" x="160" y="512" name="inst_25F63587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="camera_obj" x="0" y="0" name="inst_AEC8C61A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderBlue_obj" x="32" y="0" name="inst_913FB384" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightControlNormal_obj" x="64" y="0" name="inst_1EE63256" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_OP1_obj" x="133" y="734" name="inst_14C29942" locked="0" code="" scaleX="3.08333325386047" scaleY="0.583333313465118" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="122" y="652" name="inst_979E8B2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="OPDoor_obj" x="608" y="352" name="inst_EEF942CA" locked="0" code="" scaleX="2.5" scaleY="4.5" colour="4294967295" rotation="0"/>
@@ -441,6 +440,8 @@
     <instance objName="lamp_obj" x="576" y="320" name="inst_DC9F62DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="96" y="0" name="inst_D4CDA1D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_E9FCE5AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleBlueSpawner_obj" x="160" y="0" name="inst_3A577903" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_732121DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

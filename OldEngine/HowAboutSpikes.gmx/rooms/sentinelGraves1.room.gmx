@@ -301,7 +301,6 @@
     <instance objName="darkBlock_obj" x="1536" y="1408" name="inst_AC03CC8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="1440" y="1408" name="inst_5C3C3AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyNormal2_obj" x="1536" y="1376" name="inst_C1A32FB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyFlyingCloud_obj" x="1344" y="1248" name="inst_91AE825D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyFlyingCloud_obj" x="1440" y="1248" name="inst_300A4C49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlockFake_obj" x="1600" y="1312" name="inst_E871FAD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlockFake_obj" x="1600" y="1344" name="inst_EF8C853B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -345,7 +344,6 @@
     <instance objName="lamp_obj" x="1760" y="1088" name="inst_9B846DB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="1600" y="960" name="inst_C39A4B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1760" y="1120" name="inst_BB45D89B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="enemyFlyingCloud_obj" x="1696" y="928" name="inst_7789CD16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="896" y="864" name="inst_05000149" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="1376" y="1312" name="inst_A1D5FDE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="1600" y="1184" name="inst_E1D0F1CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -965,6 +963,11 @@
     <instance objName="darkSpiritBig_obj" x="1184" y="832" name="inst_B3317AD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleYellowSpawner_obj" x="96" y="0" name="inst_93B0A182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_41520AFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleBlueSpawner_obj" x="160" y="0" name="inst_5B76F0B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_7CA32D6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="672" y="1024" name="inst_DC75DBBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="896" y="1024" name="inst_72029D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1632" y="768" name="inst_DDBC9F81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

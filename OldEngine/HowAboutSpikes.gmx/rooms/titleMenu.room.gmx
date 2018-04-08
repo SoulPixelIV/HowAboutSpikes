@@ -52,18 +52,36 @@
   </views>
   <instances>
     <instance objName="lightControlHeavy_obj" x="0" y="0" name="inst_184D9FC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightFlickering_obj" x="11" y="269" name="inst_C3140C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightFlickering_obj" x="221" y="243" name="inst_92C329D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightFlickering_obj" x="433" y="257" name="inst_8627EA7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightFlickering_obj" x="490" y="280" name="inst_2AD827C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="titlemenu_obj" x="32" y="0" name="inst_43BB1065" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderBlue_obj" x="64" y="0" name="inst_04F0AE25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lensflareStillYellow_obj" x="492" y="280" name="inst_88F824AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lensflareStillYellow_obj" x="434" y="257" name="inst_69249A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lensflareStillYellow_obj" x="223" y="243" name="inst_58FE49D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lensflareStillYellow_obj" x="15" y="268" name="inst_1415D105" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="96" y="0" name="inst_0F11EFE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="dirtyLensEffectMenu_obj" x="0" y="0" name="inst_0AB24F42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="32" y="320" name="inst_007F71DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="96" y="320" name="inst_D15B5C94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="160" y="320" name="inst_D28532B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="224" y="320" name="inst_0C3A2E40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="288" y="320" name="inst_DF926C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="352" y="320" name="inst_07BADA11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="416" y="320" name="inst_B7C246EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="480" y="320" name="inst_725451D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="544" y="320" name="inst_CE9927BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="608" y="320" name="inst_0954166B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="608" y="256" name="inst_D7553229" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="608" y="192" name="inst_BB991E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="608" y="128" name="inst_6CBBE304" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="608" y="64" name="inst_731E4710" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="544" y="32" name="inst_F198C1AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="480" y="32" name="inst_3DA87BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="416" y="32" name="inst_F3D9543B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="352" y="32" name="inst_C0F64A49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="288" y="32" name="inst_2C7EAB9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="224" y="32" name="inst_C429CB1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="160" y="32" name="inst_7CAB5947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="96" y="32" name="inst_D9C44635" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="32" y="32" name="inst_71CE446F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="32" y="96" name="inst_EF275C72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="32" y="160" name="inst_FC37B1C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightFlickering_obj" x="32" y="224" name="inst_6FDD2A38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

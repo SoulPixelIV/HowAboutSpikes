@@ -139,7 +139,6 @@
     <sprite>sprites\easyModeBlock_spr</sprite>
     <sprite>sprites\easyModeBlockEditor_spr</sprite>
     <sprite>sprites\lockedBlock_spr</sprite>
-    <sprite>sprites\light_spr</sprite>
     <sprite>sprites\npcLola_spr</sprite>
     <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
@@ -231,6 +230,11 @@
       <sprite>sprites\leverBlue_spr</sprite>
       <sprite>sprites\leverRed_spr</sprite>
     </sprites>
+    <sprites name="Lights">
+      <sprite>sprites\light_spr</sprite>
+      <sprite>sprites\lightBlue_spr</sprite>
+      <sprite>sprites\lightRed_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -309,7 +313,6 @@
       <object>objects\woodBlockNewBG_obj</object>
       <object>objects\scytheLever_obj</object>
       <object>objects\scytheLeverBlockSolid_obj</object>
-      <object>objects\scytheLeverBlockEmpty_obj</object>
       <objects name="Snow Blocks">
         <object>objects\snowBlock_obj</object>
         <object>objects\snowBlock2_obj</object>
@@ -488,8 +491,12 @@
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
       <object>objects\particleWhite_obj</object>
+      <object>objects\particleCircleBlue_obj</object>
+      <object>objects\particleCircleRed_obj</object>
       <object>objects\particleYellowSpawner_obj</object>
       <object>objects\particleWhiteSpawner_obj</object>
+      <object>objects\particleCircleBlueSpawner_obj</object>
+      <object>objects\particleCircleRedSpawner_obj</object>
       <object>objects\woodBoxParticle_obj</object>
     </objects>
   </objects>
