@@ -51,6 +51,8 @@ instance_create(160, 160, cursor_obj);
             <kind>1</kind>
             <string>key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")) || gamepad_button_check_pressed(0, gp_padl);
+key_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")) || gamepad_button_check_pressed(0, gp_padr);
 key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
 
@@ -67,16 +69,16 @@ if (key_up)
     }
     if (buttonSelected == -1)
     {
-        buttonSelected = 1;
+        buttonSelected = 2;
     }
 }
 if (key_down)
 {
-    if (buttonSelected &lt; 2)
+    if (buttonSelected &lt; 3)
     {
         buttonSelected = buttonSelected + 1;
     }
-    if (buttonSelected == 2)
+    if (buttonSelected == 3)
     {
         buttonSelected = 0;
     }
@@ -98,10 +100,57 @@ if (buttonSelected == 0)
         }
     }
 }
+
 if (buttonSelected == 1)
 {
     cursor_obj.x = 276;
     cursor_obj.y = 215;
+    if (key_right &amp;&amp; global.brightnessCount &lt; 4)
+    {
+        global.brightnessCount += 1;
+    }
+    
+    if (global.brightnessCount &gt; 4)
+    {
+        global.brightnessCount = 0;
+    }
+    
+    if (key_left &amp;&amp; global.brightnessCount &gt; 0)
+    {
+        global.brightnessCount -= 1;
+    }
+    
+    if (global.brightnessCount &lt; 0)
+    {
+        global.brightnessCount = 4;
+    }
+    
+    if (global.brightnessCount == 0)
+    {
+        global.brightness = 1;
+    }
+    if (global.brightnessCount == 1)
+    {
+        global.brightness = 0.9;
+    }
+    if (global.brightnessCount == 2)
+    {
+        global.brightness = 0.8;
+    }
+    if (global.brightnessCount == 3)
+    {
+        global.brightness = 0.6;
+    }
+    if (global.brightnessCount == 4)
+    {
+        global.brightness = 0.45;
+    }
+}
+
+if (buttonSelected == 2)
+{
+    cursor_obj.x = 276;
+    cursor_obj.y = 247;
     if (key_enter)
     {
         room_goto(settingsMenu);
@@ -133,7 +182,28 @@ if (buttonSelected == 1)
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
 draw_text(16, 160, "Toggle Fullscreen");
-draw_text(16, 192, "Back");
+if (global.brightnessCount == 0)
+{
+    draw_text(16, 192, "Change Brightness Level ____");
+}
+if (global.brightnessCount == 1)
+{
+    draw_text(16, 192, "Change Brightness Level X___");
+}
+if (global.brightnessCount == 2)
+{
+    draw_text(16, 192, "Change Brightness Level XX__");
+}
+if (global.brightnessCount == 3)
+{
+    draw_text(16, 192, "Change Brightness Level XXX_");
+}
+if (global.brightnessCount == 4)
+{
+    draw_text(16, 192, "Change Brightness Level XXXX");
+}
+
+draw_text(16, 224, "Back");
 
 </string>
           </argument>
@@ -155,7 +225,8 @@ draw_text(16, 192, "Back");
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (file_exists("save1.has"))
+            <string>/*
+if (file_exists("save1.has"))
 {
     ini_open("save1.has");
     global.loadedRoom = ini_read_real("Save1", "current room", 1);
@@ -185,6 +256,7 @@ draw_text(16, 192, "Back");
     }
     ini_close();
 }
+*/
 </string>
           </argument>
         </arguments>

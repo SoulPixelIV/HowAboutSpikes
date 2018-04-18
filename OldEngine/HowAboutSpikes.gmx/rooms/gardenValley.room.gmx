@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="doorTutorial_obj" x="1504" y="896" name="inst_BDA9C8AF" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1376" y="992" name="inst_0741EACE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1344" y="992" name="inst_E3DA613B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="1312" y="992" name="inst_246000CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1719,8 +1718,8 @@
     <instance objName="snowBlock2_obj" x="1344" y="1120" name="inst_E3756133" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightControlNormal_obj" x="32" y="0" name="inst_3E694F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1024" y="960" name="inst_4E32F4F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="latern_obj" x="1568" y="928" name="inst_B6DB4553" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="latern_obj" x="1440" y="928" name="inst_93503C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1600" y="928" name="inst_B6DB4553" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="latern_obj" x="1408" y="928" name="inst_93503C5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1760" y="960" name="inst_5046C4FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="2176" y="960" name="inst_8AF2439E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="2464" y="992" name="inst_D5E49349" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2091,6 +2090,7 @@
     <instance objName="globalSettings_obj" x="160" y="0" name="inst_90299A93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleBlueSpawner_obj" x="192" y="0" name="inst_D352E6B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="224" y="0" name="inst_EEAB55C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="doorTutorial_obj" x="1504" y="896" name="inst_F73B7C68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

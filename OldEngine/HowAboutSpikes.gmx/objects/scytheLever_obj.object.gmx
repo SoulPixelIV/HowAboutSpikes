@@ -28,7 +28,8 @@
             <string>image_speed = 0;
 image_index = 0;
 
-global.leverBlock = false;
+timer = 200;
+leverBlock = false;
 
 </string>
           </argument>
@@ -54,14 +55,24 @@ global.leverBlock = false;
             <kind>1</kind>
             <string>if (place_meeting(x, y, scythe_obj))
 {
+    leverBlock = true;
+}
+
+if (leverBlock == true)
+{
+    timer = timer - 1;   
     image_index = 1;
     instance_deactivate_object(scytheLeverBlockSolid_obj);
 }
-else
+
+if (timer &lt; 0)
 {
-    image_index = 0;
+    leverBlock = false;
     instance_activate_object(scytheLeverBlockSolid_obj);
+    image_index = 0;
+    timer = 200;
 }
+
 </string>
           </argument>
         </arguments>
