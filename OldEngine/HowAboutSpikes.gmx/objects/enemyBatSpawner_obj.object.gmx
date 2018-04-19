@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawnTimer = 800;
+            <string>spawnTimer = 1200;
 </string>
           </argument>
         </arguments>
@@ -55,7 +55,14 @@
 if (spawnTimer &lt;= 0)
 {
     instance_create(x, y, enemyBat_obj);
-    spawnTimer = 800;
+    if (global.batPhase == 0)
+    {
+        spawnTimer = 1200;
+    }
+    else
+    {
+        spawnTimer = 350;
+    }
 }
 </string>
           </argument>

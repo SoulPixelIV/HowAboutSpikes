@@ -11,6 +11,8 @@
       <sound>sound\turretAlarm_snd</sound>
       <sound>sound\turretShot_snd</sound>
       <sound>sound\hit_snd</sound>
+      <sound>sound\walkGrass_snd</sound>
+      <sound>sound\walkSnow_snd</sound>
     </sounds>
     <sounds name="Music">
       <sound>sound\sound5</sound>
@@ -67,7 +69,6 @@
       <sprite>sprites\lavaBlock2_spr</sprite>
       <sprite>sprites\explosiveBlock_spr</sprite>
       <sprite>sprites\destroyCooldown_spr</sprite>
-      <sprite>sprites\stoneBlock_spr</sprite>
       <sprite>sprites\woodBlockNew_spr</sprite>
       <sprite>sprites\woodBlockNewBG_spr</sprite>
       <sprites name="Snow Blocks">
@@ -91,6 +92,10 @@
         <sprite>sprites\castleBlockLC_spr</sprite>
       </sprites>
       <sprite>sprites\boxWood_spr</sprite>
+      <sprites name="Stone Blocks">
+        <sprite>sprites\stoneBlock1_spr</sprite>
+        <sprite>sprites\stoneBlock2_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -128,7 +133,7 @@
     <sprite>sprites\blueFlowerIdle_spr</sprite>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
-      <sprite>sprites\door_spr</sprite>
+      <sprite>sprites\doorOld_spr</sprite>
       <sprite>sprites\stoneWall_spr</sprite>
       <sprite>sprites\sawOld_spr</sprite>
       <sprite>sprites\part_spr</sprite>
@@ -167,6 +172,7 @@
         <sprite>sprites\demon_spr</sprite>
       </sprites>
       <sprite>sprites\batIdle_spr</sprite>
+      <sprite>sprites\batStill_spr</sprite>
       <sprite>sprites\enemySpirit_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
@@ -204,6 +210,7 @@
     <sprites name="Particles">
       <sprite>sprites\particleYellow_spr</sprite>
       <sprite>sprites\particleWhite_spr</sprite>
+      <sprite>sprites\particleRed_spr</sprite>
       <sprite>sprites\woodBoxParticle_spr</sprite>
     </sprites>
     <sprites name="Decoration">
@@ -235,6 +242,12 @@
       <sprite>sprites\lightBlue_spr</sprite>
       <sprite>sprites\lightRed_spr</sprite>
     </sprites>
+    <sprite>sprites\treasurechest_spr</sprite>
+    <sprite>sprites\treasurechestOpen_spr</sprite>
+    <sprites name="Decoration">
+      <sprite>sprites\door_spr</sprite>
+      <sprite>sprites\doorOrbs_spr</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -246,6 +259,7 @@
     <background>background\castleBackground_bg</background>
     <background>background\lavaBackground_bg</background>
     <background>background\skyBackground_bg</background>
+    <background>background\mainMenu_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -365,6 +379,9 @@
       <object>objects\colliderSG3_DP_obj</object>
       <object>objects\colliderDP_UF1_obj</object>
       <object>objects\colliderGV_OP1_obj</object>
+      <object>objects\colliderOP1_OP2_obj</object>
+      <object>objects\colliderOP2_UF2_obj</object>
+      <object>objects\colliderUF2_OP3_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -474,6 +491,7 @@
       <object>objects\petBird_obj</object>
       <object>objects\warpzone_obj</object>
       <object>objects\scytheReload_obj</object>
+      <object>objects\treasurechest_obj</object>
     </objects>
     <objects name="Shaders">
       <object>objects\vignetteShaderBlue_obj</object>
@@ -491,10 +509,14 @@
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
       <object>objects\particleWhite_obj</object>
+      <object>objects\particleRedTemp_obj</object>
+      <object>objects\particleWhiteTemp_obj</object>
       <object>objects\particleCircleBlue_obj</object>
       <object>objects\particleCircleRed_obj</object>
       <object>objects\particleYellowSpawner_obj</object>
       <object>objects\particleWhiteSpawner_obj</object>
+      <object>objects\particleRedTempSpawner_obj</object>
+      <object>objects\particleWhiteTempSpawnerSlow_obj</object>
       <object>objects\particleCircleBlueSpawner_obj</object>
       <object>objects\particleCircleRedSpawner_obj</object>
       <object>objects\woodBoxParticle_obj</object>
@@ -528,7 +550,8 @@
     <room>rooms\sentinelGraves3</room>
     <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
-    <room>rooms\overcastPeek2</room>
+    <room>rooms\overcastPeak2</room>
+    <room>rooms\overcastPeak3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

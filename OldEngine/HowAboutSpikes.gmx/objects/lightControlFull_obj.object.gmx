@@ -95,6 +95,24 @@ else
             draw_set_blend_mode(bm_normal);
         }
     }
+    if (instance_exists(particleRedTemp_obj))
+    {
+        with(particleRedTemp_obj)
+        {
+            draw_set_blend_mode(bm_src_colour);
+            draw_sprite_ext(light_spr, 0, x*other.surfaceScale, y*other.surfaceScale, lightSize*other.surfaceScale, lightSize*other.surfaceScale, 0, c_white, lightStrength);
+            draw_set_blend_mode(bm_normal);
+        }
+    }
+    if (instance_exists(particleWhiteTemp_obj))
+    {
+        with(particleWhiteTemp_obj)
+        {
+            draw_set_blend_mode(bm_src_colour);
+            draw_sprite_ext(light_spr, 0, x*other.surfaceScale, y*other.surfaceScale, lightSize*other.surfaceScale, lightSize*other.surfaceScale, 0, c_white, lightStrength);
+            draw_set_blend_mode(bm_normal);
+        }
+    }
     if (instance_exists(particleCircleBlue_obj))
     {
         with(particleCircleBlue_obj)

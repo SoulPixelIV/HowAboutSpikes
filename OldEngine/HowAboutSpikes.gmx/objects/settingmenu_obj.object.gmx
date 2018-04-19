@@ -166,7 +166,8 @@ draw_text(16, 256, "Back")
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (file_exists("save1.has"))
+            <string>/*
+if (file_exists("save1.has"))
 {
     ini_open("save1.has");
     global.loadedRoom = ini_read_real("Save1", "current room", 1);
@@ -196,6 +197,7 @@ draw_text(16, 256, "Back")
     }
     ini_close();
 }
+*/
 </string>
           </argument>
         </arguments>

@@ -15,3 +15,5 @@ global.pickedPet = false;
 global.pickedRed = false;
 global.pickedBlue = false;
 
+global.brightness = 1;
+global.brightnessCount = 0;

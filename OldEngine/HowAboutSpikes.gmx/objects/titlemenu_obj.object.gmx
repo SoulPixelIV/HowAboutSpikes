@@ -55,7 +55,7 @@
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
 draw_text(16, 160, "Press Start")
-
+/*
 if (file_exists("save1.has"))
 {
     ini_open("save1.has");
@@ -86,6 +86,7 @@ if (file_exists("save1.has"))
     }
     ini_close();
 }
+*/
 </string>
           </argument>
         </arguments>
