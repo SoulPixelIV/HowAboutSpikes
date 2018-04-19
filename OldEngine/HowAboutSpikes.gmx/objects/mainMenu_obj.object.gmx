@@ -101,6 +101,10 @@ if (buttonSelected == 0)
             room_goto(global.loadedRoom);
             ini_close();
         }
+        else
+        {
+            // TODO: Tell the player there's nothing to continue from
+        }
     }    
 }
 if (buttonSelected == 1)
