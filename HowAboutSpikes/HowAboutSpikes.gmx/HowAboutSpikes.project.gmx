@@ -258,6 +258,8 @@
       <sprite>sprites\door_spr</sprite>
       <sprite>sprites\doorOrbs_spr</sprite>
     </sprites>
+    <sprite>sprites\spiderweb_spr</sprite>
+    <sprite>sprites\explosion</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
