@@ -1,2 +1,0 @@
-global.picked = false;
-

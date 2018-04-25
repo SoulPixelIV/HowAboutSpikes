@@ -1,2 +1,0 @@
-spawnTime = 200;
-

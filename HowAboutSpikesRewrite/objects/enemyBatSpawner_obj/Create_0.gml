@@ -1,2 +1,0 @@
-spawnTimer = 800;
-
