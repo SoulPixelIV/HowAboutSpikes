@@ -163,6 +163,7 @@
       </sprites>
       <sprite>sprites\saw_spr</sprite>
       <sprite>sprites\orbRed_spr</sprite>
+      <sprite>sprites\fire_spr</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\slime_spr</sprite>
@@ -472,6 +473,7 @@
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
+      <object>objects\fire_obj</object>
       <object>objects\spikeRed_obj</object>
       <object>objects\spikeHalf_obj</object>
       <object>objects\spikeMystery_obj</object>
