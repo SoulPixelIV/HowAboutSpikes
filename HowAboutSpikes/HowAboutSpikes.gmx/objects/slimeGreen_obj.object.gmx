@@ -198,7 +198,7 @@ if (enemyHealth &lt;= 0)
             <kind>1</kind>
             <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
 {
-    with(enemyNormal_obj)
+    with(slimeGreen_obj)
     {
         enemyHealth = 100;
         x = startPosX;

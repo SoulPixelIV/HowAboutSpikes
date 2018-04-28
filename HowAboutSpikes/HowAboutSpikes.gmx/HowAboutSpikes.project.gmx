@@ -40,10 +40,6 @@
         <sprite>sprites\playerInvincibleOLD_spr</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\checkpoint_spr</sprite>
-    <sprite>sprites\ladder_spr</sprite>
-    <sprite>sprites\ladderIron_spr</sprite>
-    <sprite>sprites\house_spr</sprite>
     <sprites name="Hitboxes">
       <sprite>sprites\blue_spr</sprite>
       <sprite>sprites\hitbox96_spr</sprite>
@@ -84,10 +80,11 @@
       <sprites name="Dark Blocks">
         <sprite>sprites\darkBlock_spr</sprite>
       </sprites>
-      <sprites name="Castle Blocks">
+      <sprites name="Stone Blocks">
         <sprite>sprites\castleBlock_spr</sprite>
         <sprite>sprites\castleBlockRC_spr</sprite>
         <sprite>sprites\castleBlockLC_spr</sprite>
+        <sprite>sprites\stoneBlockGrey_spr</sprite>
       </sprites>
       <sprite>sprites\boxWood_spr</sprite>
       <sprites name="Stone Blocks">
@@ -99,12 +96,29 @@
         <sprite>sprites\blueSign_spr</sprite>
         <sprite>sprites\cityGroundBlock_spr</sprite>
       </sprites>
+      <sprites name="Obsidian Blocks">
+        <sprite>sprites\obsidianBlock_spr</sprite>
+        <sprite>sprites\obsidianLightBlock_spr</sprite>
+      </sprites>
+      <sprite>sprites\checkpoint_spr</sprite>
+      <sprite>sprites\ladder_spr</sprite>
+      <sprite>sprites\ladderIron_spr</sprite>
+      <sprite>sprites\easyModeBlock_spr</sprite>
+      <sprite>sprites\scytheLever_spr</sprite>
+      <sprite>sprites\scytheLeverBlock_spr</sprite>
+      <sprite>sprites\boulder_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
       <sprite>sprites\darkSpiritBig_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
       <sprite>sprites\key_spr</sprite>
+      <sprite>sprites\redOrb_spr</sprite>
+      <sprite>sprites\blueOrb_spr</sprite>
+      <sprites name="TreasureChest">
+        <sprite>sprites\treasurechestOpen_spr</sprite>
+        <sprite>sprites\treasurechest_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
@@ -121,19 +135,8 @@
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\spikeFallingIcon_spr</sprite>
       <sprite>sprites\aIcon_spr</sprite>
+      <sprite>sprites\easyModeBlockEditor_spr</sprite>
     </sprites>
-    <sprite>sprites\bulletOld_spr</sprite>
-    <sprite>sprites\breakingPlatform_spr</sprite>
-    <sprite>sprites\gameover_spr</sprite>
-    <sprite>sprites\bird_spr</sprite>
-    <sprite>sprites\bird_anim</sprite>
-    <sprite>sprites\petBird_anim</sprite>
-    <sprite>sprites\vine_spr</sprite>
-    <sprite>sprites\aDog_spr</sprite>
-    <sprite>sprites\aDogIdle_spr</sprite>
-    <sprite>sprites\nest_spr</sprite>
-    <sprite>sprites\redFlowerIdle_spr</sprite>
-    <sprite>sprites\blueFlowerIdle_spr</sprite>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
       <sprite>sprites\doorOld_spr</sprite>
@@ -142,15 +145,23 @@
       <sprite>sprites\part_spr</sprite>
       <sprite>sprites\birdOld_spr</sprite>
       <sprite>sprites\birdOld_anim</sprite>
+      <sprite>sprites\house_spr</sprite>
+      <sprite>sprites\bulletOld_spr</sprite>
+      <sprite>sprites\breakingPlatform_spr</sprite>
+      <sprite>sprites\vine_spr</sprite>
+      <sprite>sprites\aDog_spr</sprite>
+      <sprite>sprites\aDogIdle_spr</sprite>
+      <sprite>sprites\spikeBig_spr</sprite>
+      <sprite>sprites\lockedBlock_spr</sprite>
+      <sprite>sprites\npcLola_spr</sprite>
+      <sprite>sprites\niclasHatSpa_</sprite>
+      <sprite>sprites\warpzone_spr</sprite>
+      <sprite>sprites\explosion_anim</sprite>
+      <sprite>sprites\pipe_spr</sprite>
     </sprites>
-    <sprite>sprites\spikeBig_spr</sprite>
-    <sprite>sprites\easyModeBlock_spr</sprite>
-    <sprite>sprites\easyModeBlockEditor_spr</sprite>
-    <sprite>sprites\lockedBlock_spr</sprite>
-    <sprite>sprites\npcLola_spr</sprite>
-    <sprite>sprites\niclasHatSpa_</sprite>
     <sprites name="Hazards">
       <sprite>sprites\spike_spr</sprite>
+      <sprite>sprites\spikeMoving_spr</sprite>
       <sprite>sprites\spikeDown_spr</sprite>
       <sprite>sprites\spikeRed_spr</sprite>
       <sprite>sprites\spikeHalf_spr</sprite>
@@ -171,6 +182,7 @@
       <sprite>sprites\enemyFlyingCloud</sprite>
       <sprite>sprites\flyingCloud_spr</sprite>
       <sprite>sprites\enemy2_spr</sprite>
+      <sprite>sprites\enemySkeletonRed_spr</sprite>
       <sprites name="Demon">
         <sprite>sprites\demonSpawner_spr</sprite>
         <sprite>sprites\demon_spr</sprite>
@@ -187,7 +199,6 @@
       <sprite>sprites\tutorialSign4_spr</sprite>
       <sprite>sprites\tutorialSign5_spr</sprite>
     </sprites>
-    <sprite>sprites\rope_spr</sprite>
     <sprites name="Shaders">
       <sprite>sprites\lensflareStillBlue_spr</sprite>
       <sprite>sprites\lensflareStillYellow_spr</sprite>
@@ -207,16 +218,12 @@
         <sprite>sprites\waterEffect_spr</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\warpzone_spr</sprite>
-    <sprite>sprites\explosion_anim</sprite>
-    <sprite>sprites\redOrb_spr</sprite>
-    <sprite>sprites\blueOrb_spr</sprite>
-    <sprite>sprites\pipe_spr</sprite>
     <sprites name="Particles">
       <sprite>sprites\particleYellow_spr</sprite>
       <sprite>sprites\particleWhite_spr</sprite>
       <sprite>sprites\particleRed_spr</sprite>
       <sprite>sprites\woodBoxParticle_spr</sprite>
+      <sprite>sprites\explosion_spr</sprite>
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\train_spr</sprite>
@@ -227,10 +234,20 @@
       <sprite>sprites\torch_spr</sprite>
       <sprite>sprites\bunny_spr</sprite>
       <sprite>sprites\torchStand_spr</sprite>
+      <sprite>sprites\door_spr</sprite>
+      <sprite>sprites\doorOrbs_spr</sprite>
+      <sprites name="Bird">
+        <sprite>sprites\bird_anim</sprite>
+        <sprite>sprites\bird_spr</sprite>
+        <sprite>sprites\petBird_anim</sprite>
+      </sprites>
+      <sprite>sprites\nest_spr</sprite>
+      <sprite>sprites\redFlowerIdle_spr</sprite>
+      <sprite>sprites\blueFlowerIdle_spr</sprite>
+      <sprite>sprites\rope_spr</sprite>
+      <sprite>sprites\spiderweb_spr</sprite>
+      <sprite>sprites\plantWeird_spr</sprite>
     </sprites>
-    <sprite>sprites\test</sprite>
-    <sprite>sprites\scytheLever_spr</sprite>
-    <sprite>sprites\scytheLeverBlock_spr</sprite>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
       <sprite>sprites\npcOldLady_spr</sprite>
@@ -253,14 +270,9 @@
       <sprite>sprites\lightBlue_spr</sprite>
       <sprite>sprites\lightRed_spr</sprite>
     </sprites>
-    <sprite>sprites\treasurechest_spr</sprite>
-    <sprite>sprites\treasurechestOpen_spr</sprite>
-    <sprites name="Decoration">
-      <sprite>sprites\door_spr</sprite>
-      <sprite>sprites\doorOrbs_spr</sprite>
+    <sprites name="UI">
+      <sprite>sprites\gameover_spr</sprite>
     </sprites>
-    <sprite>sprites\spiderweb_spr</sprite>
-    <sprite>sprites\explosion</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\testLvl_bg</background>
@@ -319,7 +331,6 @@
       <object>objects\lavaBlock2_obj</object>
       <object>objects\lavaBlockRC_obj</object>
       <object>objects\lavaBlockLC_obj</object>
-      <object>objects\woodBlock_obj</object>
       <object>objects\woodBlock2_obj</object>
       <object>objects\leafBlock_obj</object>
       <object>objects\treeBlock_obj</object>
@@ -363,10 +374,11 @@
         <object>objects\water_obj</object>
         <object>objects\waterEffect_obj</object>
       </objects>
-      <objects name="Castle Blocks">
+      <objects name="Stone Blocks">
         <object>objects\castleBlock_obj</object>
         <object>objects\castleBlockRC_obj</object>
         <object>objects\castleBlockLC_obj</object>
+        <object>objects\stoneBlockGrey_obj</object>
       </objects>
       <object>objects\boxWood_obj</object>
       <objects name="City Blocks">
@@ -436,6 +448,7 @@
       <object>objects\trainSign_obj</object>
       <object>objects\statue_obj</object>
       <object>objects\torch_obj</object>
+      <object>objects\spiderweb_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -445,6 +458,7 @@
       <object>objects\enemyBat_obj</object>
       <object>objects\enemySpirit_obj</object>
       <object>objects\enemyNormal2_obj</object>
+      <object>objects\enemySkeletonRed_obj</object>
       <object>objects\enemyMystery_obj</object>
       <object>objects\enemy_obj</object>
       <object>objects\enemyFlyingCloud_obj</object>
@@ -473,6 +487,7 @@
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
+      <object>objects\spikeMoving_obj</object>
       <object>objects\fire_obj</object>
       <object>objects\spikeRed_obj</object>
       <object>objects\spikeHalf_obj</object>
