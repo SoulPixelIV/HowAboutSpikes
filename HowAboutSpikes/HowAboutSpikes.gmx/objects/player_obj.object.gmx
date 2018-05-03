@@ -745,6 +745,7 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
     instance_activate_object(enemyBat_obj);
     instance_activate_object(scytheReload_obj);
     instance_activate_object(boxWood_obj);
+    instance_activate_object(grassBlock2Boss_obj);
     other.image_index = 1;
     noDamage = false;
     if (global.restart == false)
@@ -950,10 +951,10 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != overcastPeak1)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != unknownForestBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak1);
+    room_goto(unknownForestBoss);
 }
 
 if (keyboard_check_pressed(ord('2')) &amp;&amp; room != overcastPeak2)

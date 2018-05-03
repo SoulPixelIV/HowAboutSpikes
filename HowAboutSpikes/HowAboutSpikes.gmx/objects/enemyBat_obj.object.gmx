@@ -118,7 +118,7 @@ if (enemyHealth &lt;= 0)
 if (place_meeting(x, y, player_obj))
 {
     global.hit = true;
-    instance_destroy();
+    instance_deactivate_object(self);
 }
 </string>
           </argument>

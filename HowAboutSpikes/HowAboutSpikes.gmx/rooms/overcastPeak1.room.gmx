@@ -435,6 +435,10 @@
     <instance objName="OPDoor_obj" x="640" y="352" name="inst_963924BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderOP1_OP2_obj" x="1242" y="424" name="inst_50ADA897" locked="0" code="" scaleX="1.5" scaleY="4.17000007629395" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="1136" y="395" name="inst_23C1D339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1YellowShader_obj" x="64" y="-32" name="inst_1EF2B81C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1YellowShader_obj" x="736" y="-32" name="inst_43BF6877" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="256" y="288" name="inst_35A9ADE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="832" y="416" name="inst_C32291BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

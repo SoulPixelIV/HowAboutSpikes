@@ -52,7 +52,7 @@
 
 if (spawnTimer &lt; 0)
 {
-    instance_create(x, y, enemyBat_obj);
+    instance_create(x, y, enemyBatSpawn_obj);
     if (global.batPhase == 0)
     {
         spawnTimer = 1000;

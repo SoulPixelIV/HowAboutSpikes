@@ -2784,6 +2784,18 @@
     <instance objName="spiderweb_obj" x="736" y="928" name="inst_AD209CA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spiderweb_obj" x="754" y="911" name="inst_C31182A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spiderweb_obj" x="723" y="906" name="inst_48CB02BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="-96" y="576" name="inst_2233D40D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="576" y="672" name="inst_BE6E88FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="1216" y="640" name="inst_8B742EC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="1920" y="768" name="inst_E91FFB2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="2816" y="448" name="inst_4F644086" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="2528" y="384" name="inst_F5B5A25D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="0" y="256" name="inst_8D178F3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="224" y="-64" name="inst_9B41FA86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="896" y="-160" name="inst_08A07870" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="1568" y="-32" name="inst_2A0AA0F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="2496" y="-64" name="inst_2F0170C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="2880" y="-32" name="inst_0D082A8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

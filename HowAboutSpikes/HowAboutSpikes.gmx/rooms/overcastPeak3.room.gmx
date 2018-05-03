@@ -1257,6 +1257,12 @@
     <instance objName="enemySkeletonRed_obj" x="800" y="352" name="inst_6A50A38C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1600" y="768" name="inst_86929914" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1376" y="800" name="inst_182D7D6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1YellowShader_obj" x="-32" y="-64" name="inst_CE617A63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1YellowShader_obj" x="864" y="-160" name="inst_CCCE39F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1YellowShader_obj" x="1664" y="-64" name="inst_5F7708FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="160" y="480" name="inst_690FE754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="864" y="256" name="inst_881DCF4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="1600" y="256" name="inst_2661279F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

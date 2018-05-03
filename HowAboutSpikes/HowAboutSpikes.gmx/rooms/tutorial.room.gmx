@@ -2059,6 +2059,17 @@
     <instance objName="ladder_obj" x="1728" y="1728" name="inst_BFD931B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlockNewBG_obj" x="1728" y="1696" name="inst_27E4DADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spiderweb_obj" x="1984" y="1632" name="inst_8349FFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="-96" y="1568" name="inst_D0A07970" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="992" y="1600" name="inst_AD69AF33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="1504" y="1440" name="inst_9B997E7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="3136" y="1312" name="inst_1D585D6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="3488" y="928" name="inst_8FB66CE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="1728" y="640" name="inst_7B962745" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="320" y="704" name="inst_5A0768AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="-128" y="-128" name="inst_576C81A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="1760" y="-128" name="inst_6C0BFA8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="736" y="1440" name="inst_09BC65D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="2304" y="1440" name="inst_6B0D9FD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

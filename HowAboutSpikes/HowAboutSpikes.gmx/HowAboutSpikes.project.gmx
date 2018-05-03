@@ -76,6 +76,7 @@
         <sprite>sprites\grassBlockRC_spr</sprite>
         <sprite>sprites\grassBlockLC_spr</sprite>
         <sprite>sprites\grassBlock2_spr</sprite>
+        <sprite>sprites\grassBlock2Boss_spr</sprite>
       </sprites>
       <sprites name="Dark Blocks">
         <sprite>sprites\darkBlock_spr</sprite>
@@ -136,6 +137,12 @@
       <sprite>sprites\spikeFallingIcon_spr</sprite>
       <sprite>sprites\aIcon_spr</sprite>
       <sprite>sprites\easyModeBlockEditor_spr</sprite>
+      <sprite>sprites\shaderBlueLight1Icon_spr</sprite>
+      <sprite>sprites\shaderRedLight1Icon_spr</sprite>
+      <sprite>sprites\shaderYellowLight1Icon_spr</sprite>
+      <sprite>sprites\shaderBlueLight2Icon_spr</sprite>
+      <sprite>sprites\shaderRedLight2Icon_spr</sprite>
+      <sprite>sprites\shaderYellowLight2Icon_spr</sprite>
     </sprites>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
@@ -206,6 +213,12 @@
       <sprite>sprites\lensflareFollowBlue_spr</sprite>
       <sprite>sprites\dirtyLensEffectMenu_spr</sprite>
       <sprite>sprites\dirtyLensEffect_spr</sprite>
+      <sprite>sprites\sunLight1Yellow_spr</sprite>
+      <sprite>sprites\sunLight1Blue_spr</sprite>
+      <sprite>sprites\sunLight1Red_spr</sprite>
+      <sprite>sprites\sunLight2Yellow_spr</sprite>
+      <sprite>sprites\sunLight2Blue_spr</sprite>
+      <sprite>sprites\sunLight2Red_spr</sprite>
     </sprites>
     <sprites name="Water">
       <sprites name="Forest">
@@ -251,6 +264,7 @@
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
       <sprite>sprites\npcOldLady_spr</sprite>
+      <sprite>sprites\npcRingDealer_spr</sprite>
       <sprite>sprites\npcShopkeeper_spr</sprite>
       <sprite>sprites\monitor_spr</sprite>
     </sprites>
@@ -366,6 +380,7 @@
         <object>objects\grassBlockRC_obj</object>
         <object>objects\grassBlockLC_obj</object>
         <object>objects\grassBlock2_obj</object>
+        <object>objects\grassBlock2Boss_obj</object>
       </objects>
       <objects name="Dark Blocks">
         <object>objects\darkBlock_obj</object>
@@ -457,6 +472,7 @@
       <object>objects\slimeGreen_obj</object>
       <object>objects\enemyBatSpawner_obj</object>
       <object>objects\enemyBat_obj</object>
+      <object>objects\enemyBatSpawn_obj</object>
       <object>objects\enemySpirit_obj</object>
       <object>objects\enemyNormal2_obj</object>
       <object>objects\enemySkeletonRed_obj</object>
@@ -485,6 +501,7 @@
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
+      <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
@@ -542,6 +559,12 @@
       <object>objects\lensflareFollowYellow_obj</object>
       <object>objects\lensflareFollowBlue_obj</object>
       <object>objects\dirtyLensEffectMenu_obj</object>
+      <object>objects\sunLight1YellowShader_obj</object>
+      <object>objects\sunLight1BlueShader_obj</object>
+      <object>objects\sunLight1RedShader_obj</object>
+      <object>objects\sunLight2YellowShader_obj</object>
+      <object>objects\sunLight2BlueShader_obj</object>
+      <object>objects\sunLight2RedShader_obj</object>
     </objects>
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>

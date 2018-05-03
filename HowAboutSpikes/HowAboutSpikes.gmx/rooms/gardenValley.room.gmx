@@ -2091,6 +2091,15 @@
     <instance objName="particleCircleBlueSpawner_obj" x="192" y="0" name="inst_D352E6B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="224" y="0" name="inst_EEAB55C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="doorTutorial_obj" x="1504" y="896" name="inst_F73B7C68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="1152" y="608" name="inst_3CAC563D" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="2656" y="608" name="inst_B0027D78" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="2368" y="448" name="inst_B1319EC8" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="2144" y="64" name="inst_31FA4D23" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="480" y="192" name="inst_2CDF89AB" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="960" y="928" name="inst_F4D05E91" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="928" y="512" name="inst_A442C775" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1BlueShader_obj" x="1696" y="640" name="inst_6775C281" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="3232" y="544" name="inst_CB164F11" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

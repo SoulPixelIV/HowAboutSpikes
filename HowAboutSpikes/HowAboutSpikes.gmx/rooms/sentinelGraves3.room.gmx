@@ -277,6 +277,7 @@
     <instance objName="darkBlock_obj" x="448" y="800" name="inst_9CEFDB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="736" y="704" name="inst_FAEAC3F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="672" y="544" name="inst_7B1FE6AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcRingDealer_obj" x="847" y="880" name="inst_46B59A96" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

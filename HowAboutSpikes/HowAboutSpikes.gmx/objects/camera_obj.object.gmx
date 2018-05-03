@@ -25,38 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Set Camera View
-if (instance_exists(player_obj))
-{
-    view_xview[0] = player_obj.x - (cameraWidth/2);
-    view_yview[0] = player_obj.y - (cameraHeight/2);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Vars
 cameraSpeed = 0.06;
 cameraWidth = 640;
 cameraHeight = 360;
 
 global.transition = false;
+
+//Set Camera View
+if (instance_exists(player_obj))
+{
+    view_xview[0] = player_obj.x - (cameraWidth/2);
+    view_yview[0] = player_obj.y - (cameraHeight/2);
+}
 </string>
           </argument>
         </arguments>

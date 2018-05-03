@@ -827,6 +827,11 @@
     <instance objName="globalSettings_obj" x="64" y="0" name="inst_FF304C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleBlueSpawner_obj" x="96" y="0" name="inst_8FF649F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="128" y="0" name="inst_4A1DC606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="64" y="256" name="inst_2D5553DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="800" y="0" name="inst_125F11E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="256" y="800" name="inst_50FC225F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="1024" y="352" name="inst_E8A9B732" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2YellowShader_obj" x="1056" y="800" name="inst_FC9FB393" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

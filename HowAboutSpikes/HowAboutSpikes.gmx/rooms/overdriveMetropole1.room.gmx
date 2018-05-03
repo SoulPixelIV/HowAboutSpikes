@@ -376,14 +376,12 @@
     <instance objName="spikeUp_obj" x="928" y="672" name="inst_C4D8643C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="960" y="672" name="inst_B625F94D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="992" y="672" name="inst_29BA807B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="992" y="576" name="inst_56D8CB0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1088" y="672" name="inst_50125A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1120" y="672" name="inst_B1F2EFB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1152" y="672" name="inst_E8F83A8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1216" y="672" name="inst_B95FA626" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1152" y="576" name="inst_A8EF8D6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1184" y="576" name="inst_58BA2AC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="1216" y="576" name="inst_718F090F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1248" y="672" name="inst_8E30130C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1280" y="672" name="inst_63EB3A60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1312" y="672" name="inst_A5D17678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -426,10 +424,8 @@
     <instance objName="spikeUp_obj" x="1056" y="480" name="inst_DD2B2A0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1024" y="480" name="inst_6D634B83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="992" y="480" name="inst_1C6FF702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="1088" y="384" name="inst_91E30458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1056" y="384" name="inst_21454529" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1024" y="384" name="inst_504C9F69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="992" y="384" name="inst_586298D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="redSign_obj" x="992" y="352" name="inst_65BE2664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="1024" y="352" name="inst_3184CE66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="1056" y="352" name="inst_6C990552" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -481,7 +477,6 @@
     <instance objName="cityGroundBlock_obj" x="704" y="256" name="inst_713FDE99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="672" y="256" name="inst_C43F79C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="640" y="256" name="inst_4EA19720" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal_obj" x="1536" y="448" name="inst_4E0261CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBat_obj" x="1403" y="346" name="inst_64EB3CE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="864" y="256" name="inst_0D99DCC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="896" y="256" name="inst_534AA7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -507,14 +502,12 @@
     <instance objName="spikeUp_obj" x="864" y="288" name="inst_3D7A305E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="832" y="288" name="inst_D6D1F9DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="800" y="288" name="inst_10E48448" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
-    <instance objName="spikeUp_obj" x="736" y="320" name="inst_46898A84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="cityGroundBlock_obj" x="736" y="288" name="inst_685DC321" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="704" y="288" name="inst_405D0948" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="672" y="288" name="inst_A95DD506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="640" y="288" name="inst_E62D8D7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="640" y="320" name="inst_779A3978" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="640" y="288" name="inst_08C0EBEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="768" y="288" name="inst_76ADC5CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="704" y="320" name="inst_6AB9D9B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="672" y="320" name="inst_7F03D10A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="ladderIron_obj" x="544" y="352" name="inst_C94A9EB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -679,7 +672,6 @@
     <instance objName="blueSign_obj" x="1376" y="160" name="inst_C6DC0767" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1344" y="160" name="inst_184384F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1312" y="160" name="inst_9F8231A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="955" y="282" name="inst_41E7A7A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBat_obj" x="916" y="282" name="inst_1DAD3AFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="slimeGreen_obj" x="928" y="480" name="inst_6E3CACE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="1600" y="480" name="inst_43FC7B5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1023,7 +1015,7 @@
     <instance objName="redSign_obj" x="1824" y="576" name="inst_8FD7E2FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="1792" y="576" name="inst_B3EB2EA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="1760" y="576" name="inst_64326676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redSign_obj" x="1760" y="544" name="inst_7F028561" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redSign_obj" x="1792" y="544" name="inst_7F028561" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="2016" y="608" name="inst_5C98E444" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="2016" y="480" name="inst_9AA1AD56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="redSign_obj" x="1984" y="480" name="inst_F8D0BC35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1122,30 +1114,60 @@
     <instance objName="cityGroundBlock_obj" x="2368" y="384" name="inst_1B1088CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2368" y="352" name="inst_10C02049" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2528" y="288" name="inst_EB4FCEA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2528" y="352" name="inst_2ABE6423" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2528" y="416" name="inst_B1753BB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2528" y="480" name="inst_1BAAD02F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2366" y="410" name="inst_11C283B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2328" y="411" name="inst_20FB7E47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="2304" y="384" name="inst_A2695725" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2296" y="411" name="inst_C1866784" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2304" y="352" name="inst_945A271F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueSign_obj" x="2176" y="416" name="inst_8CD5E78C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueSign_obj" x="2176" y="512" name="inst_BAE381AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueSign_obj" x="2176" y="608" name="inst_841F2EAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2176" y="576" name="inst_ED1B6F8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2176" y="480" name="inst_60FAD19B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2176" y="384" name="inst_8EC77E94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2272" y="704" name="inst_63C3AAB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2304" y="704" name="inst_11DA56BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2336" y="704" name="inst_3900285F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2368" y="704" name="inst_C75959FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2400" y="704" name="inst_A27F9A68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2384" y="603" name="inst_F1D2B578" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2357" y="604" name="inst_E53D8139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2327" y="605" name="inst_3E9E2D02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2300" y="606" name="inst_89F20151" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="2270" y="605" name="inst_638AD21B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="1536" y="448" name="inst_5B5D9084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="992" y="576" name="inst_84308B65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="1216" y="576" name="inst_FDEA1693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="1088" y="384" name="inst_54F1B49D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="736" y="320" name="inst_96E3F953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeFalling_obj" x="768" y="288" name="inst_4DE7BC29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1824" y="128" name="inst_7DD4F7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1824" y="96" name="inst_3E721D05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1920" y="96" name="inst_38B2279D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1920" y="128" name="inst_D21D58CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1984" y="96" name="inst_59E45C7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1984" y="128" name="inst_5685E416" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2080" y="96" name="inst_BCAD0B87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2080" y="128" name="inst_C37D1A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2144" y="96" name="inst_26D8B639" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2144" y="128" name="inst_10A280EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2112" y="96" name="inst_C1F328E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2112" y="128" name="inst_7E7257A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2048" y="96" name="inst_4752A89E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2016" y="96" name="inst_DFBD90EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1952" y="96" name="inst_A36BBD33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1888" y="96" name="inst_DAF7811D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1856" y="96" name="inst_0FDB4A55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="1792" y="96" name="inst_5F74170F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2176" y="96" name="inst_840A3605" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2528" y="352" name="inst_696C6E0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2528" y="416" name="inst_D294BBD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="cityGroundBlock_obj" x="2528" y="480" name="inst_40024497" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1920" y="704" name="inst_23C13080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1856" y="704" name="inst_EA2D71DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1664" y="704" name="inst_357A93E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1696" y="704" name="inst_E87BEBA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1728" y="704" name="inst_646F3002" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="352" name="inst_E84C4BC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="384" name="inst_EE1B73A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="416" name="inst_6528DDE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="448" name="inst_1DD28E87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="480" name="inst_7840C935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="512" name="inst_F0153F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="544" name="inst_F85E100B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="576" name="inst_3EE77993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1664" y="608" name="inst_869DD160" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1696" y="352" name="inst_A2C2CC1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="1696" y="384" name="inst_2F90BF54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1760" y="544" name="inst_C244A937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1856" y="448" name="inst_4040B011" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1888" y="448" name="inst_FB0D1A33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="redSign_obj" x="2016" y="448" name="inst_5AB483A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
