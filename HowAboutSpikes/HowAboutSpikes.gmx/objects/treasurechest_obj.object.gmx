@@ -29,6 +29,7 @@
 closed = true;
 
 instance_create(x, y, particleWhiteTempSpawnerSlow_obj);
+instance_create(x, y, lightRays_obj);
 
 if (place_meeting(x, y, darkSpiritBig_obj))
 {
@@ -96,8 +97,6 @@ if (place_meeting(x, y, enemyNormal2_obj))
           <argument>
             <kind>1</kind>
             <string>key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
-
-image_speed = 0.06;
 
 if (distance_to_object(player_obj) &lt; 8 &amp;&amp; (key_jump) &amp;&amp; closed == true)
 {

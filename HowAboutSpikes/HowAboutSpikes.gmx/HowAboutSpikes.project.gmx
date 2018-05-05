@@ -81,11 +81,10 @@
       <sprites name="Dark Blocks">
         <sprite>sprites\darkBlock_spr</sprite>
       </sprites>
-      <sprites name="Stone Blocks">
+      <sprites name="Castle Blocks">
         <sprite>sprites\castleBlock_spr</sprite>
         <sprite>sprites\castleBlockRC_spr</sprite>
         <sprite>sprites\castleBlockLC_spr</sprite>
-        <sprite>sprites\stoneBlockGrey_spr</sprite>
       </sprites>
       <sprite>sprites\boxWood_spr</sprite>
       <sprites name="Stone Blocks">
@@ -108,6 +107,11 @@
       <sprite>sprites\scytheLever_spr</sprite>
       <sprite>sprites\scytheLeverBlock_spr</sprite>
       <sprite>sprites\boulder_spr</sprite>
+      <sprites name="Brick Blocks">
+        <sprite>sprites\stoneBlockGrey_spr</sprite>
+        <sprite>sprites\stoneBlockGreyRC_spr</sprite>
+        <sprite>sprites\stoneBlockGreyLC_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -219,6 +223,7 @@
       <sprite>sprites\sunLight2Yellow_spr</sprite>
       <sprite>sprites\sunLight2Blue_spr</sprite>
       <sprite>sprites\sunLight2Red_spr</sprite>
+      <sprite>sprites\lightRays_spr</sprite>
     </sprites>
     <sprites name="Water">
       <sprites name="Forest">
@@ -394,7 +399,6 @@
         <object>objects\castleBlock_obj</object>
         <object>objects\castleBlockRC_obj</object>
         <object>objects\castleBlockLC_obj</object>
-        <object>objects\stoneBlockGrey_obj</object>
       </objects>
       <object>objects\boxWood_obj</object>
       <objects name="City Blocks">
@@ -402,6 +406,7 @@
         <object>objects\blueSign_obj</object>
         <object>objects\cityGroundBlock_obj</object>
       </objects>
+      <object>objects\stoneBlockGrey_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -565,6 +570,7 @@
       <object>objects\sunLight2YellowShader_obj</object>
       <object>objects\sunLight2BlueShader_obj</object>
       <object>objects\sunLight2RedShader_obj</object>
+      <object>objects\lightRays_obj</object>
     </objects>
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>

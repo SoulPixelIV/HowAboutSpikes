@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>global.pickedPet = false;
+
+instance_create(x, y, lightRays_obj);
 </string>
           </argument>
         </arguments>
