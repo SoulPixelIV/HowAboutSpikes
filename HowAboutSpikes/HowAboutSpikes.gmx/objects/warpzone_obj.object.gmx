@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>playerInst = player_obj;
+image_speed = 0.25;
 
 if (place_meeting(x, y, player_obj))
 {

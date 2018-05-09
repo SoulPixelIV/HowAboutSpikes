@@ -79,6 +79,8 @@ animPause = false;
 fullJump = false;
 dash = true;
 dashTimer = 7;
+savePosX = 0;
+savePosY = 0;
 
 global.hit = false;
 global.state = 0;
@@ -301,6 +303,19 @@ if (dashTimer &lt;= 0 || grounded == true || onLadder == true)
     dash = false;
     global.movSpeed = 2.65;
     dashTimer = 7;
+}
+
+//###OutsideSolid###
+if (place_free(x, y))
+{
+    savePosX = x;
+    savePosY = y;
+}
+else
+{
+    x = savePosX;
+    y = savePosY;
+    verSpeed = 0;
 }
 
 //###Scythe Throw###

@@ -49,7 +49,7 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>key_enter = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+            <string>key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
 
 if (distance_to_object(player_obj) &lt; 32 &amp;&amp; key_enter)
 {
@@ -60,6 +60,8 @@ if (global.hitLeverRed == true)
 {
     image_index = 1;
 }
+
+
 </string>
           </argument>
         </arguments>
@@ -83,9 +85,16 @@ if (global.hitLeverRed == true)
           <argument>
             <kind>1</kind>
             <string>draw_self();
-if (distance_to_object(player_obj) &lt; 32 &amp;&amp; global.hitLeverRed == false)
+if (distance_to_object(player_obj) &lt; 32)
 {
-    draw_sprite(aIcon_spr, 0, player_obj.x, player_obj.y - 32);
+    if (gamepad_is_connected(0))
+    {
+        draw_sprite(enterIcon_spr, 0, player_obj.x, player_obj.y - 32);
+    }
+    else
+    {
+        draw_sprite(enterIcon_spr, 1, player_obj.x, player_obj.y - 32);
+    }
 }
 </string>
           </argument>

@@ -32,6 +32,7 @@ messages[1] = "I mean we are both a bit stuck here."
 messages[2] = "But I have something pretty interesting for you!"
 messages[3] = "How about a ring, which makes fake ground visible."
 messages[4] = "Are you interested...?"
+messages[5] = ""
 </string>
           </argument>
         </arguments>
@@ -91,6 +92,18 @@ if (distance_to_object(player_obj) &lt;= 48)
         {
             i = 0;
         }
+    }
+}
+
+if (distance_to_object(player_obj) &lt; 32)
+{
+    if (gamepad_is_connected(0))
+    {
+        draw_sprite(enterIcon_spr, 0, player_obj.x, player_obj.y - 32);
+    }
+    else
+    {
+        draw_sprite(enterIcon_spr, 1, player_obj.x, player_obj.y - 32);
     }
 }
 </string>

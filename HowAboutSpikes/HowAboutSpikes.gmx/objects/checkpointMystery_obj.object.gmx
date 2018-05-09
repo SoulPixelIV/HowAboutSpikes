@@ -27,8 +27,6 @@
             <kind>1</kind>
             <string>image_speed = 0;
 image_index = 0;
-
-instance_create(x - 16, y - 32, particleWhiteTempSpawnerSlow_obj);
 </string>
           </argument>
         </arguments>

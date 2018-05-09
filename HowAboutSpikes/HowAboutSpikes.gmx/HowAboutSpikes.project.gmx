@@ -124,6 +124,7 @@
         <sprite>sprites\treasurechestOpen_spr</sprite>
         <sprite>sprites\treasurechest_spr</sprite>
       </sprites>
+      <sprite>sprites\warpzone_spr</sprite>
     </sprites>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
@@ -139,7 +140,7 @@
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\spikeFallingIcon_spr</sprite>
-      <sprite>sprites\aIcon_spr</sprite>
+      <sprite>sprites\enterIcon_spr</sprite>
       <sprite>sprites\easyModeBlockEditor_spr</sprite>
       <sprite>sprites\shaderBlueLight1Icon_spr</sprite>
       <sprite>sprites\shaderRedLight1Icon_spr</sprite>
@@ -147,6 +148,7 @@
       <sprite>sprites\shaderBlueLight2Icon_spr</sprite>
       <sprite>sprites\shaderRedLight2Icon_spr</sprite>
       <sprite>sprites\shaderYellowLight2Icon_spr</sprite>
+      <sprite>sprites\rings_spr</sprite>
     </sprites>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
@@ -166,7 +168,6 @@
       <sprite>sprites\lockedBlock_spr</sprite>
       <sprite>sprites\npcLola_spr</sprite>
       <sprite>sprites\niclasHatSpa_</sprite>
-      <sprite>sprites\warpzone_spr</sprite>
       <sprite>sprites\explosion_anim</sprite>
       <sprite>sprites\pipe_spr</sprite>
     </sprites>
@@ -195,8 +196,8 @@
       <sprite>sprites\enemy2_spr</sprite>
       <sprite>sprites\enemySkeletonRed_spr</sprite>
       <sprites name="Demon">
-        <sprite>sprites\demonSpawner_spr</sprite>
         <sprite>sprites\demon_spr</sprite>
+        <sprite>sprites\demonPortal_spr</sprite>
       </sprites>
       <sprite>sprites\batIdle_spr</sprite>
       <sprite>sprites\batStill_spr</sprite>
@@ -506,6 +507,7 @@
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
+      <object>objects\npcGVHelper</object>
       <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
