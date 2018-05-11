@@ -292,6 +292,7 @@
     </sprites>
     <sprites name="UI">
       <sprite>sprites\gameover_spr</sprite>
+      <sprite>sprites\textbox_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -538,6 +539,7 @@
         <object>objects\lava_obj</object>
       </objects>
       <object>objects\spikeFalling_obj</object>
+      <object>objects\testLaser_obj</object>
     </objects>
     <objects name="Lighting">
       <object>objects\lightFlickering_obj</object>

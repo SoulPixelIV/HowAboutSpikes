@@ -3,7 +3,7 @@
   <spriteName>npcSoldier_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -27,11 +27,11 @@
             <kind>1</kind>
             <string>alarm[0] = 150;
 
-i = 0;
+i = -1;
 
 messages[0] = "You should not go down there.";
 messages[1] = "A forgotten city should stay forgotten...";
-messages[2] = "";
+//messages[2] = "";
 </string>
           </argument>
         </arguments>
@@ -111,7 +111,12 @@ alarm[0] = 150;
             <string>draw_self();
 if (distance_to_object(player_obj) &lt;= 48)
 {
-    draw_text(x - 128, y - 48, messages[i]);
+    if (i &gt; -1 &amp;&amp; i &lt; array_length_1d(messages))
+    {
+        draw_sprite(textbox_spr, 0, view_xview[0] + 320, view_yview[0] + 290);
+        draw_set_color(c_black);
+        draw_text_ext(view_xview[0] + 110, view_yview[0] + 246, messages[i], 16, 440);
+    }
     if (key_enter)
     {
         if (i &lt; array_length_1d(messages) - 1)
@@ -120,7 +125,7 @@ if (distance_to_object(player_obj) &lt;= 48)
         }
         else
         {
-            i = 0;
+            i = -1;
         }
     }
 }

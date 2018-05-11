@@ -3,7 +3,7 @@
   <spriteName>npcShopkeeper_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>3</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -29,6 +29,11 @@
 cursorPos = 0;
 bought1 = false;
 bought2 = false;
+
+i = -1;
+
+messages[0] = "Hey you!";
+messages[1] = "Do you need something?";
 </string>
           </argument>
         </arguments>
@@ -51,22 +56,9 @@ bought2 = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt;= 48)
+            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1)
 {
-    if (drawShop == false)
-    {
-        if (keyboard_check_pressed(ord('W')) || gamepad_button_check_pressed(0, gp_padu))
-        {
-            drawShop = true;
-        }
-    }
-    else
-    {
-        if (keyboard_check_pressed(ord('W')) || gamepad_button_check_pressed(0, gp_padu))
-        {
-            drawShop = false;
-        }
-    }
+    drawShop = true;
 }
 else
 {
@@ -205,7 +197,35 @@ if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; d
             <string>draw_self();
 if (distance_to_object(player_obj) &lt;= 48)
 {
-    draw_text(x - 64, y - 48, "Do you need something?");
+    if (i &gt; -1 &amp;&amp; i &lt; array_length_1d(messages))
+    {
+        draw_sprite(textbox_spr, 0, view_xview[0] + 320, view_yview[0] + 290);
+        draw_set_color(c_black);
+        draw_text_ext(view_xview[0] + 110, view_yview[0] + 246, messages[i], 16, 440);
+    }
+    if (key_enter)
+    {
+        if (i &lt; array_length_1d(messages) - 1)
+        {
+            i += 1;
+        }
+        else
+        {
+            i = -1;
+        }
+    }
+}
+
+if (distance_to_object(player_obj) &lt; 32)
+{
+    if (gamepad_is_connected(0))
+    {
+        draw_sprite(enterIcon_spr, 0, player_obj.x, player_obj.y - 32);
+    }
+    else
+    {
+        draw_sprite(enterIcon_spr, 1, player_obj.x, player_obj.y - 32);
+    }
 }
 </string>
           </argument>

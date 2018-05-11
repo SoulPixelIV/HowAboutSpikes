@@ -3,7 +3,7 @@
   <spriteName>npcRingDealer_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,14 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>i = 0;
+            <string>i = -1;
 
 messages[0] = "Hey there! Do you need some help?"
 messages[1] = "I mean we are both a bit stuck here."
 messages[2] = "But I have something pretty interesting for you!"
 messages[3] = "How about a ring, which makes fake ground visible."
 messages[4] = "Are you interested...?"
-messages[5] = ""
 </string>
           </argument>
         </arguments>
@@ -81,7 +80,12 @@ messages[5] = ""
             <string>draw_self();
 if (distance_to_object(player_obj) &lt;= 48)
 {
-    draw_text(x - 128, y - 48, messages[i]);
+    if (i &gt; -1 &amp;&amp; i &lt; array_length_1d(messages))
+    {
+        draw_sprite(textbox_spr, 0, view_xview[0] + 320, view_yview[0] + 290);
+        draw_set_color(c_black);
+        draw_text_ext(view_xview[0] + 110, view_yview[0] + 246, messages[i], 16, 440);
+    }
     if (key_enter)
     {
         if (i &lt; array_length_1d(messages) - 1)
@@ -90,7 +94,7 @@ if (distance_to_object(player_obj) &lt;= 48)
         }
         else
         {
-            i = 0;
+            i = -1;
         }
     }
 }

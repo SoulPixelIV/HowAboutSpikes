@@ -135,6 +135,33 @@ if (place_meeting(x, y, player_obj))
         global.playerSpawnLocation = 4;
     }
 }
+
+if (place_meeting(x, y, player_obj))
+{
+    if (room == sentinelGraves3)
+    {
+        with (playerInst)
+        {
+            instance_destroy();
+        }
+        room_goto(overcastPeak2);
+        global.transition = false;
+        global.playerSpawnLocation = 2;
+    }
+}
+if (place_meeting(x, y, player_obj))
+{
+    if (room == overcastPeak2)
+    {
+        with (playerInst)
+        {
+            instance_destroy();
+        }
+        room_goto(sentinelGraves3);
+        global.transition = false;
+        global.playerSpawnLocation = 3;
+    }
+}
 </string>
           </argument>
         </arguments>

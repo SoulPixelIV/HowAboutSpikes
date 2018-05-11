@@ -3,7 +3,7 @@
   <spriteName>npcSoldier_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -82,7 +82,9 @@ alarm[0] = 150;
             <string>draw_self();
 if (distance_to_object(player_obj) &lt;= 48)
 {
-    draw_text(x - 100, y - 48, "You have to find a key!");
+    draw_sprite(textbox_spr, 0, view_xview[0] + 320, view_yview[0] + 290);
+    draw_set_color(c_black);
+    draw_text_ext(view_xview[0] + 110, view_yview[0] + 246, "You have to find a key!", 16, 440);
 }
 </string>
           </argument>
