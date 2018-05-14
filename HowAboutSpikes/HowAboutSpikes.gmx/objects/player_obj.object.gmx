@@ -982,10 +982,10 @@ if (keyboard_check_pressed(ord('3')) &amp;&amp; room != overcastPeak3)
     global.playerSpawnLocation = 0;
     room_goto(overcastPeak3);
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != overdriveMetropole1)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != overdriveMetropole2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overdriveMetropole1);
+    room_goto(overdriveMetropole2);
 }
 if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
 {
@@ -1078,7 +1078,7 @@ if (health == 0)
 
 //###Money###
 draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
-
+draw_set_color(c_white);
 draw_text(global.guiPosX + 55, global.guiPosY + 72, string(global.money));
 
 //###GUI###
@@ -1093,13 +1093,9 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 //draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
 
 draw_set_colour(c_white);
-//###Combat###
-/*
-if (nearEnemy == true)
-{
-    draw_text(player_obj.x - 19, player_obj.y - 30, "'Q'/RB");
-}
-*/
+//###Ring Inventory###
+draw_sprite(ringbox_spr, 0, view_xview[0] + 620, view_yview[0] + 36);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 620, view_yview[0] + 78);
 
 //###World Text###
 if (room == gardenValley &amp;&amp; global.spawned == true)

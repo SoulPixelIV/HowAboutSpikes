@@ -13,6 +13,8 @@
       <sound>sound\hit_snd</sound>
       <sound>sound\walkGrass_snd</sound>
       <sound>sound\walkSnow_snd</sound>
+      <sound>sound\chaingun_snd</sound>
+      <sound>sound\pop_snd</sound>
     </sounds>
     <sounds name="Music">
       <sound>sound\sound5</sound>
@@ -187,6 +189,10 @@
       <sprite>sprites\saw_spr</sprite>
       <sprite>sprites\orbRed_spr</sprite>
       <sprite>sprites\fire_spr</sprite>
+      <sprites name="Chaingun">
+        <sprite>sprites\chaingunTurret_spr</sprite>
+        <sprite>sprites\chaingunBullet_spr</sprite>
+      </sprites>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\slime_spr</sprite>
@@ -235,6 +241,7 @@
         <sprite>sprites\waterStill_spr</sprite>
         <sprite>sprites\waterStill2_spr</sprite>
         <sprite>sprites\waterEffect_spr</sprite>
+        <sprite>sprites\waterfall_spr</sprite>
       </sprites>
     </sprites>
     <sprites name="Particles">
@@ -293,6 +300,7 @@
     <sprites name="UI">
       <sprite>sprites\gameover_spr</sprite>
       <sprite>sprites\textbox_spr</sprite>
+      <sprite>sprites\ringbox_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -438,6 +446,8 @@
       <object>objects\colliderOP1_OP2_obj</object>
       <object>objects\colliderOP2_UF2_obj</object>
       <object>objects\colliderUF2_OP3_obj</object>
+      <object>objects\colliderOP3_OM1_obj</object>
+      <object>objects\colliderOM1_OM2_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -456,7 +466,6 @@
         <object>objects\tutorialSign2_obj</object>
         <object>objects\tutorialSign3_obj</object>
         <object>objects\tutorialSign4_obj</object>
-        <object>objects\tutorialSign5_obj</object>
       </objects>
       <objects name="Bird">
         <object>objects\bird_obj</object>
@@ -539,7 +548,10 @@
         <object>objects\lava_obj</object>
       </objects>
       <object>objects\spikeFalling_obj</object>
-      <object>objects\testLaser_obj</object>
+      <objects name="Chaingun">
+        <object>objects\chaingunTurret_obj</object>
+        <object>objects\chaingunBullet_obj</object>
+      </objects>
     </objects>
     <objects name="Lighting">
       <object>objects\lightFlickering_obj</object>
@@ -627,6 +639,7 @@
     <room>rooms\overcastPeak2</room>
     <room>rooms\overcastPeak3</room>
     <room>rooms\overdriveMetropole1</room>
+    <room>rooms\overdriveMetropole2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

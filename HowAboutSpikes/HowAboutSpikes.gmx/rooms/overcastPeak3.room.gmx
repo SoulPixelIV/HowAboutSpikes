@@ -535,7 +535,6 @@
     <instance objName="enemyBat_obj" x="1560" y="602" name="inst_4C93FC81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBat_obj" x="1531" y="570" name="inst_0F7AD5DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyBat_obj" x="1709" y="602" name="inst_BFC0C8AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyBat_obj" x="1752" y="666" name="inst_7A82E2BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1152" y="832" name="inst_0F1F213E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1184" y="832" name="inst_83355280" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1280" y="800" name="inst_E46FD568" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1240,11 +1239,7 @@
     <instance objName="stoneBlock_obj" x="1056" y="576" name="inst_F9CE69A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1024" y="576" name="inst_325D052D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1216" y="480" name="inst_3A143CA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="2016" y="704" name="inst_CF6AFE23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="2016" y="736" name="inst_0FC7D6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="2016" y="768" name="inst_40B7AA33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUF2_OP3_obj" x="64" y="1024" name="inst_2FEB24F8" locked="0" code="" scaleX="3.83333325386047" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="enemySkeletonRed_obj" x="1600" y="768" name="inst_86929914" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1376" y="800" name="inst_182D7D6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1YellowShader_obj" x="-32" y="-64" name="inst_CE617A63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1YellowShader_obj" x="864" y="-160" name="inst_CCCE39F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1265,6 +1260,10 @@
     <instance objName="stoneBlock_obj" x="1536" y="128" name="inst_F8FB3BCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1568" y="128" name="inst_4EC230F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="1600" y="128" name="inst_547D08F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderOP3_OM1_obj" x="2039" y="724" name="inst_1769092E" locked="0" code="" scaleX="1.16666662693024" scaleY="2.16666674613953" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="1924" y="724" name="inst_E15D3CEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="1952" y="768" name="inst_13A17752" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slimeGreen_obj" x="1600" y="768" name="inst_C1E90E36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

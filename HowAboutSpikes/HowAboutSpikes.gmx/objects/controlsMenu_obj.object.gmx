@@ -237,7 +237,7 @@ draw_text(16, 192, "Move Right: " + string(chr(rightKey)));
 draw_text(16, 224, "Jump: " + string(chr(jumpKey)));
 draw_text(16, 256, "Attack: " + string(chr(attackKey)));
 draw_text(16, 288, "Throw: " + string(chr(throwKey)));
-draw_text(16, 320, "Back: ");
+draw_text(16, 320, "Back");
 
 if (userInput == true)
 {
