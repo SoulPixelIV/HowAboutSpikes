@@ -52,7 +52,7 @@ alarm[0] = 2;
             <kind>1</kind>
             <string>if (targeting)
 {
-    instance_create(random_range(x - 7, x + 8), random_range(y + 20, y + 24), chaingunBullet_obj);
+    instance_create(random_range(x - 7, x + 8), y, chaingunBullet_obj);
 }
 alarm[0] = 2;
 </string>
