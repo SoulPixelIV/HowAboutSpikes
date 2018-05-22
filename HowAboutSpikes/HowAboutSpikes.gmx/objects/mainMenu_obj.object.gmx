@@ -113,7 +113,7 @@ if (buttonSelected == 1)
     cursor_obj.y = 215;
     if (key_enter)
     {
-        room_goto(tutorial);
+        room_goto(cutsceneGameStart);
     }
 }
 if (buttonSelected == 2)

@@ -97,6 +97,8 @@
         <sprite>sprites\redSign_spr</sprite>
         <sprite>sprites\blueSign_spr</sprite>
         <sprite>sprites\cityGroundBlock_spr</sprite>
+        <sprite>sprites\cityGroundBlock2_spr</sprite>
+        <sprite>sprites\cityGroundBlockSmall_spr</sprite>
       </sprites>
       <sprites name="Obsidian Blocks">
         <sprite>sprites\obsidianBlock_spr</sprite>
@@ -273,6 +275,7 @@
       <sprite>sprites\rope_spr</sprite>
       <sprite>sprites\spiderweb_spr</sprite>
       <sprite>sprites\plantWeird_spr</sprite>
+      <sprite>sprites\snowPile_spr</sprite>
     </sprites>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
@@ -355,6 +358,9 @@
         <object>objects\videosettingsMenu_obj</object>
         <object>objects\controlsMenu_obj</object>
       </objects>
+      <objects name="Cutscene Objects">
+        <object>objects\cutsceneCameraDown</object>
+      </objects>
     </objects>
     <objects name="Blocks">
       <object>objects\lavaBlock_obj</object>
@@ -415,6 +421,7 @@
         <object>objects\redSign_obj</object>
         <object>objects\blueSign_obj</object>
         <object>objects\cityGroundBlock_obj</object>
+        <object>objects\cityGroundBlockSmall_obj</object>
       </objects>
       <object>objects\stoneBlockGrey_obj</object>
     </objects>
@@ -481,6 +488,7 @@
       <object>objects\statue_obj</object>
       <object>objects\torch_obj</object>
       <object>objects\spiderweb_obj</object>
+      <object>objects\snowPile_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -510,6 +518,9 @@
         <object>objects\batBossSprite_obj</object>
         <object>objects\batBoss_obj</object>
         <object>objects\lockedBlockBat_obj</object>
+      </objects>
+      <objects name="Spring">
+        <object>objects\springBoss_obj</object>
       </objects>
     </objects>
     <objects name="Npcs">
@@ -634,12 +645,17 @@
     <room>rooms\sentinelGraves1</room>
     <room>rooms\sentinelGraves2</room>
     <room>rooms\sentinelGraves3</room>
+    <room>rooms\sentinelGravesBoss</room>
     <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
     <room>rooms\overcastPeak2</room>
     <room>rooms\overcastPeak3</room>
     <room>rooms\overdriveMetropole1</room>
     <room>rooms\overdriveMetropole2</room>
+    <room>rooms\overdriveMetropoleBoss</room>
+    <rooms name="Cutscenes">
+      <room>rooms\cutsceneGameStart</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
