@@ -318,6 +318,7 @@
     <background>background\skyBackground_bg</background>
     <background>background\mainMenu_bg</background>
     <background>background\overdriveMetropole_bg</background>
+    <background>background\overcastPeak_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
