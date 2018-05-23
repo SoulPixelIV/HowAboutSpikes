@@ -331,6 +331,8 @@
     <font>fonts\checkpoint_fnt</font>
     <font>fonts\gameover_fnt</font>
     <font>fonts\mainmenu_fnt</font>
+    <font>fonts\credits_fnt</font>
+    <font>fonts\creditsBig_fnt</font>
   </fonts>
   <objects name="objects">
     <objects name="Player">
@@ -359,7 +361,7 @@
         <object>objects\controlsMenu_obj</object>
       </objects>
       <objects name="Cutscene Objects">
-        <object>objects\cutsceneCameraDown</object>
+        <object>objects\cutsceneCameraDown_obj</object>
       </objects>
     </objects>
     <objects name="Blocks">

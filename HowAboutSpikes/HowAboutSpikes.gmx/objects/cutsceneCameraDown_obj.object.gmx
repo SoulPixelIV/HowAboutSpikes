@@ -25,15 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Vars
-cameraSpeed = 0.06;
-cameraWidth = 640;
-cameraHeight = 360;
+            <string>timer = 0;
+transparent = 0;
+transparent = clamp(transparent, 0, 1);
 
-global.transition = false;
-
-view_xview[0] = x - (cameraWidth/2);
-view_yview[0] = y - (cameraHeight/2);
 </string>
           </argument>
         </arguments>
@@ -56,51 +51,16 @@ view_yview[0] = y - (cameraHeight/2);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Camera View Follow System
+            <string>///Camera Movement
 
-y += 3;
+y += 1.65;
 
-//Camera Follow
-//Set Camera X Borders
-if (x &gt;= 320 &amp;&amp; x &lt;= room_width - 320)
-{
-    view_xview[0] = x - (cameraWidth/2);
-}
-else
-{
-    if (x &lt;= 320)
-    {
-        view_xview[0] = 0;
-    }
-    if (x &gt;= room_width - 320)
-    {
-        view_xview[0] = room_width - 640;
-    }
-}
 
-//Set Camera Y Borders
-if (y &lt;= (room_height - 180) &amp;&amp; y &gt;= 180)
-{
-    view_yview[0] += ((y - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
-}
-else
-{
-    if (y &gt;= (room_height - 180))
-    {
-        view_yview[0] += (((room_height - 180) - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
-    }
-    if (y &lt;= 180)
-    {
-        view_yview[0] += ((180 - (cameraHeight/2) - view_yview[0])) * cameraSpeed;
-    }
-}
 
 </string>
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -117,7 +77,113 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(dirtyLensEffect_spr, 0, view_xview[0], view_yview[0]);
+            <string>///Timer
+
+timer += 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_alpha(transparent);
+draw_set_font(credits_fnt);
+
+transparent = clamp(transparent, 0, 1);
+
+if (timer &gt; 100 &amp;&amp; timer &lt; 290)
+{
+    draw_text(120, 300, "A videogame by William Djalal#@SoulPixelIV");
+    if (timer &gt; 230)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 310 &amp;&amp; timer &lt; 500)
+{
+    draw_text(80, 700, "Main Programmer / Game Designer: William Djalal");
+    if (timer &gt; 460)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 520 &amp;&amp; timer &lt; 710)
+{
+    draw_text(400, 360, "Main Artist: Laura Dauselt");
+    if (timer &gt; 670)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 730 &amp;&amp; timer &lt; 920)
+{
+    draw_text(210, 480, "Main Playtester: Niclas Meyer");
+    if (timer &gt; 880)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 940 &amp;&amp; timer &lt; 1130)
+{
+    draw_text(400, 40, "A SoulPixel Production");
+    if (timer &gt; 1090)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 1150 &amp;&amp; timer &lt; 1340)
+{
+    draw_set_font(creditsBig_fnt);
+    draw_text((view_wview[0]/2) - 100, view_hview[0]/2, "How About Spikes");
+    if (timer &gt; 1300)
+    {
+        transparent -= 0.03;
+    }
+    else
+    {
+        transparent += 0.03;
+    }
+}
+if (timer &gt; 1345)
+{
+    transparent = 1;
+}
 </string>
           </argument>
         </arguments>
