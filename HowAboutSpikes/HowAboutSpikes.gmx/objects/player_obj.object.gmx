@@ -966,52 +966,52 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != deepPrison)
+if (keyboard_check_pressed(ord('1')) &amp;&amp; room != sentinelGraves1)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(sentinelGraves1);
+}
+
+if (keyboard_check_pressed(ord('2')) &amp;&amp; room != sentinelGraves2)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(sentinelGraves2);
+}
+if (keyboard_check_pressed(ord('3')) &amp;&amp; room != sentinelGraves3)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(sentinelGraves3);
+}
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
 {
     global.playerSpawnLocation = 0;
     room_goto(deepPrison);
 }
-
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != overcastPeak2)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != overcastPeak1)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(overcastPeak1);
+}
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak2)
 {
     global.playerSpawnLocation = 0;
     room_goto(overcastPeak2);
 }
-if (keyboard_check_pressed(ord('3')) &amp;&amp; room != overcastPeak3)
+if (keyboard_check_pressed(ord('7')) &amp;&amp; room != overcastPeak3)
 {
     global.playerSpawnLocation = 0;
     room_goto(overcastPeak3);
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != overcastPeak4)
+if (keyboard_check_pressed(ord('8')) &amp;&amp; room != overcastPeak4)
 {
     global.playerSpawnLocation = 0;
     room_goto(overcastPeak4);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
-{
-    global.playerSpawnLocation = 0;
-    room_goto(unknownForestBoss);
-}
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != undergroundCity1)
-{
-    global.playerSpawnLocation = 0;
-    room_goto(undergroundCity1);
-}
-if (keyboard_check_pressed(ord('7')) &amp;&amp; room != undergroundCity2)
-{
-    global.playerSpawnLocation = 0;
-    room_goto(undergroundCity2);
-}
-if (keyboard_check_pressed(ord('8')) &amp;&amp; room != undergroundCity3)
-{
-    global.playerSpawnLocation = 0;
-    room_goto(undergroundCity3);
-}
 
-if (keyboard_check_pressed(ord('9')) &amp;&amp; room != demonsKeep1)
+if (keyboard_check_pressed(ord('9')) &amp;&amp; room != overcastPeak5)
 {
     global.playerSpawnLocation = 0;
-    room_goto(demonsKeep1);
+    room_goto(overcastPeak5);
 }
 </string>
           </argument>

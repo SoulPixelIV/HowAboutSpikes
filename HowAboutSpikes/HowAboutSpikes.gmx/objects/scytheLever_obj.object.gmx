@@ -65,7 +65,7 @@ if (leverBlock == true)
     instance_deactivate_object(scytheLeverBlockSolid_obj);
 }
 
-if (timer &lt; 0)
+if (timer &lt; 0 &amp;&amp; !place_meeting(x, y, scythe_obj))
 {
     leverBlock = false;
     instance_activate_object(scytheLeverBlockSolid_obj);

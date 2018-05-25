@@ -48,8 +48,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
-image_index = 0;
+            <string>image_speed = 0.2;
+if (place_meeting(x, y, player_obj))
+{
+    global.hit = true;
+}
 </string>
           </argument>
         </arguments>
