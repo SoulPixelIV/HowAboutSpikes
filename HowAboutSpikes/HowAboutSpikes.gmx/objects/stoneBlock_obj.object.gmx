@@ -3,7 +3,7 @@
   <spriteName>stoneBlock1_spr</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>1</depth>
+  <depth>-12</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,30 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = choose(stoneBlock1_spr, stoneBlock2_spr);
+            <string>if (place_meeting(x, y - 16, stoneBlock_obj))
+{
+    sprite_index = choose(stoneBlock1_spr, stoneBlock2_spr);
+}
+else
+    {
+    if (!place_meeting(x + 16, y, stoneBlock_obj))
+    {
+        sprite_index = stoneBlockRC_spr;
+    }
+    else
+    {
+        if (!place_meeting(x - 16, y, stoneBlock_obj))
+        {
+            sprite_index = stoneBlockLC_spr;
+        }
+        else
+        {
+            sprite_index = choose(stoneBlock1_spr, stoneBlock2_spr);
+        }
+    }
+}
+
+
 </string>
           </argument>
         </arguments>

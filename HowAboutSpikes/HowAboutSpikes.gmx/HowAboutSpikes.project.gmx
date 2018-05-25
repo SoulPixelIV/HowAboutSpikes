@@ -91,6 +91,8 @@
       <sprite>sprites\boxWood_spr</sprite>
       <sprites name="Stone Blocks">
         <sprite>sprites\stoneBlock1_spr</sprite>
+        <sprite>sprites\stoneBlockRC_spr</sprite>
+        <sprite>sprites\stoneBlockLC_spr</sprite>
         <sprite>sprites\stoneBlock2_spr</sprite>
       </sprites>
       <sprites name="City Blocks">
@@ -387,6 +389,7 @@
       <object>objects\checkpoint_obj</object>
       <object>objects\easyModeBlock_obj</object>
       <object>objects\destroyCooldown_obj</object>
+      <object>objects\scytheBlockEmptyplace_obj</object>
       <object>objects\stoneBlock_obj</object>
       <object>objects\woodBlockNew_obj</object>
       <object>objects\woodBlockNewBG_obj</object>

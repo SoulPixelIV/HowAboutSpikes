@@ -184,6 +184,10 @@ if (timer &gt; 1345)
 {
     transparent = 1;
 }
+if (timer &gt; 1550)
+{
+    room_goto(tutorial);
+}
 </string>
           </argument>
         </arguments>

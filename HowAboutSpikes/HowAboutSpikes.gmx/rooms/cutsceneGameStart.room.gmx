@@ -7,7 +7,7 @@
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
@@ -58,9 +58,7 @@
     <instance objName="particleCircleRedSpawner_obj" x="128" y="0" name="inst_7694AEE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="160" y="0" name="inst_63342A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cutsceneCameraDown_obj" x="384" y="256" name="inst_9EE97D35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sunLight1BlueShader_obj" x="0" y="-192" name="inst_11F84EEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sunLight2BlueShader_obj" x="-32" y="608" name="inst_E347ACC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sunLight2BlueShader_obj" x="-96" y="2368" name="inst_E65BF53F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2BlueShader_obj" x="-96" y="1536" name="inst_E347ACC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight2BlueShader_obj" x="960" y="224" name="inst_506F4D6D" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight2BlueShader_obj" x="960" y="2336" name="inst_6EFE2799" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="0" y="2880" name="inst_2339B8F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
