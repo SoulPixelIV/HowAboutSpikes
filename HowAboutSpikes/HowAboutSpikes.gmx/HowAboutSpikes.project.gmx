@@ -459,8 +459,8 @@
       <object>objects\colliderOP1_OP2_obj</object>
       <object>objects\colliderOP2_UF2_obj</object>
       <object>objects\colliderUF2_OP3_obj</object>
-      <object>objects\colliderOP3_OM1_obj</object>
-      <object>objects\colliderOM1_OM2_obj</object>
+      <object>objects\colliderOP3_OP4_obj</object>
+      <object>objects\colliderOP4_OP5_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -656,8 +656,8 @@
     <room>rooms\overcastPeak1</room>
     <room>rooms\overcastPeak2</room>
     <room>rooms\overcastPeak3</room>
-    <room>rooms\overdriveMetropole1</room>
-    <room>rooms\overdriveMetropole2</room>
+    <room>rooms\overcastPeak4</room>
+    <room>rooms\overcastPeak5</room>
     <room>rooms\overdriveMetropoleBoss</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameStart</room>

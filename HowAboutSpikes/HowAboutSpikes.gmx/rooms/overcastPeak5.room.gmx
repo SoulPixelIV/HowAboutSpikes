@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="overdriveMetropole_bg" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
+    <background visible="-1" foreground="0" name="overcastPeak_bg" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="-1"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -53,11 +53,9 @@
   <instances>
     <instance objName="camera_obj" x="0" y="0" name="inst_95BD9363" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="32" y="0" name="inst_1795D72A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="vignetteShaderBlue_obj" x="64" y="0" name="inst_54136B4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleBlueSpawner_obj" x="96" y="0" name="inst_C4FCC69C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="128" y="0" name="inst_2D05F96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="160" y="0" name="inst_8EDBD13D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lightControlNormal_obj" x="192" y="0" name="inst_C889AFD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="224" y="0" name="inst_B646D22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="2368" y="0" name="inst_1B7BC4AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="2368" y="32" name="inst_BB37CCFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -236,7 +234,7 @@
     <instance objName="cityGroundBlock_obj" x="1216" y="864" name="inst_F482C7D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="1216" y="896" name="inst_FC0DAE73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlock_obj" x="1216" y="928" name="inst_5A236EC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderOM1_OM2_obj" x="2310" y="-27" name="inst_FF836CB0" locked="0" code="" scaleX="3.83333325386047" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
+    <instance objName="colliderOP4_OP5_obj" x="2310" y="-27" name="inst_FF836CB0" locked="0" code="" scaleX="3.83333325386047" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="2296" y="69" name="inst_1956B630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2336" y="0" name="inst_2149DDF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2336" y="32" name="inst_C9696FDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -667,6 +665,7 @@
     <instance objName="cityGroundBlockSmall_obj" x="1216" y="1408" name="inst_14B42F4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cityGroundBlockSmall_obj" x="1248" y="1408" name="inst_712AAD9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chaingunTurret_obj" x="1056" y="1280" name="inst_F41AB543" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_50EEAFFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
