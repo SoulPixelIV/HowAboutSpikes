@@ -118,6 +118,8 @@
         <sprite>sprites\stoneBlockGreyRC_spr</sprite>
         <sprite>sprites\stoneBlockGreyLC_spr</sprite>
       </sprites>
+      <sprite>sprites\woodplaneBlock_spr</sprite>
+      <sprite>sprites\woodplanePole_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -321,6 +323,7 @@
     <background>background\mainMenu_bg</background>
     <background>background\overdriveMetropole_bg</background>
     <background>background\overcastPeak_bg</background>
+    <background>background\skullcoinBay_bg</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -430,6 +433,8 @@
         <object>objects\cityGroundBlockSmall_obj</object>
       </objects>
       <object>objects\stoneBlockGrey_obj</object>
+      <object>objects\woodplaneBlock_obj</object>
+      <object>objects\woodplanePole_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -659,6 +664,7 @@
     <room>rooms\overcastPeak4</room>
     <room>rooms\overcastPeak5</room>
     <room>rooms\overdriveMetropoleBoss</room>
+    <room>rooms\skullcoinBay1</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameStart</room>
     </rooms>
