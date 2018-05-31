@@ -459,6 +459,9 @@
       <object>objects\colliderSG1_SG2_obj</object>
       <object>objects\colliderDK1_SG2_obj</object>
       <object>objects\colliderSG2_SG3_obj</object>
+      <object>objects\colliderSG3_SGB_obj</object>
+      <object>objects\colliderSGB_SGT_obj</object>
+      <object>objects\colliderSGT_UC1_obj</object>
       <object>objects\colliderSG3_DP_obj</object>
       <object>objects\colliderDP_UF1_obj</object>
       <object>objects\colliderGV_OP1_obj</object>
@@ -658,6 +661,7 @@
     <room>rooms\sentinelGraves2</room>
     <room>rooms\sentinelGraves3</room>
     <room>rooms\sentinelGravesBoss</room>
+    <room>rooms\sentinelGravesTransition</room>
     <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
     <room>rooms\overcastPeak2</room>

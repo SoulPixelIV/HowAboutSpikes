@@ -177,6 +177,9 @@
     <instance objName="darkBlock_obj" x="0" y="416" name="inst_94325A73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="32" y="288" name="inst_64AF1F96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="0" y="288" name="inst_6D3A9A01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderSG3_SGB_obj" x="956" y="290" name="inst_E1917AEA" locked="0" code="" scaleX="1.5" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="56" y="337" name="inst_EC57212C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderSGB_SGT_obj" x="-45" y="334" name="inst_F9B2C741" locked="0" code="" scaleX="1.16666662693024" scaleY="2.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
