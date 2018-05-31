@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>bossHealth = 100;
+            <string>image_index = 0;
+bossHealth = 100;
 timer = 200;
 dir = 0;
 shoot = true;
@@ -102,7 +103,9 @@ alarm[0] = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
+            <string>image_speed = 0;
+
+if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
 {
     with(eyeBoss_obj)
     {
@@ -133,7 +136,7 @@ alarm[0] = 10;
 {
     with (eyeBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 2.75;
+        bossHealth = bossHealth - global.damage / 3.25;
         invincible = true;
         alarm[1] = 10;
     }
@@ -207,6 +210,15 @@ if (timer &gt; 200)
         shoot = true;
     }
     dir = 0;
+}
+
+if (shoot == true)
+{
+    image_index = 0;
+}
+else
+{
+    image_index = 1;
 }
 </string>
           </argument>
