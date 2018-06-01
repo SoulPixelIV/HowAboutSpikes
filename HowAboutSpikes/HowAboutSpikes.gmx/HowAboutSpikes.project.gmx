@@ -199,6 +199,7 @@
         <sprite>sprites\chaingunTurret_spr</sprite>
         <sprite>sprites\chaingunBullet_spr</sprite>
       </sprites>
+      <sprite>sprites\eyelash_spr</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\slime_spr</sprite>
@@ -566,6 +567,7 @@
         <object>objects\demonSpawner_obj</object>
       </objects>
       <object>objects\orbRed_obj</object>
+      <object>objects\eyelash_obj</object>
       <objects name="Saw">
         <object>objects\saw_obj</object>
         <object>objects\pipe_obj</object>
