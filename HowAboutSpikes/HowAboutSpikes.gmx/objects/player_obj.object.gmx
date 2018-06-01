@@ -1094,8 +1094,8 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 
 draw_set_colour(c_white);
 //###Ring Inventory###
-draw_sprite(ringbox_spr, 0, view_xview[0] + 620, view_yview[0] + 36);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 620, view_yview[0] + 78);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 630, view_yview[0] + 46);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 630, view_yview[0] + 88);
 
 //###World Text###
 if (room == gardenValley &amp;&amp; global.spawned == true)
