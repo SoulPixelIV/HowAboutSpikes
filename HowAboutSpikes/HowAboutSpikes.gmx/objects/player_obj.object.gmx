@@ -279,7 +279,7 @@ key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, g
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
 key_attack = keyboard_check_pressed(ord('K')) || gamepad_button_check_pressed(0, gp_shoulderr);
 key_throw = keyboard_check(ord('J')) || gamepad_button_check(0, gp_shoulderl);
-key_restart = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_restart = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
 key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
@@ -1094,8 +1094,10 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 
 draw_set_colour(c_white);
 //###Ring Inventory###
-draw_sprite(ringbox_spr, 0, view_xview[0] + 630, view_yview[0] + 46);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 630, view_yview[0] + 88);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78
+
+);
 
 //###World Text###
 if (room == gardenValley &amp;&amp; global.spawned == true)
