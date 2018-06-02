@@ -179,7 +179,7 @@
     <instance objName="colliderSG3_SGB_obj" x="956" y="290" name="inst_E1917AEA" locked="0" code="" scaleX="1.5" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="56" y="337" name="inst_EC57212C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderSGB_SGT_obj" x="-45" y="334" name="inst_F9B2C741" locked="0" code="" scaleX="1.16666662693024" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="lightControlHeavy_obj" x="64" y="0" name="inst_CA120DAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lightControlFull_obj" x="64" y="0" name="inst_178C7F94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
