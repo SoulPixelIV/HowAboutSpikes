@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>playerInst = player_obj;
 
-if (place_meeting(x, y, player_obj) &amp;&amp; global.money &gt; 4)
+if (place_meeting(x, y, player_obj))
 {
     if (room == gardenValley)
     {
@@ -38,7 +38,6 @@ if (place_meeting(x, y, player_obj) &amp;&amp; global.money &gt; 4)
         room_goto(skullcoinBay1);
         global.transition = false;
         global.playerSpawnLocation = 0;
-        global.money = global.money - 5;
     }
     else
     {
@@ -49,7 +48,6 @@ if (place_meeting(x, y, player_obj) &amp;&amp; global.money &gt; 4)
         room_goto(gardenValley);
         global.transition = false;
         global.playerSpawnLocation = 4;
-        global.money = global.money - 5;
     }
 }
 </string>

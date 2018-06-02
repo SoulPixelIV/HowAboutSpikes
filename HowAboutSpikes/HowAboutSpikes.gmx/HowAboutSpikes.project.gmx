@@ -217,6 +217,7 @@
       <sprite>sprites\enemySpirit_spr</sprite>
       <sprite>sprites\batLaser_spr</sprite>
       <sprite>sprites\eye_spr</sprite>
+      <sprite>sprites\pirate_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
       <sprite>sprites\tutorialSign1_spr</sprite>
@@ -521,6 +522,7 @@
       <object>objects\enemy_obj</object>
       <object>objects\enemyFlyingCloud_obj</object>
       <object>objects\flyingCloud_obj</object>
+      <object>objects\pirate_obj</object>
     </objects>
     <objects name="Shortcuts">
       <object>objects\lever_obj</object>

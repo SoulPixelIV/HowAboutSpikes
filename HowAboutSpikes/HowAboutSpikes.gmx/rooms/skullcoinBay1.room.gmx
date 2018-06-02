@@ -278,7 +278,7 @@
     <instance objName="ladder_obj" x="832" y="640" name="inst_327FBAB1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="832" y="672" name="inst_E15A76DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="192" y="591" name="inst_43D234C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladder_obj" x="192" y="608" name="inst_A5DD513B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="192" y="612" name="inst_A5DD513B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1152" y="608" name="inst_5F0C24F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="576" name="inst_C993364B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="1216" y="608" name="inst_843029CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -399,7 +399,6 @@
     <instance objName="darkSpirit_obj" x="352" y="576" name="inst_95C81B38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight2RedShader_obj" x="96" y="192" name="inst_5CA554FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight2RedShader_obj" x="928" y="96" name="inst_B72E1717" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderGV_SB1_obj" x="1350" y="319" name="inst_C2383630" locked="0" code="" scaleX="1.83333337306976" scaleY="3.83333325386047" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="800" y="384" name="inst_9D791C7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="832" y="384" name="inst_223FF24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="864" y="384" name="inst_AD277815" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -487,6 +486,7 @@
     <instance objName="darkSpiritBig_obj" x="544" y="160" name="inst_216C1E31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="960" y="160" name="inst_4DEC4B44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="960" y="596" name="inst_186EDD24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderGV_SB1_obj" x="1314" y="331" name="inst_9B892B50" locked="0" code="" scaleX="1.26315784454346" scaleY="3.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
