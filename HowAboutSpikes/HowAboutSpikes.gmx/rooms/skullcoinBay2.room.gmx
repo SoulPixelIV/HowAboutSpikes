@@ -785,6 +785,9 @@
     <instance objName="woodplanePole_obj" x="320" y="480" name="inst_77FB4F5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="woodplanePole_obj" x="352" y="480" name="inst_C1B8664B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="woodplanePole_obj" x="371" y="480" name="inst_54B00A64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="warpzone_obj" x="2176" y="64" name="inst_914D1084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="2176" y="192" name="inst_413FAE2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn2_obj" x="2152" y="148" name="inst_88CAE84A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
