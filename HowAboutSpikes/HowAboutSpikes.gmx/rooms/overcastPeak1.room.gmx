@@ -459,8 +459,7 @@
     <instance objName="stoneBlockGrey_obj" x="544" y="416" name="inst_1FCC1CE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="416" y="416" name="inst_3CAFDFD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueOrbPlace_obj" x="512" y="320" name="inst_584B1C30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="redOrb_obj" x="64" y="384" name="inst_04638593" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="blueOrb_obj" x="64" y="448" name="inst_08716922" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcOPHelper_obj" x="585" y="368" name="inst_9FC906E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -552,7 +552,8 @@
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
-      <object>objects\npcGVHelper</object>
+      <object>objects\npcGVHelper_obj</object>
+      <object>objects\npcOPHelper_obj</object>
       <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
