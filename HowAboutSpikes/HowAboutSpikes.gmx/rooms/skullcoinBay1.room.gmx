@@ -470,6 +470,8 @@
     <instance objName="woodplanePole_obj" x="960" y="596" name="inst_186EDD24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_SB1_obj" x="1314" y="331" name="inst_9B892B50" locked="0" code="" scaleX="1.26315784454346" scaleY="3.25" colour="4294967295" rotation="0"/>
     <instance objName="colliderSB1_SB2_obj" x="-54" y="397" name="inst_C76766A2" locked="0" code="" scaleX="1.5" scaleY="3.83333325386047" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="85" y="519" name="inst_9828E56A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="65" y="474" name="inst_24918649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
