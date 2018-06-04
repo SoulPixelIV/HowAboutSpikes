@@ -88,7 +88,7 @@ else
 
 key_left = keyboard_check_pressed(vk_left) || gamepad_button_check_pressed(0, gp_padl)
 key_right = keyboard_check_pressed(vk_right) || gamepad_button_check_pressed(0, gp_padr)
-key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
+key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
 
 if (instance_exists(cursor_obj))
 {
@@ -167,10 +167,15 @@ if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; d
         global.healthVar = global.healthVar + 1;
         if (global.healthVar == 6)
         {
+            with (shopIcon2_obj)
+            {
+                image_index = 1;
+            }
             bought2 = true;
         }
     }
 }
+
 
 </string>
           </argument>

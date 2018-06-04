@@ -199,6 +199,7 @@
         <sprite>sprites\chaingunTurret_spr</sprite>
         <sprite>sprites\chaingunBullet_spr</sprite>
       </sprites>
+      <sprite>sprites\eyelash_spr</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\slime_spr</sprite>
@@ -215,6 +216,8 @@
       <sprite>sprites\batStill_spr</sprite>
       <sprite>sprites\enemySpirit_spr</sprite>
       <sprite>sprites\batLaser_spr</sprite>
+      <sprite>sprites\eye_spr</sprite>
+      <sprite>sprites\pirate_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
       <sprite>sprites\tutorialSign1_spr</sprite>
@@ -280,6 +283,8 @@
       <sprite>sprites\spiderweb_spr</sprite>
       <sprite>sprites\plantWeird_spr</sprite>
       <sprite>sprites\snowPile_spr</sprite>
+      <sprite>sprites\redOrbPlace_spr</sprite>
+      <sprite>sprites\blueOrbPlace_spr</sprite>
     </sprites>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
@@ -458,6 +463,9 @@
       <object>objects\colliderSG1_SG2_obj</object>
       <object>objects\colliderDK1_SG2_obj</object>
       <object>objects\colliderSG2_SG3_obj</object>
+      <object>objects\colliderSG3_SGB_obj</object>
+      <object>objects\colliderSGB_SGT_obj</object>
+      <object>objects\colliderSGT_UC1_obj</object>
       <object>objects\colliderSG3_DP_obj</object>
       <object>objects\colliderDP_UF1_obj</object>
       <object>objects\colliderGV_OP1_obj</object>
@@ -467,6 +475,8 @@
       <object>objects\colliderOP3_OP4_obj</object>
       <object>objects\colliderOP4_OP5_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
+      <object>objects\colliderGV_SB1_obj</object>
+      <object>objects\colliderSB1_SB2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -500,6 +510,8 @@
       <object>objects\torch_obj</object>
       <object>objects\spiderweb_obj</object>
       <object>objects\snowPile_obj</object>
+      <object>objects\redOrbPlace_obj</object>
+      <object>objects\blueOrbPlace_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -515,6 +527,7 @@
       <object>objects\enemy_obj</object>
       <object>objects\enemyFlyingCloud_obj</object>
       <object>objects\flyingCloud_obj</object>
+      <object>objects\pirate_obj</object>
     </objects>
     <objects name="Shortcuts">
       <object>objects\lever_obj</object>
@@ -539,7 +552,8 @@
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
-      <object>objects\npcGVHelper</object>
+      <object>objects\npcGVHelper_obj</object>
+      <object>objects\npcOPHelper_obj</object>
       <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
@@ -562,6 +576,7 @@
         <object>objects\demonSpawner_obj</object>
       </objects>
       <object>objects\orbRed_obj</object>
+      <object>objects\eyelash_obj</object>
       <objects name="Saw">
         <object>objects\saw_obj</object>
         <object>objects\pipe_obj</object>
@@ -657,6 +672,7 @@
     <room>rooms\sentinelGraves2</room>
     <room>rooms\sentinelGraves3</room>
     <room>rooms\sentinelGravesBoss</room>
+    <room>rooms\sentinelGravesTransition</room>
     <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
     <room>rooms\overcastPeak2</room>
@@ -665,6 +681,7 @@
     <room>rooms\overcastPeak5</room>
     <room>rooms\overdriveMetropoleBoss</room>
     <room>rooms\skullcoinBay1</room>
+    <room>rooms\skullcoinBay2</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameStart</room>
     </rooms>

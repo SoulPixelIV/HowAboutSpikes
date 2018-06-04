@@ -1246,6 +1246,7 @@
     <instance objName="water_obj" x="2496" y="608" name="inst_E6E33711" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderOP4_OP5_obj" x="2078" y="840" name="inst_1704A9A2" locked="0" code="" scaleX="3.16666674613953" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_59636E05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderOP3_OP4_obj" x="-17" y="596" name="inst_2FE49B94" locked="0" code="" scaleX="0.694736838340759" scaleY="2.13541674613953" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

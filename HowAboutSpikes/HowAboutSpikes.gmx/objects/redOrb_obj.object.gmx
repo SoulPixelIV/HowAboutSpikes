@@ -66,6 +66,17 @@ if (global.pickedRed == true)
         speed = 0;
     }
 }
+
+if (distance_to_object(redOrbPlace_obj) &lt; 128)
+{
+    move_towards_point(redOrbPlace_obj.x, redOrbPlace_obj.y, 1.75);
+}
+
+if (place_meeting(x, y, redOrbPlace_obj))
+{
+    speed = 0;
+}
+
 </string>
           </argument>
         </arguments>
