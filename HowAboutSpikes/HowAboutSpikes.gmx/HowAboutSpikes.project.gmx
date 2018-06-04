@@ -283,6 +283,8 @@
       <sprite>sprites\spiderweb_spr</sprite>
       <sprite>sprites\plantWeird_spr</sprite>
       <sprite>sprites\snowPile_spr</sprite>
+      <sprite>sprites\redOrbPlace_spr</sprite>
+      <sprite>sprites\blueOrbPlace_spr</sprite>
     </sprites>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
@@ -508,6 +510,8 @@
       <object>objects\torch_obj</object>
       <object>objects\spiderweb_obj</object>
       <object>objects\snowPile_obj</object>
+      <object>objects\redOrbPlace_obj</object>
+      <object>objects\blueOrbPlace_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>

@@ -36,6 +36,8 @@ gravityStrength = 0.6;
 invincible = false;
 
 image_speed = 0.03;
+
+alarm[1] = 130;
 </string>
           </argument>
         </arguments>
@@ -59,6 +61,33 @@ image_speed = 0.03;
           <argument>
             <kind>1</kind>
             <string>horSpeed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (distance_to_object(player_obj) &lt;= 32)
+{
+    verSpeed = -6;
+}
+alarm[1] = 50;
 </string>
           </argument>
         </arguments>
@@ -134,7 +163,7 @@ if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
     {
         audio_play_sound(hit_snd, 1, false);
     }
-    enemyHealth = enemyHealth - global.damage;
+    enemyHealth = enemyHealth - global.damage * 1.5;
     invincible = true;
     alarm[0] = 10;
 }
@@ -144,7 +173,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
     {
         audio_play_sound(hit_snd, 1, false);
     }
-    enemyHealth = enemyHealth - global.damage / 2;
+    enemyHealth = enemyHealth - global.damage;
     invincible = true;
     alarm[0] = 10;
 }

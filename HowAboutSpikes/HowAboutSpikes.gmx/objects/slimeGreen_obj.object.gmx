@@ -144,7 +144,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
     {
         audio_play_sound(hit_snd, 1, false);
     }
-    enemyHealth = enemyHealth - global.damage * 3;
+    enemyHealth = enemyHealth - global.damage * 1.5;
     invincible = true;
     alarm[0] = 10;
 }

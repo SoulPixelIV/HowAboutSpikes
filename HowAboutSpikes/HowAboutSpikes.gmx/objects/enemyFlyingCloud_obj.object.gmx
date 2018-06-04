@@ -79,7 +79,7 @@ if (place_meeting(x, y, hitbox_obj))
     {
         audio_play_sound(hit_snd, 1, false);
     }
-    enemyHealth = enemyHealth - global.damage / 8;
+    enemyHealth = enemyHealth - global.damage / 2;
 }
 if (place_meeting(x, y, scythe_obj))
 {

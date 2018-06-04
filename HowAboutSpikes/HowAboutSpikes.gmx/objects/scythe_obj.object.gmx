@@ -62,21 +62,6 @@ else
 
 if (hspeed &gt; 0)
 {
-    if (place_meeting(x - 4, y, enemy_obj))
-    {
-        instance_destroy();
-    }
-}
-if (hspeed &lt; 0)
-{
-    if (place_meeting(x + 4, y, enemy_obj))
-    {
-        instance_destroy();
-    }
-}
-
-if (hspeed &gt; 0)
-{
     if (place_meeting(x - 4, y, batBossSprite_obj))
     {
         instance_destroy();
@@ -94,21 +79,6 @@ if (hspeed &gt; 0)
 if (hspeed &lt; 0)
 {
     if (place_meeting(x + 4, y, batBossSprite_obj))
-    {
-        instance_destroy();
-    }
-}
-
-if (hspeed &gt; 0)
-{
-    if (place_meeting(x - 4, y, enemyFlyingCloud_obj))
-    {
-        instance_destroy();
-    }
-}
-if (hspeed &lt; 0)
-{
-    if (place_meeting(x + 4, y, enemyFlyingCloud_obj))
     {
         instance_destroy();
     }
