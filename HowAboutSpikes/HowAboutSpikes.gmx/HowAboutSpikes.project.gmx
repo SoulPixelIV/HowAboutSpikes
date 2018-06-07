@@ -554,6 +554,7 @@
       <object>objects\npcOldLady_obj</object>
       <object>objects\npcGVHelper_obj</object>
       <object>objects\npcOPHelper_obj</object>
+      <object>objects\npcUCAsker_obj</object>
       <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
