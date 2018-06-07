@@ -2531,6 +2531,7 @@
     <instance objName="spawn4_obj" x="1994" y="569" name="inst_9F9C0C08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="2016" y="640" name="inst_E5B7372A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="640" y="352" name="inst_D78EC4BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcUCAsker_obj" x="1878" y="624" name="inst_1BA7993F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

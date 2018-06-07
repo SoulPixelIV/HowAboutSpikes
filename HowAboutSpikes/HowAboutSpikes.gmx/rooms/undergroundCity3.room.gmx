@@ -304,12 +304,6 @@
     <instance objName="glassBlock_obj" x="704" y="64" name="inst_EF029B07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="704" y="32" name="inst_34C3413A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="832" y="160" name="inst_8F839EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="608" y="256" name="inst_F5F5247B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="640" y="256" name="inst_8AD5BC0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="672" y="256" name="inst_E98F94AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="704" y="256" name="inst_5DA15856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="736" y="256" name="inst_172F6148" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="768" y="256" name="inst_0BAA8114" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="576" y="128" name="inst_3D692DD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="672" y="64" name="inst_A16E5696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="672" y="32" name="inst_4001EA14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -415,7 +409,6 @@
     <instance objName="spikeHalf_obj" x="832" y="320" name="inst_3B073C7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="sunLight2YellowShader_obj" x="224" y="-64" name="inst_68CA54AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="704" y="128" name="inst_15EAA3B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="576" y="256" name="inst_BD3617A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="800" y="160" name="inst_0B71F316" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="800" y="192" name="inst_15689B89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="800" y="224" name="inst_F9E188BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -429,6 +422,13 @@
     <instance objName="ladderIron_obj" x="864" y="160" name="inst_14890F07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="768" y="480" name="inst_51235ADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="832" y="480" name="inst_7060B5C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="576" y="256" name="inst_FAF30A04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="608" y="256" name="inst_FD540E10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="640" y="256" name="inst_D59BCF12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="672" y="256" name="inst_BFCF0A77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="704" y="256" name="inst_803ED86E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="736" y="256" name="inst_935981CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeRed_obj" x="768" y="256" name="inst_C1033088" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

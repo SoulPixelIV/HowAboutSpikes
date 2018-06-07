@@ -29,14 +29,9 @@
 
 i = -1;
 
-messages[0] = "Hello there!";
-messages[1] = "Do you want to visit Overcast Peak?";
-messages[2] = "If so, you need two orbs...";
-messages[3] = "A red and a blue one.";
-messages[4] = "Both are hidden far below the ground...";
-messages[5] = "I think the place is called Demons Keep.";
-messages[6] = "Not many return from this journey. But I will not stop you.";
-messages[7] = "I wish you the best of luck.";
+messages[0] = "This is really confusing...";
+messages[1] = "Where does this rope lead to? Maybe it is a way out from a really dangerous place...";
+
 </string>
           </argument>
         </arguments>
