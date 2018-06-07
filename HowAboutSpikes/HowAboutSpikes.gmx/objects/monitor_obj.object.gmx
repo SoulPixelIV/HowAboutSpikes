@@ -148,7 +148,7 @@ if (key_left || key_right)
 
 if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 {
-    if (global.money &gt; 24 &amp;&amp; bought1 == false)
+    if (global.money &gt; 79 &amp;&amp; bought1 == false)
     {
         global.money = global.money - 25;
         global.mode = 1;
@@ -161,7 +161,7 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 }
 if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; drawShop == true)
 {
-    if (global.money &gt; 19)
+    if (global.money &gt; 59)
     {
         global.money = global.money - 20;
         global.healthVar = global.healthVar + 1;
