@@ -114,22 +114,23 @@ global.restart = false;
             <string>///Save Game
 if (room != tutorial)
 {
-if (file_exists("save1.has"))
-{
-    file_delete("save1.has");
-}
-ini_open("save1.has");
-var currRoom = room;
-
-ini_write_real("Save1", "current room", currRoom);
-ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
-ini_write_real("Save1", "redOrb", global.pickedRed);
-ini_write_real("Save1", "blueOrb", global.pickedBlue);
-ini_write_real("Save1", "money", global.money);
-ini_write_real("Save1", "health", global.healthVar);
-ini_write_real("Save1", "gamemode", global.mode);
-ini_write_real("Save1", "death count", global.deathCount);
-ini_close();
+    instance_create(view_xview[0] + 610, view_yview[0] + 330, saveIcon_obj);
+    if (file_exists("save1.has"))
+    {
+        file_delete("save1.has");
+    }
+    ini_open("save1.has");
+    var currRoom = room;
+    
+    ini_write_real("Save1", "current room", currRoom);
+    ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
+    ini_write_real("Save1", "redOrb", global.pickedRed);
+    ini_write_real("Save1", "blueOrb", global.pickedBlue);
+    ini_write_real("Save1", "money", global.money);
+    ini_write_real("Save1", "health", global.healthVar);
+    ini_write_real("Save1", "gamemode", global.mode);
+    ini_write_real("Save1", "death count", global.deathCount);
+    ini_close();
 }
 </string>
           </argument>

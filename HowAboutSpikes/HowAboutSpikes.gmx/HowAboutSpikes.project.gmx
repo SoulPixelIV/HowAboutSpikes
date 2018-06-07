@@ -313,6 +313,7 @@
       <sprite>sprites\gameover_spr</sprite>
       <sprite>sprites\textbox_spr</sprite>
       <sprite>sprites\ringbox_spr</sprite>
+      <sprite>sprites\saveIcon_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -629,6 +630,7 @@
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>
       <object>objects\shopIcon2_obj</object>
+      <object>objects\saveIcon_obj</object>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
