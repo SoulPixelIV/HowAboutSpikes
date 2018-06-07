@@ -30,13 +30,11 @@
 i = -1;
 
 messages[0] = "Hello there!";
-messages[1] = "Do you want to visit Overcast Peak?";
-messages[2] = "If so, you need two orbs...";
-messages[3] = "A red and a blue one.";
-messages[4] = "Both are hidden far below the ground...";
-messages[5] = "I think the place is called Demons Keep.";
-messages[6] = "Not many return from this journey. But I will not stop you.";
-messages[7] = "I wish you the best of luck.";
+messages[1] = "Do you want to visit Overcast Peak? If so, you need two orbs... A red and a blue one.";
+messages[2] = "Both are hidden far below the ground... I think the place is called Demons Keep.";
+messages[3] = "Not many return from this journey. But I will not stop you.";
+messages[4] = "I wish you the best of luck.";
+
 </string>
           </argument>
         </arguments>

@@ -27,11 +27,9 @@
             <kind>1</kind>
             <string>i = -1;
 
-messages[0] = "Hey there! Do you need some help?"
-messages[1] = "I mean we are both a bit stuck here."
-messages[2] = "But I have something pretty interesting for you!"
-messages[3] = "How about a ring, which makes fake ground visible."
-messages[4] = "Are you interested...?"
+messages[0] = "Hey there! Do you need some help? I mean we are both a bit stuck here."
+messages[1] = "But I have something pretty interesting for you! How about a ring, which makes fake ground visible."
+messages[2] = "Are you interested...?"
 </string>
           </argument>
         </arguments>

@@ -30,13 +30,11 @@
 i = -1;
 
 messages[0] = "Well, hello there!"
-messages[1] = "This forest is really dangerous."
-messages[2] = "Always pay attention to your surroundings!"
-messages[3] = "...also"
-messages[4] = "I know it sounds weird, but I need your help."
-messages[5] = "My grandson is really ill and he needs medicine."
-messages[6] = "Only a tooth from a bat can heal him."
-messages[7] = "Bring me that and I'll give you a reward!"
+messages[1] = "This forest is really dangerous. Always pay attention to your surroundings!"
+messages[2] = "...also"
+messages[3] = "I know it sounds weird, but I need your help. My grandson is really ill and he needs medicine."
+messages[4] = "Only a tooth from a bat can heal him. Bring me that and I'll give you a reward!"
+
 </string>
           </argument>
         </arguments>
