@@ -886,7 +886,6 @@
     <instance objName="stoneBlockGrey_obj" x="864" y="544" name="inst_72C02763" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="896" y="544" name="inst_90F32546" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="928" y="544" name="inst_EE9CC428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="928" y="512" name="inst_9C45A261" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="928" y="480" name="inst_FD2C45F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="896" y="480" name="inst_44D0DE11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="896" y="352" name="inst_FA37BC70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -902,13 +901,11 @@
     <instance objName="stoneBlockGrey_obj" x="832" y="416" name="inst_2B2D0054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="800" y="480" name="inst_483E6CB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="832" y="480" name="inst_40354B5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="896" y="512" name="inst_F6C495F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="704" y="512" name="inst_18683890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="736" y="512" name="inst_44AC250F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="768" y="512" name="inst_12C670F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="800" y="512" name="inst_6B5D25E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="832" y="512" name="inst_30BA2409" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="864" y="512" name="inst_35045573" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="864" y="480" name="inst_FC571A2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="864" y="448" name="inst_5E203FDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="832" y="448" name="inst_5EA6BA5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1160,18 +1157,14 @@
     <instance objName="checkpoint_obj" x="1824" y="768" name="inst_7A797FEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="384" y="704" name="inst_C7A689B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="1800" y="724" name="inst_52D0B302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="1811" y="352" name="inst_2BF86EFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1824" y="352" name="inst_9F5DFFC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1856" y="352" name="inst_72345817" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1888" y="352" name="inst_219F0B14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1888" y="384" name="inst_534C2BF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1856" y="384" name="inst_1ABB5620" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1824" y="384" name="inst_37FB7117" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="1811" y="384" name="inst_CBD2C936" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="832" y="96" name="inst_B167379F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="832" y="128" name="inst_DC167C4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="839" y="128" name="inst_970721EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="839" y="96" name="inst_8B608168" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1120" y="256" name="inst_96155B14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1120" y="288" name="inst_2345AC5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1120" y="224" name="inst_0447450C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1357,6 +1350,17 @@
     <instance objName="stoneBlockGrey_obj" x="1920" y="960" name="inst_792A60C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1920" y="928" name="inst_2D026EE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1920" y="896" name="inst_17895517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="896" y="512" name="inst_BBDBEB82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="928" y="512" name="inst_9A2D3D33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="896" y="96" name="inst_68D28E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="896" y="128" name="inst_228DC886" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="864" y="96" name="inst_1B0CE043" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="864" y="128" name="inst_93AEF81B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="1760" y="352" name="inst_024B3192" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="1760" y="384" name="inst_F5EA851E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="1792" y="352" name="inst_8E1811BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="1792" y="384" name="inst_4AFB9C81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="window_obj" x="864" y="512" name="inst_1478733A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

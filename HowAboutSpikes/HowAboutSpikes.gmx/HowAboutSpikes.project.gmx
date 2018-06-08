@@ -120,6 +120,7 @@
       </sprites>
       <sprite>sprites\woodplaneBlock_spr</sprite>
       <sprite>sprites\woodplanePole_spr</sprite>
+      <sprite>sprites\window_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -441,6 +442,7 @@
       <object>objects\stoneBlockGrey_obj</object>
       <object>objects\woodplaneBlock_obj</object>
       <object>objects\woodplanePole_obj</object>
+      <object>objects\window_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
