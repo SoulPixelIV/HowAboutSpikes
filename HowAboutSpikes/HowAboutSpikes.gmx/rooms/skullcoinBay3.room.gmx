@@ -1353,6 +1353,10 @@
     <instance objName="torch_obj" x="416" y="32" name="inst_5DEE18F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="760" y="595" name="inst_DF7F12A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="767" y="604" name="inst_10F88D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderSB2_SB3_obj" x="1960" y="656" name="inst_825D1745" locked="0" code="" scaleX="1.5" scaleY="4.16666650772095" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="1920" y="960" name="inst_792A60C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="1920" y="928" name="inst_2D026EE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="1920" y="896" name="inst_17895517" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
