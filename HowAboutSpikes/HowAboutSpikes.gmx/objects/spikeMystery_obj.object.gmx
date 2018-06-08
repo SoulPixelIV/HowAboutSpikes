@@ -48,9 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.03;
-
-if (distance_to_object(player_obj) &lt; 72)
+            <string>if (distance_to_object(player_obj) &lt; 72)
 {
     sprite_index = spike_spr;
 }
