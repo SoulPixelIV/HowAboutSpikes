@@ -1159,8 +1159,6 @@
     <instance objName="ladderIron_obj" x="448" y="992" name="inst_A52D42D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="1824" y="768" name="inst_7A797FEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="384" y="704" name="inst_C7A689B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeFalling_obj" x="672" y="608" name="inst_B825A142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeFalling_obj" x="704" y="608" name="inst_57474C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="1800" y="724" name="inst_52D0B302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1811" y="352" name="inst_2BF86EFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="1824" y="352" name="inst_9F5DFFC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1313,6 +1311,48 @@
     <instance objName="rope_obj" x="1536" y="261" name="inst_E3BA37AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="1027" y="500" name="inst_8EB1A3FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="1023" y="793" name="inst_C4080E05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1728" y="864" name="inst_F177B2A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1728" y="832" name="inst_635692E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1568" y="704" name="inst_78C2FFFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1568" y="736" name="inst_C52D91C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1617" y="259" name="inst_DF34003C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1617" y="235" name="inst_F1D24604" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="treasurechest_obj" x="1792" y="224" name="inst_6165C6CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="treasurechest_obj" x="1856" y="224" name="inst_E7FFDB85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal2_obj" x="1792" y="224" name="inst_1757F1C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal2_obj" x="1856" y="224" name="inst_32B14D9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="1792" y="256" name="inst_008F7E44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="1856" y="256" name="inst_40525DB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1458" y="133" name="inst_B89EC652" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1458" y="113" name="inst_18177AB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1330" y="197" name="inst_33D63B29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="1330" y="176" name="inst_AA46AC2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="992" y="480" name="inst_25024757" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpirit_obj" x="992" y="448" name="inst_4929DCD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="1536" y="128" name="inst_82F5B630" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="1024" y="128" name="inst_AEF69F06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="960" y="416" name="inst_D8DBE859" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight2RedShader_obj" x="320" y="320" name="inst_9D5AE432" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="704" y="768" name="inst_6C3715AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="576" y="736" name="inst_A24B1C10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="672" y="576" name="inst_EE4B5AB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="544" y="512" name="inst_192C555C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="512" name="inst_8C95E46A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="736" name="inst_1D31EC8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="224" y="736" name="inst_E7FCF5F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="224" y="512" name="inst_34D0C039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="192" y="512" name="inst_6689C811" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="192" y="736" name="inst_BA4D782A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="544" y="896" name="inst_0DAD27D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="896" name="inst_7F7C3E20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="544" y="352" name="inst_11750E4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="352" name="inst_41A16DC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="544" y="192" name="inst_E344419A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="192" name="inst_9CAEA801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="544" y="32" name="inst_58E566B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="416" y="32" name="inst_5DEE18F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="rope_obj" x="760" y="595" name="inst_DF7F12A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="767" y="604" name="inst_10F88D1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
