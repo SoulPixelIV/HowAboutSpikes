@@ -1361,6 +1361,8 @@
     <instance objName="window_obj" x="1792" y="352" name="inst_8E1811BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="window_obj" x="1792" y="384" name="inst_4AFB9C81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="window_obj" x="864" y="512" name="inst_1478733A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="473" y="887" name="inst_1082D3BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderSB3_SB4_obj" x="488" y="1027" name="inst_B1FE72BE" locked="0" code="" scaleX="3.5" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
