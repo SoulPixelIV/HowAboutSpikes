@@ -760,6 +760,7 @@
     <instance objName="woodplaneBlock_obj" x="704" y="448" name="inst_B3E07439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="128" y="256" name="inst_1DB39178" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="160" y="256" name="inst_EBC6692C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="woodplaneBlock_obj" x="288" y="768" name="inst_7227532F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
