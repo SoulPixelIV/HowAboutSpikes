@@ -345,6 +345,7 @@
     <font>fonts\gameover_fnt</font>
     <font>fonts\mainmenu_fnt</font>
     <font>fonts\credits_fnt</font>
+    <font>fonts\creditsSmall_fnt</font>
     <font>fonts\creditsBig_fnt</font>
   </fonts>
   <objects name="objects">
@@ -367,6 +368,7 @@
       <object>objects\fog_obj</object>
       <object>objects\cursor_obj</object>
       <objects name="Menu Objects">
+        <object>objects\creditsMenu_obj</object>
         <object>objects\titlemenu_obj</object>
         <object>objects\mainMenu_obj</object>
         <object>objects\settingmenu_obj</object>
@@ -654,6 +656,7 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Menu Rooms">
+      <room>rooms\creditsMenu</room>
       <room>rooms\titleMenu</room>
       <room>rooms\mainMenu</room>
       <room>rooms\settingsMenu</room>
