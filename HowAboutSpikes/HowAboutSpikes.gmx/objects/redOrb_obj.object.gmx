@@ -69,7 +69,7 @@ if (global.pickedRed == true)
 
 if (distance_to_object(redOrbPlace_obj) &lt; 128)
 {
-    move_towards_point(redOrbPlace_obj.x, redOrbPlace_obj.y, 1.75);
+    move_towards_point(redOrbPlace_obj.x + 10, redOrbPlace_obj.y, 1.75);
 }
 
 if (place_meeting(x, y, redOrbPlace_obj))
