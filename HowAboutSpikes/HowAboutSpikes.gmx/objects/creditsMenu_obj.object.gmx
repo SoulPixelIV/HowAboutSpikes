@@ -77,7 +77,7 @@ timer += 1;
             <string>///Skip Cutscene
 if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start))
 {
-    room_goto(tutorial);
+    room_goto(titleMenu);
 }
 </string>
           </argument>
