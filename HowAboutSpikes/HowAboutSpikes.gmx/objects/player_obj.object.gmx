@@ -634,7 +634,7 @@ if (!place_free(x, y + verSpeed))
 }
 
 //###Death###
-if (health == 0)
+if (health &lt;= 0)
 {
     deathCountVar = true;
 }
