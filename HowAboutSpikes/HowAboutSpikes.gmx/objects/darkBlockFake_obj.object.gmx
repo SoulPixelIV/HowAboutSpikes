@@ -50,7 +50,7 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y, player_obj))
+            <string>if (place_meeting(x, y, player_obj) || place_meeting(x, y, scythe_obj))
 {
     image_index = 1;
 }
