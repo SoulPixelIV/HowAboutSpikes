@@ -52,25 +52,29 @@ image_speed = 0.2;
           <argument>
             <kind>1</kind>
             <string>sprite_index = batIdle_spr;
-move_towards_point(player_obj.x, player_obj.y, 2.1);
 
-if (place_meeting(x, y, hitbox_obj))
+if (instance_exists(player_obj))
 {
-    if (!audio_is_playing(hit_snd))
+    move_towards_point(player_obj.x, player_obj.y, 2.1);
+    
+    if (place_meeting(x, y, hitbox_obj))
     {
-        audio_play_sound(hit_snd, 1, false);
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage * 3;
     }
-    enemyHealth = enemyHealth - global.damage * 3;
-}
-if (place_meeting(x, y, scythe_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    if (place_meeting(x, y, scythe_obj))
     {
-        audio_play_sound(hit_snd, 1, false);
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage * 3;
     }
-    enemyHealth = enemyHealth - global.damage * 3;
 }
-
+    
 //###Death###
 if (enemyHealth &lt;= 0)
 {

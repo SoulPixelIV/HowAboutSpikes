@@ -87,6 +87,7 @@ global.state = 0;
 global.damage = 20;
 global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
+global.numberJumps = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
@@ -674,6 +675,7 @@ if (deathCountVar == true)
 }
 
 //###Pause Menu###
+/*
 if (key_pause)
 {
     if (pauseMenu == false)
@@ -1351,7 +1353,7 @@ else
           <argument>
             <kind>1</kind>
             <string>///Pause Menu
-
+/*
 if (pauseMenu == true)
 {
     movement = false;

@@ -30,6 +30,10 @@ cameraSpeed = 0.06;
 cameraWidth = 640;
 cameraHeight = 360;
 
+pauseMenu = false;
+saveXPos = 0;
+saveYPos = 0;
+
 global.transition = false;
 
 //Set Camera View
@@ -38,6 +42,29 @@ if (instance_exists(player_obj))
     view_xview[0] = player_obj.x - (cameraWidth/2);
     view_yview[0] = player_obj.y - (cameraHeight/2);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>surface = surface_create(room_width, room_height);
+surfaceScale = 1/8;
+amount = 1;
 </string>
           </argument>
         </arguments>
@@ -126,6 +153,48 @@ if (instance_exists(player_obj))
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Pause System
+
+key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
+
+if (key_pause)
+{
+    if (pauseMenu == false)
+    {
+        pauseMenu = true;
+        saveXPos = player_obj.x;
+        saveYPos = player_obj.y;
+        with (player_obj)
+        {
+            instance_destroy();
+        }
+    }
+    else
+    {
+        pauseMenu = false;
+        instance_create(saveXPos, saveYPos, player_obj);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -144,33 +213,14 @@ if (instance_exists(player_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Game Over###
-with (player_obj)
+            <string>//###Pause Menu###
+if (pauseMenu == true)
 {
-    if (dead == true)
-    {
-        with (camera_obj)
-        {
-            draw_set_font(gameover_fnt);
-            draw_set_colour(c_red);
-            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));  
-            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
-        }
-    }
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "PAUSED");
 }
-//###Pause Menu###
-with (player_obj)
-{
-    if (pauseMenu == true)
-    {
-        with (camera_obj)
-        {
-            draw_set_font(message_fnt);
-            draw_set_colour(c_white);
-            draw_text(global.guiPosX + 90, global.guiPosY + 70, "PAUSED");
-        }
-    }
-}
+
 </string>
           </argument>
         </arguments>
@@ -192,6 +242,49 @@ with (player_obj)
           <argument>
             <kind>1</kind>
             <string>draw_sprite(dirtyLensEffect_spr, 0, view_xview[0], view_yview[0]);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Pause Menu
+
+if (pauseMenu == true)
+{
+    amount = 0.6;
+}
+else
+{
+    amount = 0;
+}
+
+if !surface_exists(surface)
+{
+    surface = surface_create(room_width, room_height);
+    surfaceScale = 1/8;
+}
+else
+{
+    surface_set_target(surface);
+    draw_clear(c_black);
+    surface_reset_target();
+    draw_surface_ext(surface, 0, 0, 1/surfaceScale, 1/surfaceScale, 0, c_white, amount);
+}
 </string>
           </argument>
         </arguments>

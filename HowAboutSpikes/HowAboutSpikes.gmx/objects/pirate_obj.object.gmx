@@ -137,45 +137,48 @@ invincible = false;
             <string>x = x + horSpeed;
 y = y + verSpeed;
 
-if (distance_to_object(player_obj) &lt;= 200 &amp;&amp; distance_to_object(player_obj) &gt;= 64)
+if (instance_exists(player_obj))
 {
-    horSpeed = movSpeed;
-}
-else
-{
-    horSpeed = -movSpeed;
-    alarm[4] = 100;
-}
-
-if (place_meeting(x, y, player_obj))
-{
-    global.hit = true;
-}
-
-if (distance_to_object(player_obj) &gt;= 220)
-{
-    horSpeed = 0;
-}
-
-if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
-{
-    if (!audio_is_playing(hit_snd))
+    if (distance_to_object(player_obj) &lt;= 200 &amp;&amp; distance_to_object(player_obj) &gt;= 64)
     {
-        audio_play_sound(hit_snd, 1, false);
+        horSpeed = movSpeed;
     }
-    enemyHealth = enemyHealth - global.damage / 2;
-    invincible = true;
-    alarm[0] = 10;
-}
-if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
-{
-    if (!audio_is_playing(hit_snd))
+    else
     {
-        audio_play_sound(hit_snd, 1, false);
+        horSpeed = -movSpeed;
+        alarm[4] = 100;
     }
-    enemyHealth = enemyHealth - global.damage / 2.75;
-    invincible = true;
-    alarm[0] = 10;
+    
+    if (place_meeting(x, y, player_obj))
+    {
+        global.hit = true;
+    }
+    
+    if (distance_to_object(player_obj) &gt;= 220)
+    {
+        horSpeed = 0;
+    }
+    
+    if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 2;
+        invincible = true;
+        alarm[0] = 10;
+    }
+    if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 2.75;
+        invincible = true;
+        alarm[0] = 10;
+    }
 }
 
 //###Gravity###

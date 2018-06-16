@@ -49,32 +49,35 @@ image_speed = 0.05;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt;= 256)
+            <string>if (instance_exists(player_obj))
 {
-    move_towards_point(player_obj.x, player_obj.y, movSpeed);
-}
-
-if (place_meeting(x, y, player_obj))
-{
-    global.hit = true;
-    instance_destroy();
-}
-
-if (place_meeting(x, y, hitbox_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    if (distance_to_object(player_obj) &lt;= 256)
     {
-        audio_play_sound(hit_snd, 1, false);
+        move_towards_point(player_obj.x, player_obj.y, movSpeed);
     }
-    instance_destroy();
-}
-if (place_meeting(x, y, scythe_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    
+    if (place_meeting(x, y, player_obj))
     {
-        audio_play_sound(hit_snd, 1, false);
+        global.hit = true;
+        instance_destroy();
     }
-    instance_destroy();
+    
+    if (place_meeting(x, y, hitbox_obj))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        instance_destroy();
+    }
+    if (place_meeting(x, y, scythe_obj))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        instance_destroy();
+    }
 }
 </string>
           </argument>
