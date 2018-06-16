@@ -367,6 +367,7 @@
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
       <object>objects\cursor_obj</object>
+      <object>objects\cursor2_obj</object>
       <objects name="Menu Objects">
         <object>objects\creditsMenu_obj</object>
         <object>objects\titlemenu_obj</object>

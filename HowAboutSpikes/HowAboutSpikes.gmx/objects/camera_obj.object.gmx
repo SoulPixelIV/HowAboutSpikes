@@ -240,9 +240,9 @@ key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space)
 
 if (pauseMenu == true)
 {
-    if (!instance_exists(cursor_obj))
+    if (!instance_exists(cursor2_obj))
     {
-        instance_create(global.guiPosX + 240, global.guiPosY + 160, cursor_obj);
+        instance_create(global.guiPosX + 240, global.guiPosY + 160, cursor2_obj);
         buttonSelected = 0;
     }
     if (key_up)
@@ -270,8 +270,8 @@ if (pauseMenu == true)
     
     if (buttonSelected == 0)
     {
-        cursor_obj.x = global.guiPosX + 240;
-        cursor_obj.y = global.guiPosY + 182;
+        cursor2_obj.x = global.guiPosX + 240;
+        cursor2_obj.y = global.guiPosY + 182;
         if (key_enter)
         {
             pauseMenu = false;
@@ -280,8 +280,8 @@ if (pauseMenu == true)
     }
     if (buttonSelected == 1)
     {
-        cursor_obj.x = global.guiPosX + 340;
-        cursor_obj.y = global.guiPosY + 232;
+        cursor2_obj.x = global.guiPosX + 340;
+        cursor2_obj.y = global.guiPosY + 232;
         if (key_enter)
         {
             pauseMenu = false;
@@ -291,7 +291,7 @@ if (pauseMenu == true)
 }
 else
 {
-    with (cursor_obj)
+    with (cursor2_obj)
     {
         instance_destroy();
     }
