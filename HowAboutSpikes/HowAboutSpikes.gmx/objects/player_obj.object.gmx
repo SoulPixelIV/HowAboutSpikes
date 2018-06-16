@@ -56,6 +56,7 @@ global.numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
 health = global.healthVar;
+health = global.healthPause;
 attackCooldown = 7;
 pauseMenu = false;
 

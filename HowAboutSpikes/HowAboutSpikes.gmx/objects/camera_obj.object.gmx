@@ -34,6 +34,8 @@ pauseMenu = false;
 saveXPos = 0;
 saveYPos = 0;
 
+global.healthPause = 3;
+
 global.transition = false;
 
 //Set Camera View
@@ -204,6 +206,7 @@ if (key_pause)
         saveYPos = player_obj.y;
         with (player_obj)
         {
+            global.healthPause = health;
             instance_destroy();
         }
     }
