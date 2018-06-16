@@ -50,20 +50,23 @@
             <kind>1</kind>
             <string>image_speed = 0.08;
 
-if (place_meeting(x, y, player_obj))
+if (instance_exists(player_obj))
 {
-    global.picked = true;
-}
-
-if (global.picked == true)
-{
-    if (distance_to_object(player_obj) &gt; 20)
+    if (place_meeting(x, y, player_obj))
     {
-        move_towards_point(player_obj.x, player_obj.y - 32, 3);
+        global.picked = true;
     }
-    else
+    
+    if (global.picked == true)
     {
-        speed = 0;
+        if (distance_to_object(player_obj) &gt; 20)
+        {
+            move_towards_point(player_obj.x, player_obj.y - 32, 3);
+        }
+        else
+        {
+            speed = 0;
+        }
     }
 }
 </string>
