@@ -636,7 +636,7 @@ if (!place_free(x, y + verSpeed))
 }
 
 //###Death###
-if (health &lt;= 0)
+if (health == 0)
 {
     deathCountVar = true;
 }
@@ -776,7 +776,10 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 //###Damage Collision###
 if (place_meeting(x, y, lava_obj) || place_meeting(x, y, spikeRed_obj))
 {
-    health = health - 99;
+    if (health &gt; 0)
+    {
+        health = health - 1;
+    }
     alarm[0] = 10;
 }
     

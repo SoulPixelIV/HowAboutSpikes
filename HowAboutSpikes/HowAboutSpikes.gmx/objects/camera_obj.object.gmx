@@ -273,7 +273,7 @@ if (pauseMenu == true)
     
     if (buttonSelected == 0)
     {
-        cursor2_obj.x = global.guiPosX + 240;
+        cursor2_obj.x = global.guiPosX + 200;
         cursor2_obj.y = global.guiPosY + 182;
         if (key_enter)
         {
@@ -321,12 +321,19 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Pause Menu###
-if (pauseMenu == true)
+            <string>//###Game Over###
+with (player_obj)
 {
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "PAUSED");
+    if (dead)
+    {
+        with (camera_obj)
+        {
+            draw_set_font(gameover_fnt);
+            draw_set_color(c_red);
+            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));
+            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
+        }
+    }
 }
 
 </string>
@@ -422,6 +429,10 @@ if (pauseMenu == true)
     draw_text(global.guiPosX + 60, global.guiPosY + 160, "Continue")
 
     draw_text(global.guiPosX + 60, global.guiPosY + 210, "Back to title screen")
+    
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 30, global.guiPosY + 30, "PAUSED");
 }
 
 </string>
