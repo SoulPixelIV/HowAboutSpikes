@@ -131,9 +131,7 @@ alarm[0] = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
-
-if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
+            <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
 {
     with(eyeBoss_obj)
     {
