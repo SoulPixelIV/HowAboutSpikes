@@ -69,6 +69,28 @@ amount = 1;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Menu
+buttonSelected = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -195,6 +217,89 @@ if (key_pause)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Menu
+key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
+key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+
+if (pauseMenu == true)
+{
+    if (!instance_exists(cursor_obj))
+    {
+        instance_create(global.guiPosX + 240, global.guiPosY + 160, cursor_obj);
+        buttonSelected = 0;
+    }
+    if (key_up)
+    {
+        if (buttonSelected &gt; -1)
+        {
+            buttonSelected = buttonSelected - 1;
+        }
+        if (buttonSelected == -1)
+        {
+            buttonSelected = 1;
+        }
+    }
+    if (key_down)
+    {
+        if (buttonSelected &lt; 2)
+        {
+            buttonSelected = buttonSelected + 1;
+        }
+        if (buttonSelected == 2)
+        {
+            buttonSelected = 0;
+        }
+    }
+    
+    if (buttonSelected == 0)
+    {
+        cursor_obj.x = global.guiPosX + 240;
+        cursor_obj.y = global.guiPosY + 182;
+        if (key_enter)
+        {
+            pauseMenu = false;
+            instance_create(saveXPos, saveYPos, player_obj);
+        }
+    }
+    if (buttonSelected == 1)
+    {
+        cursor_obj.x = global.guiPosX + 340;
+        cursor_obj.y = global.guiPosY + 232;
+        if (key_enter)
+        {
+            pauseMenu = false;
+            room_goto(titleMenu);
+        }
+    }
+}
+else
+{
+    with (cursor_obj)
+    {
+        instance_destroy();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="0">
       <action>
@@ -285,6 +390,37 @@ else
     surface_reset_target();
     draw_surface_ext(surface, 0, 0, 1/surfaceScale, 1/surfaceScale, 0, c_white, amount);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Menu GUI
+if (pauseMenu == true)
+{
+    draw_set_color(c_white);
+    draw_set_font(mainmenu_fnt);
+
+    draw_text(global.guiPosX + 60, global.guiPosY + 160, "Continue")
+
+    draw_text(global.guiPosX + 60, global.guiPosY + 210, "Back to title screen")
+}
+
 </string>
           </argument>
         </arguments>
