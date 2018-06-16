@@ -953,8 +953,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-///Debug
+            <string>///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
@@ -980,7 +979,7 @@ if (keyboard_check_pressed(ord('2')) &amp;&amp; room != skullcoinBay4)
     global.playerSpawnLocation = 0;
     room_goto(skullcoinBay3);
 }
-if (keyboard_check_pressed(ord('3')) &amp;&amp; room != sentinelGraves3)
+if (keyboard_check_pressed(ord('3')) &amp;&amp; room != overcastPeak5)
 {
     global.playerSpawnLocation = 0;
     room_goto(sentinelGraves3);

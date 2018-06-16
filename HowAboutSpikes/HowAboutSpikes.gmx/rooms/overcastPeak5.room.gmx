@@ -202,7 +202,6 @@
     <instance objName="spikeFalling_obj" x="2016" y="1216" name="inst_7F5D8DEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="2208" y="1216" name="inst_A7CFAC6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2240" y="1376" name="inst_1A01FDE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2272" y="1280" name="inst_8101A4A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeRed_obj" x="2336" y="1440" name="inst_13DA7906" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeRed_obj" x="2368" y="1440" name="inst_7C62D899" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeRed_obj" x="2400" y="1440" name="inst_083E6A16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -245,24 +244,8 @@
     <instance objName="spikeMoving_obj" x="288" y="1408" name="inst_CE35F7E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="224" y="1408" name="inst_8E71AD98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="160" y="1408" name="inst_C0509604" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="2368" y="1321" name="inst_E1DCA81A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="2400" y="1321" name="inst_E243BD69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="2272" y="1304" name="inst_426370AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="352" y="1280" name="inst_D51704A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="320" y="1280" name="inst_2CF48954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chaingunTurret_obj" x="352" y="1216" name="inst_23B8E5EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="96" y="1248" name="inst_A0807DF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="cityGroundBlockSmall_obj" x="96" y="1280" name="inst_A1D3F1FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="cityGroundBlockSmall_obj" x="96" y="1312" name="inst_94A7D2E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="spikeMoving_obj" x="256" y="1376" name="inst_9A6D543E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="1088" y="1408" name="inst_3C6A9972" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="992" y="1408" name="inst_539C1FFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="960" y="1408" name="inst_FCFD738E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="1120" y="1408" name="inst_DD4BAE9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="832" y="1408" name="inst_D19D0947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="864" y="1408" name="inst_09A580DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="1216" y="1408" name="inst_14B42F4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="cityGroundBlockSmall_obj" x="1248" y="1408" name="inst_712AAD9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chaingunTurret_obj" x="1056" y="1280" name="inst_F41AB543" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="vignetteShaderRed_obj" x="64" y="0" name="inst_50EEAFFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="1344" y="1312" name="inst_7A311A25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2530,6 +2513,26 @@
     <instance objName="darkSpiritBig_obj" x="2528" y="800" name="inst_FE2165CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="1577" y="730" name="inst_1156BF6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="1600" y="768" name="inst_6EF75A5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="2400" y="1321" name="inst_4DDFD2B1" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="2368" y="1321" name="inst_C26F54E9" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="2272" y="1304" name="inst_BE2A329C" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="2272" y="1280" name="inst_30A08FB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="1248" y="1408" name="inst_0D3FAB44" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="1216" y="1408" name="inst_B57017B1" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="1120" y="1408" name="inst_5069F687" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="1088" y="1408" name="inst_748A88B5" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="992" y="1408" name="inst_64B13D22" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="960" y="1408" name="inst_F215AFC2" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="864" y="1408" name="inst_CBD7EC26" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="832" y="1408" name="inst_2E43D3D4" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="352" y="1280" name="inst_5BDB4329" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="320" y="1280" name="inst_384A1713" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="104" y="1248" name="inst_E34B3E94" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="stoneBlock_obj" x="104" y="1280" name="inst_E1CB560F" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="stoneBlock_obj" x="104" y="1312" name="inst_663D18CA" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="90"/>
+    <instance objName="spawn1_obj" x="54" y="1327" name="inst_176B1C8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="64" y="1376" name="inst_0880B01E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderOP5_OPB_obj" x="-34" y="1301" name="inst_5E0BB42C" locked="0" code="" scaleX="0.833333313465118" scaleY="3.17000007629395" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

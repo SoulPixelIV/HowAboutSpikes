@@ -479,6 +479,7 @@
       <object>objects\colliderUF2_OP3_obj</object>
       <object>objects\colliderOP3_OP4_obj</object>
       <object>objects\colliderOP4_OP5_obj</object>
+      <object>objects\colliderOP5_OPB_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
       <object>objects\colliderGV_SB1_obj</object>
       <object>objects\colliderSB1_SB2_obj</object>
@@ -689,7 +690,7 @@
     <room>rooms\overcastPeak3</room>
     <room>rooms\overcastPeak4</room>
     <room>rooms\overcastPeak5</room>
-    <room>rooms\overdriveMetropoleBoss</room>
+    <room>rooms\overcastPeakBoss</room>
     <room>rooms\skullcoinBay1</room>
     <room>rooms\skullcoinBay2</room>
     <room>rooms\skullcoinBay3</room>
