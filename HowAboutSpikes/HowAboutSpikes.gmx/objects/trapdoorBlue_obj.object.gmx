@@ -52,6 +52,94 @@
 {
     sprite_index = trapdoorBlueOpen_spr;
     global.hitLeverBlue = false;
+    if (room == gardenValley)
+    {
+        global.gardenValleyTD[1] = 1;
+    }
+    if (room == unknownForest1)
+    {
+        global.unknownForest1TD[1] = 1;
+    }
+    if (room == unknownForest2)
+    {
+        global.unknownForest2TD[1] = 1;
+    }
+    if (room == unknownForest3)
+    {
+        global.unknownForest3TD[1] = 1;
+    }
+    if (room == demonsKeep1)
+    {
+        global.demonsKeep1TD[1] = 1;
+    }
+    if (room == demonsKeep2)
+    {
+        global.demonsKeep2TD[1] = 1;
+    }
+    if (room == demonsKeep3)
+    {
+        global.demonsKeep3TD[1] = 1;
+    }
+    if (room == undergroundCity1)
+    {
+        global.undergroundCity1TD[1] = 1;
+    }
+    if (room == undergroundCity2)
+    {
+        global.undergroundCity2TD[1] = 1;
+    }
+    if (room == undergroundCity3)
+    {
+        global.undergroundCity3TD[1] = 1;
+    }
+    if (room == sentinelGraves1)
+    {
+        global.sentinelGraves1TD[1] = 1;
+    }
+    if (room == sentinelGraves2)
+    {
+        global.sentinelGraves2TD[1] = 1;
+    }
+    if (room == deepPrison)
+    {
+        global.deepPrisonTD[1] = 1;
+    }
+    if (room == overcastPeak1)
+    {
+        global.overcastPeak1TD[1] = 1;
+    }
+    if (room == overcastPeak2)
+    {
+        global.overcastPeak2TD[1] = 1;
+    }
+    if (room == overcastPeak3)
+    {
+        global.overcastPeak3TD[1] = 1;
+    }
+    if (room == overcastPeak4)
+    {
+        global.overcastPeak4TD[1] = 1;
+    }
+    if (room == overcastPeak5)
+    {
+        global.overcastPeak5TD[1] = 1;
+    }
+    if (room == skullcoinBay1)
+    {
+        global.skullcoinBay1TD[1] = 1;
+    }
+    if (room == skullcoinBay2)
+    {
+        global.skullcoinBay2TD[1] = 1;
+    }
+    if (room == skullcoinBay3)
+    {
+        global.skullcoinBay3TD[1] = 1;
+    }
+    if (room == skullcoinBay4)
+    {
+        global.skullcoinBay4TD[1] = 1;
+    }
 }
 </string>
           </argument>

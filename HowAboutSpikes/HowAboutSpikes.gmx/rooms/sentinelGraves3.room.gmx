@@ -269,7 +269,6 @@
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_D79C103F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleBlueSpawner_obj" x="160" y="0" name="inst_7BEE6109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_B49604F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="128" y="480" name="inst_EE3543A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="448" y="800" name="inst_9CEFDB94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="736" y="704" name="inst_FAEAC3F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="672" y="544" name="inst_7B1FE6AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -292,10 +291,14 @@
     <instance objName="darkBlock_obj" x="960" y="480" name="inst_102B1692" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="928" y="480" name="inst_0AB1EBCD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="warpzone_obj" x="1008" y="517" name="inst_E261E5F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="960" y="608" name="inst_C0B21C0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="936" y="560" name="inst_3B52F7EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="75" y="437" name="inst_1EF0F0AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderSG3_SGB_obj" x="-34" y="448" name="inst_8B8E8357" locked="0" code="" scaleX="1.16666662693024" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="416" y="544" name="inst_D1350070" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="512" y="96" name="inst_1F06E70E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="512" y="128" name="inst_C68C4929" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="352" y="192" name="inst_7ABAD7AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="352" y="224" name="inst_E7837DF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
