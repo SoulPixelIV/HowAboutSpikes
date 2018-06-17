@@ -74,7 +74,7 @@ if (instance_exists(player_obj))
         move_towards_point(redOrbPlace_obj.x + 10, redOrbPlace_obj.y, 1.75);
     }
     
-    if (place_meeting(x + 10, y, redOrbPlace_obj))
+    if (place_meeting(x - 13, y, redOrbPlace_obj))
     {
         speed = 0;
     }
