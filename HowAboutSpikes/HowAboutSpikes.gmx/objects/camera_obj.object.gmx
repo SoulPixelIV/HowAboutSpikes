@@ -34,7 +34,7 @@ pauseMenu = false;
 saveXPos = 0;
 saveYPos = 0;
 
-global.healthPause = 3;
+global.healthPause = 2;
 
 global.transition = false;
 

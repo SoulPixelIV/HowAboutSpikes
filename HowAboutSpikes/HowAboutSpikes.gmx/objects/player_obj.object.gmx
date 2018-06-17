@@ -114,8 +114,8 @@ global.restart = false;
           <argument>
             <kind>1</kind>
             <string>///Save Game
-if (room != tutorial)
-{
+//if (room != tutorial)
+//{
     instance_create(view_xview[0] + 610, view_yview[0] + 330, saveIcon_obj);
     if (file_exists("save1.has"))
     {
@@ -202,7 +202,7 @@ if (room != tutorial)
     ini_write_real("Save1", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
     ini_write_real("Save1", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
     ini_close();
-}
+//}
 </string>
           </argument>
         </arguments>
