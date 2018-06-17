@@ -29,6 +29,11 @@
 transparent = 0;
 transparent = clamp(transparent, 0, 1);
 
+if (!audio_is_playing(mainMenu_msc))
+{
+    audio_play_sound(mainMenu_msc, 1, true);
+}
+
 </string>
           </argument>
         </arguments>

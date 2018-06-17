@@ -17,7 +17,7 @@
       <sound>sound\pop_snd</sound>
     </sounds>
     <sounds name="Music">
-      <sound>sound\sound5</sound>
+      <sound>sound\mainMenu_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">

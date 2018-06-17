@@ -167,6 +167,8 @@ if (buttonSelected == 0)
             global.skullcoinBay2TD[2] = ini_read_real("Save1", "skullcoinBay2[2]", 0);
             global.skullcoinBay3TD[2] = ini_read_real("Save1", "skullcoinBay3[2]", 0);
             global.skullcoinBay4TD[2] = ini_read_real("Save1", "skullcoinBay4[2]", 0);
+            
+            audio_stop_all();
             room_goto(global.loadedRoom);
             ini_close();
         }
@@ -182,6 +184,7 @@ if (buttonSelected == 1)
     cursor_obj.y = 215;
     if (key_enter)
     {
+        audio_stop_all();
         room_goto(cutsceneGameStart);
     }
 }
