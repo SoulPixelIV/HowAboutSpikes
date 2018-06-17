@@ -1028,7 +1028,8 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Debug
+            <string>/*
+///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
