@@ -218,6 +218,7 @@
       <sprite>sprites\enemySpirit_spr</sprite>
       <sprite>sprites\batLaser_spr</sprite>
       <sprite>sprites\eye_spr</sprite>
+      <sprite>sprites\cubeBoss_spr</sprite>
       <sprite>sprites\pirate_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
@@ -486,6 +487,7 @@
       <object>objects\colliderSB1_SB2_obj</object>
       <object>objects\colliderSB2_SB3_obj</object>
       <object>objects\colliderSB3_SB4_obj</object>
+      <object>objects\colliderOPB_OP2</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -555,6 +557,9 @@
       <objects name="Eye">
         <object>objects\eyeBoss_obj</object>
       </objects>
+      <objects name="Cube">
+        <object>objects\cubeBoss_obj</object>
+      </objects>
     </objects>
     <objects name="Npcs">
       <object>objects\npcLola_obj</object>
@@ -597,6 +602,7 @@
       <object>objects\spikeFalling_obj</object>
       <objects name="Chaingun">
         <object>objects\chaingunTurret_obj</object>
+        <object>objects\chaingunTurretCube_obj</object>
         <object>objects\chaingunBullet_obj</object>
       </objects>
     </objects>
