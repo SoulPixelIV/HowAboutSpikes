@@ -80,7 +80,7 @@ alarm[0] = 2;
             <string>if (instance_exists(cubeBoss_obj))
 {
     x = cubeBoss_obj.x;
-    y = cubeBoss_obj.y + 32;
+    y = cubeBoss_obj.y + 60;
 }
 
 if (targeting)
