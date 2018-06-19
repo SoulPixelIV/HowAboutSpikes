@@ -1054,10 +1054,10 @@ if (keyboard_check_pressed(ord('2')) &amp;&amp; room != skullcoinBay4)
     global.playerSpawnLocation = 0;
     room_goto(skullcoinBay3);
 }
-if (keyboard_check_pressed(ord('3')) &amp;&amp; room != overcastPeak5)
+if (keyboard_check_pressed(ord('3')) &amp;&amp; room != skullcoinBay1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(sentinelGraves3);
+    room_goto(skullcoinBay1);
 }
 if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
 {

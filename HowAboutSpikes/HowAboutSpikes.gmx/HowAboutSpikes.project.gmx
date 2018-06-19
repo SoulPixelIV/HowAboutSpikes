@@ -336,6 +336,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\snowfall_scr.gml</script>
+    <script>scripts\rain_scr.gml</script>
     <script>scripts\fog_scr.gml</script>
     <script>scripts\globalSettings.gml</script>
   </scripts>
@@ -366,6 +367,7 @@
       <object>objects\hitboxEnemyBig_obj</object>
       <object>objects\finish_obj</object>
       <object>objects\snowfall_obj</object>
+      <object>objects\rain_obj</object>
       <object>objects\fog_obj</object>
       <object>objects\cursor_obj</object>
       <object>objects\cursor2_obj</object>
