@@ -995,11 +995,25 @@ if (place_meeting(x, y, flyingCloud_obj))
 //###Money Collision###
 if (place_meeting(x, y, darkSpirit_obj))
 {
-    global.money = global.money + 1;
+    if (global.ringWealth)
+    {
+        global.money += 2;
+    }
+    else
+    {
+        global.money += 1;
+    }
 }
 if (place_meeting(x, y, darkSpiritBig_obj))
 {
-    global.money = global.money + 10;
+    if (global.ringWealth)
+    {
+        global.money += 20;
+    }
+    else
+    {
+        global.money += 10;
+    }
 }
 //###GlassBlockBroken Collision###
 if (place_meeting(x, y, glassBlockBroken_obj))
@@ -1043,21 +1057,18 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != overcastPeakBoss)
+if (keyboard_check_pressed(ord('1')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(overcastPeakBoss);
+    global.ringVision = true;
 }
 
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != skullcoinBay4)
+if (keyboard_check_pressed(ord('2')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay3);
+    global.ringWealth = true;
 }
-if (keyboard_check_pressed(ord('3')) &amp;&amp; room != skullcoinBay1)
+if (keyboard_check_pressed(ord('3')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay1);
+    global.ringPower = true;
 }
 if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
 {
@@ -1096,6 +1107,74 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != overcastPeak5)
       </action>
     </event>
     <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Ring System
+
+if (global.ringVision)
+{
+    if (global.ringInventory[0] == 0)
+    {
+        draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
+        global.ringInventory[0] = 1;
+    }
+    else
+    {
+        draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
+        global.ringInventory[1] = 1;
+    }
+    with (darkBlockFake_obj)
+    {
+        image_index = 1;
+    }
+}
+
+if (global.ringWealth)
+{
+    if (global.ringInventory[0] == 0)
+    {
+        draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 35);
+        global.ringInventory[0] = 1;
+    }
+    else
+    {
+        draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 78);
+        global.ringInventory[1] = 1;
+    }
+}
+
+if (global.ringPower)
+{
+    if (global.ringInventory[0] == 0)
+    {
+        draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 35);
+        global.ringInventory[0] = 1;
+    }
+    else
+    {
+        draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
+        global.ringInventory[1] = 1;
+    }
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 20);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -1172,9 +1251,7 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 draw_set_colour(c_white);
 //###Ring Inventory###
 draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78
-
-);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
 
 //###World Text###
 if (room == gardenValley &amp;&amp; global.spawned == true)

@@ -87,3 +87,10 @@ global.skullcoinBay2TD[2] = 0;
 global.skullcoinBay3TD[2] = 0;
 global.skullcoinBay4TD[2] = 0;
 
+//Rings
+global.ringInventory[0] = 0;
+global.ringInventory[1] = 0;
+
+global.ringVision = false;
+global.ringWealth = false;
+global.ringPower = false;
