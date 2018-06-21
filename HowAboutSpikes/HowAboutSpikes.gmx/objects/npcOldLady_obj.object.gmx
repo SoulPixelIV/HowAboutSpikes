@@ -28,12 +28,18 @@
             <string>alarm[0] = 150;
 
 i = -1;
+/*
+if (global.pickedTooth)
+{
+    messages[0] = "Oh you are back! I did not expect that to be honest..."
+    messages[1] = "Anyway did you beat "
+    */
+    messages[0] = "Well, hello there!"
+    messages[1] = "This forest is really dangerous. Always pay attention to your surroundings!"
+    messages[2] = "...also"
+    messages[3] = "I know it sounds weird, but I need your help. My grandson is really ill and he needs medicine."
+    messages[4] = "Only a tooth from a bat can heal him. Bring me that and I'll give you a reward!"
 
-messages[0] = "Well, hello there!"
-messages[1] = "This forest is really dangerous. Always pay attention to your surroundings!"
-messages[2] = "...also"
-messages[3] = "I know it sounds weird, but I need your help. My grandson is really ill and he needs medicine."
-messages[4] = "Only a tooth from a bat can heal him. Bring me that and I'll give you a reward!"
 
 </string>
           </argument>
