@@ -25,6 +25,97 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Ring System
+
+if (global.ringVision)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 0;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 0)
+        {
+            global.ringInventory[1] = 0;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringVision = false;
+    }
+    
+    with (darkBlockFake_obj)
+    {
+        image_index = 1;
+    }
+}
+
+if (global.ringWealth)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 1;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 1)
+        {
+            global.ringInventory[1] = 1;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringWealth = false;
+    }
+}
+
+if (global.ringPower)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 2;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 2)
+        {
+            global.ringInventory[1] = 2;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringPower = false;
+    }
+    
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 20);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>surface = surface_create(room_width, room_height);
 surfaceScale = 1/8;
 amount = 1;
@@ -1125,51 +1216,31 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != overcastPeak5)
             <kind>1</kind>
             <string>///Ring System
 
-if (global.ringVision)
+if (global.ringInventory[0] == 0)
 {
-    if (global.ringInventory[0] == 0)
-    {
-        draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
-        global.ringInventory[0] = 1;
-    }
-    else
-    {
-        draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
-        global.ringInventory[1] = 1;
-    }
-    with (darkBlockFake_obj)
-    {
-        image_index = 1;
-    }
+    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 0)
+{
+    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
 }
 
-if (global.ringWealth)
+if (global.ringInventory[0] == 1)
 {
-    if (global.ringInventory[0] == 0)
-    {
-        draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 35);
-        global.ringInventory[0] = 1;
-    }
-    else
-    {
-        draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 78);
-        global.ringInventory[1] = 1;
-    }
+    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 1)
+{
+    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 78);
 }
 
-if (global.ringPower)
+if (global.ringInventory[0] == 2)
 {
-    if (global.ringInventory[0] == 0)
-    {
-        draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 35);
-        global.ringInventory[0] = 1;
-    }
-    else
-    {
-        draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
-        global.ringInventory[1] = 1;
-    }
-    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 20);
+    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 2)
+{
+    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
 }
 </string>
           </argument>
