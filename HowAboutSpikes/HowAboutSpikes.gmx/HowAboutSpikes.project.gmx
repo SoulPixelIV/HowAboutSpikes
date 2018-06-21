@@ -150,6 +150,7 @@
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\shopIcon3_spr</sprite>
+      <sprite>sprites\shopIcon4_spr</sprite>
       <sprite>sprites\spikeFallingIcon_spr</sprite>
       <sprite>sprites\enterIcon_spr</sprite>
       <sprite>sprites\easyModeBlockEditor_spr</sprite>
@@ -650,6 +651,7 @@
       <object>objects\shopIcon1_obj</object>
       <object>objects\shopIcon2_obj</object>
       <object>objects\shopIcon3_obj</object>
+      <object>objects\shopIcon4_obj</object>
       <object>objects\saveIcon_obj</object>
     </objects>
     <objects name="Particles">

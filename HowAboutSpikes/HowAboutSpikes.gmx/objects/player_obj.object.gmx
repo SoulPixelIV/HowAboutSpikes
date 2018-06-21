@@ -1161,10 +1161,10 @@ if (keyboard_check_pressed(ord('3')))
 {
     global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForest1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(deepPrison);
+    room_goto(unknownForest1);
 }
 if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
 {

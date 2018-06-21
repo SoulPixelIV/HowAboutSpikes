@@ -25,20 +25,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = 150;
+            <string>drawShop = false;
+cursorPos = 0;
+bought1 = false;
+
+alarm[0] = 150;
 
 i = -1;
-/*
-if (global.pickedTooth)
+
+if (bought1 == false)
 {
-    messages[0] = "Oh you are back! I did not expect that to be honest..."
-    messages[1] = "Anyway did you beat "
-    */
     messages[0] = "Well, hello there!"
     messages[1] = "This forest is really dangerous. Always pay attention to your surroundings!"
     messages[2] = "...also"
     messages[3] = "I know it sounds weird, but I need your help. My grandson is really ill and he needs medicine."
     messages[4] = "Only a tooth from a bat can heal him. Bring me that and I'll give you a reward!"
+}
 
 
 </string>
@@ -94,7 +96,159 @@ alarm[0] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; global.pickedTooth &amp;&amp; i == array_length_1d(messages) - 1)
+{
+    drawShop = true;
+}
+else
+{
+    drawShop = false;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Shop Menu
+
+key_left = keyboard_check_pressed(vk_left) || gamepad_button_check_pressed(0, gp_padl)
+key_right = keyboard_check_pressed(vk_right) || gamepad_button_check_pressed(0, gp_padr)
+key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
+
+if (instance_exists(cursor_obj))
+{
+    with (cursor_obj)
+    {
+        image_angle = 270;
+    }
+    cursor_obj.x = shopIcon4_obj.x;
+    cursor_obj.y = shopIcon4_obj.y + 32;
+}
+
+if (drawShop == true)
+{
+    instance_activate_object(shopIcon4_obj);
+    if (!instance_exists(cursor_obj))
+    {
+        instance_create(shopIcon4_obj.x, shopIcon4_obj.y + 32, cursor_obj);
+    }
+    else
+    {
+        instance_activate_object(cursor_obj);
+    }
+}
+else
+{
+    instance_deactivate_object(shopIcon4_obj);
+    instance_deactivate_object(cursor_obj);
+}
+/*
+if (key_left || key_right)
+{
+    with (monitor_obj)
+    {
+        if (drawShop == true)
+        {
+            if (cursorPos == 0)
+            {
+                cursorPos = 1;
+            }
+            else
+            {
+                cursorPos = 0;
+            }
+        }
+    }
+}
+*/
+if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
+{
+    if (bought1 == false)
+    {
+        global.ringPower = true;
+        global.pickedTooth = false;
+        with (tooth_obj)
+        {
+            instance_destroy();
+        }
+        with (shopIcon4_obj)
+        {
+            image_index = 1;
+        }
+        bought1 = true;
+    }
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Change Dialog
+
+if (bought1 == false)
+{
+    if (global.pickedTooth)
+    {
+        messages[0] = "Oh you are back! I did not expect that to be honest..."
+        messages[1] = "Anyway did you beat that big bat? Did it drop its special tooth?"
+        messages[2] = "Thank you for this! As promised here is your reward."
+        messages[3] = "This ring will boost your jump strength. I think this will help you on your journey."
+        messages[4] = "I hope you find what you are searching for..."
+    }
+}
 </string>
           </argument>
         </arguments>
