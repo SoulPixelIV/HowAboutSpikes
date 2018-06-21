@@ -25,6 +25,71 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Vars
+
+global.movSpeed = 2.65;
+global.jumpStrength = 7.04;
+global.numberJumps = 2;
+global.gravityStrength = 0.46;
+global.ladderSpeed = 3.25;
+health = global.healthVar;
+health = global.healthPause;
+attackCooldown = 7;
+pauseMenu = false;
+
+horSpeed = 0;
+verSpeed = 0;
+movement = true;
+cooldown = false;
+dead = false;
+deathCountVar = false;
+textTimer = 100;
+grounded = false;
+landSound = false;
+noDamage = false;
+nearEnemy = false;
+lastDir = 0;
+landing = false;
+onLadder = false;
+invTimer = 90;
+throw = true;
+animPause = false;
+fullJump = false;
+dash = true;
+dashTimer = 7;
+savePosX = 0;
+savePosY = 0;
+
+global.hit = false;
+global.state = 0;
+global.damage = 20;
+global.holding = noone;
+global.numberJumpsSave = global.numberJumps;
+global.numberJumps = 0;
+global.checkpointX = 0;
+global.checkpointY = 0;
+global.checkpointRoom = 0;
+global.restart = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Ring System
 
 if (global.ringVision)
@@ -94,7 +159,7 @@ if (global.ringPower)
         global.ringPower = false;
     }
     
-    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 20);
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 10);
 }
 </string>
           </argument>
@@ -139,71 +204,6 @@ amount = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Vars
-
-global.movSpeed = 2.65;
-global.jumpStrength = 7.04;
-global.numberJumps = 2;
-global.gravityStrength = 0.46;
-global.ladderSpeed = 3.25;
-health = global.healthVar;
-health = global.healthPause;
-attackCooldown = 7;
-pauseMenu = false;
-
-horSpeed = 0;
-verSpeed = 0;
-movement = true;
-cooldown = false;
-dead = false;
-deathCountVar = false;
-textTimer = 100;
-grounded = false;
-landSound = false;
-noDamage = false;
-nearEnemy = false;
-lastDir = 0;
-landing = false;
-onLadder = false;
-invTimer = 90;
-throw = true;
-animPause = false;
-fullJump = false;
-dash = true;
-dashTimer = 7;
-savePosX = 0;
-savePosY = 0;
-
-global.hit = false;
-global.state = 0;
-global.damage = 20;
-global.holding = noone;
-global.numberJumpsSave = global.numberJumps;
-global.numberJumps = 0;
-global.checkpointX = 0;
-global.checkpointY = 0;
-global.checkpointRoom = 0;
-global.restart = false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Save Game
 //if (room != tutorial)
 //{
@@ -223,6 +223,12 @@ global.restart = false;
     ini_write_real("Save1", "health", global.healthVar);
     ini_write_real("Save1", "gamemode", global.mode);
     ini_write_real("Save1", "death count", global.deathCount);
+    ini_write_real("Save1", "picked tooth", global.pickedTooth);
+    ini_write_real("Save1", "ring Vision", global.ringVision);
+    ini_write_real("Save1", "ring Wealth", global.ringWealth);
+    ini_write_real("Save1", "ring Power", global.ringPower);
+    ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
+    ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
