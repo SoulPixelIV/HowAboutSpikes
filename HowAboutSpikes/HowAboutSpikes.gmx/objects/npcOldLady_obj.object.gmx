@@ -188,7 +188,7 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
         }
         with (shopIcon4_obj)
         {
-            image_index = 1;
+            image_index = 0;
         }
         bought1 = true;
     }

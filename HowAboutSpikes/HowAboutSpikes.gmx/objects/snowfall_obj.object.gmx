@@ -51,10 +51,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (part_system_exists(global.pt_snow))
-{
-    part_type_destroy(global.pt_snow);
-}
+            <string>part_emitter_stream(global.ps, em, global.pt_snow, 0);
 </string>
           </argument>
         </arguments>
