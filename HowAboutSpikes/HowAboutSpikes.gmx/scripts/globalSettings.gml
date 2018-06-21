@@ -14,6 +14,7 @@ global.hitLeverRed = false;
 global.pickedPet = false;
 global.pickedRed = false;
 global.pickedBlue = false;
+global.pickedTooth = false;
 
 global.brightness = 1;
 global.brightnessCount = 0;

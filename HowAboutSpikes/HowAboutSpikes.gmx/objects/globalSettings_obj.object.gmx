@@ -32,6 +32,13 @@ if (global.playerSpawnLocation == 0)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn_obj.x, spawn_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -62,6 +69,13 @@ if (global.playerSpawnLocation == 1)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn1_obj.x, spawn1_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn1_obj.x, spawn1_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -92,6 +106,13 @@ if (global.playerSpawnLocation == 2)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn2_obj.x, spawn2_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn2_obj.x, spawn2_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -122,6 +143,13 @@ if (global.playerSpawnLocation == 3)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn3_obj.x, spawn3_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn3_obj.x, spawn3_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -152,6 +180,13 @@ if (global.playerSpawnLocation == 4)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn4_obj.x, spawn4_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn4_obj.x, spawn4_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -182,6 +217,13 @@ if (global.playerSpawnLocation == 5)
     if (!instance_exists(player_obj))
     {
         instance_create(spawn5_obj.x, spawn5_obj.y, player_obj);
+        if (!instance_exists(tooth_obj))
+        {
+            if (global.pickedTooth == true)
+            {
+                instance_create(spawn5_obj.x, spawn5_obj.y, tooth_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)

@@ -1166,10 +1166,10 @@ if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
     global.playerSpawnLocation = 0;
     room_goto(deepPrison);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != overcastPeak1)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak1);
+    room_goto(unknownForestBoss);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak2)
 {

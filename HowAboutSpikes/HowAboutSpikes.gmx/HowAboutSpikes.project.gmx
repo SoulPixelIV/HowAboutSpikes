@@ -134,6 +134,7 @@
         <sprite>sprites\treasurechest_spr</sprite>
       </sprites>
       <sprite>sprites\warpzone_spr</sprite>
+      <sprite>sprites\tooth_spr</sprite>
     </sprites>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
@@ -618,6 +619,7 @@
     </objects>
     <objects name="Collectibles">
       <object>objects\key_obj</object>
+      <object>objects\tooth_obj</object>
       <object>objects\redOrb_obj</object>
       <object>objects\blueOrb_obj</object>
       <object>objects\darkSpirit_obj</object>
