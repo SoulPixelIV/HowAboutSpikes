@@ -30,6 +30,31 @@ startPosY = y;
 enemyHealth = 100;
 movSpeed = 0.35;
 spawnTimer = 400;
+invincible = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>speed = 0;
+invincible = false;
 </string>
           </argument>
         </arguments>
@@ -57,37 +82,44 @@ hspeed = 0;
 
 image_speed = 0.05;
 
-if (distance_to_object(player_obj) &lt; 256)
+if (instance_exists(player_obj))
 {
-    hspeed = movSpeed;
-    if (distance_to_object(player_obj) &lt; 56)
+    if (distance_to_object(player_obj) &lt; 256)
     {
-        hspeed = -movSpeed;
+        hspeed = movSpeed;
+        if (distance_to_object(player_obj) &lt; 56)
+        {
+            hspeed = -movSpeed;
+        }
     }
-}
-
-spawnTimer = spawnTimer - 1;
-if (spawnTimer &lt;= 0)
-{
-    instance_create(x, y + 10, flyingCloud_obj);
-    spawnTimer = 400;
-}
-
-if (place_meeting(x, y, hitbox_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    
+    spawnTimer = spawnTimer - 1;
+    if (spawnTimer &lt;= 0)
     {
-        audio_play_sound(hit_snd, 1, false);
+        instance_create(x, y + 10, flyingCloud_obj);
+        spawnTimer = 400;
     }
-    enemyHealth = enemyHealth - global.damage / 2;
-}
-if (place_meeting(x, y, scythe_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    
+    if (place_meeting(x, y, hitbox_obj))
     {
-        audio_play_sound(hit_snd, 1, false);
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 2;
+        invincible = true;
+        alarm[0] = 10;
     }
-    enemyHealth = enemyHealth - global.damage / 4;
+    if (place_meeting(x, y, scythe_obj))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 4;
+        invincible = true;
+        alarm[0] = 10;
+    }
 }
 
 //###Death###

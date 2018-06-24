@@ -25,29 +25,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>surface = surface_create(room_width, room_height);
-surfaceScale = 1/8;
-amount = 1;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Vars
 
 global.movSpeed = 2.65;
@@ -56,6 +33,7 @@ global.numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
 health = global.healthVar;
+health = global.healthPause;
 attackCooldown = 7;
 pauseMenu = false;
 
@@ -74,7 +52,7 @@ lastDir = 0;
 landing = false;
 onLadder = false;
 invTimer = 90;
-throw = false;
+throw = true;
 animPause = false;
 fullJump = false;
 dash = true;
@@ -87,6 +65,7 @@ global.state = 0;
 global.damage = 20;
 global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
+global.numberJumps = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
@@ -111,26 +90,216 @@ global.restart = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Save Game
-if (room != tutorial)
-{
-if (file_exists("save1.has"))
-{
-    file_delete("save1.has");
-}
-ini_open("save1.has");
-var currRoom = room;
+            <string>///Ring System
 
-ini_write_real("Save1", "current room", currRoom);
-ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
-ini_write_real("Save1", "redOrb", global.pickedRed);
-ini_write_real("Save1", "blueOrb", global.pickedBlue);
-ini_write_real("Save1", "money", global.money);
-ini_write_real("Save1", "health", global.healthVar);
-ini_write_real("Save1", "gamemode", global.mode);
-ini_write_real("Save1", "death count", global.deathCount);
-ini_close();
+if (global.ringVision)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 0;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 0)
+        {
+            global.ringInventory[1] = 0;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringVision = false;
+    }
+    
+    with (darkBlockFake_obj)
+    {
+        image_index = 1;
+    }
 }
+
+if (global.ringWealth)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 1;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 1)
+        {
+            global.ringInventory[1] = 1;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringWealth = false;
+    }
+}
+
+if (global.ringPower)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 2;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 2)
+        {
+            global.ringInventory[1] = 2;
+        }
+    }
+    
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        global.ringPower = false;
+    }
+    
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 10);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>surface = surface_create(room_width, room_height);
+surfaceScale = 1/8;
+amount = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Save Game
+//if (room != tutorial)
+//{
+    instance_create(view_xview[0] + 610, view_yview[0] + 330, saveIcon_obj);
+    if (file_exists("save1.has"))
+    {
+        file_delete("save1.has");
+    }
+    ini_open("save1.has");
+    var currRoom = room;
+    
+    ini_write_real("Save1", "current room", currRoom);
+    ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
+    ini_write_real("Save1", "redOrb", global.pickedRed);
+    ini_write_real("Save1", "blueOrb", global.pickedBlue);
+    ini_write_real("Save1", "money", global.money);
+    ini_write_real("Save1", "health", global.healthVar);
+    ini_write_real("Save1", "gamemode", global.mode);
+    ini_write_real("Save1", "death count", global.deathCount);
+    ini_write_real("Save1", "picked tooth", global.pickedTooth);
+    ini_write_real("Save1", "ring Vision", global.ringVision);
+    ini_write_real("Save1", "ring Wealth", global.ringWealth);
+    ini_write_real("Save1", "ring Power", global.ringPower);
+    ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
+    ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
+    //Trapdoor0
+    ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
+    ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
+    ini_write_real("Save1", "unknownForest2[0]", global.unknownForest2TD[0]);
+    ini_write_real("Save1", "unknownForest3[0]", global.unknownForest3TD[0]);
+    ini_write_real("Save1", "demonsKeep1[0]", global.demonsKeep1TD[0]);
+    ini_write_real("Save1", "demonsKeep2[0]", global.demonsKeep2TD[0]);
+    ini_write_real("Save1", "demonsKeep3[0]", global.demonsKeep3TD[0]);
+    ini_write_real("Save1", "undergroundCity1[0]", global.undergroundCity1TD[0]);
+    ini_write_real("Save1", "undergroundCity2[0]", global.undergroundCity2TD[0]);
+    ini_write_real("Save1", "undergroundCity3[0]", global.undergroundCity3TD[0]);
+    ini_write_real("Save1", "sentinelGraves1[0]", global.sentinelGraves1TD[0]);
+    ini_write_real("Save1", "sentinelGraves2[0]", global.sentinelGraves2TD[0]);
+    ini_write_real("Save1", "deepPrison[0]", global.deepPrisonTD[0]);
+    ini_write_real("Save1", "overcastPeak1[0]", global.overcastPeak1TD[0]);
+    ini_write_real("Save1", "overcastPeak2[0]", global.overcastPeak2TD[0]);
+    ini_write_real("Save1", "overcastPeak3[0]", global.overcastPeak3TD[0]);
+    ini_write_real("Save1", "overcastPeak4[0]", global.overcastPeak4TD[0]);
+    ini_write_real("Save1", "overcastPeak5[0]", global.overcastPeak5TD[0]);
+    ini_write_real("Save1", "skullcoinBay1[0]", global.skullcoinBay1TD[0]);
+    ini_write_real("Save1", "skullcoinBay2[0]", global.skullcoinBay2TD[0]);
+    ini_write_real("Save1", "skullcoinBay3[0]", global.skullcoinBay3TD[0]);
+    ini_write_real("Save1", "skullcoinBay4[0]", global.skullcoinBay4TD[0]);
+    //Trapdoor1
+    ini_write_real("Save1", "gardenValley[1]", global.gardenValleyTD[1]);
+    ini_write_real("Save1", "unknownForest1[1]", global.unknownForest1TD[1]);
+    ini_write_real("Save1", "unknownForest2[1]", global.unknownForest2TD[1]);
+    ini_write_real("Save1", "unknownForest3[1]", global.unknownForest3TD[1]);
+    ini_write_real("Save1", "demonsKeep1[1]", global.demonsKeep1TD[1]);
+    ini_write_real("Save1", "demonsKeep2[1]", global.demonsKeep2TD[1]);
+    ini_write_real("Save1", "demonsKeep3[1]", global.demonsKeep3TD[1]);
+    ini_write_real("Save1", "undergroundCity1[1]", global.undergroundCity1TD[1]);
+    ini_write_real("Save1", "undergroundCity2[1]", global.undergroundCity2TD[1]);
+    ini_write_real("Save1", "undergroundCity3[1]", global.undergroundCity3TD[1]);
+    ini_write_real("Save1", "sentinelGraves1[1]", global.sentinelGraves1TD[1]);
+    ini_write_real("Save1", "sentinelGraves2[1]", global.sentinelGraves2TD[1]);
+    ini_write_real("Save1", "deepPrison[1]", global.deepPrisonTD[1]);
+    ini_write_real("Save1", "overcastPeak1[1]", global.overcastPeak1TD[1]);
+    ini_write_real("Save1", "overcastPeak2[1]", global.overcastPeak2TD[1]);
+    ini_write_real("Save1", "overcastPeak3[1]", global.overcastPeak3TD[1]);
+    ini_write_real("Save1", "overcastPeak4[1]", global.overcastPeak4TD[1]);
+    ini_write_real("Save1", "overcastPeak5[1]", global.overcastPeak5TD[1]);
+    ini_write_real("Save1", "skullcoinBay1[1]", global.skullcoinBay1TD[1]);
+    ini_write_real("Save1", "skullcoinBay2[1]", global.skullcoinBay2TD[1]);
+    ini_write_real("Save1", "skullcoinBay3[1]", global.skullcoinBay3TD[1]);
+    ini_write_real("Save1", "skullcoinBay4[1]", global.skullcoinBay4TD[1]);
+    //Trapdoor2
+    ini_write_real("Save1", "gardenValley[2]", global.gardenValleyTD[2]);
+    ini_write_real("Save1", "unknownForest1[2]", global.unknownForest1TD[2]);
+    ini_write_real("Save1", "unknownForest2[2]", global.unknownForest2TD[2]);
+    ini_write_real("Save1", "unknownForest3[2]", global.unknownForest3TD[2]);
+    ini_write_real("Save1", "demonsKeep1[2]", global.demonsKeep1TD[2]);
+    ini_write_real("Save1", "demonsKeep2[2]", global.demonsKeep2TD[2]);
+    ini_write_real("Save1", "demonsKeep3[2]", global.demonsKeep3TD[2]);
+    ini_write_real("Save1", "undergroundCity1[2]", global.undergroundCity1TD[2]);
+    ini_write_real("Save1", "undergroundCity2[2]", global.undergroundCity2TD[2]);
+    ini_write_real("Save1", "undergroundCity3[2]", global.undergroundCity3TD[2]);
+    ini_write_real("Save1", "sentinelGraves1[2]", global.sentinelGraves1TD[2]);
+    ini_write_real("Save1", "sentinelGraves2[2]", global.sentinelGraves2TD[2]);
+    ini_write_real("Save1", "deepPrison[2]", global.deepPrisonTD[2]);
+    ini_write_real("Save1", "overcastPeak1[2]", global.overcastPeak1TD[2]);
+    ini_write_real("Save1", "overcastPeak2[2]", global.overcastPeak2TD[2]);
+    ini_write_real("Save1", "overcastPeak3[2]", global.overcastPeak3TD[2]);
+    ini_write_real("Save1", "overcastPeak4[2]", global.overcastPeak4TD[2]);
+    ini_write_real("Save1", "overcastPeak5[2]", global.overcastPeak5TD[2]);
+    ini_write_real("Save1", "skullcoinBay1[2]", global.skullcoinBay1TD[2]);
+    ini_write_real("Save1", "skullcoinBay2[2]", global.skullcoinBay2TD[2]);
+    ini_write_real("Save1", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
+    ini_write_real("Save1", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
+    ini_close();
+//}
 </string>
           </argument>
         </arguments>
@@ -673,6 +842,7 @@ if (deathCountVar == true)
 }
 
 //###Pause Menu###
+/*
 if (key_pause)
 {
     if (pauseMenu == false)
@@ -772,7 +942,10 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 //###Damage Collision###
 if (place_meeting(x, y, lava_obj) || place_meeting(x, y, spikeRed_obj))
 {
-    health = health - 99;
+    if (health &gt; 0)
+    {
+        health = health - 1;
+    }
     alarm[0] = 10;
 }
     
@@ -919,11 +1092,25 @@ if (place_meeting(x, y, flyingCloud_obj))
 //###Money Collision###
 if (place_meeting(x, y, darkSpirit_obj))
 {
-    global.money = global.money + 1;
+    if (global.ringWealth)
+    {
+        global.money += 2;
+    }
+    else
+    {
+        global.money += 1;
+    }
 }
 if (place_meeting(x, y, darkSpiritBig_obj))
 {
-    global.money = global.money + 10;
+    if (global.ringWealth)
+    {
+        global.money += 20;
+    }
+    else
+    {
+        global.money += 10;
+    }
 }
 //###GlassBlockBroken Collision###
 if (place_meeting(x, y, glassBlockBroken_obj))
@@ -968,31 +1155,28 @@ if (keyboard_check_pressed(ord('0')))
 }
 
 //###Debug Stuff###
-if (keyboard_check_pressed(ord('1')) &amp;&amp; room != sentinelGravesBoss)
+if (keyboard_check_pressed(ord('1')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(sentinelGravesBoss);
+    global.ringVision = true;
 }
 
-if (keyboard_check_pressed(ord('2')) &amp;&amp; room != skullcoinBay1)
+if (keyboard_check_pressed(ord('2')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay1);
+    global.ringWealth = true;
 }
-if (keyboard_check_pressed(ord('3')) &amp;&amp; room != sentinelGraves3)
+if (keyboard_check_pressed(ord('3')))
 {
-    global.playerSpawnLocation = 0;
-    room_goto(sentinelGraves3);
+    global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForest1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(deepPrison);
+    room_goto(unknownForest1);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != overcastPeak1)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak1);
+    room_goto(unknownForestBoss);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak2)
 {
@@ -1021,6 +1205,54 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != overcastPeak5)
       </action>
     </event>
     <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Ring System
+
+if (global.ringInventory[0] == 0)
+{
+    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 0)
+{
+    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
+}
+
+if (global.ringInventory[0] == 1)
+{
+    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 1)
+{
+    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 78);
+}
+
+if (global.ringInventory[0] == 2)
+{
+    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 2)
+{
+    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -1097,9 +1329,7 @@ draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + s
 draw_set_colour(c_white);
 //###Ring Inventory###
 draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78
-
-);
+draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
 
 //###World Text###
 if (room == gardenValley &amp;&amp; global.spawned == true)
@@ -1351,7 +1581,7 @@ else
           <argument>
             <kind>1</kind>
             <string>///Pause Menu
-
+/*
 if (pauseMenu == true)
 {
     movement = false;

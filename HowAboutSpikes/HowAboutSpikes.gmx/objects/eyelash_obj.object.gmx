@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>movSpeed = 4.45;
-move_towards_point(player_obj.x, player_obj.y, movSpeed);
+if (instance_exists(player_obj))
+{
+    move_towards_point(player_obj.x, player_obj.y, movSpeed);
+}
 </string>
           </argument>
         </arguments>

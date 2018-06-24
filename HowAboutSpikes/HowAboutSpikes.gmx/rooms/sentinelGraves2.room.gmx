@@ -151,8 +151,6 @@
     <instance objName="darkBlock_obj" x="992" y="1056" name="inst_DEB65971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="1024" name="inst_868AE7C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="992" name="inst_220EDAE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="992" y="960" name="inst_C0FB3B68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="992" y="928" name="inst_E9B0D53F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="896" name="inst_DDBE4FAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="864" name="inst_2A23C46B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="832" name="inst_508C138B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -480,6 +478,22 @@
     <instance objName="checkpoint_obj" x="224" y="608" name="inst_6B02EB2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="576" y="1024" name="inst_42B77589" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="576" y="1344" name="inst_639A1056" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlockFake_obj" x="992" y="928" name="inst_BB95E860" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlockFake_obj" x="992" y="960" name="inst_4EEA3FD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1024" y="896" name="inst_6EC886EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1056" y="896" name="inst_4F26C138" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1088" y="896" name="inst_999F1135" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1120" y="896" name="inst_62F4206F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1152" y="896" name="inst_929E3114" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1184" y="896" name="inst_FEA17D3A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1216" y="896" name="inst_C66F430C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1248" y="928" name="inst_B86B0791" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1248" y="960" name="inst_8057CABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1248" y="992" name="inst_1C38668F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1248" y="1024" name="inst_FC66E6EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="1248" y="1056" name="inst_E1EC925D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpiritBig_obj" x="1184" y="1056" name="inst_BFA7D019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="treasurechest_obj" x="1184" y="1056" name="inst_E0750337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

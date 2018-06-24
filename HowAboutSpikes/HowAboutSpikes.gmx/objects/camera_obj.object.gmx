@@ -30,6 +30,12 @@ cameraSpeed = 0.06;
 cameraWidth = 640;
 cameraHeight = 360;
 
+pauseMenu = false;
+saveXPos = 0;
+saveYPos = 0;
+
+global.healthPause = 2;
+
 global.transition = false;
 
 //Set Camera View
@@ -38,6 +44,51 @@ if (instance_exists(player_obj))
     view_xview[0] = player_obj.x - (cameraWidth/2);
     view_yview[0] = player_obj.y - (cameraHeight/2);
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>surface = surface_create(room_width, room_height);
+surfaceScale = 1/8;
+amount = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Menu
+buttonSelected = 0;
 </string>
           </argument>
         </arguments>
@@ -126,8 +177,6 @@ if (instance_exists(player_obj))
           </argument>
         </arguments>
       </action>
-    </event>
-    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -144,31 +193,27 @@ if (instance_exists(player_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//###Game Over###
-with (player_obj)
+            <string>///Pause System
+
+key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
+
+if (key_pause)
 {
-    if (dead == true)
+    if (pauseMenu == false)
     {
-        with (camera_obj)
+        pauseMenu = true;
+        saveXPos = player_obj.x;
+        saveYPos = player_obj.y;
+        with (player_obj)
         {
-            draw_set_font(gameover_fnt);
-            draw_set_colour(c_red);
-            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));  
-            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
+            global.healthPause = health;
+            instance_destroy();
         }
     }
-}
-//###Pause Menu###
-with (player_obj)
-{
-    if (pauseMenu == true)
+    else
     {
-        with (camera_obj)
-        {
-            draw_set_font(message_fnt);
-            draw_set_colour(c_white);
-            draw_text(global.guiPosX + 90, global.guiPosY + 70, "PAUSED");
-        }
+        pauseMenu = false;
+        instance_create(saveXPos, saveYPos, player_obj);
     }
 }
 </string>
@@ -191,7 +236,205 @@ with (player_obj)
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Menu
+key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
+key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+
+if (pauseMenu == true)
+{
+    if (!instance_exists(cursor2_obj))
+    {
+        instance_create(global.guiPosX + 240, global.guiPosY + 160, cursor2_obj);
+        buttonSelected = 0;
+    }
+    if (key_up)
+    {
+        if (buttonSelected &gt; -1)
+        {
+            buttonSelected = buttonSelected - 1;
+        }
+        if (buttonSelected == -1)
+        {
+            buttonSelected = 1;
+        }
+    }
+    if (key_down)
+    {
+        if (buttonSelected &lt; 2)
+        {
+            buttonSelected = buttonSelected + 1;
+        }
+        if (buttonSelected == 2)
+        {
+            buttonSelected = 0;
+        }
+    }
+    
+    if (buttonSelected == 0)
+    {
+        cursor2_obj.x = global.guiPosX + 200;
+        cursor2_obj.y = global.guiPosY + 182;
+        if (key_enter)
+        {
+            pauseMenu = false;
+            instance_create(saveXPos, saveYPos, player_obj);
+        }
+    }
+    if (buttonSelected == 1)
+    {
+        cursor2_obj.x = global.guiPosX + 340;
+        cursor2_obj.y = global.guiPosY + 232;
+        if (key_enter)
+        {
+            pauseMenu = false;
+            room_goto(titleMenu);
+        }
+    }
+}
+else
+{
+    with (cursor2_obj)
+    {
+        instance_destroy();
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//###Game Over###
+with (player_obj)
+{
+    if (dead)
+    {
+        with (camera_obj)
+        {
+            draw_set_font(gameover_fnt);
+            draw_set_color(c_red);
+            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));
+            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
+        }
+    }
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>draw_sprite(dirtyLensEffect_spr, 0, view_xview[0], view_yview[0]);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Pause Menu
+
+if (pauseMenu == true)
+{
+    amount = 0.6;
+}
+else
+{
+    amount = 0;
+}
+
+if !surface_exists(surface)
+{
+    surface = surface_create(room_width, room_height);
+    surfaceScale = 1/8;
+}
+else
+{
+    surface_set_target(surface);
+    draw_clear(c_black);
+    surface_reset_target();
+    draw_surface_ext(surface, 0, 0, 1/surfaceScale, 1/surfaceScale, 0, c_white, amount);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Menu GUI
+if (pauseMenu == true)
+{
+    draw_set_color(c_white);
+    draw_set_font(mainmenu_fnt);
+
+    draw_text(global.guiPosX + 60, global.guiPosY + 160, "Continue")
+
+    draw_text(global.guiPosX + 60, global.guiPosY + 210, "Back to title screen")
+    
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 30, global.guiPosY + 30, "PAUSED");
+}
+
 </string>
           </argument>
         </arguments>

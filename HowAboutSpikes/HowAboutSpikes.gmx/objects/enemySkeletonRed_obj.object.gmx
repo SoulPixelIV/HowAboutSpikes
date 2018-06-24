@@ -185,45 +185,48 @@ invincible = false;
             <string>x = x + horSpeed;
 y = y + verSpeed;
 
-if (distance_to_object(player_obj) &lt; 120 &amp;&amp; distance_to_object(player_obj) &gt; 2)
+if (instance_exists(player_obj))
 {
-    moving = true;
-}
-else
-{
-    moving = false;
-}
-
-if (player_obj.x &gt; x &amp;&amp; moving == true)
-{
-    horSpeed = 1.4;
-    image_xscale = -1;
-}
-if (player_obj.x &lt; x &amp;&amp; moving == true)
-{
-    horSpeed = -1.4;
-    image_xscale = 1;
-}
-
-if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
-{
-    if (!audio_is_playing(hit_snd))
+    if (distance_to_object(player_obj) &lt; 120 &amp;&amp; distance_to_object(player_obj) &gt; 2)
     {
-        audio_play_sound(hit_snd, 1, false);
+        moving = true;
     }
-    enemyHealth = enemyHealth - global.damage / 1.3;
-    invincible = true;
-    alarm[0] = 10;
-}
-if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
-{
-    if (!audio_is_playing(hit_snd))
+    else
     {
-        audio_play_sound(hit_snd, 1, false);
+        moving = false;
     }
-    enemyHealth = enemyHealth - global.damage / 2.3;
-    invincible = true;
-    alarm[0] = 10;
+    
+    if (player_obj.x &gt; x &amp;&amp; moving == true)
+    {
+        horSpeed = 1.4;
+        image_xscale = -1;
+    }
+    if (player_obj.x &lt; x &amp;&amp; moving == true)
+    {
+        horSpeed = -1.4;
+        image_xscale = 1;
+    }
+    
+    if (place_meeting(x, y, hitbox_obj) &amp;&amp; (invincible == false))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 1.3;
+        invincible = true;
+        alarm[0] = 10;
+    }
+    if (place_meeting(x, y, scythe_obj) &amp;&amp; (invincible == false))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage / 2.3;
+        invincible = true;
+        alarm[0] = 10;
+    }
 }
 
 //###Gravity###

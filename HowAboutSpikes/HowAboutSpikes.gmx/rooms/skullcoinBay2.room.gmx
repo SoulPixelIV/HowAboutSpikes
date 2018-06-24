@@ -1147,6 +1147,8 @@
     <instance objName="sunLight2RedShader_obj" x="768" y="384" name="inst_1E65B397" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="288" y="64" name="inst_EFB82AD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="1568" y="64" name="inst_FBF4E0B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn1_obj" x="68" y="695" name="inst_3D81D8DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="colliderSB2_SB3_obj" x="-81" y="691" name="inst_7751779F" locked="0" code="" scaleX="1.16666662693024" scaleY="3.83333325386047" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

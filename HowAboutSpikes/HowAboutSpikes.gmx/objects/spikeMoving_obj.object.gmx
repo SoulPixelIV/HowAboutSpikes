@@ -89,30 +89,33 @@ startPosY = y;
 x = x + horSpeed;
 y = y + verSpeed;
 
-if (place_meeting(x, y, player_obj))
+if (instance_exists(player_obj))
 {
-    global.hit = true;
-}
-
-if (distance_to_object(player_obj) &lt; 100 &amp;&amp; distance_to_object(player_obj) &gt; 2)
-{
-    moving = true;
-    image_index = 1;
-}
-else
-{
-    moving = false;
-    horSpeed = 0;
-    image_index = 0;
-}
-
-if (player_obj.x &gt; x &amp;&amp; moving == true)
-{
-    horSpeed = 1.4;
-}
-if (player_obj.x &lt; x &amp;&amp; moving == true)
-{
-    horSpeed = -1.4;
+    if (place_meeting(x, y, player_obj))
+    {
+        global.hit = true;
+    }
+    
+    if (distance_to_object(player_obj) &lt; 100 &amp;&amp; distance_to_object(player_obj) &gt; 2)
+    {
+        moving = true;
+        image_index = 1;
+    }
+    else
+    {
+        moving = false;
+        horSpeed = 0;
+        image_index = 0;
+    }
+    
+    if (player_obj.x &gt; x &amp;&amp; moving == true)
+    {
+        horSpeed = 1.4;
+    }
+    if (player_obj.x &lt; x &amp;&amp; moving == true)
+    {
+        horSpeed = -1.4;
+    }
 }
 
 //###Gravity###

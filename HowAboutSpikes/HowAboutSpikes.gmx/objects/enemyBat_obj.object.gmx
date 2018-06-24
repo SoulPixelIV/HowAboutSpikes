@@ -81,32 +81,35 @@ image_speed = 0.2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt; 128)
+            <string>if (instance_exists(player_obj))
 {
-    sprite_index = batIdle_spr;
-    move_towards_point(player_obj.x, player_obj.y, 2.1);
-}
-else
-{
-    hspeed = 0;
-    vspeed = 0;
-}
-
-if (place_meeting(x, y, hitbox_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    if (distance_to_object(player_obj) &lt; 128)
     {
-        audio_play_sound(hit_snd, 1, false);
+        sprite_index = batIdle_spr;
+        move_towards_point(player_obj.x, player_obj.y, 2.1);
     }
-    enemyHealth = enemyHealth - global.damage * 3;
-}
-if (place_meeting(x, y, scythe_obj))
-{
-    if (!audio_is_playing(hit_snd))
+    else
     {
-        audio_play_sound(hit_snd, 1, false);
+        hspeed = 0;
+        vspeed = 0;
     }
-    enemyHealth = enemyHealth - global.damage * 3;
+    
+    if (place_meeting(x, y, hitbox_obj))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage * 3;
+    }
+    if (place_meeting(x, y, scythe_obj))
+    {
+        if (!audio_is_playing(hit_snd))
+        {
+            audio_play_sound(hit_snd, 1, false);
+        }
+        enemyHealth = enemyHealth - global.damage * 3;
+    }
 }
 
 //###Death###

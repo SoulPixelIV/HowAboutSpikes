@@ -25,9 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_towards_point(player_obj.x, player_obj.y, 1.8);
-if (instance_exists(player_obj))
+            <string>if (instance_exists(player_obj))
 {
+    move_towards_point(player_obj.x, player_obj.y, 1.8);
     image_angle = point_direction(x, y, player_obj.x, player_obj.y) + 90;
 }
 else

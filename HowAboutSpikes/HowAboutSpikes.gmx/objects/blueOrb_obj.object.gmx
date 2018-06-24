@@ -50,31 +50,34 @@
             <kind>1</kind>
             <string>image_speed = 0.2;
 
-if (place_meeting(x, y, player_obj))
+if (instance_exists(player_obj))
 {
-    global.pickedBlue = true;
-}
-
-if (global.pickedBlue == true)
-{
-    if (distance_to_object(player_obj) &gt; 20)
+    if (place_meeting(x, y, player_obj))
     {
-        move_towards_point(player_obj.x, player_obj.y - 32, 3);
+        global.pickedBlue = true;
     }
-    else
+    
+    if (global.pickedBlue == true)
+    {
+        if (distance_to_object(player_obj) &gt; 20)
+        {
+            move_towards_point(player_obj.x, player_obj.y - 32, 3);
+        }
+        else
+        {
+            speed = 0;
+        }
+    }
+    
+    if (distance_to_object(blueOrbPlace_obj) &lt; 128)
+    {
+        move_towards_point(blueOrbPlace_obj.x + 10, blueOrbPlace_obj.y, 1.75);
+    }
+    
+    if (place_meeting(x - 13, y, blueOrbPlace_obj))
     {
         speed = 0;
     }
-}
-
-if (distance_to_object(blueOrbPlace_obj) &lt; 128)
-{
-    move_towards_point(blueOrbPlace_obj.x, blueOrbPlace_obj.y, 1.75);
-}
-
-if (place_meeting(x, y, blueOrbPlace_obj))
-{
-    speed = 0;
 }
 </string>
           </argument>

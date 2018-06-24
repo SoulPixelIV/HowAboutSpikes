@@ -198,6 +198,7 @@ else
             <kind>1</kind>
             <string>if (bossHealth &lt;= 0)
 {
+    instance_create(x, y + 128, tooth_obj);
     with (batBossSprite_obj)
     {
         instance_destroy();
@@ -236,7 +237,7 @@ else
 {
     with (batBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 3;
+        bossHealth = bossHealth - global.damage / 1.8;
         invincible = true;
         alarm[0] = 10;
     }

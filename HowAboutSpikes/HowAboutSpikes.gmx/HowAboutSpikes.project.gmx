@@ -17,7 +17,7 @@
       <sound>sound\pop_snd</sound>
     </sounds>
     <sounds name="Music">
-      <sound>sound\sound5</sound>
+      <sound>sound\mainMenu_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -120,6 +120,7 @@
       </sprites>
       <sprite>sprites\woodplaneBlock_spr</sprite>
       <sprite>sprites\woodplanePole_spr</sprite>
+      <sprite>sprites\window_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -133,6 +134,7 @@
         <sprite>sprites\treasurechest_spr</sprite>
       </sprites>
       <sprite>sprites\warpzone_spr</sprite>
+      <sprite>sprites\tooth_spr</sprite>
     </sprites>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
@@ -147,6 +149,8 @@
       <sprite>sprites\shopWindow_spr</sprite>
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
+      <sprite>sprites\shopIcon3_spr</sprite>
+      <sprite>sprites\shopIcon4_spr</sprite>
       <sprite>sprites\spikeFallingIcon_spr</sprite>
       <sprite>sprites\enterIcon_spr</sprite>
       <sprite>sprites\easyModeBlockEditor_spr</sprite>
@@ -217,6 +221,7 @@
       <sprite>sprites\enemySpirit_spr</sprite>
       <sprite>sprites\batLaser_spr</sprite>
       <sprite>sprites\eye_spr</sprite>
+      <sprite>sprites\cubeBoss_spr</sprite>
       <sprite>sprites\pirate_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
@@ -313,6 +318,7 @@
       <sprite>sprites\gameover_spr</sprite>
       <sprite>sprites\textbox_spr</sprite>
       <sprite>sprites\ringbox_spr</sprite>
+      <sprite>sprites\saveIcon_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -333,6 +339,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\snowfall_scr.gml</script>
+    <script>scripts\rain_scr.gml</script>
     <script>scripts\fog_scr.gml</script>
     <script>scripts\globalSettings.gml</script>
   </scripts>
@@ -343,6 +350,7 @@
     <font>fonts\gameover_fnt</font>
     <font>fonts\mainmenu_fnt</font>
     <font>fonts\credits_fnt</font>
+    <font>fonts\creditsSmall_fnt</font>
     <font>fonts\creditsBig_fnt</font>
   </fonts>
   <objects name="objects">
@@ -364,7 +372,9 @@
       <object>objects\snowfall_obj</object>
       <object>objects\fog_obj</object>
       <object>objects\cursor_obj</object>
+      <object>objects\cursor2_obj</object>
       <objects name="Menu Objects">
+        <object>objects\creditsMenu_obj</object>
         <object>objects\titlemenu_obj</object>
         <object>objects\mainMenu_obj</object>
         <object>objects\settingmenu_obj</object>
@@ -440,6 +450,7 @@
       <object>objects\stoneBlockGrey_obj</object>
       <object>objects\woodplaneBlock_obj</object>
       <object>objects\woodplanePole_obj</object>
+      <object>objects\window_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -474,9 +485,13 @@
       <object>objects\colliderUF2_OP3_obj</object>
       <object>objects\colliderOP3_OP4_obj</object>
       <object>objects\colliderOP4_OP5_obj</object>
+      <object>objects\colliderOP5_OPB_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
       <object>objects\colliderGV_SB1_obj</object>
       <object>objects\colliderSB1_SB2_obj</object>
+      <object>objects\colliderSB2_SB3_obj</object>
+      <object>objects\colliderSB3_SB4_obj</object>
+      <object>objects\colliderOPB_OP2</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -546,6 +561,9 @@
       <objects name="Eye">
         <object>objects\eyeBoss_obj</object>
       </objects>
+      <objects name="Cube">
+        <object>objects\cubeBoss_obj</object>
+      </objects>
     </objects>
     <objects name="Npcs">
       <object>objects\npcLola_obj</object>
@@ -554,6 +572,7 @@
       <object>objects\npcOldLady_obj</object>
       <object>objects\npcGVHelper_obj</object>
       <object>objects\npcOPHelper_obj</object>
+      <object>objects\npcUCAsker_obj</object>
       <object>objects\npcRingDealer_obj</object>
     </objects>
     <objects name="Hazards">
@@ -587,6 +606,7 @@
       <object>objects\spikeFalling_obj</object>
       <objects name="Chaingun">
         <object>objects\chaingunTurret_obj</object>
+        <object>objects\chaingunTurretCube_obj</object>
         <object>objects\chaingunBullet_obj</object>
       </objects>
     </objects>
@@ -599,6 +619,7 @@
     </objects>
     <objects name="Collectibles">
       <object>objects\key_obj</object>
+      <object>objects\tooth_obj</object>
       <object>objects\redOrb_obj</object>
       <object>objects\blueOrb_obj</object>
       <object>objects\darkSpirit_obj</object>
@@ -628,6 +649,9 @@
     <objects name="Icons">
       <object>objects\shopIcon1_obj</object>
       <object>objects\shopIcon2_obj</object>
+      <object>objects\shopIcon3_obj</object>
+      <object>objects\shopIcon4_obj</object>
+      <object>objects\saveIcon_obj</object>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
@@ -647,6 +671,7 @@
   </objects>
   <rooms name="rooms">
     <rooms name="Menu Rooms">
+      <room>rooms\creditsMenu</room>
       <room>rooms\titleMenu</room>
       <room>rooms\mainMenu</room>
       <room>rooms\settingsMenu</room>
@@ -679,9 +704,11 @@
     <room>rooms\overcastPeak3</room>
     <room>rooms\overcastPeak4</room>
     <room>rooms\overcastPeak5</room>
-    <room>rooms\overdriveMetropoleBoss</room>
+    <room>rooms\overcastPeakBoss</room>
     <room>rooms\skullcoinBay1</room>
     <room>rooms\skullcoinBay2</room>
+    <room>rooms\skullcoinBay3</room>
+    <room>rooms\skullcoinBay4</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameStart</room>
     </rooms>
