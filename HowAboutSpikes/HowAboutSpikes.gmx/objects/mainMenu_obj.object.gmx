@@ -255,7 +255,7 @@ draw_text(16, 192, "New Game")
 draw_text(16, 224, "Settings")
 draw_text(16, 256, "Quit")
 
-draw_text(500, 40, "Patch 3");
+draw_text(500, 40, "Patch 4");
 </string>
           </argument>
         </arguments>

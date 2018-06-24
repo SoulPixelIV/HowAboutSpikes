@@ -288,7 +288,7 @@ if (pauseMenu == true)
         if (key_enter)
         {
             pauseMenu = false;
-            room_goto(titleMenu);
+            room_goto(creditsMenu);
         }
     }
 }
