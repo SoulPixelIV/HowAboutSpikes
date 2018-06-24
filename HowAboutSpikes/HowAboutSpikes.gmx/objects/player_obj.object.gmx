@@ -1139,8 +1139,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-///Debug
+            <string>///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
@@ -1178,10 +1177,10 @@ if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
     global.playerSpawnLocation = 0;
     room_goto(unknownForestBoss);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak2)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak2);
+    room_goto(overcastPeakBoss);
 }
 if (keyboard_check_pressed(ord('7')) &amp;&amp; room != overcastPeak3)
 {

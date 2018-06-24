@@ -290,6 +290,7 @@
       <sprite>sprites\snowPile_spr</sprite>
       <sprite>sprites\redOrbPlace_spr</sprite>
       <sprite>sprites\blueOrbPlace_spr</sprite>
+      <sprite>sprites\doorHole_spr</sprite>
     </sprites>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
@@ -517,6 +518,7 @@
       <object>objects\dude_obj</object>
       <object>objects\house_obj</object>
       <object>objects\doorTutorial_obj</object>
+      <object>objects\doorTutorialDeco_obj</object>
       <object>objects\OPDoor_obj</object>
       <object>objects\rope_obj</object>
       <object>objects\train_obj</object>
@@ -527,6 +529,7 @@
       <object>objects\snowPile_obj</object>
       <object>objects\redOrbPlace_obj</object>
       <object>objects\blueOrbPlace_obj</object>
+      <object>objects\doorHole_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
