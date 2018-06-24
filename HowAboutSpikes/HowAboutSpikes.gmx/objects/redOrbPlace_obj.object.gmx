@@ -37,6 +37,7 @@
             {
                 instance_destroy();
             }
+            global.opDoor = true;
         }
     }
 }

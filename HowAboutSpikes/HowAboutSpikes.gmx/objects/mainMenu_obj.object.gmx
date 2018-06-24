@@ -99,11 +99,14 @@ if (buttonSelected == 0)
             global.healthVar = ini_read_real("Save1", "health", 2);
             global.money = ini_read_real("Save1", "money", 0);
             global.pickedTooth = ini_read_real("Save1", "picked tooth", false);
+            global.pickedKey = ini_read_real("Save1", "picked key", true);
             global.ringVision = ini_read_real("Save1", "ring Vision", false);
             global.ringWealth = ini_read_real("Save1", "ring Wealth", false);
             global.ringPower = ini_read_real("Save1", "ring Power", false);
             global.ringInventory[0] = ini_read_real("Save1", "ring Inventory0", -1);
             global.ringInventory[1] = ini_read_real("Save1", "ring Inventory1", -1);
+            global.opDoor = ini_read_real("Save1", "opDoor", true);
+            global.gvDoor = ini_read_real("Save1", "gvDoor", true);
             //Trapdoor0
             global.gardenValleyTD[0] = ini_read_real("Save1", "gardenValley[0]", 0);
             global.unknownForest1TD[0] = ini_read_real("Save1", "unknownForest1[0]", 0);

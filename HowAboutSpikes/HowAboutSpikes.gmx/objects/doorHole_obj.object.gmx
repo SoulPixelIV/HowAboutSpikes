@@ -36,6 +36,7 @@
         instance_destroy();
     }
     global.pickedKey = false;
+    global.gvDoor = true;
 }
 </string>
           </argument>

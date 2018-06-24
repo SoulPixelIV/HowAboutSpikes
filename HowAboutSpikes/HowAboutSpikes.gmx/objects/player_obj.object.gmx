@@ -106,16 +106,20 @@ if (global.ringVision)
         }
     }
     
-    //Exit if all slots are full
-    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
-    {
-        global.ringVision = false;
-    }
-    
     with (darkBlockFake_obj)
     {
         image_index = 1;
     }
+    /*
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        if (global.ringInventory[0] != 0 || global.ringInventory[0] != 0)
+        {
+            global.ringVision = false;
+        }
+    }
+    */
 }
 
 if (global.ringWealth)
@@ -131,12 +135,16 @@ if (global.ringWealth)
             global.ringInventory[1] = 1;
         }
     }
-    
+    /*
     //Exit if all slots are full
     if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
     {
-        global.ringWealth = false;
+        if (global.ringInventory[0] != 1 || global.ringInventory[0] != 1)
+        {
+            global.ringWealth = false;
+        }
     }
+    */
 }
 
 if (global.ringPower)
@@ -153,13 +161,17 @@ if (global.ringPower)
         }
     }
     
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 50);
+    /*
     //Exit if all slots are full
     if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
     {
-        global.ringPower = false;
+        if (global.ringInventory[0] != 2 || global.ringInventory[0] != 2)
+        {
+            global.ringPower = false;
+        }
     }
-    
-    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 10);
+    */
 }
 </string>
           </argument>
@@ -224,11 +236,14 @@ amount = 1;
     ini_write_real("Save1", "gamemode", global.mode);
     ini_write_real("Save1", "death count", global.deathCount);
     ini_write_real("Save1", "picked tooth", global.pickedTooth);
+    ini_write_real("Save1", "picked key", global.pickedKey);
     ini_write_real("Save1", "ring Vision", global.ringVision);
     ini_write_real("Save1", "ring Wealth", global.ringWealth);
     ini_write_real("Save1", "ring Power", global.ringPower);
     ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
     ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
+    ini_write_real("Save1", "opDoor", global.opDoor);
+    ini_write_real("Save1", "gvDoor", global.gvDoor);
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
@@ -1172,10 +1187,10 @@ if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForest1)
     global.playerSpawnLocation = 0;
     room_goto(unknownForest1);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGraves3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(unknownForestBoss);
+    room_goto(sentinelGraves3);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

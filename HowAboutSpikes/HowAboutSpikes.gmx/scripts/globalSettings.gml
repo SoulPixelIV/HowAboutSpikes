@@ -17,6 +17,9 @@ global.pickedBlue = false;
 global.pickedTooth = false;
 global.pickedKey = false;
 
+global.opDoor = false;
+global.gvDoor = false;
+
 global.brightness = 1;
 global.brightnessCount = 0;
 
