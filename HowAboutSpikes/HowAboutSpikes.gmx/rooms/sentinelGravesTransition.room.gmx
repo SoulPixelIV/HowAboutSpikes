@@ -391,6 +391,11 @@
     <instance objName="colliderSGT_UC1_obj" x="-32" y="320" name="inst_7E16F980" locked="0" code="" scaleX="1.16666662693024" scaleY="7.16666650772095" colour="4294967295" rotation="0"/>
     <instance objName="colliderSGT_UC1_obj" x="128" y="640" name="inst_BC8D4EFF" locked="0" code="" scaleX="3.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="288" y="288" name="inst_6F1887F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ropeLine_obj" x="140" y="286" name="inst_583BFCDE" locked="0" code="" scaleX="-1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="ropeLine_obj" x="65" y="361" name="inst_4A72E069" locked="0" code="" scaleX="-1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="ropeLine_obj" x="-9" y="435" name="inst_C534416C" locked="0" code="" scaleX="-1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="pipe_obj" x="111" y="187" name="inst_86101F73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="pipe_obj" x="38" y="260" name="inst_1594BAA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

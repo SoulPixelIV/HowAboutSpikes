@@ -161,7 +161,7 @@ if (global.ringPower)
         }
     }
     
-    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 50);
+    global.jumpStrength = global.jumpStrength + ((global.jumpStrength / 100) * 10);
     /*
     //Exit if all slots are full
     if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
@@ -1182,10 +1182,10 @@ if (keyboard_check_pressed(ord('3')))
 {
     global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForest1)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != skullcoinBay4)
 {
     global.playerSpawnLocation = 0;
-    room_goto(unknownForest1);
+    room_goto(skullcoinBay4);
 }
 if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGraves3)
 {

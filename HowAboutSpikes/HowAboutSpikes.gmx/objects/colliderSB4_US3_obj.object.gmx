@@ -27,18 +27,17 @@
             <kind>1</kind>
             <string>playerInst = player_obj;
 
-if (place_meeting(x, y, player_obj) &amp;&amp; global.money &gt; 9)
+if (place_meeting(x, y, player_obj))
 {
-    if (room == undergroundStation1)
+    if (room == skullcoinBay4)
     {
         with (playerInst)
         {
             instance_destroy();
         }
-        room_goto(undergroundStation2);
+        room_goto(undergroundStation3);
         global.transition = false;
-        global.playerSpawnLocation = 1;
-        global.money = global.money - 10;
+        global.playerSpawnLocation = 0;
     }
     else
     {
@@ -46,10 +45,9 @@ if (place_meeting(x, y, player_obj) &amp;&amp; global.money &gt; 9)
         {
             instance_destroy();
         }
-        room_goto(undergroundStation1);
+        room_goto(skullcoinBay4);
         global.transition = false;
         global.playerSpawnLocation = 1;
-        global.money = global.money - 10;
     }
 }
 </string>

@@ -364,7 +364,7 @@
     <instance objName="stoneBlock_obj" x="728" y="352" name="inst_5D7D4F7C" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="stoneBlock_obj" x="728" y="384" name="inst_EEFEECF6" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="90"/>
     <instance objName="cubeBoss_obj" x="352" y="256" name="inst_55159C66" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="colliderOPB_OP2" x="-47" y="386" name="inst_50ACEA5D" locked="0" code="" scaleX="1.16666662693024" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
+    <instance objName="colliderOPB_OP2_obj" x="-47" y="386" name="inst_50ACEA5D" locked="0" code="" scaleX="1.16666662693024" scaleY="3.16666674613953" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="64" y="416" name="inst_E626CFD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="51" y="371" name="inst_4477AF64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="192" y="160" name="inst_1329F2E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

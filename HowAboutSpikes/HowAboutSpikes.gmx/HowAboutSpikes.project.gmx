@@ -267,7 +267,8 @@
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\train_spr</sprite>
-      <sprite>sprites\trainSign_spr</sprite>
+      <sprite>sprites\trainSign1_spr</sprite>
+      <sprite>sprites\trainSign2_spr</sprite>
       <sprite>sprites\statue_spr</sprite>
       <sprite>sprites\latern_spr</sprite>
       <sprite>sprites\lamp_spr</sprite>
@@ -291,6 +292,7 @@
       <sprite>sprites\redOrbPlace_spr</sprite>
       <sprite>sprites\blueOrbPlace_spr</sprite>
       <sprite>sprites\doorHole_spr</sprite>
+      <sprite>sprites\ropeLine_spr</sprite>
     </sprites>
     <sprites name="NPCs">
       <sprite>sprites\npcSoldier_spr</sprite>
@@ -468,6 +470,7 @@
       <object>objects\colliderDK2_DK3_obj</object>
       <object>objects\colliderDK3_US1_obj</object>
       <object>objects\colliderUC3_US2_obj</object>
+      <object>objects\colliderSB4_US3_obj</object>
       <object>objects\colliderUFB_DK3_obj</object>
       <object>objects\colliderDK3_DK2_obj</object>
       <object>objects\colliderDK2_DK1_obj</object>
@@ -488,11 +491,12 @@
       <object>objects\colliderOP4_OP5_obj</object>
       <object>objects\colliderOP5_OPB_obj</object>
       <object>objects\colliderUS1_US2_obj</object>
+      <object>objects\colliderUS2_US3_obj</object>
       <object>objects\colliderGV_SB1_obj</object>
       <object>objects\colliderSB1_SB2_obj</object>
       <object>objects\colliderSB2_SB3_obj</object>
       <object>objects\colliderSB3_SB4_obj</object>
-      <object>objects\colliderOPB_OP2</object>
+      <object>objects\colliderOPB_OP2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
       <object>objects\spawn2_obj</object>
@@ -522,7 +526,8 @@
       <object>objects\OPDoor_obj</object>
       <object>objects\rope_obj</object>
       <object>objects\train_obj</object>
-      <object>objects\trainSign_obj</object>
+      <object>objects\trainSign1_obj</object>
+      <object>objects\trainSign2_obj</object>
       <object>objects\statue_obj</object>
       <object>objects\torch_obj</object>
       <object>objects\spiderweb_obj</object>
@@ -530,6 +535,7 @@
       <object>objects\redOrbPlace_obj</object>
       <object>objects\blueOrbPlace_obj</object>
       <object>objects\doorHole_obj</object>
+      <object>objects\ropeLine_obj</object>
     </objects>
     <objects name="Enemies">
       <object>objects\enemyNormal_obj</object>
@@ -693,6 +699,7 @@
     <room>rooms\demonsKeep3</room>
     <room>rooms\undergroundStation1</room>
     <room>rooms\undergroundStation2</room>
+    <room>rooms\undergroundStation3</room>
     <room>rooms\undergroundCity1</room>
     <room>rooms\undergroundCity2</room>
     <room>rooms\undergroundCity3</room>

@@ -215,7 +215,7 @@
     <instance objName="lavaBlock2_obj" x="192" y="32" name="inst_35C1570F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lavaBlock2_obj" x="160" y="32" name="inst_84674AFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="train_obj" x="-32" y="288" name="inst_DAA2FA95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="trainSign_obj" x="256" y="288" name="inst_BCB46B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="trainSign1_obj" x="256" y="288" name="inst_BCB46B7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUS1_US2_obj" x="133" y="194" name="inst_F1A4ABE4" locked="0" code="" scaleX="0.833333313465118" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="276" y="238" name="inst_D2DE3B9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_61ED6458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
