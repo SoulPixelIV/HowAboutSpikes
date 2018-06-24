@@ -237,37 +237,6 @@
     <instance objName="stoneBlockGrey_obj" x="96" y="352" name="inst_75533753" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="96" y="320" name="inst_40CA85E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="96" y="288" name="inst_99E8A559" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="256" name="inst_12D2B362" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="224" name="inst_9A609B22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="192" name="inst_BCF7CD27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="160" name="inst_5EB311D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="128" name="inst_7EEEF8BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="96" y="96" name="inst_1C9D7EC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="128" y="96" name="inst_CCD808B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="160" y="96" name="inst_EC3607AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="192" y="96" name="inst_E47C8564" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="224" y="96" name="inst_48B789FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="256" y="96" name="inst_6276CEEF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="288" y="96" name="inst_24F94076" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="320" y="96" name="inst_A100ED1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="352" y="96" name="inst_04E6A608" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="384" y="96" name="inst_3736E24C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="416" y="96" name="inst_068AA2AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="448" y="96" name="inst_4BDA399A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="480" y="96" name="inst_48A70618" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="512" y="96" name="inst_37047882" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="544" y="96" name="inst_1EF5E6A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="576" y="96" name="inst_E619B1DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="608" y="96" name="inst_76A68765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="640" y="96" name="inst_A00F0CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="672" y="96" name="inst_115FEBD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="704" y="96" name="inst_5F324007" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="736" y="96" name="inst_B5F3F0B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="896" y="96" name="inst_505C316E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="768" y="96" name="inst_9D3C9096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="800" y="96" name="inst_8084FB77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="832" y="96" name="inst_11966E90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="864" y="96" name="inst_15621AE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="928" y="96" name="inst_F33842B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="960" y="96" name="inst_4EFAC633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="992" y="96" name="inst_894EDBA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -323,12 +292,6 @@
     <instance objName="stoneBlockGrey_obj" x="128" y="64" name="inst_8A307F0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="96" y="64" name="inst_A7FEBB96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="64" y="64" name="inst_C34FF0F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="96" name="inst_BC9783E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="128" name="inst_DA84DE39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="160" name="inst_2FD0E716" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="192" name="inst_34B7BC6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="224" name="inst_75C13D53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="64" y="256" name="inst_5B246030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="64" y="288" name="inst_C2BB6CD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="64" y="320" name="inst_110C1B23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="64" y="352" name="inst_5DF95D0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -488,10 +451,6 @@
     <instance objName="stoneBlockGrey_obj" x="32" y="0" name="inst_EEEEEA6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="32" name="inst_B01AAC36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="64" name="inst_94691FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="32" y="96" name="inst_D7B83558" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="32" y="128" name="inst_36898B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="32" y="160" name="inst_02EF1227" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="32" y="192" name="inst_90F87413" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="224" name="inst_725CA00E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="256" name="inst_5B59CAA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="288" name="inst_80E96CA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -716,52 +675,156 @@
     <instance objName="spawn1_obj" x="1082" y="789" name="inst_2DBAFD6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="992" y="576" name="inst_DB678549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderSB3_SB4_obj" x="1073" y="-54" name="inst_4E66B688" locked="0" code="" scaleX="4.01000022888184" scaleY="1.1599999666214" colour="4294967295" rotation="0"/>
-    <instance objName="enemyFlyingCloud_obj" x="192" y="640" name="inst_ABDE5496" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyFlyingCloud_obj" x="352" y="672" name="inst_5146D0E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyFlyingCloud_obj" x="608" y="640" name="inst_BC985D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="pirate_obj" x="544" y="736" name="inst_F78D4ECA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="pirate_obj" x="832" y="736" name="inst_1F277746" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="pirate_obj" x="480" y="736" name="inst_45666D5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="pirate_obj" x="128" y="544" name="inst_32CCA1DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="128" y="576" name="inst_DB62B472" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="128" y="608" name="inst_FA71CC89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="928" y="288" name="inst_0050BD9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="928" y="320" name="inst_809D221C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="384" y="352" name="inst_B0501934" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="608" y="320" name="inst_87234807" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="768" y="256" name="inst_EE3B6EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="864" y="128" name="inst_F046E2CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="864" y="160" name="inst_A7A6626F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="608" y="128" name="inst_8EA73C37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="608" y="160" name="inst_5A699B97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="608" y="192" name="inst_C4AA01E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="256" y="128" name="inst_47A0FE67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="448" y="128" name="inst_7EC75158" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ladderIron_obj" x="448" y="160" name="inst_CAB9F6CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="736" y="768" name="inst_6A81B97A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="704" y="768" name="inst_E5AB0909" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="672" y="768" name="inst_80331263" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="640" y="768" name="inst_4D114B10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="608" y="768" name="inst_DD6852C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="416" y="768" name="inst_AE2660F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="384" y="768" name="inst_097886FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="352" y="768" name="inst_AD9D0A5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="320" y="768" name="inst_9E4A1F8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="288" y="768" name="inst_BFB44D48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="256" y="768" name="inst_5D90DD22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="224" y="768" name="inst_65B3926A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="192" y="768" name="inst_D32521C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="512" y="512" name="inst_48E2C6FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="spikeUp_obj" x="160" y="768" name="inst_9F82479A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeUp_obj" x="128" y="768" name="inst_A8A915E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="288" y="544" name="inst_CA7D64FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="320" y="544" name="inst_26F76256" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="736" y="448" name="inst_210F816A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="704" y="448" name="inst_B3E07439" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="128" y="256" name="inst_1DB39178" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="160" y="256" name="inst_EBC6692C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="woodplaneBlock_obj" x="288" y="768" name="inst_7227532F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="colliderSB4_US3_obj" x="1106" y="913" name="inst_157638C4" locked="0" code="" scaleX="3.16666674613953" scaleY="0.833333313465118" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="448" name="inst_677B49DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="896" y="448" name="inst_AD664605" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="864" y="448" name="inst_23ED422D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="864" y="480" name="inst_183469F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="864" y="512" name="inst_49148549" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="832" y="512" name="inst_EA9E28A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="800" y="512" name="inst_E9719F39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="544" name="inst_436CB23F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="224" y="544" name="inst_92C70529" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="256" y="544" name="inst_75BA2826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="288" y="544" name="inst_2E3C4F9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="320" y="544" name="inst_95F01D67" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="352" y="544" name="inst_938441C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="384" y="544" name="inst_1BC1CD1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="416" y="544" name="inst_C4EC00CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="448" y="544" name="inst_AF8C38B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="480" y="544" name="inst_A4A90DE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="512" y="544" name="inst_B407E998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="544" y="544" name="inst_15FBB46E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="576" y="544" name="inst_7479A16E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="608" y="544" name="inst_480C0930" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="640" y="544" name="inst_89A5EDD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="672" y="544" name="inst_0D9891E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="704" y="544" name="inst_A1E8C21B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="736" y="544" name="inst_4A7155D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="768" y="544" name="inst_D15F9656" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="800" y="544" name="inst_5A0F33F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="832" y="480" name="inst_549D3DF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="128" name="inst_AF5E605E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="160" name="inst_7F6CA7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="192" name="inst_01DB1875" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="224" name="inst_D45AA056" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="256" name="inst_F150FA36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="288" name="inst_B7871FEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="320" name="inst_035C02B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="352" name="inst_E1003423" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="384" name="inst_36FFE865" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="928" y="416" name="inst_620BD4E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="736" y="768" name="inst_1E290E29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="704" y="768" name="inst_6DA3BEB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="672" y="768" name="inst_54566554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="640" y="768" name="inst_7A2E2848" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="608" y="768" name="inst_9AF86187" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="416" y="768" name="inst_CE43141C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="384" y="768" name="inst_EA53ED60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="352" y="768" name="inst_973DBBBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="288" y="768" name="inst_3D10B8AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="256" y="768" name="inst_FE3519ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="224" y="768" name="inst_9A9565D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="192" y="768" name="inst_EE0CC28E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="160" y="768" name="inst_F6D4F018" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeUp_obj" x="128" y="768" name="inst_B17DBF53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="320" y="768" name="inst_3E3645B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="768" y="576" name="inst_9DDDE937" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="576" name="inst_E4E632ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="256" y="576" name="inst_94B73696" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="352" y="576" name="inst_711A2B6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="448" y="576" name="inst_1B943A66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="512" name="inst_2BEE60A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="541" y="476" name="inst_96AC9E48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="634" y="477" name="inst_7925179E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="735" y="476" name="inst_540D80FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="832" y="288" name="inst_BA3BFF51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="800" y="288" name="inst_C1D57723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="768" y="288" name="inst_E572CD0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="736" y="288" name="inst_59FB9D66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="704" y="288" name="inst_C6009DBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="672" y="288" name="inst_5206A2B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="640" y="288" name="inst_7794F430" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="608" y="288" name="inst_F1056948" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="576" y="288" name="inst_609C4B92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="544" y="288" name="inst_CDA281AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="512" y="288" name="inst_999BA7F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="480" y="288" name="inst_179711DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="448" y="288" name="inst_E911B525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="416" y="288" name="inst_3BB6703D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="384" y="288" name="inst_F26ABFB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="352" y="288" name="inst_A62BF486" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="320" y="288" name="inst_FB0E9079" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="288" y="288" name="inst_0B45F596" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="256" y="288" name="inst_470E373E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="288" name="inst_973EE310" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="160" y="288" name="inst_B22929AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="128" y="288" name="inst_E1ECFE02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="224" y="288" name="inst_4ACE3808" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="128" y="320" name="inst_7BC76CB6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="160" y="320" name="inst_376EA64B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="320" name="inst_7EE66C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="224" y="320" name="inst_22324E75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="256" y="320" name="inst_3A294B7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="288" y="320" name="inst_A4F9BAFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="320" y="320" name="inst_4614B7BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="352" y="320" name="inst_241388A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="384" y="320" name="inst_A032ECD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="416" y="320" name="inst_3DF9227A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="448" y="320" name="inst_CA86CA2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="480" y="320" name="inst_58130068" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="512" y="320" name="inst_A387BC44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="544" y="320" name="inst_F1D82F4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="576" y="320" name="inst_7176B11C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="608" y="320" name="inst_28EDE9A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="640" y="320" name="inst_10EB4D4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="672" y="320" name="inst_052E020D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="704" y="320" name="inst_87D9F7EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="736" y="320" name="inst_3A223B0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="768" y="320" name="inst_9B5D691F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="832" y="256" name="inst_D28D317E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="703" y="218" name="inst_05328A8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="608" y="224" name="inst_EB848B8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="512" y="224" name="inst_254A9531" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="416" y="224" name="inst_A7EF40AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="768" y="352" name="inst_21623E35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="352" name="inst_1118E351" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="160" y="352" name="inst_F4B4D248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="128" y="352" name="inst_F50873D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="320" y="352" name="inst_724CC9A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="416" y="352" name="inst_FE8EF714" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="512" y="352" name="inst_76666A28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="256" y="96" name="inst_60072012" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="384" y="96" name="inst_24061668" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="512" y="96" name="inst_B7FD241F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretHor_obj" x="640" y="96" name="inst_211709E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretVer_obj" x="320" y="160" name="inst_E38164BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turretVer_obj" x="480" y="160" name="inst_5195D1FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="96" name="inst_0E3EBD15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="128" name="inst_7B042046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="160" name="inst_8D70D7E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="192" y="192" name="inst_DF41320F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="96" y="256" name="inst_4A19F8B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="64" y="256" name="inst_C8D76039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="96" y="224" name="inst_D804E830" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="64" y="224" name="inst_0DA2793F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="384" name="inst_F65BD7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="416" name="inst_40D0C364" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="448" name="inst_8B95762B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="480" name="inst_36FC7881" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="512" name="inst_3CED32E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="544" name="inst_20E44329" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="576" name="inst_6BB2095C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="608" name="inst_64280C0F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="640" name="inst_96EEE883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="128" y="672" name="inst_87A870D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="576" name="inst_EBC02CA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="544" name="inst_FADBCA9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="512" name="inst_4ECF05F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="480" name="inst_068734EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="448" name="inst_9EC256E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="416" name="inst_598E3F70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladderIron_obj" x="160" y="384" name="inst_C28EFDF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

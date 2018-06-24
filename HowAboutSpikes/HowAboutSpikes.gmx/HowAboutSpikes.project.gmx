@@ -593,6 +593,8 @@
       <object>objects\spikeMystery_obj</object>
       <objects name="Turret">
         <object>objects\turret_obj</object>
+        <object>objects\turretHor_obj</object>
+        <object>objects\turretVer_obj</object>
         <object>objects\bullet_obj</object>
       </objects>
       <objects name="SpikeFallingBoss">
