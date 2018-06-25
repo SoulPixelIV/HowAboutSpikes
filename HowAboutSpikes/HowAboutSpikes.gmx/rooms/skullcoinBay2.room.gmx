@@ -78,7 +78,7 @@
     <instance objName="woodplaneBlock_obj" x="1760" y="800" name="inst_2FD3FF00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="1824" y="800" name="inst_2BFAE5C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="1728" y="800" name="inst_4B0E4BC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="1889" y="818" name="inst_0D7BB335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turret_obj" x="1888" y="818" name="inst_0D7BB335" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="1888" y="832" name="inst_69CF8DC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="1888" y="864" name="inst_FBF15F4C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="1888" y="896" name="inst_1F885F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -773,7 +773,7 @@
     <instance objName="darkSpirit_obj" x="32" y="480" name="inst_A9FDBB97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="128" y="608" name="inst_4FAD3834" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="turret_obj" x="386" y="472" name="inst_F2446C81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="384" y="32" name="inst_27F84115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="turret_obj" x="384" y="45" name="inst_27F84115" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="384" y="32" name="inst_C110D563" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="384" y="0" name="inst_4E830AF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="320" y="480" name="inst_77FB4F5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
