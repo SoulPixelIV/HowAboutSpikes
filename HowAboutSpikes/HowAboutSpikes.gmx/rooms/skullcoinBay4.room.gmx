@@ -970,7 +970,6 @@
     <instance objName="turretHor_obj" x="452" y="76" name="inst_41584C0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="turretHor_obj" x="476" y="76" name="inst_F16C4670" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="turretHor_obj" x="499" y="76" name="inst_9BC01DEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turretHor_obj" x="521" y="76" name="inst_431077FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
