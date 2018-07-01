@@ -352,6 +352,7 @@
     <font>fonts\checkpoint_fnt</font>
     <font>fonts\gameover_fnt</font>
     <font>fonts\mainmenu_fnt</font>
+    <font>fonts\version_fnt</font>
     <font>fonts\credits_fnt</font>
     <font>fonts\creditsSmall_fnt</font>
     <font>fonts\creditsBig_fnt</font>
