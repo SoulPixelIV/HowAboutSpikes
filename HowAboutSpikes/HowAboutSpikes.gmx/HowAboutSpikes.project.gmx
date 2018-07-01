@@ -230,6 +230,7 @@
       <sprite>sprites\tutorialSign3_spr</sprite>
       <sprite>sprites\tutorialSign4_spr</sprite>
       <sprite>sprites\tutorialSign5_spr</sprite>
+      <sprite>sprites\tutorialSign6_spr</sprite>
     </sprites>
     <sprites name="Shaders">
       <sprite>sprites\lensflareStillBlue_spr</sprite>
@@ -515,6 +516,7 @@
         <object>objects\tutorialSign2_obj</object>
         <object>objects\tutorialSign3_obj</object>
         <object>objects\tutorialSign4_obj</object>
+        <object>objects\tutorialSign6_obj</object>
       </objects>
       <objects name="Bird">
         <object>objects\bird_obj</object>

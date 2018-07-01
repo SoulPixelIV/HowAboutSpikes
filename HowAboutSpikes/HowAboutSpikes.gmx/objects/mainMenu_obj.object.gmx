@@ -257,6 +257,9 @@ draw_text(16, 256, "Quit")
 
 draw_set_font(version_fnt);
 draw_text(425, 2, "How About Spikes Beta | Patch 4");
+
+draw_set_font(creditsSmall_fnt);
+draw_text(32, 32, "How About Spikes");
 </string>
           </argument>
         </arguments>
