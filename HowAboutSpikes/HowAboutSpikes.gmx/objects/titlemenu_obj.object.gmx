@@ -55,6 +55,9 @@
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
 draw_text(16, 160, "Press Start")
+
+draw_set_font(creditsSmall_fnt);
+draw_text(32, 32, "How About Spikes");
 /*
 if (file_exists("save1.has"))
 {
