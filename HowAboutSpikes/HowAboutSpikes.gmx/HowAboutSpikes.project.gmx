@@ -44,6 +44,7 @@
         <sprite>sprites\playerInvincibleOLD_spr</sprite>
       </sprites>
       <sprite>sprites\playerSpin_spr</sprite>
+      <sprite>sprites\playerClimb_spr</sprite>
     </sprites>
     <sprites name="Hitboxes">
       <sprite>sprites\blue_spr</sprite>

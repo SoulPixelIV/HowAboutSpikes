@@ -617,7 +617,7 @@ if (movement == true)
         }
     }
     
-    if (global.numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower)
+    if (global.numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower &amp;&amp; animPause == false)
     {
         image_speed = 0.3;
         sprite_index = playerSpin_spr;
@@ -629,6 +629,22 @@ if (movement == true)
         {
             image_xscale = -1;
         }
+    }
+    
+    if (onLadder &amp;&amp; animPause == false)
+    {
+        image_speed = 0.1;
+        sprite_index = playerClimb_spr;
+        /*
+        if (lastDir == 0)
+        {
+            image_xscale = 1;
+        }
+        else
+        {
+            image_xscale = -1;
+        }
+        */
     }
     /*
     if (verSpeed &lt; 0)
@@ -1169,7 +1185,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>////Debug
+            <string>///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
