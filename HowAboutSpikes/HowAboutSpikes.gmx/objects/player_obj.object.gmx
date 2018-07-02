@@ -460,6 +460,7 @@ if (movement == true)
 key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
 key_jump = keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_jump_hold = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
 key_jump_release = keyboard_check_released(vk_space) || gamepad_button_check_released(0, gp_face1);
 key_attack = keyboard_check_pressed(ord('K')) || gamepad_button_check_pressed(0, gp_shoulderr);
 key_throw = keyboard_check(ord('J')) || gamepad_button_check(0, gp_shoulderl);
@@ -606,6 +607,20 @@ if (movement == true)
     {
         image_speed = 0.1;
         sprite_index = playerLanding_spr;
+        if (lastDir == 0)
+        {
+            image_xscale = 1;
+        }
+        else
+        {
+            image_xscale = -1;
+        }
+    }
+    
+    if (global.numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower)
+    {
+        image_speed = 0.3;
+        sprite_index = playerSpin_spr;
         if (lastDir == 0)
         {
             image_xscale = 1;
@@ -1154,8 +1169,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-///Debug
+            <string>////Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {

@@ -43,6 +43,7 @@
         <sprite>sprites\playerLandingOLD_spr</sprite>
         <sprite>sprites\playerInvincibleOLD_spr</sprite>
       </sprites>
+      <sprite>sprites\playerSpin_spr</sprite>
     </sprites>
     <sprites name="Hitboxes">
       <sprite>sprites\blue_spr</sprite>
