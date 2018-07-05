@@ -304,6 +304,8 @@
       <sprite>sprites\npcOldLady_spr</sprite>
       <sprite>sprites\npcRingDealer_spr</sprite>
       <sprite>sprites\npcShopkeeper_spr</sprite>
+      <sprite>sprites\npcMother_spr</sprite>
+      <sprite>sprites\npcDaugther_spr</sprite>
       <sprite>sprites\monitor_spr</sprite>
     </sprites>
     <sprites name="Shortcuts">
@@ -586,7 +588,9 @@
       <object>objects\monitor_obj</object>
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
+      <object>objects\npcMother_obj</object>
       <object>objects\npcGVHelper_obj</object>
+      <object>objects\npcDaughter_obj</object>
       <object>objects\npcOPHelper_obj</object>
       <object>objects\npcUCAsker_obj</object>
       <object>objects\npcRingDealer_obj</object>
