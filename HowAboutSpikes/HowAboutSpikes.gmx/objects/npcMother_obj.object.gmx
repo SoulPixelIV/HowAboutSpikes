@@ -136,16 +136,16 @@ if (instance_exists(cursor_obj))
     {
         image_angle = 270;
     }
-    cursor_obj.x = shopIcon4_obj.x;
-    cursor_obj.y = shopIcon4_obj.y + 32;
+    cursor_obj.x = shopIcon5_obj.x;
+    cursor_obj.y = shopIcon5_obj.y + 32;
 }
 
 if (drawShop == true)
 {
-    instance_activate_object(shopIcon4_obj);
+    instance_activate_object(shopIcon5_obj);
     if (!instance_exists(cursor_obj))
     {
-        instance_create(shopIcon4_obj.x, shopIcon4_obj.y + 32, cursor_obj);
+        instance_create(shopIcon5_obj.x, shopIcon5_obj.y + 32, cursor_obj);
     }
     else
     {
@@ -154,7 +154,7 @@ if (drawShop == true)
 }
 else
 {
-    instance_deactivate_object(shopIcon4_obj);
+    instance_deactivate_object(shopIcon5_obj);
     instance_deactivate_object(cursor_obj);
 }
 /*
@@ -180,13 +180,8 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 {
     if (bought1 == false)
     {
-        global.ringPower = true;
-        global.pickedTooth = false;
-        with (tooth_obj)
-        {
-            instance_destroy();
-        }
-        with (shopIcon4_obj)
+        global.ringFriendship = true;
+        with (shopIcon5_obj)
         {
             image_index = 0;
         }
@@ -240,13 +235,10 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 
 if (bought1 == false)
 {
-    if (global.pickedTooth)
+    if (global.daughterHelped)
     {
-        messages[0] = "Oh you are back! I did not expect that to be honest..."
-        messages[1] = "Anyway did you beat that big bat? Did it drop its special tooth?"
-        messages[2] = "Thank you for this! As promised here is your reward."
-        messages[3] = "This ring will boost your jump strength. I think this will help you on your journey."
-        messages[4] = "I hope you find what you are searching for..."
+        messages[0] = "You found my daughter?!";
+        messages[1] = "I can not thank you enough! Here is your reward.";
     }
 }
 </string>

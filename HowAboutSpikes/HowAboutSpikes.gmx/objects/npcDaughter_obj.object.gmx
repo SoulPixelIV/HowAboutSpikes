@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 150;
+global.daughterHelped = false;
 
 i = -1;
 
@@ -86,6 +87,11 @@ alarm[0] = 150;
           <argument>
             <kind>1</kind>
             <string>key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
+
+if (distance_to_object(player_obj) &lt; 64)
+{
+    global.daughterHelped = true;
+}
 </string>
           </argument>
         </arguments>

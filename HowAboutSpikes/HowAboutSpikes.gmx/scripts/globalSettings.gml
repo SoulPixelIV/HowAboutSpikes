@@ -99,5 +99,6 @@ global.ringInventory[1] = -1;
 global.ringVision = false;
 global.ringWealth = false;
 global.ringPower = false;
+global.ringFriendship = false;
 
 

@@ -173,6 +173,33 @@ if (global.ringPower)
     }
     */
 }
+
+if (global.ringFriendship)
+{
+    if (global.ringInventory[0] == -1)
+    {
+        global.ringInventory[0] = 3;
+    }
+    if (global.ringInventory[1] == -1)
+    {
+        if (global.ringInventory[0] != 3)
+        {
+            global.ringInventory[1] = 3;
+        }
+    }
+    
+    
+    /*
+    //Exit if all slots are full
+    if (global.ringInventory[0] != -1 &amp;&amp; global.ringInventory[1] != -1)
+    {
+        if (global.ringInventory[0] != 2 || global.ringInventory[0] != 2)
+        {
+            global.ringPower = false;
+        }
+    }
+    */
+}
 </string>
           </argument>
         </arguments>
@@ -240,10 +267,12 @@ amount = 1;
     ini_write_real("Save1", "ring Vision", global.ringVision);
     ini_write_real("Save1", "ring Wealth", global.ringWealth);
     ini_write_real("Save1", "ring Power", global.ringPower);
+    ini_write_real("Save1", "ring Friendship", global.ringFriendship);
     ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
     ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
     ini_write_real("Save1", "opDoor", global.opDoor);
     ini_write_real("Save1", "gvDoor", global.gvDoor);
+    ini_write_real("Save1", "daughterHelped", global.daughterHelped);
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
@@ -1202,7 +1231,7 @@ if (keyboard_check_pressed(ord('0')))
 //###Debug Stuff###
 if (keyboard_check_pressed(ord('1')))
 {
-    global.ringVision = true;
+    global.ringFriendship = true;
 }
 
 if (keyboard_check_pressed(ord('2')))
@@ -1293,6 +1322,15 @@ if (global.ringInventory[0] == 2)
 if (global.ringInventory[1] == 2)
 {
     draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
+}
+
+if (global.ringInventory[0] == 3)
+{
+    draw_sprite(rings_spr, 3, view_xview[0] + 617, view_yview[0] + 35);
+}
+if (global.ringInventory[1] == 3)
+{
+    draw_sprite(rings_spr, 3, view_xview[0] + 617, view_yview[0] + 78);
 }
 </string>
           </argument>
