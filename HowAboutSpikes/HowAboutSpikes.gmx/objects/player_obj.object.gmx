@@ -1242,15 +1242,15 @@ if (keyboard_check_pressed(ord('3')))
 {
     global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != skullcoinBay4)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != deepPrison)
 {
     global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay4);
+    room_goto(deepPrison);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGraves3)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != undergroundCity3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(sentinelGraves3);
+    room_goto(undergroundCity3);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

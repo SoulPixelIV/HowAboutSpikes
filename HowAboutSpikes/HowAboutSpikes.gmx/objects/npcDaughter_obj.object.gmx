@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 150;
-global.daughterHelped = false;
 
 i = -1;
 
@@ -55,7 +54,8 @@ messages[2] = "I will find my way back home. Thank you again and good luck on yo
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (random(10) &gt;= 5)
+            <string>/*
+if (random(10) &gt;= 5)
 {
     image_xscale = -1;
 }
@@ -64,6 +64,7 @@ else
     image_xscale = 1;
 }
 alarm[0] = 150;
+*/
 </string>
           </argument>
         </arguments>

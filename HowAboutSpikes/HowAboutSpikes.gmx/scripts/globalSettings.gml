@@ -16,6 +16,7 @@ global.pickedRed = false;
 global.pickedBlue = false;
 global.pickedTooth = false;
 global.pickedKey = false;
+global.daughterHelped = false;
 
 global.opDoor = false;
 global.gvDoor = false;

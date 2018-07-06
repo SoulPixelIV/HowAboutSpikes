@@ -96,7 +96,7 @@ alarm[0] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; global.pickedTooth &amp;&amp; i == array_length_1d(messages) - 1)
+            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1)
 {
     drawShop = true;
 }
@@ -239,6 +239,9 @@ if (bought1 == false)
     {
         messages[0] = "You found my daughter?!";
         messages[1] = "I can not thank you enough! Here is your reward.";
+        messages[2] = "I can not thank you enough! Here is your reward.";
+        messages[3] = "I can not thank you enough! Here is your reward.";
+        messages[4] = "I can not thank you enough! Here is your reward.";
     }
 }
 </string>
