@@ -116,7 +116,7 @@ if (!audio_is_playing(mainMenu_msc))
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -134,14 +134,14 @@ if (!audio_is_playing(mainMenu_msc))
           <argument>
             <kind>1</kind>
             <string>draw_set_alpha(transparent);
-draw_set_font(creditsSmall_fnt);
+draw_set_font(creditsBig_fnt);
 
 transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100 &amp;&amp; timer &lt; 390)
 {
-    draw_text(120, 60, "A SoulPixel Production");
-    draw_text(50, 190, "A videogame by William Djalal#                @SoulPixelIX");
+    draw_text(410, 300, "A SoulPixel Production");
+    draw_text(210, 500, "A videogame by William Djalal#                @SoulPixelIX");
     if (timer &gt; 330)
     {
         transparent -= 0.03;
