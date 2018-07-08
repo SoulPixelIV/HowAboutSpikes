@@ -90,8 +90,8 @@ if (key_down &amp;&amp; userInput == false)
 //MOVE LEFT
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 216;
-    cursor_obj.y = 183;
+    cursor_obj.x = 236;
+    cursor_obj.y = 175;
     if (key_enter)
     {
         userInput = true;
@@ -112,8 +112,8 @@ if (buttonSelected == 0)
 //MOVE RIGHT
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 216;
-    cursor_obj.y = 215;
+    cursor_obj.x = 236;
+    cursor_obj.y = 210;
     if (key_enter)
     {
         userInput = true;
@@ -134,7 +134,7 @@ if (buttonSelected == 1)
 //JUMP
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 216;
+    cursor_obj.x = 236;
     cursor_obj.y = 247;
     if (key_enter)
     {
@@ -156,8 +156,8 @@ if (buttonSelected == 2)
 //ATTACK
 if (buttonSelected == 3)
 {
-    cursor_obj.x = 216;
-    cursor_obj.y = 279;
+    cursor_obj.x = 236;
+    cursor_obj.y = 283;
     if (key_enter)
     {
         userInput = true;
@@ -178,8 +178,8 @@ if (buttonSelected == 3)
 //THROW
 if (buttonSelected == 4)
 {
-    cursor_obj.x = 216;
-    cursor_obj.y = 311;
+    cursor_obj.x = 236;
+    cursor_obj.y = 315;
     if (key_enter)
     {
         userInput = true;
@@ -200,8 +200,8 @@ if (buttonSelected == 4)
 //BACK
 if (buttonSelected == 5)
 {
-    cursor_obj.x = 216;
-    cursor_obj.y = 343;
+    cursor_obj.x = 236;
+    cursor_obj.y = 345;
     if (key_enter)
     {
         room_goto(settingsMenu);
@@ -213,7 +213,7 @@ if (buttonSelected == 5)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -232,17 +232,23 @@ if (buttonSelected == 5)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "Move Left: " + string(chr(leftKey)));
-draw_text(16, 192, "Move Right: " + string(chr(rightKey)));
-draw_text(16, 224, "Jump: " + string(chr(jumpKey)));
-draw_text(16, 256, "Attack: " + string(chr(attackKey)));
-draw_text(16, 288, "Throw: " + string(chr(throwKey)));
-draw_text(16, 320, "Back");
+draw_text(64, 460, "Move Left: " + string(chr(leftKey)));
+draw_text(64, 560, "Move Right: " + string(chr(rightKey)));
+draw_text(64, 660, "Jump: " + string(chr(jumpKey)));
+draw_text(64, 760, "Attack: " + string(chr(attackKey)));
+draw_text(64, 860, "Throw: " + string(chr(throwKey)));
+draw_text(64, 960, "Back");
 
 if (userInput == true)
 {
-    draw_text(50, 50, "PRESS KEY!");
+    draw_text(350, 350, "PRESS KEY!");
 }
+
+draw_set_font(creditsBig_fnt);
+draw_text(72, 64, "How About Spikes");
+
+draw_set_font(version_fnt);
+draw_text(1520, 1040, "How About Spikes Beta | Patch 5");
 </string>
           </argument>
         </arguments>

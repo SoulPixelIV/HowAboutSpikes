@@ -86,8 +86,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 276;
-    cursor_obj.y = 183;
+    cursor_obj.x = 286;
+    cursor_obj.y = 175;
     if (key_enter)
     {
         if window_get_fullscreen()
@@ -103,8 +103,8 @@ if (buttonSelected == 0)
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 276;
-    cursor_obj.y = 215;
+    cursor_obj.x = 446;
+    cursor_obj.y = 210;
     if (key_right &amp;&amp; global.brightnessCount &lt; 4)
     {
         global.brightnessCount += 1;
@@ -149,7 +149,7 @@ if (buttonSelected == 1)
 
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 276;
+    cursor_obj.x = 286;
     cursor_obj.y = 247;
     if (key_enter)
     {
@@ -162,7 +162,7 @@ if (buttonSelected == 2)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -181,30 +181,35 @@ if (buttonSelected == 2)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "Toggle Fullscreen");
+draw_text(64, 460, "Toggle Fullscreen");
 if (global.brightnessCount == 0)
 {
-    draw_text(16, 192, "Change Brightness Level ____");
+    draw_text(64, 560, "Change Brightness Level ____");
 }
 if (global.brightnessCount == 1)
 {
-    draw_text(16, 192, "Change Brightness Level X___");
+    draw_text(64, 560, "Change Brightness Level X___");
 }
 if (global.brightnessCount == 2)
 {
-    draw_text(16, 192, "Change Brightness Level XX__");
+    draw_text(64, 560, "Change Brightness Level XX__");
 }
 if (global.brightnessCount == 3)
 {
-    draw_text(16, 192, "Change Brightness Level XXX_");
+    draw_text(64, 560, "Change Brightness Level XXX_");
 }
 if (global.brightnessCount == 4)
 {
-    draw_text(16, 192, "Change Brightness Level XXXX");
+    draw_text(64, 560, "Change Brightness Level XXXX");
 }
 
-draw_text(16, 224, "Back");
+draw_text(64, 660, "Back");
 
+draw_set_font(creditsBig_fnt);
+draw_text(72, 64, "How About Spikes");
+
+draw_set_font(version_fnt);
+draw_text(1520, 1040, "How About Spikes Beta | Patch 5");
 </string>
           </argument>
         </arguments>

@@ -35,7 +35,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -54,10 +54,13 @@
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(mainmenu_fnt);
-draw_text(16, 160, "Press Start")
+draw_text(64, 460, "Press Start")
 
-draw_set_font(creditsSmall_fnt);
-draw_text(32, 32, "How About Spikes");
+draw_set_font(creditsBig_fnt);
+draw_text(72, 64, "How About Spikes");
+
+draw_set_font(version_fnt);
+draw_text(1520, 1040, "How About Spikes Beta | Patch 5");
 /*
 if (file_exists("save1.has"))
 {

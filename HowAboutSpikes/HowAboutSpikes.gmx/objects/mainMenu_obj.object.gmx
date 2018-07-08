@@ -81,8 +81,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 176;
-    cursor_obj.y = 183;
+    cursor_obj.x = 206;
+    cursor_obj.y = 175;
 
     global.continued = true;
     if (key_enter)
@@ -191,8 +191,8 @@ if (buttonSelected == 0)
 }
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 176;
-    cursor_obj.y = 215;
+    cursor_obj.x = 206;
+    cursor_obj.y = 210;
     if (key_enter)
     {
         audio_stop_all();
@@ -201,7 +201,7 @@ if (buttonSelected == 1)
 }
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 176;
+    cursor_obj.x = 206;
     cursor_obj.y = 247;
     if (key_enter)
     {
@@ -210,8 +210,8 @@ if (buttonSelected == 2)
 }
 if (buttonSelected == 3)
 {
-    cursor_obj.x = 176;
-    cursor_obj.y = 279;
+    cursor_obj.x = 206;
+    cursor_obj.y = 283;
     if (key_enter)
     {
         game_end();
@@ -222,7 +222,7 @@ if (buttonSelected == 3)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -246,22 +246,22 @@ draw_set_font(mainmenu_fnt);
 if (!file_exists("save1.has"))
 {
     draw_set_color(c_gray);
-    draw_text(16, 160, "Continue")
+    draw_text(64, 460, "Continue")
     draw_set_color(c_white);
 }
 else
 {
-    draw_text(16, 160, "Continue")
+    draw_text(64, 460, "Continue")
 }
-draw_text(16, 192, "New Game")
-draw_text(16, 224, "Settings")
-draw_text(16, 256, "Quit")
+draw_text(64, 560, "New Game")
+draw_text(64, 660, "Settings")
+draw_text(64, 760, "Quit")
 
 draw_set_font(version_fnt);
-draw_text(425, 2, "How About Spikes Beta | Patch 4");
+draw_text(1520, 1040, "How About Spikes Beta | Patch 5");
 
-draw_set_font(creditsSmall_fnt);
-draw_text(32, 32, "How About Spikes");
+draw_set_font(creditsBig_fnt);
+draw_text(72, 64, "How About Spikes");
 </string>
           </argument>
         </arguments>
