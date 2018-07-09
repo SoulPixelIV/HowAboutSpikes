@@ -3,7 +3,7 @@
   <spriteName>enemySpirit_spr</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-15</depth>
   <persistent>0</persistent>
   <parentName>enemy_obj</parentName>
   <maskName>&lt;undefined&gt;</maskName>

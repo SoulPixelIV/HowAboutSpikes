@@ -44,7 +44,7 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_stop_sound(unknownForest_msc);
         audio_play_sound(undergroundCity_msc, 1, true);
         audio_sound_gain(undergroundCity_msc, 0, 0);
-        audio_sound_gain(undergroundCity_msc, global.musicVolume/ 1.4, 10000);
+        audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
     }
 }
 </string>
