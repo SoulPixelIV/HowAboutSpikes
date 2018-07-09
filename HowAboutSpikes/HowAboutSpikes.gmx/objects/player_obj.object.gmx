@@ -1591,7 +1591,38 @@ else
 {
     draw_set_alpha(1);
 }
-
+if (room == skullcoinBay1 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Skullcoin Bay");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
+if (room == undergroundStation1 &amp;&amp; global.spawned == true || room == undergroundStation2 &amp;&amp; global.spawned == true || room == undergroundStation3 &amp;&amp; global.spawned == true)
+{
+    draw_set_font(message_fnt);
+    draw_set_colour(c_white);
+    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Underground Station");
+    textTimer = textTimer - 0.5;
+    if (textTimer &lt;= 0)
+    {
+        global.spawned = false;
+        textTimer = 100;
+    }
+}
+else
+{
+    draw_set_alpha(1);
+}
 </string>
           </argument>
         </arguments>
