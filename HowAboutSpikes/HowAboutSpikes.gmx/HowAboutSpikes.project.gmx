@@ -20,6 +20,8 @@
     </sounds>
     <sounds name="Music">
       <sound>sound\mainMenu_msc</sound>
+      <sound>sound\unknownForest_msc</sound>
+      <sound>sound\undergroundCity_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">

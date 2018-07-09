@@ -25,6 +25,48 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Music
+
+if (room == unknownForest1 || room == unknownForest2 || room == unknownForest3)
+{
+    if (!audio_is_playing(unknownForest_msc))
+    {
+        audio_stop_sound(undergroundCity_msc);
+        audio_play_sound(unknownForest_msc, 1, true);
+        audio_sound_gain(unknownForest_msc, 0, 0);
+        audio_sound_gain(unknownForest_msc, global.musicVolume, 10000);
+    }
+}
+if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundCity3)
+{
+    if (!audio_is_playing(undergroundCity_msc))
+    {
+        audio_stop_sound(unknownForest_msc);
+        audio_play_sound(undergroundCity_msc, 1, true);
+        audio_sound_gain(undergroundCity_msc, 0, 0);
+        audio_sound_gain(undergroundCity_msc, global.musicVolume/ 1.4, 10000);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Vars
 
 global.movSpeed = 2.65;

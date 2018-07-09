@@ -21,6 +21,8 @@ global.daughterHelped = false;
 global.opDoor = false;
 global.gvDoor = false;
 
+global.musicVolume = 0.3;
+
 global.brightness = 1;
 global.brightnessCount = 0;
 
