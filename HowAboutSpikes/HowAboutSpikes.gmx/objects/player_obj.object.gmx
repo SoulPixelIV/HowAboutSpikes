@@ -660,7 +660,7 @@ if (movement == true)
         }
     }
     
-    if (onLadder &amp;&amp; animPause == false)
+    if (onLadder &amp;&amp; verSpeed != 0 &amp;&amp; animPause == false)
     {
         image_speed = 0.1;
         sprite_index = playerClimb_spr;

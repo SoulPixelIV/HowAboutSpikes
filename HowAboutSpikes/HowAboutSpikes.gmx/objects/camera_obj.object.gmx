@@ -330,8 +330,8 @@ with (player_obj)
         {
             draw_set_font(gameover_fnt);
             draw_set_color(c_red);
-            draw_text(global.guiPosX + 148, global.guiPosY + 148, "Death Counter: " + string(global.deathCount));
-            draw_sprite(gameover_spr, 0, global.guiPosX + 582, global.guiPosY + 180);
+            draw_text(300, 520, "Death Counter: " + string(global.deathCount));
+            draw_sprite_stretched(gameover_spr, 0, 42, 180, 1800, 512);
         }
     }
 }
@@ -356,7 +356,7 @@ with (player_obj)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(dirtyLensEffect_spr, 0, view_xview[0], view_yview[0]);
+            <string>draw_sprite_stretched(dirtyLensEffect_spr, 0, 0, 0, display_get_width(), display_get_height());
 </string>
           </argument>
         </arguments>
