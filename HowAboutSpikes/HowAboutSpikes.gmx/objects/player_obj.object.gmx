@@ -72,7 +72,7 @@ if (room == tutorial)
         audio_stop_sound(boss_msc);
         audio_play_sound(tutorial_msc, 1, true);
         audio_sound_gain(tutorial_msc, 0, 0);
-        audio_sound_gain(tutorial_msc, global.musicVolume * 1.5, 10000);
+        audio_sound_gain(tutorial_msc, global.musicVolume, 10000);
     }
 }
 </string>
