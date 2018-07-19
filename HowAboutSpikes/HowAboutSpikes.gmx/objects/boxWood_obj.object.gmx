@@ -97,6 +97,10 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (boxHealth &lt;= 0)
 {
+    if (!audio_is_playing(woodboxDestroy_snd))
+    {
+        audio_play_sound(woodboxDestroy_snd, 1, false);
+    }
     if (spawnPart &gt; 0)
     {
         instance_create(x, y, woodBoxParticle_obj);

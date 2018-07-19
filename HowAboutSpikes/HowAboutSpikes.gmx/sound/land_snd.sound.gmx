@@ -9,7 +9,7 @@
   </volume>
   <pan>0</pan>
   <bitRates>
-    <bitRate>192</bitRate>
+    <bitRate>512</bitRate>
   </bitRates>
   <sampleRates>
     <sampleRate>44100</sampleRate>
@@ -22,8 +22,8 @@
   </bitDepths>
   <preload>-1</preload>
   <data>land_snd.mp3</data>
-  <compressed>1</compressed>
-  <streamed>1</streamed>
+  <compressed>0</compressed>
+  <streamed>0</streamed>
   <uncompressOnLoad>0</uncompressOnLoad>
   <audioGroup>0</audioGroup>
 </sound>

@@ -32,6 +32,8 @@ if (room == unknownForest1 || room == unknownForest2 || room == unknownForest3)
     if (!audio_is_playing(unknownForest_msc))
     {
         audio_stop_sound(undergroundCity_msc);
+        audio_stop_sound(boss_msc);
+        audio_stop_sound(tutorial_msc);
         audio_play_sound(unknownForest_msc, 1, true);
         audio_sound_gain(unknownForest_msc, 0, 0);
         audio_sound_gain(unknownForest_msc, global.musicVolume, 10000);
@@ -42,9 +44,35 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
     if (!audio_is_playing(undergroundCity_msc))
     {
         audio_stop_sound(unknownForest_msc);
+        audio_stop_sound(boss_msc);
+        audio_stop_sound(tutorial_msc);
         audio_play_sound(undergroundCity_msc, 1, true);
         audio_sound_gain(undergroundCity_msc, 0, 0);
         audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
+    }
+}
+if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss)
+{
+    if (!audio_is_playing(boss_msc))
+    {
+        audio_stop_sound(unknownForest_msc);
+        audio_stop_sound(undergroundCity_msc);
+        audio_stop_sound(tutorial_msc);
+        audio_play_sound(boss_msc, 1, true);
+        audio_sound_gain(boss_msc, 0, 0);
+        audio_sound_gain(boss_msc, global.musicVolume / 4, 10000);
+    }
+}
+if (room == tutorial)
+{
+    if (!audio_is_playing(tutorial_msc))
+    {
+        audio_stop_sound(unknownForest_msc);
+        audio_stop_sound(undergroundCity_msc);
+        audio_stop_sound(boss_msc);
+        audio_play_sound(tutorial_msc, 1, true);
+        audio_sound_gain(tutorial_msc, 0, 0);
+        audio_sound_gain(tutorial_msc, global.musicVolume * 1.5, 10000);
     }
 }
 </string>
@@ -1256,8 +1284,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
-///Debug
+            <string>///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
@@ -1285,10 +1312,10 @@ if (keyboard_check_pressed(ord('3')))
 {
     global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != skullcoinBay5)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != unknownForestBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay5);
+    room_goto(unknownForestBoss);
 }
 if (keyboard_check_pressed(ord('5')) &amp;&amp; room != undergroundCity3)
 {

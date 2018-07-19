@@ -528,7 +528,7 @@
     <instance objName="window_obj" x="32" y="352" name="inst_9FD6DC94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="32" y="384" name="inst_A0DDC616" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="64" y="32" name="inst_44CC2FAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sunLight1RedShader_obj" x="288" y="544" name="inst_8FE94A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sunLight1RedShader_obj" x="320" y="480" name="inst_8FE94A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1056" y="544" name="inst_7D5D5D06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1056" y="576" name="inst_3F684546" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1056" y="608" name="inst_4B6C96A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

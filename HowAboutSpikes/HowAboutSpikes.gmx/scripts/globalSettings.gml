@@ -25,6 +25,7 @@ global.musicVolume = 0.3;
 
 global.brightness = 1;
 global.brightnessCount = 0;
+global.musicCount = 2;
 
 global.gardenValleyTD[0] = 0;
 global.unknownForest1TD[0] = 0;

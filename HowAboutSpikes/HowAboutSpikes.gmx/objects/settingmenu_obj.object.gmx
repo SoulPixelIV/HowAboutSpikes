@@ -97,7 +97,7 @@ if (buttonSelected == 1)
     cursor_obj.y = 210;
     if (key_enter)
     {
-        //room_goto(audiosettingsMenu);
+        room_goto(audiosettingsMenu);
     }
 }
 if (buttonSelected == 2)
