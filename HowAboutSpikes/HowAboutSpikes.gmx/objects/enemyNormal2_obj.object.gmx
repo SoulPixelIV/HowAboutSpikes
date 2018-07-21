@@ -110,7 +110,7 @@ alarm[1] = 40;
           <argument>
             <kind>1</kind>
             <string>image_index = 2;
-instance_create(x, y, hitboxEnemyBig_obj);
+instance_create(x, y, hitboxEnemy_obj);
 alarm[3] = 30;
 </string>
           </argument>
