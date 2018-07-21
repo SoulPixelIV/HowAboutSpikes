@@ -27,6 +27,7 @@
       <sound>sound\undergroundCity_msc</sound>
       <sound>sound\boss_msc</sound>
       <sound>sound\tutorial_msc</sound>
+      <sound>sound\snow_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
