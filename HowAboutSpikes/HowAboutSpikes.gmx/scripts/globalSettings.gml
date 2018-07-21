@@ -22,6 +22,7 @@ global.opDoor = false;
 global.gvDoor = false;
 
 global.musicVolume = 0.3;
+global.soundVolume = 1;
 
 global.brightness = 1;
 global.brightnessCount = 0;
@@ -105,4 +106,16 @@ global.ringWealth = false;
 global.ringPower = false;
 global.ringFriendship = false;
 
-
+//Sounds
+audio_sound_gain(land_snd, global.soundVolume, 0);
+audio_sound_gain(attack_snd, global.soundVolume, 0);
+audio_sound_gain(turretAlarm_snd, global.soundVolume, 0);
+audio_sound_gain(turretShot_snd, global.soundVolume, 0);
+audio_sound_gain(hit_snd, global.soundVolume, 0);
+audio_sound_gain(walkGrass_snd, global.soundVolume, 0);
+audio_sound_gain(walkSnow_snd, global.soundVolume, 0);
+audio_sound_gain(walkStone_snd, global.soundVolume, 0);
+audio_sound_gain(chaingun_snd, global.soundVolume, 0);
+audio_sound_gain(pop_snd, global.soundVolume, 0);
+audio_sound_gain(checkpointActive_snd, global.soundVolume / 1.3, 0);
+audio_sound_gain(woodboxDestroy_snd, global.soundVolume * 1.3, 0); 

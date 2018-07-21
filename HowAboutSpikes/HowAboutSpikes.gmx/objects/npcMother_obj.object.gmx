@@ -37,7 +37,7 @@ if (bought1 == false)
 {
     messages[0] = "Stranger! I need your help!"
     messages[1] = "Me and my daughter are struggling to survive. My daugther went to the Deep Prison to steal some food."
-    messages[2] = "After 2 days she still is not back. I beck you, please find my daughter!"
+    messages[2] = "After 2 days she still is not back. I beg you, please find my daughter!"
     messages[3] = "I do not have much to offer except this valuable ring. My mother gave it to me, when I was young to protect me from vicious creatures."
     messages[4] = "I'm counting on you!"
 }
