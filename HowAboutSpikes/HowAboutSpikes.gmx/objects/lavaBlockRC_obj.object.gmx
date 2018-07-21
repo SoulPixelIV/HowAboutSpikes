@@ -25,6 +25,52 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Sprite Placement
+
+if (place_meeting(x, y - 16, lavaBlockRC_obj))
+{
+    sprite_index = obsidianBlock_spr;
+}
+else
+{
+    if (!place_meeting(x + 16, y, lavaBlockRC_obj))
+    {
+        sprite_index = obsidianBlockRC_spr;
+    }
+    else
+    {
+        if (!place_meeting(x - 16, y, lavaBlockRC_obj))
+        {
+            sprite_index = obsidianBlockLC_spr;
+        }
+        else
+        {
+            sprite_index = obsidianBlock_spr;
+        }
+    }
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>timer = false;
 time = 50;
 </string>
@@ -56,44 +102,6 @@ time = 50;
         audio_play_sound(walkStone_snd, 1, false);
     }
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (place_meeting(x, y - 2, player_obj))
-{
-    timer = true;
-}
-
-if (timer == true)
-{
-    sprite_index = obsidianLightBlock_spr;
-    time -= 1;
-}
-
-if (time &lt; 0)
-{
-    sprite_index = obsidianBlock_spr;
-    time = 50;
-}
-
-
 </string>
           </argument>
         </arguments>

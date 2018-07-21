@@ -116,6 +116,8 @@
       </sprites>
       <sprites name="Obsidian Blocks">
         <sprite>sprites\obsidianBlock_spr</sprite>
+        <sprite>sprites\obsidianBlockRC_spr</sprite>
+        <sprite>sprites\obsidianBlockLC_spr</sprite>
         <sprite>sprites\obsidianLightBlock_spr</sprite>
       </sprites>
       <sprite>sprites\checkpoint_spr</sprite>
