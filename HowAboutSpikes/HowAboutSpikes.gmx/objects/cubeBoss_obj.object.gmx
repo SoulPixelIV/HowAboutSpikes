@@ -108,6 +108,7 @@ alarm[3] = 60;
             <string>if (shoot == true)
 {
     instance_create(x, y, bullet_obj);
+    audio_play_sound(turretShot_snd, 1, false);
 }
 alarm[0] = 30;
 </string>
@@ -170,7 +171,7 @@ if (place_meeting(x, y, scythe_obj))
 {
     with (cubeBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 2.4;
+        bossHealth = bossHealth - global.damage / 2.7;
         invincible = true;
         alarm[1] = 10;
     }
@@ -325,7 +326,23 @@ if (timer &gt; 200)
 
 global.guiPosX = view_xview[0];
 global.guiPosY = view_yview[0];
-draw_healthbar(global.guiPosX + 32, global.guiPosY + 668, global.guiPosX + 608, global.guiPosY + 344, bossHealth, c_black, c_green, c_green, 0, true, true);
+draw_healthbar(global.guiPosX + 32, global.guiPosY + 348, global.guiPosX + 608, global.guiPosY + 334, bossHealth, c_black, c_green, c_green, 0, true, true);
+
+if (global.cubePhase == 1)
+{
+    image_blend = c_red;
+}
+
+with (player_obj)
+{
+    if (place_meeting(x, y, checkpoint_obj))
+    {
+        with (cubeBoss_obj)
+        {
+            image_blend = c_white;
+        }
+    }
+}
 </string>
           </argument>
         </arguments>
