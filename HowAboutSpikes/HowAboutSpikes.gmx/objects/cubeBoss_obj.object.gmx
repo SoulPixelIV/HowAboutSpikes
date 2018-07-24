@@ -105,7 +105,7 @@ alarm[3] = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (shoot == true)
+            <string>if (shoot == true &amp;&amp; instance_exists(player_obj))
 {
     instance_create(x, y, bullet_obj);
     audio_play_sound(turretShot_snd, 1, false);
