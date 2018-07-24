@@ -96,7 +96,7 @@ alarm[0] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1)
+            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1 &amp;&amp; global.daughterHelped)
 {
     drawShop = true;
 }
