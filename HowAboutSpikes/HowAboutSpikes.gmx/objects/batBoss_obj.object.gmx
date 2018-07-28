@@ -198,6 +198,7 @@ else
             <kind>1</kind>
             <string>if (bossHealth &lt;= 0)
 {
+    audio_stop_sound(boss_msc);
     instance_create(x, y + 128, tooth_obj);
     with (batBossSprite_obj)
     {

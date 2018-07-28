@@ -183,6 +183,7 @@ if (place_meeting(x, y, scythe_obj))
 
 if (bossHealth &lt;= 0)
 {
+    audio_stop_sound(boss_msc);
     with (cubeBoss_obj)
     {
         instance_destroy();
