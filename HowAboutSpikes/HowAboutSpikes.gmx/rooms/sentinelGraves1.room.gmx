@@ -983,6 +983,9 @@
     <instance objName="darkBlockFake_obj" x="1184" y="1088" name="inst_75BA039A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlockFake_obj" x="1152" y="928" name="inst_30435DA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="1088" y="928" name="inst_B7F2369F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1088" y="1280" name="inst_BDACB11C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1024" y="1280" name="inst_F7A3F75F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="1120" y="1024" name="inst_9536D5C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
