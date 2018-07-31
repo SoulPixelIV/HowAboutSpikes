@@ -438,6 +438,7 @@
       <object>objects\scytheLever_obj</object>
       <object>objects\scytheLeverBlockSolid_obj</object>
       <object>objects\mysteryBlockNotSolid_obj</object>
+      <object>objects\grassBlock2NotSolid_obj</object>
       <objects name="Snow Blocks">
         <object>objects\snowBlock_obj</object>
         <object>objects\snowBlock2_obj</object>
