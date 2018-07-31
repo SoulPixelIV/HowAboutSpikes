@@ -139,6 +139,7 @@
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
       <sprite>sprites\darkSpiritBig_spr</sprite>
+      <sprite>sprites\ultraSpirit_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
       <sprite>sprites\key_spr</sprite>
       <sprite>sprites\redOrb_spr</sprite>
@@ -660,6 +661,7 @@
       <object>objects\blueOrb_obj</object>
       <object>objects\darkSpirit_obj</object>
       <object>objects\darkSpiritBig_obj</object>
+      <object>objects\ultraSpirit_obj</object>
       <object>objects\petBirdPA_obj</object>
       <object>objects\petBird_obj</object>
       <object>objects\warpzone_obj</object>
@@ -749,6 +751,7 @@
     <room>rooms\skullcoinBay4</room>
     <room>rooms\skullcoinBay5</room>
     <room>rooms\skullcoinBay6</room>
+    <room>rooms\skullcoinBayBoss</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameStart</room>
     </rooms>

@@ -2135,6 +2135,7 @@
     <instance objName="snowPile_obj" x="2656" y="256" name="inst_4DD3F971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowfall_obj" x="256" y="0" name="inst_68B766AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="tutorialSign6_obj" x="3104" y="1120" name="inst_4933E7CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ultraSpirit_obj" x="448" y="1856" name="inst_830190A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
