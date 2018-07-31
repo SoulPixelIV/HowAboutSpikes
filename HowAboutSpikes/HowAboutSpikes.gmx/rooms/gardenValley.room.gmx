@@ -2347,8 +2347,6 @@
     <instance objName="snowBlock2_obj" x="1216" y="352" name="inst_572D27A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLever_obj" x="1087" y="208" name="inst_D99E7C8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1088" y="160" name="inst_08BEF5AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1152" y="640" name="inst_C5EB928C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="snowBlock2_obj" x="1120" y="672" name="inst_6A0CDFE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="672" y="128" name="inst_944AD8D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="704" y="128" name="inst_616E8016" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="736" y="128" name="inst_4A45DED6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2413,6 +2411,21 @@
     <instance objName="snowBlock2_obj" x="1536" y="128" name="inst_E07AFD19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1504" y="128" name="inst_FEB4808C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="spikeUp_obj" x="1470" y="32" name="inst_860C15A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
+    <instance objName="lamp_obj" x="1824" y="512" name="inst_1566A187" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="2048" y="192" name="inst_7C9A7DA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1612" y="160" name="inst_8E425580" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1404" y="32" name="inst_1E03E94C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1256" y="408" name="inst_0799A345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="1088" y="160" name="inst_375CC207" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="851" y="34" name="inst_0744C377" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="480" y="672" name="inst_4D86FBCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="448" y="512" name="inst_AADEC73F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="384" y="384" name="inst_F53405C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="320" y="607" name="inst_425A16D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="224" y="768" name="inst_4BF6C7DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torch_obj" x="224" y="832" name="inst_FB97E359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="rope_obj" x="1969" y="419" name="inst_9A12253E" locked="0" code="" scaleX="1.05633807182312" scaleY="0.600000023841858" colour="4294967295" rotation="30"/>
+    <instance objName="lamp_obj" x="1979" y="421" name="inst_281D2F8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
