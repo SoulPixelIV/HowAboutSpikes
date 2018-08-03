@@ -133,7 +133,10 @@ else
     instance_deactivate_object(shopIcon1_obj);
     instance_deactivate_object(shopIcon2_obj);
     instance_deactivate_object(shopIcon6_obj);
-    instance_deactivate_object(cursor_obj);
+    with (cursor_obj)
+    {
+        instance_destroy();
+    }
 }
 
 if (key_left)
