@@ -1339,10 +1339,10 @@ if (keyboard_check_pressed(ord('5')) &amp;&amp; room != demonsKeep1)
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != demonsKeep2)
 {
-    global.playerSpawnLocation = 0;
-    room_goto(overcastPeakBoss);
+    global.playerSpawnLocation = 2;
+    room_goto(demonsKeep2);
 }
 if (keyboard_check_pressed(ord('7')) &amp;&amp; room != overcastPeak3)
 {
