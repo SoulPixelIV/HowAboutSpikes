@@ -1939,8 +1939,8 @@
     <instance objName="snowBlock_obj" x="2880" y="1056" name="inst_A6D83CB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2720" y="1024" name="inst_177DAEAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock2_obj" x="2752" y="1024" name="inst_EFB85248" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="shopIcon1_obj" x="2080" y="864" name="inst_A29C63EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="shopIcon2_obj" x="2208" y="864" name="inst_DB32C7C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon1_obj" x="2076" y="864" name="inst_A29C63EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon2_obj" x="2212" y="864" name="inst_DB32C7C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1280" y="960" name="inst_F0B8770E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="2041" y="52" name="inst_A2CAB931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderGV_OP1_obj" x="2073" y="-27" name="inst_CC9DA467" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
@@ -2426,6 +2426,7 @@
     <instance objName="torch_obj" x="224" y="832" name="inst_FB97E359" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="rope_obj" x="1969" y="419" name="inst_9A12253E" locked="0" code="" scaleX="1.05633807182312" scaleY="0.600000023841858" colour="4294967295" rotation="30"/>
     <instance objName="lamp_obj" x="1979" y="421" name="inst_281D2F8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon6_obj" x="2144" y="864" name="inst_D7532E2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

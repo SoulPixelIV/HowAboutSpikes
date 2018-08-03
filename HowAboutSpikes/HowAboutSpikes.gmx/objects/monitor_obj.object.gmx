@@ -29,6 +29,7 @@
 cursorPos = 0;
 bought1 = false;
 bought2 = false;
+bought3 = false;
 
 i = -1;
 
@@ -101,7 +102,12 @@ if (instance_exists(cursor_obj))
         cursor_obj.x = shopIcon1_obj.x;
         cursor_obj.y = shopIcon1_obj.y + 32;
     }
-    else
+    if (cursorPos == 1)
+    {
+        cursor_obj.x = shopIcon6_obj.x;
+        cursor_obj.y = shopIcon6_obj.y + 32;
+    }
+    if (cursorPos == 2)
     {
         cursor_obj.x = shopIcon2_obj.x;
         cursor_obj.y = shopIcon2_obj.y + 32;
@@ -112,6 +118,7 @@ if (drawShop == true)
 {
     instance_activate_object(shopIcon1_obj);
     instance_activate_object(shopIcon2_obj);
+    instance_activate_object(shopIcon6_obj);
     if (!instance_exists(cursor_obj))
     {
         instance_create(shopIcon1_obj.x, shopIcon1_obj.y + 32, cursor_obj);
@@ -125,18 +132,36 @@ else
 {
     instance_deactivate_object(shopIcon1_obj);
     instance_deactivate_object(shopIcon2_obj);
+    instance_deactivate_object(shopIcon6_obj);
     instance_deactivate_object(cursor_obj);
 }
 
-if (key_left || key_right)
+if (key_left)
 {
     with (monitor_obj)
     {
-        if (drawShop == true)
+        if (drawShop)
         {
-            if (cursorPos == 0)
+            if (cursorPos &gt; 0)
             {
-                cursorPos = 1;
+                cursorPos -= 1;
+            }
+            else
+            {
+                cursorPos = 2;
+            }
+        }
+    }
+}
+if (key_right)
+{
+    with (monitor_obj)
+    {
+        if (drawShop)
+        {
+            if (cursorPos &lt; 2)
+            {
+                cursorPos += 1;
             }
             else
             {
@@ -146,9 +171,9 @@ if (key_left || key_right)
     }
 }
 
-if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
+if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; bought1 == false)
 {
-    if (global.money &gt; 79 &amp;&amp; bought1 == false)
+    if (global.money &gt; 79)
     {
         global.money = global.money - 80;
         global.mode = 1;
@@ -159,7 +184,23 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
         bought1 = true;
     }
 }
-if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; drawShop == true)
+
+if (cursorPos == 1 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; bought3 == false)
+{
+    if (global.money &gt; 49)
+    {
+        global.money = global.money - 50;
+        global.pickedPet = true;
+        instance_create(x, y, petBird_obj);
+        with (shopIcon6_obj)
+        {
+            image_index = 1;
+        }
+        bought3 = true;
+    }
+}
+
+if (cursorPos == 2 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; drawShop == true)
 {
     if (global.money &gt; 59)
     {
