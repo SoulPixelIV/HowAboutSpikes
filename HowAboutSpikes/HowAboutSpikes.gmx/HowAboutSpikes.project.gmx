@@ -28,6 +28,7 @@
       <sound>sound\boss_msc</sound>
       <sound>sound\tutorial_msc</sound>
       <sound>sound\snow_msc</sound>
+      <sound>sound\lava_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
@@ -440,6 +441,7 @@
       <object>objects\scytheLeverBlockSolid_obj</object>
       <object>objects\mysteryBlockNotSolid_obj</object>
       <object>objects\grassBlock2NotSolid_obj</object>
+      <object>objects\stoneBlockNotSolid_obj</object>
       <objects name="Snow Blocks">
         <object>objects\snowBlock_obj</object>
         <object>objects\snowBlock2_obj</object>
