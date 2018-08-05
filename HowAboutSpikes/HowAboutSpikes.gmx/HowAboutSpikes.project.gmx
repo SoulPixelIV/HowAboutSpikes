@@ -523,6 +523,7 @@
       <object>objects\colliderSB3_SB4_obj</object>
       <object>objects\colliderSB3_SB5_obj</object>
       <object>objects\colliderSB3_SB6_obj</object>
+      <object>objects\colliderSB6_SBB_obj</object>
       <object>objects\colliderOPB_OP2_obj</object>
       <object>objects\spawn_obj</object>
       <object>objects\spawn1_obj</object>
@@ -600,6 +601,9 @@
       </objects>
       <objects name="Cube">
         <object>objects\cubeBoss_obj</object>
+      </objects>
+      <objects name="FinalBoss">
+        <object>objects\finalBoss_obj</object>
       </objects>
     </objects>
     <objects name="Npcs">

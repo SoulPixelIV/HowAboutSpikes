@@ -55,7 +55,7 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
     }
 }
-if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss)
+if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss || room == skullcoinBayBoss)
 {
     if (!audio_is_playing(boss_msc))
     {
@@ -1358,15 +1358,15 @@ if (keyboard_check_pressed(ord('5')) &amp;&amp; room != demonsKeep1)
     global.playerSpawnLocation = 0;
     room_goto(demonsKeep1);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != demonsKeep2)
-{
-    global.playerSpawnLocation = 2;
-    room_goto(demonsKeep2);
-}
-if (keyboard_check_pressed(ord('7')) &amp;&amp; room != overcastPeak3)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak3);
+    room_goto(overcastPeak2);
+}
+if (keyboard_check_pressed(ord('7')) &amp;&amp; room != skullcoinBayBoss)
+{
+    global.playerSpawnLocation = 0;
+    room_goto(skullcoinBayBoss);
 }
 if (keyboard_check_pressed(ord('8')) &amp;&amp; room != overcastPeak4)
 {
