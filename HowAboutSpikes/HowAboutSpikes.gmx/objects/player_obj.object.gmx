@@ -1374,10 +1374,10 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != overcastPeak4)
     room_goto(overcastPeak4);
 }
 
-if (keyboard_check_pressed(ord('9')) &amp;&amp; room != overcastPeak5)
+if (keyboard_check_pressed(ord('9')) &amp;&amp; room != unknownForest2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak5);
+    room_goto(unknownForest2);
 }
 </string>
           </argument>

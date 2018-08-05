@@ -303,6 +303,46 @@ else
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Map
+
+if (pauseMenu)
+{
+    if (!instance_exists(map_obj))
+    {
+        instance_create(global.guiPosX + 470, global.guiPosY + 140, map_obj);
+    }
+    else
+    {
+        instance_activate_object(map_obj);
+    }
+}
+else
+{
+    if (instance_exists(map_obj))
+    {
+        instance_deactivate_object(map_obj);
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="8" enumb="64">
       <action>

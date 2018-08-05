@@ -1481,7 +1481,6 @@
     <instance objName="castleBlock_obj" x="1888" y="832" name="inst_3B127C92" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1856" y="832" name="inst_97034F20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="1824" y="832" name="inst_F74E9E69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal2_obj" x="2432" y="800" name="inst_DF544927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="explosiveBlock_obj" x="1888" y="800" name="inst_D02D9E31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="explosiveBlock_obj" x="1920" y="800" name="inst_F4EFD9ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="explosiveBlock_obj" x="1760" y="800" name="inst_E7DB4125" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2357,8 +2356,6 @@
     <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_7203EC66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treasurechest_obj" x="2496" y="768" name="inst_5C5A02A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="2112" y="800" name="inst_CFF0E63E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="2336" y="800" name="inst_7A8C3243" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="castleBlock_obj" x="2336" y="768" name="inst_B189D653" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="castleBlock_obj" x="2368" y="800" name="inst_E6DEE226" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1024" y="1280" name="inst_E08A148C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="992" y="1280" name="inst_C518E892" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2665,6 +2662,10 @@
     <instance objName="woodplanePole_obj" x="2176" y="96" name="inst_6D31F46A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="2176" y="64" name="inst_9F8D8CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="2176" y="32" name="inst_75956B46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="2400" y="800" name="inst_C1AF6234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="castleBlock_obj" x="2432" y="800" name="inst_3D137EFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcMap2_obj" x="2438" y="752" name="inst_D1495F40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon7_2_obj" x="2440" y="672" name="inst_59723EBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -2166,6 +2166,8 @@
     <instance objName="grassBlock2_obj" x="512" y="1696" name="inst_018EC828" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="192" y="1472" name="inst_85754407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="96" y="1472" name="inst_BA29BF46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcMap1_obj" x="2632" y="944" name="inst_90F2B23A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon7_1_obj" x="2635" y="864" name="inst_1CACAF4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

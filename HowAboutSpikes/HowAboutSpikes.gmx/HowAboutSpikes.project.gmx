@@ -166,6 +166,7 @@
       <sprite>sprites\shopIcon1_spr</sprite>
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\shopIcon6_spr</sprite>
+      <sprite>sprites\shopIcon7_spr</sprite>
       <sprite>sprites\shopIcon3_spr</sprite>
       <sprite>sprites\shopIcon4_spr</sprite>
       <sprite>sprites\shopIcon5_spr</sprite>
@@ -317,6 +318,7 @@
       <sprite>sprites\npcSoldier_spr</sprite>
       <sprite>sprites\npcOldLady_spr</sprite>
       <sprite>sprites\npcRingDealer_spr</sprite>
+      <sprite>sprites\npcMap_spr</sprite>
       <sprite>sprites\npcShopkeeper_spr</sprite>
       <sprite>sprites\npcMother_spr</sprite>
       <sprite>sprites\npcDaugther_spr</sprite>
@@ -343,6 +345,7 @@
       <sprite>sprites\textbox_spr</sprite>
       <sprite>sprites\ringbox_spr</sprite>
       <sprite>sprites\saveIcon_spr</sprite>
+      <sprite>sprites\map_spr</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -617,6 +620,10 @@
       <object>objects\npcOPHelper_obj</object>
       <object>objects\npcUCAsker_obj</object>
       <object>objects\npcRingDealer_obj</object>
+      <objects name="npcMap">
+        <object>objects\npcMap1_obj</object>
+        <object>objects\npcMap2_obj</object>
+      </objects>
     </objects>
     <objects name="Hazards">
       <object>objects\spikeUp_obj</object>
@@ -700,6 +707,16 @@
       <object>objects\shopIcon5_obj</object>
       <object>objects\shopIcon6_obj</object>
       <object>objects\saveIcon_obj</object>
+      <object>objects\map_obj</object>
+      <objects name="shopIcon7">
+        <object>objects\shopIcon7_1_obj</object>
+        <object>objects\shopIcon7_2_obj</object>
+        <object>objects\shopIcon7_3_obj</object>
+        <object>objects\shopIcon7_4_obj</object>
+        <object>objects\shopIcon7_5_obj</object>
+        <object>objects\shopIcon7_6_obj</object>
+        <object>objects\shopIcon7_7_obj</object>
+      </objects>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>

@@ -106,6 +106,9 @@ global.ringWealth = false;
 global.ringPower = false;
 global.ringFriendship = false;
 
+//Map
+global.map = 0;
+
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
 audio_sound_gain(attack_snd, global.soundVolume, 0);
