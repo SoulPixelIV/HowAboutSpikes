@@ -623,6 +623,11 @@
       <objects name="npcMap">
         <object>objects\npcMap1_obj</object>
         <object>objects\npcMap2_obj</object>
+        <object>objects\npcMap3_obj</object>
+        <object>objects\npcMap4_obj</object>
+        <object>objects\npcMap5_obj</object>
+        <object>objects\npcMap6_obj</object>
+        <object>objects\npcMap7_obj</object>
       </objects>
     </objects>
     <objects name="Hazards">

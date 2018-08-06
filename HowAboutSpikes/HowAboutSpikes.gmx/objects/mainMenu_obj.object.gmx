@@ -109,6 +109,7 @@ if (buttonSelected == 0)
             global.opDoor = ini_read_real("Save1", "opDoor", true);
             global.gvDoor = ini_read_real("Save1", "gvDoor", true);
             global.daughterHelped = ini_read_real("Save1", "daughterHelped", true);
+            global.map = ini_read_real("Save1", "map", 0);
             //Trapdoor0
             global.gardenValleyTD[0] = ini_read_real("Save1", "gardenValley[0]", 0);
             global.unknownForest1TD[0] = ini_read_real("Save1", "unknownForest1[0]", 0);

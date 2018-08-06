@@ -327,16 +327,15 @@ if (pauseMenu)
     {
         instance_create(global.guiPosX + 470, global.guiPosY + 140, map_obj);
     }
-    else
-    {
-        instance_activate_object(map_obj);
-    }
 }
 else
 {
     if (instance_exists(map_obj))
     {
-        instance_deactivate_object(map_obj);
+        with (map_obj)
+        {
+            instance_destroy();
+        }
     }
 }
 </string>

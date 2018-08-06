@@ -472,6 +472,8 @@
     <instance objName="colliderSB1_SB2_obj" x="-54" y="397" name="inst_C76766A2" locked="0" code="" scaleX="1.5" scaleY="3.83333325386047" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="85" y="519" name="inst_9828E56A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="65" y="474" name="inst_24918649" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcMap7_obj" x="192" y="539" name="inst_F61EA3C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon7_7_obj" x="194" y="448" name="inst_EF5A35A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

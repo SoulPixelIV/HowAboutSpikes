@@ -379,6 +379,7 @@ amount = 1;
     ini_write_real("Save1", "opDoor", global.opDoor);
     ini_write_real("Save1", "gvDoor", global.gvDoor);
     ini_write_real("Save1", "daughterHelped", global.daughterHelped);
+    ini_write_real("Save1", "map", global.map);
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);

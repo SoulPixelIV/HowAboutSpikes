@@ -428,7 +428,7 @@
     <instance objName="lamp_obj" x="576" y="224" name="inst_978558E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="384" y="512" name="inst_73BCE42C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="224" y="480" name="inst_5585A408" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lamp_obj" x="96" y="512" name="inst_F306F5B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="lamp_obj" x="84" y="536" name="inst_F306F5B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderSG1_SG2_obj" x="-45" y="1275" name="inst_A7CEEC9A" locked="0" code="" scaleX="0.791666686534882" scaleY="2.47368431091309" colour="4294967295" rotation="0"/>
     <instance objName="spawn_obj" x="68" y="1243" name="inst_BC43F8D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="672" y="96" name="inst_7FBCE08A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -452,8 +452,6 @@
     <instance objName="spikeUp_obj" x="576" y="736" name="inst_7C928E5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="darkSpirit_obj" x="576" y="1088" name="inst_BB01FAAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="416" y="448" name="inst_AEB4D5FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="64" y="512" name="inst_EB7EDAC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkSpirit_obj" x="64" y="544" name="inst_E2107A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="928" y="96" name="inst_6B972C62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="640" y="736" name="inst_497A8E5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="640" y="768" name="inst_FBD7FA9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
@@ -494,6 +492,8 @@
     <instance objName="darkBlock_obj" x="1248" y="1056" name="inst_E1EC925D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpiritBig_obj" x="1184" y="1056" name="inst_BFA7D019" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treasurechest_obj" x="1184" y="1056" name="inst_E0750337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcMap3_obj" x="97" y="560" name="inst_28E0BE0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon7_3_obj" x="99" y="480" name="inst_124F3D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
