@@ -273,8 +273,8 @@ if (pauseMenu == true)
     
     if (buttonSelected == 0)
     {
-        cursor2_obj.x = global.guiPosX + 160;
-        cursor2_obj.y = global.guiPosY + 177;
+        cursor2_obj.x = global.guiPosX + 175;
+        cursor2_obj.y = global.guiPosY + 180;
         if (key_enter)
         {
             pauseMenu = false;
@@ -327,12 +327,23 @@ if (pauseMenu)
     {
         instance_create(global.guiPosX + 470, global.guiPosY + 140, map_obj);
     }
+    if (!instance_exists(menuLight_obj))
+    {
+        instance_create(global.guiPosX + 470, global.guiPosY + 140, menuLight_obj);
+    }
 }
 else
 {
     if (instance_exists(map_obj))
     {
         with (map_obj)
+        {
+            instance_destroy();
+        }
+    }
+    if (instance_exists(menuLight_obj))
+    {
+        with (menuLight_obj)
         {
             instance_destroy();
         }
@@ -431,6 +442,10 @@ if !surface_exists(surface)
 {
     surface = surface_create(room_width, room_height);
     surfaceScale = 1/8;
+    with (surface)
+    {
+        depth = 0;
+    }
 }
 else
 {

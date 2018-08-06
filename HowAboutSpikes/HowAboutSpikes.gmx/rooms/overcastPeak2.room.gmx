@@ -3609,7 +3609,6 @@
     <instance objName="stoneBlock_obj" x="3392" y="384" name="inst_33B6B419" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="3424" y="384" name="inst_8B27506A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderOP2_UF2_obj" x="4858" y="2028" name="inst_84B566D0" locked="0" code="" scaleX="3.5" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
-    <instance objName="enemyNormal2_obj" x="1600" y="1152" name="inst_EBB00C05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="3680" y="1120" name="inst_7C2EC947" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="4960" y="1408" name="inst_F2BC398E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1YellowShader_obj" x="128" y="-64" name="inst_E02A15D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -4074,6 +4073,8 @@
     <instance objName="torch_obj" x="4704" y="320" name="inst_311CEB3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="torch_obj" x="4736" y="320" name="inst_4824F487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="torch_obj" x="4768" y="352" name="inst_AE3EA83A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="1632" y="1152" name="inst_50BAC802" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="4480" y="1184" name="inst_09C020B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

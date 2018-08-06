@@ -321,6 +321,7 @@
       <sprite>sprites\npcMap_spr</sprite>
       <sprite>sprites\npcShopkeeper_spr</sprite>
       <sprite>sprites\npcMother_spr</sprite>
+      <sprite>sprites\npcScythe_spr</sprite>
       <sprite>sprites\npcDaugther_spr</sprite>
       <sprite>sprites\monitor_spr</sprite>
     </sprites>
@@ -620,6 +621,7 @@
       <object>objects\npcOPHelper_obj</object>
       <object>objects\npcUCAsker_obj</object>
       <object>objects\npcRingDealer_obj</object>
+      <object>objects\npcScythe_obj</object>
       <objects name="npcMap">
         <object>objects\npcMap1_obj</object>
         <object>objects\npcMap2_obj</object>
@@ -670,6 +672,7 @@
     <objects name="Lighting">
       <object>objects\lightFlickering_obj</object>
       <object>objects\light_obj</object>
+      <object>objects\menuLight_obj</object>
       <object>objects\lightControlNormal_obj</object>
       <object>objects\lightControlHeavy_obj</object>
       <object>objects\lightControlFull_obj</object>
