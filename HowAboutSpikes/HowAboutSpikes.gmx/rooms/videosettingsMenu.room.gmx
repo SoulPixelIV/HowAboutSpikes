@@ -118,6 +118,8 @@
     <instance objName="torch_obj" x="29" y="317" name="inst_F8712617" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowPile_obj" x="640" y="224" name="inst_9FAFD869" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="videosettingsMenu_obj" x="0" y="0" name="inst_F46EA027" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="576" y="256" name="inst_8BC7FF1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ladder_obj" x="576" y="288" name="inst_A814ADE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

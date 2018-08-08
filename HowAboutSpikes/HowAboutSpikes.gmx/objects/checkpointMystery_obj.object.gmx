@@ -50,18 +50,10 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>global.showText2 = false;
+
 if (distance_to_object(player_obj) &lt; 32)
 {
-    global.showText2 = true;
-}
-
-if (distance_to_object(player_obj) &lt; 72)
-{
-    sprite_index = checkpoint_spr;
-}
-if (distance_to_object(player_obj) &gt;= 72)
-{
-    sprite_index = mysteryBlock_spr;
+    instance_change(checkpoint_obj, true);
 }
 </string>
           </argument>
