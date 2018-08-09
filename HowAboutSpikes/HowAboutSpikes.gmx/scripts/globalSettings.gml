@@ -20,6 +20,7 @@ global.daughterHelped = false;
 
 global.opDoor = false;
 global.gvDoor = false;
+global.scbDoor = false;
 
 global.musicVolume = 0.3;
 global.soundVolume = 1;

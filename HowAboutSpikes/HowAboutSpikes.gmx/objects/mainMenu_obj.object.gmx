@@ -108,6 +108,7 @@ if (buttonSelected == 0)
             global.ringInventory[1] = ini_read_real("Save1", "ring Inventory1", -1);
             global.opDoor = ini_read_real("Save1", "opDoor", true);
             global.gvDoor = ini_read_real("Save1", "gvDoor", true);
+            global.scbDoor = ini_read_real("Save1", "scbDoor", true);
             global.daughterHelped = ini_read_real("Save1", "daughterHelped", true);
             global.map = ini_read_real("Save1", "map", 0);
             global.level = ini_read_real("Save1", "levelNPC", 0);

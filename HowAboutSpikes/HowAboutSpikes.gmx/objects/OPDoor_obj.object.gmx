@@ -34,6 +34,11 @@ if (room == overcastPeak1 &amp;&amp; global.opDoor)
 {
     instance_destroy();
 }
+
+if (room == skullcoinBay3 &amp;&amp; global.scbDoor)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

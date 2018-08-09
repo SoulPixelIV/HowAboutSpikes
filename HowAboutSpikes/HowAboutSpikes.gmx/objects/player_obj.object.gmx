@@ -379,6 +379,7 @@ amount = 1;
     ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
     ini_write_real("Save1", "opDoor", global.opDoor);
     ini_write_real("Save1", "gvDoor", global.gvDoor);
+    ini_write_real("Save1", "scbDoor", global.scbDoor);
     ini_write_real("Save1", "daughterHelped", global.daughterHelped);
     ini_write_real("Save1", "map", global.map);
     ini_write_real("Save1", "levelNPC", global.level);
@@ -1378,10 +1379,10 @@ if (keyboard_check_pressed(ord('8')) &amp;&amp; room != overcastPeak4)
     room_goto(overcastPeak4);
 }
 
-if (keyboard_check_pressed(ord('9')) &amp;&amp; room != unknownForest2)
+if (keyboard_check_pressed(ord('9')) &amp;&amp; room != skullcoinBay3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(unknownForest2);
+    room_goto(skullcoinBay3);
 }
 </string>
           </argument>

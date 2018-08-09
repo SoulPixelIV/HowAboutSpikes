@@ -33,11 +33,22 @@
         if (place_meeting(x, y, blueOrb_obj))
         {
             global.pickedBlue = false;
-            with (OPDoor_obj)
+            if (room == overcastPeak1)
             {
-                instance_destroy();
+                with (OPDoor_obj)
+                {
+                    instance_destroy();
+                }
+                global.opDoor = true;
             }
-            global.opDoor = true;
+            if (room == skullcoinBay3)
+            {
+                with (OPDoor_obj)
+                {
+                    instance_destroy();
+                }
+                global.scbDoor = true;
+            }
         }
     }
 }
