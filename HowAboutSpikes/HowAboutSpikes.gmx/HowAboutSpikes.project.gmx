@@ -167,6 +167,8 @@
       <sprite>sprites\shopIcon2_spr</sprite>
       <sprite>sprites\shopIcon6_spr</sprite>
       <sprite>sprites\shopIcon7_spr</sprite>
+      <sprite>sprites\shopIcon8_spr</sprite>
+      <sprite>sprites\shopIcon9_spr</sprite>
       <sprite>sprites\shopIcon3_spr</sprite>
       <sprite>sprites\shopIcon4_spr</sprite>
       <sprite>sprites\shopIcon5_spr</sprite>
@@ -402,6 +404,7 @@
       <object>objects\fog_obj</object>
       <object>objects\cursor_obj</object>
       <object>objects\cursor2_obj</object>
+      <object>objects\cursor3_obj</object>
       <objects name="Menu Objects">
         <object>objects\creditsMenu_obj</object>
         <object>objects\titlemenu_obj</object>
@@ -714,6 +717,8 @@
       <object>objects\shopIcon4_obj</object>
       <object>objects\shopIcon5_obj</object>
       <object>objects\shopIcon6_obj</object>
+      <object>objects\shopIcon8_obj</object>
+      <object>objects\shopIcon9_obj</object>
       <object>objects\saveIcon_obj</object>
       <object>objects\map_obj</object>
       <objects name="shopIcon7">

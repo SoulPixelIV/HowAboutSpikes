@@ -27,7 +27,6 @@
             <kind>1</kind>
             <string>drawShop = false;
 cursorPos = 0;
-bought1 = false;
 
 i = -1;
 
@@ -90,37 +89,67 @@ key_left = keyboard_check_pressed(vk_left) || gamepad_button_check_pressed(0, gp
 key_right = keyboard_check_pressed(vk_right) || gamepad_button_check_pressed(0, gp_padr)
 key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
 
-if (instance_exists(cursor_obj))
+if (drawShop == true)
 {
-    with (cursor_obj)
+    if (global.level == 0)
+    {
+        instance_activate_object(shopIcon8_obj);
+        if (!instance_exists(cursor3_obj))
+        {
+            instance_create(shopIcon8_obj.x, shopIcon8_obj.y + 32, cursor3_obj);
+        }
+        else
+        {
+            instance_activate_object(cursor3_obj);
+        }
+    }
+    else
+    {
+        instance_activate_object(shopIcon9_obj);
+        if (!instance_exists(cursor3_obj))
+        {
+            instance_create(shopIcon9_obj.x, shopIcon9_obj.y + 32, cursor3_obj);
+        }
+        else
+        {
+            instance_activate_object(cursor3_obj);
+        }
+    }
+}
+else
+{
+    if (global.level == 0)
+    {
+        instance_deactivate_object(shopIcon8_obj);
+    }
+    else
+    {
+        instance_deactivate_object(shopIcon9_obj);
+    }
+    with (cursor3_obj)
+    {
+        instance_destroy();
+    }
+}
+
+if (instance_exists(cursor3_obj))
+{
+    with (cursor3_obj)
     {
         image_angle = 270;
     }
     if (cursorPos == 0)
     {
-        cursor_obj.x = shopIcon7_1_obj.x;
-        cursor_obj.y = shopIcon7_1_obj.y + 32;
-    }
-}
-
-if (drawShop == true)
-{
-    instance_activate_object(shopIcon7_1_obj);
-    if (!instance_exists(cursor_obj))
-    {
-        instance_create(shopIcon7_1_obj.x, shopIcon7_1_obj.y + 32, cursor_obj);
-    }
-    else
-    {
-        instance_activate_object(cursor_obj);
-    }
-}
-else
-{
-    instance_deactivate_object(shopIcon7_1_obj);
-    with (cursor_obj)
-    {
-        instance_destroy();
+        if (global.level == 0)
+        {
+            cursor3_obj.x = shopIcon8_obj.x;
+            cursor3_obj.y = shopIcon8_obj.y + 32;
+        }
+        else
+        {
+            cursor3_obj.x = shopIcon9_obj.x;
+            cursor3_obj.y = shopIcon9_obj.y + 32;
+        }
     }
 }
 /*
@@ -160,17 +189,32 @@ if (key_right)
 }
 */
 
-if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; bought1 == false)
+if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; global.level == 0)
 {
-    if (global.money &gt; 39)
+    if (global.money &gt; 69)
     {
-        global.money = global.money - 40;
-        global.map += 1;
-        with (shopIcon7_1_obj)
+        global.money = global.money - 70;
+        global.dmgMult = 1.3;
+        global.level = 1;
+        with (shopIcon8_obj)
+        {
+            instance_destroy();
+        }
+        drawShop = false;
+    }
+}
+
+if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; global.level == 1)
+{
+    if (global.money &gt; 129)
+    {
+        global.money = global.money - 130;
+        global.dmgMult = 1.7;
+        global.level = 2;
+        with (shopIcon9_obj)
         {
             image_index = 1;
         }
-        bought1 = true;
     }
 }
 

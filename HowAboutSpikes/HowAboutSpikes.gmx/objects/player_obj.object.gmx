@@ -169,6 +169,7 @@ savePosY = 0;
 global.hit = false;
 global.state = 0;
 global.damage = 20;
+global.damage = global.damage * global.dmgMult;
 global.holding = noone;
 global.numberJumpsSave = global.numberJumps;
 global.numberJumps = 0;
@@ -380,6 +381,8 @@ amount = 1;
     ini_write_real("Save1", "gvDoor", global.gvDoor);
     ini_write_real("Save1", "daughterHelped", global.daughterHelped);
     ini_write_real("Save1", "map", global.map);
+    ini_write_real("Save1", "levelNPC", global.level);
+    ini_write_real("Save1", "dmgMult", global.dmgMult);
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);

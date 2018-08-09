@@ -1,5 +1,5 @@
 global.mode = 0;
-global.money = 0;
+global.money = 200;
 global.healthVar = 2
 
 global.playerSpawnLocation = 0;
@@ -97,6 +97,9 @@ global.skullcoinBay2TD[2] = 0;
 global.skullcoinBay3TD[2] = 0;
 global.skullcoinBay4TD[2] = 0;
 
+//Player
+global.dmgMult = 1;
+
 //Rings
 global.ringInventory[0] = -1;
 global.ringInventory[1] = -1;
@@ -108,6 +111,9 @@ global.ringFriendship = false;
 
 //Map
 global.map = 0;
+
+//Special
+global.level = 0;
 
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
