@@ -71,16 +71,16 @@ if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastP
 }
 if (room == tutorial)
 {
-    if (!audio_is_playing(tutorial_msc))
+    if (!audio_is_playing(snow_msc))
     {
         audio_stop_sound(unknownForest_msc);
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(boss_msc);
-        audio_stop_sound(snow_msc);
+        audio_stop_sound(tutorial_msc);
         audio_stop_sound(lava_msc);
-        audio_play_sound(tutorial_msc, 1, true);
-        audio_sound_gain(tutorial_msc, 0, 0);
-        audio_sound_gain(tutorial_msc, global.musicVolume / 1.4, 10000);
+        audio_play_sound(snow_msc, 1, true);
+        audio_sound_gain(snow_msc, 0, 0);
+        audio_sound_gain(snow_msc, global.musicVolume / 1.5, 10000);
     }
 }
 if (room == gardenValley)

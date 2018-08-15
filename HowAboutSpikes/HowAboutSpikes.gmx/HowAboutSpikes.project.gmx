@@ -407,6 +407,7 @@
       <object>objects\cursor3_obj</object>
       <objects name="Menu Objects">
         <object>objects\creditsMenu_obj</object>
+        <object>objects\cutsceneGameStart_obj</object>
         <object>objects\titlemenu_obj</object>
         <object>objects\mainMenu_obj</object>
         <object>objects\settingmenu_obj</object>
@@ -792,6 +793,7 @@
     <room>rooms\skullcoinBay6</room>
     <room>rooms\skullcoinBayBoss</room>
     <rooms name="Cutscenes">
+      <room>rooms\cutsceneGameEnd</room>
       <room>rooms\cutsceneGameStart</room>
     </rooms>
   </rooms>

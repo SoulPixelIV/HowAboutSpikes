@@ -2189,6 +2189,8 @@
     <instance objName="ladderIron_obj" x="1824" y="224" name="inst_7954A43B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="explosiveBlock_obj" x="1824" y="192" name="inst_0955951E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leverRed_obj" x="1952" y="64" name="inst_4CFE5C69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="npcMap2_obj" x="507" y="464" name="inst_820B9AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="shopIcon7_2_obj" x="509" y="384" name="inst_E7F9CB04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
