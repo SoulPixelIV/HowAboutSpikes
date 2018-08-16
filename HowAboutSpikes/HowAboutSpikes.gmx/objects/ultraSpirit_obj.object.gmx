@@ -25,8 +25,63 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.12;
+            <string>drawText = false;
+count = false;
+image_speed = 0.12;
 instance_create(x, y, lightRays_obj);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (room == tutorial)
+{
+    global.ultraSoul1 = 1;
+}
+if (room == gardenValley)
+{
+    global.ultraSoul2 = 1;
+}
+if (room == unknownForest1)
+{
+    global.ultraSoul3 = 1;
+}
+if (room == unknownForest2)
+{
+    global.ultraSoul4 = 1;
+}
+if (room == demonsKeep1)
+{
+    global.ultraSoul5 = 1;
+}
+if (room == demonsKeep2)
+{
+    global.ultraSoul6 = 1;
+}
+if (room == overcastPeak2)
+{
+    global.ultraSoul7 = 1;
+}
+
+drawText = false;
+instance_destroy();
 </string>
           </argument>
         </arguments>
@@ -51,7 +106,92 @@ instance_create(x, y, lightRays_obj);
             <kind>1</kind>
             <string>if (place_meeting(x, y, player_obj))
 {
+    image_alpha = 0;
+    if (count = false)
+    {
+        global.pickedUltraSouls += 1;
+        drawText = true;
+        alarm[0] = 100;
+        count = true;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Load Save
+if (room == tutorial &amp;&amp; global.ultraSoul1 == 1)
+{
     instance_destroy();
+}
+if (room == gardenValley &amp;&amp; global.ultraSoul2 == 1)
+{
+    instance_destroy();
+}
+if (room == unknownForest1 &amp;&amp; global.ultraSoul3 == 1)
+{
+    instance_destroy();
+}
+if (room == unknownForest2 &amp;&amp; global.ultraSoul4 == 1)
+{
+    instance_destroy();
+}
+if (room == demonsKeep1 &amp;&amp; global.ultraSoul5 == 1)
+{
+    instance_destroy();
+}
+if (room == demonsKeep2 &amp;&amp; global.ultraSoul6 == 1)
+{
+    instance_destroy();
+}
+if (room == overcastPeak2 &amp;&amp; global.ultraSoul7 == 1)
+{
+    instance_destroy();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+
+if (drawText)
+{
+    draw_set_font(checkpoint_fnt);
+    draw_text(x - 16, y - 32, string(global.pickedUltraSouls) + " / " + string(global.maxUltraSouls));
 }
 </string>
           </argument>

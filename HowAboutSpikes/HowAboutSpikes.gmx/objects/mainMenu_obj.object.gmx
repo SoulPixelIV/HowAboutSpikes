@@ -98,6 +98,7 @@ if (buttonSelected == 0)
             global.deathCount = ini_read_real("Save1", "death count", 0);
             global.healthVar = ini_read_real("Save1", "health", 2);
             global.money = ini_read_real("Save1", "money", 0);
+            global.pickeddUltraSouls = ini_read_real("Save1", "ultraSouls", 0);
             global.pickedTooth = ini_read_real("Save1", "picked tooth", false);
             global.pickedKey = ini_read_real("Save1", "picked key", true);
             global.ringVision = ini_read_real("Save1", "ring Vision", false);
@@ -113,6 +114,15 @@ if (buttonSelected == 0)
             global.map = ini_read_real("Save1", "map", 0);
             global.level = ini_read_real("Save1", "levelNPC", 0);
             global.dmgMult = ini_read_real("Save1", "dmgMult", 1);
+            
+            //Ultra Souls
+            global.ultraSoul1 = ini_read_real("Save1", "ultraSoul1", 0);
+            global.ultraSoul2 = ini_read_real("Save1", "ultraSoul2", 0);
+            global.ultraSoul3 = ini_read_real("Save1", "ultraSoul3", 0);
+            global.ultraSoul4 = ini_read_real("Save1", "ultraSoul4", 0);
+            global.ultraSoul5 = ini_read_real("Save1", "ultraSoul5", 0);
+            global.ultraSoul6 = ini_read_real("Save1", "ultraSoul6", 0);
+            global.ultraSoul7 = ini_read_real("Save1", "ultraSoul7", 0);
             
             //Trapdoor0
             global.gardenValleyTD[0] = ini_read_real("Save1", "gardenValley[0]", 0);

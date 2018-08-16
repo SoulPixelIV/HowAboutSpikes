@@ -182,6 +182,7 @@
       <sprite>sprites\shaderRedLight2Icon_spr</sprite>
       <sprite>sprites\shaderYellowLight2Icon_spr</sprite>
       <sprite>sprites\rings_spr</sprite>
+      <sprite>sprites\controller_spr</sprite>
     </sprites>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
@@ -408,6 +409,7 @@
       <objects name="Menu Objects">
         <object>objects\creditsMenu_obj</object>
         <object>objects\cutsceneGameStart_obj</object>
+        <object>objects\controllerNotice_obj</object>
         <object>objects\titlemenu_obj</object>
         <object>objects\mainMenu_obj</object>
         <object>objects\settingmenu_obj</object>
@@ -731,6 +733,7 @@
         <object>objects\shopIcon7_6_obj</object>
         <object>objects\shopIcon7_7_obj</object>
       </objects>
+      <object>objects\controller_obj</object>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
@@ -751,6 +754,7 @@
   <rooms name="rooms">
     <rooms name="Menu Rooms">
       <room>rooms\creditsMenu</room>
+      <room>rooms\controllerNotice</room>
       <room>rooms\titleMenu</room>
       <room>rooms\mainMenu</room>
       <room>rooms\settingsMenu</room>

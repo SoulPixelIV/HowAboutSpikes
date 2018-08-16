@@ -366,6 +366,7 @@ amount = 1;
     ini_write_real("Save1", "redOrb", global.pickedRed);
     ini_write_real("Save1", "blueOrb", global.pickedBlue);
     ini_write_real("Save1", "money", global.money);
+    ini_write_real("Save1", "ultraSouls", global.pickedUltraSouls);
     ini_write_real("Save1", "health", global.healthVar);
     ini_write_real("Save1", "gamemode", global.mode);
     ini_write_real("Save1", "death count", global.deathCount);
@@ -384,6 +385,16 @@ amount = 1;
     ini_write_real("Save1", "map", global.map);
     ini_write_real("Save1", "levelNPC", global.level);
     ini_write_real("Save1", "dmgMult", global.dmgMult);
+    
+    //UltraSouls
+    ini_write_real("Save1", "ultraSoul1", global.ultraSoul1);
+    ini_write_real("Save1", "ultraSoul2", global.ultraSoul2);
+    ini_write_real("Save1", "ultraSoul3", global.ultraSoul3);
+    ini_write_real("Save1", "ultraSoul4", global.ultraSoul4);
+    ini_write_real("Save1", "ultraSoul5", global.ultraSoul5);
+    ini_write_real("Save1", "ultraSoul6", global.ultraSoul6);
+    ini_write_real("Save1", "ultraSoul7", global.ultraSoul7);
+    
     //Trapdoor0
     ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
     ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);

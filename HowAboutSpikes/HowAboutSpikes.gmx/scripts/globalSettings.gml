@@ -18,6 +18,9 @@ global.pickedTooth = false;
 global.pickedKey = false;
 global.daughterHelped = false;
 
+global.maxUltraSouls = 7;
+global.pickedUltraSouls = 0;
+
 global.opDoor = false;
 global.gvDoor = false;
 global.scbDoor = false;
@@ -28,6 +31,14 @@ global.soundVolume = 1;
 global.brightness = 1;
 global.brightnessCount = 0;
 global.musicCount = 2;
+
+global.ultraSoul1 = 0;
+global.ultraSoul2 = 0;
+global.ultraSoul3 = 0;
+global.ultraSoul4 = 0;
+global.ultraSoul5 = 0;
+global.ultraSoul6 = 0;
+global.ultraSoul7 = 0;
 
 global.gardenValleyTD[0] = 0;
 global.unknownForest1TD[0] = 0;

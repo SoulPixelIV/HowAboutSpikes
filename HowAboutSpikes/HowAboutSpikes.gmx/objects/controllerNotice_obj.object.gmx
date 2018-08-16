@@ -79,40 +79,7 @@ timer += 1;
             <string>///Skip Cutscene
 if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start))
 {
-    room_goto(controllerNotice);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Music
-if (!audio_is_playing(mainMenu_msc))
-{
-    audio_stop_sound(undergroundCity_msc);
-    audio_stop_sound(unknownForest_msc);
-    audio_stop_sound(boss_msc);
-    audio_stop_sound(tutorial_msc);
-    audio_stop_sound(snow_msc);
-    audio_stop_sound(lava_msc);
-    audio_play_sound(mainMenu_msc, 1, true);
-    audio_sound_gain(mainMenu_msc, 0, 0);
-    audio_sound_gain(mainMenu_msc, 0.5, 10000);
+    room_goto(titleMenu);
 }
 </string>
           </argument>
@@ -137,14 +104,13 @@ if (!audio_is_playing(mainMenu_msc))
           <argument>
             <kind>1</kind>
             <string>draw_set_alpha(transparent);
-draw_set_font(creditsBig_fnt);
+draw_set_font(credits_fnt);
 
 transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100 &amp;&amp; timer &lt; 390)
 {
-    draw_text(410, 300, "A SoulPixel Production");
-    draw_text(210, 500, "A videogame by William Djalal#                @SoulPixelIX");
+    draw_text(560, 690, "Controller is recommended!");
     if (timer &gt; 330)
     {
         transparent -= 0.03;
@@ -157,7 +123,7 @@ if (timer &gt; 100 &amp;&amp; timer &lt; 390)
 
 if (timer &gt; 460)
 {
-    room_goto(controllerNotice);
+    room_goto(titleMenu);
 }
 </string>
           </argument>
