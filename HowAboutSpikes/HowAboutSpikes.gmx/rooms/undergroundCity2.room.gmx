@@ -181,7 +181,7 @@
     <instance objName="glassBlock_obj" x="672" y="416" name="inst_E30D749D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="640" y="416" name="inst_54163804" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="608" y="416" name="inst_43CED45E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spawn_obj" x="1160" y="48" name="inst_C9507A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spawn_obj" x="1160" y="70" name="inst_C9507A13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderUC1_UC2_obj" x="1175" y="-48" name="inst_49579A26" locked="0" code="" scaleX="3.66315793991089" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1056" y="384" name="inst_E90264BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1024" y="384" name="inst_7687CC1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
