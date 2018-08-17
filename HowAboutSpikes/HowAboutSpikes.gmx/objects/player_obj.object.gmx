@@ -165,6 +165,7 @@ dash = true;
 dashTimer = 7;
 savePosX = 0;
 savePosY = 0;
+spawnPart = false;
 
 global.hit = false;
 global.state = 0;
@@ -953,7 +954,6 @@ case 4:
 //###Collision Checking###
 grounded = false;
 
-
 if (landSound == true)
 {
     if (!audio_is_playing(land_snd))
@@ -996,6 +996,22 @@ if (!place_free(x, y + verSpeed))
     {
         global.numberJumps = global.numberJumpsSave;
     }
+    
+    if (spawnPart == false)
+    {
+        repeat (5)
+        {
+            with (instance_create(x, bbox_bottom, dust_obj))
+            {
+                vspeed = 0;
+            }
+        }
+        spawnPart = true;
+    }
+}
+else
+{
+    spawnPart = false;
 }
 
 //###Death###

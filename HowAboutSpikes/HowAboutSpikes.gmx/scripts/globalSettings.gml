@@ -1,5 +1,5 @@
 global.mode = 0;
-global.money = 200;
+global.money = 0;
 global.healthVar = 2
 
 global.playerSpawnLocation = 0;
