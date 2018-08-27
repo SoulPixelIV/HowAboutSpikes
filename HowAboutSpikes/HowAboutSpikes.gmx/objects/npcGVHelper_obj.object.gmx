@@ -29,8 +29,8 @@
 
 i = -1;
 
-messages[0] = "You should not go down there.";
-messages[1] = "A forgotten city should stay forgotten...";
+messages[0] = "Hey, I never saw you around here. I just came back up from this hole. Down there lies Underground City. I would not recommend to go down there.";
+messages[1] = "I hear that the Unknown Forest is a peaceful place. Well as a peaceful as this invasion of dangerous creatures allows it to be. You can find the place, if you walk east through the village.";
 //messages[2] = "";
 </string>
           </argument>

@@ -29,7 +29,7 @@
 
 i = -1;
 
-messages[0] = "Hello there!";
+messages[0] = "Hello there! It is quite strange to find visitors here. It's quite dangerous behind that door.";
 messages[1] = "Do you want to visit Overcast Peak? If so, you need two orbs... A red and a blue one.";
 messages[2] = "Both are hidden far below the ground... I think the place is called Demons Keep.";
 messages[3] = "Not many return from this journey. But I will not stop you.";

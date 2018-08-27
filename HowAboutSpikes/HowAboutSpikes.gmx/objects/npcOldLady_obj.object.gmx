@@ -35,11 +35,11 @@ i = -1;
 
 if (bought1 == false)
 {
-    messages[0] = "Well, hello there!"
-    messages[1] = "This forest is really dangerous. Always pay attention to your surroundings!"
-    messages[2] = "...also"
-    messages[3] = "I know it sounds weird, but I need your help. My grandson is really ill and he needs medicine."
-    messages[4] = "Only a tooth from a bat can heal him. Bring me that and I'll give you a reward!"
+    messages[0] = "Long time no see Marcus! How have you been?"
+    messages[1] = "This once quiet forest changed so much after the invasion. All of those slimes here, I can not even leave my house."
+    messages[2] = "My grandson used to go out and hunt some animals for us. But after a slime bit him, he got really sick."
+    messages[3] = "Can I ask you for a favour? Without him we will starve to death..."
+    messages[4] = "I beg you, please bring me a tooth from a bat. Only that can cure his illness. I do not have much but I will definitly reward you!"
 }
 
 
