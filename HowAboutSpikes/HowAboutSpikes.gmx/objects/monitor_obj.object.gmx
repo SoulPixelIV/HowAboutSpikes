@@ -33,8 +33,8 @@ bought3 = false;
 
 i = -1;
 
-messages[0] = "Hey you!";
-messages[1] = "Do you need something?";
+messages[0] = "Hey you! Do you need something?";
+messages[1] = "";
 </string>
           </argument>
         </arguments>
@@ -221,6 +221,40 @@ if (cursorPos == 2 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; d
 }
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Item Dialog
+
+if (cursorPos == 0)
+{
+    messages[1] = "This is the support matrix. With this solid heart blocks appear all over the world for you to use. It will not only help you with really difficult jumps but also lead you to some secret areas. But I do not know much more about it.";
+}
+if (cursorPos == 1)
+{
+    messages[1] = "I have found this bird some days ago. I do not want to keep it. I have other things to do. So I can sell the bird to you, if you are interested. It will be your companion through out your journey!";
+}
+if (cursorPos == 2)
+{
+    messages[1] = "This is a magical heart frame. It will increase your health and help you on your journey!";
+}
 </string>
           </argument>
         </arguments>
