@@ -107,7 +107,7 @@ image_index = 0;
           <argument>
             <kind>1</kind>
             <string>instance_create(x, y, hitboxEnemyBig_obj);
-sprite_index = explosion_anim;
+instance_create(x, y, explosionNew_obj);
 alarm[3] = 15;
 </string>
           </argument>
