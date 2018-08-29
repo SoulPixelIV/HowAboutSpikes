@@ -288,6 +288,7 @@
       <sprite>sprites\woodBoxParticle_spr</sprite>
       <sprite>sprites\explosion_spr</sprite>
       <sprite>sprites\dust_spr</sprite>
+      <sprite>sprites\explosionNew_spr</sprite>
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\train_spr</sprite>
@@ -751,6 +752,7 @@
       <object>objects\particleCircleRedSpawner_obj</object>
       <object>objects\woodBoxParticle_obj</object>
       <object>objects\dust_obj</object>
+      <object>objects\explosionNew_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

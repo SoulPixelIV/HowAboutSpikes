@@ -34,6 +34,9 @@ global.batPhase = 0;
 dir = 0;
 startPosX = x;
 startPosY = y;
+deathTimer = 300;
+explosionTimer = 3;
+spawnedTooth = false;
 </string>
           </argument>
         </arguments>
@@ -128,7 +131,7 @@ if (dir == 0)
     {
         x += 0.5;
     }
-    else
+    if (global.batPhase == 1)
     {
         x += 2.2;
     }
@@ -139,7 +142,7 @@ else
     {
         x -= 0.5;
     }
-    else
+    if (global.batPhase == 1)
     {
         x -= 2.2;
     }
@@ -198,8 +201,31 @@ else
             <kind>1</kind>
             <string>if (bossHealth &lt;= 0)
 {
+    global.batPhase = 2;
     audio_stop_sound(boss_msc);
-    instance_create(x, y + 128, tooth_obj);
+    if (spawnedTooth == false)
+    {
+        instance_create(x, y + 128, tooth_obj);
+        spawnedTooth = true;
+    }
+    x += 0;
+    y += 1.5;
+    deathTimer -= 1; 
+    explosionTimer -= 1;
+    with (enemyBatSpawner_obj)
+    {
+        instance_destroy();
+    }
+}
+
+if (explosionTimer &lt; 0)
+{
+    instance_create(random_range(x - 128, x + 128), random_range(y - 128, y + 128), explosionNew_obj);
+    explosionTimer = 3;
+}
+    
+if (deathTimer &lt; 0)
+{
     with (batBossSprite_obj)
     {
         instance_destroy();
@@ -209,10 +235,6 @@ else
         instance_destroy();
     }
     instance_destroy();
-    with (enemyBatSpawner_obj)
-    {
-        instance_destroy();
-    }
 }
 </string>
           </argument>
