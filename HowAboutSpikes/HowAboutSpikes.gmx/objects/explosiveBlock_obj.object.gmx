@@ -74,10 +74,7 @@ if (place_meeting(x, y - 12, player_obj))
 
 if (explodeTime &lt;= 0)
 {
-    if (!place_meeting(x, y, destroyCooldown_obj))
-    {
-        instance_create(x, y, destroyCooldown_obj);
-    }
+    instance_create(x, y, explosionNew_obj);
     instance_create(x, y, hitboxEnemyBig_obj);
     instance_deactivate_object(self);
 }

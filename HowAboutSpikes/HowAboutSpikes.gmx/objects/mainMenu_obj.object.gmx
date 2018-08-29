@@ -273,7 +273,7 @@ draw_text(64, 660, "Settings")
 draw_text(64, 760, "Quit")
 
 draw_set_font(version_fnt);
-draw_text(1520, 1040, "How About Spikes Beta | Patch 9");
+draw_text(1520, 1040, "How About Spikes Beta | Patch 10");
 
 draw_set_font(creditsBig_fnt);
 draw_text(72, 64, "How About Spikes");
