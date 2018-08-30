@@ -111,7 +111,7 @@ instance_destroy();
     {
         global.pickedUltraSouls += 1;
         drawText = true;
-        alarm[0] = 100;
+        alarm[0] = 200;
         count = true;
     }
 }
