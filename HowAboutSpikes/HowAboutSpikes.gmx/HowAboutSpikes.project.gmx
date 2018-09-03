@@ -615,7 +615,7 @@
         <object>objects\cubeBoss_obj</object>
       </objects>
       <objects name="FinalBoss">
-        <object>objects\finalBoss_obj</object>
+        <object>objects\finalBoss1_obj</object>
       </objects>
     </objects>
     <objects name="Npcs">
