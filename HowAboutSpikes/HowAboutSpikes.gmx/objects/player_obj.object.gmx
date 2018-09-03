@@ -55,7 +55,7 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
     }
 }
-if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss || room == skullcoinBayBoss)
+if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss || room == skullcoinBayBoss || room == skullcoinBay6)
 {
     if (!audio_is_playing(boss_msc))
     {
@@ -109,6 +109,21 @@ if (room == demonsKeep1 || room == demonsKeep2 || room == demonsKeep3)
         audio_play_sound(lava_msc, 1, true);
         audio_sound_gain(lava_msc, 0, 0);
         audio_sound_gain(lava_msc, global.musicVolume / 1.9, 10000);
+    }
+}
+if (room == sentinelGraves1 || room == sentinelGraves2 || room == sentinelGraves3 || room == deepPrison)
+{
+    if (!audio_is_playing(dark_msc))
+    {
+        audio_stop_sound(unknownForest_msc);
+        audio_stop_sound(undergroundCity_msc);
+        audio_stop_sound(lava_msc);
+        audio_stop_sound(boss_msc);
+        audio_stop_sound(snow_msc);
+        audio_stop_sound(tutorial_msc);
+        audio_play_sound(dark_msc, 1, true);
+        audio_sound_gain(dark_msc, 0, 0);
+        audio_sound_gain(dark_msc, global.musicVolume / 1.9, 10000);
     }
 }
 </string>

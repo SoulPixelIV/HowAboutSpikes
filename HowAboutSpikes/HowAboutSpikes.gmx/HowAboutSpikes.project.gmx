@@ -29,6 +29,7 @@
       <sound>sound\tutorial_msc</sound>
       <sound>sound\snow_msc</sound>
       <sound>sound\lava_msc</sound>
+      <sound>sound\dark_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
