@@ -110,6 +110,7 @@ if (!audio_is_playing(mainMenu_msc))
     audio_stop_sound(tutorial_msc);
     audio_stop_sound(snow_msc);
     audio_stop_sound(lava_msc);
+    audio_stop_sound(dark_msc);
     audio_play_sound(mainMenu_msc, 1, true);
     audio_sound_gain(mainMenu_msc, 0, 0);
     audio_sound_gain(mainMenu_msc, 0.5, 10000);

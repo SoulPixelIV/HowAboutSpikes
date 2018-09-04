@@ -1150,6 +1150,7 @@
     <instance objName="colliderSB2_SB3_obj" x="-81" y="691" name="inst_7751779F" locked="0" code="" scaleX="1.16666662693024" scaleY="3.83333325386047" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1472" y="288" name="inst_212CB975" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="416" y="480" name="inst_668C0241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="easyModeBlock_obj" x="1568" y="288" name="inst_2961457C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
