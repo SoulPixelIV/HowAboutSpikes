@@ -245,7 +245,7 @@ if (cursorPos == 2 &amp;&amp; key_enter &amp;&amp; bought2 == false &amp;&amp; d
 
 if (cursorPos == 0)
 {
-    messages[1] = "This is the support matrix. With this solid heart blocks appear all over the world for you to use. It will not only help you with really difficult jumps but also lead you to some secret areas. But I do not know much more about it.";
+    messages[1] = "This is the support matrix. With this solid heart blocks appear all over the world for you to use. It will help you with really difficult jumps but also block out fast shortcuts. So only buy it, if you are really stuck.";
 }
 if (cursorPos == 1)
 {
