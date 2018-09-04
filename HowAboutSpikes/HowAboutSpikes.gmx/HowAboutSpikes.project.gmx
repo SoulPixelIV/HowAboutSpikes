@@ -246,6 +246,7 @@
       <sprite>sprites\eye_spr</sprite>
       <sprite>sprites\cubeBoss_spr</sprite>
       <sprite>sprites\pirate_spr</sprite>
+      <sprite>sprites\finalBoss_spr</sprite>
     </sprites>
     <sprites name="Tutorial">
       <sprite>sprites\tutorialSign1_spr</sprite>
