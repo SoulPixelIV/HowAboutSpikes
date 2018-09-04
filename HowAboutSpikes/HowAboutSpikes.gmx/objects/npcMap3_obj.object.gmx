@@ -160,9 +160,9 @@ if (key_right)
 
 if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true &amp;&amp; bought1 == false)
 {
-    if (global.money &gt; 39)
+    if (global.money &gt; 19)
     {
-        global.money = global.money - 40;
+        global.money = global.money - 20;
         global.map += 1;
         with (shopIcon7_3_obj)
         {
