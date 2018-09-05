@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 300;
+alarm[1] = 6;
 enemyHealth = 100;
 </string>
           </argument>
