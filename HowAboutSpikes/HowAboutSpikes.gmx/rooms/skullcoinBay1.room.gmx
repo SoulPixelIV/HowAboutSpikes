@@ -259,7 +259,6 @@
     <instance objName="lamp_obj" x="561" y="536" name="inst_E6956210" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="846" y="601" name="inst_F0584689" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1152" y="480" name="inst_395D4BFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="704" y="480" name="inst_E272E8C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="1184" y="480" name="inst_24B6E9B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="1152" y="480" name="inst_3776BBBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="blueFlower_obj" x="1216" y="480" name="inst_E0F3C68F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -1406,10 +1406,10 @@ if (keyboard_check_pressed(ord('4')) &amp;&amp; room != skullcoinBay6)
     global.playerSpawnLocation = 0;
     room_goto(skullcoinBay6);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != undergroundCity3)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGraves2)
 {
     global.playerSpawnLocation = 0;
-    room_goto(undergroundCity3);
+    room_goto(sentinelGraves2);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

@@ -186,7 +186,6 @@
     <instance objName="chaingunTurret_obj" x="1188" y="542" name="inst_E6F171BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chaingunTurret_obj" x="960" y="1017" name="inst_6655D9C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="trapdoor_obj" x="704" y="1344" name="inst_710B01CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="1696" y="1408" name="inst_E10C058E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2144" y="1312" name="inst_9EA17845" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="1920" y="1248" name="inst_FD2DBEC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="1952" y="1248" name="inst_CA02E258" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
@@ -2557,6 +2556,8 @@
     <instance objName="ladderIron_obj" x="2464" y="640" name="inst_3F015AB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2464" y="672" name="inst_591768B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1152" y="768" name="inst_4E586E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="2176" y="1440" name="inst_8E6C2B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="288" y="1408" name="inst_41109D75" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -384,7 +384,6 @@
     <instance objName="woodplaneBlock_obj" x="1184" y="224" name="inst_70BA5313" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="1152" y="224" name="inst_8E8325E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="1184" y="128" name="inst_BDC34399" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="1280" y="96" name="inst_BDF07BB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="1344" y="96" name="inst_AE481C57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="woodplaneBlock_obj" x="1344" y="64" name="inst_ECBDB05A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="woodplaneBlock_obj" x="1344" y="32" name="inst_CB3B8596" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
@@ -692,7 +691,6 @@
     <instance objName="woodplaneBlock_obj" x="672" y="384" name="inst_919550BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="640" y="384" name="inst_FB149C97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="736" y="352" name="inst_08B05CF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="pirate_obj" x="704" y="352" name="inst_1D93E8CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="768" y="192" name="inst_7D751EBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="620" y="416" name="inst_5FDBB703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplaneBlock_obj" x="640" y="160" name="inst_FB129481" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1151,6 +1149,10 @@
     <instance objName="enemySkeletonRed_obj" x="1472" y="288" name="inst_212CB975" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodplanePole_obj" x="416" y="480" name="inst_668C0241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="easyModeBlock_obj" x="1568" y="288" name="inst_2961457C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="1088" y="320" name="inst_E53A2824" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="672" y="352" name="inst_B59035FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="treasurechest_obj" x="1280" y="96" name="inst_CA1DB53A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpiritBig_obj" x="1280" y="96" name="inst_9A4A3AF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

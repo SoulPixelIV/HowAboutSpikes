@@ -3953,12 +3953,12 @@
     <instance objName="checkpoint_obj" x="4928" y="640" name="inst_2FC28F85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn3_obj" x="4910" y="594" name="inst_416C5E6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderOPB_OP2_obj" x="5043" y="542" name="inst_9D8C89C5" locked="0" code="" scaleX="1.16666662693024" scaleY="2.83333325386047" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="3424" y="640" name="inst_12972482" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="3392" y="640" name="inst_95A3C193" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlock_obj" x="3360" y="640" name="inst_F074DEC5" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="3424" y="608" name="inst_12972482" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="3392" y="608" name="inst_95A3C193" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlock_obj" x="3360" y="608" name="inst_F074DEC5" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="3520" y="704" name="inst_64C6ECFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="3360" y="615" name="inst_6F10FF6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="3424" y="615" name="inst_C2C98C2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="3361" y="583" name="inst_6F10FF6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="3423" y="583" name="inst_C2C98C2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="3136" y="544" name="inst_AC3477D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="3328" y="224" name="inst_45B42924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="3296" y="224" name="inst_EC3A45D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -4091,6 +4091,7 @@
     <instance objName="easyModeBlock_obj" x="928" y="1376" name="inst_89D7B501" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="960" y="1376" name="inst_0FB964FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="896" y="1376" name="inst_EC0F1349" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemyNormal2_obj" x="2624" y="416" name="inst_1EF83621" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
