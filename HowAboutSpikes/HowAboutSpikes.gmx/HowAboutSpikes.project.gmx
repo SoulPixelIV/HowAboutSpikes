@@ -618,6 +618,7 @@
       </objects>
       <objects name="FinalBoss">
         <object>objects\finalBoss1_obj</object>
+        <object>objects\finalBoss2_obj</object>
       </objects>
     </objects>
     <objects name="Npcs">

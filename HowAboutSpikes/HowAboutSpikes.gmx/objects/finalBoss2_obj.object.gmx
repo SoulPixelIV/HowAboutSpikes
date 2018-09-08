@@ -31,7 +31,14 @@ startPosY = y;
 
 bossHealth = 100;
 
-alarm[0] = 190;
+global.finalBossPhase = 0;
+
+deathTimer = 300;
+explosionTimer = 3;
+
+moveTimer = 100;
+
+alarm[0] = 140;
 </string>
           </argument>
         </arguments>
@@ -55,7 +62,15 @@ alarm[0] = 190;
           <argument>
             <kind>1</kind>
             <string>instance_create(x, y, orbRed_obj);
-alarm[0] = 190;
+
+if (global.finalBossPhase == 1)
+{
+    alarm[0] = 90;
+}
+else
+{
+    alarm[0] = 140;
+}
 </string>
           </argument>
         </arguments>
@@ -81,7 +96,57 @@ alarm[0] = 190;
             <string>x += hspeed;
 y += vspeed;
 
-hspeed = -0.4;
+if (bossHealth &lt;= 30)
+{
+    global.finalBossPhase = 1;
+}
+
+if (place_meeting(x, y, scythe_obj))
+{
+    with (finalBoss2_obj)
+    {
+        bossHealth = bossHealth - global.damage / 3.9;
+    }
+    with (scythe_obj)
+    {
+        instance_destroy();
+    }
+}
+
+if (bossHealth &lt;= 0)
+{
+    audio_stop_sound(boss_msc);
+    x += 0;
+    y += 1.5;
+    deathTimer -= 1; 
+    explosionTimer -= 1;
+}
+
+if (explosionTimer &lt; 0)
+{
+    instance_create(random_range(x - 128, x + 128), random_range(y - 128, y + 128), explosionNew_obj);
+    explosionTimer = 3;
+}
+
+if (deathTimer &lt; 0)
+{
+    with (finalBoss2_obj)
+    {
+        instance_destroy();
+    }
+    with (chaingunTurret_obj)
+    {
+        instance_destroy();
+    }
+    with (demonSpawner_obj)
+    {
+        instance_destroy();
+    }
+    with (demon_obj)
+    {
+        instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -106,8 +171,9 @@ hspeed = -0.4;
 {
     if (place_meeting(x, y, checkpoint_obj))
     {  
-        with (finalBoss1_obj)
+        with (finalBoss2_obj)
         {
+            bossHealth = 100;
             x = startPosX;
             y = startPosY;
         }
@@ -140,6 +206,11 @@ hspeed = -0.4;
 global.guiPosX = view_xview[0];
 global.guiPosY = view_yview[0];
 draw_healthbar(global.guiPosX + 32, global.guiPosY + 348, global.guiPosX + 608, global.guiPosY + 334, bossHealth, c_black, c_green, c_green, 0, true, true);
+
+if (global.finalBossPhase == 1)
+{
+    image_blend = c_red;
+}
 </string>
           </argument>
         </arguments>
