@@ -152,6 +152,7 @@
       </sprites>
       <sprite>sprites\warpzone_spr</sprite>
       <sprite>sprites\tooth_spr</sprite>
+      <sprite>sprites\glassbottle_spr</sprite>
     </sprites>
     <sprites name="Icons">
       <sprite>sprites\darkSpiritIcon_spr</sprite>
@@ -326,6 +327,7 @@
       <sprite>sprites\npcOldLady_spr</sprite>
       <sprite>sprites\npcRingDealer_spr</sprite>
       <sprite>sprites\npcMap_spr</sprite>
+      <sprite>sprites\npcPirate_spr</sprite>
       <sprite>sprites\npcShopkeeper_spr</sprite>
       <sprite>sprites\npcMother_spr</sprite>
       <sprite>sprites\npcScythe_spr</sprite>
@@ -627,6 +629,7 @@
       <object>objects\npcSoldier_obj</object>
       <object>objects\npcOldLady_obj</object>
       <object>objects\npcMother_obj</object>
+      <object>objects\npcPirate_obj</object>
       <object>objects\npcGVHelper_obj</object>
       <object>objects\npcDaughter_obj</object>
       <object>objects\npcOPHelper_obj</object>
@@ -690,6 +693,7 @@
     </objects>
     <objects name="Collectibles">
       <object>objects\key_obj</object>
+      <object>objects\glassbottle_obj</object>
       <object>objects\tooth_obj</object>
       <object>objects\redOrb_obj</object>
       <object>objects\blueOrb_obj</object>

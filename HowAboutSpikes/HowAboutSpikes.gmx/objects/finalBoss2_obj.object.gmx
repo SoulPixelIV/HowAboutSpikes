@@ -120,6 +120,11 @@ if (bossHealth &lt;= 0)
     y += 1.5;
     deathTimer -= 1; 
     explosionTimer -= 1;
+    if (spawnedBottle == false)
+    {
+        instance_create(x, y, glassbottle_obj);
+        spawnedBottle = true;
+    }
 }
 
 if (explosionTimer &lt; 0)
