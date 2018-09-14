@@ -201,6 +201,10 @@ else
             <kind>1</kind>
             <string>if (bossHealth &lt;= 0)
 {
+    if (!steam_get_achievement("BIG_BAT"))
+    {
+        steam_set_achievement("BIG_BAT");
+    }
     global.batPhase = 2;
     audio_stop_sound(boss_msc);
     if (spawnedTooth == false)

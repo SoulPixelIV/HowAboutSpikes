@@ -32,6 +32,10 @@
 
 if (room == overcastPeak1 &amp;&amp; global.opDoor)
 {
+    if (!steam_get_achievement("OVERCAST_PEAK"))
+    {
+        steam_set_achievement("OVERCAST_PEAK");
+    }
     instance_destroy();
 }
 

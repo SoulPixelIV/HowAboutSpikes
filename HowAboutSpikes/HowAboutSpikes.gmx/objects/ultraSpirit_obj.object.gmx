@@ -106,6 +106,13 @@ instance_destroy();
             <kind>1</kind>
             <string>if (place_meeting(x, y, player_obj))
 {
+    if (global.pickedUltraSouls == 7)
+    {
+        if (!steam_get_achievement("ULTRA_SOULS_COLLECTOR"))
+        {
+            steam_set_achievement("ULTRA_SOULS_COLLECTOR");
+        }
+    }
     image_alpha = 0;
     if (count = false)
     {

@@ -30,6 +30,10 @@ image_speed = 0.25;
 
 if (place_meeting(x, y, player_obj))
 {
+    if (!steam_get_achievement("WARP_ZONE_EXPLORER"))
+    {
+        steam_set_achievement("WARP_ZONE_EXPLORER");
+    }
     if (room == unknownForest1)
     {
         with (playerInst)

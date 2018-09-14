@@ -205,6 +205,10 @@ if (!place_free(x, y + verSpeed))
 //###Death###
 if (enemyHealth &lt;= 0)
 {
+    if (!steam_get_achievement("KILL_FIRST_SLIME"))
+    {
+        steam_set_achievement("KILL_FIRST_SLIME");
+    }
     instance_deactivate_object(self);
     enemyHealth = 100;
 }

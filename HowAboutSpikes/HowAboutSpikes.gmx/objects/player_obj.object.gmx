@@ -199,6 +199,15 @@ global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
 global.restart = false;
+
+//Achievement
+if (global.healthVar == 6)
+{
+    if (!steam_get_achievement("FULL_HEALTH"))
+    {
+        steam_set_achievement("FULL_HEALTH");
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -328,6 +337,15 @@ if (global.ringFriendship)
         }
     }
     */
+}
+
+//Achievement
+if (global.ringVision &amp;&amp; global.ringWealth &amp;&amp; global.ringPower &amp;&amp; global.ringFriendship)
+{
+    if (!steam_get_achievement("TOO_MANY_RINGS"))
+    {
+        steam_set_achievement("TOO_MANY_RINGS");
+    }
 }
 </string>
           </argument>
@@ -529,6 +547,34 @@ if (global.continued == true)
     }
 }
 */
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///HAS Master Achievement
+if (steam_get_achievement("KILL_FIRST_SLIME") &amp;&amp; steam_get_achievement("WARP_ZONE_EXPLORER") &amp;&amp; steam_get_achievement("BIG_BAT") &amp;&amp; steam_get_achievement("OVERCAST_PEAK") &amp;&amp; steam_get_achievement("THE_END") &amp;&amp; steam_get_achievement("ULTRA_SOULS_COLLECTOR") &amp;&amp; steam_get_achievement("TOO_MANY_RINGS") &amp;&amp; steam_get_achievement("FULL_HEALTH") &amp;&amp; steam_get_achievement("ZERO_DEATHS"))
+{
+    if (!steam_get_achievement("HAS_MASTER"))
+    {
+        steam_set_achievement("HAS_MASTER");
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -1566,9 +1612,9 @@ draw_text(global.guiPosX + 55, global.guiPosY + 72, string(global.money));
 //###GUI###
 /*
 draw_set_colour(c_white);
-draw_text(global.guiPosX + 8, global.guiPosY + 272, "Gamemode = " + string(global.mode));
-draw_text(global.guiPosX + 8, global.guiPosY + 288, "VSpeed = " + string(verSpeed));
-draw_text(global.guiPosX + 8, global.guiPosY + 304, "FPS = " + string(fps_real));
+draw_text(global.guiPosX + 8, global.guiPosY + 272, "initialised = " + string(steam_initialised()));
+draw_text(global.guiPosX + 8, global.guiPosY + 288, "overlay = " + string(steam_is_overlay_enabled()));
+draw_text(global.guiPosX + 8, global.guiPosY + 304, "stats = " + string(steam_stats_ready()));
 draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
 draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
 */
