@@ -30,6 +30,7 @@
       <sound>sound\snow_msc</sound>
       <sound>sound\lava_msc</sound>
       <sound>sound\dark_msc</sound>
+      <sound>sound\heaven_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
