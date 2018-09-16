@@ -46,6 +46,13 @@ if (global.playerSpawnLocation == 0)
                 instance_create(spawn_obj.x, spawn_obj.y, tooth_obj);
             }
         }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -88,6 +95,13 @@ if (global.playerSpawnLocation == 1)
             if (global.pickedTooth == true)
             {
                 instance_create(spawn1_obj.x, spawn1_obj.y, tooth_obj);
+            }
+        }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
             }
         }
         if (!instance_exists(petBird_obj))
@@ -134,6 +148,13 @@ if (global.playerSpawnLocation == 2)
                 instance_create(spawn2_obj.x, spawn2_obj.y, tooth_obj);
             }
         }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -176,6 +197,13 @@ if (global.playerSpawnLocation == 3)
             if (global.pickedTooth == true)
             {
                 instance_create(spawn3_obj.x, spawn3_obj.y, tooth_obj);
+            }
+        }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
             }
         }
         if (!instance_exists(petBird_obj))
@@ -222,6 +250,13 @@ if (global.playerSpawnLocation == 4)
                 instance_create(spawn4_obj.x, spawn4_obj.y, tooth_obj);
             }
         }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
+            }
+        }
         if (!instance_exists(petBird_obj))
         {
             if (global.pickedPet == true)
@@ -264,6 +299,13 @@ if (global.playerSpawnLocation == 5)
             if (global.pickedTooth == true)
             {
                 instance_create(spawn5_obj.x, spawn5_obj.y, tooth_obj);
+            }
+        }
+        if (!instance_exists(goldchain_obj))
+        {
+            if (global.pickedGoldchain == true)
+            {
+                instance_create(spawn_obj.x, spawn_obj.y, goldchain_obj);
             }
         }
         if (!instance_exists(petBird_obj))

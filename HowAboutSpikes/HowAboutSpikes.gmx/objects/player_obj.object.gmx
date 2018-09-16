@@ -435,6 +435,7 @@ amount = 1;
     ini_write_real("Save1", "death count", global.deathCount);
     ini_write_real("Save1", "picked tooth", global.pickedTooth);
     ini_write_real("Save1", "picked key", global.pickedKey);
+    ini_write_real("Save1", "picked goldchain", global.pickedGoldchain);
     ini_write_real("Save1", "ring Vision", global.ringVision);
     ini_write_real("Save1", "ring Wealth", global.ringWealth);
     ini_write_real("Save1", "ring Power", global.ringPower);
@@ -1476,15 +1477,15 @@ if (keyboard_check_pressed(ord('3')))
 {
     global.ringPower = true;
 }
-if (keyboard_check_pressed(ord('4')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('4')) &amp;&amp; room != skullcoinBay1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(gardenValley);
+    room_goto(skullcoinBay1);
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != skullcoinBayBoss)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGravesTransition)
 {
     global.playerSpawnLocation = 0;
-    room_goto(skullcoinBayBoss);
+    room_goto(sentinelGravesTransition);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

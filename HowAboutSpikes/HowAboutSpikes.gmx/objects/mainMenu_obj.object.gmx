@@ -101,6 +101,7 @@ if (buttonSelected == 0)
             global.pickeddUltraSouls = ini_read_real("Save1", "ultraSouls", 0);
             global.pickedTooth = ini_read_real("Save1", "picked tooth", false);
             global.pickedKey = ini_read_real("Save1", "picked key", true);
+            global.pickedGoldchain = ini_read_real("Save1", "picked goldchain", false);
             global.ringVision = ini_read_real("Save1", "ring Vision", false);
             global.ringWealth = ini_read_real("Save1", "ring Wealth", false);
             global.ringPower = ini_read_real("Save1", "ring Power", false);

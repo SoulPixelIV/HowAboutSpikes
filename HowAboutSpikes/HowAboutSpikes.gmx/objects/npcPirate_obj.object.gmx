@@ -96,7 +96,7 @@ alarm[0] = 150;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1 &amp;&amp; global.daughterHelped)
+            <string>if (distance_to_object(player_obj) &lt;= 48 &amp;&amp; i == array_length_1d(messages) - 1 &amp;&amp; global.pickedGoldchain)
 {
     drawShop = true;
 }
@@ -136,16 +136,16 @@ if (instance_exists(cursor_obj))
     {
         image_angle = 270;
     }
-    cursor_obj.x = shopIcon5_obj.x;
-    cursor_obj.y = shopIcon5_obj.y + 32;
+    cursor_obj.x = shopIcon10_obj.x;
+    cursor_obj.y = shopIcon10_obj.y + 32;
 }
 
 if (drawShop == true)
 {
-    instance_activate_object(shopIcon5_obj);
+    instance_activate_object(shopIcon10_obj);
     if (!instance_exists(cursor_obj))
     {
-        instance_create(shopIcon5_obj.x, shopIcon5_obj.y + 32, cursor_obj);
+        instance_create(shopIcon10_obj.x, shopIcon10_obj.y + 32, cursor_obj);
     }
     else
     {
@@ -154,7 +154,7 @@ if (drawShop == true)
 }
 else
 {
-    instance_deactivate_object(shopIcon5_obj);
+    instance_deactivate_object(shopIcon10_obj);
     instance_deactivate_object(cursor_obj);
 }
 /*
@@ -180,12 +180,17 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 {
     if (bought1 == false)
     {
-        global.ringFriendship = true;
-        with (shopIcon5_obj)
+        global.ringWealth = true;
+        with (shopIcon10_obj)
         {
             image_index = 0;
         }
+        with (goldchain_obj)
+        {
+            instance_destroy();
+        }
         bought1 = true;
+        global.pickedGoldchain = false;
     }
 }
 
@@ -235,11 +240,13 @@ if (cursorPos == 0 &amp;&amp; key_enter &amp;&amp; drawShop == true)
 
 if (bought1 == false)
 {
-    if (global.daughterHelped)
+    if (global.pickedGoldchain)
     {
         messages[0] = "You actually did it...";
         messages[1] = "I guess I have to stick to my promise.";
         messages[2] = "I think you will like it quite a lot.";
+        messages[3] = "You are on the way to this evil guy, aren't you?";
+        messages[4] = "Beat him for me, I do not want him here!";
     }
 }
 </string>

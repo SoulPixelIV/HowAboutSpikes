@@ -15,6 +15,7 @@ global.pickedPet = false;
 global.pickedRed = false;
 global.pickedBlue = false;
 global.pickedTooth = false;
+global.pickedGoldchain = false;
 global.pickedKey = false;
 global.daughterHelped = false;
 
