@@ -116,6 +116,8 @@ global.dmgMult = 1;
 //Rings
 global.ringInventory[0] = -1;
 global.ringInventory[1] = -1;
+global.ringInventory[2] = -1;
+global.ringInventory[3] = -1;
 
 global.ringVision = false;
 global.ringWealth = false;
