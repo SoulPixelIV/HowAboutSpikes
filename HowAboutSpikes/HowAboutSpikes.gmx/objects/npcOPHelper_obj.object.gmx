@@ -89,6 +89,16 @@ alarm[0] = 150;
           <argument>
             <kind>1</kind>
             <string>key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
+
+if (distance_to_object(player_obj) &gt;= 48)
+{
+    i = -1;
+}
+
+if (keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face4))
+{
+    i = -1;
+}
 </string>
           </argument>
         </arguments>
@@ -119,6 +129,8 @@ if (distance_to_object(player_obj) &lt;= 48)
         draw_sprite(textbox_spr, 0, view_xview[0] + 320, view_yview[0] + 290);
         draw_set_color(c_black);
         draw_text_ext(view_xview[0] + 110, view_yview[0] + 246, messages[i], 16, 440);
+        
+        draw_text(view_xview[0] + 200, view_yview[0] + 206, "Press Backspace/Y to exit");
     }
     if (key_enter)
     {
