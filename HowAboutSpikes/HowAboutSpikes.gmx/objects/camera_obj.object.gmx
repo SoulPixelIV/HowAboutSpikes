@@ -273,8 +273,8 @@ if (pauseMenu == true)
     
     if (buttonSelected == 0)
     {
-        cursor2_obj.x = global.guiPosX + 175;
-        cursor2_obj.y = global.guiPosY + 180;
+        cursor2_obj.x = global.guiPosX + 120;
+        cursor2_obj.y = global.guiPosY + 196;
         if (key_enter)
         {
             pauseMenu = false;
@@ -283,8 +283,8 @@ if (pauseMenu == true)
     }
     if (buttonSelected == 1)
     {
-        cursor2_obj.x = global.guiPosX + 320;
-        cursor2_obj.y = global.guiPosY + 214;;
+        cursor2_obj.x = global.guiPosX + 240;
+        cursor2_obj.y = global.guiPosY + 218;;
         if (key_enter)
         {
             pauseMenu = false;
@@ -478,13 +478,13 @@ else
 if (pauseMenu == true)
 {
     draw_set_color(c_white);
-    draw_set_font(mainmenu_fnt);
+    draw_set_font(global.newPixelMenu);
 
-    draw_text(64, 460, "Continue")
+    draw_text(64, 572, "Continue")
 
-    draw_text(64, 560, "Back to title screen")
+    draw_text(64, 636, "Back to title screen")
     
-    draw_set_font(creditsBig_fnt);
+    draw_set_font(global.newPixelMenuBig);
     draw_set_colour(c_white);
     draw_text(72, 64, "PAUSED");
 }
