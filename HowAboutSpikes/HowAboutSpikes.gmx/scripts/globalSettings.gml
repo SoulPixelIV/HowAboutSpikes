@@ -130,6 +130,9 @@ global.map = 0;
 //Special
 global.level = 0;
 
+//Bottle
+global.spawnedBottle = false;
+
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
 audio_sound_gain(attack_snd, global.soundVolume, 0);

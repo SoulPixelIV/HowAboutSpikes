@@ -35,6 +35,30 @@ display_set_gui_size(display_get_width(), display_get_height());
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Font
+
+global.newPixelMenu = font_add("manaspc.ttf", 32, false, false, 32, 128);
+global.newPixelMenuBig = font_add("manaspc.ttf", 60, false, false, 32, 128);
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -139,14 +163,14 @@ if (!audio_is_playing(mainMenu_msc))
           <argument>
             <kind>1</kind>
             <string>draw_set_alpha(transparent);
-draw_set_font(creditsBig_fnt);
+draw_set_font(global.newPixelMenu);
 
 transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100 &amp;&amp; timer &lt; 390)
 {
-    draw_text(410, 300, "A SoulPixel Production");
-    draw_text(210, 500, "A videogame by William Djalal#                @SoulPixelIX");
+    draw_text(610, 400, "A SoulPixel Production");
+    draw_text(610, 500, "A videogame by William Djalal#                 @SoulPixelIV");
     if (timer &gt; 330)
     {
         transparent -= 0.03;

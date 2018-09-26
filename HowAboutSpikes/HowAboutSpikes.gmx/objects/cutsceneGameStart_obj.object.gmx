@@ -110,7 +110,7 @@ transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100 &amp;&amp; timer &lt; 1490)
 {
-    draw_text(70, 300, "You are Marcus. A wizard, who turned 18 on this day.#Normally you would have your magical powers by#now but someone stole your power, stored in a small glass.#You begin your journey by discovering Garden Valley#and finding the one, who stole your power.");
+    draw_text(70, 300, "You are Marcus. A wizard, who turned 18 on this day.#Normally you would have your magical powers by#now but someone stole your power, stored in a small glass.#You begin your journey by discovering Garden Valley#and finding the one who stole your power.");
     if (timer &gt; 1330)
     {
         transparent -= 0.03;

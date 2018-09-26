@@ -131,10 +131,10 @@ if (bossHealth &lt;= 0)
     y += 1.5;
     deathTimer -= 1; 
     explosionTimer -= 1;
-    if (spawnedBottle == false)
+    if (global.spawnedBottle == false)
     {
         instance_create(x, y, glassbottle_obj);
-        spawnedBottle = true;
+        global.spawnedBottle = true;
     }
 }
 
@@ -190,6 +190,7 @@ if (deathTimer &lt; 0)
         with (finalBoss2_obj)
         {
             bossHealth = 100;
+            global.finalBossPhase = 0;
             x = startPosX;
             y = startPosY;
         }

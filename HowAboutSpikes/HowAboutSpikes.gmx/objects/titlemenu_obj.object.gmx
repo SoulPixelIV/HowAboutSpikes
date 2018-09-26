@@ -53,11 +53,11 @@
           <argument>
             <kind>1</kind>
             <string>///Menu GUI
-draw_set_font(mainmenu_fnt);
-draw_text(64, 460, "Press Start")
+draw_set_font(global.newPixelMenu);
+draw_text(64, 560, "Press Start")
 
-draw_set_font(creditsBig_fnt);
-draw_text(72, 64, "How About Spikes");
+draw_set_font(global.newPixelMenuBig);
+draw_text(64, 64, "How About Spikes");
 
 draw_set_font(version_fnt);
 draw_text(1510, 1040, "How About Spikes Beta | Patch 11");

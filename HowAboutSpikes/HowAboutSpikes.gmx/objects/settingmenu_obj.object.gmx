@@ -84,8 +84,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 256;
-    cursor_obj.y = 175;
+    cursor_obj.x = 160;
+    cursor_obj.y = 196;
     if (key_enter)
     {
         room_goto(videosettingsMenu);
@@ -93,8 +93,8 @@ if (buttonSelected == 0)
 }
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 256;
-    cursor_obj.y = 210;
+    cursor_obj.x = 160;
+    cursor_obj.y = 218;
     if (key_enter)
     {
         room_goto(audiosettingsMenu);
@@ -102,8 +102,8 @@ if (buttonSelected == 1)
 }
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 256;
-    cursor_obj.y = 247;
+    cursor_obj.x = 160;
+    cursor_obj.y = 240;
     if (key_enter)
     {
         room_goto(controlsMenu);
@@ -111,8 +111,8 @@ if (buttonSelected == 2)
 }
 if (buttonSelected == 3)
 {
-    cursor_obj.x = 256;
-    cursor_obj.y = 283;
+    cursor_obj.x = 160;
+    cursor_obj.y = 262;
     if (key_enter)
     {
         room_goto(mainMenu);
@@ -141,13 +141,13 @@ if (buttonSelected == 3)
           <argument>
             <kind>1</kind>
             <string>///Menu GUI
-draw_set_font(mainmenu_fnt);
-draw_text(64, 460, "Video Settings")
-draw_text(64, 560, "Audio Settings")
-draw_text(64, 660, "Controls")
-draw_text(64, 760, "Back")
+draw_set_font(global.newPixelMenu);
+draw_text(64, 572, "Video Settings")
+draw_text(64, 636, "Audio Settings")
+draw_text(64, 700, "Controls")
+draw_text(64, 764, "Back")
 
-draw_set_font(creditsBig_fnt);
+draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);

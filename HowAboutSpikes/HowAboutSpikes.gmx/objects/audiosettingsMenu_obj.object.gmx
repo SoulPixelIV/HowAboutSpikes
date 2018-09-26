@@ -86,8 +86,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 486;
-    cursor_obj.y = 175;
+    cursor_obj.x = 280;
+    cursor_obj.y = 196;
     if (key_right &amp;&amp; global.musicCount &lt; 4)
     {
         global.musicCount += 1;
@@ -132,8 +132,8 @@ if (buttonSelected == 0)
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 286;
-    cursor_obj.y = 210;
+    cursor_obj.x = 200;
+    cursor_obj.y = 218;
     if (key_enter)
     {
         room_goto(settingsMenu);
@@ -163,31 +163,31 @@ if (buttonSelected == 1)
           <argument>
             <kind>1</kind>
             <string>///Menu GUI
-draw_set_font(mainmenu_fnt);
+draw_set_font(global.newPixelMenu);
 if (global.musicCount == 0)
 {
-    draw_text(64, 460, "Music Volume Level ____");
+    draw_text(64, 572, "Music Volume Level ____");
 }
 if (global.musicCount == 1)
 {
-    draw_text(64, 460, "Music Volume Level X___");
+    draw_text(64, 572, "Music Volume Level X___");
 }
 if (global.musicCount == 2)
 {
-    draw_text(64, 460, "Music Volume Level XX__");
+    draw_text(64, 572, "Music Volume Level XX__");
 }
 if (global.musicCount == 3)
 {
-    draw_text(64, 460, "Music Volume Level XXX_");
+    draw_text(64, 572, "Music Volume Level XXX_");
 }
 if (global.musicCount == 4)
 {
-    draw_text(64, 460, "Music Volume Level XXXX");
+    draw_text(64, 572, "Music Volume Level XXXX");
 }
 
-draw_text(64, 560, "Back");
+draw_text(64, 636, "Back");
 
-draw_set_font(creditsBig_fnt);
+draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);

@@ -86,8 +86,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 286;
-    cursor_obj.y = 175;
+    cursor_obj.x = 240;
+    cursor_obj.y = 196;
     if (key_enter)
     {
         if window_get_fullscreen()
@@ -103,8 +103,8 @@ if (buttonSelected == 0)
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 446;
-    cursor_obj.y = 210;
+    cursor_obj.x = 320;
+    cursor_obj.y = 218;
     if (key_right &amp;&amp; global.brightnessCount &lt; 4)
     {
         global.brightnessCount += 1;
@@ -149,8 +149,8 @@ if (buttonSelected == 1)
 
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 286;
-    cursor_obj.y = 247;
+    cursor_obj.x = 120;
+    cursor_obj.y = 240;
     if (key_enter)
     {
         room_goto(settingsMenu);
@@ -180,32 +180,32 @@ if (buttonSelected == 2)
           <argument>
             <kind>1</kind>
             <string>///Menu GUI
-draw_set_font(mainmenu_fnt);
-draw_text(64, 460, "Toggle Fullscreen");
+draw_set_font(global.newPixelMenu);
+draw_text(64, 572, "Toggle Fullscreen");
 if (global.brightnessCount == 0)
 {
-    draw_text(64, 560, "Change Brightness Level ____");
+    draw_text(64, 636, "Change Brightness Level ____");
 }
 if (global.brightnessCount == 1)
 {
-    draw_text(64, 560, "Change Brightness Level X___");
+    draw_text(64, 636, "Change Brightness Level X___");
 }
 if (global.brightnessCount == 2)
 {
-    draw_text(64, 560, "Change Brightness Level XX__");
+    draw_text(64, 636, "Change Brightness Level XX__");
 }
 if (global.brightnessCount == 3)
 {
-    draw_text(64, 560, "Change Brightness Level XXX_");
+    draw_text(64, 636, "Change Brightness Level XXX_");
 }
 if (global.brightnessCount == 4)
 {
-    draw_text(64, 560, "Change Brightness Level XXXX");
+    draw_text(64, 636, "Change Brightness Level XXXX");
 }
 
-draw_text(64, 660, "Back");
+draw_text(64, 700, "Back");
 
-draw_set_font(creditsBig_fnt);
+draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);

@@ -81,8 +81,8 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 206;
-    cursor_obj.y = 175;
+    cursor_obj.x = 120;
+    cursor_obj.y = 196;
 
     global.continued = true;
     if (key_enter)
@@ -207,8 +207,8 @@ if (buttonSelected == 0)
 }
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 206;
-    cursor_obj.y = 210;
+    cursor_obj.x = 120;
+    cursor_obj.y = 218;
     if (key_enter)
     {
         audio_stop_all();
@@ -217,8 +217,8 @@ if (buttonSelected == 1)
 }
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 206;
-    cursor_obj.y = 247;
+    cursor_obj.x = 120;
+    cursor_obj.y = 240;
     if (key_enter)
     {
         room_goto(settingsMenu);
@@ -226,8 +226,8 @@ if (buttonSelected == 2)
 }
 if (buttonSelected == 3)
 {
-    cursor_obj.x = 206;
-    cursor_obj.y = 283;
+    cursor_obj.x = 120;
+    cursor_obj.y = 262;
     if (key_enter)
     {
         game_end();
@@ -257,26 +257,26 @@ if (buttonSelected == 3)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_color(c_white);
-draw_set_font(mainmenu_fnt);
+draw_set_font(global.newPixelMenu);
 //Check continue button
 if (!file_exists("save1.has"))
 {
     draw_set_color(c_gray);
-    draw_text(64, 460, "Continue")
+    draw_text(64, 572, "Continue")
     draw_set_color(c_white);
 }
 else
 {
-    draw_text(64, 460, "Continue")
+    draw_text(64, 572, "Continue")
 }
-draw_text(64, 560, "New Game")
-draw_text(64, 660, "Settings")
-draw_text(64, 760, "Quit")
+draw_text(64, 636, "New Game")
+draw_text(64, 700, "Settings")
+draw_text(64, 764, "Quit")
 
 draw_set_font(version_fnt);
 draw_text(1510, 1040, "How About Spikes Beta | Patch 11");
 
-draw_set_font(creditsBig_fnt);
+draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 </string>
           </argument>
