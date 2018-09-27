@@ -104,13 +104,13 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
           <argument>
             <kind>1</kind>
             <string>draw_set_alpha(transparent);
-draw_set_font(credits_fnt);
+draw_set_font(global.newPixelMenu);
 
 transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100 &amp;&amp; timer &lt; 1490)
 {
-    draw_text(70, 300, "You found your magical power!#Now you can continue your journey# on becoming a legendary mage.#This is the end of this story.");
+    draw_text(170, 360, "You found your magical power!#Now you can continue your journey# on becoming a legendary mage.#This is the end of this story.");
     if (timer &gt; 1330)
     {
         transparent -= 0.03;

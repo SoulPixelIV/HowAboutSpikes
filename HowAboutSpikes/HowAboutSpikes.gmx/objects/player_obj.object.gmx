@@ -1753,9 +1753,9 @@ if (health == 0)
 }
 
 //###Money###
-draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
+//draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
 draw_set_color(c_white);
-draw_text(global.guiPosX + 55, global.guiPosY + 72, string(global.money));
+draw_text(global.guiPosX + 14, global.guiPosY + 336, "Souls x" + string(global.money));
 
 //###GUI###
 /*
