@@ -160,6 +160,7 @@
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
+      <sprite>sprites\darkSpiritDestroy_spr</sprite>
       <sprite>sprites\darkSpiritBig_spr</sprite>
       <sprite>sprites\ultraSpirit_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
@@ -721,6 +722,7 @@
       <object>objects\redOrb_obj</object>
       <object>objects\blueOrb_obj</object>
       <object>objects\darkSpirit_obj</object>
+      <object>objects\darkSpiritDestroy_obj</object>
       <object>objects\darkSpiritBig_obj</object>
       <object>objects\ultraSpirit_obj</object>
       <object>objects\petBirdPA_obj</object>
