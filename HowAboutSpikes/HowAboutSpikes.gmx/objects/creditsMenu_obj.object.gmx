@@ -132,6 +132,7 @@ if (!audio_is_playing(mainMenu_msc))
     audio_stop_sound(undergroundCity_msc);
     audio_stop_sound(unknownForest_msc);
     audio_stop_sound(boss_msc);
+    audio_stop_sound(beach_msc);
     audio_stop_sound(tutorial_msc);
     audio_stop_sound(snow_msc);
     audio_stop_sound(lava_msc);

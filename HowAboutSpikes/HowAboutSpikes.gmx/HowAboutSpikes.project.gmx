@@ -50,6 +50,7 @@
       <sound>sound\lava_msc</sound>
       <sound>sound\dark_msc</sound>
       <sound>sound\heaven_msc</sound>
+      <sound>sound\beach_msc</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">

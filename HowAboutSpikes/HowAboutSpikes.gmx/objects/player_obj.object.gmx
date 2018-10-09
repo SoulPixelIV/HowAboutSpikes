@@ -36,6 +36,7 @@ if (room == unknownForest1 || room == unknownForest2 || room == unknownForest3)
         audio_stop_sound(boss_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(snow_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(lava_msc);
         audio_stop_sound(dark_msc);
         audio_play_sound(unknownForest_msc, 1, true);
@@ -52,6 +53,7 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_stop_sound(boss_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(snow_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(lava_msc);
         audio_stop_sound(dark_msc);
         audio_play_sound(undergroundCity_msc, 1, true);
@@ -68,6 +70,7 @@ if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastP
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(snow_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(dark_msc);
         audio_stop_sound(lava_msc);
         audio_play_sound(boss_msc, 1, true);
@@ -83,6 +86,7 @@ if (room == tutorial)
         audio_stop_sound(unknownForest_msc);
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(boss_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(dark_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(lava_msc);
@@ -99,6 +103,7 @@ if (room == gardenValley)
         audio_stop_sound(unknownForest_msc);
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(boss_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(dark_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(lava_msc);
@@ -115,6 +120,7 @@ if (room == demonsKeep1 || room == demonsKeep2 || room == demonsKeep3)
         audio_stop_sound(unknownForest_msc);
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(dark_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(boss_msc);
         audio_stop_sound(snow_msc);
         audio_stop_sound(tutorial_msc);
@@ -128,6 +134,7 @@ if (room == sentinelGraves1 || room == sentinelGraves2 || room == sentinelGraves
     if (!audio_is_playing(dark_msc))
     {
         audio_stop_sound(heaven_msc);
+        audio_stop_sound(beach_msc);
         audio_stop_sound(unknownForest_msc);
         audio_stop_sound(undergroundCity_msc);
         audio_stop_sound(lava_msc);
@@ -141,6 +148,23 @@ if (room == sentinelGraves1 || room == sentinelGraves2 || room == sentinelGraves
 }
 if (room == overcastPeak1 || room == overcastPeak2 || room == overcastPeak3 || room == overcastPeak4 || room == overcastPeak5)
 {
+    if (!audio_is_playing(beach_msc))
+    {
+        audio_stop_sound(dark_msc);
+        audio_stop_sound(unknownForest_msc);
+        audio_stop_sound(undergroundCity_msc);
+        audio_stop_sound(lava_msc);
+        audio_stop_sound(boss_msc);
+        audio_stop_sound(snow_msc);
+        audio_stop_sound(tutorial_msc);
+        audio_stop_sound(heaven_msc);
+        audio_play_sound(beach_msc, 1, true);
+        audio_sound_gain(beach_msc, 0, 0);
+        audio_sound_gain(beach_msc, global.musicVolume / 1.9, 10000);
+    }
+}
+if (room == undergroundStation1 || room == undergroundStation2 || room == undergroundStation3)
+{
     if (!audio_is_playing(heaven_msc))
     {
         audio_stop_sound(dark_msc);
@@ -150,6 +174,7 @@ if (room == overcastPeak1 || room == overcastPeak2 || room == overcastPeak3 || r
         audio_stop_sound(boss_msc);
         audio_stop_sound(snow_msc);
         audio_stop_sound(tutorial_msc);
+        audio_stop_sound(beach_msc);
         audio_play_sound(heaven_msc, 1, true);
         audio_sound_gain(heaven_msc, 0, 0);
         audio_sound_gain(heaven_msc, global.musicVolume / 1.9, 10000);
