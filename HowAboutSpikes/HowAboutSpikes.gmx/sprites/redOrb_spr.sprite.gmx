@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>2</bbox_left>
-  <bbox_right>14</bbox_right>
-  <bbox_top>1</bbox_top>
-  <bbox_bottom>14</bbox_bottom>
+  <bbox_left>3</bbox_left>
+  <bbox_right>12</bbox_right>
+  <bbox_top>0</bbox_top>
+  <bbox_bottom>12</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -23,10 +23,5 @@
     <frame index="0">images\redOrb_spr_0.png</frame>
     <frame index="1">images\redOrb_spr_1.png</frame>
     <frame index="2">images\redOrb_spr_2.png</frame>
-    <frame index="3">images\redOrb_spr_3.png</frame>
-    <frame index="4">images\redOrb_spr_4.png</frame>
-    <frame index="5">images\redOrb_spr_5.png</frame>
-    <frame index="6">images\redOrb_spr_6.png</frame>
-    <frame index="7">images\redOrb_spr_7.png</frame>
   </frames>
 </sprite>

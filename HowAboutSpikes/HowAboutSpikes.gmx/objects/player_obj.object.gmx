@@ -520,6 +520,8 @@ amount = 1;
     ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
     ini_write_real("Save1", "redOrb", global.pickedRed);
     ini_write_real("Save1", "blueOrb", global.pickedBlue);
+    ini_write_real("Save1", "redOrbPlaced", global.placedRed);
+    ini_write_real("Save1", "blueOrbPlaced", global.placedBlue);
     ini_write_real("Save1", "money", global.money);
     ini_write_real("Save1", "ultraSouls", global.pickedUltraSouls);
     ini_write_real("Save1", "health", global.healthVar);
@@ -1574,10 +1576,10 @@ if (keyboard_check_pressed(ord('4')))
 {
     global.ringVision = true;
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != sentinelGravesTransition)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != gardenValley)
 {
     global.playerSpawnLocation = 0;
-    room_goto(sentinelGravesTransition);
+    room_goto(gardenValley);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

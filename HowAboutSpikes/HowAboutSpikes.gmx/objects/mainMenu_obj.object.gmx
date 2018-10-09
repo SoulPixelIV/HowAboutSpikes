@@ -94,6 +94,8 @@ if (buttonSelected == 0)
             global.playerSpawnLocation = ini_read_real("Save1", "current spawnLocation", 0);
             global.pickedRed = ini_read_real("Save1", "redOrb", true);
             global.pickedBlue = ini_read_real("Save1", "blueOrb", true);
+            global.placedRed = ini_read_real("Save1", "redOrbPlaced", true);
+            global.placedBlue = ini_read_real("Save1", "blueOrbPlaced", true);
             global.mode = ini_read_real("Save1", "gamemode", 0);
             global.deathCount = ini_read_real("Save1", "death count", 0);
             global.healthVar = ini_read_real("Save1", "health", 2);
