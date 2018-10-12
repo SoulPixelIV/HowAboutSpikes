@@ -209,6 +209,8 @@
       <sprite>sprites\shaderYellowLight2Icon_spr</sprite>
       <sprite>sprites\rings_spr</sprite>
       <sprite>sprites\controller_spr</sprite>
+      <sprite>sprites\patreon_spr</sprite>
+      <sprite>sprites\twitter_spr</sprite>
     </sprites>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
@@ -771,6 +773,8 @@
         <object>objects\shopIcon7_7_obj</object>
       </objects>
       <object>objects\controller_obj</object>
+      <object>objects\patreon_obj</object>
+      <object>objects\twitter_obj</object>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
