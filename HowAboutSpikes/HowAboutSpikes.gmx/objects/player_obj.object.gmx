@@ -1568,7 +1568,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
+            <string>
 ///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
@@ -1601,10 +1601,10 @@ if (keyboard_check_pressed(ord('4')))
 {
     global.ringVision = true;
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != skullcoinBayBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(gardenValley);
+    room_goto(skullcoinBayBoss);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
 {

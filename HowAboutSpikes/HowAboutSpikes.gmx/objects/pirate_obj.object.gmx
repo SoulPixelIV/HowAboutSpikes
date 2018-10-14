@@ -181,6 +181,18 @@ if (instance_exists(player_obj))
     }
 }
 
+if (instance_exists(player_obj))
+{
+    if (player_obj.x &gt; x)
+    {
+        image_xscale = -1;
+    }
+    if (player_obj.x &lt; x)
+    {
+        image_xscale = 1;
+    }
+}
+
 //###Gravity###
 verSpeed = verSpeed + gravityStrength;
 
