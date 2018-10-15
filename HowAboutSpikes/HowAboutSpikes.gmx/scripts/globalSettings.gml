@@ -132,8 +132,9 @@ global.map = 0;
 //Special
 global.level = 0;
 
-//Bottle
+//FinalBoss
 global.spawnedBottle = false;
+global.spawnBoss = true;
 
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);

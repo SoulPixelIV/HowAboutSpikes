@@ -622,6 +622,7 @@ amount = 1;
     ini_write_real("Save1", "map", global.map);
     ini_write_real("Save1", "levelNPC", global.level);
     ini_write_real("Save1", "dmgMult", global.dmgMult);
+    ini_write_real("Save1", "spawnBoss", global.spawnBoss);
     
     //UltraSouls
     ini_write_real("Save1", "ultraSoul1", global.ultraSoul1);

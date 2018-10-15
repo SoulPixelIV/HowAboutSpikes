@@ -117,6 +117,7 @@ if (buttonSelected == 0)
             global.map = ini_read_real("Save1", "map", 0);
             global.level = ini_read_real("Save1", "levelNPC", 0);
             global.dmgMult = ini_read_real("Save1", "dmgMult", 1);
+            global.spawnBoss = ini_read_real("Save1", "spawnBoss", true);
             
             //Ultra Souls
             global.ultraSoul1 = ini_read_real("Save1", "ultraSoul1", 0);
