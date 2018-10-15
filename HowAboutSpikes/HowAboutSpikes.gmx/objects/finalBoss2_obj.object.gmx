@@ -129,7 +129,8 @@ if (place_meeting(x, y, scythe_obj))
 {
     with (finalBoss2_obj)
     {
-        bossHealth = bossHealth - global.damage / 3.9;
+        //bossHealth = bossHealth - global.damage / 3.9;
+        bossHealth = bossHealth - global.damage * 5;
     }
     with (scythe_obj)
     {
