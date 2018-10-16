@@ -220,7 +220,7 @@ if (timer &gt; 730 &amp;&amp; timer &lt; 920)
 }
 if (timer &gt; 940 &amp;&amp; timer &lt; 1130)
 {
-    draw_text(400, 40, "Music Producer: Lem Tummy");
+    draw_text(400, 40, "Music Producer: Alexander Phonographic");
     if (timer &gt; 1090)
     {
         transparent -= 0.03;
