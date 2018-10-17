@@ -93,7 +93,7 @@ if (!audio_is_playing(mainMenu_msc))
     audio_stop_sound(skull_msc);
     audio_play_sound(mainMenu_msc, 1, true);
     audio_sound_gain(mainMenu_msc, 0, 0);
-    audio_sound_gain(mainMenu_msc, 0.5, 10000);
+    audio_sound_gain(mainMenu_msc, 0.2, 10000);
 }
 </string>
           </argument>
