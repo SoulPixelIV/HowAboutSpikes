@@ -140,6 +140,9 @@ global.spawnBoss = true;
 global.checkpointX = 0;
 global.checkpointY = 0;
 
+//MP
+global.mpStatus = 0;
+
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
 audio_sound_gain(attack_snd, global.soundVolume, 0);

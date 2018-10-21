@@ -82,6 +82,7 @@ if (!steam_initialised())
     show_message("Please start the game via Steam!");
     game_end();
 }
+
 </string>
           </argument>
         </arguments>

@@ -408,6 +408,7 @@
     <script>scripts\rain_scr.gml</script>
     <script>scripts\fog_scr.gml</script>
     <script>scripts\globalSettings.gml</script>
+    <script>scripts\scr_received_packet.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
@@ -423,6 +424,7 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\player_obj</object>
+      <object>objects\playerMP_obj</object>
       <object>objects\player2_obj</object>
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>
@@ -452,6 +454,7 @@
         <object>objects\videosettingsMenu_obj</object>
         <object>objects\audiosettingsMenu_obj</object>
         <object>objects\controlsMenu_obj</object>
+        <object>objects\multiplayerMenu_obj</object>
       </objects>
       <objects name="Cutscene Objects">
         <object>objects\cutsceneCameraDown_obj</object>
@@ -798,6 +801,10 @@
       <object>objects\dust_obj</object>
       <object>objects\explosionNew_obj</object>
     </objects>
+    <objects name="Multiplayer">
+      <object>objects\server_obj</object>
+      <object>objects\clienttype_controller_obj</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="Menu Rooms">
@@ -809,6 +816,7 @@
       <room>rooms\videosettingsMenu</room>
       <room>rooms\audiosettingsMenu</room>
       <room>rooms\controlsMenu</room>
+      <room>rooms\multiplayerMenu</room>
     </rooms>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
@@ -849,6 +857,7 @@
       <room>rooms\cutsceneGameEndText</room>
       <room>rooms\cutsceneGameStart</room>
     </rooms>
+    <room>rooms\multiplayerTest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

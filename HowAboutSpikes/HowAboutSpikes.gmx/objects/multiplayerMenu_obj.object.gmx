@@ -58,7 +58,7 @@ key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backsp
 
 if (key_back)
 {
-    room_goto(settingsMenu);
+    room_goto(mainMenu);
 }
 
 if (key_up)
@@ -86,57 +86,31 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 280;
+    cursor_obj.x = 140;
     cursor_obj.y = 196;
-    if (key_right &amp;&amp; global.musicCount &lt; 4)
+    if (key_enter)
     {
-        global.musicCount += 1;
-    }
-    
-    if (global.musicCount &gt; 4)
-    {
-        global.musicCount = 0;
-    }
-    
-    if (key_left &amp;&amp; global.musicCount &gt; 0)
-    {
-        global.musicCount -= 1;
-    }
-    
-    if (global.musicCount &lt; 0)
-    {
-        global.musicCount = 4;
-    }
-    
-    if (global.musicCount == 0)
-    {
-        global.musicVolume = 0;
-    }
-    if (global.musicCount == 1)
-    {
-        global.musicVolume = 0.15;
-    }
-    if (global.musicCount == 2)
-    {
-        global.musicVolume = 0.3;
-    }
-    if (global.musicCount == 3)
-    {
-        global.musicVolume = 0.45;
-    }
-    if (global.musicCount == 4)
-    {
-        global.musicVolume = 0.6;
+        room_goto(multiplayerTest);
     }
 }
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 200;
+    cursor_obj.x = 140;
     cursor_obj.y = 218;
     if (key_enter)
     {
-        room_goto(settingsMenu);
+        room_goto(multiplayerTest);
+    }
+}
+
+if (buttonSelected == 2)
+{
+    cursor_obj.x = 140;
+    cursor_obj.y = 240;
+    if (key_enter)
+    {
+        room_goto(mainMenu);
     }
 }
 
@@ -164,28 +138,11 @@ if (buttonSelected == 1)
             <kind>1</kind>
             <string>///Menu GUI
 draw_set_font(global.newPixelMenu);
-if (global.musicCount == 0)
-{
-    draw_text(64, 572, "Music Volume Level ____");
-}
-if (global.musicCount == 1)
-{
-    draw_text(64, 572, "Music Volume Level X___");
-}
-if (global.musicCount == 2)
-{
-    draw_text(64, 572, "Music Volume Level XX__");
-}
-if (global.musicCount == 3)
-{
-    draw_text(64, 572, "Music Volume Level XXX_");
-}
-if (global.musicCount == 4)
-{
-    draw_text(64, 572, "Music Volume Level XXXX");
-}
+draw_text(64, 572, "Host Game");
 
-draw_text(64, 636, "Back");
+draw_text(64, 636, "Join Game");
+
+draw_text(64, 700, "Back");
 
 draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");

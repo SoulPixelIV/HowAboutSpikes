@@ -1968,8 +1968,8 @@
     <instance objName="stoneBlockGrey_obj" x="2432" y="608" name="inst_379A9BFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="2400" y="608" name="inst_2D2147F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="2368" y="608" name="inst_CECD5964" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="2336" y="613" name="inst_D2FAD702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="2304" y="613" name="inst_965CB8A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="2336" y="608" name="inst_D2FAD702" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="2304" y="608" name="inst_965CB8A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="2272" y="608" name="inst_4D0C9330" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="2176" y="736" name="inst_91CCA055" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="2144" y="768" name="inst_6DAFFAE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2835,8 +2835,6 @@
     <instance objName="treeBlock2_obj" x="1312" y="968" name="inst_0DAA7047" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="treeBlock2_obj" x="1344" y="969" name="inst_502A8E84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="shopIcon4_obj" x="832" y="960" name="inst_41F17B90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeFalling_obj" x="2304" y="512" name="inst_B9129EE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeFalling_obj" x="2336" y="480" name="inst_BFD1B663" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="-32" y="-64" name="inst_BBFF8B5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="-32" y="-96" name="inst_4543C801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="-32" y="-128" name="inst_5C32D36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
