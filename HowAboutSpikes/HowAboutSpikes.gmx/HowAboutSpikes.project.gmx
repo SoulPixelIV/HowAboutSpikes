@@ -467,6 +467,7 @@
       <object>objects\treeBlock_obj</object>
       <object>objects\treeBlock2_obj</object>
       <object>objects\snowBlockFalling_obj</object>
+      <object>objects\grassBlock2BossFalling</object>
       <object>objects\mysteryBlockSpecial_obj</object>
       <object>objects\checkpointMystery_obj</object>
       <object>objects\grassBlockMystery_obj</object>
