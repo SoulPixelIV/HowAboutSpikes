@@ -25,12 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize our Server.
+            <string>///Initialize Server.
 var type = network_socket_tcp;
 var port = 25653;
 max_clients = 4;
 
-server = network_create_server(type,port,max_clients);
+server = network_create_server(type, port, max_clients);
 socket = noone;
 </string>
           </argument>
@@ -99,7 +99,7 @@ switch (type_event){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Terminates our server to free memory.
+            <string>///Terminate Server
 network_destroy(server);
 </string>
           </argument>

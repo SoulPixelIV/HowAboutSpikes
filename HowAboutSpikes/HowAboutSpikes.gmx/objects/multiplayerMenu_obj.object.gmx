@@ -91,6 +91,7 @@ if (buttonSelected == 0)
     if (key_enter)
     {
         room_goto(multiplayerTest);
+        global.mpStatus = 0;
     }
 }
 
@@ -101,6 +102,7 @@ if (buttonSelected == 1)
     if (key_enter)
     {
         room_goto(multiplayerTest);
+        global.mpStatus = 1;
     }
 }
 
