@@ -136,6 +136,10 @@ global.level = 0;
 global.spawnedBottle = false;
 global.spawnBoss = true;
 
+//Save
+global.checkpointX = 0;
+global.checkpointY = 0;
+
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
 audio_sound_gain(attack_snd, global.soundVolume, 0);

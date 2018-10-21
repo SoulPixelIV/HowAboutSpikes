@@ -34,6 +34,9 @@ pauseMenu = false;
 saveXPos = 0;
 saveYPos = 0;
 
+global.checkpointSaveX = 0;
+global.checkpointSaveY = 0;
+
 global.healthPause = 2;
 
 global.transition = false;
@@ -197,23 +200,37 @@ if (instance_exists(player_obj))
 
 key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
 
+global.checkpointSaveX = global.checkpointX;
+global.checkpointSaveY = global.checkpointY;
+
 if (key_pause)
 {
-    if (pauseMenu == false)
+    with (player_obj)
     {
-        pauseMenu = true;
-        saveXPos = player_obj.x;
-        saveYPos = player_obj.y;
-        with (player_obj)
+        if (!dead)
         {
-            global.healthPause = health;
-            instance_destroy();
+            with (camera_obj)
+            {
+                if (pauseMenu == false)
+                {
+                    pauseMenu = true;
+                    saveXPos = player_obj.x;
+                    saveYPos = player_obj.y;
+                    with (player_obj)
+                    {
+                        global.healthPause = health;
+                        instance_destroy();
+                    }
+                }
+                else
+                {
+                    pauseMenu = false;
+                    instance_create(saveXPos, saveYPos, player_obj);
+                    global.checkpointX = global.checkpointSaveX;
+                    global.checkpointY = global.checkpointSaveY;
+                }
+            }
         }
-    }
-    else
-    {
-        pauseMenu = false;
-        instance_create(saveXPos, saveYPos, player_obj);
     }
 }
 </string>

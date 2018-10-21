@@ -1392,6 +1392,9 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
 
 
 //###Checkpoint Collision###
+global.checkpointX = global.checkpointSaveX;
+global.checkpointY = global.checkpointSaveY;
+
 if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
     health = global.healthVar;
@@ -1842,8 +1845,8 @@ draw_text(global.guiPosX + 14, global.guiPosY + 336, "Souls x" + string(global.m
 //###GUI###
 /*
 draw_set_colour(c_white);
-draw_text(global.guiPosX + 8, global.guiPosY + 272, "initialised = " + string(steam_initialised()));
-draw_text(global.guiPosX + 8, global.guiPosY + 288, "overlay = " + string(steam_is_overlay_enabled()));
+draw_text(global.guiPosX + 8, global.guiPosY + 272, "checkpointX " + string(global.checkpointX));
+draw_text(global.guiPosX + 8, global.guiPosY + 288, "checkpointY " + string(global.checkpointY));
 draw_text(global.guiPosX + 8, global.guiPosY + 304, "stats = " + string(steam_stats_ready()));
 draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
 draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
