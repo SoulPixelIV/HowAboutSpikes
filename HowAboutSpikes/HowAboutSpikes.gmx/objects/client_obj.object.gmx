@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,21 +25,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize Server.
-connect = 0;
+            <string>///Multiplayer - Initialize client
+var type = network_socket_tcp; //Defines a TCP Socket For Our Client (Use UDP for LAN, but I'll cover that separately as it needs different configuration)
+var ip = get_string("IP",""); //Creates an IP Address to connect to. Replace with server IP Address
+var port = 44444; 
+socket = network_create_socket(type); //Creates a Socket using the type we defined above. Use network_create_socket_ext for LAN.
+connection = network_connect(socket,ip,port); //Creates a connection to our socket, server, and port.
 
-var type = network_socket_tcp;
-var port = 44444;
-max_clients = 4;
-
-server = network_create_server(type, port, max_clients);
-socket = noone;
+//Send Information To The Server.
+var size = 1024; //Has a size of 1024 bytes (1MB)
+var type = buffer_fixed; //Defines a Fixed Buffer, It does not change
+var alignment = 1; //Sets the alignment to 1, commonly used for strings.  See buffer_create
+buffer = buffer_create(size,type,alignment); //Creates our buffer.
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="68">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -56,30 +59,16 @@ socket = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Check for clients and data.
-var type_event = async_load[? "type"]; //Grabbing the type from async_load using an accessor, then store that value in type_event
+            <string>///Multiplayer - Write Info
 
-switch (type_event){
-    case network_type_connect: //If our type_event is equal to network_type_connect. If someone tries to connect.
-        //Add the client to the socket variable - When using multiple clients, use a data structure. This is a single client.
-        if (socket == noone){ //If No one is connected yet.
-            socket = async_load[? "socket"]; //Returns the socket from async_load using an accessor. Then store it in the socket.
-        }
-        connect = 1;
-        break;
-       
-    case network_type_disconnect: //If someone tries to disconnect.
-        //Remove the client from the socket variable
-        socket = noone;
-        break;
-       
-    case network_type_data: //If we are receiving data
-        //Handle the data.
-        var buffer = async_load[? "buffer"]; //Create a temporary buffer.
-        buffer_seek(buffer,buffer_seek_start,0) //Looks at the beginning of the buffer.
-        scr_received_packet(buffer); //Executes our script scr_received_packet, and pass the buffer to our script.
-        break;
-}
+buffer_seek(buffer,buffer_seek_start,0); //Checks the beginning of the buffer
+buffer_write(buffer,buffer_u8,1); //Writes our ID to an unsigned positive 8-Bit integer (0-256) to our buffer. [Our buffer looks like: 1]
+buffer_write(buffer,buffer_u16,x); //Writes our mouse_x to an unsigned positive 16-Bit integer (0-65,535) to our buffer. [Our buffer looks like: 1, mouse_x]
+buffer_write(buffer,buffer_u16,y); //Writes our mouse_y to an unsigned positive 16-Bit integer (0-65,535) to our buffer. [Our buffer looks like: 1, mouse_x, mouse_y]
+
+//Send the buffer to the server
+//We need to tell it which socket to connect to, which buffer to use, and what buffer size we are using.
+network_send_packet(socket,buffer,buffer_tell(buffer)) //Buffer_tell is going to return the size of the buffer.
 </string>
           </argument>
         </arguments>
@@ -102,31 +91,9 @@ switch (type_event){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Terminate Server
-network_destroy(server);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_text(50, 50, "Tries to connect: " + string(connect));
+            <string>///Multiplayer - Destroy
+network_destroy(socket);
+buffer_delete(buffer);
 </string>
           </argument>
         </arguments>

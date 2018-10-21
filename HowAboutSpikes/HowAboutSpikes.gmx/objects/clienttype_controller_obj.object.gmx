@@ -31,7 +31,7 @@
 }
 if (global.mpStatus == 1)
 {
-    instance_create(0, 0, playerMP_obj)
+    instance_create(150, 150, client_obj)
 }
 </string>
           </argument>
