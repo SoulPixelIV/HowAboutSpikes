@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,15 +25,36 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Initialize Server.
-connect = 0;
+            <string>///Initilize Server
 
-var type = network_socket_tcp;
-var port = 44444;
-max_clients = 4;
-
-server = network_create_server(type, port, max_clients);
+server = network_create_server(network_socket_tcp, 8001, 4);
 socket = noone;
+
+//Spawn Player
+//instance_create(150, 150, playerServerBack_obj);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>sendMovementServer_scr();
 </string>
           </argument>
         </arguments>
@@ -56,28 +77,27 @@ socket = noone;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Check for clients and data.
-var type_event = async_load[? "type"]; //Grabbing the type from async_load using an accessor, then store that value in type_event
+            <string>///Check for Data
 
-switch (type_event){
-    case network_type_connect: //If our type_event is equal to network_type_connect. If someone tries to connect.
-        //Add the client to the socket variable - When using multiple clients, use a data structure. This is a single client.
-        if (socket == noone){ //If No one is connected yet.
-            socket = async_load[? "socket"]; //Returns the socket from async_load using an accessor. Then store it in the socket.
+var type_event = async_load[? "type"];
+
+switch (type_event)
+{
+    case network_type_connect:
+        if (socket == noone)
+        {
+            socket = async_load[? "socket"];
         }
-        connect = 1;
         break;
-       
-    case network_type_disconnect: //If someone tries to disconnect.
-        //Remove the client from the socket variable
+    
+    case network_type_disconnect:
         socket = noone;
         break;
-       
-    case network_type_data: //If we are receiving data
-        //Handle the data.
-        var buffer = async_load[? "buffer"]; //Create a temporary buffer.
-        buffer_seek(buffer,buffer_seek_start,0) //Looks at the beginning of the buffer.
-        scr_received_packet(buffer); //Executes our script scr_received_packet, and pass the buffer to our script.
+    
+    case network_type_data:
+        var buffer = async_load[? "buffer"];
+        buffer_seek(buffer, buffer_seek_start, 0);
+        received_packet_scr(buffer);
         break;
 }
 </string>
@@ -102,31 +122,8 @@ switch (type_event){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Terminate Server
+            <string>///Destroy Server
 network_destroy(server);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_text(50, 50, "Tries to connect: " + string(connect));
 </string>
           </argument>
         </arguments>

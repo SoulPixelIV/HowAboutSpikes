@@ -142,6 +142,10 @@ global.checkpointY = 0;
 
 //MP
 global.mpStatus = 0;
+global.mpClientx = 0;
+global.mpClienty = 0;
+global.playerClientBackx = 0;
+global.playerClientBacky = 0;
 
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);

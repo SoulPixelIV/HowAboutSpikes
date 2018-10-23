@@ -3,7 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <datafiles number="1" name="datafiles">
+  <datafiles number="5" name="datafiles">
     <datafile>
       <name>manaspc.ttf</name>
       <exists>-1</exists>
@@ -408,7 +408,9 @@
     <script>scripts\rain_scr.gml</script>
     <script>scripts\fog_scr.gml</script>
     <script>scripts\globalSettings.gml</script>
-    <script>scripts\scr_received_packet.gml</script>
+    <script>scripts\received_packet_scr.gml</script>
+    <script>scripts\sendMovementClient_scr.gml</script>
+    <script>scripts\sendMovementServer_scr.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
@@ -424,14 +426,16 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\player_obj</object>
-      <object>objects\playerMP_obj</object>
+      <object>objects\playerClient_obj</object>
+      <object>objects\playerServer_obj</object>
+      <object>objects\playerServerBack_obj</object>
+      <object>objects\playerClientBack_obj</object>
       <object>objects\player2_obj</object>
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>
       <object>objects\camera_obj</object>
       <object>objects\dashEffect_obj</object>
       <object>objects\playerRewrite_obj</object>
-      <object>objects\client_obj</object>
     </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>
@@ -804,7 +808,8 @@
     </objects>
     <objects name="Multiplayer">
       <object>objects\server_obj</object>
-      <object>objects\clienttype_controller_obj</object>
+      <object>objects\client_obj</object>
+      <object>objects\mpSpawn_obj</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -268,7 +268,7 @@ pauseMenu = false;
 
 horSpeed = 0;
 verSpeed = 0;
-movement = false;
+movement = true;
 cooldown = false;
 dead = false;
 deathCountVar = false;

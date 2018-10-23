@@ -8,6 +8,6 @@ switch(message_id) {
         var posX = buffer_read(buffer,buffer_u16); //Reads our unsigned 16 Bit Integer from our buffer and assigns it to the variable mx. [Buffer equals: mouse_y] -We deleted our mouse_x from the buffer upon reading it
         var posY = buffer_read(buffer,buffer_u16); //Reads our unsigned 16 Bit Integer from our buffer and assigns it to the variable my. [Buffer equals:] -We deleted out mouse_y from the buffer upon reading it.
         //Create the click instance on our server
-        instance_create(posX, posY, playerMP_obj);
+        instance_create(posX, posY, click_obj);
         break;
 }
