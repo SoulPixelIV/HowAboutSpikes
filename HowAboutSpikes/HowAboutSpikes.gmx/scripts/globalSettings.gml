@@ -141,7 +141,7 @@ global.checkpointX = 0;
 global.checkpointY = 0;
 
 //MP
-global.mpStatus = 0;
+global.mpStatus = -1;
 global.mpClientx = 0;
 global.mpClienty = 0;
 global.playerClientBackx = 0;

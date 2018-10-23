@@ -220,7 +220,7 @@ if (buttonSelected == 1)
 }
 if (buttonSelected == 2)
 {
-    cursor_obj.x = 130;
+    cursor_obj.x = 230;
     cursor_obj.y = 240;
     if (key_enter)
     {
@@ -282,7 +282,7 @@ else
     draw_text(64, 572, "Continue")
 }
 draw_text(64, 636, "New Game")
-draw_text(64, 700, "Multiplayer")
+draw_text(64, 700, "Multiplayer [BETA]")
 draw_text(64, 764, "Settings")
 draw_text(64, 828, "Quit")
 

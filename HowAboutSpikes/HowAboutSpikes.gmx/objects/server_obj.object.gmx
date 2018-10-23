@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>///Initilize Server
 
-server = network_create_server(network_socket_tcp, 8001, 4);
+port = get_string("Please enter a port", "8001");
+server = network_create_server(network_socket_tcp, port, 4);
 socket = noone;
 
 //Spawn Player

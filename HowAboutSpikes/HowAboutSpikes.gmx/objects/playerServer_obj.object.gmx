@@ -924,6 +924,7 @@ else
 }
 
 //###Scythe Throw###
+/*
 if (key_throw)
 {
     if (lastDir == 0)
@@ -973,105 +974,62 @@ else
         throw = false;
     }
 }
-
+*/
 
 //###Animation###
 if (movement == true)
 {
-    if (key_right &amp;&amp; animPause == false)
+    if (image_xscale == 1 &amp;&amp; animPause == false)
     {
         lastDir = 0;
         image_speed = 0.15;
         sprite_index = playerWalk_spr;
-        image_xscale = 1;
     }
-    if (key_left &amp;&amp; animPause == false)
+    if (image_xscale == -1 &amp;&amp; animPause == false)
     {
         lastDir = 1;
         image_speed = 0.15;
         sprite_index = playerWalk_spr;
-        image_xscale = -1;
     }
     
-    if (horSpeed == 0 &amp;&amp; animPause == false)
+    if (hspeed == 0 &amp;&amp; animPause == false)
     {
         if (lastDir == 0)
         {
             image_speed = 0.145;
             sprite_index = playerIdle_spr;
-            image_xscale = 1;
         }
         else
         {
             image_speed = 0.145;
             sprite_index = playerIdle_spr;
-            image_xscale = -1;
         }
     }
     
-    if (verSpeed &gt; 0 &amp;&amp; animPause == false)
+    if (vspeed &gt; 0 &amp;&amp; animPause == false)
     {
         image_speed = 0.1;
         sprite_index = playerFalling_spr;
-        if (lastDir == 0)
-        {
-            image_xscale = 1;
-        }
-        else
-        {
-            image_xscale = -1;
-        }
     }
     
     if (landing == true &amp;&amp; animPause == false)
     {
         image_speed = 0.1;
         sprite_index = playerLanding_spr;
-        if (lastDir == 0)
-        {
-            image_xscale = 1;
-        }
-        else
-        {
-            image_xscale = -1;
-        }
     }
     
     if (global.numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower &amp;&amp; animPause == false)
     {
         image_speed = 0.3;
         sprite_index = playerSpin_spr;
-        if (lastDir == 0)
-        {
-            image_xscale = 1;
-        }
-        else
-        {
-            image_xscale = -1;
-        }
     }
     
-    if (onLadder &amp;&amp; verSpeed != 0 &amp;&amp; animPause == false)
+    if (onLadder &amp;&amp; vspeed != 0 &amp;&amp; animPause == false)
     {
         image_speed = 0.1;
         sprite_index = playerClimb_spr;
-        /*
-        if (lastDir == 0)
-        {
-            image_xscale = 1;
-        }
-        else
-        {
-            image_xscale = -1;
-        }
-        */
     }
-    /*
-    if (verSpeed &lt; 0)
-    {
-        sprite_index = playerJump_spr;
-    }
-    */
+
     if (noDamage == true)
     {
         sprite_index = playerInvincible_spr;
@@ -1083,17 +1041,9 @@ if (movement == true)
         {
             image_speed = 0.2;
         }
-        if (lastDir == 0)
-        {
-            image_xscale = 1;
-        }
-        else
-        {
-            image_xscale = -1;
-        }
     }
-}
-    
+} 
+   
 //###Gravity###
 if (movement == true)
 {
@@ -1264,7 +1214,7 @@ if (!place_free(x, y + verSpeed))
     {
         global.numberJumps = global.numberJumpsSave;
     }
-    
+    /*
     if (spawnPart == false)
     {
         repeat (5)
@@ -1276,11 +1226,14 @@ if (!place_free(x, y + verSpeed))
         }
         spawnPart = true;
     }
+    */
 }
+/*
 else
 {
     spawnPart = false;
 }
+*/
 
 //###Death###
 if (health == 0)
