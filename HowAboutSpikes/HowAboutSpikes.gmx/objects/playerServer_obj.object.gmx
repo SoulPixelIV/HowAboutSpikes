@@ -256,7 +256,7 @@ if (room == skullcoinBayBoss || room == skullcoinBay6)
             <kind>1</kind>
             <string>///Vars
 
-global.movSpeed = 2.65;
+movSpeed = 2.65;
 global.jumpStrength = 7.04;
 global.mpMove = 0;
 numberJumps = 2;
@@ -903,7 +903,7 @@ key_restart = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_ente
 key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
 gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
-horSpeed = move * global.movSpeed;
+horSpeed = move * movSpeed;
 
 if (mpkeyThrow &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
 {
@@ -911,7 +911,7 @@ if (mpkeyThrow &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
 }
 if (dash == true)
 {
-    global.movSpeed = 5.95;
+    movSpeed = 5.95;
     if (!instance_exists(dashEffect_obj))
     {
         instance_create(x, y, dashEffect_obj);
@@ -921,7 +921,7 @@ if (dash == true)
 if (dashTimer &lt;= 0 || grounded == true || onLadder == true)
 {
     dash = false;
-    global.movSpeed = 2.65;
+    movSpeed = 2.65;
     dashTimer = 7;
 }
 
@@ -1149,6 +1149,19 @@ if (mpkeyAttack &amp;&amp; movement == true &amp;&amp; !throw)
         {
             instance_create(x - 16, y, hitbox_obj);
             cooldown = true
+        }
+        if (global.mpMove == 0)
+        {
+            if (lastDir == 0)
+            {
+                instance_create(x - 16, y, hitbox_obj);
+                cooldown = true
+            }
+            if (lastDir == 1)
+            {
+                instance_create(x + 16, y, hitbox_obj);
+                cooldown = true
+            }
         }
     }
 }
@@ -1702,473 +1715,8 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != skullcoinBay3)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Ring System
-
-if (global.ringInventory[0] == 0)
-{
-    draw_sprite(rings_spr, 0, view_xview[0] + 569, view_yview[0] + 35);
-}
-if (global.ringInventory[1] == 0)
-{
-    draw_sprite(rings_spr, 0, view_xview[0] + 569, view_yview[0] + 78);
-}
-if (global.ringInventory[2] == 0)
-{
-    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
-}
-if (global.ringInventory[3] == 0)
-{
-    draw_sprite(rings_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
-}
-
-if (global.ringInventory[0] == 1)
-{
-    draw_sprite(rings_spr, 1, view_xview[0] + 569, view_yview[0] + 35);
-}
-if (global.ringInventory[1] == 1)
-{
-    draw_sprite(rings_spr, 1, view_xview[0] + 569, view_yview[0] + 78);
-}
-if (global.ringInventory[2] == 1)
-{
-    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 35);
-}
-if (global.ringInventory[3] == 1)
-{
-    draw_sprite(rings_spr, 1, view_xview[0] + 617, view_yview[0] + 78);
-}
-
-if (global.ringInventory[0] == 2)
-{
-    draw_sprite(rings_spr, 2, view_xview[0] + 569, view_yview[0] + 35);
-}
-if (global.ringInventory[1] == 2)
-{
-    draw_sprite(rings_spr, 2, view_xview[0] + 569, view_yview[0] + 78);
-}
-if (global.ringInventory[2] == 2)
-{
-    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 35);
-}
-if (global.ringInventory[3] == 2)
-{
-    draw_sprite(rings_spr, 2, view_xview[0] + 617, view_yview[0] + 78);
-}
-
-if (global.ringInventory[0] == 3)
-{
-    draw_sprite(rings_spr, 3, view_xview[0] + 569, view_yview[0] + 35);
-}
-if (global.ringInventory[1] == 3)
-{
-    draw_sprite(rings_spr, 3, view_xview[0] + 569, view_yview[0] + 78);
-}
-if (global.ringInventory[2] == 3)
-{
-    draw_sprite(rings_spr, 3, view_xview[0] + 617, view_yview[0] + 35);
-}
-if (global.ringInventory[3] == 3)
-{
-    draw_sprite(rings_spr, 3, view_xview[0] + 617, view_yview[0] + 78);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_self();
-global.guiPosX = view_xview[0];
-global.guiPosY = view_yview[0];
-draw_set_font(gui_fnt);
-
-//###Health###
-if (health == 6)
-{
-    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 144, global.guiPosY + 36);
-}
-if (health == 5)
-{
-    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
-    draw_sprite(heart_spr, 1, global.guiPosX + 144, global.guiPosY + 36);
-}
-if (health == 4)
-{
-    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 0, global.guiPosX + 90, global.guiPosY + 36);
-}
-if (health == 3)
-{
-    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-    draw_sprite(heart_spr, 1, global.guiPosX + 90, global.guiPosY + 36);
-}
-if (health == 2)
-{
-    draw_sprite(heart_spr, 0, global.guiPosX + 36, global.guiPosY + 36);
-}
-if (health == 1)
-{
-    draw_sprite(heart_spr, 1, global.guiPosX + 36, global.guiPosY + 36);
-}
-if (health == 0)
-{
-    draw_sprite(heart_spr, 2, global.guiPosX + 36, global.guiPosY + 36);
-}
-
-//###Money###
-//draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
-draw_set_color(c_white);
-draw_text(global.guiPosX + 14, global.guiPosY + 336, "Souls x" + string(global.money));
-
-//###GUI###
-/*
-draw_set_colour(c_white);
-draw_text(global.guiPosX + 8, global.guiPosY + 272, "checkpointX " + string(global.checkpointX));
-draw_text(global.guiPosX + 8, global.guiPosY + 288, "checkpointY " + string(global.checkpointY));
-draw_text(global.guiPosX + 8, global.guiPosY + 304, "stats = " + string(steam_stats_ready()));
-draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
-draw_text(global.guiPosX + 8, global.guiPosY + 336, "playerSpawnLocation = " + string(global.playerSpawnLocation));
-*/
-//draw_text(guiPosX + 8, guiPosY + 80, "'R' to Restart Room!");
-
-draw_set_colour(c_white);
-//###Ring Inventory###
-draw_sprite(ringbox_spr, 0, view_xview[0] + 569, view_yview[0] + 35);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 569, view_yview[0] + 78);
-
-draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 35);
-draw_sprite(ringbox_spr, 0, view_xview[0] + 617, view_yview[0] + 78);
-
-//###World Text###
-if (room == gardenValley &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Garden Valley");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == unknownForest1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Unknown Forest");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == unknownForest3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Fading Mansion");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == undergroundCity1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Underground City");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Castle of Regret");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == sentinelGraves1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Sentinel Graves");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == sentinelGraves2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Sentinel Graves");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == deepPrison &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Deep Prison");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == overcastPeak2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Overcast Peak");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == skullcoinBay1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Skullcoin Bay");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == undergroundStation1 &amp;&amp; global.spawned == true || room == undergroundStation2 &amp;&amp; global.spawned == true || room == undergroundStation3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 70, global.guiPosY + 70, "Now Entering: Underground Station");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Black Screen
-
-if (dead == true)
-{
-    if (amount &lt; 1)
-    {
-        amount = amount + 0.01;
-    }
-}
-else
-{
-    if (amount &gt; 0)
-    {
-        amount -= 0.01;
-    }
-}
-
-if !surface_exists(surface)
-{
-    surface = surface_create(room_width, room_height);
-    surfaceScale = 1/8;
-}
-else
-{
-    surface_set_target(surface);
-    draw_clear(c_black);
-    surface_reset_target();
-    draw_surface_ext(surface, 0, 0, 1/surfaceScale, 1/surfaceScale, 0, c_white, amount);
-}
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Pause Menu
-/*
-if (pauseMenu == true)
-{
-    movement = false;
-    amount = 0.6;
-}
-else
-{
-    movement = true;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
             <string>///Multiplayer
-
+draw_self();
 image_blend = c_blue;
 </string>
           </argument>

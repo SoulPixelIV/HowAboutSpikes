@@ -226,21 +226,25 @@ if (enemyHealth &lt;= 0)
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>player_obj</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
+            <string>with (player_obj)
 {
-    with(enemyNormal_obj)
+    if ((place_meeting(x, y, checkpoint_obj)) || (place_meeting(x, y, checkpointMystery_obj)))
     {
-        enemyHealth = 100;
-        x = startPosX;
-        y = startPosY;
+        with(enemyNormal_obj)
+        {
+            enemyHealth = 100;
+            x = startPosX;
+            y = startPosY;
+        }
     }
 }
+
 
 </string>
           </argument>

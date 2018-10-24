@@ -769,7 +769,6 @@
     <instance objName="ladderIron_obj" x="928" y="32" name="inst_90077770" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="960" y="32" name="inst_E6741EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="992" y="32" name="inst_588EF010" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="saw_obj" x="704" y="192" name="inst_C36F7E4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="864" y="256" name="inst_31DBAE5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="896" y="256" name="inst_CA508234" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="928" y="256" name="inst_06C855F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -852,7 +851,6 @@
     <instance objName="lamp_obj" x="1632" y="128" name="inst_04C7D40A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="checkpoint_obj" x="1760" y="160" name="inst_16BA3C39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="480" y="480" name="inst_B7078617" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="704" y="96" name="inst_DADC2452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="761" y="1230" name="inst_754EFD46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="1120" y="1376" name="inst_4C981836" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="1152" y="1376" name="inst_D9C1372B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
