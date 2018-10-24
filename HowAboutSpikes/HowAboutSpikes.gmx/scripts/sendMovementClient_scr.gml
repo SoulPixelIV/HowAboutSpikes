@@ -6,8 +6,9 @@ buffer_write(buffer, buffer_u8, 1);
 buffer_write(buffer, buffer_u32, player_obj.x);
 buffer_write(buffer, buffer_u32, player_obj.y);
 buffer_write(buffer, buffer_s8, player_obj.image_xscale);
-buffer_write(buffer, buffer_u8, player_obj.horSpeed);
-
+buffer_write(buffer, buffer_s8, player_obj.move);
+buffer_write(buffer, buffer_s8, global.mpkeyThrow);
+buffer_write(buffer, buffer_s8, global.mpkeyAttack);
 
 network_send_packet(client_socket, buffer, buffer_tell(buffer));
 

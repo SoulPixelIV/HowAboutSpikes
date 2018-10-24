@@ -303,6 +303,11 @@ global.checkpointY = 0;
 global.checkpointRoom = 0;
 global.restart = false;
 
+//Multiplayer Help Vars
+mpkeyThrow = false;
+mpkeyAttack = false;
+localScythe = noone;
+
 //Achievement
 if (global.healthVar == 6)
 {
@@ -900,7 +905,7 @@ gamepad_set_axis_deadzone(0, 0.55);
 var move = key_right - key_left;
 horSpeed = move * global.movSpeed;
 
-if (keyboard_check_pressed(ord('J'))  &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false || gamepad_button_check_pressed(0, gp_shoulderl) &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
+if (mpkeyThrow &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
 {
     dash = true;
 }
@@ -934,14 +939,13 @@ else
 }
 
 //###Scythe Throw###
-/*
-if (key_throw)
+if (mpkeyThrow)
 {
-    if (lastDir == 0)
+    if (global.mpMove &gt; 0)
     {
         if (!throw)
         {
-            instance_create(x + 16, y, scythe_obj);
+            localScythe = instance_create(x + 16, y, scythe_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
@@ -953,11 +957,11 @@ if (key_throw)
             }
         }
     }
-    else
+    if (global.mpMove &lt; 0)
     {
         if (!throw)
         {
-            instance_create(x - 16, y, scythe_obj);
+            localScythe = instance_create(x - 16, y, scythe_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
@@ -969,12 +973,47 @@ if (key_throw)
             }
         }
     }
+    if (global.mpMove == 0)
+    {
+        if (lastDir == 0)
+        {
+            if (!throw)
+            {
+                localScythe = instance_create(x - 16, y, scythe_obj);
+                if (!audio_is_playing(attack_snd))
+                {
+                    audio_play_sound(attack_snd, 1, false);
+                }
+                throw = true;
+                with (scythe_obj)
+                {
+                    hspeed = -6.2;
+                }
+            }
+        }
+        if (lastDir == 1)
+        {
+            if (!throw)
+            {
+                localScythe = instance_create(x + 16, y, scythe_obj);
+                if (!audio_is_playing(attack_snd))
+                {
+                    audio_play_sound(attack_snd, 1, false);
+                }
+                throw = true;
+                with (scythe_obj)
+                {
+                    hspeed = 6.2;
+                }
+            }
+        }
+    }
 }
 else
 {
-    if (instance_exists(scythe_obj))
+    if (instance_exists(localScythe))
     {
-        with (scythe_obj)
+        with (localScythe)
         {
             instance_destroy();
         }
@@ -984,7 +1023,6 @@ else
         throw = false;
     }
 }
-*/
 
 //###Animation###
 if (movement == true)
@@ -998,6 +1036,15 @@ if (movement == true)
     {
         image_speed = 0.145;
         sprite_index = playerIdle_spr;
+    }
+    
+    if (global.mpMove &lt; 0)
+    {
+        lastDir = 0;
+    }
+    if (global.mpMove &gt; 0)
+    {
+        lastDir = 1;
     }
     
     if (vspeed &gt; 0 &amp;&amp; animPause == false)
@@ -1074,9 +1121,9 @@ if (movement == true)
         }
     }
 }
-    
+        
 //###Combat###
-if (key_attack &amp;&amp; movement == true &amp;&amp; !throw)
+if (mpkeyAttack &amp;&amp; movement == true &amp;&amp; !throw)
 {
     if (!audio_is_playing(attack_snd))
     {
@@ -1093,17 +1140,15 @@ if (key_attack &amp;&amp; movement == true &amp;&amp; !throw)
     }
     if (cooldown == false)
     {
-        if (lastDir == 0)
+        if (global.mpMove &gt; 0)
         {
             instance_create(x + 16, y, hitbox_obj);
             cooldown = true
-            image_xscale = 1;
         }
-        else
+        if (global.mpMove &lt; 0)
         {
             instance_create(x - 16, y, hitbox_obj);
             cooldown = true
-            image_xscale = -1;
         }
     }
 }
@@ -2102,6 +2147,29 @@ else
 {
     movement = true;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Multiplayer
+
+image_blend = c_blue;
 </string>
           </argument>
         </arguments>

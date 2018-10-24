@@ -302,6 +302,12 @@ global.checkpointY = 0;
 global.checkpointRoom = 0;
 global.restart = false;
 
+//Multiplayer Help Vars
+global.mpkeyThrow = false;
+global.mpkeyAttack = false;
+localScythe = noone;
+move = 0;
+
 //Achievement
 if (global.healthVar == 6)
 {
@@ -884,10 +890,10 @@ key_throw = keyboard_check(ord('J')) || gamepad_button_check(0, gp_shoulderl);
 key_restart = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
 key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
 gamepad_set_axis_deadzone(0, 0.55);
-var move = key_right - key_left;
+move = key_right - key_left;
 horSpeed = move * global.movSpeed;
 
-if (keyboard_check_pressed(ord('J'))  &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false || gamepad_button_check_pressed(0, gp_shoulderl) &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
+if (keyboard_check_pressed(ord('J')) &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false || gamepad_button_check_pressed(0, gp_shoulderl) &amp;&amp; verSpeed &gt; 0 &amp;&amp; dash == false)
 {
     dash = true;
 }
@@ -923,11 +929,12 @@ else
 //###Scythe Throw###
 if (key_throw)
 {
+    global.mpkeyThrow = true;
     if (lastDir == 0)
     {
         if (!throw)
         {
-            instance_create(x + 16, y, scythe_obj);
+            localScythe = instance_create(x + 16, y, scythe_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
@@ -943,7 +950,7 @@ if (key_throw)
     {
         if (!throw)
         {
-            instance_create(x - 16, y, scythe_obj);
+            localScythe = instance_create(x - 16, y, scythe_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
@@ -958,9 +965,9 @@ if (key_throw)
 }
 else
 {
-    if (instance_exists(scythe_obj))
+    if (instance_exists(localScythe))
     {
-        with (scythe_obj)
+        with (localScythe)
         {
             instance_destroy();
         }
@@ -969,6 +976,7 @@ else
     {
         throw = false;
     }
+    global.mpkeyThrow = false;
 }
 
 
@@ -1131,6 +1139,7 @@ if (movement == true)
 //###Combat###
 if (key_attack &amp;&amp; movement == true &amp;&amp; !throw)
 {
+    global.mpkeyAttack = true;
     if (!audio_is_playing(attack_snd))
     {
         audio_play_sound(attack_snd, 1, false);
@@ -1159,6 +1168,10 @@ if (key_attack &amp;&amp; movement == true &amp;&amp; !throw)
             image_xscale = -1;
         }
     }
+}
+else
+{
+    global.mpkeyAttack = false;
 }
 
 if ((grounded == false) &amp;&amp; (distance_to_object(enemy_obj) &lt; 128))
