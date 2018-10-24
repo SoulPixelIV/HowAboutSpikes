@@ -426,10 +426,7 @@
   <objects name="objects">
     <objects name="Player">
       <object>objects\player_obj</object>
-      <object>objects\playerClient_obj</object>
       <object>objects\playerServer_obj</object>
-      <object>objects\playerServerBack_obj</object>
-      <object>objects\playerClientBack_obj</object>
       <object>objects\player2_obj</object>
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>

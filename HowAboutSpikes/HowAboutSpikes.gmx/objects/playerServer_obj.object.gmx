@@ -258,7 +258,8 @@ if (room == skullcoinBayBoss || room == skullcoinBay6)
 
 global.movSpeed = 2.65;
 global.jumpStrength = 7.04;
-global.numberJumps = 2;
+global.mpMove = 0;
+numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
 health = global.healthVar;
@@ -295,8 +296,8 @@ global.state = 0;
 global.damage = 20;
 global.damage = global.damage * global.dmgMult;
 global.holding = noone;
-global.numberJumpsSave = global.numberJumps;
-global.numberJumps = 0;
+numberJumpsSave = numberJumps;
+numberJumps = 0;
 global.checkpointX = 0;
 global.checkpointY = 0;
 global.checkpointRoom = 0;
@@ -874,8 +875,17 @@ if (movement == true)
     y = y + verSpeed;
 }
 
-x = global.playerClientx;
-y = global.playerClienty;
+//###Multiplayer Sync
+if (global.mpStatus == 0)
+{
+    x = global.playerClientx;
+    y = global.playerClienty;
+}
+if (global.mpStatus == 1)
+{
+    x = global.playerClientBackx;
+    y = global.playerClientBacky;
+}
 
 key_left = keyboard_check(ord('A')) || gamepad_axis_value(0, gp_axislh) &lt; 0;
 key_right = keyboard_check(ord('D')) || gamepad_axis_value(0, gp_axislh) &gt; 0;
@@ -979,31 +989,15 @@ else
 //###Animation###
 if (movement == true)
 {
-    if (image_xscale == 1 &amp;&amp; animPause == false)
+    if (global.mpMove != 0 &amp;&amp; animPause == false)
     {
-        lastDir = 0;
         image_speed = 0.15;
         sprite_index = playerWalk_spr;
-    }
-    if (image_xscale == -1 &amp;&amp; animPause == false)
+    }    
+    if (global.mpMove == 0 &amp;&amp; animPause == false)
     {
-        lastDir = 1;
-        image_speed = 0.15;
-        sprite_index = playerWalk_spr;
-    }
-    
-    if (hspeed == 0 &amp;&amp; animPause == false)
-    {
-        if (lastDir == 0)
-        {
-            image_speed = 0.145;
-            sprite_index = playerIdle_spr;
-        }
-        else
-        {
-            image_speed = 0.145;
-            sprite_index = playerIdle_spr;
-        }
+        image_speed = 0.145;
+        sprite_index = playerIdle_spr;
     }
     
     if (vspeed &gt; 0 &amp;&amp; animPause == false)
@@ -1018,7 +1012,7 @@ if (movement == true)
         sprite_index = playerLanding_spr;
     }
     
-    if (global.numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower &amp;&amp; animPause == false)
+    if (numberJumps == 0 &amp;&amp; key_jump_hold &amp;&amp; global.ringPower &amp;&amp; animPause == false)
     {
         image_speed = 0.3;
         sprite_index = playerSpin_spr;
@@ -1066,10 +1060,10 @@ if (movement == true)
         }
     }
 
-    if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (global.numberJumps &gt; 0)
+    if (!place_free(x, y + 1) &amp;&amp; (key_jump)) || (key_jump) &amp;&amp; (numberJumps &gt; 0)
     {
         verSpeed = -global.jumpStrength;
-        global.numberJumps = global.numberJumps - 1;
+        numberJumps = numberJumps - 1;
     }
     
     if (key_jump_release &amp;&amp; fullJump == false)
@@ -1160,9 +1154,9 @@ case 3:
     break;
     
 case 4:
-    if (global.numberJumps &lt; 1)
+    if (numberJumps &lt; 1)
     {
-        global.numberJumps = global.numberJumps + 1;
+        numberJumps = numberJumps + 1;
     }
     verSpeed = -4;
     global.state = 0;
@@ -1212,7 +1206,7 @@ if (!place_free(x, y + verSpeed))
     verSpeed = 0;
     if (!place_free(x, y + 1))
     {
-        global.numberJumps = global.numberJumpsSave;
+        numberJumps = numberJumpsSave;
     }
     /*
     if (spawnPart == false)

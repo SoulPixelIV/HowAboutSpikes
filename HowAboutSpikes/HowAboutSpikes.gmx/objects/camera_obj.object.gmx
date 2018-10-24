@@ -216,16 +216,22 @@ if (key_pause)
                     pauseMenu = true;
                     saveXPos = player_obj.x;
                     saveYPos = player_obj.y;
-                    with (player_obj)
+                    if (global.mpStatus == -1)
                     {
-                        global.healthPause = health;
-                        instance_destroy();
+                        with (player_obj)
+                        {
+                            global.healthPause = health;
+                            instance_destroy();
+                        }
                     }
                 }
                 else
                 {
                     pauseMenu = false;
-                    instance_create(saveXPos, saveYPos, player_obj);
+                    if (global.mpStatus == -1)
+                    {
+                        instance_create(saveXPos, saveYPos, player_obj);
+                    }
                     global.checkpointX = global.checkpointSaveX;
                     global.checkpointY = global.checkpointSaveY;
                 }
@@ -295,7 +301,10 @@ if (pauseMenu == true)
         if (key_enter)
         {
             pauseMenu = false;
-            instance_create(saveXPos, saveYPos, player_obj);
+            if (global.mpStatus == -1)
+            {
+                instance_create(saveXPos, saveYPos, player_obj);
+            }
         }
     }
     if (buttonSelected == 1)
