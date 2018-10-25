@@ -148,6 +148,8 @@ global.mpClientx = 0;
 global.mpClienty = 0;
 global.playerClientBackx = 0;
 global.playerClientBacky = 0;
+global.serverSpawned = false;
+global.clientSpawned = false;
 
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);

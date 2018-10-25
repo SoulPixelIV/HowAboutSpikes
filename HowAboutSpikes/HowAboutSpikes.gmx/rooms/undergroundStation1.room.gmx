@@ -221,7 +221,7 @@
     <instance objName="globalSettings_obj" x="128" y="0" name="inst_61ED6458" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleBlueSpawner_obj" x="160" y="0" name="inst_2EF52426" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleCircleRedSpawner_obj" x="192" y="0" name="inst_7ECD903B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="mpSpawn_obj" x="224" y="0" name="inst_47FA6273" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mpSpawn_obj" x="224" y="0" name="inst_3F7BD31E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

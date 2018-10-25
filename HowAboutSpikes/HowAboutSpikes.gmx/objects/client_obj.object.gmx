@@ -27,15 +27,19 @@
             <kind>1</kind>
             <string>client_socket = network_create_socket(network_socket_tcp);
 client_socket = network_set_config(network_config_connect_timeout, 1000);
-  
-ip = get_string("Please enter an IP adress", "localhost");
-port = get_string("Please enter a port", "8001");
-connection = network_connect(client_socket, ip, port);
 
-if (connection &lt; 0)
+if (!global.clientSpawned)
 {
-    show_message("There is no host available!");
-    room_goto(mainMenu);
+    ip = get_string("Please enter an IP adress", "localhost");
+    port = get_string("Please enter a port", "8001");
+    connection = network_connect(client_socket, ip, port);
+    global.clientSpawned = true;
+    
+    if (connection &lt; 0)
+    {
+        show_message("There is no host available!");
+        room_goto(mainMenu);
+    }
 }
      
 //Create fixed Buffer

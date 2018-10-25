@@ -2666,7 +2666,7 @@
     <instance objName="castleBlock_obj" x="2432" y="800" name="inst_3D137EFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="npcMap5_obj" x="1631" y="976" name="inst_89AED302" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="shopIcon7_5_obj" x="1632" y="896" name="inst_9E4B8F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="mpSpawn_obj" x="224" y="0" name="inst_E6560FE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mpSpawn_obj" x="224" y="0" name="inst_A7D9CDD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

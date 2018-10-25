@@ -317,6 +317,8 @@ if (pauseMenu == true)
             room_goto(mainMenu);
             //Multiplayer
             global.mpStatus = -1;
+            global.clientSpawned = false;
+            global.serverSpawned = false;
         }
     }
 }

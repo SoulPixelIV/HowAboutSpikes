@@ -29,8 +29,12 @@
 
 socket = noone;
 
-port = get_string("Please enter a port", "8001");
-server = network_create_server(network_socket_tcp, port, 4);
+if (!global.serverSpawned)
+{
+    port = get_string("Please enter a port", "8001");
+    server = network_create_server(network_socket_tcp, port, 4);
+    global.serverSpawned = true;
+}
     
 //Spawn Player
 //instance_create(150, 150, playerServerBack_obj);
