@@ -306,6 +306,7 @@ global.restart = false;
 //Multiplayer Help Vars
 mpkeyThrow = false;
 mpkeyAttack = false;
+mpkeyEnter = false;
 localScythe = noone;
 
 //Achievement

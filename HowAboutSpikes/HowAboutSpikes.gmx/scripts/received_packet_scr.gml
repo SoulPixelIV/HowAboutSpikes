@@ -16,6 +16,8 @@ switch(message_id)
         global.playerClientHorSpeed = buffer_read(buffer, buffer_s8);
         global.playerClientKeyThrow = buffer_read(buffer, buffer_s8);
         global.playerClientKeyAttack = buffer_read(buffer, buffer_s8);
+        global.playerClientKeyEnter = buffer_read(buffer, buffer_s8);
+        
         if (!instance_exists(playerServer_obj))
         {
             instance_create(global.playerClientx, global.playerClienty, playerServer_obj);
@@ -25,6 +27,8 @@ switch(message_id)
         playerServer_obj.image_xscale = global.playerClientxScale;
         playerServer_obj.mpkeyThrow = global.playerClientKeyThrow;
         playerServer_obj.mpkeyAttack = global.playerClientKeyAttack;
+        playerServer_obj.mpkeyEnter = global.playerClientKeyEnter;
+        
         global.mpMove = global.playerClientHorSpeed;
         
         break;
@@ -35,6 +39,7 @@ switch(message_id)
         global.playerClientBackHorSpeed = buffer_read(buffer, buffer_s8);
         global.playerClientBackKeyThrow = buffer_read(buffer, buffer_s8);
         global.playerClientBackKeyAttack = buffer_read(buffer, buffer_s8);
+        global.playerClientBackKeyEnter = buffer_read(buffer, buffer_s8);
         if (!instance_exists(playerServer_obj))
         {
             instance_create(global.playerClientBackx, global.playerClientBacky, playerServer_obj);
@@ -44,6 +49,7 @@ switch(message_id)
         playerServer_obj.image_xscale = global.playerClientBackxScale;
         playerServer_obj.mpkeyThrow = global.playerClientBackKeyThrow;
         playerServer_obj.mpkeyAttack = global.playerClientBackKeyAttack;
+        playerServer_obj.mpkeyEnter = global.playerClientBackKeyEnter;
         global.mpMove = global.playerClientBackHorSpeed;
         break;
 }

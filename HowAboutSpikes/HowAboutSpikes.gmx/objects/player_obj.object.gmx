@@ -305,6 +305,7 @@ global.restart = false;
 //Multiplayer Help Vars
 global.mpkeyThrow = false;
 global.mpkeyAttack = false;
+global.mpkeyEnter = false;
 localScythe = noone;
 move = 0;
 
@@ -891,6 +892,7 @@ key_attack = keyboard_check_pressed(ord('K')) || gamepad_button_check_pressed(0,
 key_throw = keyboard_check(ord('J')) || gamepad_button_check(0, gp_shoulderl);
 key_restart = keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face1);
 key_pause = keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start);
+key_enter = keyboard_check_pressed(vk_enter) || gamepad_button_check_pressed(0, gp_face2);
 gamepad_set_axis_deadzone(0, 0.55);
 move = key_right - key_left;
 horSpeed = move * global.movSpeed;
@@ -926,6 +928,16 @@ else
     x = savePosX;
     y = savePosY;
     verSpeed = 0;
+}
+
+//###Enter###
+if (key_enter)
+{
+    global.mpkeyEnter = true;
+}
+else
+{
+    global.mpkeyEnter = false;
 }
 
 //###Scythe Throw###
