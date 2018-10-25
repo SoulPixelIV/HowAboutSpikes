@@ -164,7 +164,15 @@ alarm[0] = 10;
 {
     with (eyeBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 1.7;
+        if (global.mpStatus == -1)
+        {
+            bossHealth = bossHealth - global.damage / 1.7;
+        }
+        else
+        {
+            bossHealth = bossHealth - global.damage / 3.4;
+        }
+        
         invincible = true;
         alarm[1] = 10;
     }

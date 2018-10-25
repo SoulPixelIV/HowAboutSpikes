@@ -173,7 +173,14 @@ if (place_meeting(x, y, scythe_obj))
 {
     with (cubeBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 2.7;
+        if (global.mpStatus == -1)
+        {
+            bossHealth = bossHealth - global.damage / 2.7;
+        }
+        else
+        {
+            bossHealth = bossHealth - global.damage / 5.3;
+        }
         invincible = true;
         alarm[1] = 10;
     }

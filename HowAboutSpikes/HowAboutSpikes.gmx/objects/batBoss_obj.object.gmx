@@ -264,7 +264,14 @@ if (deathTimer &lt; 0)
 {
     with (batBoss_obj)
     {
-        bossHealth = bossHealth - global.damage / 1.8;
+        if (global.mpStatus == -1)
+        {
+            bossHealth = bossHealth - global.damage / 1.8;
+        }
+        else
+        {
+            bossHealth = bossHealth - global.damage / 3.6;
+        }
         invincible = true;
         alarm[0] = 10;
     }
