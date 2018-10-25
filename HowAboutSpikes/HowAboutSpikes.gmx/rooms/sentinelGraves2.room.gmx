@@ -494,6 +494,7 @@
     <instance objName="treasurechest_obj" x="1184" y="1056" name="inst_E0750337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="npcMap3_obj" x="97" y="560" name="inst_28E0BE0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="shopIcon7_3_obj" x="99" y="480" name="inst_124F3D45" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mpSpawn_obj" x="224" y="0" name="inst_80322CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

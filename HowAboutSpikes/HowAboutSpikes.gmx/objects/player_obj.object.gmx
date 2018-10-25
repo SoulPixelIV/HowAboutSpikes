@@ -1679,10 +1679,10 @@ if (keyboard_check_pressed(ord('5')) &amp;&amp; room != skullcoinBay3)
     global.playerSpawnLocation = 0;
     room_goto(skullcoinBay3);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeakBoss)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeakBoss);
+    room_goto(overcastPeak3);
 }
 if (keyboard_check_pressed(ord('7')) &amp;&amp; room != skullcoinBayBoss)
 {

@@ -457,6 +457,7 @@
     <instance objName="colliderUC3_US2_obj" x="97" y="623" name="inst_C77C9921" locked="0" code="" scaleX="1.83333337306976" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="192" y="608" name="inst_B8DB912F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pipe_obj" x="672" y="144" name="inst_3547DB3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="mpSpawn_obj" x="160" y="0" name="inst_AC4446E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

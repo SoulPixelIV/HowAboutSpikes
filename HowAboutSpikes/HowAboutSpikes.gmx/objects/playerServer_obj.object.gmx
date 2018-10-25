@@ -1584,29 +1584,7 @@ if (place_meeting(x, y, flyingCloud_obj))
     horSpeed = horSpeed / 2.75;
     verSpeed = verSpeed / 1.2;
 }
-//###Money Collision###
-if (place_meeting(x, y, darkSpirit_obj))
-{
-    if (global.ringWealth)
-    {
-        global.money += 2;
-    }
-    else
-    {
-        global.money += 1;
-    }
-}
-if (place_meeting(x, y, darkSpiritBig_obj))
-{
-    if (global.ringWealth)
-    {
-        global.money += 20;
-    }
-    else
-    {
-        global.money += 10;
-    }
-}
+
 //###GlassBlockBroken Collision###
 if (place_meeting(x, y, glassBlockBroken_obj))
 {

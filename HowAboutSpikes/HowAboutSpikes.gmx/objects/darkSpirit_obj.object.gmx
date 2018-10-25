@@ -53,6 +53,10 @@ instance_create(x, y, light_obj);
 {
     instance_change(darkSpiritDestroy_obj, true);
 }
+if (place_meeting(x, y, playerServer_obj))
+{
+    instance_change(darkSpiritDestroy_obj, true);
+}
 if (place_meeting(x, y, scythe_obj))
 {
     instance_change(darkSpiritDestroy_obj, true);

@@ -51,6 +51,44 @@ global.continued = false;
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Music
+if (!audio_is_playing(mainMenu_msc))
+{
+    audio_stop_sound(heaven_msc);
+    audio_stop_sound(undergroundCity_msc);
+    audio_stop_sound(unknownForest_msc);
+    audio_stop_sound(boss_msc);
+    audio_stop_sound(beach_msc);
+    audio_stop_sound(tutorial_msc);
+    audio_stop_sound(snow_msc);
+    audio_stop_sound(lava_msc);
+    audio_stop_sound(dark_msc);
+    audio_stop_sound(final_msc);
+    audio_stop_sound(skull_msc);
+    audio_play_sound(mainMenu_msc, 1, true);
+    audio_sound_gain(mainMenu_msc, 0, 0);
+    audio_sound_gain(mainMenu_msc, 0.2, 10000);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
 key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);

@@ -314,7 +314,9 @@ if (pauseMenu == true)
         if (key_enter)
         {
             pauseMenu = false;
-            room_goto(creditsMenu);
+            room_goto(mainMenu);
+            //Multiplayer
+            global.mpStatus = -1;
         }
     }
 }
