@@ -614,7 +614,9 @@
       <object>objects\spiderweb_obj</object>
       <object>objects\snowPile_obj</object>
       <object>objects\redOrbPlace_obj</object>
+      <object>objects\redOrbPlace2_obj</object>
       <object>objects\blueOrbPlace_obj</object>
+      <object>objects\blueOrbPlace2_obj</object>
       <object>objects\doorHole_obj</object>
       <object>objects\ropeLine_obj</object>
     </objects>

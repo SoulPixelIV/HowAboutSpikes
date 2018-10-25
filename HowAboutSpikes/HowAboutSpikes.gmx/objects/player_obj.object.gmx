@@ -607,6 +607,8 @@ amount = 1;
     ini_write_real("Save1", "blueOrb", global.pickedBlue);
     ini_write_real("Save1", "redOrbPlaced", global.placedRed);
     ini_write_real("Save1", "blueOrbPlaced", global.placedBlue);
+    ini_write_real("Save1", "redOrbPlaced2", global.placedRed2);
+    ini_write_real("Save1", "blueOrbPlaced2", global.placedBlue2);
     ini_write_real("Save1", "money", global.money);
     ini_write_real("Save1", "ultraSouls", global.pickedUltraSouls);
     ini_write_real("Save1", "health", global.healthVar);
