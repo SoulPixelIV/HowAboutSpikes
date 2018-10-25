@@ -73,7 +73,16 @@ if (instance_exists(player_obj))
     {
         move_towards_point(blueOrbPlace_obj.x, blueOrbPlace_obj.y, 1.75);
     }
+    if (distance_to_object(blueOrbPlace2_obj) &lt; 128)
+    {
+        move_towards_point(blueOrbPlace2_obj.x, blueOrbPlace2_obj.y, 1.75);
+    }
     
+    if (place_meeting(x, y, blueOrbPlace_obj))
+    {
+        speed = 0;
+        global.placedBlue = true;
+    }
     if (place_meeting(x, y, blueOrbPlace2_obj))
     {
         speed = 0;

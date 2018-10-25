@@ -139,7 +139,7 @@ y = y + verSpeed;
 
 if (instance_exists(player_obj))
 {
-    if (distance_to_object(player_obj) &lt;= 200 &amp;&amp; distance_to_object(player_obj) &gt;= 64)
+    if (distance_to_object(player_obj) &lt; 200 &amp;&amp; distance_to_object(player_obj) &gt; 64 &amp;&amp; distance_to_object(pirate_obj) &gt; 16)
     {
         horSpeed = movSpeed;
     }
@@ -154,7 +154,7 @@ if (instance_exists(player_obj))
         global.hit = true;
     }
     
-    if (distance_to_object(player_obj) &gt;= 220)
+    if (distance_to_object(player_obj) &gt; 220)
     {
         horSpeed = 0;
     }

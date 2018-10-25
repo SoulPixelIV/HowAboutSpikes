@@ -54,7 +54,7 @@
             <string>if (place_meeting(x, y, redOrb_obj))
 {
     global.pickedRed = false;
-    with (blueOrbPlace_obj)
+    with (blueOrbPlace2_obj)
     {
         if (place_meeting(x, y, blueOrb_obj))
         {
