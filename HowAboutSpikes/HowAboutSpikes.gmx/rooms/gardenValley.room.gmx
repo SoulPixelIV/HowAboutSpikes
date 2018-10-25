@@ -2123,8 +2123,8 @@
     <instance objName="stoneBlockGrey_obj" x="224" y="768" name="inst_D0B199E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="192" y="736" name="inst_D7B4FFEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockGrey_obj" x="224" y="832" name="inst_C7A334E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="224" y="773" name="inst_707579F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="stoneBlockGrey_obj" x="224" y="830" name="inst_01E08373" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="224" y="780" name="inst_707579F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="stoneBlockGrey_obj" x="224" y="829" name="inst_01E08373" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="window_obj" x="160" y="800" name="inst_09BDA33E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="window_obj" x="192" y="800" name="inst_E1AA07B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="window_obj" x="160" y="832" name="inst_A738E3C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

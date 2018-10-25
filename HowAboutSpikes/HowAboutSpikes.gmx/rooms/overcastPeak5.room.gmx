@@ -2556,8 +2556,6 @@
     <instance objName="ladderIron_obj" x="2464" y="640" name="inst_3F015AB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2464" y="672" name="inst_591768B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemySkeletonRed_obj" x="1152" y="768" name="inst_4E586E4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemySkeletonRed_obj" x="2176" y="1440" name="inst_8E6C2B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="enemySkeletonRed_obj" x="288" y="1408" name="inst_41109D75" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
