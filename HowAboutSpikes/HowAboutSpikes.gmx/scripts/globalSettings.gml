@@ -141,6 +141,8 @@ global.spawnBoss = true;
 //Save
 global.checkpointX = 0;
 global.checkpointY = 0;
+global.checkpointServerX = 0;
+global.checkpointServerY = 0;
 
 //MP
 global.mpStatus = -1;
