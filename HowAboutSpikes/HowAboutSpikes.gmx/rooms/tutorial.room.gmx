@@ -2220,7 +2220,6 @@
     <instance objName="snowBlock_obj" x="-32" y="32" name="inst_698A2731" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="snowBlock_obj" x="-32" y="0" name="inst_1884C8E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mpSpawn_obj" x="288" y="0" name="inst_DD27E68A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="key_obj" x="576" y="1856" name="inst_126B4750" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

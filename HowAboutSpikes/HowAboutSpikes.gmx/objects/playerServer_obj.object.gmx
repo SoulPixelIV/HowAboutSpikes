@@ -298,9 +298,6 @@ global.damage = global.damage * global.dmgMult;
 global.holding = noone;
 numberJumpsSave = numberJumps;
 numberJumps = 0;
-global.checkpointX = 0;
-global.checkpointY = 0;
-global.checkpointRoom = 0;
 global.restart = false;
 
 //Multiplayer Help Vars

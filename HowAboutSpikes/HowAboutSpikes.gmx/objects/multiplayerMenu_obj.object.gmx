@@ -90,7 +90,7 @@ if (buttonSelected == 0)
     cursor_obj.y = 196;
     if (key_enter)
     {
-        room_goto(tutorial);
+        room_goto(gardenValley);
         global.mpStatus = 0;
     }
 }
@@ -101,7 +101,7 @@ if (buttonSelected == 1)
     cursor_obj.y = 218;
     if (key_enter)
     {
-        room_goto(tutorial);
+        room_goto(gardenValley);
         global.mpStatus = 1;
     }
 }
@@ -150,7 +150,7 @@ draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);
-draw_text(1570, 1040, "How About Spikes | Patch 17");
+draw_text(1570, 1040, "How About Spikes | Patch 18");
 </string>
           </argument>
         </arguments>
