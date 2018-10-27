@@ -1411,7 +1411,44 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     }
     fullJump = true;
     global.numberJumps = global.numberJumps - 1;
+
     with (scythe_obj)
+    {
+        instance_destroy();
+    }
+}
+
+if (place_meeting(x, y, scytheServer_obj) &amp;&amp; global.throwingServer == false)
+{   
+    //###Collision Checking###
+    if (!place_free(x + horSpeed, y))
+    {
+        while (place_free(x + sign(horSpeed), y))
+        {
+            x = x + sign(horSpeed);
+        }
+        horSpeed = 0;
+    }
+    else
+    {
+        verSpeed = -9;
+    }
+    if (!place_free(x, y + verSpeed))
+    {
+        while (place_free(x, y + sign(verSpeed)))
+        {
+            y = y + sign(verSpeed);
+        }
+        verSpeed = 0;
+    }
+    else
+    {
+        verSpeed = -9;
+    }
+    fullJump = true;
+    global.numberJumps = global.numberJumps - 1;
+
+    with (scytheServer_obj)
     {
         instance_destroy();
     }
@@ -1653,7 +1690,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*
+            <string>
 ///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
@@ -1686,10 +1723,10 @@ if (keyboard_check_pressed(ord('4')))
 {
     global.ringVision = true;
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != deepPrison)
 {
     global.playerSpawnLocation = 0;
-    room_goto(gardenValley);
+    room_goto(deepPrison);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak3)
 {

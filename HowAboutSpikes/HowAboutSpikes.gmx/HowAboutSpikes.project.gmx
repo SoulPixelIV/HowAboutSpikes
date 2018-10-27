@@ -167,6 +167,7 @@
       <sprite>sprites\darkSpiritBig_spr</sprite>
       <sprite>sprites\ultraSpirit_spr</sprite>
       <sprite>sprites\powerup_spr</sprite>
+      <sprite>sprites\powerupUsed_spr</sprite>
       <sprite>sprites\key_spr</sprite>
       <sprite>sprites\keyDestroy_spr</sprite>
       <sprite>sprites\redOrb_spr</sprite>
@@ -430,6 +431,7 @@
       <object>objects\player2_obj</object>
       <object>objects\playerDeath_obj</object>
       <object>objects\scythe_obj</object>
+      <object>objects\scytheServer_obj</object>
       <object>objects\camera_obj</object>
       <object>objects\dashEffect_obj</object>
       <object>objects\playerRewrite_obj</object>
@@ -744,6 +746,7 @@
       <object>objects\petBird_obj</object>
       <object>objects\warpzone_obj</object>
       <object>objects\scytheReload_obj</object>
+      <object>objects\scytheReloadDestroyed_obj</object>
       <object>objects\treasurechest_obj</object>
       <object>objects\goldchain_obj</object>
     </objects>

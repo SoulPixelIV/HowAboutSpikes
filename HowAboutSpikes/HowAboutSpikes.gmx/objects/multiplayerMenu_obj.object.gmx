@@ -90,7 +90,7 @@ if (buttonSelected == 0)
     cursor_obj.y = 196;
     if (key_enter)
     {
-        room_goto(gardenValley);
+        room_goto(tutorial);
         global.mpStatus = 0;
     }
 }
@@ -101,7 +101,7 @@ if (buttonSelected == 1)
     cursor_obj.y = 218;
     if (key_enter)
     {
-        room_goto(gardenValley);
+        room_goto(tutorial);
         global.mpStatus = 1;
     }
 }

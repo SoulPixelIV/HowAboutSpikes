@@ -140,7 +140,7 @@ switch (type_event)
             <kind>1</kind>
             <string>///Destroy Socket and Buffer
 
-network_destroy(client_socket);
+//network_destroy(client_socket);
 </string>
           </argument>
         </arguments>

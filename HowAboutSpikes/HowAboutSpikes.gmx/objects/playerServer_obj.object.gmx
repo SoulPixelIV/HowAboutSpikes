@@ -946,13 +946,13 @@ if (mpkeyThrow)
     {
         if (!throw)
         {
-            localScythe = instance_create(x + 16, y, scythe_obj);
+            localScythe = instance_create(x + 16, y, scytheServer_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
             }
             throw = true;
-            with (scythe_obj)
+            with (scytheServer_obj)
             {
                 hspeed = 6.2;
             }
@@ -962,13 +962,13 @@ if (mpkeyThrow)
     {
         if (!throw)
         {
-            localScythe = instance_create(x - 16, y, scythe_obj);
+            localScythe = instance_create(x - 16, y, scytheServer_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
             }
             throw = true;
-            with (scythe_obj)
+            with (scytheServer_obj)
             {
                 hspeed = -6.2;
             }
@@ -980,13 +980,13 @@ if (mpkeyThrow)
         {
             if (!throw)
             {
-                localScythe = instance_create(x - 16, y, scythe_obj);
+                localScythe = instance_create(x - 16, y, scytheServer_obj);
                 if (!audio_is_playing(attack_snd))
                 {
                     audio_play_sound(attack_snd, 1, false);
                 }
                 throw = true;
-                with (scythe_obj)
+                with (scytheServer_obj)
                 {
                     hspeed = -6.2;
                 }
@@ -996,13 +996,13 @@ if (mpkeyThrow)
         {
             if (!throw)
             {
-                localScythe = instance_create(x + 16, y, scythe_obj);
+                localScythe = instance_create(x + 16, y, scytheServer_obj);
                 if (!audio_is_playing(attack_snd))
                 {
                     audio_play_sound(attack_snd, 1, false);
                 }
                 throw = true;
-                with (scythe_obj)
+                with (scytheServer_obj)
                 {
                     hspeed = 6.2;
                 }
@@ -1364,6 +1364,43 @@ if (key_pause)
             <string>///Collision
 
 //###Scythe Collision###
+if (place_meeting(x, y, scytheServer_obj) &amp;&amp; global.throwingServer == false)
+{   
+    //###Collision Checking###
+    if (!place_free(x + horSpeed, y))
+    {
+        while (place_free(x + sign(horSpeed), y))
+        {
+            x = x + sign(horSpeed);
+        }
+        horSpeed = 0;
+    }
+    else
+    {
+        verSpeed = -9;
+    }
+    if (!place_free(x, y + verSpeed))
+    {
+        while (place_free(x, y + sign(verSpeed)))
+        {
+            y = y + sign(verSpeed);
+        }
+        verSpeed = 0;
+    }
+    else
+    {
+        verSpeed = -9;
+    }
+    fullJump = true;
+    numberJumps = numberJumps - 1;
+
+    with (scytheServer_obj)
+    {
+        instance_destroy();
+    }
+}
+
+//###Scythe Collision###
 if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
 {   
     //###Collision Checking###
@@ -1392,13 +1429,13 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
         verSpeed = -9;
     }
     fullJump = true;
-    global.numberJumps = global.numberJumps - 1;
+    numberJumps = numberJumps - 1;
+
     with (scythe_obj)
     {
         instance_destroy();
     }
 }
-
 
 //###Checkpoint Collision###
 //global.checkpointX = global.checkpointSaveX;

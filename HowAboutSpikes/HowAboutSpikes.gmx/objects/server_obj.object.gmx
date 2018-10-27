@@ -155,7 +155,7 @@ switch (type_event)
           <argument>
             <kind>1</kind>
             <string>///Destroy Server
-network_destroy(server);
+//network_destroy(server);
 </string>
           </argument>
         </arguments>
