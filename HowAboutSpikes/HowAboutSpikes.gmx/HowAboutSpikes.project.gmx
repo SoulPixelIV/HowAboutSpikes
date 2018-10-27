@@ -215,6 +215,7 @@
       <sprite>sprites\controller_spr</sprite>
       <sprite>sprites\patreon_spr</sprite>
       <sprite>sprites\twitter_spr</sprite>
+      <sprite>sprites\saveFileIcon_spr</sprite>
     </sprites>
     <sprites name="Old Sprites">
       <sprite>sprites\dude_spr</sprite>
@@ -459,6 +460,7 @@
         <object>objects\audiosettingsMenu_obj</object>
         <object>objects\controlsMenu_obj</object>
         <object>objects\multiplayerMenu_obj</object>
+        <object>objects\saveFileMenu_obj</object>
       </objects>
       <objects name="Cutscene Objects">
         <object>objects\cutsceneCameraDown_obj</object>
@@ -790,6 +792,7 @@
       <object>objects\controller_obj</object>
       <object>objects\patreon_obj</object>
       <object>objects\twitter_obj</object>
+      <object>objects\saveFileIcon_obj</object>
     </objects>
     <objects name="Particles">
       <object>objects\particleYellow_obj</object>
@@ -825,6 +828,7 @@
       <room>rooms\audiosettingsMenu</room>
       <room>rooms\controlsMenu</room>
       <room>rooms\multiplayerMenu</room>
+      <room>rooms\saveFileMenu</room>
     </rooms>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
