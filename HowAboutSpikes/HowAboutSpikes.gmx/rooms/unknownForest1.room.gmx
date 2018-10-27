@@ -1613,8 +1613,6 @@
     <instance objName="grassBlock2_obj" x="1984" y="1088" name="inst_BDCF1FBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassBlock2_obj" x="2464" y="1088" name="inst_DE0A1D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="grassBlock2_obj" x="2496" y="1088" name="inst_166D5620" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leafBlock_obj" x="2944" y="832" name="inst_A1CFA5B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="leafBlock_obj" x="2976" y="800" name="inst_98B19921" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lever_obj" x="2240" y="800" name="inst_74DD941D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="3136" y="1248" name="inst_35D4B6ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leafBlock_obj" x="3104" y="1248" name="inst_ACCDADE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2885,7 +2883,7 @@
     <instance objName="grassBlock2_obj" x="1280" y="1248" name="inst_D21B53CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1248" y="1216" name="inst_501AA1E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="1248" y="1248" name="inst_0EA994A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="scytheLever_obj" x="1153" y="1231" name="inst_8ACAF14A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="scytheLever_obj" x="1092" y="1231" name="inst_8ACAF14A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="1056" y="1280" name="inst_E7E3185C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="1056" y="1312" name="inst_FD7B56EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="1056" y="1344" name="inst_1BD106C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
