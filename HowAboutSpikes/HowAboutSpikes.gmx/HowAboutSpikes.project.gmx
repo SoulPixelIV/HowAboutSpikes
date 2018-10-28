@@ -192,6 +192,7 @@
       <sprite>sprites\lightIcon_spr</sprite>
       <sprite>sprites\lightFlickeringIcon_spr</sprite>
       <sprite>sprites\cursor_spr</sprite>
+      <sprite>sprites\cursor2_spr</sprite>
       <sprite>sprites\waterIcon_spr</sprite>
       <sprite>sprites\shopWindow_spr</sprite>
       <sprite>sprites\shopIcon1_spr</sprite>

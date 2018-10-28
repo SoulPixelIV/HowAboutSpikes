@@ -100,7 +100,7 @@ if (key_enter)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 160;
+    cursor_obj.x = 180;
     cursor_obj.y = 196;
     if (key_enter)
     {
@@ -109,7 +109,7 @@ if (buttonSelected == 0)
 }
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 160;
+    cursor_obj.x = 180;
     cursor_obj.y = 218;
     if (key_enter)
     {
