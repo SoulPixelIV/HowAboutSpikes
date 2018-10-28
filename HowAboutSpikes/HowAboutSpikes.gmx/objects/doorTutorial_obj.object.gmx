@@ -29,6 +29,11 @@
 {
     with (key_obj)
     {
+        x = posX;
+        y = posY;
+    }
+    with (player_obj)
+    {
         instance_destroy();
     }
     global.pickedKey = false;

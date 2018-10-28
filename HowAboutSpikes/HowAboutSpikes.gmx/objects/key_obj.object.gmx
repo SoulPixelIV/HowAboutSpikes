@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>global.picked = false;
 collision = 0;
+posX = x;
+posY = y;
 </string>
           </argument>
         </arguments>
