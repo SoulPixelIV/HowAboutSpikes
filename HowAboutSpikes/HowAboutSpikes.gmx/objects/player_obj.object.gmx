@@ -595,123 +595,368 @@ amount = 1;
 //if (room != tutorial)
 //{
     instance_create(view_xview[0] + 610, view_yview[0] + 330, saveIcon_obj);
-    if (file_exists("save1.has"))
+    
+    if (global.currSave == 1)
     {
-        file_delete("save1.has");
+        if (file_exists("save1.has"))
+        {
+            file_delete("save1.has");
+        }
+        ini_open("save1.has");
+        var currRoom = room;
+        
+        ini_write_real("Save1", "current room", currRoom);
+        ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
+        ini_write_real("Save1", "redOrb", global.pickedRed);
+        ini_write_real("Save1", "blueOrb", global.pickedBlue);
+        ini_write_real("Save1", "redOrbPlaced", global.placedRed);
+        ini_write_real("Save1", "blueOrbPlaced", global.placedBlue);
+        ini_write_real("Save1", "redOrbPlaced2", global.placedRed2);
+        ini_write_real("Save1", "blueOrbPlaced2", global.placedBlue2);
+        ini_write_real("Save1", "money", global.money);
+        ini_write_real("Save1", "ultraSouls", global.pickedUltraSouls);
+        ini_write_real("Save1", "health", global.healthVar);
+        ini_write_real("Save1", "gamemode", global.mode);
+        ini_write_real("Save1", "death count", global.deathCount);
+        ini_write_real("Save1", "picked tooth", global.pickedTooth);
+        ini_write_real("Save1", "picked key", global.pickedKey);
+        ini_write_real("Save1", "picked goldchain", global.pickedGoldchain);
+        ini_write_real("Save1", "ring Vision", global.ringVision);
+        ini_write_real("Save1", "ring Wealth", global.ringWealth);
+        ini_write_real("Save1", "ring Power", global.ringPower);
+        ini_write_real("Save1", "ring Friendship", global.ringFriendship);
+        ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
+        ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
+        ini_write_real("Save1", "opDoor", global.opDoor);
+        ini_write_real("Save1", "gvDoor", global.gvDoor);
+        ini_write_real("Save1", "scbDoor", global.scbDoor);
+        ini_write_real("Save1", "daughterHelped", global.daughterHelped);
+        ini_write_real("Save1", "map", global.map);
+        ini_write_real("Save1", "levelNPC", global.level);
+        ini_write_real("Save1", "dmgMult", global.dmgMult);
+        ini_write_real("Save1", "spawnBoss", global.spawnBoss);
+        
+        //UltraSouls
+        ini_write_real("Save1", "ultraSoul1", global.ultraSoul1);
+        ini_write_real("Save1", "ultraSoul2", global.ultraSoul2);
+        ini_write_real("Save1", "ultraSoul3", global.ultraSoul3);
+        ini_write_real("Save1", "ultraSoul4", global.ultraSoul4);
+        ini_write_real("Save1", "ultraSoul5", global.ultraSoul5);
+        ini_write_real("Save1", "ultraSoul6", global.ultraSoul6);
+        ini_write_real("Save1", "ultraSoul7", global.ultraSoul7);
+        
+        //Trapdoor0
+        ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
+        ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
+        ini_write_real("Save1", "unknownForest2[0]", global.unknownForest2TD[0]);
+        ini_write_real("Save1", "unknownForest3[0]", global.unknownForest3TD[0]);
+        ini_write_real("Save1", "demonsKeep1[0]", global.demonsKeep1TD[0]);
+        ini_write_real("Save1", "demonsKeep2[0]", global.demonsKeep2TD[0]);
+        ini_write_real("Save1", "demonsKeep3[0]", global.demonsKeep3TD[0]);
+        ini_write_real("Save1", "undergroundCity1[0]", global.undergroundCity1TD[0]);
+        ini_write_real("Save1", "undergroundCity2[0]", global.undergroundCity2TD[0]);
+        ini_write_real("Save1", "undergroundCity3[0]", global.undergroundCity3TD[0]);
+        ini_write_real("Save1", "sentinelGraves1[0]", global.sentinelGraves1TD[0]);
+        ini_write_real("Save1", "sentinelGraves2[0]", global.sentinelGraves2TD[0]);
+        ini_write_real("Save1", "deepPrison[0]", global.deepPrisonTD[0]);
+        ini_write_real("Save1", "overcastPeak1[0]", global.overcastPeak1TD[0]);
+        ini_write_real("Save1", "overcastPeak2[0]", global.overcastPeak2TD[0]);
+        ini_write_real("Save1", "overcastPeak3[0]", global.overcastPeak3TD[0]);
+        ini_write_real("Save1", "overcastPeak4[0]", global.overcastPeak4TD[0]);
+        ini_write_real("Save1", "overcastPeak5[0]", global.overcastPeak5TD[0]);
+        ini_write_real("Save1", "skullcoinBay1[0]", global.skullcoinBay1TD[0]);
+        ini_write_real("Save1", "skullcoinBay2[0]", global.skullcoinBay2TD[0]);
+        ini_write_real("Save1", "skullcoinBay3[0]", global.skullcoinBay3TD[0]);
+        ini_write_real("Save1", "skullcoinBay4[0]", global.skullcoinBay4TD[0]);
+        //Trapdoor1
+        ini_write_real("Save1", "gardenValley[1]", global.gardenValleyTD[1]);
+        ini_write_real("Save1", "unknownForest1[1]", global.unknownForest1TD[1]);
+        ini_write_real("Save1", "unknownForest2[1]", global.unknownForest2TD[1]);
+        ini_write_real("Save1", "unknownForest3[1]", global.unknownForest3TD[1]);
+        ini_write_real("Save1", "demonsKeep1[1]", global.demonsKeep1TD[1]);
+        ini_write_real("Save1", "demonsKeep2[1]", global.demonsKeep2TD[1]);
+        ini_write_real("Save1", "demonsKeep3[1]", global.demonsKeep3TD[1]);
+        ini_write_real("Save1", "undergroundCity1[1]", global.undergroundCity1TD[1]);
+        ini_write_real("Save1", "undergroundCity2[1]", global.undergroundCity2TD[1]);
+        ini_write_real("Save1", "undergroundCity3[1]", global.undergroundCity3TD[1]);
+        ini_write_real("Save1", "sentinelGraves1[1]", global.sentinelGraves1TD[1]);
+        ini_write_real("Save1", "sentinelGraves2[1]", global.sentinelGraves2TD[1]);
+        ini_write_real("Save1", "deepPrison[1]", global.deepPrisonTD[1]);
+        ini_write_real("Save1", "overcastPeak1[1]", global.overcastPeak1TD[1]);
+        ini_write_real("Save1", "overcastPeak2[1]", global.overcastPeak2TD[1]);
+        ini_write_real("Save1", "overcastPeak3[1]", global.overcastPeak3TD[1]);
+        ini_write_real("Save1", "overcastPeak4[1]", global.overcastPeak4TD[1]);
+        ini_write_real("Save1", "overcastPeak5[1]", global.overcastPeak5TD[1]);
+        ini_write_real("Save1", "skullcoinBay1[1]", global.skullcoinBay1TD[1]);
+        ini_write_real("Save1", "skullcoinBay2[1]", global.skullcoinBay2TD[1]);
+        ini_write_real("Save1", "skullcoinBay3[1]", global.skullcoinBay3TD[1]);
+        ini_write_real("Save1", "skullcoinBay4[1]", global.skullcoinBay4TD[1]);
+        //Trapdoor2
+        ini_write_real("Save1", "gardenValley[2]", global.gardenValleyTD[2]);
+        ini_write_real("Save1", "unknownForest1[2]", global.unknownForest1TD[2]);
+        ini_write_real("Save1", "unknownForest2[2]", global.unknownForest2TD[2]);
+        ini_write_real("Save1", "unknownForest3[2]", global.unknownForest3TD[2]);
+        ini_write_real("Save1", "demonsKeep1[2]", global.demonsKeep1TD[2]);
+        ini_write_real("Save1", "demonsKeep2[2]", global.demonsKeep2TD[2]);
+        ini_write_real("Save1", "demonsKeep3[2]", global.demonsKeep3TD[2]);
+        ini_write_real("Save1", "undergroundCity1[2]", global.undergroundCity1TD[2]);
+        ini_write_real("Save1", "undergroundCity2[2]", global.undergroundCity2TD[2]);
+        ini_write_real("Save1", "undergroundCity3[2]", global.undergroundCity3TD[2]);
+        ini_write_real("Save1", "sentinelGraves1[2]", global.sentinelGraves1TD[2]);
+        ini_write_real("Save1", "sentinelGraves2[2]", global.sentinelGraves2TD[2]);
+        ini_write_real("Save1", "deepPrison[2]", global.deepPrisonTD[2]);
+        ini_write_real("Save1", "overcastPeak1[2]", global.overcastPeak1TD[2]);
+        ini_write_real("Save1", "overcastPeak2[2]", global.overcastPeak2TD[2]);
+        ini_write_real("Save1", "overcastPeak3[2]", global.overcastPeak3TD[2]);
+        ini_write_real("Save1", "overcastPeak4[2]", global.overcastPeak4TD[2]);
+        ini_write_real("Save1", "overcastPeak5[2]", global.overcastPeak5TD[2]);
+        ini_write_real("Save1", "skullcoinBay1[2]", global.skullcoinBay1TD[2]);
+        ini_write_real("Save1", "skullcoinBay2[2]", global.skullcoinBay2TD[2]);
+        ini_write_real("Save1", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
+        ini_write_real("Save1", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
+        ini_close();
     }
-    ini_open("save1.has");
-    var currRoom = room;
+    if (global.currSave == 2)
+    {
+        if (file_exists("save2.has"))
+        {
+            file_delete("save2.has");
+        }
+        ini_open("save2.has");
+        var currRoom = room;
+        
+        ini_write_real("Save2", "current room", currRoom);
+        ini_write_real("Save2", "current spawnLocation", global.playerSpawnLocationSave);
+        ini_write_real("Save2", "redOrb", global.pickedRed);
+        ini_write_real("Save2", "blueOrb", global.pickedBlue);
+        ini_write_real("Save2", "redOrbPlaced", global.placedRed);
+        ini_write_real("Save2", "blueOrbPlaced", global.placedBlue);
+        ini_write_real("Save2", "redOrbPlaced2", global.placedRed2);
+        ini_write_real("Save2", "blueOrbPlaced2", global.placedBlue2);
+        ini_write_real("Save2", "money", global.money);
+        ini_write_real("Save2", "ultraSouls", global.pickedUltraSouls);
+        ini_write_real("Save2", "health", global.healthVar);
+        ini_write_real("Save2", "gamemode", global.mode);
+        ini_write_real("Save2", "death count", global.deathCount);
+        ini_write_real("Save2", "picked tooth", global.pickedTooth);
+        ini_write_real("Save2", "picked key", global.pickedKey);
+        ini_write_real("Save2", "picked goldchain", global.pickedGoldchain);
+        ini_write_real("Save2", "ring Vision", global.ringVision);
+        ini_write_real("Save2", "ring Wealth", global.ringWealth);
+        ini_write_real("Save2", "ring Power", global.ringPower);
+        ini_write_real("Save2", "ring Friendship", global.ringFriendship);
+        ini_write_real("Save2", "ring Inventory0", global.ringInventory[0]);
+        ini_write_real("Save2", "ring Inventory1", global.ringInventory[1]);
+        ini_write_real("Save2", "opDoor", global.opDoor);
+        ini_write_real("Save2", "gvDoor", global.gvDoor);
+        ini_write_real("Save2", "scbDoor", global.scbDoor);
+        ini_write_real("Save2", "daughterHelped", global.daughterHelped);
+        ini_write_real("Save2", "map", global.map);
+        ini_write_real("Save2", "levelNPC", global.level);
+        ini_write_real("Save2", "dmgMult", global.dmgMult);
+        ini_write_real("Save2", "spawnBoss", global.spawnBoss);
+        
+        //UltraSouls
+        ini_write_real("Save2", "ultraSoul1", global.ultraSoul1);
+        ini_write_real("Save2", "ultraSoul2", global.ultraSoul2);
+        ini_write_real("Save2", "ultraSoul3", global.ultraSoul3);
+        ini_write_real("Save2", "ultraSoul4", global.ultraSoul4);
+        ini_write_real("Save2", "ultraSoul5", global.ultraSoul5);
+        ini_write_real("Save2", "ultraSoul6", global.ultraSoul6);
+        ini_write_real("Save2", "ultraSoul7", global.ultraSoul7);
+        
+        //Trapdoor0
+        ini_write_real("Save2", "gardenValley[0]", global.gardenValleyTD[0]);
+        ini_write_real("Save2", "unknownForest1[0]", global.unknownForest1TD[0]);
+        ini_write_real("Save2", "unknownForest2[0]", global.unknownForest2TD[0]);
+        ini_write_real("Save2", "unknownForest3[0]", global.unknownForest3TD[0]);
+        ini_write_real("Save2", "demonsKeep1[0]", global.demonsKeep1TD[0]);
+        ini_write_real("Save2", "demonsKeep2[0]", global.demonsKeep2TD[0]);
+        ini_write_real("Save2", "demonsKeep3[0]", global.demonsKeep3TD[0]);
+        ini_write_real("Save2", "undergroundCity1[0]", global.undergroundCity1TD[0]);
+        ini_write_real("Save2", "undergroundCity2[0]", global.undergroundCity2TD[0]);
+        ini_write_real("Save2", "undergroundCity3[0]", global.undergroundCity3TD[0]);
+        ini_write_real("Save2", "sentinelGraves1[0]", global.sentinelGraves1TD[0]);
+        ini_write_real("Save2", "sentinelGraves2[0]", global.sentinelGraves2TD[0]);
+        ini_write_real("Save2", "deepPrison[0]", global.deepPrisonTD[0]);
+        ini_write_real("Save2", "overcastPeak1[0]", global.overcastPeak1TD[0]);
+        ini_write_real("Save2", "overcastPeak2[0]", global.overcastPeak2TD[0]);
+        ini_write_real("Save2", "overcastPeak3[0]", global.overcastPeak3TD[0]);
+        ini_write_real("Save2", "overcastPeak4[0]", global.overcastPeak4TD[0]);
+        ini_write_real("Save2", "overcastPeak5[0]", global.overcastPeak5TD[0]);
+        ini_write_real("Save2", "skullcoinBay1[0]", global.skullcoinBay1TD[0]);
+        ini_write_real("Save2", "skullcoinBay2[0]", global.skullcoinBay2TD[0]);
+        ini_write_real("Save2", "skullcoinBay3[0]", global.skullcoinBay3TD[0]);
+        ini_write_real("Save2", "skullcoinBay4[0]", global.skullcoinBay4TD[0]);
+        //Trapdoor1
+        ini_write_real("Save2", "gardenValley[1]", global.gardenValleyTD[1]);
+        ini_write_real("Save2", "unknownForest1[1]", global.unknownForest1TD[1]);
+        ini_write_real("Save2", "unknownForest2[1]", global.unknownForest2TD[1]);
+        ini_write_real("Save2", "unknownForest3[1]", global.unknownForest3TD[1]);
+        ini_write_real("Save2", "demonsKeep1[1]", global.demonsKeep1TD[1]);
+        ini_write_real("Save2", "demonsKeep2[1]", global.demonsKeep2TD[1]);
+        ini_write_real("Save2", "demonsKeep3[1]", global.demonsKeep3TD[1]);
+        ini_write_real("Save2", "undergroundCity1[1]", global.undergroundCity1TD[1]);
+        ini_write_real("Save2", "undergroundCity2[1]", global.undergroundCity2TD[1]);
+        ini_write_real("Save2", "undergroundCity3[1]", global.undergroundCity3TD[1]);
+        ini_write_real("Save2", "sentinelGraves1[1]", global.sentinelGraves1TD[1]);
+        ini_write_real("Save2", "sentinelGraves2[1]", global.sentinelGraves2TD[1]);
+        ini_write_real("Save2", "deepPrison[1]", global.deepPrisonTD[1]);
+        ini_write_real("Save2", "overcastPeak1[1]", global.overcastPeak1TD[1]);
+        ini_write_real("Save2", "overcastPeak2[1]", global.overcastPeak2TD[1]);
+        ini_write_real("Save2", "overcastPeak3[1]", global.overcastPeak3TD[1]);
+        ini_write_real("Save2", "overcastPeak4[1]", global.overcastPeak4TD[1]);
+        ini_write_real("Save2", "overcastPeak5[1]", global.overcastPeak5TD[1]);
+        ini_write_real("Save2", "skullcoinBay1[1]", global.skullcoinBay1TD[1]);
+        ini_write_real("Save2", "skullcoinBay2[1]", global.skullcoinBay2TD[1]);
+        ini_write_real("Save2", "skullcoinBay3[1]", global.skullcoinBay3TD[1]);
+        ini_write_real("Save2", "skullcoinBay4[1]", global.skullcoinBay4TD[1]);
+        //Trapdoor2
+        ini_write_real("Save2", "gardenValley[2]", global.gardenValleyTD[2]);
+        ini_write_real("Save2", "unknownForest1[2]", global.unknownForest1TD[2]);
+        ini_write_real("Save2", "unknownForest2[2]", global.unknownForest2TD[2]);
+        ini_write_real("Save2", "unknownForest3[2]", global.unknownForest3TD[2]);
+        ini_write_real("Save2", "demonsKeep1[2]", global.demonsKeep1TD[2]);
+        ini_write_real("Save2", "demonsKeep2[2]", global.demonsKeep2TD[2]);
+        ini_write_real("Save2", "demonsKeep3[2]", global.demonsKeep3TD[2]);
+        ini_write_real("Save2", "undergroundCity1[2]", global.undergroundCity1TD[2]);
+        ini_write_real("Save2", "undergroundCity2[2]", global.undergroundCity2TD[2]);
+        ini_write_real("Save2", "undergroundCity3[2]", global.undergroundCity3TD[2]);
+        ini_write_real("Save2", "sentinelGraves1[2]", global.sentinelGraves1TD[2]);
+        ini_write_real("Save2", "sentinelGraves2[2]", global.sentinelGraves2TD[2]);
+        ini_write_real("Save2", "deepPrison[2]", global.deepPrisonTD[2]);
+        ini_write_real("Save2", "overcastPeak1[2]", global.overcastPeak1TD[2]);
+        ini_write_real("Save2", "overcastPeak2[2]", global.overcastPeak2TD[2]);
+        ini_write_real("Save2", "overcastPeak3[2]", global.overcastPeak3TD[2]);
+        ini_write_real("Save2", "overcastPeak4[2]", global.overcastPeak4TD[2]);
+        ini_write_real("Save2", "overcastPeak5[2]", global.overcastPeak5TD[2]);
+        ini_write_real("Save2", "skullcoinBay1[2]", global.skullcoinBay1TD[2]);
+        ini_write_real("Save2", "skullcoinBay2[2]", global.skullcoinBay2TD[2]);
+        ini_write_real("Save2", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
+        ini_write_real("Save2", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
+        ini_close();
+    }
     
-    ini_write_real("Save1", "current room", currRoom);
-    ini_write_real("Save1", "current spawnLocation", global.playerSpawnLocationSave);
-    ini_write_real("Save1", "redOrb", global.pickedRed);
-    ini_write_real("Save1", "blueOrb", global.pickedBlue);
-    ini_write_real("Save1", "redOrbPlaced", global.placedRed);
-    ini_write_real("Save1", "blueOrbPlaced", global.placedBlue);
-    ini_write_real("Save1", "redOrbPlaced2", global.placedRed2);
-    ini_write_real("Save1", "blueOrbPlaced2", global.placedBlue2);
-    ini_write_real("Save1", "money", global.money);
-    ini_write_real("Save1", "ultraSouls", global.pickedUltraSouls);
-    ini_write_real("Save1", "health", global.healthVar);
-    ini_write_real("Save1", "gamemode", global.mode);
-    ini_write_real("Save1", "death count", global.deathCount);
-    ini_write_real("Save1", "picked tooth", global.pickedTooth);
-    ini_write_real("Save1", "picked key", global.pickedKey);
-    ini_write_real("Save1", "picked goldchain", global.pickedGoldchain);
-    ini_write_real("Save1", "ring Vision", global.ringVision);
-    ini_write_real("Save1", "ring Wealth", global.ringWealth);
-    ini_write_real("Save1", "ring Power", global.ringPower);
-    ini_write_real("Save1", "ring Friendship", global.ringFriendship);
-    ini_write_real("Save1", "ring Inventory0", global.ringInventory[0]);
-    ini_write_real("Save1", "ring Inventory1", global.ringInventory[1]);
-    ini_write_real("Save1", "opDoor", global.opDoor);
-    ini_write_real("Save1", "gvDoor", global.gvDoor);
-    ini_write_real("Save1", "scbDoor", global.scbDoor);
-    ini_write_real("Save1", "daughterHelped", global.daughterHelped);
-    ini_write_real("Save1", "map", global.map);
-    ini_write_real("Save1", "levelNPC", global.level);
-    ini_write_real("Save1", "dmgMult", global.dmgMult);
-    ini_write_real("Save1", "spawnBoss", global.spawnBoss);
-    
-    //UltraSouls
-    ini_write_real("Save1", "ultraSoul1", global.ultraSoul1);
-    ini_write_real("Save1", "ultraSoul2", global.ultraSoul2);
-    ini_write_real("Save1", "ultraSoul3", global.ultraSoul3);
-    ini_write_real("Save1", "ultraSoul4", global.ultraSoul4);
-    ini_write_real("Save1", "ultraSoul5", global.ultraSoul5);
-    ini_write_real("Save1", "ultraSoul6", global.ultraSoul6);
-    ini_write_real("Save1", "ultraSoul7", global.ultraSoul7);
-    
-    //Trapdoor0
-    ini_write_real("Save1", "gardenValley[0]", global.gardenValleyTD[0]);
-    ini_write_real("Save1", "unknownForest1[0]", global.unknownForest1TD[0]);
-    ini_write_real("Save1", "unknownForest2[0]", global.unknownForest2TD[0]);
-    ini_write_real("Save1", "unknownForest3[0]", global.unknownForest3TD[0]);
-    ini_write_real("Save1", "demonsKeep1[0]", global.demonsKeep1TD[0]);
-    ini_write_real("Save1", "demonsKeep2[0]", global.demonsKeep2TD[0]);
-    ini_write_real("Save1", "demonsKeep3[0]", global.demonsKeep3TD[0]);
-    ini_write_real("Save1", "undergroundCity1[0]", global.undergroundCity1TD[0]);
-    ini_write_real("Save1", "undergroundCity2[0]", global.undergroundCity2TD[0]);
-    ini_write_real("Save1", "undergroundCity3[0]", global.undergroundCity3TD[0]);
-    ini_write_real("Save1", "sentinelGraves1[0]", global.sentinelGraves1TD[0]);
-    ini_write_real("Save1", "sentinelGraves2[0]", global.sentinelGraves2TD[0]);
-    ini_write_real("Save1", "deepPrison[0]", global.deepPrisonTD[0]);
-    ini_write_real("Save1", "overcastPeak1[0]", global.overcastPeak1TD[0]);
-    ini_write_real("Save1", "overcastPeak2[0]", global.overcastPeak2TD[0]);
-    ini_write_real("Save1", "overcastPeak3[0]", global.overcastPeak3TD[0]);
-    ini_write_real("Save1", "overcastPeak4[0]", global.overcastPeak4TD[0]);
-    ini_write_real("Save1", "overcastPeak5[0]", global.overcastPeak5TD[0]);
-    ini_write_real("Save1", "skullcoinBay1[0]", global.skullcoinBay1TD[0]);
-    ini_write_real("Save1", "skullcoinBay2[0]", global.skullcoinBay2TD[0]);
-    ini_write_real("Save1", "skullcoinBay3[0]", global.skullcoinBay3TD[0]);
-    ini_write_real("Save1", "skullcoinBay4[0]", global.skullcoinBay4TD[0]);
-    //Trapdoor1
-    ini_write_real("Save1", "gardenValley[1]", global.gardenValleyTD[1]);
-    ini_write_real("Save1", "unknownForest1[1]", global.unknownForest1TD[1]);
-    ini_write_real("Save1", "unknownForest2[1]", global.unknownForest2TD[1]);
-    ini_write_real("Save1", "unknownForest3[1]", global.unknownForest3TD[1]);
-    ini_write_real("Save1", "demonsKeep1[1]", global.demonsKeep1TD[1]);
-    ini_write_real("Save1", "demonsKeep2[1]", global.demonsKeep2TD[1]);
-    ini_write_real("Save1", "demonsKeep3[1]", global.demonsKeep3TD[1]);
-    ini_write_real("Save1", "undergroundCity1[1]", global.undergroundCity1TD[1]);
-    ini_write_real("Save1", "undergroundCity2[1]", global.undergroundCity2TD[1]);
-    ini_write_real("Save1", "undergroundCity3[1]", global.undergroundCity3TD[1]);
-    ini_write_real("Save1", "sentinelGraves1[1]", global.sentinelGraves1TD[1]);
-    ini_write_real("Save1", "sentinelGraves2[1]", global.sentinelGraves2TD[1]);
-    ini_write_real("Save1", "deepPrison[1]", global.deepPrisonTD[1]);
-    ini_write_real("Save1", "overcastPeak1[1]", global.overcastPeak1TD[1]);
-    ini_write_real("Save1", "overcastPeak2[1]", global.overcastPeak2TD[1]);
-    ini_write_real("Save1", "overcastPeak3[1]", global.overcastPeak3TD[1]);
-    ini_write_real("Save1", "overcastPeak4[1]", global.overcastPeak4TD[1]);
-    ini_write_real("Save1", "overcastPeak5[1]", global.overcastPeak5TD[1]);
-    ini_write_real("Save1", "skullcoinBay1[1]", global.skullcoinBay1TD[1]);
-    ini_write_real("Save1", "skullcoinBay2[1]", global.skullcoinBay2TD[1]);
-    ini_write_real("Save1", "skullcoinBay3[1]", global.skullcoinBay3TD[1]);
-    ini_write_real("Save1", "skullcoinBay4[1]", global.skullcoinBay4TD[1]);
-    //Trapdoor2
-    ini_write_real("Save1", "gardenValley[2]", global.gardenValleyTD[2]);
-    ini_write_real("Save1", "unknownForest1[2]", global.unknownForest1TD[2]);
-    ini_write_real("Save1", "unknownForest2[2]", global.unknownForest2TD[2]);
-    ini_write_real("Save1", "unknownForest3[2]", global.unknownForest3TD[2]);
-    ini_write_real("Save1", "demonsKeep1[2]", global.demonsKeep1TD[2]);
-    ini_write_real("Save1", "demonsKeep2[2]", global.demonsKeep2TD[2]);
-    ini_write_real("Save1", "demonsKeep3[2]", global.demonsKeep3TD[2]);
-    ini_write_real("Save1", "undergroundCity1[2]", global.undergroundCity1TD[2]);
-    ini_write_real("Save1", "undergroundCity2[2]", global.undergroundCity2TD[2]);
-    ini_write_real("Save1", "undergroundCity3[2]", global.undergroundCity3TD[2]);
-    ini_write_real("Save1", "sentinelGraves1[2]", global.sentinelGraves1TD[2]);
-    ini_write_real("Save1", "sentinelGraves2[2]", global.sentinelGraves2TD[2]);
-    ini_write_real("Save1", "deepPrison[2]", global.deepPrisonTD[2]);
-    ini_write_real("Save1", "overcastPeak1[2]", global.overcastPeak1TD[2]);
-    ini_write_real("Save1", "overcastPeak2[2]", global.overcastPeak2TD[2]);
-    ini_write_real("Save1", "overcastPeak3[2]", global.overcastPeak3TD[2]);
-    ini_write_real("Save1", "overcastPeak4[2]", global.overcastPeak4TD[2]);
-    ini_write_real("Save1", "overcastPeak5[2]", global.overcastPeak5TD[2]);
-    ini_write_real("Save1", "skullcoinBay1[2]", global.skullcoinBay1TD[2]);
-    ini_write_real("Save1", "skullcoinBay2[2]", global.skullcoinBay2TD[2]);
-    ini_write_real("Save1", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
-    ini_write_real("Save1", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
-    ini_close();
+    if (global.currSave == 3)
+    {
+        if (file_exists("save3.has"))
+        {
+            file_delete("save3.has");
+        }
+        ini_open("save3.has");
+        var currRoom = room;
+        
+        ini_write_real("Save3", "current room", currRoom);
+        ini_write_real("Save3", "current spawnLocation", global.playerSpawnLocationSave);
+        ini_write_real("Save3", "redOrb", global.pickedRed);
+        ini_write_real("Save3", "blueOrb", global.pickedBlue);
+        ini_write_real("Save3", "redOrbPlaced", global.placedRed);
+        ini_write_real("Save3", "blueOrbPlaced", global.placedBlue);
+        ini_write_real("Save3", "redOrbPlaced2", global.placedRed2);
+        ini_write_real("Save3", "blueOrbPlaced2", global.placedBlue2);
+        ini_write_real("Save3", "money", global.money);
+        ini_write_real("Save3", "ultraSouls", global.pickedUltraSouls);
+        ini_write_real("Save3", "health", global.healthVar);
+        ini_write_real("Save3", "gamemode", global.mode);
+        ini_write_real("Save3", "death count", global.deathCount);
+        ini_write_real("Save3", "picked tooth", global.pickedTooth);
+        ini_write_real("Save3", "picked key", global.pickedKey);
+        ini_write_real("Save3", "picked goldchain", global.pickedGoldchain);
+        ini_write_real("Save3", "ring Vision", global.ringVision);
+        ini_write_real("Save3", "ring Wealth", global.ringWealth);
+        ini_write_real("Save3", "ring Power", global.ringPower);
+        ini_write_real("Save3", "ring Friendship", global.ringFriendship);
+        ini_write_real("Save3", "ring Inventory0", global.ringInventory[0]);
+        ini_write_real("Save3", "ring Inventory1", global.ringInventory[1]);
+        ini_write_real("Save3", "opDoor", global.opDoor);
+        ini_write_real("Save3", "gvDoor", global.gvDoor);
+        ini_write_real("Save3", "scbDoor", global.scbDoor);
+        ini_write_real("Save3", "daughterHelped", global.daughterHelped);
+        ini_write_real("Save3", "map", global.map);
+        ini_write_real("Save3", "levelNPC", global.level);
+        ini_write_real("Save3", "dmgMult", global.dmgMult);
+        ini_write_real("Save3", "spawnBoss", global.spawnBoss);
+        
+        //UltraSouls
+        ini_write_real("Save3", "ultraSoul1", global.ultraSoul1);
+        ini_write_real("Save3", "ultraSoul2", global.ultraSoul2);
+        ini_write_real("Save3", "ultraSoul3", global.ultraSoul3);
+        ini_write_real("Save3", "ultraSoul4", global.ultraSoul4);
+        ini_write_real("Save3", "ultraSoul5", global.ultraSoul5);
+        ini_write_real("Save3", "ultraSoul6", global.ultraSoul6);
+        ini_write_real("Save3", "ultraSoul7", global.ultraSoul7);
+        
+        //Trapdoor0
+        ini_write_real("Save3", "gardenValley[0]", global.gardenValleyTD[0]);
+        ini_write_real("Save3", "unknownForest1[0]", global.unknownForest1TD[0]);
+        ini_write_real("Save3", "unknownForest2[0]", global.unknownForest2TD[0]);
+        ini_write_real("Save3", "unknownForest3[0]", global.unknownForest3TD[0]);
+        ini_write_real("Save3", "demonsKeep1[0]", global.demonsKeep1TD[0]);
+        ini_write_real("Save3", "demonsKeep2[0]", global.demonsKeep2TD[0]);
+        ini_write_real("Save3", "demonsKeep3[0]", global.demonsKeep3TD[0]);
+        ini_write_real("Save3", "undergroundCity1[0]", global.undergroundCity1TD[0]);
+        ini_write_real("Save3", "undergroundCity2[0]", global.undergroundCity2TD[0]);
+        ini_write_real("Save3", "undergroundCity3[0]", global.undergroundCity3TD[0]);
+        ini_write_real("Save3", "sentinelGraves1[0]", global.sentinelGraves1TD[0]);
+        ini_write_real("Save3", "sentinelGraves2[0]", global.sentinelGraves2TD[0]);
+        ini_write_real("Save3", "deepPrison[0]", global.deepPrisonTD[0]);
+        ini_write_real("Save3", "overcastPeak1[0]", global.overcastPeak1TD[0]);
+        ini_write_real("Save3", "overcastPeak2[0]", global.overcastPeak2TD[0]);
+        ini_write_real("Save3", "overcastPeak3[0]", global.overcastPeak3TD[0]);
+        ini_write_real("Save3", "overcastPeak4[0]", global.overcastPeak4TD[0]);
+        ini_write_real("Save3", "overcastPeak5[0]", global.overcastPeak5TD[0]);
+        ini_write_real("Save3", "skullcoinBay1[0]", global.skullcoinBay1TD[0]);
+        ini_write_real("Save3", "skullcoinBay2[0]", global.skullcoinBay2TD[0]);
+        ini_write_real("Save3", "skullcoinBay3[0]", global.skullcoinBay3TD[0]);
+        ini_write_real("Save3", "skullcoinBay4[0]", global.skullcoinBay4TD[0]);
+        //Trapdoor1
+        ini_write_real("Save3", "gardenValley[1]", global.gardenValleyTD[1]);
+        ini_write_real("Save3", "unknownForest1[1]", global.unknownForest1TD[1]);
+        ini_write_real("Save3", "unknownForest2[1]", global.unknownForest2TD[1]);
+        ini_write_real("Save3", "unknownForest3[1]", global.unknownForest3TD[1]);
+        ini_write_real("Save3", "demonsKeep1[1]", global.demonsKeep1TD[1]);
+        ini_write_real("Save3", "demonsKeep2[1]", global.demonsKeep2TD[1]);
+        ini_write_real("Save3", "demonsKeep3[1]", global.demonsKeep3TD[1]);
+        ini_write_real("Save3", "undergroundCity1[1]", global.undergroundCity1TD[1]);
+        ini_write_real("Save3", "undergroundCity2[1]", global.undergroundCity2TD[1]);
+        ini_write_real("Save3", "undergroundCity3[1]", global.undergroundCity3TD[1]);
+        ini_write_real("Save3", "sentinelGraves1[1]", global.sentinelGraves1TD[1]);
+        ini_write_real("Save3", "sentinelGraves2[1]", global.sentinelGraves2TD[1]);
+        ini_write_real("Save3", "deepPrison[1]", global.deepPrisonTD[1]);
+        ini_write_real("Save3", "overcastPeak1[1]", global.overcastPeak1TD[1]);
+        ini_write_real("Save3", "overcastPeak2[1]", global.overcastPeak2TD[1]);
+        ini_write_real("Save3", "overcastPeak3[1]", global.overcastPeak3TD[1]);
+        ini_write_real("Save3", "overcastPeak4[1]", global.overcastPeak4TD[1]);
+        ini_write_real("Save3", "overcastPeak5[1]", global.overcastPeak5TD[1]);
+        ini_write_real("Save3", "skullcoinBay1[1]", global.skullcoinBay1TD[1]);
+        ini_write_real("Save3", "skullcoinBay2[1]", global.skullcoinBay2TD[1]);
+        ini_write_real("Save3", "skullcoinBay3[1]", global.skullcoinBay3TD[1]);
+        ini_write_real("Save3", "skullcoinBay4[1]", global.skullcoinBay4TD[1]);
+        //Trapdoor2
+        ini_write_real("Save3", "gardenValley[2]", global.gardenValleyTD[2]);
+        ini_write_real("Save3", "unknownForest1[2]", global.unknownForest1TD[2]);
+        ini_write_real("Save3", "unknownForest2[2]", global.unknownForest2TD[2]);
+        ini_write_real("Save3", "unknownForest3[2]", global.unknownForest3TD[2]);
+        ini_write_real("Save3", "demonsKeep1[2]", global.demonsKeep1TD[2]);
+        ini_write_real("Save3", "demonsKeep2[2]", global.demonsKeep2TD[2]);
+        ini_write_real("Save3", "demonsKeep3[2]", global.demonsKeep3TD[2]);
+        ini_write_real("Save3", "undergroundCity1[2]", global.undergroundCity1TD[2]);
+        ini_write_real("Save3", "undergroundCity2[2]", global.undergroundCity2TD[2]);
+        ini_write_real("Save3", "undergroundCity3[2]", global.undergroundCity3TD[2]);
+        ini_write_real("Save3", "sentinelGraves1[2]", global.sentinelGraves1TD[2]);
+        ini_write_real("Save3", "sentinelGraves2[2]", global.sentinelGraves2TD[2]);
+        ini_write_real("Save3", "deepPrison[2]", global.deepPrisonTD[2]);
+        ini_write_real("Save3", "overcastPeak1[2]", global.overcastPeak1TD[2]);
+        ini_write_real("Save3", "overcastPeak2[2]", global.overcastPeak2TD[2]);
+        ini_write_real("Save3", "overcastPeak3[2]", global.overcastPeak3TD[2]);
+        ini_write_real("Save3", "overcastPeak4[2]", global.overcastPeak4TD[2]);
+        ini_write_real("Save3", "overcastPeak5[2]", global.overcastPeak5TD[2]);
+        ini_write_real("Save3", "skullcoinBay1[2]", global.skullcoinBay1TD[2]);
+        ini_write_real("Save3", "skullcoinBay2[2]", global.skullcoinBay2TD[2]);
+        ini_write_real("Save3", "skullcoinBay3[2]", global.skullcoinBay3TD[2]);
+        ini_write_real("Save3", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
+        ini_close();
+    }
 //}
 </string>
           </argument>

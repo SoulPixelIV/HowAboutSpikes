@@ -169,6 +169,9 @@ timer += 1;
             <string>///Skip Cutscene
 if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start))
 {
+    timer = 0;
+    transparent = 0;
+    transparent = clamp(transparent, 0, 1);
     room_goto(controllerNotice);
 }
 </string>

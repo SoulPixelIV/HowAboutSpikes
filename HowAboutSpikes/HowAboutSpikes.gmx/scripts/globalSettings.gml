@@ -144,6 +144,8 @@ global.checkpointY = 0;
 global.checkpointServerX = 0;
 global.checkpointServerY = 0;
 
+global.currSave = 0;
+
 //MP
 global.mpStatus = -1;
 global.mpClientx = 0;

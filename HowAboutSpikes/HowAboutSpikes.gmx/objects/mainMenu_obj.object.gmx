@@ -119,7 +119,7 @@ if (key_down)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 130;
+    cursor_obj.x = 150;
     cursor_obj.y = 196;
     if (key_enter)
     {    
@@ -129,26 +129,24 @@ if (buttonSelected == 0)
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 130;
+    cursor_obj.x = 210;
     cursor_obj.y = 218;
-    if (key_enter)
-    {
-        audio_stop_all();
-        room_goto(cutsceneGameStart);
-    }
-}
-if (buttonSelected == 2)
-{
-    cursor_obj.x = 230;
-    cursor_obj.y = 240;
     if (key_enter)
     {
         room_goto(multiplayerMenu);
     }
 }
+if (buttonSelected == 2)
+{
+    cursor_obj.x = 170;
+    cursor_obj.y = 240;
+    if (key_enter)
+    {
+    }
+}
 if (buttonSelected == 3)
 {
-    cursor_obj.x = 130;
+    cursor_obj.x = 120;
     cursor_obj.y = 262;
     if (key_enter)
     {
@@ -157,7 +155,7 @@ if (buttonSelected == 3)
 }
 if (buttonSelected == 4)
 {
-    cursor_obj.x = 130;
+    cursor_obj.x = 90;
     cursor_obj.y = 284;
     if (key_enter)
     {
@@ -189,19 +187,12 @@ if (buttonSelected == 4)
             <string>///Menu GUI
 draw_set_color(c_white);
 draw_set_font(global.newPixelMenu);
-//Check continue button
-if (!file_exists("save1.has"))
-{
-    draw_set_color(c_gray);
-    draw_text(64, 572, "Continue")
-    draw_set_color(c_white);
-}
-else
-{
-    draw_text(64, 572, "Continue")
-}
-draw_text(64, 636, "New Game")
-draw_text(64, 700, "Multiplayer [BETA]")
+
+draw_text(64, 572, "Singleplayer")
+draw_text(64, 636, "Multiplayer [BETA]")
+draw_set_color(c_gray);
+draw_text(64, 700, "Speedrun Mode")
+draw_set_color(c_white);
 draw_text(64, 764, "Settings")
 draw_text(64, 828, "Quit")
 
