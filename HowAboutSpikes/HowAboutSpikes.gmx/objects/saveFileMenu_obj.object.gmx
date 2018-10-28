@@ -62,10 +62,15 @@ key_del = keyboard_check_pressed(ord("I")) || keyboard_check_pressed(vk_backspac
 if (key_back)
 {
     room_goto(mainMenu);
+    global.mpStatus = -1;
 }
 
 if (key_left)
 {
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
     if (buttonSelected &gt; -1)
     {
         buttonSelected = buttonSelected - 1;
@@ -77,6 +82,10 @@ if (key_left)
 }
 if (key_right)
 {
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
     if (buttonSelected &lt; 3)
     {
         buttonSelected = buttonSelected + 1;
@@ -84,6 +93,14 @@ if (key_right)
     if (buttonSelected == 3)
     {
         buttonSelected = 0;
+    }
+}
+
+if (key_enter)
+{
+    if (!audio_is_playing(enter_snd))
+    {
+        audio_play_sound(enter_snd, 1, false);
     }
 }
 

@@ -37,6 +37,8 @@
       <sound>sound\walkStone_snd</sound>
       <sound>sound\chaingun_snd</sound>
       <sound>sound\pop_snd</sound>
+      <sound>sound\click_snd</sound>
+      <sound>sound\enter_snd</sound>
       <sound>sound\checkpointActive_snd</sound>
       <sound>sound\woodboxDestroy_snd</sound>
     </sounds>

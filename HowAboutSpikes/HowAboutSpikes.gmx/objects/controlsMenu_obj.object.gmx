@@ -67,6 +67,10 @@ if (key_back &amp;&amp; userInput == false)
 
 if (key_up &amp;&amp; userInput == false)
 {
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
     if (buttonSelected &gt; -1)
     {
         buttonSelected = buttonSelected - 1;
@@ -78,6 +82,10 @@ if (key_up &amp;&amp; userInput == false)
 }
 if (key_down &amp;&amp; userInput == false)
 {
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
     if (buttonSelected &lt; 6)
     {
         buttonSelected = buttonSelected + 1;
@@ -87,6 +95,15 @@ if (key_down &amp;&amp; userInput == false)
         buttonSelected = 0;
     }
 }
+
+if (key_enter)
+{
+    if (!audio_is_playing(enter_snd))
+    {
+        audio_play_sound(enter_snd, 1, false);
+    }
+}
+
 //MOVE LEFT
 if (buttonSelected == 0)
 {

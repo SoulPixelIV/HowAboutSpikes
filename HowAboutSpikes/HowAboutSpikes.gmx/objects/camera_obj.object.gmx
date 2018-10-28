@@ -320,6 +320,7 @@ if (pauseMenu == true)
                     instance_destroy();
                 }
             }
+
             global.spawned = false;
             pauseMenu = false;
             
