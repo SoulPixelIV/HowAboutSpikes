@@ -233,8 +233,8 @@ if (buttonSelected == 0)
         else
         {
             audio_stop_all();
-            global.currSave = 1;
-            global.money = 0;
+            script_execute(globalSettings);
+            global.currSave = 1;            
             room_goto(cutsceneGameStart);
         }
     }
@@ -375,8 +375,8 @@ if (buttonSelected == 1)
         else
         {
             audio_stop_all();
+            script_execute(globalSettings);
             global.currSave = 2;
-            global.money = 0;
             room_goto(cutsceneGameStart);
         }
     }
@@ -517,8 +517,8 @@ if (buttonSelected == 2)
         else
         {
             audio_stop_all();
+            script_execute(globalSettings);
             global.currSave = 3;
-            global.money = 0;
             room_goto(cutsceneGameStart);
         }
     }
