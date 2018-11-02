@@ -13,6 +13,7 @@ if (instance_exists(player_obj))
 buffer_write(buffer, buffer_s8, global.mpkeyThrow);
 buffer_write(buffer, buffer_s8, global.mpkeyAttack);
 buffer_write(buffer, buffer_s8, global.mpkeyEnter);
+buffer_write(buffer, buffer_s8, global.mpkeyPause);
 
 network_send_packet(socket, buffer, buffer_tell(buffer));
 

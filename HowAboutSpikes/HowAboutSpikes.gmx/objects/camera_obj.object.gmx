@@ -41,6 +41,8 @@ global.healthPause = 2;
 
 global.transition = false;
 
+global.mpkeyPause = false;
+
 //Set Camera View
 if (instance_exists(player_obj))
 {
@@ -213,6 +215,7 @@ if (key_pause)
             {
                 if (pauseMenu == false)
                 {
+                    global.mpkeyPause = true;
                     pauseMenu = true;
                     saveXPos = player_obj.x;
                     saveYPos = player_obj.y;
@@ -227,6 +230,7 @@ if (key_pause)
                 }
                 else
                 {
+                    global.mpkeyPause = false;
                     pauseMenu = false;
                     if (global.mpStatus == -1)
                     {

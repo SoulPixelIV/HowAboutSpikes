@@ -78,6 +78,7 @@ global.restart = false;
 mpkeyThrow = false;
 mpkeyAttack = false;
 mpkeyEnter = false;
+mpkeyPause = false;
 localScythe = noone;
 
 //Achievement
@@ -1365,6 +1366,11 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != skullcoinBay3)
             <string>///Multiplayer
 draw_self();
 image_blend = c_blue;
+
+if (mpkeyPause)
+{
+    draw_sprite(sleepIcon_spr, 0, x, y - 32)
+}
 </string>
           </argument>
         </arguments>
