@@ -480,7 +480,7 @@ animPause = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>gamepad_set_vibration(0, 0, 0);
+            <string>//gamepad_set_vibration(0, 0, 0);
 </string>
           </argument>
         </arguments>
@@ -886,7 +886,7 @@ if (!place_free(x, y + verSpeed))
     fullJump = false;
     if (verSpeed &gt;= 13)
     {
-        gamepad_set_vibration(0, 0.4, 0.4);
+        //gamepad_set_vibration(0, 0.4, 0.4);
         alarm[0] = 10;
     }
     if (verSpeed &gt;= 2)
