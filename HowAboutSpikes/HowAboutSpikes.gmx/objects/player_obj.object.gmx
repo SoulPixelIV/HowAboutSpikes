@@ -1193,13 +1193,13 @@ if (key_throw)
     {
         if (!throw)
         {
-            localScythe = instance_create(x + 16, y, scythe_obj);
+            localScythe = instance_create(x + 16, y, scythePlayer_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
             }
             throw = true;
-            with (scythe_obj)
+            with (localScythe)
             {
                 hspeed = 6.2;
             }
@@ -1209,13 +1209,13 @@ if (key_throw)
     {
         if (!throw)
         {
-            localScythe = instance_create(x - 16, y, scythe_obj);
+            localScythe = instance_create(x - 16, y, scythePlayer_obj);
             if (!audio_is_playing(attack_snd))
             {
                 audio_play_sound(attack_snd, 1, false);
             }
             throw = true;
-            with (scythe_obj)
+            with (localScythe)
             {
                 hspeed = -6.2;
             }
@@ -1627,7 +1627,7 @@ if (key_pause)
             <string>///Collision
 
 //###Scythe Collision###
-if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
+if (place_meeting(x, y, scythePlayer_obj) &amp;&amp; global.throwing == false)
 {   
     //###Collision Checking###
     if (!place_free(x + horSpeed, y))
@@ -1657,7 +1657,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     fullJump = true;
     global.numberJumps = global.numberJumps - 1;
 
-    with (scythe_obj)
+    with (scythePlayer_obj)
     {
         instance_destroy();
     }
@@ -1935,7 +1935,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>/*
 ///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))

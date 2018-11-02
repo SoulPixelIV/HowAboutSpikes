@@ -37,7 +37,7 @@ if (bought1 == false)
 {
     messages[0] = "What are you doing here, you are not a pirate!"
     messages[1] = "I am joking, I do not care. My pirate friends are kinda agressive aren't they?"
-    messages[2] = "Anyway, I heard you are a pretty good adventurer. How about you find me my gold chain? If you find it, than I won't murder you...and I will maybe give you a reward too..."
+    messages[2] = "Anyway, I heard you are a pretty good adventurer. How about you find me my gold chain? If you find it, then I won't murder you...and I will maybe give you a reward too..."
     messages[3] = "The gold chain is hidden somewhere in Sentinel Graves. All I know is that a big monster with a huge eye stole it from me."
     messages[4] = "Now leave."
 }

@@ -1032,7 +1032,7 @@ if (place_meeting(x, y, scytheServer_obj) &amp;&amp; global.throwingServer == fa
 }
 
 //###Scythe Collision###
-if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
+if (place_meeting(x, y, scythePlayer_obj) &amp;&amp; global.throwing == false)
 {   
     //###Collision Checking###
     if (!place_free(x + horSpeed, y))
@@ -1062,7 +1062,7 @@ if (place_meeting(x, y, scythe_obj) &amp;&amp; global.throwing == false)
     fullJump = true;
     numberJumps = numberJumps - 1;
 
-    with (scythe_obj)
+    with (scythePlayer_obj)
     {
         instance_destroy();
     }

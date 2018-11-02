@@ -29,6 +29,8 @@
 cursor = noone;
 cursor = instance_create(160, 160, cursor_obj);
 cursor.image_angle = 270;
+
+saveMPStatus = -1;
 </string>
           </argument>
         </arguments>
@@ -233,7 +235,9 @@ if (buttonSelected == 0)
         else
         {
             audio_stop_all();
+            saveMPStatus = global.mpStatus;
             script_execute(globalSettings);
+            global.mpStatus = saveMPStatus;
             global.currSave = 1;            
             room_goto(cutsceneGameStart);
         }
@@ -375,7 +379,9 @@ if (buttonSelected == 1)
         else
         {
             audio_stop_all();
+            saveMPStatus = global.mpStatus;
             script_execute(globalSettings);
+            global.mpStatus = saveMPStatus;
             global.currSave = 2;
             room_goto(cutsceneGameStart);
         }
@@ -517,7 +523,9 @@ if (buttonSelected == 2)
         else
         {
             audio_stop_all();
+            saveMPStatus = global.mpStatus;
             script_execute(globalSettings);
+            global.mpStatus = saveMPStatus;
             global.currSave = 3;
             room_goto(cutsceneGameStart);
         }
@@ -634,7 +642,7 @@ draw_set_font(global.newPixelMenu);
 draw_text(500, 980, "Press I / Y to delete a save file");
 
 draw_set_font(version_fnt);
-draw_text(1570, 1040, "How About Spikes | Patch 18");
+draw_text(1570, 1040, "How About Spikes | Patch 19");
 </string>
           </argument>
         </arguments>

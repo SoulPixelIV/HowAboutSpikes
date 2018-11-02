@@ -137,7 +137,7 @@ if (closed == false)
           <argument>
             <kind>1</kind>
             <string>draw_self();
-if (distance_to_object(player_obj) &lt; 32 &amp;&amp; closed)
+if (distance_to_object(player_obj) &lt; 26 &amp;&amp; closed)
 {
     if (gamepad_is_connected(0))
     {
