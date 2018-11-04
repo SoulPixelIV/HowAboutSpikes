@@ -33,7 +33,7 @@ global.mpMove = 0;
 numberJumps = 2;
 global.gravityStrength = 0.46;
 global.ladderSpeed = 3.25;
-health = global.healthVar;
+healthServer = global.healthVar;
 //health = global.healthPause;
 attackCooldown = 7;
 pauseMenu = false;
@@ -921,11 +921,11 @@ else
 */
 
 //###Death###
-if (health == 0)
+if (healthServer == 0)
 {
     deathCountVar = true;
 }
-if (health &lt; 0)
+if (healthServer &lt; 0)
 {
     horSpeed = 0;
     verSpeed = 0;
@@ -948,7 +948,7 @@ if (health &lt; 0)
                 verSpeed = 0;
                 horSpeed = 0;
             }
-            health = 2;
+            healthServer = 2;
             dead = false;
     }
 }
@@ -957,7 +957,7 @@ if (deathCountVar == true)
 {
     global.deathCount = global.deathCount + 1;
     deathCountVar = false;
-    health = health - 1;
+    healthServer = healthServer - 1;
 }
 
 //###Pause Menu###
@@ -1075,7 +1075,7 @@ if (place_meeting(x, y, scythePlayer_obj) &amp;&amp; global.throwing == false)
 
 if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMystery_obj)))
 {
-    health = global.healthVar;
+    healthServer = global.healthVar;
     global.checkpointServerX = other.x;
     global.checkpointServerY = other.y;
     global.checkpointServerRoom = room;
@@ -1107,13 +1107,14 @@ if (place_meeting(x, y, checkpoint_obj) || (place_meeting(x, y, checkpointMyster
 //###Damage Collision###
 if (place_meeting(x, y, lava_obj) || place_meeting(x, y, spikeRed_obj))
 {
-    if (health &gt; 0)
+    if (healthServer &gt; 0)
     {
-        health = health - 1;
+        healthServer = healthServer - 1;
     }
     alarm[0] = 10;
 }
-    
+
+/*    
 if (global.hit == true)
 {
     gamepad_set_vibration(0, 0.3, 0.3);
@@ -1174,6 +1175,7 @@ if (invTimer &lt;= 0)
     gamepad_set_vibration(0, 0, 0);
     invTimer = 90;
 }
+
 //###Ladder Collision###
 key_jump = keyboard_check(vk_space) || gamepad_button_check(0, gp_face1);
 if (place_meeting(x, y, ladder_obj))
@@ -1217,7 +1219,7 @@ else
     onLadder = false;
 }   
 //###Lever Collision###
-/*
+
 if (place_meeting(x, y, lever_obj))
 {
     global.hitLever = true;
@@ -1230,7 +1232,7 @@ if (place_meeting(x, y, leverRed_obj))
 {
     global.hitLeverRed = true;
 }
-*/
+
 //###Key Collision###
 if (place_meeting(x, y, key_obj))
 {
@@ -1260,8 +1262,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
 {
     horSpeed = 5 * sign(horSpeed);
 }
-
-
+*/
 </string>
           </argument>
         </arguments>
