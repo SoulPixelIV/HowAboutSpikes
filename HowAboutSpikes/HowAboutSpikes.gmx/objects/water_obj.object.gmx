@@ -29,6 +29,7 @@
 currSprite = noone;
 moving = false;
 var Draw;
+var DrawServer;
 </string>
           </argument>
         </arguments>
@@ -86,13 +87,36 @@ else
 
 draw_self();
 
-if (place_meeting(x, y, player_obj))
+if (instance_exists(player_obj))
 {
-    Draw = 1;
+    if (place_meeting(x, y, player_obj))
+    {
+        Draw = 1;
+    }
+    else
+    {
+        Draw = 0;
+    }
 }
 else
 {
     Draw = 0;
+}
+
+if (instance_exists(playerServer_obj))
+{
+    if (place_meeting(x, y, playerServer_obj))
+    {
+        DrawServer = 1;
+    }
+    else
+    {
+        DrawServer = 0;
+    }
+}
+else
+{
+    DrawServer = 0;
 }
 
 if (Draw == 1)
@@ -111,6 +135,27 @@ if (Draw == 1)
             with (water_obj)
             {
                 draw_sprite_ext(player_obj.sprite_index,player_obj.image_index,player_obj.x, player_obj.y + 20,-1,-0.5,0,image_blend,.025);
+            }
+        }
+    }
+}
+
+if (DrawServer == 1)
+{
+    with (playerServer_obj)
+    {
+        if (lastDir == 1)
+        {
+            with (water_obj)
+            {
+                draw_sprite_ext(playerServer_obj.sprite_index,playerServer_obj.image_index,playerServer_obj.x, playerServer_obj.y + 20,1,-0.5,0,c_blue,.025);
+            }
+        }
+        else
+        {
+            with (water_obj)
+            {
+                draw_sprite_ext(playerServer_obj.sprite_index,playerServer_obj.image_index,playerServer_obj.x, playerServer_obj.y + 20,-1,-0.5,0,c_blue,.025);
             }
         }
     }
