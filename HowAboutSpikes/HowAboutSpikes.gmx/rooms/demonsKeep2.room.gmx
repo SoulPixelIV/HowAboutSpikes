@@ -2669,6 +2669,12 @@
     <instance objName="mpSpawn_obj" x="224" y="0" name="inst_A7D9CDD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlockNewBG_obj" x="1600" y="480" name="inst_2D1EC4A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="woodBlockNewBG_obj" x="1600" y="512" name="inst_E018E6F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="320" y="1312" name="inst_15A213CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="704" y="800" name="inst_EAC71BAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="1216" y="1056" name="inst_3E7EADF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="864" y="1376" name="inst_158312DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="1888" y="1024" name="inst_9A272F7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="2784" y="1024" name="inst_464A0FE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

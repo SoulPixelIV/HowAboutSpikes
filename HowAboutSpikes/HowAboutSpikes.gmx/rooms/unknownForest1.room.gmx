@@ -3186,6 +3186,7 @@
     <instance objName="easyModeBlock_obj" x="256" y="384" name="inst_7C29BFBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="288" y="384" name="inst_733F8B14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mpSpawn_obj" x="256" y="0" name="inst_B528FBCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="statue_obj" x="2644" y="747" name="inst_9622441E" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

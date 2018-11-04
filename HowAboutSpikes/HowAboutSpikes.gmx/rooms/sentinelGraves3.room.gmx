@@ -329,6 +329,9 @@
     <instance objName="darkBlockFake_obj" x="480" y="192" name="inst_467407C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlockFake_obj" x="512" y="160" name="inst_FBE89B56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mpSpawn_obj" x="224" y="0" name="inst_3C9543D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="448" y="768" name="inst_3C1D3045" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="1024" y="608" name="inst_03C3AF49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="768" y="160" name="inst_B30E9B9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

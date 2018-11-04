@@ -2195,6 +2195,9 @@
     <instance objName="lavaBlock_obj" x="448" y="480" name="inst_78E6F3C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="928" y="960" name="inst_2870B3AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sunLight1RedShader_obj" x="2464" y="864" name="inst_D0EBEE86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="1472" y="1056" name="inst_A0F00576" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="2592" y="1056" name="inst_0E48EB32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="torchstand_obj" x="3264" y="672" name="inst_56450F44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

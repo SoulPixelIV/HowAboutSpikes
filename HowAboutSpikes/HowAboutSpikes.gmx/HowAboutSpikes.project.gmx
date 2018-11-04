@@ -598,6 +598,7 @@
       <object>objects\redFlower_obj</object>
       <object>objects\latern_obj</object>
       <object>objects\lamp_obj</object>
+      <object>objects\torchstand_obj</object>
       <objects name="Tutorial">
         <object>objects\tutorialSign1_obj</object>
         <object>objects\tutorialSign2_obj</object>
