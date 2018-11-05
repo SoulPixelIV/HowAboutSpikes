@@ -1,0 +1,8 @@
+- Inv frames inconsistent
+- Change damage push and damage controller vibration
+- Saws inconsistent
+- Orbs in holders look weird
+- 2 souls sometimes count as one
+- Save Icon looks weird (Change to text)
+- Check overcastpeak4 -> 3
+- Bosses get stuck when you die while the animation
