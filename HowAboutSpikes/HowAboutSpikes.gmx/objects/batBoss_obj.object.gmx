@@ -171,12 +171,15 @@ else
 {
     with(batBoss_obj)
     {
-        bossHealth = 100;
-        global.batPhase = 0;
-        movTimer = 350;
-        dir = 0;
-        x = startPosX;
-        y = startPosY;
+        if (bossHealth &gt; 0)
+        {
+            bossHealth = 100;
+            global.batPhase = 0;
+            movTimer = 350;
+            dir = 0;
+            x = startPosX;
+            y = startPosY;
+        }
     }
 }
 </string>

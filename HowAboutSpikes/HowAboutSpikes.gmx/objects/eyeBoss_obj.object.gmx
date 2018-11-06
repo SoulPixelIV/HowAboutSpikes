@@ -137,7 +137,10 @@ alarm[0] = 10;
 {
     with(eyeBoss_obj)
     {
-        bossHealth = 100;
+        if (bossHealth &gt; 0)
+        {
+            bossHealth = 100;
+        }
     }
 }
 </string>

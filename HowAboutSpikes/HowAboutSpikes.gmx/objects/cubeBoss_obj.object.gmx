@@ -139,7 +139,10 @@ alarm[0] = 30;
 {
     with(cubeBoss_obj)
     {
-        bossHealth = 100;
+        if (bossHealth &gt; 0)
+        {
+            bossHealth = 100;
+        }
         with (chaingunTurretCube_obj)
         {
             instance_destroy();
