@@ -1,6 +1,5 @@
 - Inv frames inconsistent
 - Change damage push and damage controller vibration
 - Saws inconsistent
-- 2 souls sometimes count as one
 - Save Icon looks weird (Change to text)
 - Bosses get stuck when you die while the animation
