@@ -52,6 +52,14 @@ instance_create(x, y, light_obj);
             <string>if (place_meeting(x, y, player_obj))
 {
     instance_change(darkSpiritDestroy_obj, true);
+    if (global.ringWealth)
+    {
+        global.money += 2;
+    }
+    else
+    {
+        global.money += 1;
+    }
 }
 if (place_meeting(x, y, playerServer_obj))
 {
@@ -60,6 +68,14 @@ if (place_meeting(x, y, playerServer_obj))
 if (place_meeting(x, y, scythe_obj))
 {
     instance_change(darkSpiritDestroy_obj, true);
+    if (global.ringWealth)
+    {
+        global.money += 2;
+    }
+    else
+    {
+        global.money += 1;
+    }
 }
 </string>
           </argument>

@@ -25,9 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.placedRed2)
+            <string>image_speed = 0;
+image_index = 0;
+
+if (global.placedRed2)
 {
     instance_create(x, y, redOrb_obj);
+    image_index = 1;
 }
 </string>
           </argument>
@@ -54,27 +58,38 @@
             <string>if (place_meeting(x, y, redOrb_obj))
 {
     global.pickedRed = false;
-    with (blueOrbPlace2_obj)
+    image_index = 1;
+    with (redOrb_obj)
     {
-        if (place_meeting(x, y, blueOrb_obj))
+        instance_destroy();
+    }
+}
+
+with (blueOrbPlace2_obj)
+{
+    if (place_meeting(x, y, blueOrb_obj))
+    {
+        global.pickedBlue = false;
+        image_index = 1;
+        with (blueOrb_obj)
         {
-            global.pickedBlue = false;
-            if (room == overcastPeak1)
+            instance_destroy();
+        }
+        if (room == overcastPeak1)
+        {
+            with (OPDoor_obj)
             {
-                with (OPDoor_obj)
-                {
-                    instance_destroy();
-                }
-                global.opDoor = true;
+                instance_destroy();
             }
-            if (room == skullcoinBay3)
+            global.opDoor = true;
+        }
+        if (room == skullcoinBay3)
+        {
+            with (OPDoor_obj)
             {
-                with (OPDoor_obj)
-                {
-                    instance_destroy();
-                }
-                global.scbDoor = true;
+                instance_destroy();
             }
+            global.scbDoor = true;
         }
     }
 }

@@ -1886,6 +1886,7 @@ if (place_meeting(x, y, flyingCloud_obj))
     verSpeed = verSpeed / 1.2;
 }
 //###Money Collision###
+/*
 if (place_meeting(x, y, darkSpirit_obj))
 {
     if (global.ringWealth)
@@ -1897,6 +1898,7 @@ if (place_meeting(x, y, darkSpirit_obj))
         global.money += 1;
     }
 }
+*/
 if (place_meeting(x, y, darkSpiritBig_obj))
 {
     if (global.ringWealth)
@@ -1968,15 +1970,15 @@ if (keyboard_check_pressed(ord('4')))
 {
     global.ringVision = true;
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != skullcoinBay1)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != gardenValley)
 {
     global.playerSpawnLocation = 0;
-    room_goto(skullcoinBay1);
+    room_goto(gardenValley);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != overcastPeak3)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != skullcoinBay3)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak3);
+    room_goto(skullcoinBay3);
 }
 if (keyboard_check_pressed(ord('7')) &amp;&amp; room != skullcoinBayBoss)
 {

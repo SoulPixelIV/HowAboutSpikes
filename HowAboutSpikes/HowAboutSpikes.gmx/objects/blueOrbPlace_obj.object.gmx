@@ -25,9 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.placedBlue)
+            <string>image_speed = 0;
+image_index = 0;
+
+if (global.placedBlue)
 {
     instance_create(x, y, blueOrb_obj);
+    image_index = 1;
 }
 </string>
           </argument>
