@@ -64,7 +64,7 @@ draw_set_font(global.newPixelMenuBig);
 draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);
-draw_text(1570, 1040, "How About Spikes | Patch 19");
+draw_text(1570, 1040, "How About Spikes | Patch 20");
 /*
 if (file_exists("save1.has"))
 {

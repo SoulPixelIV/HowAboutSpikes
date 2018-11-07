@@ -1,4 +1,3 @@
 - Inv frames inconsistent
 - Change damage push and damage controller vibration
 - Saws inconsistent
-- Bosses get stuck when you die while the animation
