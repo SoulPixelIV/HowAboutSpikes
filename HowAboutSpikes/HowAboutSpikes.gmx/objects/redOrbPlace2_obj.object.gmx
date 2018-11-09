@@ -74,22 +74,32 @@ with (blueOrbPlace2_obj)
         with (blueOrb_obj)
         {
             instance_destroy();
-        }
-        if (room == overcastPeak1)
+        }       
+    }
+}
+
+if (image_index == 1)
+{
+    with (blueOrbPlace2_obj)
+    {
+        if (image_index == 1)
         {
-            with (OPDoor_obj)
+            if (room == overcastPeak1)
             {
-                instance_destroy();
+                with (OPDoor_obj)
+                {
+                    instance_destroy();
+                }
+                global.opDoor = true;
             }
-            global.opDoor = true;
-        }
-        if (room == skullcoinBay3)
-        {
-            with (OPDoor_obj)
+            if (room == skullcoinBay3)
             {
-                instance_destroy();
+                with (OPDoor_obj)
+                {
+                    instance_destroy();
+                }
+                global.scbDoor = true;
             }
-            global.scbDoor = true;
         }
     }
 }

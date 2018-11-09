@@ -206,7 +206,7 @@
     <option_audioGroupCount>1</option_audioGroupCount>
     <option_author>William Djalal</option_author>
     <option_backimage>nil</option_backimage>
-    <option_borderless>True</option_borderless>
+    <option_borderless>False</option_borderless>
     <option_changed>false</option_changed>
     <option_changeresolution>false</option_changeresolution>
     <option_closeesc>true</option_closeesc>
@@ -221,7 +221,7 @@
     <option_freeze>false</option_freeze>
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
-    <option_fullscreen>False</option_fullscreen>
+    <option_fullscreen>True</option_fullscreen>
     <option_gameguid>{4B8F4CC1-6C9E-423A-9246-7C4EAD3F9CAB}</option_gameguid>
     <option_gameid>815402463</option_gameid>
     <option_hasloadimage>false</option_hasloadimage>
