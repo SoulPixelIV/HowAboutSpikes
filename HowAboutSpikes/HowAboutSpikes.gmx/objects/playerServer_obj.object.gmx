@@ -61,6 +61,7 @@ dashTimer = 7;
 savePosX = 0;
 savePosY = 0;
 spawnPart = false;
+serverSteamName = noone;
 
 global.hit = false;
 global.state = 0;
@@ -1372,6 +1373,8 @@ if (mpkeyPause)
 {
     draw_sprite(sleepIcon_spr, 0, x, y - 32)
 }
+
+
 </string>
           </argument>
         </arguments>

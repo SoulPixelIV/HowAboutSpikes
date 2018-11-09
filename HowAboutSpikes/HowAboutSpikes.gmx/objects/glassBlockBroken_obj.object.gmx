@@ -50,13 +50,35 @@ instance_activate_object(self);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x, y - 12, player_obj) &amp;&amp; place_meeting(x, y - 12, playerServer_obj))
+            <string>if (global.mpStatus == -1)
 {
-    timer = timer - 1;
+    if (place_meeting(x, y - 12, player_obj))
+    {
+        timer = timer - 1;
+    }
+    else
+    {
+        timer = 20;
+    }
 }
 else
 {
-    timer = 20;
+    if (place_meeting(x, y - 12, player_obj))
+    {
+        timer = timer - 1;
+    }
+    else
+    {
+        timer = 20;
+    }
+    if (place_meeting(x, y - 12, playerServer_obj))
+    {
+        timer = timer - 1;
+    }
+    else
+    {
+        timer = 20;
+    }
 }
 
 if (timer &gt; 15)
