@@ -223,6 +223,7 @@ if (deathTimer &lt; 0)
         with (finalBoss2_obj)
         {
             bossHealth = 100;
+            image_blend = c_white;
             global.finalBossPhase = 0;
             x = startPosX;
             y = startPosY;

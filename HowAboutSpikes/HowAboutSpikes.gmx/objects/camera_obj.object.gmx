@@ -915,6 +915,8 @@ if (pauseMenu == true)
 
     draw_text(64, 636, "Back to title screen")
     
+    draw_text(1400, 100, "Map")
+    
     draw_set_font(global.newPixelMenuBig);
     draw_set_colour(c_white);
     draw_text(72, 64, "PAUSED");
