@@ -65,7 +65,7 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
     }
 }
-if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss || room == skullcoinBayBoss || room == skullcoinBay6)
+if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss)
 {
     if (!audio_is_playing(boss_msc))
     {
@@ -208,6 +208,7 @@ if (room == skullcoinBay1 || room == skullcoinBay2 || room == skullcoinBay3 || r
         audio_stop_sound(lava_msc);
         audio_stop_sound(boss_msc);
         audio_stop_sound(snow_msc);
+        audio_stop_sound(heaven_msc);
         audio_stop_sound(tutorial_msc);
         audio_stop_sound(beach_msc);
         audio_stop_sound(final_msc);
@@ -1940,7 +1941,7 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>/*
 ///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
