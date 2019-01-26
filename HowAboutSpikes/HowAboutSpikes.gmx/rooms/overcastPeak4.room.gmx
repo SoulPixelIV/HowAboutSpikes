@@ -228,9 +228,7 @@
     <instance objName="spikeMoving_obj" x="2080" y="160" name="inst_0CEC8097" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2112" y="160" name="inst_11952520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2144" y="160" name="inst_1FF53849" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2208" y="288" name="inst_218AA7CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2304" y="288" name="inst_AFDE98D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2336" y="288" name="inst_DF0FEC52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="spikeMoving_obj" x="2240" y="288" name="inst_218AA7CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="2368" y="288" name="inst_52821B5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2080" y="736" name="inst_8C4DFBD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="2080" y="768" name="inst_08A427BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
