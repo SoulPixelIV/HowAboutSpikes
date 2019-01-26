@@ -3188,6 +3188,7 @@
     <instance objName="mpSpawn_obj" x="256" y="0" name="inst_B528FBCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="statue_obj" x="2644" y="747" name="inst_9622441E" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="32" y="1344" name="inst_DC832CB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="1888" y="960" name="inst_40EC8514" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -57,7 +57,7 @@
     <instance objName="particleCircleRedSpawner_obj" x="128" y="0" name="inst_2D05F96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="particleWhiteSpawner_obj" x="160" y="0" name="inst_8EDBD13D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="birdSpawner_obj" x="224" y="0" name="inst_B646D22F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="2432" y="224" name="inst_1A5166F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="2304" y="224" name="inst_1A5166F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="chaingunTurret_obj" x="1984" y="146" name="inst_82BCCF27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="2144" y="96" name="inst_50266EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>
     <instance objName="spikeUp_obj" x="2112" y="96" name="inst_3CD6242E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="180"/>

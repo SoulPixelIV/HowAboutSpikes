@@ -89,7 +89,7 @@
     <instance objName="latern_obj" x="1088" y="672" name="inst_AE197FBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1280" y="672" name="inst_287D3856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="latern_obj" x="1472" y="672" name="inst_58B51B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="checkpoint_obj" x="640" y="672" name="inst_74947952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="96" y="608" name="inst_74947952" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="768" y="672" name="inst_C888C7F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="800" y="672" name="inst_0BF305F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeUp_obj" x="832" y="672" name="inst_63CB8224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -247,8 +247,6 @@
     <instance objName="spikeFalling_obj" x="1216" y="576" name="inst_FDEA1693" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="1088" y="384" name="inst_54F1B49D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="736" y="320" name="inst_96E3F953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="1920" y="704" name="inst_23C13080" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="1856" y="704" name="inst_EA2D71DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1664" y="704" name="inst_357A93E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1696" y="704" name="inst_E87BEBA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1728" y="704" name="inst_646F3002" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1252,6 +1250,7 @@
     <instance objName="easyModeBlock_obj" x="896" y="128" name="inst_305FE669" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="2368" y="352" name="inst_45A39D5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mpSpawn_obj" x="224" y="0" name="inst_B39C1CC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="checkpoint_obj" x="2048" y="704" name="inst_B8B11BAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
