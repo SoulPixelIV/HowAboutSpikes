@@ -158,6 +158,8 @@ if (buttonSelected == 2)
     cursor_obj.y = 240;
     if (key_enter)
     {
+        room_goto(saveFileMenu);
+        global.speedStatus = 1;
     }
 }
 if (buttonSelected == 3)
@@ -206,9 +208,7 @@ draw_set_font(global.newPixelMenu);
 
 draw_text(64, 572, "Singleplayer")
 draw_text(64, 636, "Multiplayer [BETA]")
-draw_set_color(c_gray);
 draw_text(64, 700, "Speedrun Mode")
-draw_set_color(c_white);
 draw_text(64, 764, "Settings")
 draw_text(64, 828, "Quit")
 

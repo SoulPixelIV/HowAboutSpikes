@@ -420,6 +420,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\gui_fnt</font>
+    <font>fonts\guiBig_fnt</font>
     <font>fonts\message_fnt</font>
     <font>fonts\checkpoint_fnt</font>
     <font>fonts\gameover_fnt</font>

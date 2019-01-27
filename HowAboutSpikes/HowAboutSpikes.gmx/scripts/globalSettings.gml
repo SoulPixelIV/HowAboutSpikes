@@ -155,6 +155,13 @@ global.playerClientBacky = 0;
 global.serverSpawned = false;
 global.clientSpawned = false;
 
+//Speedrun
+global.speedStatus = -1;
+global.speedHours = 0;
+global.speedMinutes = 0;
+global.speedSeconds = 0;
+global.speedMilli = 0;
+
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
 audio_sound_gain(attack_snd, global.soundVolume, 0);

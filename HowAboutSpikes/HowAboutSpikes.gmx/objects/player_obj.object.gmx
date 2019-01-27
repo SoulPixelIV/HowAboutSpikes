@@ -1123,6 +1123,47 @@ animPause = false;
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Speedrun Mode
+if (global.speedStatus == 1)
+{
+    global.speedMilli += 1;
+    
+    if (global.speedMilli == 60)
+    {
+        global.speedMilli = 0;
+        global.speedSeconds += 1;
+    }
+    if (global.speedSeconds == 60)
+    {
+        global.speedSeconds = 0;
+        global.speedMinutes += 1;
+    }
+    if (global.speedMinutes == 60)
+    {
+        global.speedMinutes = 0;
+        global.speedHours += 1;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Movement etc.
 
 //###Movement###
@@ -2194,9 +2235,16 @@ if (savingProgress)
 }
 
 //###GUI###
-/*
+
 draw_set_colour(c_white);
-draw_text(global.guiPosX + 8, global.guiPosY + 272, "checkpointX " + string(global.checkpointX));
+draw_set_font(guiBig_fnt);
+if (global.speedStatus == 1)
+{
+    draw_text(global.guiPosX + (display_get_width() / 8 - 28), global.guiPosY + 24, "Time " + string(global.speedHours) + ":" + string(global.speedMinutes) + ":" + string(global.speedSeconds) + ":" + string(global.speedMilli));
+}
+draw_set_font(gui_fnt);
+
+/*
 draw_text(global.guiPosX + 8, global.guiPosY + 288, "checkpointY " + string(global.checkpointY));
 draw_text(global.guiPosX + 8, global.guiPosY + 304, "stats = " + string(steam_stats_ready()));
 draw_text(global.guiPosX + 8, global.guiPosY + 320, "State = " + string(global.state));
