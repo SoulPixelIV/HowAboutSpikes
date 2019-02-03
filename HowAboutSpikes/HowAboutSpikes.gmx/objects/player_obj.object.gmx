@@ -1038,6 +1038,32 @@ if (steam_get_achievement("KILL_FIRST_SLIME") &amp;&amp; steam_get_achievement("
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Speedrun Mode
+if (global.speedStatus == 1 &amp;&amp; global.firstTime)
+{
+    movement = false;
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="2" enumb="2">
       <action>
@@ -1145,6 +1171,13 @@ if (global.speedStatus == 1)
     {
         global.speedMinutes = 0;
         global.speedHours += 1;
+    }
+    
+    //Movement Deactive/Active
+    if (global.speedSeconds == 0 &amp;&amp; global.firstTime &amp;&amp; !movement)
+    {
+        movement = true;
+        global.firstTime = false;
     }
 }
 </string>

@@ -156,10 +156,11 @@ global.serverSpawned = false;
 global.clientSpawned = false;
 
 //Speedrun
+global.firstTime = true;
 global.speedStatus = -1;
 global.speedHours = 0;
 global.speedMinutes = 0;
-global.speedSeconds = 0;
+global.speedSeconds = -5;
 global.speedMilli = 0;
 
 //Sounds

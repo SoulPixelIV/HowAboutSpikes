@@ -107,16 +107,16 @@ if (buttonSelected == 0)
     if (key_enter)
     {
         audio_stop_all();
-        global.speedStatus = 1;
         script_execute(globalSettings);
+        global.speedStatus = 1;
         room_goto(gardenValley);
     }
 }
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 140;
-    cursor_obj.y = 240;
+    cursor_obj.x = 120;
+    cursor_obj.y = 220;
     if (key_enter)
     {
         room_goto(mainMenu);
@@ -152,7 +152,7 @@ draw_text(64, 572, "Start Speedrun");
 draw_text(64, 636, "Back");
 
 draw_set_colour(c_red);
-draw_text(850, 422, "This is the new speedrun mode.#You will immediatly spawn in Garden Valley and the timer will start running.#You have to play through the whole game, there is no saving allowed!#You can pause the game, which will also pause the timer.");
+draw_text(850, 422, "This is the new speedrun mode.#You will immediatly#spawn in Garden Valley and#the timer will start running.#You have to play through#the whole game, there is no#saving allowed!#You can pause the game,#which will also pause the timer.");
 
 draw_set_colour(c_white);
 draw_set_font(global.newPixelMenuBig);
