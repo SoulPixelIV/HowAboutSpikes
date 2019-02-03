@@ -598,6 +598,8 @@ amount = 1;
             <string>///Save Game
 //if (room != tutorial)
 //{
+if (global.speedStatus != 1)
+{
     savingProgress = true;
     
     if (global.currSave == 1)
@@ -961,6 +963,7 @@ amount = 1;
         ini_write_real("Save3", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
         ini_close();
     }
+}
 //}
 </string>
           </argument>

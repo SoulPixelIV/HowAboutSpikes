@@ -467,6 +467,7 @@
         <object>objects\controlsMenu_obj</object>
         <object>objects\multiplayerMenu_obj</object>
         <object>objects\saveFileMenu_obj</object>
+        <object>objects\speedRunNoticeMenu_obj</object>
       </objects>
       <objects name="Cutscene Objects">
         <object>objects\cutsceneCameraDown_obj</object>
@@ -836,6 +837,7 @@
       <room>rooms\controlsMenu</room>
       <room>rooms\multiplayerMenu</room>
       <room>rooms\saveFileMenu</room>
+      <room>rooms\speedRunNoticeMenu</room>
     </rooms>
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>

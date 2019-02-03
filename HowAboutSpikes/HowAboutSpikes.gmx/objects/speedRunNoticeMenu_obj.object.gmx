@@ -27,8 +27,6 @@
             <kind>1</kind>
             <string>buttonSelected = 0;
 instance_create(160, 160, cursor_obj);
-global.loadedRoom = 1;
-global.continued = false;
 </string>
           </argument>
         </arguments>
@@ -53,8 +51,15 @@ global.continued = false;
             <kind>1</kind>
             <string>key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
 key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")) || gamepad_button_check_pressed(0, gp_padl);
+key_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")) || gamepad_button_check_pressed(0, gp_padr);
 key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
 key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
+
+if (key_back)
+{
+    room_goto(mainMenu);
+}
 
 if (key_up)
 {
@@ -68,7 +73,7 @@ if (key_up)
     }
     if (buttonSelected == -1)
     {
-        buttonSelected = 4;
+        buttonSelected = 1;
     }
 }
 if (key_down)
@@ -77,11 +82,11 @@ if (key_down)
     {
         audio_play_sound(click_snd, 1, false);
     }
-    if (buttonSelected &lt; 5)
+    if (buttonSelected &lt; 2)
     {
         buttonSelected = buttonSelected + 1;
     }
-    if (buttonSelected == 5)
+    if (buttonSelected == 2)
     {
         buttonSelected = 0;
     }
@@ -97,88 +102,27 @@ if (key_enter)
 
 if (buttonSelected == 0)
 {
-    cursor_obj.x = 150;
+    cursor_obj.x = 175;
     cursor_obj.y = 196;
     if (key_enter)
-    {    
-        room_goto(saveFileMenu);
+    {
+        audio_stop_all();
+        global.speedStatus = 1;
+        script_execute(globalSettings);
+        room_goto(gardenValley);
     }
 }
 
 if (buttonSelected == 1)
 {
-    cursor_obj.x = 210;
-    cursor_obj.y = 218;
-    if (key_enter)
-    {
-        room_goto(multiplayerMenu);
-    }
-}
-if (buttonSelected == 2)
-{
-    cursor_obj.x = 170;
+    cursor_obj.x = 140;
     cursor_obj.y = 240;
     if (key_enter)
     {
-        room_goto(speedRunNoticeMenu);
+        room_goto(mainMenu);
     }
 }
-if (buttonSelected == 3)
-{
-    cursor_obj.x = 120;
-    cursor_obj.y = 262;
-    if (key_enter)
-    {
-        room_goto(settingsMenu);
-    }
-}
-if (buttonSelected == 4)
-{
-    cursor_obj.x = 90;
-    cursor_obj.y = 284;
-    if (key_enter)
-    {
-        game_end();
-    }
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Music
-if (!audio_is_playing(mainMenu_msc))
-{
-    audio_stop_sound(heaven_msc);
-    audio_stop_sound(undergroundCity_msc);
-    audio_stop_sound(unknownForest_msc);
-    audio_stop_sound(boss_msc);
-    audio_stop_sound(beach_msc);
-    audio_stop_sound(tutorial_msc);
-    audio_stop_sound(snow_msc);
-    audio_stop_sound(lava_msc);
-    audio_stop_sound(dark_msc);
-    audio_stop_sound(final_msc);
-    audio_stop_sound(skull_msc);
-    audio_play_sound(mainMenu_msc, 1, true);
-    audio_sound_gain(mainMenu_msc, 0, 0);
-    audio_sound_gain(mainMenu_msc, 0.2, 10000);
-}
+
 </string>
           </argument>
         </arguments>
@@ -202,20 +146,20 @@ if (!audio_is_playing(mainMenu_msc))
           <argument>
             <kind>1</kind>
             <string>///Menu GUI
-draw_set_color(c_white);
 draw_set_font(global.newPixelMenu);
+draw_text(64, 572, "Start Speedrun");
 
-draw_text(64, 572, "Singleplayer")
-draw_text(64, 636, "Multiplayer [BETA]")
-draw_text(64, 700, "Speedrun Mode")
-draw_text(64, 764, "Settings")
-draw_text(64, 828, "Quit")
+draw_text(64, 636, "Back");
+
+draw_set_colour(c_red);
+draw_text(850, 422, "This is the new speedrun mode.#You will immediatly spawn in Garden Valley and the timer will start running.#You have to play through the whole game, there is no saving allowed!#You can pause the game, which will also pause the timer.");
+
+draw_set_colour(c_white);
+draw_set_font(global.newPixelMenuBig);
+draw_text(72, 64, "How About Spikes");
 
 draw_set_font(version_fnt);
 draw_text(1570, 1040, "How About Spikes | Patch 20");
-
-draw_set_font(global.newPixelMenuBig);
-draw_text(72, 64, "How About Spikes");
 </string>
           </argument>
         </arguments>
