@@ -2511,13 +2511,8 @@
     <instance objName="checkpoint_obj" x="64" y="1376" name="inst_0880B01E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="colliderOP5_OPB_obj" x="-34" y="1301" name="inst_5E0BB42C" locked="0" code="" scaleX="0.833333313465118" scaleY="3.17000007629395" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="1824" y="832" name="inst_47023A60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="1920" y="832" name="inst_D11F3751" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="1728" y="768" name="inst_49BE4C99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="1984" y="608" name="inst_C59ABBC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeFalling_obj" x="2016" y="608" name="inst_159BB337" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2176" y="832" name="inst_777032CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2336" y="832" name="inst_328267BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="2272" y="832" name="inst_60996C18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="enemyFlyingCloud_obj" x="2144" y="736" name="inst_8F5A4B37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="2496" y="544" name="inst_C5C0D19C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlockNotSolid_obj" x="2496" y="128" name="inst_E9F43269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
