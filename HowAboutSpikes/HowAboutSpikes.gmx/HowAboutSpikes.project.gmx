@@ -68,6 +68,7 @@
       <sprite>sprites\playerAttack_spr</sprite>
       <sprite>sprites\playerDeath_spr</sprite>
       <sprite>sprites\scythe_spr</sprite>
+      <sprite>sprites\scytheDestroy_spr</sprite>
       <sprite>sprites\scytheRotating_spr</sprite>
       <sprite>sprites\dashEffect_spr</sprite>
       <sprites name="Player Sprites OLD">
@@ -442,6 +443,7 @@
       <object>objects\dashEffect_obj</object>
       <object>objects\playerRewrite_obj</object>
       <object>objects\scythe_obj</object>
+      <object>objects\scytheDestroy_obj</object>
     </objects>
     <objects name="Special Objects">
       <object>objects\globalSettings_obj</object>

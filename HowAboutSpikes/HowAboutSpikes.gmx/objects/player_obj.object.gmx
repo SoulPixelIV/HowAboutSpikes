@@ -1309,6 +1309,7 @@ else
     {
         with (localScythe)
         {
+            instance_create(x, y, scytheDestroy_obj);
             instance_destroy();
         }
     }
@@ -1740,6 +1741,7 @@ if (place_meeting(x, y, scythePlayer_obj) &amp;&amp; global.throwing == false)
 
     with (scythePlayer_obj)
     {
+        instance_create(x, y, scytheDestroy_obj);
         instance_destroy();
     }
 }
@@ -1776,6 +1778,7 @@ if (place_meeting(x, y, scytheServer_obj) &amp;&amp; global.throwingServer == fa
 
     with (scytheServer_obj)
     {
+        instance_create(x, y, scytheDestroy_obj);
         instance_destroy();
     }
 }
