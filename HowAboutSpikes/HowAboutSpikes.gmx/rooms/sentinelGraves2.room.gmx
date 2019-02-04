@@ -143,9 +143,6 @@
     <instance objName="darkBlock_obj" x="384" y="1056" name="inst_BEE4AA9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="384" y="1024" name="inst_1AEF9638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="384" y="992" name="inst_4509CEA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="384" y="960" name="inst_BED12D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="384" y="928" name="inst_0A1F28A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="darkBlock_obj" x="384" y="896" name="inst_BCE145C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="384" y="864" name="inst_3BEB3269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="384" y="832" name="inst_254FE8FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkBlock_obj" x="992" y="1056" name="inst_DEB65971" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -498,6 +495,31 @@
     <instance objName="torchstand_obj" x="992" y="1280" name="inst_8EA29C47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="torchstand_obj" x="736" y="736" name="inst_BD0371CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="torchstand_obj" x="640" y="256" name="inst_32B5BB9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="352" y="992" name="inst_C5F5A07F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="320" y="992" name="inst_3BA6A789" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="288" y="992" name="inst_E0A7A683" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="256" y="992" name="inst_8E95EB9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="224" y="992" name="inst_6628190C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="192" y="992" name="inst_2B637AA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="992" name="inst_3E441B35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="352" y="864" name="inst_F042F5D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="320" y="864" name="inst_0859150B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="288" y="864" name="inst_FBA6EC76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="256" y="864" name="inst_17626E53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="224" y="864" name="inst_5F189BE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="192" y="864" name="inst_7309F88F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="864" name="inst_A4481B3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="896" name="inst_8BEEC915" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="928" name="inst_E53128C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="928" name="inst_6553E429" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlock_obj" x="160" y="960" name="inst_3C0F50E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlockFake_obj" x="384" y="896" name="inst_755B3465" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlockFake_obj" x="384" y="928" name="inst_70B343AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkBlockFake_obj" x="384" y="960" name="inst_CAA34869" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpiritBig_obj" x="192" y="896" name="inst_67394D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpiritBig_obj" x="192" y="928" name="inst_8B60FD38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="darkSpiritBig_obj" x="192" y="960" name="inst_34FF5D8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="enemySkeletonRed_obj" x="256" y="960" name="inst_4B046F23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
