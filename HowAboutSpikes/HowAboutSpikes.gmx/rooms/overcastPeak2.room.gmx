@@ -3650,8 +3650,6 @@
     <instance objName="scytheLeverBlockSolid_obj" x="3168" y="704" name="inst_1F073059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLever_obj" x="3680" y="576" name="inst_E1A60B7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="turret_obj" x="3522" y="531" name="inst_79D6A26B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="3395" y="532" name="inst_084DE7A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="turret_obj" x="3264" y="531" name="inst_179379F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="turret_obj" x="3198" y="531" name="inst_3B1BDC3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLeverBlockSolid_obj" x="3200" y="640" name="inst_5E4BDD76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="scytheLever_obj" x="3456" y="576" name="inst_4EC4FAC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -3956,7 +3954,6 @@
     <instance objName="stoneBlock_obj" x="3360" y="608" name="inst_F074DEC5" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="3520" y="704" name="inst_64C6ECFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeMoving_obj" x="3361" y="583" name="inst_6F10FF6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="spikeMoving_obj" x="3423" y="583" name="inst_C2C98C2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spikeFalling_obj" x="3136" y="544" name="inst_AC3477D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="3328" y="224" name="inst_45B42924" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="stoneBlock_obj" x="3296" y="224" name="inst_EC3A45D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
