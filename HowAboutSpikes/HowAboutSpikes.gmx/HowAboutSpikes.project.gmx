@@ -458,6 +458,7 @@
         <object>objects\creditsMenu_obj</object>
         <object>objects\cutsceneGameStart_obj</object>
         <object>objects\cutsceneGameEnd_obj</object>
+        <object>objects\cutsceneGameEndSpeedrun_obj</object>
         <object>objects\controllerNotice_obj</object>
         <object>objects\titlemenu_obj</object>
         <object>objects\mainMenu_obj</object>
@@ -876,6 +877,7 @@
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameEnd</room>
       <room>rooms\cutsceneGameEndText</room>
+      <room>rooms\cutsceneGameEndSpeedrun</room>
       <room>rooms\cutsceneGameStart</room>
     </rooms>
     <room>rooms\multiplayerTest</room>
