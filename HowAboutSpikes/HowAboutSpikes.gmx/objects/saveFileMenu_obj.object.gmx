@@ -129,7 +129,7 @@ if (buttonSelected == 0)
             global.deathCount = ini_read_real("Save1", "death count", 0);
             global.healthVar = ini_read_real("Save1", "health", 2);
             global.money = ini_read_real("Save1", "money", 0);
-            global.pickeddUltraSouls = ini_read_real("Save1", "ultraSouls", 0);
+            global.pickedUltraSouls = ini_read_real("Save1", "ultraSouls", 0);
             global.pickedTooth = ini_read_real("Save1", "picked tooth", false);
             global.pickedKey = ini_read_real("Save1", "picked key", true);
             global.pickedGoldchain = ini_read_real("Save1", "picked goldchain", false);
@@ -273,7 +273,7 @@ if (buttonSelected == 1)
             global.deathCount = ini_read_real("Save2", "death count", 0);
             global.healthVar = ini_read_real("Save2", "health", 2);
             global.money = ini_read_real("Save2", "money", 0);
-            global.pickeddUltraSouls = ini_read_real("Save2", "ultraSouls", 0);
+            global.pickedUltraSouls = ini_read_real("Save2", "ultraSouls", 0);
             global.pickedTooth = ini_read_real("Save2", "picked tooth", false);
             global.pickedKey = ini_read_real("Save2", "picked key", true);
             global.pickedGoldchain = ini_read_real("Save2", "picked goldchain", false);
@@ -417,7 +417,7 @@ if (buttonSelected == 2)
             global.deathCount = ini_read_real("Save3", "death count", 0);
             global.healthVar = ini_read_real("Save3", "health", 2);
             global.money = ini_read_real("Save3", "money", 0);
-            global.pickeddUltraSouls = ini_read_real("Save3", "ultraSouls", 0);
+            global.pickedUltraSouls = ini_read_real("Save3", "ultraSouls", 0);
             global.pickedTooth = ini_read_real("Save3", "picked tooth", false);
             global.pickedKey = ini_read_real("Save3", "picked key", true);
             global.pickedGoldchain = ini_read_real("Save3", "picked goldchain", false);
