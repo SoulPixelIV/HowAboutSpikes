@@ -2279,7 +2279,8 @@ if (health == 0)
 //###Money###
 //draw_sprite(darkSpiritIcon_spr, 0, global.guiPosX + 36, global.guiPosY + 76);
 draw_set_color(c_white);
-draw_text(global.guiPosX + 14, global.guiPosY + 336, "Souls x" + string(global.money));
+draw_text(global.guiPosX + 14, global.guiPosY + 320, "Souls x" + string(global.money));
+draw_text(global.guiPosX + 14, global.guiPosY + 336, "Ultra Souls " + string(global.pickedUltraSouls) + " / 7");
 
 if (savingProgress)
 {
