@@ -475,6 +475,7 @@
       <objects name="Cutscene Objects">
         <object>objects\cutsceneCameraDown_obj</object>
       </objects>
+      <object>objects\steamLeaderboard_obj</object>
     </objects>
     <objects name="Blocks">
       <object>objects\lavaBlock_obj</object>
