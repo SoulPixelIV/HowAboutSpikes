@@ -642,7 +642,7 @@ draw_set_font(global.newPixelMenu);
 draw_text(500, 980, "Press I / Y to delete a save file");
 
 draw_set_font(version_fnt);
-draw_text(1570, 1040, "How About Spikes | Patch 20");
+draw_text(1400, 1040, "How About Spikes | v.1.1 Speedrun Update");
 </string>
           </argument>
         </arguments>
