@@ -219,6 +219,7 @@
       <sprite>sprites\controller_spr</sprite>
       <sprite>sprites\patreon_spr</sprite>
       <sprite>sprites\twitter_spr</sprite>
+      <sprite>sprites\twitterBar_spr</sprite>
       <sprite>sprites\saveFileIcon_spr</sprite>
       <sprite>sprites\sleepIcon_spr</sprite>
     </sprites>
