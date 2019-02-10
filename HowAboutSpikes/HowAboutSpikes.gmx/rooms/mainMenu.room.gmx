@@ -120,7 +120,8 @@
     <instance objName="mainMenu_obj" x="0" y="0" name="inst_97FE9B5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="576" y="256" name="inst_46873FD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladder_obj" x="576" y="288" name="inst_BA9C9502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="twitter_obj" x="544" y="320" name="inst_7AB345A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="twitter_obj" x="480" y="320" name="inst_7AB345A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leaderboardsIcon_obj" x="480" y="175" name="inst_79C1B659" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
