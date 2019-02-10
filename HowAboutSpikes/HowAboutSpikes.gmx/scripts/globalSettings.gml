@@ -162,6 +162,7 @@ global.speedHours = 0;
 global.speedMinutes = 0;
 global.speedSeconds = -5;
 global.speedMilli = 0;
+global.speedScore = 1000;
 
 //Sounds
 audio_sound_gain(land_snd, global.soundVolume, 0);
