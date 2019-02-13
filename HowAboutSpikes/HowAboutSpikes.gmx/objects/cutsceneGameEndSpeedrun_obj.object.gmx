@@ -112,7 +112,10 @@ transparent = clamp(transparent, 0, 1);
 
 if (timer &gt; 100)
 {
-    draw_text(686, 400, "      Finish!#Your time: " + string(global.speedHours) + ":" + string(global.speedMinutes) + ":" + string(global.speedSeconds) + ":" + string(global.speedMilli));
+    draw_text(686, 400, "      Finish!#[1 Minute = -100 Points] Your time: " + string(global.speedHours) + ":" + string(global.speedMinutes) + ":" + string(global.speedSeconds) + ":" + string(global.speedMilli));
+    draw_text(686, 496, "[1 Soul = +1 Point] Collected Souls: " + string(global.money));
+    draw_text(686, 560, "[1 Ultra Soul = + 1000 Points] Collected Ultra Souls: " + string(global.pickedUltraSouls));
+    draw_text(686, 604, "Final Score: " + string(global.speedScore - (global.speedHours * 6000) - global.speedMinutes - (global.speedSeconds * 1.67);
     transparent += 0.03;
 }
 
