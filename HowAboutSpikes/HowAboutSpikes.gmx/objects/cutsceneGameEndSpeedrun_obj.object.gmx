@@ -85,6 +85,13 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
     {
         steam_upload_score("Game Times", global.speedFinalScore);
     }
+    if (file_exists("speed.has"))
+    {
+        file_delete("speed.has");
+    }
+    ini_open("speed.has");        
+    ini_write_real("Speed Vars", "score", global.speedFinalScore);
+    ini_close();
     room_goto(cutsceneGameEnd);
 }
 </string>
