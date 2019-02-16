@@ -227,7 +227,7 @@ if (steam_initialised())
     {
         if (i &lt; 10)
         {
-            draw_text(1270 + (64 * i), 167, "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
+            draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
         }
         else
         {

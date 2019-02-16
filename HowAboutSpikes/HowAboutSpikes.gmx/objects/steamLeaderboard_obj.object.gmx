@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (steam_initialised())
 {
-    steam_create_leaderboard("Game Times", lb_sort_ascending, lb_disp_time_sec);
+    steam_create_leaderboard("Game Times", lb_sort_descending, lb_disp_none);
 
     score_get = steam_download_scores("Game Times", 1, 10);
 }

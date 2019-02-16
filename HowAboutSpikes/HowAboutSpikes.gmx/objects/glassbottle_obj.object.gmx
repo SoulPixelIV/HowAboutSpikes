@@ -55,7 +55,10 @@
 }
 if (place_meeting(x, y, player_obj) &amp;&amp; global.speedStatus == 1)
 {
-    instance_destroy();
+    with (player_obj)
+    {
+        instance_destroy();
+    }
     global.speedFinalScore = round(global.speedScore - (global.speedHours * 6000) - global.speedMinutes - (global.speedSeconds * 1.67) - (global.speedMilli * 0.03) + (global.money * 10) + (global.pickedUltraSouls * 500));
     room_goto(cutsceneGameEndSpeedrun);
 }
