@@ -227,7 +227,15 @@ if (steam_initialised())
     {
         if (i &lt; 10)
         {
-            draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
+            if (string_length(global.steam_name[i]) &gt; 8)
+            {
+                var cutName = string_delete(global.steam_name[i], 8, string_length(global.steam_name[i]) - 8);
+                draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(cutName) + ": " + string(global.steam_score[i]));
+            }
+            else
+            {
+                draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
+            }
         }
         else
         {
