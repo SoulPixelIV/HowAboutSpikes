@@ -2066,10 +2066,10 @@ if (keyboard_check_pressed(ord('4')))
 {
     global.ringVision = true;
 }
-if (keyboard_check_pressed(ord('5')) &amp;&amp; room != undergroundCity1)
+if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
 {
     global.playerSpawnLocation = 0;
-    room_goto(undergroundCity1);
+    room_goto(unknownForestBoss);
 }
 if (keyboard_check_pressed(ord('6')) &amp;&amp; room != gardenValley)
 {

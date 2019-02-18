@@ -300,7 +300,7 @@ else
 
 global.guiPosX = view_xview[0];
 global.guiPosY = view_yview[0];
-draw_healthbar(global.guiPosX + 32, global.guiPosY + 338, global.guiPosX + 608, global.guiPosY + 324, bossHealth, c_black, c_green, c_green, 0, true, true);
+draw_healthbar(global.guiPosX + 32, global.guiPosY + 310, global.guiPosX + 608, global.guiPosY + 296, bossHealth, c_black, c_green, c_green, 0, true, true);
 </string>
           </argument>
         </arguments>
