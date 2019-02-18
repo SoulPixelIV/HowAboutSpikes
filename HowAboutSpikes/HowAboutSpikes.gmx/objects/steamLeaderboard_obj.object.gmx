@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (steam_initialised())
+            <string>global.steam_name = noone;
+global.steam_score = noone;
+global.steam_rank = noone;
+
+if (steam_initialised())
 {
     steam_create_leaderboard("Game Times", lb_sort_descending, lb_disp_none);
 

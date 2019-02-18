@@ -2293,7 +2293,7 @@ draw_set_colour(c_white);
 draw_set_font(guiBig_fnt);
 if (global.speedStatus == 1)
 {
-    draw_text(global.guiPosX + (display_get_width() / 8 - 28), global.guiPosY + 24, "Time " + string(global.speedHours) + ":" + string(global.speedMinutes) + ":" + string(global.speedSeconds) + ":" + string(global.speedMilli));
+    draw_text(global.guiPosX + (display_get_width() / 8 - 4), global.guiPosY + 24, "Time " + string(global.speedHours) + ":" + string(global.speedMinutes) + ":" + string(global.speedSeconds) + ":" + string(global.speedMilli));
 }
 draw_set_font(gui_fnt);
 
