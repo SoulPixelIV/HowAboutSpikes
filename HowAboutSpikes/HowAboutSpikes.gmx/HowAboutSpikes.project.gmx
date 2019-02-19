@@ -473,6 +473,7 @@
         <object>objects\multiplayerMenu_obj</object>
         <object>objects\saveFileMenu_obj</object>
         <object>objects\speedRunNoticeMenu_obj</object>
+        <object>objects\globalMenuRemake_obj</object>
       </objects>
       <objects name="Cutscene Objects">
         <object>objects\cutsceneCameraDown_obj</object>
@@ -836,6 +837,7 @@
     <rooms name="Menu Rooms">
       <room>rooms\creditsMenu</room>
       <room>rooms\controllerNotice</room>
+      <room>rooms\globalMenuRemake</room>
       <room>rooms\titleMenu</room>
       <room>rooms\mainMenu</room>
       <room>rooms\settingsMenu</room>

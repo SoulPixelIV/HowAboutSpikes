@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,12 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timer = 0;
-transparent = 0;
-transparent = clamp(transparent, 0, 1);
+            <string>key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
+key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
 
-display_set_gui_size(display_get_width(), display_get_height());
-
+menuSite = 0;
+menuElements[0] = "test1";
+menuElements[1] = "test2";
+menuElements[2] = "test3";
+selectedElement = 0;
 </string>
           </argument>
         </arguments>
@@ -53,36 +55,36 @@ display_set_gui_size(display_get_width(), display_get_height());
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Timer
-
-timer += 1;
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Skip Cutscene
-if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_start))
+            <string>///Cursor Movement
+if (key_up)
 {
-    timer = 0;
-    transparent = 0;
-    transparent = clamp(transparent, 0, 1);
-    room_goto(globalMenuRemake);
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
+    if (selectedElement &gt; -1)
+    {
+        selectedElement = selectedElement - 1;
+    }
+    if (selectedElement == -1)
+    {
+        selectedElement = array_length_1d(menuElements);
+    }
+}
+if (key_down)
+{
+    if (!audio_is_playing(click_snd))
+    {
+        audio_play_sound(click_snd, 1, false);
+    }
+    if (selectedElement &lt; array_length_1d(menuElements))
+    {
+        selectedElement = selectedElement + 1;
+    }
+    if (selectedElement == array_length_1d(menuElements))
+    {
+        selectedElement = 0;
+    }
 }
 </string>
           </argument>
@@ -106,28 +108,31 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_alpha(transparent);
+            <string>//Title
+draw_set_color(c_white);
+draw_set_font(global.newPixelMenuBig);
+draw_text(72, 64, "How About Spikes");
+
+//Menu Elements
 draw_set_font(global.newPixelMenu);
-
-transparent = clamp(transparent, 0, 1);
-
-if (timer &gt; 100 &amp;&amp; timer &lt; 390)
+for (i = 0; i &lt; array_length_1d(menuElements); i++)
 {
-    draw_text(610, 690, "Controller is recommended!");
-    if (timer &gt; 330)
+    if (selectedElement == i)
     {
-        transparent -= 0.03;
+        draw_set_color(c_white);
+        string_insert("&gt; ", menuElements[i], 0);     
+        draw_text(48, 512 + (64 * i), menuElements[i]);       
     }
     else
     {
-        transparent += 0.03;
+        draw_set_color(c_gray);  
+        draw_text(48, 512 + (64 * i), menuElements[i]);
     }
 }
 
-if (timer &gt; 460)
-{
-    room_goto(globalMenuRemake);
-}
+
+
+
 </string>
           </argument>
         </arguments>
