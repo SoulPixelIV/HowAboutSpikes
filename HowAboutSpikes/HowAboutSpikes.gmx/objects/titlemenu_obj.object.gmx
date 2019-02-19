@@ -30,8 +30,8 @@
     if (file_exists("speed.has"))
     {
         ini_open("speed.has");        
-        var scoreFinal = ini_read_real("Speed Vars", "score", 0);
-        steam_upload_score("Game Times", scoreFinal);
+        var scoreFinal = ini_read_string("Speed Vars", "score", 0);
+        steam_upload_score("Game Times", base64_decode(scoreFinal));
         ini_close();
     }
 }

@@ -90,7 +90,7 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
         file_delete("speed.has");
     }
     ini_open("speed.has");        
-    ini_write_real("Speed Vars", "score", global.speedFinalScore);
+    ini_write_string("Speed Vars", "score", base64_encode(string(global.speedFinalScore)));
     ini_close();
     room_goto(cutsceneGameEnd);
 }
