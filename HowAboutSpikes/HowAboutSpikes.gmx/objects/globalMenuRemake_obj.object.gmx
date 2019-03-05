@@ -85,9 +85,123 @@ if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamep
 //Menu Sites
 if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1))
 {
-    if (menuSite == 0)
+    switch (menuSite)
     {
-        menuSite = 1;
+        case 0:
+            menuSite = 1;
+            break;
+        case 1:
+            switch (selectedElement)
+            {
+                case 0:
+                    menuSite = 7;
+                    break;
+                case 1:
+                    menuSite = 6;
+                    break;
+                case 2:
+                    menuSite = 8;
+                    break;
+                case 3:
+                    menuSite = 2;
+                    break;
+                case 4:
+                    game_end();
+                    break;
+            }
+            break;
+        case 2:
+            switch (selectedElement)
+            {
+                case 0:
+                    menuSite = 3;
+                    break;
+                case 1:
+                    menuSite = 4;
+                    break;
+                case 2:
+                    menuSite = 5;
+                    break;
+                case 3:
+                    menuSite = 1;
+                    break;
+            }
+            break;
+        case 3:
+            switch (selectedElement)
+            {
+                case 0:
+                    //BRIGHTNESS LEVEL
+                    break;
+                case 1:
+                    menuSite = 2;
+                    break;  
+            }
+            break;
+        case 4:
+            switch (selectedElement)
+            {
+                case 0:
+                    //MUSIC VOLUME
+                    break;
+                case 1:
+                    menuSite = 2;
+                    break;
+            }
+            break;
+        case 5:
+            switch (selectedElement)
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    menuSite = 2;
+                    break;
+            }
+            break;
+        case 6:
+            switch (selectedElement)
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    menuSite = 1;
+                    break;
+            }
+            break;
+        case 7:
+            switch (selectedElement)
+            {
+                case 0:
+                    break;
+                case 1:
+                    break;
+                case 2:
+                    menuSite = 1;
+                    break;
+            }
+            break;
+        case 8:
+            switch (selectedElement)
+            {
+                case 0:
+                    //SPEEDRUN
+                    break;
+                case 2:
+                    menuSite = 1;
+                    break;
+            }
+            break;
     }
 }
 
@@ -95,10 +209,75 @@ switch (menuSite)
 {
     case 0:
         menuElements[0] = "Press Start";
+        menuElements[1] = "";
+        menuElements[2] = "";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
         break;
     case 1:
         menuElements[0] = "Singleplayer";
-        menuElements[1] = "Multiplayer";
+        menuElements[1] = "Multiplayer [BETA]";
+        menuElements[2] = "Speedrun Mode";
+        menuElements[3] = "Settings";
+        menuElements[4] = "Quit";
+        menuElements[5] = "";
+        break;
+    case 2:
+        menuElements[0] = "Video Settings";
+        menuElements[1] = "Audio Settings";
+        menuElements[2] = "Controls";
+        menuElements[3] = "Back";
+        menuElements[4] = "";
+        menuElements[5] = "";
+        break;
+    case 3:
+        menuElements[0] = "Brightness Level";
+        menuElements[1] = "Back";
+        menuElements[2] = "";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
+        break;
+    case 4:
+        menuElements[0] = "Music Volume Level";
+        menuElements[1] = "Back";
+        menuElements[2] = "";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
+        break;
+    case 5:
+        menuElements[0] = "Move Left: ";
+        menuElements[1] = "Move Right: ";
+        menuElements[2] = "Jump: ";
+        menuElements[3] = "Attack: ";
+        menuElements[4] = "Throw: ";
+        menuElements[5] = "Back";
+        break;
+    case 6:
+        menuElements[0] = "Host Game";
+        menuElements[1] = "Join Game";      
+        menuElements[2] = "Back";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
+        break;
+    case 7:
+        menuElements[0] = "Save1";
+        menuElements[1] = "Save2";      
+        menuElements[2] = "Back";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
+        break;
+    case 8:
+        menuElements[0] = "Start Speedrun";
+        menuElements[1] = "Back";
+        menuElements[2] = "";
+        menuElements[3] = "";
+        menuElements[4] = "";
+        menuElements[5] = "";
         break;
 }
 </string>
@@ -148,6 +327,10 @@ for (i = 0; i &lt; array_length_1d(menuElements); i++)
 }
 
 draw_text(32, 32, selectedElement);
+
+draw_set_font(version_fnt);
+draw_set_color(c_white);
+draw_text(1400, 1040, "How About Spikes | v.1.1 Speedrun Update");
 
 
 
