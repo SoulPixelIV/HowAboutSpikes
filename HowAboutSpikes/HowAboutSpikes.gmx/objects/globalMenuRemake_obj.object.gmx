@@ -63,7 +63,19 @@ if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad
     }
     if (selectedElement == -1)
     {
-        selectedElement = array_length_1d(menuElements) - 1;
+        for (x = 0; x &lt; array_length_1d(menuElements); x++)
+        {
+            if (menuElements[x] == "")
+            {
+                selectedElement = x - 1;
+                exit;
+            }
+            if (x == array_length_1d(menuElements) - 1 &amp;&amp; menuElements[x] != "")
+            {
+                selectedElement = array_length_1d(menuElements) - 1;
+                exit;
+            }
+        }
     }
 }
 if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd))
@@ -72,11 +84,26 @@ if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamep
     {
         audio_play_sound(click_snd, 1, false);
     }
-    if (selectedElement &lt; array_length_1d(menuElements))
+    if (selectedElement &lt; array_length_1d(menuElements) - 1)
     {
-        selectedElement++;
+        for (y = 0; y &lt; array_length_1d(menuElements); y++)
+        {
+            if (menuElements[y] == "")
+            {
+                if (y == selectedElement)
+                {
+                    selectedElement = 0;
+                    exit;
+                }
+                else
+                {
+                    selectedElement++;
+                    exit;
+                }
+            }
+        }
     }
-    if (selectedElement == array_length_1d(menuElements))
+    if (selectedElement == array_length_1d(menuElements) - 1)
     {
         selectedElement = 0;
     }
@@ -203,6 +230,7 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || game
             }
             break;
     }
+    selectedElement = 0;
 }
 
 switch (menuSite)
