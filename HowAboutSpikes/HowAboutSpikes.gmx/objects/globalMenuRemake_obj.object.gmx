@@ -28,6 +28,18 @@
             <string>menuSite = 0;
 menuElements[0] = "";
 selectedElement = 0;
+
+script_execute(globalSettings);
+if (steam_initialised())
+{
+    if (file_exists("speed.has"))
+    {
+        ini_open("speed.has");        
+        var scoreFinal = ini_read_string("Speed Vars", "score", 0);
+        steam_upload_score("Game Times", base64_decode(scoreFinal));
+        ini_close();
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -86,9 +98,9 @@ if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamep
     }
     if (selectedElement &lt; array_length_1d(menuElements) - 1)
     {
-        for (y = 0; y &lt; array_length_1d(menuElements); y++)
+        for (y = 0; y &lt; array_length_1d(menuElements) - 1; y++)
         {
-            if (menuElements[y] == "")
+            if (menuElements[y + 1] == "")
             {
                 if (y == selectedElement)
                 {
@@ -106,6 +118,35 @@ if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamep
     if (selectedElement == array_length_1d(menuElements) - 1)
     {
         selectedElement = 0;
+    }
+}
+
+if (keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2))
+{
+    selectedElement = 0;
+    switch (menuSite)
+    {
+        case 2:
+            menuSite = 1;
+            break;
+        case 3:
+            menuSite = 2;
+            break;
+        case 4:
+            menuSite = 2;
+            break;
+        case 5:
+            menuSite = 2;
+            break;
+        case 6:
+            menuSite = 1;
+            break;
+        case 7:
+            menuSite = 1;
+            break;
+        case 8:
+            menuSite = 1;
+            break;
     }
 }
 
@@ -160,9 +201,9 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || game
                 case 0:
                     //BRIGHTNESS LEVEL
                     break;
-                case 1:
+                case 2:
                     menuSite = 2;
-                    break;  
+                    break; 
             }
             break;
         case 4:
@@ -224,7 +265,7 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || game
                 case 0:
                     //SPEEDRUN
                     break;
-                case 2:
+                case 1:
                     menuSite = 1;
                     break;
             }
@@ -242,6 +283,7 @@ switch (menuSite)
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 1:
         menuElements[0] = "Singleplayer";
@@ -250,6 +292,7 @@ switch (menuSite)
         menuElements[3] = "Settings";
         menuElements[4] = "Quit";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 2:
         menuElements[0] = "Video Settings";
@@ -258,14 +301,35 @@ switch (menuSite)
         menuElements[3] = "Back";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 3:
-        menuElements[0] = "Brightness Level";
-        menuElements[1] = "Back";
-        menuElements[2] = "";
+        menuElements[0] = "Toggle Fullscreen";
+        if (global.brightnessCount == 0)
+        {
+            menuElements[1] = "Brightness Level: ____";
+        }
+        if (global.brightnessCount == 1)
+        {
+            menuElements[1] = "Brightness Level: X___";
+        }
+        if (global.brightnessCount == 2)
+        {
+            menuElements[1] = "Brightness Level: XX__";
+        }
+        if (global.brightnessCount == 3)
+        {
+            menuElements[1] = "Brightness Level: XXX_";
+        }
+        if (global.brightnessCount == 4)
+        {
+            menuElements[1] = "Brightness Level: XXXX";
+        }
+        menuElements[2] = "Back";
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 4:
         menuElements[0] = "Music Volume Level";
@@ -274,6 +338,7 @@ switch (menuSite)
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 5:
         menuElements[0] = "Move Left: ";
@@ -282,6 +347,7 @@ switch (menuSite)
         menuElements[3] = "Attack: ";
         menuElements[4] = "Throw: ";
         menuElements[5] = "Back";
+        menuElements[6] = "";
         break;
     case 6:
         menuElements[0] = "Host Game";
@@ -290,6 +356,7 @@ switch (menuSite)
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 7:
         menuElements[0] = "Save1";
@@ -298,6 +365,7 @@ switch (menuSite)
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
     case 8:
         menuElements[0] = "Start Speedrun";
@@ -306,7 +374,80 @@ switch (menuSite)
         menuElements[3] = "";
         menuElements[4] = "";
         menuElements[5] = "";
+        menuElements[6] = "";
         break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Video Settings
+
+key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
+key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")) || gamepad_button_check_pressed(0, gp_padl);
+key_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")) || gamepad_button_check_pressed(0, gp_padr);
+key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
+
+if (menuSite == 3)
+{
+    if (key_right &amp;&amp; global.brightnessCount &lt; 4)
+    {
+        global.brightnessCount += 1;
+    }
+    
+    if (global.brightnessCount &gt; 4)
+    {
+        global.brightnessCount = 0;
+    }
+    
+    if (key_left &amp;&amp; global.brightnessCount &gt; 0)
+    {
+        global.brightnessCount -= 1;
+    }
+    
+    if (global.brightnessCount &lt; 0)
+    {
+        global.brightnessCount = 4;
+    }
+    
+    if (global.brightnessCount == 0)
+    {
+        global.brightness = 1;
+    }
+    if (global.brightnessCount == 1)
+    {
+        global.brightness = 0.9;
+    }
+    if (global.brightnessCount == 2)
+    {
+        global.brightness = 0.8;
+    }
+    if (global.brightnessCount == 3)
+    {
+        global.brightness = 0.6;
+    }
+    if (global.brightnessCount == 4)
+    {
+        global.brightness = 0.45;
+    }
 }
 </string>
           </argument>

@@ -210,7 +210,6 @@
     <instance objName="lamp_obj" x="416" y="192" name="inst_011B853E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="128" y="192" name="inst_17CBD88D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lightControlFull_obj" x="160" y="0" name="inst_F2BAF66D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="lamp_obj" x="288" y="256" name="inst_678308F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="lamp_obj" x="576" y="256" name="inst_ADEF057E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="light_obj" x="416" y="384" name="inst_9D8A193C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="light_obj" x="-32" y="384" name="inst_4E8CE45E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
