@@ -359,10 +359,10 @@ switch (menuSite)
         menuElements[6] = "";
         break;
     case 7:
-        menuElements[0] = "Save1";
-        menuElements[1] = "Save2";      
-        menuElements[2] = "Back";
-        menuElements[3] = "";
+        menuElements[0] = "Select Save 1";
+        menuElements[1] = "Select Save 2";      
+        menuElements[2] = "Select Save 3";
+        menuElements[3] = "Back";
         menuElements[4] = "";
         menuElements[5] = "";
         menuElements[6] = "";
@@ -503,6 +503,87 @@ draw_text(1400, 1040, "How About Spikes | v.1.1 Speedrun Update");
 
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Save File Menu
+
+draw_set_font(global.newPixelMenu);
+draw_set_color(c_white);
+if (menuSite == 7)
+{
+    //Save 1
+    if (file_exists("save1.has"))
+    {
+        //READ SAVE
+        ini_open("save1.has");
+        global.healthVar = ini_read_real("Save1", "health", 2);
+        global.money = ini_read_real("Save1", "money", 0);
+        global.deathCount = ini_read_real("Save1", "death count", 0);  
+        global.mode = ini_read_real("Save1", "gamemode", 0); 
+        ini_close();   
+          
+        draw_text_ext(550, 230, "Hearts:" + string(global.healthVar) + " " + "Souls:" + string(global.money) + " " + "Deaths:" + string(global.deathCount) + " " + "Mode:" + string(global.mode), 48, 95);
+    }
+    else
+    {
+        draw_text_ext(550, 230, "NEW FILE", 48, 140);
+    }
+    
+    //Save 2
+    if (file_exists("save2.has"))
+    {
+        //READ SAVE
+        ini_open("save2.has");
+        global.healthVar = ini_read_real("Save2", "health", 2);
+        global.money = ini_read_real("Save2", "money", 0);
+        global.deathCount = ini_read_real("Save2", "death count", 0);  
+        global.mode = ini_read_real("Save2", "gamemode", 0); 
+        ini_close(); 
+            
+        draw_text_ext(1150, 230, "Hearts:" + string(global.healthVar) + " " + "Souls:" + string(global.money) + " " + "Deaths:" + string(global.deathCount) + " " + "Mode:" + string(global.mode), 48, 95);
+    }
+    else
+    {
+        draw_text_ext(1150, 230, "NEW FILE", 48, 140);
+    }
+    
+    //Save 3
+    if (file_exists("save3.has"))
+    {
+        //READ SAVE
+        ini_open("save3.has");
+        global.healthVar = ini_read_real("Save3", "health", 2);
+        global.money = ini_read_real("Save3", "money", 0);
+        global.deathCount = ini_read_real("Save3", "death count", 0);  
+        global.mode = ini_read_real("Save3", "gamemode", 0); 
+        ini_close();   
+          
+        draw_text_ext(1750, 230, "Hearts:" + string(global.healthVar) + " " + "Souls:" + string(global.money) + " " + "Deaths:" + string(global.deathCount) + " " + "Mode:" + string(global.mode), 48, 95);
+    }
+    else
+    {
+        draw_text_ext(1750, 230, "NEW FILE", 48, 140);
+    }
+    draw_text(500, 980, "Press I / Y to delete a save file");
+}
 </string>
           </argument>
         </arguments>
