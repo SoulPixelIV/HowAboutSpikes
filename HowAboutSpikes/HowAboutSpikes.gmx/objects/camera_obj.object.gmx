@@ -720,7 +720,7 @@ if (pauseMenu == true)
                 ini_close();
             }
             
-            room_goto(mainMenu);
+            room_goto(globalMenuRemake);
         }
     }
 }
