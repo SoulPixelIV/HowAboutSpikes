@@ -200,7 +200,14 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || game
             switch (selectedElement)
             {
                 case 0:
-                    //BRIGHTNESS LEVEL
+                    if window_get_fullscreen()
+                    {
+                        window_set_fullscreen(false);
+                    }
+                    else
+                    {
+                        window_set_fullscreen(true);
+                    }
                     break;
                 case 2:
                     menuSite = 2;
@@ -727,7 +734,26 @@ switch (menuSite)
         menuElements[6] = "";
         break;
     case 4:
-        menuElements[0] = "Music Volume Level";
+        if (global.musicCount == 0)
+        {
+            menuElements[0] = "Music Volume Level ____";
+        }
+        if (global.musicCount == 1)
+        {
+            menuElements[0] = "Music Volume Level X___";
+        }
+        if (global.musicCount == 2)
+        {
+            menuElements[0] = "Music Volume Level XX__";
+        }
+        if (global.musicCount == 3)
+        {
+            menuElements[0] = "Music Volume Level XXX_";
+        }
+        if (global.musicCount == 4)
+        {
+            menuElements[0] = "Music Volume Level XXXX";
+        }
         menuElements[1] = "Back";
         menuElements[2] = "";
         menuElements[3] = "";
@@ -864,6 +890,79 @@ if (menuSite == 3)
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>///Sound Settings
+
+key_up = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) || gamepad_button_check_pressed(0, gp_padu);
+key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) || gamepad_button_check_pressed(0, gp_padd);
+key_left = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A")) || gamepad_button_check_pressed(0, gp_padl);
+key_right = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D")) || gamepad_button_check_pressed(0, gp_padr);
+key_enter = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || gamepad_button_check_pressed(0, gp_face1);
+key_back = keyboard_check_pressed(vk_escape) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face2);
+
+if (menuSite == 4)
+{
+    if (key_right &amp;&amp; global.musicCount &lt; 4)
+    {
+        global.musicCount += 1;
+    }
+    
+    if (global.musicCount &gt; 4)
+    {
+        global.musicCount = 0;
+    }
+    
+    if (key_left &amp;&amp; global.musicCount &gt; 0)
+    {
+        global.musicCount -= 1;
+    }
+    
+    if (global.musicCount &lt; 0)
+    {
+        global.musicCount = 4;
+    }
+    
+    if (global.musicCount == 0)
+    {
+        global.musicVolume = 0;
+    }
+    if (global.musicCount == 1)
+    {
+        global.musicVolume = 0.15;
+    }
+    if (global.musicCount == 2)
+    {
+        global.musicVolume = 0.3;
+    }
+    if (global.musicCount == 3)
+    {
+        global.musicVolume = 0.45;
+    }
+    if (global.musicCount == 4)
+    {
+        global.musicVolume = 0.6;
+    }
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>///Save Deletion
 
 if (keyboard_check_pressed(ord("I")) || keyboard_check_pressed(vk_backspace) || gamepad_button_check_pressed(0, gp_face4))
@@ -938,8 +1037,6 @@ for (i = 0; i &lt; array_length_1d(menuElements); i++)
         draw_text(48, 512 + (64 * i), txt);
     }
 }
-
-draw_text(32, 32, selectedElement);
 
 draw_set_font(version_fnt);
 draw_set_color(c_white);

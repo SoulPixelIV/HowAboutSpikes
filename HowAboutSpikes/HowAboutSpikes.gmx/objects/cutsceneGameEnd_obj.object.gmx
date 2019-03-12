@@ -81,7 +81,7 @@ if (keyboard_check_pressed(vk_escape) || gamepad_button_check_pressed(0, gp_star
 {
     timer = 0;
     transparent = 0;
-    room_goto(cutsceneGameEnd);
+    room_goto(globalMenuRemake);
 }
 </string>
           </argument>
@@ -125,7 +125,7 @@ if (timer &gt; 100 &amp;&amp; timer &lt; 1490)
 
 if (timer &gt; 1460)
 {
-    room_goto(cutsceneGameEnd);
+    room_goto(globalMenuRemake);
 }
 </string>
           </argument>
