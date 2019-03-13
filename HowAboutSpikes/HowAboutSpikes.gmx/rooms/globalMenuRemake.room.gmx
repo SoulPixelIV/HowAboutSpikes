@@ -218,7 +218,7 @@
     <instance objName="saveFileIcon_obj" x="224" y="192" name="inst_CD4E8748" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="saveFileIcon_obj" x="384" y="192" name="inst_E9825614" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="saveFileIcon_obj" x="544" y="192" name="inst_9CB019E9" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="leaderboardsIcon_obj" x="320" y="192" name="inst_E17885CF" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="leaderboardsIcon_obj" x="256" y="192" name="inst_E17885CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

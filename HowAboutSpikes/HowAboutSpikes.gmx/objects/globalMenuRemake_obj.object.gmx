@@ -1129,6 +1129,54 @@ if (menuSite == 7)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Speedrun Leaderboards
+
+if (menuSite == 8)
+{
+    draw_text(1380, 84, "Leaderboard");
+    if (steam_initialised())
+    {
+        for (i = 0; i &lt; array_length_1d(global.steam_rank); i++)
+        {
+            if (i &lt; 10)
+            {
+                if (string_length(global.steam_name[i]) &gt; 8)
+                {
+                    var cutName = string_delete(global.steam_name[i], 8, string_length(global.steam_name[i]) - 8);
+                    draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(cutName) + ": " + string(global.steam_score[i]));
+                }
+                else
+                {
+                    draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
+                }
+            }
+            else
+            {
+                exit;
+            }
+        }
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
