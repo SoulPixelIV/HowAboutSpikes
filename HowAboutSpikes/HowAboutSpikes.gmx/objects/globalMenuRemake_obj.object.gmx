@@ -1149,7 +1149,7 @@ if (menuSite == 7)
 
 if (menuSite == 8)
 {
-    draw_text(1380, 84, "Leaderboard");
+    draw_text(1000, 120, "Leaderboard");
     if (steam_initialised())
     {
         for (i = 0; i &lt; array_length_1d(global.steam_rank); i++)
@@ -1159,11 +1159,11 @@ if (menuSite == 8)
                 if (string_length(global.steam_name[i]) &gt; 8)
                 {
                     var cutName = string_delete(global.steam_name[i], 8, string_length(global.steam_name[i]) - 8);
-                    draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(cutName) + ": " + string(global.steam_score[i]));
+                    draw_text(600, 216 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(cutName) + ": " + string(global.steam_score[i]));
                 }
                 else
                 {
-                    draw_text(1270, 167 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
+                    draw_text(600, 216 + (64 * i), "[" + string(global.steam_rank[i]) + "] " + string(global.steam_name[i]) + ": " + string(global.steam_score[i]));
                 }
             }
             else
