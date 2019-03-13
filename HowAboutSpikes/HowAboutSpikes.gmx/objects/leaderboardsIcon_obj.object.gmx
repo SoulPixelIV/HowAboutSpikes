@@ -51,7 +51,7 @@ image_index = 1;
             <kind>1</kind>
             <string>with (globalMenuRemake_obj)
 {
-    if (menuSite == 8)
+    if (menuSite == 7)
     {
         with (leaderboardsIcon_obj)
         {

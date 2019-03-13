@@ -51,7 +51,7 @@ image_index = 1;
             <kind>1</kind>
             <string>with (globalMenuRemake_obj)
 {
-    if (menuSite == 7)
+    if (menuSite == 6)
     {
         with (saveFileIcon_obj)
         {

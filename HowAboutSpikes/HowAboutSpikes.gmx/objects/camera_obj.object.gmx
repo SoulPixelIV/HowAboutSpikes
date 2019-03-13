@@ -719,8 +719,12 @@ if (pauseMenu == true)
                 ini_write_real("Save3", "skullcoinBay4[2]", global.skullcoinBay4TD[2]);
                 ini_close();
             }
-            
-            room_goto(globalMenuRemake);
+            with (globalMenuRemake_obj)
+            {
+                menuSite = 0;
+                selectedElement = 0;
+            }
+            room_goto(creditsMenu);
         }
     }
 }
