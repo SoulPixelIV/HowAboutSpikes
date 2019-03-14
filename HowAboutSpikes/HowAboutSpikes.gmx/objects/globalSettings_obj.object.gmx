@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//###Spawn###
-if (global.playerSpawnLocation == 0)
+if (global.playerSpawnLocation == 0 &amp;&amp; instance_exists(spawn_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
@@ -77,7 +77,7 @@ if (global.playerSpawnLocation == 0)
     }
     global.playerSpawnLocation = -1;
 }
-if (global.playerSpawnLocation == 1)
+if (global.playerSpawnLocation == 1 &amp;&amp; instance_exists(spawn1_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
@@ -128,7 +128,7 @@ if (global.playerSpawnLocation == 1)
     }
     global.playerSpawnLocation = -1;
 }
-if (global.playerSpawnLocation == 2)
+if (global.playerSpawnLocation == 2 &amp;&amp; instance_exists(spawn2_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
@@ -179,7 +179,7 @@ if (global.playerSpawnLocation == 2)
     }
     global.playerSpawnLocation = -1;
 }
-if (global.playerSpawnLocation == 3)
+if (global.playerSpawnLocation == 3 &amp;&amp; instance_exists(spawn3_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
@@ -230,7 +230,7 @@ if (global.playerSpawnLocation == 3)
     }
     global.playerSpawnLocation = -1;
 }
-if (global.playerSpawnLocation == 4)
+if (global.playerSpawnLocation == 4 &amp;&amp; instance_exists(spawn4_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
@@ -281,7 +281,7 @@ if (global.playerSpawnLocation == 4)
     }
     global.playerSpawnLocation = -1;
 }
-if (global.playerSpawnLocation == 5)
+if (global.playerSpawnLocation == 5 &amp;&amp; instance_exists(spawn5_obj))
 {
     global.playerSpawnLocationSave = global.playerSpawnLocation;
     if (!instance_exists(player_obj))
