@@ -1,8 +1,9 @@
 # HowAboutSpikes
 
 ## About
-HowAboutSpikes is a 2d platformer about precise movement and many spikes. No seriously there are a lot of spikes.
-A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
+HowAboutSpikes is a 2D metroid-vania like platformer about precise movement and many spikes. No seriously there are a lot of spikes.
+The full game is now available on steam:
+https://store.steampowered.com/app/847570/How_About_Spikes/
 
 ## Features etc. for the demo release
 - ~~Add Warpzones~~
@@ -19,12 +20,12 @@ A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
 - ~~Add pause menu~~
 - ~~Fix hitboxes of trapdoors~~
 - ~~Add Save & Load feature~~
-- Add more sound effects
-- Add music to every stage
-- Add run animation
+- ~~Add more sound effects~~
+- ~~Add music to every stage~~
+- ~~Add run animation~~
 
 ## Known Bugs
-- Edge clipping
+- ~~Edge clipping~~
 - ~~Hitbox clipping~~ (R.I.P. Wallclimb)
 - ~~Something scythe something wallclimb~~
 - ~~Clip under spikes~~
@@ -36,5 +37,5 @@ A demo will be available soon. Fore more infos follow @SoulPixelIX on twitter!
 - ~~Checkpoint font changes on entering a world~~
 - ~~Teleport system spawns a second player~~
 - ~~Checkpoint font triggers even jumping over them~~
-- Boss healthbar waves with the camera
-- Enemys sometimes run away and their AI is pretty stupid in general
+- ~~Boss healthbar waves with the camera~~
+- ~~Enemies sometimes run away and their AI is pretty stupid in general~~
