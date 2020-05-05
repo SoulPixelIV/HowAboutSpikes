@@ -62,10 +62,6 @@ if (instance_exists(player_obj))
             collision = 1;
         }
         global.picked = true;
-        if (room == overcastPeak2)
-        {
-            global.pickedKey = true;
-        }
     }
     
     if (global.picked == true)

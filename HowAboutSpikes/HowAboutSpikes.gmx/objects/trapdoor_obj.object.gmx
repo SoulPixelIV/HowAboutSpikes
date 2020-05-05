@@ -62,41 +62,6 @@ if (room == unknownForest1)
         global.hitLever = true;
     }
 }
-if (room == unknownForest2)
-{
-    if (global.unknownForest2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == unknownForest3)
-{
-    if (global.unknownForest3TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == demonsKeep1)
-{
-    if (global.demonsKeep1TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == demonsKeep2)
-{
-    if (global.demonsKeep2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == demonsKeep3)
-{
-    if (global.demonsKeep3TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
 if (room == undergroundCity1)
 {
     if (global.undergroundCity1TD[0] == 1)
@@ -104,100 +69,9 @@ if (room == undergroundCity1)
         global.hitLever = true;
     }
 }
-if (room == undergroundCity2)
-{
-    if (global.undergroundCity2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == undergroundCity3)
-{
-    if (global.undergroundCity3TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == sentinelGraves1)
-{
-    if (global.sentinelGraves1TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == sentinelGraves2)
-{
-    if (global.sentinelGraves2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == deepPrison)
-{
-    if (global.deepPrisonTD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
 if (room == overcastPeak1)
 {
     if (global.overcastPeak1TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == overcastPeak2)
-{
-    if (global.overcastPeak2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == overcastPeak3)
-{
-    if (global.overcastPeak3TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == overcastPeak4)
-{
-    if (global.overcastPeak4TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == overcastPeak5)
-{
-    if (global.overcastPeak5TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == skullcoinBay1)
-{
-    if (global.skullcoinBay1TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == skullcoinBay2)
-{
-    if (global.skullcoinBay2TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == skullcoinBay3)
-{
-    if (global.skullcoinBay3TD[0] == 1)
-    {
-        global.hitLever = true;
-    }
-}
-if (room == skullcoinBay4)
-{
-    if (global.skullcoinBay4TD[0] == 1)
     {
         global.hitLever = true;
     }
@@ -215,85 +89,13 @@ if (global.hitLever == true)
     {
         global.unknownForest1TD[0] = 1;
     }
-    if (room == unknownForest2)
-    {
-        global.unknownForest2TD[0] = 1;
-    }
-    if (room == unknownForest3)
-    {
-        global.unknownForest3TD[0] = 1;
-    }
-    if (room == demonsKeep1)
-    {
-        global.demonsKeep1TD[0] = 1;
-    }
-    if (room == demonsKeep2)
-    {
-        global.demonsKeep2TD[0] = 1;
-    }
-    if (room == demonsKeep3)
-    {
-        global.demonsKeep3TD[0] = 1;
-    }
     if (room == undergroundCity1)
     {
         global.undergroundCity1TD[0] = 1;
     }
-    if (room == undergroundCity2)
-    {
-        global.undergroundCity2TD[0] = 1;
-    }
-    if (room == undergroundCity3)
-    {
-        global.undergroundCity3TD[0] = 1;
-    }
-    if (room == sentinelGraves1)
-    {
-        global.sentinelGraves1TD[0] = 1;
-    }
-    if (room == sentinelGraves2)
-    {
-        global.sentinelGraves2TD[0] = 1;
-    }
-    if (room == deepPrison)
-    {
-        global.deepPrisonTD[0] = 1;
-    }
     if (room == overcastPeak1)
     {
         global.overcastPeak1TD[0] = 1;
-    }
-    if (room == overcastPeak2)
-    {
-        global.overcastPeak2TD[0] = 1;
-    }
-    if (room == overcastPeak3)
-    {
-        global.overcastPeak3TD[0] = 1;
-    }
-    if (room == overcastPeak4)
-    {
-        global.overcastPeak4TD[0] = 1;
-    }
-    if (room == overcastPeak5)
-    {
-        global.overcastPeak5TD[0] = 1;
-    }
-    if (room == skullcoinBay1)
-    {
-        global.skullcoinBay1TD[0] = 1;
-    }
-    if (room == skullcoinBay2)
-    {
-        global.skullcoinBay2TD[0] = 1;
-    }
-    if (room == skullcoinBay3)
-    {
-        global.skullcoinBay3TD[0] = 1;
-    }
-    if (room == skullcoinBay4)
-    {
-        global.skullcoinBay4TD[0] = 1;
     }
 }
 </string>

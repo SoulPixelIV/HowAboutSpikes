@@ -163,6 +163,8 @@
       <sprite>sprites\woodplaneBlock_spr</sprite>
       <sprite>sprites\woodplanePole_spr</sprite>
       <sprite>sprites\window_spr</sprite>
+      <sprite>sprites\demoBlock1_spr</sprite>
+      <sprite>sprites\demoBlock2_spr</sprite>
     </sprites>
     <sprites name="Collectibles">
       <sprite>sprites\darkSpirit_spr</sprite>
@@ -549,6 +551,8 @@
       <object>objects\woodplaneBlock_obj</object>
       <object>objects\woodplanePole_obj</object>
       <object>objects\window_obj</object>
+      <object>objects\demoBlock1_obj</object>
+      <object>objects\demoBlock2_obj</object>
     </objects>
     <objects name="roomCollider">
       <object>objects\colliderGV_UF1_obj</object>
@@ -851,37 +855,8 @@
     <room>rooms\tutorial</room>
     <room>rooms\gardenValley</room>
     <room>rooms\unknownForest1</room>
-    <room>rooms\unknownForest2</room>
-    <room>rooms\unknownForest3</room>
-    <room>rooms\unknownForestBoss</room>
-    <room>rooms\demonsKeep1</room>
-    <room>rooms\demonsKeep2</room>
-    <room>rooms\demonsKeep3</room>
-    <room>rooms\undergroundStation1</room>
-    <room>rooms\undergroundStation2</room>
-    <room>rooms\undergroundStation3</room>
     <room>rooms\undergroundCity1</room>
-    <room>rooms\undergroundCity2</room>
-    <room>rooms\undergroundCity3</room>
-    <room>rooms\sentinelGraves1</room>
-    <room>rooms\sentinelGraves2</room>
-    <room>rooms\sentinelGraves3</room>
-    <room>rooms\sentinelGravesBoss</room>
-    <room>rooms\sentinelGravesTransition</room>
-    <room>rooms\deepPrison</room>
     <room>rooms\overcastPeak1</room>
-    <room>rooms\overcastPeak2</room>
-    <room>rooms\overcastPeak3</room>
-    <room>rooms\overcastPeak4</room>
-    <room>rooms\overcastPeak5</room>
-    <room>rooms\overcastPeakBoss</room>
-    <room>rooms\skullcoinBay1</room>
-    <room>rooms\skullcoinBay2</room>
-    <room>rooms\skullcoinBay3</room>
-    <room>rooms\skullcoinBay4</room>
-    <room>rooms\skullcoinBay5</room>
-    <room>rooms\skullcoinBay6</room>
-    <room>rooms\skullcoinBayBoss</room>
     <rooms name="Cutscenes">
       <room>rooms\cutsceneGameEnd</room>
       <room>rooms\cutsceneGameEndText</room>

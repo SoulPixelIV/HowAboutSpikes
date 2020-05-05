@@ -990,7 +990,7 @@ if (keyboard_check_pressed(ord("I")) || keyboard_check_pressed(vk_backspace) || 
             <string>//Title
 draw_set_color(c_white);
 draw_set_font(global.newPixelMenuBig);
-draw_text(72, 64, "How About Spikes");
+draw_text(72, 64, "How About Spikes DEMO");
 
 //Menu Elements
 draw_set_font(global.newPixelMenu);

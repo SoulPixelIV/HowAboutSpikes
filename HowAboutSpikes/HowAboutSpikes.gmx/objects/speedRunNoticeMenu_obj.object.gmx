@@ -156,7 +156,7 @@ draw_text(850, 222, "This is the new speedrun mode.#You will immediatly#spawn in
 
 draw_set_colour(c_white);
 draw_set_font(global.newPixelMenuBig);
-draw_text(72, 64, "How About Spikes");
+draw_text(72, 64, "How About Spikes DEMO");
 
 draw_set_font(version_fnt);
 draw_text(1400, 1040, "How About Spikes | v.1.1 Speedrun Update");

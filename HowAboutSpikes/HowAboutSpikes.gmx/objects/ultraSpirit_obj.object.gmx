@@ -63,22 +63,6 @@ if (room == unknownForest1)
 {
     global.ultraSoul3 = 1;
 }
-if (room == unknownForest2)
-{
-    global.ultraSoul4 = 1;
-}
-if (room == demonsKeep1)
-{
-    global.ultraSoul5 = 1;
-}
-if (room == demonsKeep2)
-{
-    global.ultraSoul6 = 1;
-}
-if (room == overcastPeak2)
-{
-    global.ultraSoul7 = 1;
-}
 
 drawText = false;
 instance_destroy();
@@ -152,22 +136,6 @@ if (room == gardenValley &amp;&amp; global.ultraSoul2 == 1)
     instance_destroy();
 }
 if (room == unknownForest1 &amp;&amp; global.ultraSoul3 == 1)
-{
-    instance_destroy();
-}
-if (room == unknownForest2 &amp;&amp; global.ultraSoul4 == 1)
-{
-    instance_destroy();
-}
-if (room == demonsKeep1 &amp;&amp; global.ultraSoul5 == 1)
-{
-    instance_destroy();
-}
-if (room == demonsKeep2 &amp;&amp; global.ultraSoul6 == 1)
-{
-    instance_destroy();
-}
-if (room == overcastPeak2 &amp;&amp; global.ultraSoul7 == 1)
 {
     instance_destroy();
 }

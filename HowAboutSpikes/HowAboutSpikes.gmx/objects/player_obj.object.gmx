@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Music
 
-if (room == unknownForest1 || room == unknownForest2 || room == unknownForest3)
+if (room == unknownForest1)
 {
     if (!audio_is_playing(unknownForest_msc))
     {
@@ -46,7 +46,7 @@ if (room == unknownForest1 || room == unknownForest2 || room == unknownForest3)
         audio_sound_gain(unknownForest_msc, global.musicVolume / 1.5, 10000);
     }
 }
-if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundCity3)
+if (room == undergroundCity1)
 {
     if (!audio_is_playing(undergroundCity_msc))
     {
@@ -63,25 +63,6 @@ if (room == undergroundCity1 || room == undergroundCity2 || room == undergroundC
         audio_play_sound(undergroundCity_msc, 1, true);
         audio_sound_gain(undergroundCity_msc, 0, 0);
         audio_sound_gain(undergroundCity_msc, global.musicVolume / 2, 10000);
-    }
-}
-if (room == unknownForestBoss || room == sentinelGravesBoss || room == overcastPeakBoss)
-{
-    if (!audio_is_playing(boss_msc))
-    {
-        audio_stop_sound(heaven_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(dark_msc);
-        audio_stop_sound(final_msc);
-        audio_stop_sound(lava_msc);
-        audio_stop_sound(skull_msc);
-        audio_play_sound(boss_msc, 1, true);
-        audio_sound_gain(boss_msc, 0, 0);
-        audio_sound_gain(boss_msc, global.musicVolume / 8, 10000);
     }
 }
 if (room == tutorial)
@@ -122,45 +103,7 @@ if (room == gardenValley)
         audio_sound_gain(snow_msc, global.musicVolume / 1.5, 10000);
     }
 }
-if (room == demonsKeep1 || room == demonsKeep2 || room == demonsKeep3)
-{
-    if (!audio_is_playing(lava_msc))
-    {
-        audio_stop_sound(heaven_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(dark_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(boss_msc);
-        audio_stop_sound(skull_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(final_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_play_sound(lava_msc, 1, true);
-        audio_sound_gain(lava_msc, 0, 0);
-        audio_sound_gain(lava_msc, global.musicVolume / 1.9, 10000);
-    }
-}
-if (room == sentinelGraves1 || room == sentinelGraves2 || room == sentinelGraves3 || room == deepPrison)
-{
-    if (!audio_is_playing(dark_msc))
-    {
-        audio_stop_sound(heaven_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(lava_msc);
-        audio_stop_sound(boss_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(final_msc);
-        audio_stop_sound(skull_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_play_sound(dark_msc, 1, true);
-        audio_sound_gain(dark_msc, 0, 0);
-        audio_sound_gain(dark_msc, global.musicVolume / 1.9, 10000);
-    }
-}
-if (room == overcastPeak1 || room == overcastPeak2 || room == overcastPeak3 || room == overcastPeak4 || room == overcastPeak5)
+if (room == overcastPeak1)
 {
     if (!audio_is_playing(beach_msc))
     {
@@ -179,62 +122,8 @@ if (room == overcastPeak1 || room == overcastPeak2 || room == overcastPeak3 || r
         audio_sound_gain(beach_msc, global.musicVolume / 1.9, 10000);
     }
 }
-if (room == undergroundStation1 || room == undergroundStation2 || room == undergroundStation3)
-{
-    if (!audio_is_playing(heaven_msc))
-    {
-        audio_stop_sound(dark_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(lava_msc);
-        audio_stop_sound(boss_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(skull_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(final_msc);
-        audio_play_sound(heaven_msc, 1, true);
-        audio_sound_gain(heaven_msc, 0, 0);
-        audio_sound_gain(heaven_msc, global.musicVolume / 1.9, 10000);
-    }
-}
-if (room == skullcoinBay1 || room == skullcoinBay2 || room == skullcoinBay3 || room == skullcoinBay4 || room == skullcoinBay5)
-{
-    if (!audio_is_playing(skull_msc))
-    {
-        audio_stop_sound(dark_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(lava_msc);
-        audio_stop_sound(boss_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(heaven_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(final_msc);
-        audio_play_sound(skull_msc, 1, true);
-        audio_sound_gain(skull_msc, 0, 0);
-        audio_sound_gain(skull_msc, global.musicVolume / 1.9, 10000);
-    }
-}
-if (room == skullcoinBayBoss || room == skullcoinBay6)
-{
-    if (!audio_is_playing(final_msc))
-    {
-        audio_stop_sound(dark_msc);
-        audio_stop_sound(unknownForest_msc);
-        audio_stop_sound(undergroundCity_msc);
-        audio_stop_sound(lava_msc);
-        audio_stop_sound(boss_msc);
-        audio_stop_sound(snow_msc);
-        audio_stop_sound(tutorial_msc);
-        audio_stop_sound(beach_msc);
-        audio_stop_sound(skull_msc);
-        audio_play_sound(final_msc, 1, true);
-        audio_sound_gain(final_msc, 0, 0);
-        audio_sound_gain(final_msc, global.musicVolume / 1.9, 10000);
-    }
-}
+
+
 </string>
           </argument>
         </arguments>
@@ -2348,171 +2237,11 @@ else
 {
     draw_set_alpha(1);
 }
-if (room == unknownForest3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Fading Mansion");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
 if (room == undergroundCity1 &amp;&amp; global.spawned == true)
 {
     draw_set_font(message_fnt);
     draw_set_colour(c_white);
     draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Underground City");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Castle of Regret");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == demonsKeep3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Demons Keep");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == sentinelGraves1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Sentinel Graves");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == sentinelGraves2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Sentinel Graves");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == deepPrison &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Deep Prison");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == overcastPeak2 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Overcast Peak");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == skullcoinBay1 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 90, global.guiPosY + 70, "Now Entering: Skullcoin Bay");
-    textTimer = textTimer - 0.5;
-    if (textTimer &lt;= 0)
-    {
-        global.spawned = false;
-        textTimer = 100;
-    }
-}
-else
-{
-    draw_set_alpha(1);
-}
-if (room == undergroundStation1 &amp;&amp; global.spawned == true || room == undergroundStation2 &amp;&amp; global.spawned == true || room == undergroundStation3 &amp;&amp; global.spawned == true)
-{
-    draw_set_font(message_fnt);
-    draw_set_colour(c_white);
-    draw_text(global.guiPosX + 70, global.guiPosY + 70, "Now Entering: Underground Station");
     textTimer = textTimer - 0.5;
     if (textTimer &lt;= 0)
     {

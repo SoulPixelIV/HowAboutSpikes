@@ -2097,7 +2097,6 @@
     <instance objName="checkpoint_obj" x="2656" y="1568" name="inst_B1704B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ladderIron_obj" x="1536" y="1280" name="inst_A5D55190" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn1_obj" x="2626" y="1534" name="inst_D693C607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC1_UC2_obj" x="2749" y="1563" name="inst_455055D2" locked="0" code="" scaleX="1.08247423171997" scaleY="3.44210529327393" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="96" y="992" name="inst_E7D33A6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="64" y="992" name="inst_E5897A39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="64" y="1024" name="inst_4200BF7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2161,7 +2160,6 @@
     <instance objName="darkSpirit_obj" x="2560" y="1280" name="inst_4148F389" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="darkSpirit_obj" x="1536" y="1312" name="inst_250DA876" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="spawn2_obj" x="473" y="1631" name="inst_4441CCAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="colliderUC2_UC1_SC_obj" x="493" y="1746" name="inst_05027A4A" locked="0" code="" scaleX="4.67368412017822" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="448" y="576" name="inst_5B261653" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="leverRed_obj" x="448" y="544" name="inst_E94616E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="easyModeBlock_obj" x="736" y="608" name="inst_06049E59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2590,6 +2588,10 @@
     <instance objName="glassBlock_obj" x="2624" y="1664" name="inst_97183AAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="glassBlock_obj" x="2624" y="1632" name="inst_826D4AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="mpSpawn_obj" x="160" y="0" name="inst_B4CE2671" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="demoBlock1_obj" x="2592" y="1440" name="inst_4BD59B8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="demoBlock1_obj" x="2592" y="1504" name="inst_EF774D3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="demoBlock2_obj" x="2592" y="1472" name="inst_89F3E487" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="demoBlock2_obj" x="2592" y="1536" name="inst_B8819919" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
