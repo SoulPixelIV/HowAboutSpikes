@@ -2034,7 +2034,8 @@ if (place_meeting(x, y, glassBlockBroken_obj))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Debug
+            <string>/*
+///Debug
 //###Easy Mode###
 if (keyboard_check_pressed(ord('0')))
 {
@@ -2071,20 +2072,20 @@ if (keyboard_check_pressed(ord('5')) &amp;&amp; room != unknownForestBoss)
     global.playerSpawnLocation = 0;
     room_goto(unknownForestBoss);
 }
-if (keyboard_check_pressed(ord('6')) &amp;&amp; room != gardenValley)
+if (keyboard_check_pressed(ord('6')) &amp;&amp; room != demonsKeep1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(gardenValley);
+    room_goto(demonsKeep1);
 }
-if (keyboard_check_pressed(ord('7')) &amp;&amp; room != skullcoinBayBoss)
+if (keyboard_check_pressed(ord('7')) &amp;&amp; room != sentinelGraves1)
 {
     global.playerSpawnLocation = 0;
-    room_goto(skullcoinBayBoss);
+    room_goto(sentinelGraves1);
 }
-if (keyboard_check_pressed(ord('8')) &amp;&amp; room != overcastPeak4)
+if (keyboard_check_pressed(ord('8')) &amp;&amp; room != deepPrison)
 {
     global.playerSpawnLocation = 0;
-    room_goto(overcastPeak4);
+    room_goto(deepPrison);
 }
 
 if (keyboard_check_pressed(ord('9')) &amp;&amp; room != skullcoinBay3)
@@ -2092,6 +2093,7 @@ if (keyboard_check_pressed(ord('9')) &amp;&amp; room != skullcoinBay3)
     global.playerSpawnLocation = 0;
     room_goto(skullcoinBay3);
 }
+*/
 </string>
           </argument>
         </arguments>
